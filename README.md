@@ -60,6 +60,10 @@ npm run preview
 | 2 | [TECHNICAL_DESIGN.md](TECHNICAL_DESIGN.md) | 模块、绘画和动画、状态机、数据、持久化、性能 |
 | 3 | [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) | 十步开发顺序、各步验收、进度清单、测试矩阵及交接提示词 |
 
+## 分支开发与提交技能
+
+仓库提供 [branch-commit 技能](.agents/skills/branch-commit/SKILL.md)。后续可以说“使用 $branch-commit 完成这次修改并本地提交”：创建任务分支、保留已有改动、验证、检查暂存范围并按独立目的提交；推送、合并和部署按具体授权执行。
+
 ## 已确定的方向与建议决策
 
 | 类型 | 内容 |

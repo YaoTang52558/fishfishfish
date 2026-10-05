@@ -1,0 +1,4 @@
+interface:
+  display_name: "分支开发与提交"
+  short_description: "在任务分支完成开发、必要验证与本地提交，保留已有改动并报告结果。"
+  default_prompt: "使用 $branch-commit 在任务分支完成这次修改，验证并提交到本地 Git。"
