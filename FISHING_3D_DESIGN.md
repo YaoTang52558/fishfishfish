@@ -1,6 +1,6 @@
 # 3D 钓鱼实现设计
 
-版本 1.0 · 2026-10-05 · 用户已确认画面方向；本轮完成设计，尚未实现 3D 引擎、模型或新规则。所有数值是待原型校准的初始目标。
+版本 1.1 · 2026-10-05 · 用户已确认画面方向；G1 引擎、原型场景与镜头已实现，G2 新规则待实施。目标数值仍需对应阶段校准，G1 实测见 [实施计划第 2.13 节](IMPLEMENTATION_PLAN.md)。
 
 ## 1. 交付目标与范围
 
@@ -120,7 +120,7 @@ G2 的起始配置可取：等效质量 1kg、弹性系数 6N/m、轴向阻尼 1
 
 ## 5. 工程接入
 
-选择 **现有 Vue 3 + TypeScript + Vite，加 Three.js WebGLRenderer**。一个 Canvas 承载 3D，HTML 承载全部操作和知识卡；不重建应用或替换 IndexedDB。Three.js 官方支持 npm／Vite 组合；当前 WebGLRenderer 要求 WebGL 2。[安装](https://threejs.org/manual/pages/installation.html)、[渲染器](https://threejs.org/docs/pages/WebGLRenderer.html)。本轮不安装依赖；G1 选择并锁定实际运行版本与匹配的类型定义，记录版本和验证环境。
+选择 **现有 Vue 3 + TypeScript + Vite，加 Three.js WebGLRenderer**。一个 Canvas 承载 3D，HTML 承载全部操作和知识卡；不重建应用或替换 IndexedDB。Three.js 官方支持 npm／Vite 组合；当前 WebGLRenderer 要求 WebGL 2。[安装](https://threejs.org/manual/pages/installation.html)、[渲染器](https://threejs.org/docs/pages/WebGLRenderer.html)。G1 已精确锁定 **three 0.186.1 / @types/three 0.186.0**，类型检查和实际浏览器验证通过。
 
 ```text
 src/domain/fishing3d/       state.ts / simulate.ts / actions.ts / config.ts
@@ -132,7 +132,7 @@ public/assets/fishing3d/  已审核的模型、纹理、声音与资源清单
 tests/                    规则、资产契约、捕获集成测试
 ```
 
-这些是规划目录，不代表已创建代码。模块依赖如下：
+以上为完整规划目录。G1 已实现 `runtime.ts`、`clock.ts`、`cameras.ts`、`world.ts`、`fish.ts`、`resources.ts`、`FishingScene3D.vue` 与开发页；规则、输入、捕获服务和正式 GLB 目录在对应阶段建立。模块依赖如下：
 
 ```mermaid
 flowchart LR
@@ -226,6 +226,6 @@ G1 的圆润原型网格用于技术验证，G4 用正式素材替换；第一�
 
 ## 10. 本轮结论与下一步
 
-已决定：钓鱼采用 3D 海面／水下双镜头、位置驱动的拉锯、一场先验证、五阶段实施；造鱼能力与存档保持既有契约。尚未决定的只有实测参数、具体 Three.js 版本和正式模型细节，分别在 G1、G2、G4 中落实，不能拖到完成后补验证。
+已决定：钓鱼采用 3D 海面／水下双镜头、位置驱动的拉锯、一场先验证、五阶段实施；造鱼能力与存档保持既有契约。G1 已落实依赖版本、真实网格、共享世界镜头与桌面基线；搏鱼参数和正式模型细节分别在 G2、G4 校准。
 
-下一次开发可直接按 **G1：场景与镜头** 执行。交付应是能在浏览器转镜头的真实 3D 场景，附资源回收与实机基线，随后推进 G2 可玩拉锯。
+下一次开发可直接按 **G2：核心拉锯** 执行，在已有场景加入三动作样本、左右控竿、收放线和位置／拉力／疲劳规则；成功来自进入临岸区域，不能再用独立进度条累计替代。G1 当前为圆润原型美术，iPad 真机、冷加载限速与正式素材仍待验证。

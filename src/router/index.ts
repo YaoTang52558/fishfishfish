@@ -15,7 +15,10 @@ export const router = createRouter({
     { path: '/journal', name: 'journal', component: () => import('../pages/JournalPage.vue'), meta: { title: '图鉴' } },
     { path: '/settings', name: 'settings', component: () => import('../pages/SettingsPage.vue'), meta: { title: '设置' } },
     // 组合总览只在开发模式注册，正式构建不包含该页面。
-    ...(import.meta.env.DEV ? [{ path: '/dev/parts', name: 'dev-parts', component: () => import('../pages/DevPartsPage.vue'), meta: { title: '部件组合总览' } }] : []),
+    ...(import.meta.env.DEV ? [
+      { path: '/dev/parts', name: 'dev-parts', component: () => import('../pages/DevPartsPage.vue'), meta: { title: '部件组合总览' } },
+      { path: '/dev/fishing-3d', name: 'dev-fishing-3d', component: () => import('../pages/DevFishing3DPage.vue'), meta: { title: '珊瑚外缘 · 3D 预览' } },
+    ] : []),
     { path: '/:pathMatch(.*)*', name: 'not-found', component: () => import('../pages/NotFoundPage.vue'), meta: { title: '页面未找到' } },
   ],
   scrollBehavior: () => ({ top: 0 }),
