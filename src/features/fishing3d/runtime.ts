@@ -4,6 +4,9 @@ import type { FishingView } from '../../rendering/fishing3d/cameras.ts';
 import { SceneResources } from '../../rendering/fishing3d/resources.ts';
 import { createFishingWorld } from '../../rendering/fishing3d/world.ts';
 import { SceneClock } from './clock.ts';
+import { createFight, landFish, stepFight } from '../../domain/fishing3d/simulate.ts';
+import { emptyFightInput } from '../../domain/fishing3d/state.ts';
+import type { FightInput, FightSample, FightState3D } from '../../domain/fishing3d/state.ts';
 
 const health = { scenes: 0, loops: 0, created: 0, disposed: 0 };
 export type SceneStatus = 'loading' | 'running' | 'paused' | 'context-lost' | 'error';
@@ -18,6 +21,8 @@ interface Options {
   onStatus: (status: SceneStatus) => void;
   onDiagnostics: (diagnostics: SceneDiagnostics) => void;
   onError: (message: string) => void;
+  onFight?: (state: FightState3D | null) => void;
+  onClearInput?: () => void;
 }
 
 export function createFishingRuntime(host: HTMLElement, options: Options) {
@@ -31,6 +36,8 @@ export function createFishingRuntime(host: HTMLElement, options: Options) {
   catch (error) { resources.dispose(); renderer.dispose(); renderer.forceContextLoss(); throw error; }
   const cameras = new FishingCameras();
   const clock = new SceneClock();
+  let fight: FightState3D | undefined;
+  let input = emptyFightInput();
   const controller = new AbortController();
   let dead = false, warmed = false, lost = false, paused = false, blurred = false;
   let reducedMotion = options.reducedMotion;
@@ -47,13 +54,14 @@ export function createFishingRuntime(host: HTMLElement, options: Options) {
   host.append(canvas);
   health.scenes++; health.created++;
 
-  function runnable() { return !dead && warmed && !lost && !paused && !blurred && !document.hidden && !reducedMotion; }
+  function runnable() { return !dead && warmed && !lost && !paused && !blurred && !document.hidden && (!reducedMotion || fight?.phase === 'fighting'); }
   function stop() {
     if (raf !== undefined) { cancelAnimationFrame(raf); raf = undefined; health.loops--; }
     clock.suspend(); previousFrame = undefined;
+    input = emptyFightInput(); options.onClearInput?.();
   }
-  function render() {
-    world.update(clock.time, reducedMotion);
+  function render(updateWorld = true) {
+    if (updateWorld) world.update(clock.time, reducedMotion, fight);
     renderer.render(world.scene, cameras.camera);
   }
   function report() {
@@ -69,6 +77,7 @@ export function createFishingRuntime(host: HTMLElement, options: Options) {
       fish: world.fishPosition.toArray().map((value) => value.toFixed(3)).join(', '),
       ...health,
     });
+    options.onFight?.(fight ?? null);
   }
   function frame(timestamp: number) {
     // Keep a single scheduled callback. stop() cancels it and resets the wall-clock baseline.
@@ -78,22 +87,28 @@ export function createFishingRuntime(host: HTMLElement, options: Options) {
       while (frames[0] && timestamp - frames[0].timestamp > 60_000) frames.shift();
     }
     previousFrame = timestamp;
-    const dt = clock.tick(timestamp);
+    const dt = clock.tick(timestamp, () => {
+      if (!fight || fight.phase !== 'fighting') return;
+      const previous = fight;
+      fight = stepFight(fight, input);
+      if (previous.phase !== fight.phase || previous.action !== fight.action) options.onFight?.(fight);
+    });
+    world.update(clock.time, reducedMotion, fight);
     cameras.update(dt, reducedMotion, world.fishPosition);
-    render();
+    render(false);
     if (timestamp - lastReport >= 250) { lastReport = timestamp; report(); }
     raf = requestAnimationFrame(frame);
   }
   function sync() {
     if (dead || lost || !warmed) return;
-    if (reducedMotion && !paused && !blurred && !document.hidden) {
+    if (reducedMotion && fight?.phase !== 'fighting' && !paused && !blurred && !document.hidden) {
       stop(); cameras.update(0, true, world.fishPosition); render(); report(); options.onStatus('running'); return;
     }
     if (runnable()) {
       if (raf === undefined) { health.loops++; raf = requestAnimationFrame(frame); }
       options.onStatus('running');
     } else {
-      stop(); options.onStatus('paused'); render(); report();
+      stop(); cameras.update(0, true, world.fishPosition); options.onStatus('paused'); render(); report();
     }
   }
   function resize() {
@@ -143,6 +158,18 @@ export function createFishingRuntime(host: HTMLElement, options: Options) {
     motion(value: boolean) { reducedMotion = value; clock.suspend(); sync(); },
     quality(value: 'standard' | 'low') { quality = value; frames.length = 0; resize(); },
     resetMeasurement() { frames.length = 0; previousFrame = undefined; report(); },
+    setInput(value: FightInput) { if (runnable() && fight?.phase === 'fighting') input = { reel: value.reel, rodAxis: value.rodAxis }; },
+    startFight(sample: FightSample, seed?: number) {
+      if (dead || lost || !warmed) return;
+      input = emptyFightInput(); options.onClearInput?.(); fight = createFight(sample, seed); clock.suspend();
+      world.update(clock.time, reducedMotion, fight);
+      cameras.select('underwater', reducedMotion, world.fishPosition); world.setView('underwater');
+      options.onFight?.(fight); sync();
+    },
+    snapshotFight() { return fight ? structuredClone(fight) : undefined; },
+    restoreFight(value: FightState3D) { fight = structuredClone(value); input = emptyFightInput(); options.onClearInput?.(); world.update(clock.time, reducedMotion, fight); },
+    land() { if (fight && !dead && !lost && !paused && !blurred && !document.hidden) { fight = landFish(fight); input = emptyFightInput(); options.onClearInput?.(); render(); report(); sync(); } },
+    cancelFight() { fight = undefined; input = emptyFightInput(); options.onClearInput?.(); options.onFight?.(null); sync(); },
     simulateContextLoss() { if (!dead) renderer.forceContextLoss(); },
     restoreContext() { if (!dead) renderer.forceContextRestore(); },
     dispose() {

@@ -3,16 +3,20 @@ import { onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import type { FishingView } from '../rendering/fishing3d/cameras';
 import { createFishingRuntime } from '../features/fishing3d/runtime';
 import type { SceneDiagnostics, SceneStatus } from '../features/fishing3d/runtime';
+import type { FightInput, FightSample, FightState3D } from '../domain/fishing3d/state';
 
 const props = defineProps<{ view: FishingView; paused: boolean; reducedMotion: boolean; quality: 'standard' | 'low' }>();
-const emit = defineEmits<{ diagnostics: [value: SceneDiagnostics]; status: [value: SceneStatus] }>();
+const emit = defineEmits<{ diagnostics: [value: SceneDiagnostics]; status: [value: SceneStatus]; fight: [value: FightState3D | null]; clearInput: [] }>();
 const host = ref<HTMLElement>();
 const status = ref<SceneStatus>('loading');
 const failure = ref('');
 let runtime: ReturnType<typeof createFishingRuntime> | undefined;
+let savedRound: FightState3D | undefined;
 let generation = 0;
 
 async function start() {
+  const savedFight = runtime?.snapshotFight() ?? savedRound;
+  savedRound = savedFight;
   const current = ++generation;
   runtime?.dispose(); runtime = undefined; failure.value = '';
   status.value = 'loading'; emit('status', 'loading');
@@ -23,10 +27,13 @@ async function start() {
       onStatus: (value) => { if (current === generation) { status.value = value; emit('status', value); } },
       onDiagnostics: (value) => { if (current === generation) emit('diagnostics', value); },
       onError: (value) => { if (current === generation) failure.value = value; },
+      onFight: (value) => { if (current === generation) emit('fight', value); },
+      onClearInput: () => { if (current === generation) emit('clearInput'); },
     });
     runtime = next;
+    if (savedFight) next.restoreFight(savedFight);
     next.select(props.view); next.pause(props.paused); next.quality(props.quality);
-    await next.ready;
+    if (await next.ready && current === generation) savedRound = undefined;
   } catch {
     if (current !== generation) return;
     runtime?.dispose(); runtime = undefined;
@@ -40,7 +47,9 @@ watch(() => props.view, (value) => runtime?.select(value));
 watch(() => props.paused, (value) => runtime?.pause(value));
 watch(() => props.reducedMotion, (value) => runtime?.motion(value));
 watch(() => props.quality, (value) => runtime?.quality(value));
-defineExpose({ rebuild: () => start(), loseContext: () => runtime?.simulateContextLoss(), restoreContext: () => runtime?.restoreContext(), measure: () => runtime?.resetMeasurement() });
+defineExpose({ rebuild: () => start(), loseContext: () => runtime?.simulateContextLoss(), restoreContext: () => runtime?.restoreContext(), measure: () => runtime?.resetMeasurement(),
+  startFight: (sample: FightSample, seed?: number) => runtime?.startFight(sample, seed), input: (value: FightInput) => runtime?.setInput(value), land: () => runtime?.land(), cancelFight: () => runtime?.cancelFight(),
+});
 </script>
 
 <template>

@@ -4,6 +4,11 @@ import FishingScene3D from '../components/FishingScene3D.vue';
 import type { FishingView } from '../rendering/fishing3d/cameras';
 import type { SceneDiagnostics, SceneStatus } from '../features/fishing3d/runtime';
 import { usePreferences } from '../features/preferences';
+import FishingControls from '../components/FishingControls.vue';
+import { FIGHT_SAMPLES } from '../domain/fishing3d/config';
+import { distanceToShore } from '../domain/fishing3d/state';
+import { fightHint } from '../domain/fishing3d/simulate';
+import type { FightSample, FightState3D } from '../domain/fishing3d/state';
 
 const view = ref<FishingView>('surface');
 const paused = ref(false);
@@ -11,6 +16,16 @@ const quality = ref<'standard' | 'low'>('standard');
 const status = ref<SceneStatus>('loading');
 const diagnostics = shallowRef<SceneDiagnostics>();
 const scene = ref<InstanceType<typeof FishingScene3D>>();
+const controls = ref<InstanceType<typeof FishingControls>>();
+const fight = shallowRef<FightState3D | null>(null);
+const sample = ref<FightSample>('sprinter');
+const hint = computed(() => fight.value ? fightHint(fight.value) : '先看看钓场，再选一种动作开始练习。');
+const actionName = computed(() => {
+  if (!fight.value) return '';
+  const names = { sprint: '冲刺', lateral: '横游', dive: '下潜', rest: '喘息' };
+  return fight.value.action === 'telegraph' ? `准备${names[fight.value.nextAction]}` : names[fight.value.action];
+});
+function startPractice() { paused.value = false; view.value = 'underwater'; scene.value?.startFight(sample.value); }
 const { reducedMotion } = usePreferences();
 const statusText = computed(() => ({ loading: '正在准备', running: reducedMotion.value ? '减少动态已开启' : '海水与鱼正在游动', paused: '场景已暂停', 'context-lost': '等待重新加载', error: '暂时无法显示' })[status.value]);
 </script>
@@ -18,13 +33,29 @@ const statusText = computed(() => ({ loading: '正在准备', running: reducedMo
 <template>
   <section class="fishing-preview">
     <header class="preview-heading">
-      <div><p class="eyebrow">3D 钓鱼 · 场景预览</p><h1>珊瑚外缘</h1><p class="intro">坐在海岸上，看看浮漂，再潜入水下和小丑鱼相遇。</p></div>
-      <span class="stage-badge">G1 · 场景与镜头</span>
+      <div><p class="eyebrow">3D 钓鱼 · 搏鱼练习</p><h1>珊瑚外缘</h1><p class="intro">留意鱼的动作：喘息时收线，冲刺和下潜时先松线。</p></div>
+      <span class="stage-badge">G2 · 核心拉锯</span>
     </header>
     <div class="scene-frame">
-      <FishingScene3D ref="scene" :view="view" :paused="paused" :reduced-motion="reducedMotion" :quality="quality" @status="status = $event" @diagnostics="diagnostics = $event" />
+      <FishingScene3D ref="scene" :view="view" :paused="paused" :reduced-motion="reducedMotion" :quality="quality" @status="status = $event" @diagnostics="diagnostics = $event" @fight="fight = $event" @clear-input="controls?.clear()" />
       <div class="scene-top"><span class="location">◈ 珊瑚外缘</span><span class="view-label">{{ view === 'surface' ? '海面观察' : '水下近景' }}</span></div>
       <div class="scene-caption"><span class="live-dot" :class="{ still: status !== 'running' || reducedMotion }"></span>{{ statusText }}</div>
+      <div v-if="fight" class="fight-hud">
+        <div class="hud-numbers"><span>{{ actionName }}</span><strong>离岸 {{ distanceToShore(fight).toFixed(1) }} m</strong></div>
+        <div class="gauge-row"><span>鱼线</span><div class="tension-gauge" role="meter" aria-label="鱼线张力" :aria-valuenow="Math.min(100, Math.round(fight.tension * 100))" aria-valuemin="0" aria-valuemax="100" :aria-valuetext="fight.tension > 1 ? '过紧，松线' : fight.tension > 0.75 ? '偏紧' : '平稳'"><i :class="{ danger: fight.tension > 0.75 }" :style="{ width: Math.min(fight.tension * 100, 100) + '%' }"></i></div><span>{{ fight.tension > 1 ? '过紧' : fight.tension > 0.75 ? '偏紧' : '平稳' }}</span></div>
+        <div class="gauge-row"><span>体力</span><div class="stamina-gauge" role="meter" aria-label="鱼的剩余体力" :aria-valuenow="Math.round((1 - fight.fatigue) * 100)" aria-valuemin="0" aria-valuemax="100"><i :style="{ width: (1 - fight.fatigue) * 100 + '%' }"></i></div><span>{{ Math.round((1 - fight.fatigue) * 100) }}%</span></div>
+      </div>
+      <div v-if="fight?.phase === 'fighting'" class="scene-control-dock"><FishingControls ref="controls" :disabled="status !== 'running' || paused" @input="scene?.input($event)" /></div>
+    </div>
+    <p class="action-hint" role="status">{{ hint }}</p>
+    <p v-if="fight?.phase === 'fighting'" class="preview-note">松开就放线 · ← → 控竿，空格收线 · 聚焦按钮后，回车切换按住／松开。</p>
+    <div class="practice-actions">
+      <template v-if="!fight || fight.phase === 'caught' || fight.phase === 'escaped'">
+        <label>动作样本 <select v-model="sample"><option v-for="option in FIGHT_SAMPLES" :key="option.id" :value="option.id">{{ option.name }}</option></select></label>
+        <button class="start-practice" :disabled="status !== 'running' && status !== 'paused'" @click="startPractice">{{ fight ? '再练一次' : '开始搏鱼练习' }}</button>
+      </template>
+      <button v-if="fight?.phase === 'landing'" class="start-practice" :disabled="status !== 'running' || paused" @click="scene?.land()">轻轻抄起</button>
+      <button v-if="fight" @click="scene?.cancelFight(); view = 'surface'">退出练习</button>
     </div>
     <div class="control-panel">
       <div class="view-controls" role="group" aria-label="选择观察视角">
@@ -33,7 +64,7 @@ const statusText = computed(() => ({ loading: '正在准备', running: reducedMo
       </div>
       <button class="pause-button" :aria-pressed="paused" @click="paused = !paused">{{ paused ? '继续游动' : '暂停游动' }}</button>
     </div>
-    <p class="preview-note">这一阶段可以切换视角、观察鱼和鱼线。下一阶段加入抛竿、控竿与收放线。</p>
+    <p class="preview-note">这是搏鱼练习，不计入图鉴。三种动作样本用于体验操作差异；当前画面使用原型模型。</p>
     <details class="diagnostics">
       <summary>开发检查</summary>
       <div class="diagnostic-controls">
@@ -46,6 +77,9 @@ const statusText = computed(() => ({ loading: '正在准备', running: reducedMo
 活动场景 {{ diagnostics.scenes }} · 循环 {{ diagnostics.loops }} · 累计创建 {{ diagnostics.created }} · 已释放 {{ diagnostics.disposed }}
 场景时间 {{ diagnostics.time.toFixed(2) }} · 鱼位置 {{ diagnostics.fish }}
 GPU：{{ diagnostics.gpu }}</pre>
+      <pre v-if="fight" class="metric-text" aria-label="搏鱼规则数据">阶段 {{ fight.phase }} · 规则时间 {{ (fight.elapsedTicks / 60).toFixed(2) }} · 线长 {{ fight.lineLength.toFixed(3) }} · 张力 {{ fight.tension.toFixed(3) }} · 疲劳 {{ fight.fatigue.toFixed(3) }}
+竿方向 {{ fight.rodAxis.toFixed(3) }} · 竿尖 {{ JSON.stringify(fight.rodTip) }}
+鱼中心 {{ JSON.stringify(fight.fishPosition) }} · 断线计时 {{ fight.breakTicks }}</pre>
       <p>圆润网格为 G1 原型美术。该页面仅在开发模式提供，不产生捕获记录。</p>
     </details>
   </section>
@@ -53,6 +87,13 @@ GPU：{{ diagnostics.gpu }}</pre>
 
 <style scoped>
 .fishing-preview { max-width: 1144px; margin: 0 auto; }
+.scene-control-dock { position: absolute; left: 16px; right: 16px; bottom: 12px; z-index: 2; }.scene-control-dock :deep(.fight-controls) { margin-top: 0; }.scene-control-dock :deep(.input-note) { display: none; }.scene-frame:has(.scene-control-dock) .scene-caption { bottom: 90px; }
+@media(max-width:600px) { .scene-control-dock { left: 10px; right: 10px; bottom: 10px; }.scene-frame:has(.scene-control-dock) .scene-caption { display: none; } }
+.fight-hud { position: absolute; top: 76px; left: 50%; transform: translateX(-50%); width: min(380px, calc(100% - 32px)); padding: 12px 16px; border-radius: 18px; background: #134f59d9; color: #fff5db; border: 1px solid #d3f0e260; pointer-events: none; }
+.hud-numbers { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 10px; }.gauge-row { display: grid; grid-template-columns: 28px 1fr 34px; align-items: center; gap: 8px; font-size: 11px; margin-top: 7px; }
+.tension-gauge,.stamina-gauge { height: 8px; background: #ffffff26; border-radius: 20px; overflow: hidden; }.gauge-row i { display: block; height: 100%; background: #b7e6bf; border-radius: inherit; }.tension-gauge i { background: #ffd977; }.tension-gauge i.danger { background: #fb9971; }
+.action-hint { margin: 14px 0 8px; padding: 12px 16px; border-radius: 14px; background: #e7eddf; font-size: 14px; font-weight: 600; line-height: 1.7; }
+.practice-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 14px 0 4px; }.practice-actions label { font-size: 13px; display: flex; align-items: center; gap: 8px; }.practice-actions .start-practice { background: #185f57; color: #fff8df; font-weight: 700; }
 .preview-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
 .eyebrow { margin: 0 0 6px; color: #43877d; font-size: 12px; letter-spacing: 2px; font-weight: 700; }
 h1 { margin-bottom: 8px; }

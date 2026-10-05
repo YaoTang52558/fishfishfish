@@ -7,6 +7,8 @@ import {
 import { createPrototypeFish } from './fish.ts';
 import { SceneResources } from './resources.ts';
 import type { FishingView } from './cameras.ts';
+import type { FightState3D } from '../../domain/fishing3d/state.ts';
+import { toWorld } from './coordinates.ts';
 
 export function createFishingWorld(resources: SceneResources) {
   const scene = new Scene();
@@ -30,6 +32,7 @@ export function createFishingWorld(resources: SceneResources) {
   };
   // Small repeated details are batched into one draw call per geometry/material.
   const batches = new Map<string, { geometry: BufferGeometry; color: string; matrices: Matrix4[] }>();
+  const shoreInstances: InstancedMesh[] = [];
   const dummy = new Object3D();
   function instance(geometry: BufferGeometry, color: string, p: number[], s: number[], rotation = 0) {
     const key = `${geometry.uuid}:${color}`;
@@ -114,6 +117,10 @@ export function createFishingWorld(resources: SceneResources) {
   const rodPoints = [new Vector3(-2.7, 1.65, 5.6), new Vector3(-2.1, 2.8, 4.8), new Vector3(-1.4, 3.5, 3.8), new Vector3(-0.7, 3.6, 2.8)];
   const rodCurve = new CatmullRomCurve3(rodPoints);
   const rod = new Mesh(resources.geometry(new TubeGeometry(rodCurve, 24, 0.027, 6, false)), material('#a36632')); scene.add(rod);
+  // Rebuild only the rod's vertex positions, keeping one GPU geometry throughout the fight.
+  const originalRodPoints = rodPoints.map((point) => point.clone());
+  const initialRodPositions = (rod.geometry.getAttribute('position').array as Float32Array).slice();
+  const rodPosition = rod.geometry.getAttribute('position');
   const rodTip = rodPoints[3]!.clone();
   mesh(scene, sphere, '#e3c684', [-2.62, 1.79, 5.49], [0.085, 0.09, 0.085]);
   const bobber = new Group(); scene.add(bobber);
@@ -152,27 +159,52 @@ export function createFishingWorld(resources: SceneResources) {
     const instances = resources.own(new InstancedMesh(batch.geometry, material(batch.color), batch.matrices.length));
     batch.matrices.forEach((matrix, i) => instances.setMatrixAt(i, matrix));
     scene.add(instances);
+    if (['#ddc9a5', '#edd8b1', '#b5b79b', '#548d55'].includes(batch.color)) shoreInstances.push(instances);
   }
   const mouth = new Vector3();
-  function update(time: number, reducedMotion: boolean) {
+  let usingFight = false;
+  function update(time: number, reducedMotion: boolean, fight?: FightState3D) {
     const t = time;
-    fish.group.position.set(Math.sin(t * 0.35) * 0.6, -1.35 + Math.sin(t * 0.7) * 0.09, 1.4 + Math.cos(t * 0.3) * 0.18);
-    fish.group.rotation.y = Math.sin(t * 0.35) * 0.14;
-    fish.animate(t, reducedMotion);
+    if (fight) {
+      toWorld(fight.fishPosition, fish.group.position);
+      const h = fight.fishHeading;
+      fish.group.rotation.set(0, Math.atan2(h.z, h.x), Math.atan2(h.y, Math.hypot(h.x, h.z)), 'YXZ');
+      toWorld(fight.rodTip, rodTip);
+      const offset = rodTip.clone().sub(originalRodPoints[3]!);
+      for (let i = 0; i < rodPosition.count; i++) {
+        const along = Math.floor(i / 7) / 24;
+        const flex = along * along;
+        rodPosition.setXYZ(i, initialRodPositions[i * 3]! + offset.x * flex, initialRodPositions[i * 3 + 1]! + offset.y * flex, initialRodPositions[i * 3 + 2]! + offset.z * flex);
+      }
+      rodPosition.needsUpdate = true; rod.geometry.computeVertexNormals(); rod.geometry.computeBoundingSphere();
+      usingFight = true;
+    } else {
+      if (usingFight) { (rodPosition.array as Float32Array).set(initialRodPositions); rodPosition.needsUpdate = true; rod.geometry.computeVertexNormals(); rod.geometry.computeBoundingSphere(); usingFight = false; }
+      rodTip.copy(originalRodPoints[3]!);
+      fish.group.position.set(Math.sin(t * 0.35) * 0.6, -1.35 + Math.sin(t * 0.7) * 0.09, 1.4 + Math.cos(t * 0.3) * 0.18);
+      fish.group.rotation.set(0, Math.sin(t * 0.35) * 0.14, 0, 'YXZ');
+    }
+    const active = fight?.action === 'telegraph' || fight?.action === 'sprint';
+    const fishTime = fight ? fight.elapsedTicks / 60 : t;
+    fish.animate(fishTime * (active ? 1.6 : 0.65), reducedMotion);
     fish.mouthPosition(mouth);
+    bobber.visible = !fight; ripple.visible = !fight;
     bobber.position.set(2.1, Math.sin(t * 1.4) * 0.03, 1.1);
     ripple.position.set(bobber.position.x, 0.025, bobber.position.z);
     ripple.scale.setScalar(1 + Math.sin(t * 1.4) * 0.08);
     for (let i = 0; i < 24; i++) {
-      const above = i <= 16;
-      const blend = above ? i / 16 : (i - 16) / 7;
-      const start = above ? rodTip : bobber.position, end = above ? bobber.position : mouth;
+      const above = fight ? true : i <= 16;
+      const blend = fight ? i / 23 : above ? i / 16 : (i - 16) / 7;
+      const start = above ? rodTip : bobber.position, end = fight ? mouth : above ? bobber.position : mouth;
+      const slack = fight ? Math.max(0, fight.lineLength - rodTip.distanceTo(mouth)) * 0.35 : 0.16;
       linePositions[i * 3] = start.x + (end.x - start.x) * blend;
-      linePositions[i * 3 + 1] = start.y + (end.y - start.y) * blend - (above ? Math.sin(blend * Math.PI) * 0.16 : 0);
+      linePositions[i * 3 + 1] = start.y + (end.y - start.y) * blend - (above ? Math.sin(blend * Math.PI) * Math.min(slack, 1.4) : 0);
       linePositions[i * 3 + 2] = start.z + (end.z - start.z) * blend;
     }
     lineGeometry.getAttribute('position').needsUpdate = true;
-    water.uniforms.time!.value = t; bedMaterial.uniforms.time!.value = t;
+    line.visible = fight?.phase !== 'escaped';
+    const decorationTime = reducedMotion ? 0 : t;
+    water.uniforms.time!.value = decorationTime; bedMaterial.uniforms.time!.value = decorationTime;
   }
   update(0, false);
   return {
@@ -180,6 +212,9 @@ export function createFishingWorld(resources: SceneResources) {
     update,
     setView(view: FishingView) {
       const below = view === 'underwater';
+      // Hide only occluding above-water shore geometry for the underwater camera.
+      shore.visible = !below; avatar.visible = !below;
+      shoreInstances.forEach((object) => { object.visible = !below; });
       scene.background = new Color(below ? '#2c959d' : '#a8def0');
       scene.fog = new FogExp2(below ? '#2c959d' : '#a8def0', below ? 0.047 : 0.011);
       bedMaterial.uniforms.fogColor!.value = scene.fog.color;

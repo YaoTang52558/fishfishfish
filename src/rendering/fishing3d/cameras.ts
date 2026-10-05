@@ -36,6 +36,7 @@ export class FishingCameras {
     } else {
       // Offset is fixed: no automatic orbit that reverses the controls' screen direction.
       this.destination.copy(fishPosition).add(new Vector3(1.8, 0.65, 4.8));
+      this.destination.y = Math.min(-0.12, this.destination.y);
       this.target.copy(fishPosition).add(new Vector3(0.1, 0.1, 0));
     }
     this.transition = reducedMotion ? 1 : Math.min(1, this.transition + dt / 0.5);
