@@ -1,0 +1,33 @@
+import { createRouter, createWebHistory } from 'vue-router';
+import { habitats } from '../catalog/habitats';
+
+export const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    { path: '/', name: 'home', component: () => import('../pages/HomePage.vue'), meta: { title: '首页' } },
+    { path: '/create', name: 'create', component: () => import('../pages/CreatePage.vue'), meta: { title: '创造工坊' } },
+    { path: '/ocean', name: 'ocean', component: () => import('../pages/OceanPage.vue'), meta: { title: '我的海洋' } },
+    { path: '/fishing', redirect: '/fishing/reef-edge' },
+    {
+      path: '/fishing/:habitatId', name: 'fishing', component: () => import('../pages/FishingPage.vue'),
+      meta: { title: '去钓鱼' },
+    },
+    { path: '/journal', name: 'journal', component: () => import('../pages/JournalPage.vue'), meta: { title: '图鉴' } },
+    { path: '/settings', name: 'settings', component: () => import('../pages/SettingsPage.vue'), meta: { title: '设置' } },
+    // 组合总览只在开发模式注册，正式构建不包含该页面。
+    ...(import.meta.env.DEV ? [{ path: '/dev/parts', name: 'dev-parts', component: () => import('../pages/DevPartsPage.vue'), meta: { title: '部件组合总览' } }] : []),
+    { path: '/:pathMatch(.*)*', name: 'not-found', component: () => import('../pages/NotFoundPage.vue'), meta: { title: '页面未找到' } },
+  ],
+  scrollBehavior: () => ({ top: 0 }),
+});
+
+// 全局守卫同时覆盖首次进入和同一路由的钓场参数切换。
+router.beforeEach((to) => {
+  if (to.name === 'fishing' && !habitats.some((habitat) => habitat.id === to.params.habitatId)) {
+    return { name: 'not-found', params: { pathMatch: to.path.slice(1).split('/') } };
+  }
+});
+
+router.afterEach((to) => {
+  document.title = to.name === 'home' ? '我的海洋 · 每条鱼都有自己的样子' : `${String(to.meta.title)} · 我的海洋`;
+});
