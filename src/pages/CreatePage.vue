@@ -199,7 +199,7 @@ onBeforeUnmount(() => { session?.dispose(); window.removeEventListener('keydown'
 
 <template>
   <PageHeading eyebrow="想象工坊 / CREATE" title="创造一条，只属于你的鱼。" description="拼身体、头和尾巴，涂颜色、画图案、盖印章，再放进试游池看看它怎么游。" />
-  <PreviewNotice text="完成作品后可以取名、放进我的海洋；钓鱼玩法会在后面的版本开放。" />
+  <PreviewNotice text="完成作品后可以取名、放进我的海洋；也可以直接去钓鱼，发现真实鱼类。" />
   <p v-if="session?.notice.value" class="session-notice" role="status">{{ session.notice.value }}</p>
   <p v-if="session?.externalChange.value" class="session-notice">另一个页面修改了存档。刷新后可以看到最新内容；当前作品还在这里。</p>
   <div v-if="session?.pendingReplace.value" class="leave-warning" role="alert">

@@ -4,6 +4,7 @@ import { isAssetId, setPaintAsset } from '../domain/fish.ts';
 import type { EditorDraft, StoredAsset } from '../domain/types.ts';
 import { completion, request, StorageError, toStorageError } from './db.ts';
 import { notifyChange, serialWrite } from './queue.ts';
+import { advanceDraftRevision, readDraftRevision } from './draftRevision.ts';
 
 export const MAX_ASSET_BYTES = 2 * 1024 * 1024;
 export type PaintChange = { kind: 'keep' } | { kind: 'replace'; asset: StoredAsset } | { kind: 'clear' };
@@ -11,8 +12,8 @@ export interface PaintChanges { color: PaintChange; glow: PaintChange }
 export type LayerKey = keyof PaintChanges;
 export interface LoadedLayer { blob: Blob | null; error: 'missing' | 'invalid' | null }
 export type LoadedDraft =
-  | { status: 'empty' }
-  | { status: 'invalid'; errors: string[] }
+  | { status: 'empty'; revision: number }
+  | { status: 'invalid'; errors: string[]; revision: number }
   | { status: 'ok'; draft: EditorDraft; layers: Record<LayerKey, LoadedLayer> };
 
 const assetField = { color: 'colorAssetId', glow: 'glowAssetId' } as const;
@@ -30,9 +31,10 @@ export async function loadDraft(db: IDBDatabase): Promise<LoadedDraft> {
     const tx = db.transaction(['drafts', 'assets'], 'readonly');
     const done = completion(tx);
     const raw = await request(tx.objectStore('drafts').get('current'));
-    if (raw === undefined) { await done; return { status: 'empty' }; }
+    const revision = await readDraftRevision(tx, raw);
+    if (raw === undefined) { await done; return { status: 'empty', revision }; }
     const result = validateDraft(raw);
-    if (!result.ok) { await done; return { status: 'invalid', errors: result.errors }; }
+    if (!result.ok) { await done; return { status: 'invalid', errors: result.errors, revision }; }
     const layers = {} as Record<LayerKey, LoadedLayer>;
     for (const key of ['color', 'glow'] as const) {
       const id = result.value.design.paint[assetField[key]];
@@ -68,14 +70,14 @@ async function writeDraft(db: IDBDatabase, draft: EditorDraft, paint: PaintChang
   try {
     const drafts = tx.objectStore('drafts'), assets = tx.objectStore('assets');
     const current = await request(drafts.get('current')) as { revision?: unknown; design?: { paint?: StoredPaint } } | undefined;
-    const currentRevision = current && Number.isSafeInteger(current.revision) ? current.revision as number : 0;
+    const currentRevision = await readDraftRevision(tx, current);
     if (currentRevision !== draft.revision) throw new StorageError('conflict', '草稿已在另一个页面修改');
     const next = { color: draft.design.paint.colorAssetId, glow: draft.design.paint.glowAssetId };
     for (const key of ['color', 'glow'] as const) {
       const change = paint[key];
       if (change.kind === 'replace') { assets.put(change.asset); next[key] = change.asset.id; } else if (change.kind === 'clear') next[key] = null;
     }
-    const saved: EditorDraft = { ...draft, revision: draft.revision + 1, design: setPaintAsset(draft.design, next.color, next.glow), updatedAt: now.toISOString() };
+    const saved: EditorDraft = { ...draft, revision: advanceDraftRevision(tx, currentRevision), design: setPaintAsset(draft.design, next.color, next.glow), updatedAt: now.toISOString() };
     drafts.put(saved);
     const previous = [current?.design?.paint?.colorAssetId, current?.design?.paint?.glowAssetId].filter(isAssetId)
       .filter((id) => id !== next.color && id !== next.glow);
@@ -93,15 +95,18 @@ async function writeDraft(db: IDBDatabase, draft: EditorDraft, paint: PaintChang
 }
 
 /** 放弃无法读取的旧草稿：删除草稿及其未被作品引用的纹理。 */
-export function discardDraft(db: IDBDatabase): Promise<void> {
-  return serialWrite(() => removeDraft(db)).then(() => notifyChange('draft'));
+export function discardDraft(db: IDBDatabase, expectedRevision: number): Promise<number> {
+  return serialWrite(() => removeDraft(db, expectedRevision)).then((revision) => { notifyChange('draft'); return revision; });
 }
-async function removeDraft(db: IDBDatabase): Promise<void> {
+async function removeDraft(db: IDBDatabase, expectedRevision: number): Promise<number> {
   let tx: IDBTransaction;
   try { tx = db.transaction(['drafts', 'assets', 'fish'], 'readwrite'); } catch (error) { throw toStorageError(error); }
   const done = completion(tx);
   try {
     const current = await request(tx.objectStore('drafts').get('current')) as { design?: { paint?: StoredPaint } } | undefined;
+    const revision = await readDraftRevision(tx, current);
+    if (revision !== expectedRevision) throw new StorageError('conflict', '草稿已在另一个页面修改，不能丢弃它');
+    const next = advanceDraftRevision(tx, revision);
     tx.objectStore('drafts').delete('current');
     const ids = [current?.design?.paint?.colorAssetId, current?.design?.paint?.glowAssetId].filter(isAssetId);
     if (ids.length) {
@@ -109,6 +114,7 @@ async function removeDraft(db: IDBDatabase): Promise<void> {
       for (const id of ids) if (!referencedBy(fish, id)) tx.objectStore('assets').delete(id);
     }
     await done;
+    return next;
   } catch (error) {
     try { tx.abort(); } catch { /* 事务已结束 */ }
     await done.catch(() => undefined);

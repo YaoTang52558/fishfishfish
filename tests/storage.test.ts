@@ -16,7 +16,7 @@ const assetIds = async (db: IDBDatabase) => (await request(db.transaction('asset
 
 test('draft and paint texture round-trip; replaced textures are cleaned up atomically', async () => {
   const db = await openDatabase(new IDBFactory());
-  assert.deepEqual(await loadDraft(db), { status: 'empty' });
+  assert.deepEqual(await loadDraft(db), { status: 'empty', revision: 0 });
   const design = changeShape(createFishDesign(), 'length', 1.3);
   const first = await saveDraft(db, createDraft(design, 0), { color: { kind: 'replace', asset: png('paint-a') }, glow: KEEP });
   assert.equal(first.revision, 1);
@@ -87,8 +87,8 @@ test('unreadable drafts and missing textures are reported, not silently replaced
   broken.objectStore('drafts').put({ id: 'current', revision: 2, design: { schemaVersion: 99 } });
   await new Promise((resolve) => { broken.oncomplete = resolve; });
   assert.equal((await loadDraft(db)).status, 'invalid');
-  await discardDraft(db);
-  assert.deepEqual(await loadDraft(db), { status: 'empty' });
+  await discardDraft(db, 2);
+  assert.deepEqual(await loadDraft(db), { status: 'empty', revision: 3 });
   await assert.rejects(openDatabase(undefined), (error: unknown) => error instanceof StorageError && error.kind === 'unavailable');
   db.close();
 });

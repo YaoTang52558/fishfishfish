@@ -4,6 +4,7 @@ import { createSettings } from '../domain/draft.ts';
 import { completion, request, toStorageError } from './db.ts';
 import { notifyChange, serialWrite } from './queue.ts';
 import { loadProfile } from './repository.ts';
+import { advanceDraftRevision, readDraftRevision } from './draftRevision.ts';
 
 const allStores = ['fish', 'drafts', 'assets', 'discoveries', 'captures', 'effectsDiscovered', 'settings'];
 
@@ -45,10 +46,11 @@ export function replaceProfile(db: IDBDatabase, data: BackupData): Promise<void>
     try {
       // 导入的草稿修订号排在现有草稿之后，已打开的工坊会识别为冲突而不是覆盖它。
       const current = await request(tx.objectStore('drafts').get('current')) as { revision?: number } | undefined;
-      const floor = Number.isSafeInteger(current?.revision) ? current!.revision! : 0;
+      const floor = await readDraftRevision(tx, current);
       for (const name of allStores) tx.objectStore(name).clear();
+      const revision = advanceDraftRevision(tx, Math.max(data.draft?.revision ?? 0, floor));
       for (const fish of data.fish) tx.objectStore('fish').put(fish);
-      if (data.draft) tx.objectStore('drafts').put({ ...data.draft, revision: Math.max(data.draft.revision, floor) + 1 });
+      if (data.draft) tx.objectStore('drafts').put({ ...data.draft, revision });
       for (const [id, bytes] of data.assets) {
         const blob = new Blob([bytes as BlobPart], { type: 'image/png' });
         tx.objectStore('assets').put({ id, mime: 'image/png', blob, bytes: blob.size, width: paintResolution, height: paintResolution });

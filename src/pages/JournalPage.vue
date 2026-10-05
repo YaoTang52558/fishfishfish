@@ -42,7 +42,7 @@ async function load() {
   try {
     const [profile, list] = [await loadProfile(db), await loadDiscoveries(db)];
     discoveries.value = list; fish.value = profile.fish; effects.value = profile.effects;
-    const blobs = await loadAssets(db, profile.fish.map((item) => item.design.paint.colorAssetId));
+    const blobs = await loadAssets(db, profile.fish.flatMap((item) => [item.design.paint.colorAssetId, item.design.paint.glowAssetId]));
     for (const bitmap of textures.value.values()) bitmap.close();
     const map = new Map<string, ImageBitmap>();
     for (const [id, blob] of blobs) { try { map.set(id, await createImageBitmap(blob)); } catch { /* 跳过损坏纹理 */ } }
@@ -99,7 +99,7 @@ function inspire(id: string) { void router.push({ path: '/create', query: { insp
     <section v-if="!fish.length" class="journal-empty empty-panel"><span class="empty-icon"><AppIcon name="brush" /></span><h2>你的想象，还没画上第一页。</h2><p>完成的原创作品会留在这里，不需要先钓到任何鱼。</p><RouterLink to="/create" class="button">去创造工坊<AppIcon name="arrow" /></RouterLink></section>
     <div v-else class="species-grid species-grid--wide">
       <RouterLink v-for="item in fish" :key="item.id" class="species-card" :to="{ path: '/create', query: { fishId: item.id } }">
-        <PartThumb :design="item.design" :paint="textures.get(item.design.paint.colorAssetId ?? '') ?? null" />
+        <PartThumb :design="item.design" :paint="textures.get(item.design.paint.colorAssetId ?? '') ?? null" :glow="textures.get(item.design.paint.glowAssetId ?? '') ?? null" />
         <strong>{{ item.name }}</strong>
         <small>{{ item.activeEffect ? effectInfo[item.activeEffect].label : '原创鱼' }} · {{ dateFormat.format(new Date(item.createdAt)) }}</small>
       </RouterLink>

@@ -6,6 +6,7 @@ import { openDatabase, toStorageError } from '../storage/db.ts';
 import { usePreferences } from '../features/preferences.ts';
 import { playCue } from '../features/sound.ts';
 import { clearAllData, loadDiscoveries, loadProfile } from '../storage/repository.ts';
+import { validateBackupTextures } from '../storage/backupTextures.ts';
 import PageHeading from '../components/PageHeading.vue';
 
 const prefs = usePreferences();
@@ -33,6 +34,7 @@ const notice = ref('');
 const errors = ref<string[]>([]);
 const pending = shallowRef<{ data: BackupData; fish: number; hasDraft: boolean; fileName: string } | null>(null);
 const fileInput = ref<HTMLInputElement>();
+let fileGeneration = 0;
 let db: IDBDatabase | null = null;
 
 async function refresh() {
@@ -56,6 +58,7 @@ async function exportBackup() {
 }
 /** 选择文件后只做校验与预览，不写入存档。 */
 async function chooseFile(event: Event) {
+  const generation = ++fileGeneration;
   const input = event.target as HTMLInputElement;
   const file = input.files?.[0];
   input.value = '';
@@ -63,9 +66,13 @@ async function chooseFile(event: Event) {
   if (!file) return;
   if (file.size > MAX_BACKUP_BYTES) { errors.value = ['文件超过 50MB，不能导入。现有存档没有改动。']; return; }
   let parsed: unknown;
-  try { parsed = JSON.parse(await file.text()); } catch { errors.value = ['文件无法读取，可能已损坏。现有存档没有改动。']; return; }
+  try { parsed = JSON.parse(await file.text()); } catch { if (generation === fileGeneration) errors.value = ['文件无法读取，可能已损坏。现有存档没有改动。']; return; }
+  if (generation !== fileGeneration) return;
   const result = validateBackup(parsed, file.size);
   if (!result.ok) { errors.value = [...result.errors.slice(0, 6), '现有存档没有改动。']; return; }
+  try { await validateBackupTextures(result.value); }
+  catch (cause) { if (generation === fileGeneration) errors.value = [toStorageError(cause).message, '现有存档没有改动。']; return; }
+  if (generation !== fileGeneration) return;
   pending.value = { data: result.value, fish: result.summary.fish, hasDraft: result.summary.hasDraft, fileName: file.name };
 }
 async function confirmImport() {
@@ -76,6 +83,7 @@ async function confirmImport() {
     notice.value = `导入完成：现在有 ${pending.value.fish} 条作品${pending.value.hasDraft ? '和 1 份草稿' : ''}，可以继续编辑。`;
     pending.value = null;
     await refresh();
+    await prefs.reload();
   } catch (cause) { errors.value = [`导入没有完成，现有存档保持不变：${toStorageError(cause).message}`]; }
   finally { busy.value = false; }
 }

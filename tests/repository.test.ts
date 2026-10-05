@@ -7,16 +7,10 @@ import { changeColor, createFishDesign, setPaintAsset } from '../src/domain/fish
 import type { StoredAsset } from '../src/domain/types.ts';
 import { openDatabase, request, StorageError } from '../src/storage/db.ts';
 import { exportProfile, replaceProfile } from '../src/storage/backup.ts';
-import { saveDraft } from '../src/storage/drafts.ts';
+import { loadDraft, saveDraft } from '../src/storage/drafts.ts';
 import { clearAllData, commitFish, deleteFish, loadDiscoveries, loadProfile, recordCapture, setVisibleEntries, startEditFromFish, updatePreferences } from '../src/storage/repository.ts';
+import { pngBytes } from './pngFixture.ts';
 
-/** 文件头合法的 512×512 PNG（像素数据不被校验读取）。 */
-function pngBytes(seed: number, width = 512, height = 512) {
-  const bytes = new Uint8Array(64).fill(seed);
-  bytes.set([137, 80, 78, 71, 13, 10, 26, 10, 0, 0, 0, 13, 73, 72, 68, 82]);
-  new DataView(bytes.buffer).setUint32(16, width); new DataView(bytes.buffer).setUint32(20, height);
-  return bytes;
-}
 const png = (id: string, seed = 1): StoredAsset => {
   const blob = new Blob([pngBytes(seed)], { type: 'image/png' });
   return { id, mime: 'image/png', blob, bytes: blob.size, width: 512, height: 512 };
@@ -29,8 +23,8 @@ const id = (prefix: string) => `${prefix}-${++counter}`;
 
 /** 写入一份带纹理的草稿，返回其修订号。 */
 async function draftWith(db: IDBDatabase, name: string, asset?: StoredAsset, base = createDraft(createFishDesign(), 0)) {
-  const current = await request(db.transaction('drafts').objectStore('drafts').get('current')) as { revision?: number } | undefined;
-  const saved = await saveDraft(db, { ...base, name, revision: current?.revision ?? 0 }, { color: asset ? { kind: 'replace', asset } : KEEP, glow: KEEP });
+  const current = await loadDraft(db);
+  const saved = await saveDraft(db, { ...base, name, revision: current.status === 'ok' ? current.draft.revision : current.revision }, { color: asset ? { kind: 'replace', asset } : KEEP, glow: KEEP });
   return saved.revision;
 }
 const fresh = () => openDatabase(new IDBFactory());
@@ -84,13 +78,18 @@ test('re-editing updates the same fish; a stale edit cannot overwrite it; save-a
   assert.equal(tabB.status, 'resumed');
   const bDraft = await saveDraft(db, { ...tabB.draft, name: 'B 改的' }, { color: KEEP, glow: KEEP });
   await commitFish(db, { commandId: id('cmd'), fishId, mode: 'update', draftRevision: bDraft.revision, effects: [] });
-  const staleDraft = createDraft(tabA.draft.design, 0, { name: 'A 改的', sourceFishId: fishId, sourceFishRevision: 2 });
-  await saveDraft(db, staleDraft, { color: KEEP, glow: KEEP });
-  await assert.rejects(commitFish(db, { commandId: id('cmd'), fishId, mode: 'update', draftRevision: 1, effects: [] }), isKind('conflict'));
+  await assert.rejects(saveDraft(db, { ...tabA.draft, name: 'A 改的' }, { color: KEEP, glow: KEEP }), isKind('conflict'));
+  const empty = await loadDraft(db);
+  assert.equal(empty.status, 'empty');
+  if (empty.status !== 'empty') return;
+  // 用最新草稿版本恢复 A 的内存作品，但来源作品版本仍旧，更新原鱼必须拒绝。
+  const staleDraft = createDraft(tabA.draft.design, empty.revision, { name: 'A 改的', sourceFishId: fishId, sourceFishRevision: 2 });
+  const recovered = await saveDraft(db, staleDraft, { color: KEEP, glow: KEEP });
+  await assert.rejects(commitFish(db, { commandId: id('cmd'), fishId, mode: 'update', draftRevision: recovered.revision, effects: [] }), isKind('conflict'));
   assert.equal((await loadProfile(db)).fish[0]!.name, 'B 改的');
 
   // 另存为新鱼：原作品不变，共用的纹理在两者都删除前保留。
-  const asNew = await commitFish(db, { commandId: id('cmd'), fishId: id('fish'), mode: 'saveAs', draftRevision: 1, effects: [] });
+  const asNew = await commitFish(db, { commandId: id('cmd'), fishId: id('fish'), mode: 'saveAs', draftRevision: recovered.revision, effects: [] });
   const profile = await loadProfile(db);
   assert.deepEqual(profile.fish.map((fish) => fish.name).sort(), ['A 改的', 'B 改的']);
   assert.equal(profile.fish.find((fish) => fish.id === fishId)!.revision, 3);
@@ -149,7 +148,7 @@ test('re-editing never silently replaces another draft; cancelling leaves the sa
   const blocked = await startEditFromFish(db, fish.id);
   assert.equal(blocked.status, 'draft-exists');
   assert.equal((await loadProfile(db)).draft?.name, '另一条草稿');
-  const replaced = await startEditFromFish(db, fish.id, true);
+  const replaced = await startEditFromFish(db, fish.id, blocked.draft.revision);
   assert.equal(replaced.status, 'started');
   assert.deepEqual(await assetIds(db), [], 'replaced draft texture cleaned');
   await saveDraft(db, { ...replaced.draft, name: '改了一半' }, { color: KEEP, glow: KEEP });

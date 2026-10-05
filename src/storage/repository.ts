@@ -5,6 +5,7 @@ import type { EditorDraft, EffectDiscovery, EffectId, OceanEntry, OriginalFish, 
 import { completion, request, StorageError, toStorageError } from './db.ts';
 import { isValidAsset, referencedBy } from './drafts.ts';
 import { notifyChange, serialWrite, type ChangeKind } from './queue.ts';
+import { advanceDraftRevision, readDraftRevision } from './draftRevision.ts';
 
 export interface Profile {
   fish: OriginalFish[];
@@ -163,6 +164,7 @@ export function commitFish(db: IDBDatabase, input: CommitRequest, now = new Date
       if ((await request(effects.get(effectId))) === undefined) effects.put({ effectId, firstDiscoveredAt: time });
     }
     tx.objectStore('drafts').delete('current');
+    advanceDraftRevision(tx, await readDraftRevision(tx, draft));
     await cleanupAssets(tx, replacedAssets);
     return { fish, repeated: false, hidden };
   }, 'fish');
@@ -207,7 +209,7 @@ export type EditStart = { status: 'started'; draft: EditorDraft } | { status: 'd
  * 再次编辑：从作品复制一份草稿（共用不可变纹理）。已有其他草稿时不覆盖，
  * 除非调用方确认替换；草稿本来就在编辑这条鱼时直接继续。
  */
-export function startEditFromFish(db: IDBDatabase, fishId: string, replace = false): Promise<EditStart> {
+export function startEditFromFish(db: IDBDatabase, fishId: string, expectedDraftRevision?: number): Promise<EditStart> {
   return transact(db, ['fish', 'drafts', 'assets'], async (tx) => {
     const raw = await request(tx.objectStore('fish').get(fishId));
     if (raw === undefined) throw new StorageError('missing', '找不到这条鱼');
@@ -216,9 +218,12 @@ export function startEditFromFish(db: IDBDatabase, fishId: string, replace = fal
     const fish = parsed.value;
     const rawDraft = await request(tx.objectStore('drafts').get('current'));
     const current = rawDraft === undefined ? null : validateDraft(rawDraft);
+    const floor = await readDraftRevision(tx, rawDraft);
+    if (expectedDraftRevision !== undefined && floor !== expectedDraftRevision) throw new StorageError('conflict', '草稿已在另一个页面修改，不能替换它');
     if (current?.ok && current.value.sourceFishId === fishId && current.value.sourceFishRevision === fish.revision) return { status: 'resumed', draft: current.value };
-    if (current?.ok && !replace) return { status: 'draft-exists', draft: current.value };
-    const revision = current?.ok ? current.value.revision + 1 : Number.isSafeInteger((rawDraft as { revision?: number } | undefined)?.revision) ? (rawDraft as { revision: number }).revision + 1 : 1;
+    if (current?.ok && expectedDraftRevision === undefined) return { status: 'draft-exists', draft: current.value };
+    if (current && !current.ok && expectedDraftRevision === undefined) throw new StorageError('invalid', '旧草稿无法读取，先在工坊确认是否放弃');
+    const revision = advanceDraftRevision(tx, floor);
     const draft = createDraft(fish.design, revision, { name: fish.name, personality: fish.personality, preferredHabitat: fish.preferredHabitat,
       effectEnabled: fish.effectEnabled, sourceFishId: fish.id, sourceFishRevision: fish.revision });
     tx.objectStore('drafts').put(draft);
@@ -282,6 +287,8 @@ export function updatePreferences(db: IDBDatabase, patch: Partial<Pick<ProfileSe
 /** 清空全部本地数据（作品、草稿、图鉴、凭证、彩蛋、设置）。界面须二次确认。 */
 export function clearAllData(db: IDBDatabase): Promise<void> {
   return transact(db, ['fish', 'drafts', 'assets', 'discoveries', 'captures', 'effectsDiscovered', 'settings'], async (tx) => {
+    const floor = await readDraftRevision(tx, await request(tx.objectStore('drafts').get('current')));
     for (const name of ['fish', 'drafts', 'assets', 'discoveries', 'captures', 'effectsDiscovered', 'settings']) tx.objectStore(name).clear();
+    advanceDraftRevision(tx, floor);
   }, 'profile');
 }

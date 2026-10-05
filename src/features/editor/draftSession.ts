@@ -82,10 +82,10 @@ export function useDraftSession(design: Ref<FishDesign>, layers: Record<LayerKey
   async function loadCurrent(message?: string) {
     if (!db) return;
     const loaded = await loadDraft(db);
-    if (loaded.status === 'invalid') { status.value = 'invalid'; return; }
+    if (loaded.status === 'invalid') { revision = loaded.revision; status.value = 'invalid'; return; }
     for (const k of layerKeys) layers[k].clear();
     if (loaded.status === 'empty') {
-      revision = 0; meta.value = defaultMeta(); source.value = null; hooks.load(null);
+      revision = loaded.revision; meta.value = defaultMeta(); source.value = null; hooks.load(null);
     } else {
       let broken = false;
       for (const k of layerKeys) {
@@ -134,20 +134,21 @@ export function useDraftSession(design: Ref<FishDesign>, layers: Record<LayerKey
     const pending = pendingReplace.value;
     pendingReplace.value = null;
     if (!pending || !db || !replace) return;
-    await autosaver.flush();
+    if (!(await autosaver.flush())) return;
     try {
-      await startEditFromFish(db, pending.fishId, true);
+      await startEditFromFish(db, pending.fishId, revision);
       await loadCurrent('已打开这条鱼。保存会更新海洋里的它；取消编辑会保留原版。');
-    } catch (cause) { error.value = toStorageError(cause); }
+    } catch (cause) { error.value = toStorageError(cause); saveState.value = 'error'; }
   }
   /** 新建或取消编辑：删除当前草稿（海洋里的原作品不受影响），工坊回到一条新鱼。 */
   async function resetDraft(message: string) {
-    autosaver.dispose();
     if (db && status.value === 'ready') {
-      try { await discardDraft(db); } catch (cause) { error.value = toStorageError(cause); return false; }
+      if (!(await autosaver.flush())) return false;
+      try { revision = await discardDraft(db, revision); } catch (cause) { error.value = toStorageError(cause); saveState.value = 'error'; return false; }
     }
+    autosaver.dispose();
     for (const k of layerKeys) layers[k].clear();
-    revision = 0; meta.value = defaultMeta(); source.value = null; hooks.load(null);
+    meta.value = defaultMeta(); source.value = null; hooks.load(null);
     savedVersion.color = layers.color.version; savedVersion.glow = layers.glow.version;
     savedKey = key(); saveState.value = 'idle'; notice.value = message; externalChange.value = false;
     return true;
@@ -155,8 +156,8 @@ export function useDraftSession(design: Ref<FishDesign>, layers: Record<LayerKey
   async function discardInvalidDraft() {
     if (!db || status.value !== 'invalid') return;
     try {
-      await discardDraft(db);
-      revision = 0; status.value = 'ready'; notice.value = '已放弃无法读取的旧草稿，开始新的鱼。';
+      revision = await discardDraft(db, revision);
+      status.value = 'ready'; notice.value = '已放弃无法读取的旧草稿，开始新的鱼。';
       if (hasUnsavedWork()) autosaver.schedule();
     } catch (cause) { error.value = toStorageError(cause); }
   }
@@ -172,7 +173,7 @@ export function useDraftSession(design: Ref<FishDesign>, layers: Record<LayerKey
       // 提交前先让刚改的名字等触发自动保存，再停止防抖并等在途保存完成，冻结要提交的草稿版本。
       await nextTick();
       if (!(await autosaver.flush())) throw error.value ?? new StorageError('unknown', '草稿没有保存成功，暂时不能放入海洋');
-      if (revision === 0) await persist();
+      if ((await loadDraft(db)).status === 'empty') await persist();
       const fishId = mode === 'update' ? source.value!.fishId : pendingCommit?.mode === mode && pendingCommit.revision === revision ? pendingCommit.fishId : createId();
       if (!pendingCommit || pendingCommit.mode !== mode || pendingCommit.revision !== revision || pendingCommit.fishId !== fishId) {
         pendingCommit = { commandId: createId(), fishId, mode, revision };
