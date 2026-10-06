@@ -4,9 +4,12 @@ import type { FishingView } from '../rendering/fishing3d/cameras';
 import { createFishingRuntime } from '../features/fishing3d/runtime';
 import type { SceneDiagnostics, SceneStatus } from '../features/fishing3d/runtime';
 import type { FightInput, FightSample, FightState3D } from '../domain/fishing3d/state';
+import type { RoundSession } from '../features/fishing3d/round';
+import type { CastSpot } from '../domain/fishing';
+import type { QualityPreference } from '../features/fishing3d/performance';
 
-const props = defineProps<{ view: FishingView; paused: boolean; reducedMotion: boolean; quality: 'standard' | 'low' }>();
-const emit = defineEmits<{ diagnostics: [value: SceneDiagnostics]; status: [value: SceneStatus]; fight: [value: FightState3D | null]; clearInput: [] }>();
+const props = defineProps<{ view: FishingView; paused: boolean; reducedMotion: boolean; quality: QualityPreference; round?: RoundSession }>();
+const emit = defineEmits<{ diagnostics: [value: SceneDiagnostics]; status: [value: SceneStatus]; fight: [value: FightState3D | null]; clearInput: []; fallback: []; spot: [value: CastSpot] }>();
 const host = ref<HTMLElement>();
 const status = ref<SceneStatus>('loading');
 const failure = ref('');
@@ -23,6 +26,8 @@ async function start() {
   try {
     if (!host.value) return;
     const next = createFishingRuntime(host.value, {
+      round: props.round,
+      onSpot: (spot) => emit('spot', spot),
       reducedMotion: props.reducedMotion,
       onStatus: (value) => { if (current === generation) { status.value = value; emit('status', value); } },
       onDiagnostics: (value) => { if (current === generation) emit('diagnostics', value); },
@@ -48,6 +53,7 @@ watch(() => props.paused, (value) => runtime?.pause(value));
 watch(() => props.reducedMotion, (value) => runtime?.motion(value));
 watch(() => props.quality, (value) => runtime?.quality(value));
 defineExpose({ rebuild: () => start(), loseContext: () => runtime?.simulateContextLoss(), restoreContext: () => runtime?.restoreContext(), measure: () => runtime?.resetMeasurement(),
+  startMeasurement: () => runtime?.startMeasurement(),
   startFight: (sample: FightSample, seed?: number) => runtime?.startFight(sample, seed), input: (value: FightInput) => runtime?.setInput(value), land: () => runtime?.land(), cancelFight: () => runtime?.cancelFight(),
 });
 </script>
@@ -58,9 +64,10 @@ defineExpose({ rebuild: () => start(), loseContext: () => runtime?.simulateConte
       <template v-if="failure">
         <strong>画面需要重新准备</strong><p>{{ failure }}</p>
         <button class="primary-button" @click="start">重新加载场景</button>
+        <button v-if="round" class="primary-button" @click="emit('fallback')">继续使用简化画面</button>
         <RouterLink to="/fishing/reef-edge">去原版钓场</RouterLink>
       </template>
-      <template v-else><span class="loading-mark" aria-hidden="true">◌</span><strong>正在准备珊瑚外缘…</strong><p>海岸、珊瑚和小丑鱼很快就到。</p></template>
+      <template v-else><span class="loading-mark" aria-hidden="true">◌</span><strong>正在准备钓场…</strong><p>海岸、浮漂和这片水域的鱼很快就到。</p></template>
     </div>
   </div>
 </template>

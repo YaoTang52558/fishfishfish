@@ -3,12 +3,16 @@
  * 任何音频错误都静默忽略，声音只是辅助，所有提示同时有文字与画面。
  */
 let context: AudioContext | null = null;
-type Cue = 'bite' | 'hook' | 'catch' | 'escape';
+type Cue = 'bite' | 'hook' | 'catch' | 'escape' | 'cast' | 'splash' | 'reel' | 'payout';
 const notes: Record<Cue, Array<[frequency: number, start: number, duration: number]>> = {
   bite: [[880, 0, 0.12], [1175, 0.14, 0.14]],
   hook: [[523, 0, 0.1]],
   catch: [[523, 0, 0.12], [659, 0.12, 0.12], [784, 0.24, 0.22]],
   escape: [[392, 0, 0.16], [330, 0.16, 0.22]],
+  cast: [[240,0,.08],[440,.06,.08]],
+  splash: [[180,0,.12],[120,.08,.18]],
+  reel: [[620,0,.035],[560,.035,.035]],
+  payout: [[260,0,.065]],
 };
 export function playCue(cue: Cue, enabled: boolean) {
   if (!enabled) return;
@@ -22,7 +26,7 @@ export function playCue(cue: Cue, enabled: boolean) {
       const osc = context.createOscillator(), gain = context.createGain();
       osc.type = 'sine'; osc.frequency.value = frequency;
       gain.gain.setValueAtTime(0.0001, now + start);
-      gain.gain.exponentialRampToValueAtTime(0.18, now + start + 0.02);
+      gain.gain.exponentialRampToValueAtTime(cue==='reel'||cue==='payout'?.035:cue==='splash'||cue==='cast'?.07:.18, now + start + 0.02);
       gain.gain.exponentialRampToValueAtTime(0.0001, now + start + duration);
       osc.connect(gain).connect(context.destination);
       osc.start(now + start); osc.stop(now + start + duration + 0.02);

@@ -23,6 +23,7 @@ import PageHeading from '../components/PageHeading.vue';
 const route = useRoute();
 const router = useRouter();
 const prefs = usePreferences();
+const showPrototype = import.meta.env.DEV;
 const habitat = computed(() => habitats.find((item) => item.id === route.params.habitatId) ?? null);
 const habitatId = computed(() => (habitat.value?.id ?? 'reef-edge') as HabitatId);
 const pool = computed(() => speciesFor(habitatId.value));
@@ -173,6 +174,7 @@ onBeforeUnmount(() => {
 <template>
   <PageHeading eyebrow="海洋探索 / GO FISHING" title="和海洋，打个招呼。" description="选好鱼饵，点一个落点抛竿。不用先创造鱼，也可以从这里开始。" />
   <div class="habitat-links" aria-label="选择钓场"><RouterLink v-for="item in habitats" :key="item.id" :to="`/fishing/${item.id}`">{{ item.name }}</RouterLink></div>
+  <p v-if="showPrototype"><RouterLink to="/dev/fishing-3d" class="text-link">体验新版 3D 钓鱼完整流程</RouterLink></p>
   <p v-if="message" class="session-notice" role="status">{{ message }}</p>
   <div v-if="habitat" class="fishing-layout fishing-layout--live">
     <section class="fishing-stage" aria-label="钓场">

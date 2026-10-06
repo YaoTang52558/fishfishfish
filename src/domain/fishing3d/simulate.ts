@@ -1,6 +1,6 @@
-import { FIGHT_CONFIG as C } from './config.ts';
+import { FIGHT_CONFIG as C, FIGHT_SIZE } from './config.ts';
 import { distanceToShore, mouthPosition } from './state.ts';
-import type { ActiveAction, FightInput, FightSample, FightState3D, Vec3 } from './state.ts';
+import type { ActiveAction, FightInput, FightSample, FightSize, FightState3D, Vec3 } from './state.ts';
 
 const clamp = (value: number, min: number, max: number) => Math.max(min, Math.min(max, value));
 const magnitude = (v: Vec3) => Math.hypot(v.x, v.y, v.z);
@@ -32,10 +32,10 @@ function changeAction(state: FightState3D) {
     state.action = state.nextAction; state.actionTicks = state.action === 'lateral' ? 144 : state.action === 'dive' ? 150 : 120;
   } else { state.action = 'rest'; state.actionTicks = 210; }
 }
-export function createFight(sample: FightSample = 'sprinter', seed = 0x739a2b1): FightState3D {
-  if (!['sprinter', 'weaver', 'diver'].includes(sample) || !Number.isFinite(seed)) throw new Error('Invalid fight configuration');
+export function createFight(sample: FightSample = 'sprinter', seed = 0x739a2b1, size: FightSize = 'small', mouthAnchor: Vec3 = { x: 0.91, y: -0.055, z: 0 }): FightState3D {
+  if (!['sprinter', 'weaver', 'diver'].includes(sample) || !Number.isFinite(seed) || !['small', 'large'].includes(size)) throw new Error('Invalid fight configuration');
   const state: FightState3D = {
-    phase: 'fighting', sample, seed: (seed >>> 0) || 1,
+    phase: 'fighting', sample, seed: (seed >>> 0) || 1, size, reeling: false, reelTurns: 0, mouthAnchor: { ...mouthAnchor },
     fishPosition: { x: 0.7, y: -1.35, z: 4.1 }, fishVelocity: { x: 0, y: 0, z: 0 }, fishHeading: { x: 1, y: 0, z: 0 },
     rodTip: { x: 0, y: 2.1, z: -0.15 }, rodAxis: 0,
     lineLength: 0, tension: 0, fatigue: 0.05,
@@ -48,11 +48,12 @@ export function createFight(sample: FightSample = 'sprinter', seed = 0x739a2b1):
 }
 
 /** Exactly one fixed step. Input is copied/validated at the boundary; no Vue, DOM or Three.js. */
-export function stepFight(state: FightState3D, input: FightInput): FightState3D {
+export function stepFight(state: FightState3D, input: FightInput, assist = false): FightState3D {
   if (state.phase !== 'fighting') return state;
   if (!Number.isFinite(input.rodAxis) || typeof input.reel !== 'boolean') throw new Error('Invalid fight input');
   const s: FightState3D = { ...state, fishPosition: { ...state.fishPosition }, fishVelocity: { ...state.fishVelocity }, fishHeading: { ...state.fishHeading }, rodTip: { ...state.rodTip } };
-  const dt = C.step;
+  const dt = C.step, size = FIGHT_SIZE[s.size];
+  s.reeling = input.reel;
   s.elapsedTicks++; s.actionTicks--;
   if (s.actionTicks <= 0) changeAction(s);
   const headingTarget = direction(s);
@@ -66,6 +67,7 @@ export function stepFight(state: FightState3D, input: FightInput): FightState3D 
   };
   if (input.reel) s.lineLength = Math.max(C.minLine, s.lineLength - C.reelSpeed * dt);
   else s.lineLength = Math.min(C.maxLine, s.lineLength + C.payoutSpeed * clamp(state.tension, 0, 1) * dt);
+  s.reelTurns += Math.max(0, state.lineLength - s.lineLength) / 0.45;
   const hook = mouthPosition(s), delta = { x: hook.x - s.rodTip.x, y: hook.y - s.rodTip.y, z: hook.z - s.rodTip.z };
   const distance = magnitude(delta), n = unit(delta);
   const rodVelocity = { x: (s.rodTip.x - state.rodTip.x) / dt, y: (s.rodTip.y - state.rodTip.y) / dt, z: (s.rodTip.z - state.rodTip.z) / dt };
@@ -74,12 +76,12 @@ export function stepFight(state: FightState3D, input: FightInput): FightState3D 
   const force = stretch > 0 ? Math.max(0, C.spring * stretch + C.damping * axialSpeed) : 0;
   s.tension = force / C.breakForce;
   const active = s.action !== 'rest' && s.action !== 'telegraph';
-  const power = (s.action === 'sprint' ? 9 : s.action === 'lateral' ? 7 : s.action === 'dive' ? 11 : 0.25) * (1 - s.fatigue * 0.82);
+  const power = (s.action === 'sprint' ? 9 : s.action === 'lateral' ? 7 : s.action === 'dive' ? 11 : 0.25) * (1 - s.fatigue * 0.82) * size.power;
   const preferredDepth = -1.2 + s.fatigue;
   const acceleration = {
-    x: (headingTarget.x * power - n.x * force - C.drag * s.fishVelocity.x) / C.mass,
-    y: (headingTarget.y * power - n.y * force - C.drag * s.fishVelocity.y + (preferredDepth - s.fishPosition.y) * 0.45) / C.mass,
-    z: (headingTarget.z * power - n.z * force - C.drag * s.fishVelocity.z) / C.mass,
+    x: (headingTarget.x * power - n.x * force - C.drag * s.fishVelocity.x) / (C.mass * size.mass),
+    y: (headingTarget.y * power - n.y * force - C.drag * s.fishVelocity.y + (preferredDepth - s.fishPosition.y) * 0.45) / (C.mass * size.mass),
+    z: (headingTarget.z * power - n.z * force - C.drag * s.fishVelocity.z) / (C.mass * size.mass),
   };
   s.fishVelocity.x += acceleration.x * dt; s.fishVelocity.y += acceleration.y * dt; s.fishVelocity.z += acceleration.z * dt;
   const speed = magnitude(s.fishVelocity);
@@ -91,11 +93,12 @@ export function stepFight(state: FightState3D, input: FightInput): FightState3D 
     if (s.fishPosition[axis] < low!) { s.fishPosition[axis] = low!; s.fishVelocity[axis] = Math.max(0, s.fishVelocity[axis]); }
     if (s.fishPosition[axis] > high!) { s.fishPosition[axis] = high!; s.fishVelocity[axis] = Math.min(0, s.fishVelocity[axis]); }
   }
-  s.fatigue = clamp(s.fatigue + (C.fatigueForceRate * Math.min(s.tension, 1.4) + (active ? C.fatigueActionRate : -C.restRecoveryRate)) * dt, 0, 1);
+  s.fatigue = clamp(s.fatigue + (C.fatigueForceRate * Math.min(s.tension, 1.4) + (active ? C.fatigueActionRate : -C.restRecoveryRate)) * dt / size.stamina, 0, 1);
   s.breakTicks = s.tension > 1 ? s.breakTicks + 1 : Math.max(0, s.breakTicks - 2);
-  if (s.breakTicks >= Math.ceil(C.breakSeconds / dt)) { s.phase = 'escaped'; s.escapeReason = 'line'; }
+  if (s.breakTicks >= Math.ceil((assist ? 2 : C.breakSeconds) / dt)) { s.phase = 'escaped'; s.escapeReason = 'line'; }
   else if (distanceToShore(s) <= C.landingRadius && s.fishPosition.y >= C.landingDepth && s.fatigue >= C.landingFatigue) { s.phase = 'landing'; s.fishVelocity = { x: 0, y: 0, z: 0 }; }
-  else if (s.elapsedTicks >= Math.ceil(C.timeoutSeconds / dt)) { s.phase = 'escaped'; s.escapeReason = 'timeout'; }
+  else if (s.elapsedTicks >= Math.ceil(C.timeoutSeconds * size.timeout / dt)) { s.phase = 'escaped'; s.escapeReason = 'timeout'; }
+  if (s.phase !== 'fighting') s.reeling = false;
   return s;
 }
 
@@ -103,11 +106,11 @@ export function landFish(state: FightState3D): FightState3D {
   return state.phase === 'landing' ? { ...state, phase: 'caught' } : state;
 }
 
-export function fightHint(state: FightState3D): string {
+export function fightHint(state: FightState3D, surface = false): string {
   if (state.phase === 'caught') return '轻轻抄起了！可以换个动作样本，再练一次。';
   if (state.phase === 'landing') return '已经到岸边了，轻轻抄起。';
   if (state.phase === 'escaped') return state.escapeReason === 'line' ? '拉得太紧，它挣脱了。冲刺和下潜时先松线。' : '这次游得有点远，换个节奏再试试。';
-  if (state.action === 'telegraph') return state.nextAction === 'dive' ? '鱼头向下了，准备松线。' : state.nextAction === 'lateral' ? `它准备向${state.lateralSign < 0 ? '左' : '右'}横游，向另一边控竿。` : '尾巴摆快了，准备松线。';
+  if (state.action === 'telegraph') return state.nextAction === 'dive' ? (surface ? '浮漂开始下沉，准备松线。' : '鱼头向下了，准备松线。') : state.nextAction === 'lateral' ? `它准备向${state.lateralSign < 0 ? '左' : '右'}横游，向另一边控竿。` : (surface ? '水花变急了，准备松线。' : '尾巴摆快了，准备松线。');
   if (state.action === 'rest') return '它正在喘息，稳住竿，慢慢收线。';
   if (state.action === 'lateral') return `它向${state.lateralSign < 0 ? '左' : '右'}横游，向另一边控竿。`;
   return state.action === 'dive' ? '它在下潜，先松线，等它上浮。' : '它在冲刺，先松线。';

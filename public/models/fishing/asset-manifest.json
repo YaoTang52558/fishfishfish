@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "format": "glTF 2.0",
+  "assets": [
+    {
+      "id": "amphiprion-ocellaris",
+      "path": "models/fishing/amphiprion-ocellaris.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 106312,
+      "sha256": "424459d139b4beb48c353aec1fe8246c7130136220536723c26380a2b2b61940",
+      "triangles": 5232,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 0.91,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "zebrasoma-flavescens",
+      "path": "models/fishing/zebrasoma-flavescens.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 39948,
+      "sha256": "e047d799cc6c2f3e7e0c95c0410d8fda359552f02bfa74c9ab51b6d40edf6102",
+      "triangles": 5848,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 0.91,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "paracanthurus-hepatus",
+      "path": "models/fishing/paracanthurus-hepatus.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 62676,
+      "sha256": "3b3f0609891f2e05f1a0a1696d24b07d28e4cd9b4eebfedb44130f1af2527d29",
+      "triangles": 5268,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 0.91,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "forcipiger-flavissimus",
+      "path": "models/fishing/forcipiger-flavissimus.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 48460,
+      "sha256": "a0969ff972a1ec1cfad82eef427a8456485a86e7df81357f3315818dc090ea2b",
+      "triangles": 7180,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 1.22,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "arothron-hispidus",
+      "path": "models/fishing/arothron-hispidus.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 81784,
+      "sha256": "f57bd26798cd743a56a51b0fa8b0081cf054a93fc98e024c1c76dbba74aadd79",
+      "triangles": 5660,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 0.91,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "zanclus-cornutus",
+      "path": "models/fishing/zanclus-cornutus.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 79488,
+      "sha256": "766efd9bc9c08d735289465ce3644bc99af20537d94f52cab1abeb842d6dad32",
+      "triangles": 5428,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 1.05,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "sebastes-schlegelii",
+      "path": "models/fishing/sebastes-schlegelii.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 93312,
+      "sha256": "62057a1d0d39db8586e51889d5abb693d3c2b5f601c6db687380ad8291cac6f6",
+      "triangles": 5268,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 0.91,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "acanthopagrus-schlegelii",
+      "path": "models/fishing/acanthopagrus-schlegelii.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 79240,
+      "sha256": "39c7857e6db379965e5e304403ce2793bf319c70a7f417991ef22b9e99cd0c45",
+      "triangles": 5272,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 0.91,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "hexagrammos-otakii",
+      "path": "models/fishing/hexagrammos-otakii.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 105664,
+      "sha256": "1b641d415470976586ee372893b4251601ef090613b4a6272e2d4df460aa0d68",
+      "triangles": 5848,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 0.91,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "oplegnathus-fasciatus",
+      "path": "models/fishing/oplegnathus-fasciatus.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 75648,
+      "sha256": "755474d59e29968f2b55c7e625b0a6acffe79ebdf08ccdfd4184e7d18e055ef3",
+      "triangles": 5268,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 0.91,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "girella-punctata",
+      "path": "models/fishing/girella-punctata.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 40276,
+      "sha256": "a5a1a105a7e7caf6226109453c93238e4781f70bb029c3ef4dd6e3b2e152c620",
+      "triangles": 6472,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 0.91,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    },
+    {
+      "id": "sebastiscus-marmoratus",
+      "path": "models/fishing/sebastiscus-marmoratus.glb",
+      "version": 1,
+      "source": "Original procedural mesh; appearance from src/catalog/species.ts",
+      "license": "Project-owned original asset",
+      "bytes": 127804,
+      "sha256": "25b06e6cd490023c01cf6228beda018fc180aa71c75d4b384126ed589d97ba31",
+      "triangles": 5276,
+      "textureSize": [
+        512,
+        256
+      ],
+      "mouthAnchor": {
+        "x": 0.91,
+        "y": -0.055,
+        "z": 0
+      },
+      "reviewStatus": "illustration-reviewed"
+    }
+  ]
+}

@@ -184,10 +184,10 @@ export function tensionLabel(state: FishingState): { zone: 'loose' | 'good' | 't
  */
 export interface EncounterState { checked: boolean; scheduled: boolean; shown: boolean; fishId: string | null; elapsed: number }
 export function createEncounter(): EncounterState { return { checked: false, scheduled: false, shown: false, fishId: null, elapsed: 0 }; }
-export function encounterSafe(state: FishingState) {
+export function encounterSafe(state: Pick<FishingState, 'phase' | 'waitDuration' | 'phaseTime'>) {
   return state.phase === 'setup' || (state.phase === 'waiting' && state.waitDuration - state.phaseTime >= 3);
 }
-export function stepEncounter(encounter: EncounterState, fishing: FishingState, dt: number, candidates: readonly string[], random: () => number): EncounterState {
+export function stepEncounter(encounter: EncounterState, fishing: Pick<FishingState, 'phase' | 'waitDuration' | 'phaseTime'>, dt: number, candidates: readonly string[], random: () => number): EncounterState {
   if (encounter.shown) return encounter;
   const elapsed = encounter.elapsed + dt;
   let next = { ...encounter, elapsed };

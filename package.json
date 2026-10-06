@@ -13,6 +13,8 @@
     "typecheck": "vue-tsc --noEmit -p tsconfig.json",
     "test": "node --experimental-strip-types --test \"tests/*.test.ts\"",
     "build": "npm run typecheck && vite build",
+    "build:3d-preview": "npm run typecheck && vite build --mode fishing-preview --outDir dist-fishing-preview",
+    "preview:3d": "vite preview --outDir dist-fishing-preview --host 0.0.0.0 --port 4174",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {

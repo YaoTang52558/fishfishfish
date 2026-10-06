@@ -1,4 +1,4 @@
-import type { FightSample } from './state.ts';
+import type { FightSample, FightSize } from './state.ts';
 
 /** Game coefficients, not measurements of real fish or fishing tackle. */
 export const FIGHT_CONFIG = Object.freeze({
@@ -7,6 +7,11 @@ export const FIGHT_CONFIG = Object.freeze({
   minLine: 1.5, maxLine: 18, breakSeconds: 1.2, timeoutSeconds: 60,
   landingRadius: 1.2, landingDepth: -0.6, landingFatigue: 0.7,
   fatigueForceRate: 0.11, fatigueActionRate: 0.018, restRecoveryRate: 0.006,
+});
+// Bounded game difficulty: catalog size controls strength and stamina, not real-world measurements.
+export const FIGHT_SIZE: Readonly<Record<FightSize, { mass: number; power: number; stamina: number; timeout: number }>> = Object.freeze({
+  small: { mass: 1, power: 1, stamina: 1, timeout: 1 },
+  large: { mass: 1.2, power: 1.25, stamina: 1.3, timeout: 1.2 },
 });
 export const FIGHT_SAMPLES: readonly { id: FightSample; name: string; description: string }[] = [
   { id: 'sprinter', name: '冲刺型', description: '留意加速的尾巴，冲刺时先松线。' },

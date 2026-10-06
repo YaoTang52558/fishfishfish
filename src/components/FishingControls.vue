@@ -56,7 +56,7 @@ defineExpose({ clear });
 </template>
 
 <style scoped>
-.fight-controls { display: grid; grid-template-columns: 1fr 1.35fr 1fr auto; gap: 10px; margin-top: 16px; }
+.fight-controls { display: grid; grid-template-columns: 1fr 1.35fr 1fr auto; gap: 10px; margin-top: 16px; position: sticky; bottom: 0; z-index: 5; background: #fffaf0f5; border-radius: 18px; padding: 8px 0 max(8px, env(safe-area-inset-bottom)); }
 button { min-height: 64px; border-radius: 18px; padding: 8px 16px; border: 1px solid #d6dac7; background: #fff3d5; color: #225c58; cursor: pointer; font-size: 14px; font-weight: 700; touch-action: none; user-select: none; display: flex; justify-content: center; align-items: center; gap: 10px; }
 button span { font-size: 30px; }button.reel { background: #fbd47a; border-color: #ecbc58; }button[aria-pressed="true"] { background: #195f57; color: #fff9e4; }button:disabled { opacity: 0.55; cursor: default; }.release { background: transparent; min-width: 64px; }
 .input-note { font-size: 12px; line-height: 1.8; color: var(--muted); margin: 10px 0; }
