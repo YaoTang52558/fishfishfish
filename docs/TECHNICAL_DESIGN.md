@@ -1,6 +1,6 @@
 # fishfishfish 技术设计
 
-版本 0.7 · 2026-10-05 · 步骤 01–09 与审查修复已实现；新版 3D 钓鱼完成设计，待实施；步骤 10 的真机与试玩待验证
+版本 0.8 · 2026-10-06 · 步骤 01–09、3D G1–G4 与 G5 开发准备已实现；真机与试玩待验收。当前状态见 [PROJECT_STATUS.md](PROJECT_STATUS.md)；旧版参数保留作历史契约，新版看第 7.5 节。
 
 ## 1. 技术决策与约束
 
@@ -31,18 +31,23 @@ flowchart TD
   EDIT --> REPO["存档服务"]
   GAME --> REPO
   OCEAN --> REPO
-  DOMAIN --> RENDER["共享鱼渲染器"]
+  EDIT --> RENDER["共享 Canvas 鱼渲染器"]
+  OCEAN --> RENDER
+  GAME --> FISHVIEW["Three.js / 同规则 Canvas"]
   REPO --> DB["IndexedDB"]
 ```
 
-上图箭头是调用/依赖关系。规则模块不依赖 Vue、DOM 或 IndexedDB；Canvas 不直接修改存档。工坊、试游池、海洋和鱼卡全部使用同一鱼文档与渲染入口，避免不同场景丢失笔迹。
+上图箭头是调用/依赖关系。纯规则模块不依赖 Vue、DOM、渲染器或 IndexedDB；应用运行时持有规则状态并调用渲染器，Canvas 不直接修改存档。工坊、试游池、海洋和鱼卡共用鱼文档与 Canvas 入口；真实鱼的 3D 模型读取对应物种 ID，手绘访客仍走共享 Canvas，避免笔迹丢失。
 
 | 建议目录 | 职责 |
 | --- | --- |
 | `src/domain/` | 类型、参数校验、性格/彩蛋/游动规则、钓鱼纯函数 |
 | `src/catalog/` | 部件、花纹、真实鱼、钓场、科普来源与配置版本 |
 | `src/features/editor/` | 命令历史、输入映射、画笔、印章、试游 |
-| `src/features/fishing/` | 状态机、计时、张力控制、捕获应用服务 |
+| `src/domain/fishing.ts`、`src/pages/FishingPage.vue` | 旧版纯规则、页面时钟与捕获接入 |
+| `src/domain/fishing3d/` | 新版整轮／拉锯固定步、物种映射和共享表现坐标 |
+| `src/features/fishing3d/` | 唯一会话、输入、渲染时钟、捕获服务、画质与测量 |
+| `src/rendering/fishing3d/` | Three.js 世界、GLB 加载、相机、资源所有权与回收 |
 | `src/features/ocean/` | 展示列表、巡游、选择和偶遇 |
 | `src/rendering/` | FishRenderer、形状、动画、纹理合成与缓存 |
 | `src/storage/` | IndexedDB、迁移、导入导出、修订冲突 |
@@ -55,7 +60,7 @@ flowchart TD
 
 ## 3. 领域模型
 
-以下 TypeScript 是完整首版的字段契约示意。步骤 02 已在 `src/domain/types.ts` 实现 FishDesign，当前校验仅接受已有的 1 身体、1 默认头型、2 尾、默认鳍眼嘴和无花纹/无印章配置；后续随素材增加扩展。其余实体待后续步骤实现。ID 为 UUID 或固定配置 ID；时间存 ISO UTC，显示时使用设备时区；数值入库前拒绝 NaN/Infinity 并检查范围。
+以下 TypeScript 为字段契约示意，实际定义与校验以 `src/domain/types.ts`、`src/domain/fish.ts`、`src/domain/draft.ts` 和 `src/catalog/` 为准。当前已支持完整部件、花纹、印章、两层笔迹、草稿／作品／设置／发现等实体；不是步骤 02 的缩减切片。ID 为 UUID 或固定配置 ID；时间存 ISO UTC，显示时使用设备时区；数值入库前拒绝 NaN/Infinity 并检查范围。
 
 ```ts
 type HabitatId = 'reef-edge' | 'coastal-rock';
@@ -305,15 +310,17 @@ T≥0.98 连续 1.2 秒判断线，离开阈值即清零断线计时；总搏鱼
 - **体验偏好**：声音、辅助、减少动态存在设置记录中，全局共享（`src/features/preferences.ts`）。其他写入推进了设置修订号时，更新偏好会先重新读取再重试一次。
 - **提示音**：用 Web Audio 合成，默认关闭，只在用户操作后启动，出错时静默。
 
-### 7.5 新版 3D 钓鱼契约（待实施）
+### 7.5 新版 3D 钓鱼契约（候选版已实现）
 
-采用 Three.js WebGLRenderer 和现有 Vue／Vite，具体版本在第一阶段锁定；一个世界、一个渲染器、海面／水下／揭晓镜头。世界状态以纯 TypeScript 数据定义，渲染器读取快照；固定 1/60 秒规则与帧间表现分开。鱼中心、朝向、嘴部锚点、速度、线长、竿向、张力、疲劳和动作时序共用一套状态。钩点／竿尖距离与弹性阻尼决定拉力，控竿和收线改变实际受力／位置；距离、深度与疲劳共同进入新增 `landing`，抄起后 `caught` 才调用既有 `recordCapture`。
+采用已锁定的 Three.js WebGLRenderer 和现有 Vue／Vite；每次只保留一个活动渲染器和时钟。完整流程在海面抛竿／拉鱼／抄起，水下镜头仅保留在开发练习。`RoundSession` 持有纯 TypeScript 整轮状态，渲染器读取快照；固定 1/60 秒规则与帧间表现分开。鱼中心、朝向、嘴部锚点、速度、线长、竿向、张力、疲劳和动作时序共用一套状态。钩点／竿尖距离与弹性阻尼决定拉力，控竿和收线改变实际受力／位置；距离、深度与疲劳共同进入 `landing`，抄起后 `caught` 才调用既有 `recordCapture`。
 
 镜头切换不重新抽样、不消耗提竿窗口；取消触摸、失焦、后台和 context loss 释放输入并暂停，恢复不补算暂停时间。UI 按钮与键盘独立于 Canvas；WebGL 不可用的简化画面使用同一新版规则。加载、GPU／bitmap 释放、同源模型契约、性能档、数据兼容与 G1–G5 验收详见 [3D 实现设计](FISHING_3D_DESIGN.md)。本轮不改数据库或备份版本。
 
+G4 已安装两场共 12 份原创 GLB，并按物种映射三动作、大小与嘴锚点。G5 已实现原生教学 dialog、暂停保护和自动／手动画质：连续两个 5 秒慢窗口才降至 DPR 1 并减少水光／水花，规则不变。60 秒测量导出仅判断本次浏览器帧预算，不能识别物理设备或证明试玩效果。正常正式构建与 `fishing-preview` 候选模式入口隔离，切换条件见当前状态文档。
+
 ## 8. 存档与事务设计
 
-数据库名 `fishfishfish`，数据库版本 1；object stores：`fish`、`drafts`、`assets`、`discoveries`、`captures`、`effectsDiscovered`、`settings`，步骤 03 已在版本 1 一次建好。主键分别为 `id`、`id`（草稿固定 `current`）、`id`、`speciesId`、`attemptId`、`effectId`、`id`（设置记录待定为固定 ID）。数据库版本、文档 schemaVersion、catalogVersion 和规则 ruleVersion 分开维护。
+数据库名 `fishfishfish`，数据库版本 1；object stores：`fish`、`drafts`、`assets`、`discoveries`、`captures`、`effectsDiscovered`、`settings`，步骤 03 已在版本 1 一次建好。主键分别为 `id`、`id`（草稿固定 `current`）、`id`、`speciesId`、`attemptId`、`effectId`、`id`（设置固定 `profile`）。数据库版本、文档 schemaVersion、catalogVersion 和规则 ruleVersion 分开维护。教学关闭标记独立保存在版本化 localStorage，不加入作品／捕获备份。
 
 | 接口 | 语义 |
 | --- | --- |
@@ -372,7 +379,7 @@ PNG 编码和规则计算先在事务外完成；不要在活动 IndexedDB 事�
 
 ## 10. 性能与兼容目标
 
-以下为目标，未测量。接手在 M0 记录实际机型、OS、浏览器版本和测试页；不能用桌面模拟器替代 iPad 真机结论。
+以下为验收目标；部分桌面结果已记录在实施计划和当前状态，iPad 仍未实测。表内 20 鱼场景指工坊／海洋的 Canvas 2D，不能用钓场的一条主鱼性能替代。记录实际机型、OS、浏览器版本和测试页；不能用桌面模拟器替代 iPad 真机结论。
 
 | 项目 | 初始目标与场景 |
 | --- | --- |
@@ -386,6 +393,8 @@ PNG 编码和规则计算先在事务外完成；不要在活动 IndexedDB 事�
 
 DPR 上限 2；发光效果烘焙为缓存，不对每条鱼每帧实时模糊。粒子全局上限 100，降级先停粒子和背景特效，再降低 DPR；不能通过删除作品或关闭绘画达到性能目标。
 
+上述 DPR 与首屏 3 秒为 Canvas／通用页面基线；3D 首场另按 `FISHING_3D_DESIGN.md` 的 DPR ≤1.5（轻量 1）、10Mbps ≤5 秒、首场 ≤4MiB、绘制 ≤80 与三角形 ≤150k 验收，普通动态连续 60 秒。减少动态空闲停帧作为功能检查，不混入普通动态帧率结论。
+
 无 Canvas 2D 时展示不支持提示与已有图鉴的 HTML 列表；无 IndexedDB 时临时试玩+导出。无需 P0 Service Worker，首次离线启动不在验收范围。音频只在用户操作后启动。
 
 ## 11. 测试与可观测性
@@ -394,7 +403,7 @@ DPR 上限 2；发光效果烘焙为缓存，不对每条鱼每帧实时模糊�
 
 集成流程覆盖：画笔→变形→切体型→试游→保存→刷新→重编辑；捕获→刷新→重复提交；多标签同时编辑；存储配额失败；导入中断回滚；进入后台暂停。
 
-仅开发模式启用本地事件记录 `editor_started / trial_started / fish_saved / fishing_started / fish_caught / save_failed`，包含时间与非个人 ID，不记录名字、笔迹或全存档。不默认安装远程分析 SDK。完整验收矩阵见 IMPLEMENTATION_PLAN。
+早期规划的 `editor_started / trial_started / fish_saved / fishing_started / fish_caught / save_failed` 通用事件记录尚未实现，不作为当前已交付能力。现有可观测性使用钓鱼诊断 HUD、60 秒 JSON 导出和主持人表单，未安装远程分析 SDK；是否增加通用事件应另按实际调试需求决定。完整验收设计见实施计划，当前结果见 PROJECT_STATUS。
 
 ## 12. 参考资料与后续接口
 

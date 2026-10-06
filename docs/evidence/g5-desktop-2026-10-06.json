@@ -1,0 +1,90 @@
+{
+  "schema": "fish-g5-desktop-evidence-v1",
+  "recordedDate": "2026-10-06",
+  "scope": "Historical desktop Edge evidence with simulated viewports and CDP touch; NOT physical iPad or family playtesting",
+  "sourceState": "Uncommitted G5 working tree; not a release artifact or an immutable commit reference",
+  "regeneratedTests": false,
+  "measurement": {
+    "startedAt": "2026-10-06T03:24:53.671Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "gpu": "ANGLE (AMD, AMD Radeon 780M Graphics (0x000015BF) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "viewport": {
+      "width": 768,
+      "height": 1024,
+      "devicePixelRatio": 2
+    },
+    "habitat": "reef-edge",
+    "assist": true,
+    "quality": "standard",
+    "dpr": 1.5,
+    "fps": 143.54019142025294,
+    "p95": 7.099999999998545,
+    "seconds": 60.0041,
+    "frames": 8613,
+    "complete": true,
+    "interruptions": 0,
+    "maxCalls": 73,
+    "maxTriangles": 100748,
+    "qualityChanges": 0,
+    "passesFrameBudget": true
+  },
+  "coldLoad": {
+    "environment": "desktop Edge, NOT physical iPad",
+    "network": "10Mbps / 20ms / disabled cache",
+    "results": [
+      {
+        "habitat": "reef-edge",
+        "readyMs": 896.6999999284744,
+        "bytes": 688284,
+        "glbs": 6,
+        "title": "珊瑚外缘"
+      },
+      {
+        "habitat": "coastal-rock",
+        "readyMs": 990.8999999761581,
+        "bytes": 791560,
+        "glbs": 6,
+        "title": "近岸岩礁"
+      }
+    ]
+  },
+  "stability": {
+    "switches": 20,
+    "activeScenes": 1,
+    "activeLoops": 1,
+    "resourcesByHabitat": {
+      "reef": 196,
+      "coast": 187
+    },
+    "errors": []
+  },
+  "adaptiveAndInput": {
+    "environment": "desktop CDP synthetic touch and deliberately throttled RAF, NOT physical iPad",
+    "autoDpr": "1.5 -> 1",
+    "dualTouch": true,
+    "oneFingerRelease": true,
+    "oppositeDirections": true,
+    "cancel": true,
+    "rotationClearsInput": true,
+    "area": {
+      "hudTop": 56.484375,
+      "hudBottom": 128.484375,
+      "buttonsTop": 294.28125,
+      "buttonsBottom": 374.28125,
+      "height": 390
+    },
+    "errors": []
+  },
+  "sourceFiles": [
+    ".verification/g5-desktop-60s.json",
+    ".verification/g5-preview-navigation.json",
+    ".verification/g5-stability.json",
+    ".verification/g5-adaptive-touch.json"
+  ],
+  "limitations": [
+    "Desktop GPU results cannot establish iPad performance.",
+    "Synthetic touch cannot establish real device input or VoiceOver.",
+    "Results predate subsequent documentation cleanup; this task did not rerun tests.",
+    "Raw scripts, logs and screenshots remain local ignored artifacts."
+  ]
+}

@@ -1,8 +1,8 @@
 # 钓鱼玩法重做：先做出一场好玩的拉锯
 
-2026-10-05 · 市场研究与玩法方向；用户已确认升级为 3D，尚未实施。沿用 6–10 岁、手机／平板、真实物种发现与放生的产品方向。以下时间、难度和成功率均为试验目标。
+2026-10-05 调研归档 · 2026-10-06 整理说明：本文保留当时的研究与取舍，下面“当前／下一步”均指调研时的旧版，不作为实时进度。3D G1–G4 与 G5 开发准备已实现，当前状态见 [PROJECT_STATUS.md](PROJECT_STATUS.md)。以下时间、难度和成功率均为当时试验目标。
 
-最新决策：海面采用角色背后 3D 视角，提竿成功后切水下近景，玩家看鱼的动作控竿／收放线。详细工程设计、素材、性能预算及五步开发顺序见 [FISHING_3D_DESIGN.md](FISHING_3D_DESIGN.md)，画面参考见 [3D 概念图](design/fishing-3d-concept.png)。之前的 2D 剖视原型已被用户否定，不再作为下一轮实施方向。
+现行决策：完整流程保持角色背后的海面抛竿与拉鱼，鼓轮随收线转动；最初“提竿切水下”的设想已被 2026-10-06 用户反馈修订，水下只保留开发练习。工程设计、素材与预算见 [FISHING_3D_DESIGN.md](FISHING_3D_DESIGN.md)，[概念图](../design/fishing-3d-concept.png) 保留作美术历史参考。
 
 ## 目前为什么缺少游戏感
 
@@ -10,7 +10,7 @@
 
 因此下一步应优先改变玩家观察和操作的对象：看鱼向哪里冲、看鱼竿怎样弯，再决定控竿和收线。张力仍是必要的反馈，但应服务这场拉锯。
 
-依据代码：[FishingScene.vue](src/components/FishingScene.vue)、[fishing.ts](src/domain/fishing.ts)、[FishingPage.vue](src/pages/FishingPage.vue)。这是针对现有实现的设计判断，仍需试玩验证。
+依据代码：[FishingScene.vue](../src/components/FishingScene.vue)、[fishing.ts](../src/domain/fishing.ts)、[FishingPage.vue](../src/pages/FishingPage.vue)。这是针对现有实现的设计判断，仍需试玩验证。
 
 ## 市面游戏参考与取舍
 
