@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "autoPlay": false,
   "overlap": false,
   "rightsStatus": "local-review-only",
@@ -1917,6 +1917,5346 @@
       "format": "PCM 24000 Hz, mono, 16 bit",
       "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
       "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-VTH-AA-BODY",
+      "text": "成鱼身体偏银灰色，鳍上可以带黄色。",
+      "factIds": [
+        "VTH-AA-01"
+      ],
+      "subjectId": "gnathanodon-speciosus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aa-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AA-YOUNG",
+      "text": "幼鱼是黄色的，身上有深色横带。",
+      "factIds": [
+        "VTH-AA-02"
+      ],
+      "subjectId": "gnathanodon-speciosus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aa-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AA-HOME",
+      "text": "幼鱼有时跟在大鱼和海龟旁边活动。",
+      "factIds": [
+        "VTH-AA-03"
+      ],
+      "subjectId": "gnathanodon-speciosus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aa-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AA-INTRO",
+      "text": "这是金鲹。成鱼身体偏银灰色，鳍上可以带黄色。",
+      "factIds": [
+        "VTH-AA-01"
+      ],
+      "subjectId": "gnathanodon-speciosus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aa-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AB-BODY",
+      "text": "军曹鱼身体细长，下巴向前伸。",
+      "factIds": [
+        "VTH-AB-01"
+      ],
+      "subjectId": "rachycentron-canadum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ab-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AB-DETAIL",
+      "text": "它两侧的胸鳍向后伸，末端尖尖的。",
+      "factIds": [
+        "VTH-AB-02"
+      ],
+      "subjectId": "rachycentron-canadum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ab-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AB-HOME",
+      "text": "它生活在温暖的近海，也会进入河口。",
+      "factIds": [
+        "VTH-AB-03"
+      ],
+      "subjectId": "rachycentron-canadum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ab-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AB-INTRO",
+      "text": "这是军曹鱼。军曹鱼身体细长，下巴向前伸。",
+      "factIds": [
+        "VTH-AB-01"
+      ],
+      "subjectId": "rachycentron-canadum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ab-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AC-BODY",
+      "text": "它的身体可以从绿褐色到红色，肚子颜色较浅。",
+      "factIds": [
+        "VTH-AC-01"
+      ],
+      "subjectId": "lutjanus-argentimaculatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ac-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AC-YOUNG",
+      "text": "幼鱼喜欢红树林河口，长大后会移向较深的礁区。",
+      "factIds": [
+        "VTH-AC-02"
+      ],
+      "subjectId": "lutjanus-argentimaculatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ac-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AC-FOOD",
+      "text": "它会吃小鱼、虾蟹和其他小动物。",
+      "factIds": [
+        "VTH-AC-03"
+      ],
+      "subjectId": "lutjanus-argentimaculatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ac-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AC-INTRO",
+      "text": "这是红树林红笛鲷。它的身体可以从绿褐色到红色，肚子颜色较浅。",
+      "factIds": [
+        "VTH-AC-01"
+      ],
+      "subjectId": "lutjanus-argentimaculatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ac-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AD-BODY",
+      "text": "它身体带金色光泽，背鳍下方有一块大黑斑。",
+      "factIds": [
+        "VTH-AD-01"
+      ],
+      "subjectId": "lutjanus-johnii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ad-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AD-HOME",
+      "text": "幼鱼会在红树林活动，成鱼也住近岸礁区。",
+      "factIds": [
+        "VTH-AD-02"
+      ],
+      "subjectId": "lutjanus-johnii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ad-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AD-FOOD",
+      "text": "它会吃鱼、虾蟹和头足类动物。",
+      "factIds": [
+        "VTH-AD-03"
+      ],
+      "subjectId": "lutjanus-johnii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ad-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AD-INTRO",
+      "text": "这是金目笛鲷。它身体带金色光泽，背鳍下方有一块大黑斑。",
+      "factIds": [
+        "VTH-AD-01"
+      ],
+      "subjectId": "lutjanus-johnii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ad-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AE-BODY",
+      "text": "幼鱼和年轻成鱼有三条明显的深红色带子。",
+      "factIds": [
+        "VTH-AE-01"
+      ],
+      "subjectId": "lutjanus-sebae",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ae-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AE-YOUNG",
+      "text": "小幼鱼会躲在海胆的棘之间。",
+      "factIds": [
+        "VTH-AE-02"
+      ],
+      "subjectId": "lutjanus-sebae",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ae-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AE-FOOD",
+      "text": "它会吃小鱼、虾蟹和头足类动物。",
+      "factIds": [
+        "VTH-AE-03"
+      ],
+      "subjectId": "lutjanus-sebae",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ae-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AE-INTRO",
+      "text": "这是红皇帝笛鲷。幼鱼和年轻成鱼有三条明显的深红色带子。",
+      "factIds": [
+        "VTH-AE-01"
+      ],
+      "subjectId": "lutjanus-sebae",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ae-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AF-BODY",
+      "text": "它鳞片上有浅色小点，眼睛周围还有蓝色线条。",
+      "factIds": [
+        "VTH-AF-01"
+      ],
+      "subjectId": "lethrinus-nebulosus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-af-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AF-HOME",
+      "text": "它能在礁区、海草床和近岸沙地生活。",
+      "factIds": [
+        "VTH-AF-02"
+      ],
+      "subjectId": "lethrinus-nebulosus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-af-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AF-FOOD",
+      "text": "它会吃贝类、虾蟹和棘皮动物。",
+      "factIds": [
+        "VTH-AF-03"
+      ],
+      "subjectId": "lethrinus-nebulosus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-af-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AF-INTRO",
+      "text": "这是星斑裸颊鲷。它鳞片上有浅色小点，眼睛周围还有蓝色线条。",
+      "factIds": [
+        "VTH-AF-01"
+      ],
+      "subjectId": "lethrinus-nebulosus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-af-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AG-BODY",
+      "text": "成年苏眉鱼的额头鼓起来，嘴唇也厚厚的。",
+      "factIds": [
+        "VTH-AG-01"
+      ],
+      "subjectId": "cheilinus-undulatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ag-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AG-DETAIL",
+      "text": "它身上有弯曲的线条，眼睛后面也有线。",
+      "factIds": [
+        "VTH-AG-02"
+      ],
+      "subjectId": "cheilinus-undulatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ag-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AG-FOOD",
+      "text": "它会吃贝类、海胆、虾蟹和鱼。",
+      "factIds": [
+        "VTH-AG-03"
+      ],
+      "subjectId": "cheilinus-undulatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ag-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AG-INTRO",
+      "text": "这是苏眉鱼。成年苏眉鱼的额头鼓起来，嘴唇也厚厚的。",
+      "factIds": [
+        "VTH-AG-01"
+      ],
+      "subjectId": "cheilinus-undulatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ag-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AH-BODY",
+      "text": "它的绿色身体上有红色线条。",
+      "factIds": [
+        "VTH-AH-01"
+      ],
+      "subjectId": "thalassoma-lunare",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ah-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AH-YOUNG",
+      "text": "幼鱼尾巴较平，成鱼尾巴像弯弯的月牙。",
+      "factIds": [
+        "VTH-AH-02"
+      ],
+      "subjectId": "thalassoma-lunare",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ah-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AH-HOME",
+      "text": "它生活在热带印度洋和太平洋的礁区。",
+      "factIds": [
+        "VTH-AH-03"
+      ],
+      "subjectId": "thalassoma-lunare",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ah-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AH-INTRO",
+      "text": "这是月尾隆头鱼。它的绿色身体上有红色线条。",
+      "factIds": [
+        "VTH-AH-01"
+      ],
+      "subjectId": "thalassoma-lunare",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ah-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AI-BODY",
+      "text": "它的身体会闪出蓝色和绿色的光泽。",
+      "factIds": [
+        "VTH-AI-01"
+      ],
+      "subjectId": "chromis-viridis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ai-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AI-HOME",
+      "text": "它常常成群，在分枝的珊瑚附近活动。",
+      "factIds": [
+        "VTH-AI-02"
+      ],
+      "subjectId": "chromis-viridis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ai-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AI-DETAIL",
+      "text": "这种蓝绿雀鲷的胸鳍根部，没有那种明显的黑斑。",
+      "factIds": [
+        "VTH-AI-03"
+      ],
+      "subjectId": "chromis-viridis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ai-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AI-INTRO",
+      "text": "这是蓝绿雀鲷。它的身体会闪出蓝色和绿色的光泽。",
+      "factIds": [
+        "VTH-AI-01"
+      ],
+      "subjectId": "chromis-viridis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ai-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AJ-BODY",
+      "text": "它身体下半部的黑色底上，有很大的白色圆点。",
+      "factIds": [
+        "VTH-AJ-01"
+      ],
+      "subjectId": "balistoides-conspicillum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aj-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AJ-DETAIL",
+      "text": "背部还有黄白色的网状花纹。",
+      "factIds": [
+        "VTH-AJ-02"
+      ],
+      "subjectId": "balistoides-conspicillum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aj-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AJ-DETAILTWO",
+      "text": "它的嘴唇周围有橙色，尾根有浅色带子。",
+      "factIds": [
+        "VTH-AJ-03"
+      ],
+      "subjectId": "balistoides-conspicillum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aj-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AJ-INTRO",
+      "text": "这是花纹鳞鲀。它身体下半部的黑色底上，有很大的白色圆点。",
+      "factIds": [
+        "VTH-AJ-01"
+      ],
+      "subjectId": "balistoides-conspicillum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aj-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AK-BODY",
+      "text": "它身体细长，褐色底上有深色斑点。",
+      "factIds": [
+        "VTH-AK-01"
+      ],
+      "subjectId": "gymnothorax-javanicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ak-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AK-DETAIL",
+      "text": "它鳃口附近有一块明显的黑色区域。",
+      "factIds": [
+        "VTH-AK-02"
+      ],
+      "subjectId": "gymnothorax-javanicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ak-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AK-HOME",
+      "text": "它会待在珊瑚礁的洞、缝隙和岩檐下面。",
+      "factIds": [
+        "VTH-AK-03"
+      ],
+      "subjectId": "gymnothorax-javanicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ak-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AK-INTRO",
+      "text": "这是巨型裸胸鳝。它身体细长，褐色底上有深色斑点。",
+      "factIds": [
+        "VTH-AK-01"
+      ],
+      "subjectId": "gymnothorax-javanicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ak-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AL-BODY",
+      "text": "它身体高而侧扁，胸鳍下面有深色斑块。",
+      "factIds": [
+        "VTH-AL-01"
+      ],
+      "subjectId": "platax-teira",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-al-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AL-YOUNG",
+      "text": "很小的幼鱼是褐色的，看起来像漂浮的叶子。",
+      "factIds": [
+        "VTH-AL-02"
+      ],
+      "subjectId": "platax-teira",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-al-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AL-FOOD",
+      "text": "它会吃藻类、浮游动物和海底小动物。",
+      "factIds": [
+        "VTH-AL-03"
+      ],
+      "subjectId": "platax-teira",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-al-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AL-INTRO",
+      "text": "这是长鳍燕鱼。它身体高而侧扁，胸鳍下面有深色斑块。",
+      "factIds": [
+        "VTH-AL-01"
+      ],
+      "subjectId": "platax-teira",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-al-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AM-BODY",
+      "text": "它身体细长，嘴也像一根小管子。",
+      "factIds": [
+        "VTH-AM-01"
+      ],
+      "subjectId": "aulostomus-chinensis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-am-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AM-COLOR",
+      "text": "这种鱼有褐色、绿色和黄色等色型，还能改变颜色。",
+      "factIds": [
+        "VTH-AM-02"
+      ],
+      "subjectId": "aulostomus-chinensis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-am-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AM-HOME",
+      "text": "它生活在珊瑚礁附近。",
+      "factIds": [
+        "VTH-AM-03"
+      ],
+      "subjectId": "aulostomus-chinensis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-am-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AM-INTRO",
+      "text": "这是中国管口鱼。它身体细长，嘴也像一根小管子。",
+      "factIds": [
+        "VTH-AM-01"
+      ],
+      "subjectId": "aulostomus-chinensis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-am-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AN-BODY",
+      "text": "大西洋鲑在海里时，身体两侧是银色的。",
+      "factIds": [
+        "VTH-AN-01"
+      ],
+      "subjectId": "salmo-salar",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-an-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AN-YOUNG",
+      "text": "幼鱼颜色偏褐，身上有深色竖条和小点。",
+      "factIds": [
+        "VTH-AN-02"
+      ],
+      "subjectId": "salmo-salar",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-an-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AN-HOME",
+      "text": "它在河里出生，到海里长大，再回河里繁殖。",
+      "factIds": [
+        "VTH-AN-03"
+      ],
+      "subjectId": "salmo-salar",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-an-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AN-INTRO",
+      "text": "这是大西洋鲑。大西洋鲑在海里时，身体两侧是银色的。",
+      "factIds": [
+        "VTH-AN-01"
+      ],
+      "subjectId": "salmo-salar",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-an-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AO-BODY",
+      "text": "它的蓝绿色背部有深色波浪线，肚子较白。",
+      "factIds": [
+        "VTH-AO-01"
+      ],
+      "subjectId": "scomber-scombrus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ao-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AO-DETAIL",
+      "text": "它身体两头较细，像一枚小梭子。",
+      "factIds": [
+        "VTH-AO-02"
+      ],
+      "subjectId": "scomber-scombrus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ao-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AO-FOOD",
+      "text": "它会吃小虾、小鱼和其他海里小动物。",
+      "factIds": [
+        "VTH-AO-03"
+      ],
+      "subjectId": "scomber-scombrus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ao-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AO-INTRO",
+      "text": "这是大西洋鲭。它的蓝绿色背部有深色波浪线，肚子较白。",
+      "factIds": [
+        "VTH-AO-01"
+      ],
+      "subjectId": "scomber-scombrus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ao-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AP-BODY",
+      "text": "它身体银亮，背部带蓝绿色。",
+      "factIds": [
+        "VTH-AP-01"
+      ],
+      "subjectId": "clupea-harengus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ap-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AP-HOME",
+      "text": "它们常常聚成鱼群，一起觅食和活动。",
+      "factIds": [
+        "VTH-AP-02"
+      ],
+      "subjectId": "clupea-harengus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ap-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AP-FOOD",
+      "text": "它会吃浮游动物和小型甲壳动物。",
+      "factIds": [
+        "VTH-AP-03"
+      ],
+      "subjectId": "clupea-harengus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ap-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AP-INTRO",
+      "text": "这是大西洋鲱。它身体银亮，背部带蓝绿色。",
+      "factIds": [
+        "VTH-AP-01"
+      ],
+      "subjectId": "clupea-harengus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ap-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AQ-BODY",
+      "text": "夏鲆身体扁平，上面较深，下面较白。",
+      "factIds": [
+        "VTH-AQ-01"
+      ],
+      "subjectId": "paralichthys-dentatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aq-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AQ-YOUNG",
+      "text": "它长大时，右边的眼睛会移到身体左边。",
+      "factIds": [
+        "VTH-AQ-02"
+      ],
+      "subjectId": "paralichthys-dentatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aq-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AQ-COLOR",
+      "text": "它能改变身体颜色，配合周围海底的样子。",
+      "factIds": [
+        "VTH-AQ-03"
+      ],
+      "subjectId": "paralichthys-dentatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aq-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AQ-INTRO",
+      "text": "这是夏鲆。夏鲆身体扁平，上面较深，下面较白。",
+      "factIds": [
+        "VTH-AQ-01"
+      ],
+      "subjectId": "paralichthys-dentatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aq-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AR-BODY",
+      "text": "它第一片背鳍和尾巴下叶，末端是黑色的。",
+      "factIds": [
+        "VTH-AR-01"
+      ],
+      "subjectId": "carcharhinus-melanopterus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ar-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AR-HOME",
+      "text": "它常在珊瑚礁附近的浅海活动。",
+      "factIds": [
+        "VTH-AR-02"
+      ],
+      "subjectId": "carcharhinus-melanopterus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ar-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AR-DETAIL",
+      "text": "它属于软骨鱼类，也是海里的鱼。",
+      "factIds": [
+        "VTH-AR-03"
+      ],
+      "subjectId": "carcharhinus-melanopterus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ar-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AR-INTRO",
+      "text": "这是黑鳍礁鲨。它第一片背鳍和尾巴下叶，末端是黑色的。",
+      "factIds": [
+        "VTH-AR-01"
+      ],
+      "subjectId": "carcharhinus-melanopterus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ar-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AS-BODY",
+      "text": "鲸鲨的深色背部有浅色点点和条纹。",
+      "factIds": [
+        "VTH-AS-01"
+      ],
+      "subjectId": "rhincodon-typus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-as-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AS-DETAIL",
+      "text": "它的头很宽、很平，嘴在头部前方。",
+      "factIds": [
+        "VTH-AS-02"
+      ],
+      "subjectId": "rhincodon-typus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-as-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AS-FOOD",
+      "text": "它能把水吸进大嘴，过滤浮游动物和其他小食物。",
+      "factIds": [
+        "VTH-AS-03"
+      ],
+      "subjectId": "rhincodon-typus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-as-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AS-INTRO",
+      "text": "这是鲸鲨。鲸鲨的深色背部有浅色点点和条纹。",
+      "factIds": [
+        "VTH-AS-01"
+      ],
+      "subjectId": "rhincodon-typus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-as-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AT-BODY",
+      "text": "它扁扁的身体和腹鳍上，有亮蓝色的小点。",
+      "factIds": [
+        "VTH-AT-01"
+      ],
+      "subjectId": "taeniura-lymma",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-at-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AT-DETAIL",
+      "text": "它尾巴两边各有一条蓝色线。",
+      "factIds": [
+        "VTH-AT-02"
+      ],
+      "subjectId": "taeniura-lymma",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-at-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AT-FOOD",
+      "text": "涨潮时它会进入浅水，寻找贝类等食物。",
+      "factIds": [
+        "VTH-AT-03"
+      ],
+      "subjectId": "taeniura-lymma",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-at-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AT-INTRO",
+      "text": "这是蓝点扇尾魟。它扁扁的身体和腹鳍上，有亮蓝色的小点。",
+      "factIds": [
+        "VTH-AT-01"
+      ],
+      "subjectId": "taeniura-lymma",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-at-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AU-BODY",
+      "text": "它身体两侧有宽宽的黑色条纹。",
+      "factIds": [
+        "VTH-AU-01"
+      ],
+      "subjectId": "periophthalmodon-schlosseri",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-au-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AU-HOME",
+      "text": "它住在红树林和潮间带泥滩，会在水外活动。",
+      "factIds": [
+        "VTH-AU-02"
+      ],
+      "subjectId": "periophthalmodon-schlosseri",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-au-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AU-DETAIL",
+      "text": "它两侧厚厚的胸鳍，能帮助它在泥上移动。",
+      "factIds": [
+        "VTH-AU-03"
+      ],
+      "subjectId": "periophthalmodon-schlosseri",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-au-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AU-INTRO",
+      "text": "这是大弹涂鱼。它身体两侧有宽宽的黑色条纹。",
+      "factIds": [
+        "VTH-AU-01"
+      ],
+      "subjectId": "periophthalmodon-schlosseri",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-au-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AV-BODY",
+      "text": "它头顶伸出一根像鱼竿的结构，末端能发光。",
+      "factIds": [
+        "VTH-AV-01"
+      ],
+      "subjectId": "melanocetus-johnsonii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-av-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AV-FOOD",
+      "text": "它用这点光，在黑暗中吸引猎物。",
+      "factIds": [
+        "VTH-AV-02"
+      ],
+      "subjectId": "melanocetus-johnsonii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-av-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AV-HOME",
+      "text": "研究人员曾在五百八十米深的海里拍到它。",
+      "factIds": [
+        "VTH-AV-03"
+      ],
+      "subjectId": "melanocetus-johnsonii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-av-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AV-INTRO",
+      "text": "这是黑角鮟鱇。它头顶伸出一根像鱼竿的结构，末端能发光。",
+      "factIds": [
+        "VTH-AV-01"
+      ],
+      "subjectId": "melanocetus-johnsonii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-av-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AW-BODY",
+      "text": "真鲷身体淡红，肚子较白，尾巴分叉。",
+      "factIds": [
+        "VTH-AW-01"
+      ],
+      "subjectId": "pagrus-major",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aw-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AW-HOME",
+      "text": "它住在海里的沙泥底，也会在礁石附近活动。",
+      "factIds": [
+        "VTH-AW-02"
+      ],
+      "subjectId": "pagrus-major",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aw-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AW-FOOD",
+      "text": "它会吃生活在海底的小动物。",
+      "factIds": [
+        "VTH-AW-03"
+      ],
+      "subjectId": "pagrus-major",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aw-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AW-INTRO",
+      "text": "这是真鲷。真鲷身体淡红，肚子较白，尾巴分叉。",
+      "factIds": [
+        "VTH-AW-01"
+      ],
+      "subjectId": "pagrus-major",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-aw-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AX-BODY",
+      "text": "它的胸鳍、腹鳍和臀鳍，可以呈鲜黄色。",
+      "factIds": [
+        "VTH-AX-01"
+      ],
+      "subjectId": "acanthopagrus-latus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ax-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AX-HOME",
+      "text": "它生活在沿岸沙泥底，也会进入河口。",
+      "factIds": [
+        "VTH-AX-02"
+      ],
+      "subjectId": "acanthopagrus-latus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ax-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AX-FOOD",
+      "text": "它会吃蠕虫、贝类、虾蟹和小鱼。",
+      "factIds": [
+        "VTH-AX-03"
+      ],
+      "subjectId": "acanthopagrus-latus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ax-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AX-INTRO",
+      "text": "这是黄鳍鲷。它的胸鳍、腹鳍和臀鳍，可以呈鲜黄色。",
+      "factIds": [
+        "VTH-AX-01"
+      ],
+      "subjectId": "acanthopagrus-latus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ax-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AY-BODY",
+      "text": "它身体细长，头的上面宽而平，嘴较小。",
+      "factIds": [
+        "VTH-AY-01"
+      ],
+      "subjectId": "mugil-cephalus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ay-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AY-HOME",
+      "text": "它会在海岸、河口和河流下段活动。",
+      "factIds": [
+        "VTH-AY-02"
+      ],
+      "subjectId": "mugil-cephalus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ay-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AY-FOOD",
+      "text": "成鱼常在底部寻找藻类和有机碎屑。",
+      "factIds": [
+        "VTH-AY-03"
+      ],
+      "subjectId": "mugil-cephalus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ay-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AY-INTRO",
+      "text": "这是鲻鱼。它身体细长，头的上面宽而平，嘴较小。",
+      "factIds": [
+        "VTH-AY-01"
+      ],
+      "subjectId": "mugil-cephalus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ay-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AZ-BODY",
+      "text": "银鲳身体很扁，肚子银白，嘴较小。",
+      "factIds": [
+        "VTH-AZ-01"
+      ],
+      "subjectId": "pampus-argenteus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-az-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AZ-DETAIL",
+      "text": "成鱼没有通常长在肚子下面的腹鳍。",
+      "factIds": [
+        "VTH-AZ-02"
+      ],
+      "subjectId": "pampus-argenteus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-az-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AZ-FOOD",
+      "text": "它会吃水母和浮游动物。",
+      "factIds": [
+        "VTH-AZ-03"
+      ],
+      "subjectId": "pampus-argenteus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-az-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-AZ-INTRO",
+      "text": "这是银鲳。银鲳身体很扁，肚子银白，嘴较小。",
+      "factIds": [
+        "VTH-AZ-01"
+      ],
+      "subjectId": "pampus-argenteus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-az-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BA-BODY",
+      "text": "它身体较高，鼻子圆圆的，成鱼可以带金橙色。",
+      "factIds": [
+        "VTH-BA-01"
+      ],
+      "subjectId": "trachinotus-blochii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ba-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BA-HOME",
+      "text": "它常在靠近礁区的浅海活动。",
+      "factIds": [
+        "VTH-BA-02"
+      ],
+      "subjectId": "trachinotus-blochii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ba-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BA-FOOD",
+      "text": "它会吃带硬壳的贝类和其他无脊椎动物。",
+      "factIds": [
+        "VTH-BA-03"
+      ],
+      "subjectId": "trachinotus-blochii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ba-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BA-INTRO",
+      "text": "这是金鲳。它身体较高，鼻子圆圆的，成鱼可以带金橙色。",
+      "factIds": [
+        "VTH-BA-01"
+      ],
+      "subjectId": "trachinotus-blochii",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ba-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BB-BODY",
+      "text": "它每侧胸鳍下面，有四根分开的丝状鳍条。",
+      "factIds": [
+        "VTH-BB-01"
+      ],
+      "subjectId": "eleutheronema-tetradactylum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bb-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BB-DETAIL",
+      "text": "它背上有两片分开的背鳍。",
+      "factIds": [
+        "VTH-BB-02"
+      ],
+      "subjectId": "eleutheronema-tetradactylum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bb-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BB-HOME",
+      "text": "它可以生活在沿岸浅海和河口附近。",
+      "factIds": [
+        "VTH-BB-03"
+      ],
+      "subjectId": "eleutheronema-tetradactylum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bb-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BB-INTRO",
+      "text": "这是马友。它每侧胸鳍下面，有四根分开的丝状鳍条。",
+      "factIds": [
+        "VTH-BB-01"
+      ],
+      "subjectId": "eleutheronema-tetradactylum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bb-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BC-BODY",
+      "text": "它身体上方有小蓝点，下方有银蓝色波浪线。",
+      "factIds": [
+        "VTH-BC-01"
+      ],
+      "subjectId": "siganus-javus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bc-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BC-DETAIL",
+      "text": "它身体高而侧扁，嘴小，鼻子尖尖的。",
+      "factIds": [
+        "VTH-BC-02"
+      ],
+      "subjectId": "siganus-javus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bc-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BC-FOOD",
+      "text": "它会吃礁石上的藻类和小型水生植物。",
+      "factIds": [
+        "VTH-BC-03"
+      ],
+      "subjectId": "siganus-javus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bc-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BC-INTRO",
+      "text": "这是条纹篮子鱼。它身体上方有小蓝点，下方有银蓝色波浪线。",
+      "factIds": [
+        "VTH-BC-01"
+      ],
+      "subjectId": "siganus-javus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BD-BODY",
+      "text": "成鱼的鳍带着漂亮的蓝色。",
+      "factIds": [
+        "VTH-BD-01"
+      ],
+      "subjectId": "caranx-melampygus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bd-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BD-DETAIL",
+      "text": "成鱼身体两侧，有蓝色和黑色的小点。",
+      "factIds": [
+        "VTH-BD-02"
+      ],
+      "subjectId": "caranx-melampygus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bd-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BD-HOME",
+      "text": "它会在礁区、礁湖和水道活动。",
+      "factIds": [
+        "VTH-BD-03"
+      ],
+      "subjectId": "caranx-melampygus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bd-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BD-INTRO",
+      "text": "这是蓝鳍鲹。成鱼的鳍带着漂亮的蓝色。",
+      "factIds": [
+        "VTH-BD-01"
+      ],
+      "subjectId": "caranx-melampygus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bd-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BE-BODY",
+      "text": "它身体粗壮而流线形，背部深蓝，肚子较白。",
+      "factIds": [
+        "VTH-BE-01"
+      ],
+      "subjectId": "thunnus-thynnus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-be-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BE-DETAIL",
+      "text": "大西洋蓝鳍金枪鱼的胸鳍，比一些金枪鱼短。",
+      "factIds": [
+        "VTH-BE-02"
+      ],
+      "subjectId": "thunnus-thynnus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-be-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BE-FOOD",
+      "text": "成鱼主要吃鲱鱼、鲭鱼等小型鱼。",
+      "factIds": [
+        "VTH-BE-03"
+      ],
+      "subjectId": "thunnus-thynnus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-be-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BE-INTRO",
+      "text": "这是大西洋蓝鳍金枪鱼。它身体粗壮而流线形，背部深蓝，肚子较白。",
+      "factIds": [
+        "VTH-BE-01"
+      ],
+      "subjectId": "thunnus-thynnus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-be-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BF-BODY",
+      "text": "它身体下半部，有四到六条深色纵向条纹。",
+      "factIds": [
+        "VTH-BF-01"
+      ],
+      "subjectId": "katsuwonus-pelamis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bf-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BF-HOME",
+      "text": "它主要生活在温暖海洋的开阔水域。",
+      "factIds": [
+        "VTH-BF-02"
+      ],
+      "subjectId": "katsuwonus-pelamis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bf-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BF-FOOD",
+      "text": "它会吃鱼、虾蟹和头足类动物。",
+      "factIds": [
+        "VTH-BF-03"
+      ],
+      "subjectId": "katsuwonus-pelamis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bf-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BF-INTRO",
+      "text": "这是鲣鱼。它身体下半部，有四到六条深色纵向条纹。",
+      "factIds": [
+        "VTH-BF-01"
+      ],
+      "subjectId": "katsuwonus-pelamis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bf-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BG-BODY",
+      "text": "它的上颌向前伸，长而扁，像一把剑。",
+      "factIds": [
+        "VTH-BG-01"
+      ],
+      "subjectId": "xiphias-gladius",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bg-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BG-DETAIL",
+      "text": "它的尾巴宽宽的，弯成月牙形。",
+      "factIds": [
+        "VTH-BG-02"
+      ],
+      "subjectId": "xiphias-gladius",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bg-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BG-COLOR",
+      "text": "它身体上面颜色深，下面颜色较浅。",
+      "factIds": [
+        "VTH-BG-03"
+      ],
+      "subjectId": "xiphias-gladius",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bg-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BG-INTRO",
+      "text": "这是剑鱼。它的上颌向前伸，长而扁，像一把剑。",
+      "factIds": [
+        "VTH-BG-01"
+      ],
+      "subjectId": "xiphias-gladius",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bg-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BH-BODY",
+      "text": "它的背鳍又高又长，像一面展开的帆。",
+      "factIds": [
+        "VTH-BH-01"
+      ],
+      "subjectId": "istiophorus-platypterus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bh-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BH-DETAIL",
+      "text": "它的吻很长，横截面较圆，和剑鱼的扁剑不同。",
+      "factIds": [
+        "VTH-BH-02"
+      ],
+      "subjectId": "istiophorus-platypterus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bh-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BH-FOOD",
+      "text": "它会在外海寻找小鱼和鱿鱼。",
+      "factIds": [
+        "VTH-BH-03"
+      ],
+      "subjectId": "istiophorus-platypterus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bh-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BH-INTRO",
+      "text": "这是旗鱼。它的背鳍又高又长，像一面展开的帆。",
+      "factIds": [
+        "VTH-BH-01"
+      ],
+      "subjectId": "istiophorus-platypterus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bh-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BI-BODY",
+      "text": "它背部蓝绿色，身体下方带金色和银色。",
+      "factIds": [
+        "VTH-BI-01"
+      ],
+      "subjectId": "coryphaena-hippurus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bi-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BI-DETAIL",
+      "text": "成年雄鱼额头较方，成年雌鱼额头较圆。",
+      "factIds": [
+        "VTH-BI-02"
+      ],
+      "subjectId": "coryphaena-hippurus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bi-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BI-FOOD",
+      "text": "它会在海面附近捕食小鱼和无脊椎动物。",
+      "factIds": [
+        "VTH-BI-03"
+      ],
+      "subjectId": "coryphaena-hippurus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bi-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BI-INTRO",
+      "text": "这是鲯鳅。它背部蓝绿色，身体下方带金色和银色。",
+      "factIds": [
+        "VTH-BI-01"
+      ],
+      "subjectId": "coryphaena-hippurus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bi-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BJ-BODY",
+      "text": "它背部绿色或橄榄色，肚子银白，体侧有深色小点。",
+      "factIds": [
+        "VTH-BJ-01"
+      ],
+      "subjectId": "sardina-pilchardus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bj-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BJ-HOME",
+      "text": "它是沿岸的鱼，会组成很大的鱼群。",
+      "factIds": [
+        "VTH-BJ-02"
+      ],
+      "subjectId": "sardina-pilchardus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bj-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BJ-FOOD",
+      "text": "它主要吃水中小型甲壳类等浮游动物。",
+      "factIds": [
+        "VTH-BJ-03"
+      ],
+      "subjectId": "sardina-pilchardus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bj-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BJ-INTRO",
+      "text": "这是欧洲沙丁鱼。它背部绿色或橄榄色，肚子银白，体侧有深色小点。",
+      "factIds": [
+        "VTH-BJ-01"
+      ],
+      "subjectId": "sardina-pilchardus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bj-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BK-BODY",
+      "text": "它的鼻子向前伸，嘴在鼻子下面，裂得较大。",
+      "factIds": [
+        "VTH-BK-01"
+      ],
+      "subjectId": "engraulis-encrasicolus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bk-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BK-HOME",
+      "text": "它们会形成大鱼群，在沿岸和河口活动。",
+      "factIds": [
+        "VTH-BK-02"
+      ],
+      "subjectId": "engraulis-encrasicolus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bk-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BK-DETAIL",
+      "text": "这种鳀鱼分布在东大西洋和地中海等海域。",
+      "factIds": [
+        "VTH-BK-03"
+      ],
+      "subjectId": "engraulis-encrasicolus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bk-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BK-INTRO",
+      "text": "这是欧洲鳀鱼。它的鼻子向前伸，嘴在鼻子下面，裂得较大。",
+      "factIds": [
+        "VTH-BK-01"
+      ],
+      "subjectId": "engraulis-encrasicolus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bk-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BL-BODY",
+      "text": "它身体侧面的线，排列着较高、较硬的鳞。",
+      "factIds": [
+        "VTH-BL-01"
+      ],
+      "subjectId": "trachurus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bl-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BL-HOME",
+      "text": "它们一般成群，在近岸水域活动。",
+      "factIds": [
+        "VTH-BL-02"
+      ],
+      "subjectId": "trachurus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bl-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BL-FOOD",
+      "text": "它主要吃小型甲壳动物和鱼。",
+      "factIds": [
+        "VTH-BL-03"
+      ],
+      "subjectId": "trachurus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bl-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BL-INTRO",
+      "text": "这是日本竹荚鱼。它身体侧面的线，排列着较高、较硬的鳞。",
+      "factIds": [
+        "VTH-BL-01"
+      ],
+      "subjectId": "trachurus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bl-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BM-BODY",
+      "text": "它下巴有一根长须，身体褐灰色，肚子较浅。",
+      "factIds": [
+        "VTH-BM-01"
+      ],
+      "subjectId": "gadus-macrocephalus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bm-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BM-HOME",
+      "text": "较大的鱼常在北太平洋的海底附近活动。",
+      "factIds": [
+        "VTH-BM-02"
+      ],
+      "subjectId": "gadus-macrocephalus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bm-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BM-FOOD",
+      "text": "它会吃贝类、蠕虫、虾蟹和小鱼。",
+      "factIds": [
+        "VTH-BM-03"
+      ],
+      "subjectId": "gadus-macrocephalus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bm-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BM-INTRO",
+      "text": "这是太平洋鳕。它下巴有一根长须，身体褐灰色，肚子较浅。",
+      "factIds": [
+        "VTH-BM-01"
+      ],
+      "subjectId": "gadus-macrocephalus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bm-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BN-BODY",
+      "text": "狭鳕属于鳕鱼家族，身体上有斑驳的花纹。",
+      "factIds": [
+        "VTH-BN-01"
+      ],
+      "subjectId": "gadus-chalcogrammus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bn-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BN-YOUNG",
+      "text": "幼鱼较常在水中层，大鱼更常接近海底。",
+      "factIds": [
+        "VTH-BN-02"
+      ],
+      "subjectId": "gadus-chalcogrammus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bn-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BN-HOME",
+      "text": "它们生活在北太平洋，常组成很大的鱼群。",
+      "factIds": [
+        "VTH-BN-03"
+      ],
+      "subjectId": "gadus-chalcogrammus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bn-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BN-INTRO",
+      "text": "这是狭鳕。狭鳕属于鳕鱼家族，身体上有斑驳的花纹。",
+      "factIds": [
+        "VTH-BN-01"
+      ],
+      "subjectId": "gadus-chalcogrammus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bn-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BO-BODY",
+      "text": "它身体两侧有黑色斑块，像一枚黑色指印。",
+      "factIds": [
+        "VTH-BO-01"
+      ],
+      "subjectId": "melanogrammus-aeglefinus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bo-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BO-DETAIL",
+      "text": "黑线鳕也是鳕鱼家族的一员。",
+      "factIds": [
+        "VTH-BO-02"
+      ],
+      "subjectId": "melanogrammus-aeglefinus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bo-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BO-FOOD",
+      "text": "它会在海底寻找贝类、蠕虫和棘皮动物。",
+      "factIds": [
+        "VTH-BO-03"
+      ],
+      "subjectId": "melanogrammus-aeglefinus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bo-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BO-INTRO",
+      "text": "这是黑线鳕。它身体两侧有黑色斑块，像一枚黑色指印。",
+      "factIds": [
+        "VTH-BO-01"
+      ],
+      "subjectId": "melanogrammus-aeglefinus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bo-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BP-BODY",
+      "text": "这种大比目鱼的两只眼睛，都在身体右侧。",
+      "factIds": [
+        "VTH-BP-01"
+      ],
+      "subjectId": "hippoglossus-hippoglossus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bp-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BP-HOME",
+      "text": "它生活在北大西洋的海底附近。",
+      "factIds": [
+        "VTH-BP-02"
+      ],
+      "subjectId": "hippoglossus-hippoglossus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bp-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BP-FOOD",
+      "text": "幼鱼吃小型无脊椎动物，成鱼主要吃鱼。",
+      "factIds": [
+        "VTH-BP-03"
+      ],
+      "subjectId": "hippoglossus-hippoglossus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bp-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BP-INTRO",
+      "text": "这是大西洋大比目鱼。这种大比目鱼的两只眼睛，都在身体右侧。",
+      "factIds": [
+        "VTH-BP-01"
+      ],
+      "subjectId": "hippoglossus-hippoglossus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bp-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BQ-BODY",
+      "text": "它身上有像叶子的突出部分，还有细长的管状嘴。",
+      "factIds": [
+        "VTH-BQ-01"
+      ],
+      "subjectId": "phycodurus-eques",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bq-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BQ-HOME",
+      "text": "它生活在澳大利亚温带海域的海藻岩礁。",
+      "factIds": [
+        "VTH-BQ-02"
+      ],
+      "subjectId": "phycodurus-eques",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bq-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BQ-EGGS",
+      "text": "雄叶海龙会把卵带在尾巴下面。",
+      "factIds": [
+        "VTH-BQ-03"
+      ],
+      "subjectId": "phycodurus-eques",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bq-eggs.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BQ-INTRO",
+      "text": "这是叶海龙。它身上有像叶子的突出部分，还有细长的管状嘴。",
+      "factIds": [
+        "VTH-BQ-01"
+      ],
+      "subjectId": "phycodurus-eques",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bq-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BR-BODY",
+      "text": "它灰褐色身体和鳍上有黑点，身体有长棘。",
+      "factIds": [
+        "VTH-BR-01"
+      ],
+      "subjectId": "diodon-hystrix",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-br-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BR-DETAIL",
+      "text": "遇到威胁时，它会吸水鼓起，棘也会竖起。",
+      "factIds": [
+        "VTH-BR-02"
+      ],
+      "subjectId": "diodon-hystrix",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-br-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BR-FOOD",
+      "text": "它常在夜里寻找海螺、寄居蟹和海胆。",
+      "factIds": [
+        "VTH-BR-03"
+      ],
+      "subjectId": "diodon-hystrix",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-br-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BR-INTRO",
+      "text": "这是密斑刺鲀。它灰褐色身体和鳍上有黑点，身体有长棘。",
+      "factIds": [
+        "VTH-BR-01"
+      ],
+      "subjectId": "diodon-hystrix",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-br-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BS-BODY",
+      "text": "它胸鳍和背鳍很长，浅色身体上有红色到黑色条带。",
+      "factIds": [
+        "VTH-BS-01"
+      ],
+      "subjectId": "pterois-volitans",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bs-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BS-DETAIL",
+      "text": "它两只眼睛上方，通常各有一个突出的小须。",
+      "factIds": [
+        "VTH-BS-02"
+      ],
+      "subjectId": "pterois-volitans",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bs-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BS-HOME",
+      "text": "它原本广泛分布在热带印度洋和太平洋。",
+      "factIds": [
+        "VTH-BS-03"
+      ],
+      "subjectId": "pterois-volitans",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bs-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BS-INTRO",
+      "text": "这是蓑鲉。它胸鳍和背鳍很长，浅色身体上有红色到黑色条带。",
+      "factIds": [
+        "VTH-BS-01"
+      ],
+      "subjectId": "pterois-volitans",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bs-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BT-BODY",
+      "text": "它的胸鳍很大，看起来像一对展开的翅膀。",
+      "factIds": [
+        "VTH-BT-01"
+      ],
+      "subjectId": "cheilopogon-pinnatibarbatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bt-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BT-DETAIL",
+      "text": "这种飞鱼的背鳍有大黑斑，尾鳍也是深色的。",
+      "factIds": [
+        "VTH-BT-02"
+      ],
+      "subjectId": "cheilopogon-pinnatibarbatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bt-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BT-FOOD",
+      "text": "它会吃浮游动物和小鱼。",
+      "factIds": [
+        "VTH-BT-03"
+      ],
+      "subjectId": "cheilopogon-pinnatibarbatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bt-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BT-INTRO",
+      "text": "这是高鳍飞鱼。它的胸鳍很大，看起来像一对展开的翅膀。",
+      "factIds": [
+        "VTH-BT-01"
+      ],
+      "subjectId": "cheilopogon-pinnatibarbatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bt-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BU-BODY",
+      "text": "它身体大而圆，嘴相比之下很小。",
+      "factIds": [
+        "VTH-BU-01"
+      ],
+      "subjectId": "mola-mola",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bu-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BU-DETAIL",
+      "text": "它没有通常那样的尾鳍，身体后方是特殊的舵状结构。",
+      "factIds": [
+        "VTH-BU-02"
+      ],
+      "subjectId": "mola-mola",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bu-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BU-DETAILTWO",
+      "text": "它摆动背鳍和臀鳍，在水中前进。",
+      "factIds": [
+        "VTH-BU-03"
+      ],
+      "subjectId": "mola-mola",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bu-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BU-INTRO",
+      "text": "这是翻车鱼。它身体大而圆，嘴相比之下很小。",
+      "factIds": [
+        "VTH-BU-01"
+      ],
+      "subjectId": "mola-mola",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bu-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BV-BODY",
+      "text": "它身体细长，褐色底上有深色带子和白点。",
+      "factIds": [
+        "VTH-BV-01"
+      ],
+      "subjectId": "chiloscyllium-plagiosum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bv-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BV-HOME",
+      "text": "它是喜欢夜间活动的礁区鲨鱼。",
+      "factIds": [
+        "VTH-BV-02"
+      ],
+      "subjectId": "chiloscyllium-plagiosum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bv-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BV-EGGS",
+      "text": "这种鲨鱼会产卵，小鲨鱼在卵壳里发育后出来。",
+      "factIds": [
+        "VTH-BV-03"
+      ],
+      "subjectId": "chiloscyllium-plagiosum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bv-eggs.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BV-INTRO",
+      "text": "这是白斑竹鲨。它身体细长，褐色底上有深色带子和白点。",
+      "factIds": [
+        "VTH-BV-01"
+      ],
+      "subjectId": "chiloscyllium-plagiosum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bv-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BW-BODY",
+      "text": "成鱼黄褐色，有深色斑点，尾巴特别长。",
+      "factIds": [
+        "VTH-BW-01"
+      ],
+      "subjectId": "stegostoma-tigrinum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bw-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BW-YOUNG",
+      "text": "幼鱼身上有浅色条带，长大才变成斑点。",
+      "factIds": [
+        "VTH-BW-02"
+      ],
+      "subjectId": "stegostoma-tigrinum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bw-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BW-DETAIL",
+      "text": "它背部和体侧，有明显的纵向脊。",
+      "factIds": [
+        "VTH-BW-03"
+      ],
+      "subjectId": "stegostoma-tigrinum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bw-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BW-INTRO",
+      "text": "这是豹纹鲨。成鱼黄褐色，有深色斑点，尾巴特别长。",
+      "factIds": [
+        "VTH-BW-01"
+      ],
+      "subjectId": "stegostoma-tigrinum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bw-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BX-BODY",
+      "text": "它的头向两侧展开，前缘中央有一个凹口。",
+      "factIds": [
+        "VTH-BX-01"
+      ],
+      "subjectId": "sphyrna-lewini",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bx-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BX-DETAIL",
+      "text": "它身体细长，第一片背鳍比第二片大。",
+      "factIds": [
+        "VTH-BX-02"
+      ],
+      "subjectId": "sphyrna-lewini",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bx-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BX-HOME",
+      "text": "它生活在温暖海洋，能在近岸和外海活动。",
+      "factIds": [
+        "VTH-BX-03"
+      ],
+      "subjectId": "sphyrna-lewini",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bx-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BX-INTRO",
+      "text": "这是路氏双髻鲨。它的头向两侧展开，前缘中央有一个凹口。",
+      "factIds": [
+        "VTH-BX-01"
+      ],
+      "subjectId": "sphyrna-lewini",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bx-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BY-BODY",
+      "text": "腹部一节一节的，上面有深浅相间的条带。",
+      "factIds": [
+        "VTH-BY-01"
+      ],
+      "subjectId": "penaeus-monodon",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-by-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BY-DETAIL",
+      "text": "头前的尖尖额角，上面和下面都有小齿。",
+      "factIds": [
+        "VTH-BY-02"
+      ],
+      "subjectId": "penaeus-monodon",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-by-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BY-DETAILTWO",
+      "text": "活着的虎虾颜色会变化，并不总是橙红色。",
+      "factIds": [
+        "VTH-BY-03"
+      ],
+      "subjectId": "penaeus-monodon",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-by-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BY-INTRO",
+      "text": "这是斑节对虾。腹部一节一节的，上面有深浅相间的条带。",
+      "factIds": [
+        "VTH-BY-01"
+      ],
+      "subjectId": "penaeus-monodon",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-by-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BZ-BODY",
+      "text": "活着的时候，身体常常白白的、半透明。",
+      "factIds": [
+        "VTH-BZ-01"
+      ],
+      "subjectId": "penaeus-vannamei",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bz-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BZ-DETAIL",
+      "text": "头前有一段带着小齿的额角。",
+      "factIds": [
+        "VTH-BZ-02"
+      ],
+      "subjectId": "penaeus-vannamei",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bz-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BZ-HOME",
+      "text": "幼虾可以在河口长大，成虾生活在海里。",
+      "factIds": [
+        "VTH-BZ-03"
+      ],
+      "subjectId": "penaeus-vannamei",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bz-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-BZ-INTRO",
+      "text": "这是南美白对虾。活着的时候，身体常常白白的、半透明。",
+      "factIds": [
+        "VTH-BZ-01"
+      ],
+      "subjectId": "penaeus-vannamei",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-bz-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CA-BODY",
+      "text": "身体上有一条条深色横带。",
+      "factIds": [
+        "VTH-CA-01"
+      ],
+      "subjectId": "penaeus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ca-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CA-DETAIL",
+      "text": "小脚和触角上可以看到黄色。",
+      "factIds": [
+        "VTH-CA-02"
+      ],
+      "subjectId": "penaeus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ca-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CA-DETAILTWO",
+      "text": "尾巴的扇形部分，可以带着蓝色和黄色。",
+      "factIds": [
+        "VTH-CA-03"
+      ],
+      "subjectId": "penaeus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ca-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CA-INTRO",
+      "text": "这是日本对虾。身体上有一条条深色横带。",
+      "factIds": [
+        "VTH-CA-01"
+      ],
+      "subjectId": "penaeus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ca-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CB-BODY",
+      "text": "身体可以是浅黄色、粉色或灰绿色。",
+      "factIds": [
+        "VTH-CB-01"
+      ],
+      "subjectId": "penaeus-merguiensis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cb-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CB-DETAIL",
+      "text": "头前的额角比较高，像一个小三角。",
+      "factIds": [
+        "VTH-CB-02"
+      ],
+      "subjectId": "penaeus-merguiensis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cb-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CB-DETAILTWO",
+      "text": "浅色身体上，可以看到细小的色点。",
+      "factIds": [
+        "VTH-CB-03"
+      ],
+      "subjectId": "penaeus-merguiensis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cb-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CB-INTRO",
+      "text": "这是墨吉对虾。身体可以是浅黄色、粉色或灰绿色。",
+      "factIds": [
+        "VTH-CB-01"
+      ],
+      "subjectId": "penaeus-merguiensis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cb-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CC-BODY",
+      "text": "它活着的时候就可以带红色，身体有些透明。",
+      "factIds": [
+        "VTH-CC-01"
+      ],
+      "subjectId": "pandalus-borealis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cc-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CC-DETAIL",
+      "text": "腹部下面有小小的游泳脚，像一排小桨。",
+      "factIds": [
+        "VTH-CC-02"
+      ],
+      "subjectId": "pandalus-borealis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cc-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CC-EGGS",
+      "text": "虾妈妈会把卵带在腹部下面。",
+      "factIds": [
+        "VTH-CC-03"
+      ],
+      "subjectId": "pandalus-borealis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cc-eggs.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CC-INTRO",
+      "text": "这是北方长额虾。它活着的时候就可以带红色，身体有些透明。",
+      "factIds": [
+        "VTH-CC-01"
+      ],
+      "subjectId": "pandalus-borealis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CD-BODY",
+      "text": "身体一节一节的，尾端有宽宽的尾扇。",
+      "factIds": [
+        "VTH-CD-01"
+      ],
+      "subjectId": "oratosquilla-oratoria",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cd-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CD-DETAIL",
+      "text": "前面的捕食脚可以折起来，上面有尖齿。",
+      "factIds": [
+        "VTH-CD-02"
+      ],
+      "subjectId": "oratosquilla-oratoria",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cd-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CD-DETAILTWO",
+      "text": "虽然名字里有虾，它属于虾蛄这一类。",
+      "factIds": [
+        "VTH-CD-03"
+      ],
+      "subjectId": "oratosquilla-oratoria",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cd-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CD-INTRO",
+      "text": "这是口虾蛄。身体一节一节的，尾端有宽宽的尾扇。",
+      "factIds": [
+        "VTH-CD-01"
+      ],
+      "subjectId": "oratosquilla-oratoria",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cd-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CE-BODY",
+      "text": "头前有一对长长的触角。",
+      "factIds": [
+        "VTH-CE-01"
+      ],
+      "subjectId": "panulirus-ornatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ce-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CE-DETAIL",
+      "text": "它不像螯龙虾那样，长着一对大钳子。",
+      "factIds": [
+        "VTH-CE-02"
+      ],
+      "subjectId": "panulirus-ornatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ce-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CE-HOME",
+      "text": "可以生活在浅海的岩石和珊瑚附近。",
+      "factIds": [
+        "VTH-CE-03"
+      ],
+      "subjectId": "panulirus-ornatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ce-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CE-INTRO",
+      "text": "这是锦绣龙虾。头前有一对长长的触角。",
+      "factIds": [
+        "VTH-CE-01"
+      ],
+      "subjectId": "panulirus-ornatus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ce-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CF-BODY",
+      "text": "它有一对很长的触角，前脚没有大螯。",
+      "factIds": [
+        "VTH-CF-01"
+      ],
+      "subjectId": "panulirus-homarus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cf-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CF-DETAIL",
+      "text": "腹部的壳上，有横向的小沟。",
+      "factIds": [
+        "VTH-CF-02"
+      ],
+      "subjectId": "panulirus-homarus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cf-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CF-HOME",
+      "text": "常住在浅海岩石附近，晚上出来活动。",
+      "factIds": [
+        "VTH-CF-03"
+      ],
+      "subjectId": "panulirus-homarus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cf-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CF-INTRO",
+      "text": "这是波纹龙虾。它有一对很长的触角，前脚没有大螯。",
+      "factIds": [
+        "VTH-CF-01"
+      ],
+      "subjectId": "panulirus-homarus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cf-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CG-BODY",
+      "text": "前面长着一对大大的钳子，叫作螯。",
+      "factIds": [
+        "VTH-CG-01"
+      ],
+      "subjectId": "homarus-americanus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cg-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CG-DETAIL",
+      "text": "一个螯适合压碎食物，另一个适合撕开食物。",
+      "factIds": [
+        "VTH-CG-02"
+      ],
+      "subjectId": "homarus-americanus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cg-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CG-DETAILTWO",
+      "text": "活着的时候，常常是绿褐色，并非鲜红色。",
+      "factIds": [
+        "VTH-CG-03"
+      ],
+      "subjectId": "homarus-americanus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cg-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CG-INTRO",
+      "text": "这是美洲螯龙虾。前面长着一对大大的钳子，叫作螯。",
+      "factIds": [
+        "VTH-CG-01"
+      ],
+      "subjectId": "homarus-americanus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cg-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CH-BODY",
+      "text": "壳可以是绿色到近黑色。",
+      "factIds": [
+        "VTH-CH-01"
+      ],
+      "subjectId": "scylla-serrata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ch-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CH-DETAIL",
+      "text": "前面有一对粗壮的大螯。",
+      "factIds": [
+        "VTH-CH-02"
+      ],
+      "subjectId": "scylla-serrata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ch-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CH-HOME",
+      "text": "可以生活在近岸泥底和红树林附近。",
+      "factIds": [
+        "VTH-CH-03"
+      ],
+      "subjectId": "scylla-serrata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ch-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CH-INTRO",
+      "text": "这是锯缘青蟹。壳可以是绿色到近黑色。",
+      "factIds": [
+        "VTH-CH-01"
+      ],
+      "subjectId": "scylla-serrata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ch-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CI-BODY",
+      "text": "身体的壳像一把扇子，两侧有尖齿。",
+      "factIds": [
+        "VTH-CI-01"
+      ],
+      "subjectId": "portunus-pelagicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ci-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CI-DETAIL",
+      "text": "最后一对脚扁扁的，可以帮助游泳。",
+      "factIds": [
+        "VTH-CI-02"
+      ],
+      "subjectId": "portunus-pelagicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ci-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CI-HOME",
+      "text": "它会藏进沙泥里，也会在海草附近活动。",
+      "factIds": [
+        "VTH-CI-03"
+      ],
+      "subjectId": "portunus-pelagicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ci-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CI-INTRO",
+      "text": "这是远海梭子蟹。身体的壳像一把扇子，两侧有尖齿。",
+      "factIds": [
+        "VTH-CI-01"
+      ],
+      "subjectId": "portunus-pelagicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ci-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CJ-BODY",
+      "text": "背壳中间，可以有浅色的十字图案。",
+      "factIds": [
+        "VTH-CJ-01"
+      ],
+      "subjectId": "charybdis-feriata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cj-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CJ-DETAIL",
+      "text": "腿和螯上可以看到深浅条带。",
+      "factIds": [
+        "VTH-CJ-02"
+      ],
+      "subjectId": "charybdis-feriata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cj-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CJ-DETAILTWO",
+      "text": "最后一对脚的末端是扁平的。",
+      "factIds": [
+        "VTH-CJ-03"
+      ],
+      "subjectId": "charybdis-feriata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cj-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CJ-INTRO",
+      "text": "这是锈斑蟳。背壳中间，可以有浅色的十字图案。",
+      "factIds": [
+        "VTH-CJ-01"
+      ],
+      "subjectId": "charybdis-feriata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cj-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CK-BODY",
+      "text": "椭圆的厚壳，边缘像一圈小波浪。",
+      "factIds": [
+        "VTH-CK-01"
+      ],
+      "subjectId": "cancer-pagurus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ck-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CK-DETAIL",
+      "text": "大螯的尖端是深色的。",
+      "factIds": [
+        "VTH-CK-02"
+      ],
+      "subjectId": "cancer-pagurus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ck-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CK-HOME",
+      "text": "可以生活在岩石附近，也能在泥沙底活动。",
+      "factIds": [
+        "VTH-CK-03"
+      ],
+      "subjectId": "cancer-pagurus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ck-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CK-INTRO",
+      "text": "这是黄道蟹。椭圆的厚壳，边缘像一圈小波浪。",
+      "factIds": [
+        "VTH-CK-01"
+      ],
+      "subjectId": "cancer-pagurus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ck-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CL-BODY",
+      "text": "硬硬的背壳比较圆。",
+      "factIds": [
+        "VTH-CL-01"
+      ],
+      "subjectId": "chionoecetes-opilio",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cl-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CL-DETAIL",
+      "text": "除了一对螯，还能看到四对步行脚。",
+      "factIds": [
+        "VTH-CL-02"
+      ],
+      "subjectId": "chionoecetes-opilio",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cl-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CL-DETAILTWO",
+      "text": "背面常是褐色，下面颜色较浅。",
+      "factIds": [
+        "VTH-CL-03"
+      ],
+      "subjectId": "chionoecetes-opilio",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cl-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CL-INTRO",
+      "text": "这是雪蟹。硬硬的背壳比较圆。",
+      "factIds": [
+        "VTH-CL-01"
+      ],
+      "subjectId": "chionoecetes-opilio",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cl-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CM-BODY",
+      "text": "背壳和脚上有尖尖的小刺。",
+      "factIds": [
+        "VTH-CM-01"
+      ],
+      "subjectId": "paralithodes-camtschaticus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cm-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CM-DETAIL",
+      "text": "能看到三对长长的步行脚，还有一对螯。",
+      "factIds": [
+        "VTH-CM-02"
+      ],
+      "subjectId": "paralithodes-camtschaticus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cm-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CM-DETAILTWO",
+      "text": "两个螯形状不同，一个较大，一个较小。",
+      "factIds": [
+        "VTH-CM-03"
+      ],
+      "subjectId": "paralithodes-camtschaticus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cm-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CM-INTRO",
+      "text": "这是堪察加拟石蟹。背壳和脚上有尖尖的小刺。",
+      "factIds": [
+        "VTH-CM-01"
+      ],
+      "subjectId": "paralithodes-camtschaticus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cm-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CN-BODY",
+      "text": "身体两侧的鳍很宽，看起来有些像乌贼。",
+      "factIds": [
+        "VTH-CN-01"
+      ],
+      "subjectId": "sepioteuthis-lessoniana",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cn-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CN-DETAIL",
+      "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+      "factIds": [
+        "VTH-CN-02"
+      ],
+      "subjectId": "sepioteuthis-lessoniana",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cn-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CN-DETAILTWO",
+      "text": "皮肤里的色素细胞，可以帮助改变颜色和图案。",
+      "factIds": [
+        "VTH-CN-03"
+      ],
+      "subjectId": "sepioteuthis-lessoniana",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cn-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CN-INTRO",
+      "text": "这是莱氏拟乌贼。身体两侧的鳍很宽，看起来有些像乌贼。",
+      "factIds": [
+        "VTH-CN-01"
+      ],
+      "subjectId": "sepioteuthis-lessoniana",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cn-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CO-BODY",
+      "text": "身体细长，像一个长筒。",
+      "factIds": [
+        "VTH-CO-01"
+      ],
+      "subjectId": "loligo-vulgaris",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-co-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CO-DETAIL",
+      "text": "后面的一对鳍，连起来像菱形。",
+      "factIds": [
+        "VTH-CO-02"
+      ],
+      "subjectId": "loligo-vulgaris",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-co-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CO-DETAILTWO",
+      "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+      "factIds": [
+        "VTH-CO-03"
+      ],
+      "subjectId": "loligo-vulgaris",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-co-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CO-INTRO",
+      "text": "这是欧洲枪乌贼。身体细长，像一个长筒。",
+      "factIds": [
+        "VTH-CO-01"
+      ],
+      "subjectId": "loligo-vulgaris",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-co-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CP-BODY",
+      "text": "皮肤上的深浅图案会发生变化。",
+      "factIds": [
+        "VTH-CP-01"
+      ],
+      "subjectId": "dosidicus-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cp-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CP-DETAIL",
+      "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+      "factIds": [
+        "VTH-CP-02"
+      ],
+      "subjectId": "dosidicus-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cp-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CP-FOOD",
+      "text": "它会捕食磷虾和多种鱼。",
+      "factIds": [
+        "VTH-CP-03"
+      ],
+      "subjectId": "dosidicus-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cp-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CP-INTRO",
+      "text": "这是茎柔鱼。皮肤上的深浅图案会发生变化。",
+      "factIds": [
+        "VTH-CP-01"
+      ],
+      "subjectId": "dosidicus-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cp-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CQ-BODY",
+      "text": "头和腕上，可以出现深浅相间的虎斑纹。",
+      "factIds": [
+        "VTH-CQ-01"
+      ],
+      "subjectId": "sepia-pharaonis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cq-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CQ-DETAIL",
+      "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+      "factIds": [
+        "VTH-CQ-02"
+      ],
+      "subjectId": "sepia-pharaonis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cq-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CQ-EGGS",
+      "text": "卵会成簇地附着在植物、贝壳等物体上。",
+      "factIds": [
+        "VTH-CQ-03"
+      ],
+      "subjectId": "sepia-pharaonis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cq-eggs.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CQ-INTRO",
+      "text": "这是虎斑乌贼。头和腕上，可以出现深浅相间的虎斑纹。",
+      "factIds": [
+        "VTH-CQ-01"
+      ],
+      "subjectId": "sepia-pharaonis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cq-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CR-BODY",
+      "text": "它会改变身体的颜色、图案和表面样子。",
+      "factIds": [
+        "VTH-CR-01"
+      ],
+      "subjectId": "sepia-officinalis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cr-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CR-DETAIL",
+      "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+      "factIds": [
+        "VTH-CR-02"
+      ],
+      "subjectId": "sepia-officinalis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cr-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CR-FOOD",
+      "text": "它会吃虾、蟹、小鱼和一些贝类。",
+      "factIds": [
+        "VTH-CR-03"
+      ],
+      "subjectId": "sepia-officinalis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cr-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CR-INTRO",
+      "text": "这是普通乌贼。它会改变身体的颜色、图案和表面样子。",
+      "factIds": [
+        "VTH-CR-01"
+      ],
+      "subjectId": "sepia-officinalis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cr-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CS-BODY",
+      "text": "章鱼有八条腕，没有鱿鱼那两条长触腕。",
+      "factIds": [
+        "VTH-CS-01"
+      ],
+      "subjectId": "octopus-vulgaris",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cs-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CS-DETAIL",
+      "text": "每条腕上，能看到两排吸盘。",
+      "factIds": [
+        "VTH-CS-02"
+      ],
+      "subjectId": "octopus-vulgaris",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cs-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CS-DETAILTWO",
+      "text": "身体颜色可以变化，不是一直保持一种颜色。",
+      "factIds": [
+        "VTH-CS-03"
+      ],
+      "subjectId": "octopus-vulgaris",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cs-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CS-INTRO",
+      "text": "这是普通章鱼。章鱼有八条腕，没有鱿鱼那两条长触腕。",
+      "factIds": [
+        "VTH-CS-01"
+      ],
+      "subjectId": "octopus-vulgaris",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cs-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CT-BODY",
+      "text": "它有八条带着吸盘的腕。",
+      "factIds": [
+        "VTH-CT-01"
+      ],
+      "subjectId": "enteroctopus-dofleini",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ct-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CT-HOME",
+      "text": "常在海底岩石的洞隙里找住处。",
+      "factIds": [
+        "VTH-CT-02"
+      ],
+      "subjectId": "enteroctopus-dofleini",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ct-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CT-FOOD",
+      "text": "它会捕食蟹、贝类和鱼等小动物。",
+      "factIds": [
+        "VTH-CT-03"
+      ],
+      "subjectId": "enteroctopus-dofleini",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ct-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CT-INTRO",
+      "text": "这是北太平洋巨型章鱼。它有八条带着吸盘的腕。",
+      "factIds": [
+        "VTH-CT-01"
+      ],
+      "subjectId": "enteroctopus-dofleini",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-ct-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CU-BODY",
+      "text": "一片扁扁的壳，轮廓像耳朵。",
+      "factIds": [
+        "VTH-CU-01"
+      ],
+      "subjectId": "haliotis-discus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cu-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CU-DETAIL",
+      "text": "壳边有一排小孔。",
+      "factIds": [
+        "VTH-CU-02"
+      ],
+      "subjectId": "haliotis-discus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cu-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CU-FOOD",
+      "text": "鲍鱼可以吃海藻。",
+      "factIds": [
+        "VTH-CU-03"
+      ],
+      "subjectId": "haliotis-discus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cu-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CU-INTRO",
+      "text": "这是盘鲍。一片扁扁的壳，轮廓像耳朵。",
+      "factIds": [
+        "VTH-CU-01"
+      ],
+      "subjectId": "haliotis-discus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cu-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CV-BODY",
+      "text": "鲍鱼属于螺类，背上只有一片壳。",
+      "factIds": [
+        "VTH-CV-01"
+      ],
+      "subjectId": "haliotis-diversicolor",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cv-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CV-DETAIL",
+      "text": "壳边能看到一排小孔。",
+      "factIds": [
+        "VTH-CV-02"
+      ],
+      "subjectId": "haliotis-diversicolor",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cv-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CV-FOOD",
+      "text": "它会吃海藻。",
+      "factIds": [
+        "VTH-CV-03"
+      ],
+      "subjectId": "haliotis-diversicolor",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cv-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CV-INTRO",
+      "text": "这是杂色鲍。鲍鱼属于螺类，背上只有一片壳。",
+      "factIds": [
+        "VTH-CV-01"
+      ],
+      "subjectId": "haliotis-diversicolor",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cv-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CW-BODY",
+      "text": "浅色的螺壳上，排着褐色方斑。",
+      "factIds": [
+        "VTH-CW-01"
+      ],
+      "subjectId": "babylonia-areolata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cw-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CW-DETAIL",
+      "text": "壳上部一圈圈变小，形成尖尖的螺塔。",
+      "factIds": [
+        "VTH-CW-02"
+      ],
+      "subjectId": "babylonia-areolata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cw-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CW-HOME",
+      "text": "生活在海底的沙泥中。",
+      "factIds": [
+        "VTH-CW-03"
+      ],
+      "subjectId": "babylonia-areolata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cw-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CW-INTRO",
+      "text": "这是方斑东风螺。浅色的螺壳上，排着褐色方斑。",
+      "factIds": [
+        "VTH-CW-01"
+      ],
+      "subjectId": "babylonia-areolata",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cw-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CX-BODY",
+      "text": "壳的最后一圈大大鼓起，顶端较短。",
+      "factIds": [
+        "VTH-CX-01"
+      ],
+      "subjectId": "rapana-venosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cx-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CX-DETAIL",
+      "text": "壳口里面可以是橙色的。",
+      "factIds": [
+        "VTH-CX-02"
+      ],
+      "subjectId": "rapana-venosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cx-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CX-DETAILTWO",
+      "text": "螺壳上可以有深色的脉状花纹。",
+      "factIds": [
+        "VTH-CX-03"
+      ],
+      "subjectId": "rapana-venosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cx-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CX-INTRO",
+      "text": "这是脉红螺。壳的最后一圈大大鼓起，顶端较短。",
+      "factIds": [
+        "VTH-CX-01"
+      ],
+      "subjectId": "rapana-venosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cx-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CY-BODY",
+      "text": "成体有厚厚的螺壳，壳上还有短短的尖刺。",
+      "factIds": [
+        "VTH-CY-01"
+      ],
+      "subjectId": "aliger-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cy-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CY-DETAIL",
+      "text": "成体壳口里面常常是粉红色。",
+      "factIds": [
+        "VTH-CY-02"
+      ],
+      "subjectId": "aliger-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cy-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CY-DETAILTWO",
+      "text": "两只眼睛长在可以活动的眼柄上。",
+      "factIds": [
+        "VTH-CY-03"
+      ],
+      "subjectId": "aliger-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cy-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CY-INTRO",
+      "text": "这是女王凤凰螺。成体有厚厚的螺壳，壳上还有短短的尖刺。",
+      "factIds": [
+        "VTH-CY-01"
+      ],
+      "subjectId": "aliger-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cy-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CZ-BODY",
+      "text": "身体外面，有两片椭圆的壳。",
+      "factIds": [
+        "VTH-CZ-01"
+      ],
+      "subjectId": "ruditapes-philippinarum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cz-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CZ-DETAIL",
+      "text": "壳上的横纹和放射纹，交织成小格子。",
+      "factIds": [
+        "VTH-CZ-02"
+      ],
+      "subjectId": "ruditapes-philippinarum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cz-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CZ-HOME",
+      "text": "可以生活在浅海沙泥或沙砾底。",
+      "factIds": [
+        "VTH-CZ-03"
+      ],
+      "subjectId": "ruditapes-philippinarum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cz-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-CZ-INTRO",
+      "text": "这是菲律宾蛤仔。身体外面，有两片椭圆的壳。",
+      "factIds": [
+        "VTH-CZ-01"
+      ],
+      "subjectId": "ruditapes-philippinarum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-cz-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DA-BODY",
+      "text": "两片厚壳，轮廓像圆圆的三角形。",
+      "factIds": [
+        "VTH-DA-01"
+      ],
+      "subjectId": "meretrix-meretrix",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-da-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DA-DETAIL",
+      "text": "壳面比较光滑，颜色和图案会变化。",
+      "factIds": [
+        "VTH-DA-02"
+      ],
+      "subjectId": "meretrix-meretrix",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-da-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DA-HOME",
+      "text": "生活在近岸浅海的沙泥底。",
+      "factIds": [
+        "VTH-DA-03"
+      ],
+      "subjectId": "meretrix-meretrix",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-da-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DA-INTRO",
+      "text": "这是文蛤。两片厚壳，轮廓像圆圆的三角形。",
+      "factIds": [
+        "VTH-DA-01"
+      ],
+      "subjectId": "meretrix-meretrix",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-da-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DB-BODY",
+      "text": "幼小的时候，壳常常是鲜绿色。",
+      "factIds": [
+        "VTH-DB-01"
+      ],
+      "subjectId": "perna-viridis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-db-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DB-YOUNG",
+      "text": "长大以后，壳会变成较深的绿褐色。",
+      "factIds": [
+        "VTH-DB-02"
+      ],
+      "subjectId": "perna-viridis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-db-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DB-DETAIL",
+      "text": "它用一束细丝，把自己固定在硬物上。",
+      "factIds": [
+        "VTH-DB-03"
+      ],
+      "subjectId": "perna-viridis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-db-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DB-INTRO",
+      "text": "这是翡翠贻贝。幼小的时候，壳常常是鲜绿色。",
+      "factIds": [
+        "VTH-DB-01"
+      ],
+      "subjectId": "perna-viridis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-db-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DC-BODY",
+      "text": "两片壳的轮廓，有些像长长的水滴。",
+      "factIds": [
+        "VTH-DC-01"
+      ],
+      "subjectId": "mytilus-edulis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dc-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DC-DETAIL",
+      "text": "壳可以是蓝黑色、黑色或褐色。",
+      "factIds": [
+        "VTH-DC-02"
+      ],
+      "subjectId": "mytilus-edulis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dc-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DC-DETAILTWO",
+      "text": "它用一束细丝，把自己固定在物体上。",
+      "factIds": [
+        "VTH-DC-03"
+      ],
+      "subjectId": "mytilus-edulis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dc-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DC-INTRO",
+      "text": "这是紫贻贝。两片壳的轮廓，有些像长长的水滴。",
+      "factIds": [
+        "VTH-DC-01"
+      ],
+      "subjectId": "mytilus-edulis",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DD-BODY",
+      "text": "两片壳的外面凹凸不平。",
+      "factIds": [
+        "VTH-DD-01"
+      ],
+      "subjectId": "magallana-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dd-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DD-DETAIL",
+      "text": "一片壳较平，另一片像深一点的小碗。",
+      "factIds": [
+        "VTH-DD-02"
+      ],
+      "subjectId": "magallana-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dd-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DD-FOOD",
+      "text": "它过滤海水，吃水里的浮游小生物。",
+      "factIds": [
+        "VTH-DD-03"
+      ],
+      "subjectId": "magallana-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dd-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DD-INTRO",
+      "text": "这是太平洋牡蛎。两片壳的外面凹凸不平。",
+      "factIds": [
+        "VTH-DD-01"
+      ],
+      "subjectId": "magallana-gigas",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dd-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DE-BODY",
+      "text": "两片壳像扇子一样展开。",
+      "factIds": [
+        "VTH-DE-01"
+      ],
+      "subjectId": "pecten-maximus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-de-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DE-DETAIL",
+      "text": "一片壳比较鼓，另一片比较平。",
+      "factIds": [
+        "VTH-DE-02"
+      ],
+      "subjectId": "pecten-maximus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-de-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DE-HOME",
+      "text": "它能在海底沙砾中，找一个浅浅的凹窝。",
+      "factIds": [
+        "VTH-DE-03"
+      ],
+      "subjectId": "pecten-maximus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-de-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DE-INTRO",
+      "text": "这是大扇贝。两片壳像扇子一样展开。",
+      "factIds": [
+        "VTH-DE-01"
+      ],
+      "subjectId": "pecten-maximus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-de-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DF-BODY",
+      "text": "两片壳厚厚的，向外鼓起。",
+      "factIds": [
+        "VTH-DF-01"
+      ],
+      "subjectId": "tegillarca-granosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-df-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DF-DETAIL",
+      "text": "壳上有一条条向外放射的凸肋。",
+      "factIds": [
+        "VTH-DF-02"
+      ],
+      "subjectId": "tegillarca-granosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-df-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DF-DETAILTWO",
+      "text": "凸肋上，还有小小的结节。",
+      "factIds": [
+        "VTH-DF-03"
+      ],
+      "subjectId": "tegillarca-granosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-df-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DF-INTRO",
+      "text": "这是泥蚶。两片壳厚厚的，向外鼓起。",
+      "factIds": [
+        "VTH-DF-01"
+      ],
+      "subjectId": "tegillarca-granosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-df-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DG-BODY",
+      "text": "这种双壳贝，叫作缢蛏，也叫毛蛏。",
+      "factIds": [
+        "VTH-DG-01"
+      ],
+      "subjectId": "sinonovacula-constricta",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dg-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DG-HOME",
+      "text": "它住在浅海的泥底。",
+      "factIds": [
+        "VTH-DG-02"
+      ],
+      "subjectId": "sinonovacula-constricta",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dg-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DG-DETAILTWO",
+      "text": "在中国沿海、日本和韩国等地可以见到。",
+      "factIds": [
+        "VTH-DG-03"
+      ],
+      "subjectId": "sinonovacula-constricta",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dg-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DG-INTRO",
+      "text": "这是缢蛏。这种双壳贝，叫作缢蛏，也叫毛蛏。",
+      "factIds": [
+        "VTH-DG-01"
+      ],
+      "subjectId": "sinonovacula-constricta",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dg-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DH-BODY",
+      "text": "两片壳外面，伸着长长的水管。",
+      "factIds": [
+        "VTH-DH-01"
+      ],
+      "subjectId": "panopea-generosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dh-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DH-DETAIL",
+      "text": "水管有进水和出水的两个开口。",
+      "factIds": [
+        "VTH-DH-02"
+      ],
+      "subjectId": "panopea-generosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dh-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DH-HOME",
+      "text": "身体可以埋在海底泥沙里。",
+      "factIds": [
+        "VTH-DH-03"
+      ],
+      "subjectId": "panopea-generosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dh-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DH-INTRO",
+      "text": "这是象拔蚌。两片壳外面，伸着长长的水管。",
+      "factIds": [
+        "VTH-DH-01"
+      ],
+      "subjectId": "panopea-generosa",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dh-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DI-BODY",
+      "text": "身体长长的，背上有锥形小突起。",
+      "factIds": [
+        "VTH-DI-01"
+      ],
+      "subjectId": "apostichopus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-di-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DI-DETAIL",
+      "text": "身体下面有一排排小管足。",
+      "factIds": [
+        "VTH-DI-02"
+      ],
+      "subjectId": "apostichopus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-di-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DI-DETAILTWO",
+      "text": "不同个体可以是绿色、褐色或灰色。",
+      "factIds": [
+        "VTH-DI-03"
+      ],
+      "subjectId": "apostichopus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-di-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DI-INTRO",
+      "text": "这是仿刺参。身体长长的，背上有锥形小突起。",
+      "factIds": [
+        "VTH-DI-01"
+      ],
+      "subjectId": "apostichopus-japonicus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-di-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DJ-BODY",
+      "text": "这是一种海胆，日本叫它北紫海胆。",
+      "factIds": [
+        "VTH-DJ-01"
+      ],
+      "subjectId": "mesocentrotus-nudus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dj-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DJ-HOME",
+      "text": "在北海道附近的沿海可以见到。",
+      "factIds": [
+        "VTH-DJ-02"
+      ],
+      "subjectId": "mesocentrotus-nudus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dj-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DJ-FOOD",
+      "text": "它会吃海藻，也会吃海藻的幼芽。",
+      "factIds": [
+        "VTH-DJ-03"
+      ],
+      "subjectId": "mesocentrotus-nudus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dj-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DJ-INTRO",
+      "text": "这是光棘球海胆。这是一种海胆，日本叫它北紫海胆。",
+      "factIds": [
+        "VTH-DJ-01"
+      ],
+      "subjectId": "mesocentrotus-nudus",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dj-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DK-BODY",
+      "text": "身体上面像一把圆圆的伞。",
+      "factIds": [
+        "VTH-DK-01"
+      ],
+      "subjectId": "rhopilema-esculentum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dk-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DK-DETAIL",
+      "text": "伞的下面，有一簇口腕。",
+      "factIds": [
+        "VTH-DK-02"
+      ],
+      "subjectId": "rhopilema-esculentum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dk-detail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DK-DETAILTWO",
+      "text": "海蜇属于水母，和鱼不属于同一类。",
+      "factIds": [
+        "VTH-DK-03"
+      ],
+      "subjectId": "rhopilema-esculentum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dk-detailtwo.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-VTH-DK-INTRO",
+      "text": "这是海蜇。身体上面像一把圆圆的伞。",
+      "factIds": [
+        "VTH-DK-01"
+      ],
+      "subjectId": "rhopilema-esculentum",
+      "kind": "knowledge",
+      "file": "audio/vo-vth-dk-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-07",
+  "browser": "Headless desktop Edge with simulated tablet and phone viewports; not physical iPad",
+  "checks": [
+    "119 selectable preview cards with decoded images",
+    "seven category counts and six groupers",
+    "common aliases and empty search",
+    "audio play, stop and category switching",
+    "source links and enlarged illustration",
+    "three viewport library layouts and comparisons",
+    "create with octopus observation and colour preview",
+    "no page errors or HTTP failures"
+  ],
+  "views": [
+    {
+      "width": 1024,
+      "height": 768,
+      "screenshot": "design/content/v1/qa/library-v3-1024x768.png",
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "screenshot": "design/content/v1/qa/library-v3-768x1024.png",
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "screenshot": "design/content/v1/qa/library-v3-390x844.png",
+      "noHorizontalOverflow": true
+    }
+  ],
+  "errors": [],
+  "badResponses": []
+}

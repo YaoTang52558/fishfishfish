@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-06",
+  "checkedAt": "2026-10-07",
   "purpose": "content-preparation; not runtime",
   "records": [
     {
@@ -1547,6 +1547,4011 @@
       "location": "Identification / Summary / Features / Appearance / Ecology",
       "conditions": "采用背面稍斜的宽幅黑背示意，区别于侧视硬骨鱼；没有腹面斑点图供个体辨识。蝠鲼用于观察、入海与创作灵感，当前不进入普通钓鱼池。",
       "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AA-01",
+      "subjectId": "gnathanodon-speciosus",
+      "text": "成鱼身体偏银灰色，鳍上可以带黄色。",
+      "sourceIds": [
+        "S-VTH-AA-FB0FE0C8"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；成鱼和幼鱼花纹不同，图中选成鱼。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AA-02",
+      "subjectId": "gnathanodon-speciosus",
+      "text": "幼鱼是黄色的，身上有深色横带。",
+      "sourceIds": [
+        "S-VTH-AA-FB0FE0C8"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；成鱼和幼鱼花纹不同，图中选成鱼。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AA-03",
+      "subjectId": "gnathanodon-speciosus",
+      "text": "幼鱼有时跟在大鱼和海龟旁边活动。",
+      "sourceIds": [
+        "S-VTH-AA-FB0FE0C8"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；成鱼和幼鱼花纹不同，图中选成鱼。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AB-01",
+      "subjectId": "rachycentron-canadum",
+      "text": "军曹鱼身体细长，下巴向前伸。",
+      "sourceIds": [
+        "S-VTH-AB-76004010"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；军曹鱼另属军曹鱼科，不能按中文鲹类名称归类。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AB-02",
+      "subjectId": "rachycentron-canadum",
+      "text": "它两侧的胸鳍向后伸，末端尖尖的。",
+      "sourceIds": [
+        "S-VTH-AB-76004010"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；军曹鱼另属军曹鱼科，不能按中文鲹类名称归类。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AB-03",
+      "subjectId": "rachycentron-canadum",
+      "text": "它生活在温暖的近海，也会进入河口。",
+      "sourceIds": [
+        "S-VTH-AB-76004010"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；军曹鱼另属军曹鱼科，不能按中文鲹类名称归类。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AC-01",
+      "subjectId": "lutjanus-argentimaculatus",
+      "text": "它的身体可以从绿褐色到红色，肚子颜色较浅。",
+      "sourceIds": [
+        "S-VTH-AC-233E999C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择成鱼色型，幼鱼与成鱼环境及色泽有差别。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AC-02",
+      "subjectId": "lutjanus-argentimaculatus",
+      "text": "幼鱼喜欢红树林河口，长大后会移向较深的礁区。",
+      "sourceIds": [
+        "S-VTH-AC-233E999C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择成鱼色型，幼鱼与成鱼环境及色泽有差别。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AC-03",
+      "subjectId": "lutjanus-argentimaculatus",
+      "text": "它会吃小鱼、虾蟹和其他小动物。",
+      "sourceIds": [
+        "S-VTH-AC-233E999C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择成鱼色型，幼鱼与成鱼环境及色泽有差别。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AD-01",
+      "subjectId": "lutjanus-johnii",
+      "text": "它身体带金色光泽，背鳍下方有一块大黑斑。",
+      "sourceIds": [
+        "S-VTH-AD-FD99EEBD"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；图片为有明显体侧黑斑的代表个体。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AD-02",
+      "subjectId": "lutjanus-johnii",
+      "text": "幼鱼会在红树林活动，成鱼也住近岸礁区。",
+      "sourceIds": [
+        "S-VTH-AD-FD99EEBD"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；图片为有明显体侧黑斑的代表个体。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AD-03",
+      "subjectId": "lutjanus-johnii",
+      "text": "它会吃鱼、虾蟹和头足类动物。",
+      "sourceIds": [
+        "S-VTH-AD-FD99EEBD"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；图片为有明显体侧黑斑的代表个体。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AE-01",
+      "subjectId": "lutjanus-sebae",
+      "text": "幼鱼和年轻成鱼有三条明显的深红色带子。",
+      "sourceIds": [
+        "S-VTH-AE-FD3E2D01"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择幼鱼三带型；成鱼通常更均匀红色。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AE-02",
+      "subjectId": "lutjanus-sebae",
+      "text": "小幼鱼会躲在海胆的棘之间。",
+      "sourceIds": [
+        "S-VTH-AE-FD3E2D01"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择幼鱼三带型；成鱼通常更均匀红色。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AE-03",
+      "subjectId": "lutjanus-sebae",
+      "text": "它会吃小鱼、虾蟹和头足类动物。",
+      "sourceIds": [
+        "S-VTH-AE-FD3E2D01"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择幼鱼三带型；成鱼通常更均匀红色。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AF-01",
+      "subjectId": "lethrinus-nebulosus",
+      "text": "它鳞片上有浅色小点，眼睛周围还有蓝色线条。",
+      "sourceIds": [
+        "S-VTH-AF-C37D23FD"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；颜色随个体与环境变化，插画用代表色型。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AF-02",
+      "subjectId": "lethrinus-nebulosus",
+      "text": "它能在礁区、海草床和近岸沙地生活。",
+      "sourceIds": [
+        "S-VTH-AF-C37D23FD"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；颜色随个体与环境变化，插画用代表色型。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AF-03",
+      "subjectId": "lethrinus-nebulosus",
+      "text": "它会吃贝类、虾蟹和棘皮动物。",
+      "sourceIds": [
+        "S-VTH-AF-C37D23FD"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；颜色随个体与环境变化，插画用代表色型。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AG-01",
+      "subjectId": "cheilinus-undulatus",
+      "text": "成年苏眉鱼的额头鼓起来，嘴唇也厚厚的。",
+      "sourceIds": [
+        "S-VTH-AG-69CB4D1D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；额头隆起与色型对应较大成鱼，不代表幼鱼。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AG-02",
+      "subjectId": "cheilinus-undulatus",
+      "text": "它身上有弯曲的线条，眼睛后面也有线。",
+      "sourceIds": [
+        "S-VTH-AG-69CB4D1D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；额头隆起与色型对应较大成鱼，不代表幼鱼。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AG-03",
+      "subjectId": "cheilinus-undulatus",
+      "text": "它会吃贝类、海胆、虾蟹和鱼。",
+      "sourceIds": [
+        "S-VTH-AG-69CB4D1D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；额头隆起与色型对应较大成鱼，不代表幼鱼。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AH-01",
+      "subjectId": "thalassoma-lunare",
+      "text": "它的绿色身体上有红色线条。",
+      "sourceIds": [
+        "S-VTH-AH-C73ADD1C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择成鱼阶段，幼鱼不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AH-02",
+      "subjectId": "thalassoma-lunare",
+      "text": "幼鱼尾巴较平，成鱼尾巴像弯弯的月牙。",
+      "sourceIds": [
+        "S-VTH-AH-C73ADD1C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择成鱼阶段，幼鱼不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AH-03",
+      "subjectId": "thalassoma-lunare",
+      "text": "它生活在热带印度洋和太平洋的礁区。",
+      "sourceIds": [
+        "S-VTH-AH-C73ADD1C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择成鱼阶段，幼鱼不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AI-01",
+      "subjectId": "chromis-viridis",
+      "text": "它的身体会闪出蓝色和绿色的光泽。",
+      "sourceIds": [
+        "S-VTH-AI-C5B7F0E1"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；蓝绿色的色泽受光线影响。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AI-02",
+      "subjectId": "chromis-viridis",
+      "text": "它常常成群，在分枝的珊瑚附近活动。",
+      "sourceIds": [
+        "S-VTH-AI-C5B7F0E1"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；蓝绿色的色泽受光线影响。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AI-03",
+      "subjectId": "chromis-viridis",
+      "text": "这种蓝绿雀鲷的胸鳍根部，没有那种明显的黑斑。",
+      "sourceIds": [
+        "S-VTH-AI-C5B7F0E1"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；蓝绿色的色泽受光线影响。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AJ-01",
+      "subjectId": "balistoides-conspicillum",
+      "text": "它身体下半部的黑色底上，有很大的白色圆点。",
+      "sourceIds": [
+        "S-VTH-AJ-ADB3AAE6"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；白点和黄色区域的位置是观察重点。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AJ-02",
+      "subjectId": "balistoides-conspicillum",
+      "text": "背部还有黄白色的网状花纹。",
+      "sourceIds": [
+        "S-VTH-AJ-ADB3AAE6"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；白点和黄色区域的位置是观察重点。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AJ-03",
+      "subjectId": "balistoides-conspicillum",
+      "text": "它的嘴唇周围有橙色，尾根有浅色带子。",
+      "sourceIds": [
+        "S-VTH-AJ-ADB3AAE6"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；白点和黄色区域的位置是观察重点。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AK-01",
+      "subjectId": "gymnothorax-javanicus",
+      "text": "它身体细长，褐色底上有深色斑点。",
+      "sourceIds": [
+        "S-VTH-AK-079CB8C6"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；长身体不是蛇，属于鱼。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AK-02",
+      "subjectId": "gymnothorax-javanicus",
+      "text": "它鳃口附近有一块明显的黑色区域。",
+      "sourceIds": [
+        "S-VTH-AK-079CB8C6"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；长身体不是蛇，属于鱼。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AK-03",
+      "subjectId": "gymnothorax-javanicus",
+      "text": "它会待在珊瑚礁的洞、缝隙和岩檐下面。",
+      "sourceIds": [
+        "S-VTH-AK-079CB8C6"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；长身体不是蛇，属于鱼。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AL-01",
+      "subjectId": "platax-teira",
+      "text": "它身体高而侧扁，胸鳍下面有深色斑块。",
+      "sourceIds": [
+        "S-VTH-AL-DED57468"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择成鱼，幼鱼鳍更长。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AL-02",
+      "subjectId": "platax-teira",
+      "text": "很小的幼鱼是褐色的，看起来像漂浮的叶子。",
+      "sourceIds": [
+        "S-VTH-AL-DED57468"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择成鱼，幼鱼鳍更长。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AL-03",
+      "subjectId": "platax-teira",
+      "text": "它会吃藻类、浮游动物和海底小动物。",
+      "sourceIds": [
+        "S-VTH-AL-DED57468"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择成鱼，幼鱼鳍更长。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AM-01",
+      "subjectId": "aulostomus-chinensis",
+      "text": "它身体细长，嘴也像一根小管子。",
+      "sourceIds": [
+        "S-VTH-AM-D79EF095"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；细长管状嘴是识别重点。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AM-02",
+      "subjectId": "aulostomus-chinensis",
+      "text": "这种鱼有褐色、绿色和黄色等色型，还能改变颜色。",
+      "sourceIds": [
+        "S-VTH-AM-D79EF095"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；细长管状嘴是识别重点。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AM-03",
+      "subjectId": "aulostomus-chinensis",
+      "text": "它生活在珊瑚礁附近。",
+      "sourceIds": [
+        "S-VTH-AM-D79EF095"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；细长管状嘴是识别重点。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AN-01",
+      "subjectId": "salmo-salar",
+      "text": "大西洋鲑在海里时，身体两侧是银色的。",
+      "sourceIds": [
+        "S-VTH-AN-0D00AE69"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选海洋阶段；不是所有叫三文鱼的商品都指这个物种。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AN-02",
+      "subjectId": "salmo-salar",
+      "text": "幼鱼颜色偏褐，身上有深色竖条和小点。",
+      "sourceIds": [
+        "S-VTH-AN-0D00AE69"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选海洋阶段；不是所有叫三文鱼的商品都指这个物种。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AN-03",
+      "subjectId": "salmo-salar",
+      "text": "它在河里出生，到海里长大，再回河里繁殖。",
+      "sourceIds": [
+        "S-VTH-AN-0D00AE69"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选海洋阶段；不是所有叫三文鱼的商品都指这个物种。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AO-01",
+      "subjectId": "scomber-scombrus",
+      "text": "它的蓝绿色背部有深色波浪线，肚子较白。",
+      "sourceIds": [
+        "S-VTH-AO-CB2CB6DF"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；波纹在背部，腹部较浅。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AO-02",
+      "subjectId": "scomber-scombrus",
+      "text": "它身体两头较细，像一枚小梭子。",
+      "sourceIds": [
+        "S-VTH-AO-CB2CB6DF"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；波纹在背部，腹部较浅。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AO-03",
+      "subjectId": "scomber-scombrus",
+      "text": "它会吃小虾、小鱼和其他海里小动物。",
+      "sourceIds": [
+        "S-VTH-AO-CB2CB6DF"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；波纹在背部，腹部较浅。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AP-01",
+      "subjectId": "clupea-harengus",
+      "text": "它身体银亮，背部带蓝绿色。",
+      "sourceIds": [
+        "S-VTH-AP-D3CF4A92"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；群游行为不由单张图证明。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AP-02",
+      "subjectId": "clupea-harengus",
+      "text": "它们常常聚成鱼群，一起觅食和活动。",
+      "sourceIds": [
+        "S-VTH-AP-D3CF4A92"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；群游行为不由单张图证明。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AP-03",
+      "subjectId": "clupea-harengus",
+      "text": "它会吃浮游动物和小型甲壳动物。",
+      "sourceIds": [
+        "S-VTH-AP-D3CF4A92"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；群游行为不由单张图证明。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AQ-01",
+      "subjectId": "paralichthys-dentatus",
+      "text": "夏鲆身体扁平，上面较深，下面较白。",
+      "sourceIds": [
+        "S-VTH-AQ-5F708390"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；两只眼在同一侧，幼鱼发育前不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AQ-02",
+      "subjectId": "paralichthys-dentatus",
+      "text": "它长大时，右边的眼睛会移到身体左边。",
+      "sourceIds": [
+        "S-VTH-AQ-5F708390"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；两只眼在同一侧，幼鱼发育前不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AQ-03",
+      "subjectId": "paralichthys-dentatus",
+      "text": "它能改变身体颜色，配合周围海底的样子。",
+      "sourceIds": [
+        "S-VTH-AQ-5F708390"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；两只眼在同一侧，幼鱼发育前不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AR-01",
+      "subjectId": "carcharhinus-melanopterus",
+      "text": "它第一片背鳍和尾巴下叶，末端是黑色的。",
+      "sourceIds": [
+        "S-VTH-AR-3B410999"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；鲨鱼属于鱼；不是本轮普通钓鱼池。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AR-02",
+      "subjectId": "carcharhinus-melanopterus",
+      "text": "它常在珊瑚礁附近的浅海活动。",
+      "sourceIds": [
+        "S-VTH-AR-3B410999"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；鲨鱼属于鱼；不是本轮普通钓鱼池。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AR-03",
+      "subjectId": "carcharhinus-melanopterus",
+      "text": "它属于软骨鱼类，也是海里的鱼。",
+      "sourceIds": [
+        "S-VTH-AR-3B410999"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；鲨鱼属于鱼；不是本轮普通钓鱼池。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AS-01",
+      "subjectId": "rhincodon-typus",
+      "text": "鲸鲨的深色背部有浅色点点和条纹。",
+      "sourceIds": [
+        "S-VTH-AS-14666904"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；鲸鲨是鱼，不是鲸。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AS-02",
+      "subjectId": "rhincodon-typus",
+      "text": "它的头很宽、很平，嘴在头部前方。",
+      "sourceIds": [
+        "S-VTH-AS-14666904"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；鲸鲨是鱼，不是鲸。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AS-03",
+      "subjectId": "rhincodon-typus",
+      "text": "它能把水吸进大嘴，过滤浮游动物和其他小食物。",
+      "sourceIds": [
+        "S-VTH-AS-14666904"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；鲸鲨是鱼，不是鲸。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AT-01",
+      "subjectId": "taeniura-lymma",
+      "text": "它扁扁的身体和腹鳍上，有亮蓝色的小点。",
+      "sourceIds": [
+        "S-VTH-AT-11CEBF4D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择背面视角看盘形和蓝点。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AT-02",
+      "subjectId": "taeniura-lymma",
+      "text": "它尾巴两边各有一条蓝色线。",
+      "sourceIds": [
+        "S-VTH-AT-11CEBF4D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择背面视角看盘形和蓝点。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AT-03",
+      "subjectId": "taeniura-lymma",
+      "text": "涨潮时它会进入浅水，寻找贝类等食物。",
+      "sourceIds": [
+        "S-VTH-AT-11CEBF4D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择背面视角看盘形和蓝点。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AU-01",
+      "subjectId": "periophthalmodon-schlosseri",
+      "text": "它身体两侧有宽宽的黑色条纹。",
+      "sourceIds": [
+        "S-VTH-AU-B42D1627"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；属于鱼，生活在潮间带。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AU-02",
+      "subjectId": "periophthalmodon-schlosseri",
+      "text": "它住在红树林和潮间带泥滩，会在水外活动。",
+      "sourceIds": [
+        "S-VTH-AU-B42D1627"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；属于鱼，生活在潮间带。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AU-03",
+      "subjectId": "periophthalmodon-schlosseri",
+      "text": "它两侧厚厚的胸鳍，能帮助它在泥上移动。",
+      "sourceIds": [
+        "S-VTH-AU-B42D1627"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；属于鱼，生活在潮间带。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AV-01",
+      "subjectId": "melanocetus-johnsonii",
+      "text": "它头顶伸出一根像鱼竿的结构，末端能发光。",
+      "sourceIds": [
+        "S-VTH-AV-9A5A4570"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择雌鱼，雄鱼外形与大小不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AV-02",
+      "subjectId": "melanocetus-johnsonii",
+      "text": "它用这点光，在黑暗中吸引猎物。",
+      "sourceIds": [
+        "S-VTH-AV-9A5A4570"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择雌鱼，雄鱼外形与大小不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AV-03",
+      "subjectId": "melanocetus-johnsonii",
+      "text": "研究人员曾在五百八十米深的海里拍到它。",
+      "sourceIds": [
+        "S-VTH-AV-9A5A4570"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；选择雌鱼，雄鱼外形与大小不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AW-01",
+      "subjectId": "pagrus-major",
+      "text": "真鲷身体淡红，肚子较白，尾巴分叉。",
+      "sourceIds": [
+        "S-VTH-AW-15284255"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AW-02",
+      "subjectId": "pagrus-major",
+      "text": "它住在海里的沙泥底，也会在礁石附近活动。",
+      "sourceIds": [
+        "S-VTH-AW-15284255"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AW-03",
+      "subjectId": "pagrus-major",
+      "text": "它会吃生活在海底的小动物。",
+      "sourceIds": [
+        "S-VTH-AW-15284255"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AX-01",
+      "subjectId": "acanthopagrus-latus",
+      "text": "它的胸鳍、腹鳍和臀鳍，可以呈鲜黄色。",
+      "sourceIds": [
+        "S-VTH-AX-3EF86484"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 台湾来源的旧广泛分布未直接采用；澳大利亚同名旧记录与 A. morrisoni 混用，当前仅采用本页形态与栖所。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AX-02",
+      "subjectId": "acanthopagrus-latus",
+      "text": "它生活在沿岸沙泥底，也会进入河口。",
+      "sourceIds": [
+        "S-VTH-AX-3EF86484"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 台湾来源的旧广泛分布未直接采用；澳大利亚同名旧记录与 A. morrisoni 混用，当前仅采用本页形态与栖所。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AX-03",
+      "subjectId": "acanthopagrus-latus",
+      "text": "它会吃蠕虫、贝类、虾蟹和小鱼。",
+      "sourceIds": [
+        "S-VTH-AX-3EF86484"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 台湾来源的旧广泛分布未直接采用；澳大利亚同名旧记录与 A. morrisoni 混用，当前仅采用本页形态与栖所。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AY-01",
+      "subjectId": "mugil-cephalus",
+      "text": "它身体细长，头的上面宽而平，嘴较小。",
+      "sourceIds": [
+        "S-VTH-AY-85749043"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 本名包含隐存物种复合群，卡片不作全球统一物种鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AY-02",
+      "subjectId": "mugil-cephalus",
+      "text": "它会在海岸、河口和河流下段活动。",
+      "sourceIds": [
+        "S-VTH-AY-85749043"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 本名包含隐存物种复合群，卡片不作全球统一物种鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AY-03",
+      "subjectId": "mugil-cephalus",
+      "text": "成鱼常在底部寻找藻类和有机碎屑。",
+      "sourceIds": [
+        "S-VTH-AY-85749043"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 本名包含隐存物种复合群，卡片不作全球统一物种鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AZ-01",
+      "subjectId": "pampus-argenteus",
+      "text": "银鲳身体很扁，肚子银白，嘴较小。",
+      "sourceIds": [
+        "S-VTH-AZ-ECDF308D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AZ-02",
+      "subjectId": "pampus-argenteus",
+      "text": "成鱼没有通常长在肚子下面的腹鳍。",
+      "sourceIds": [
+        "S-VTH-AZ-ECDF308D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-AZ-03",
+      "subjectId": "pampus-argenteus",
+      "text": "它会吃水母和浮游动物。",
+      "sourceIds": [
+        "S-VTH-AZ-ECDF308D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BA-01",
+      "subjectId": "trachinotus-blochii",
+      "text": "它身体较高，鼻子圆圆的，成鱼可以带金橙色。",
+      "sourceIds": [
+        "S-VTH-BA-3E67BC48"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BA-02",
+      "subjectId": "trachinotus-blochii",
+      "text": "它常在靠近礁区的浅海活动。",
+      "sourceIds": [
+        "S-VTH-BA-3E67BC48"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BA-03",
+      "subjectId": "trachinotus-blochii",
+      "text": "它会吃带硬壳的贝类和其他无脊椎动物。",
+      "sourceIds": [
+        "S-VTH-BA-3E67BC48"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BB-01",
+      "subjectId": "eleutheronema-tetradactylum",
+      "text": "它每侧胸鳍下面，有四根分开的丝状鳍条。",
+      "sourceIds": [
+        "S-VTH-BB-5708FA4C"
+      ],
+      "location": "pp17–18 / Eleutheronema tetradactylum",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BB-02",
+      "subjectId": "eleutheronema-tetradactylum",
+      "text": "它背上有两片分开的背鳍。",
+      "sourceIds": [
+        "S-VTH-BB-5708FA4C"
+      ],
+      "location": "pp17–18 / Eleutheronema tetradactylum",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BB-03",
+      "subjectId": "eleutheronema-tetradactylum",
+      "text": "它可以生活在沿岸浅海和河口附近。",
+      "sourceIds": [
+        "S-VTH-BB-5708FA4C"
+      ],
+      "location": "pp17–18 / Eleutheronema tetradactylum",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BC-01",
+      "subjectId": "siganus-javus",
+      "text": "它身体上方有小蓝点，下方有银蓝色波浪线。",
+      "sourceIds": [
+        "S-VTH-BC-00E74ABB"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BC-02",
+      "subjectId": "siganus-javus",
+      "text": "它身体高而侧扁，嘴小，鼻子尖尖的。",
+      "sourceIds": [
+        "S-VTH-BC-00E74ABB"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BC-03",
+      "subjectId": "siganus-javus",
+      "text": "它会吃礁石上的藻类和小型水生植物。",
+      "sourceIds": [
+        "S-VTH-BC-00E74ABB"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BD-01",
+      "subjectId": "caranx-melampygus",
+      "text": "成鱼的鳍带着漂亮的蓝色。",
+      "sourceIds": [
+        "S-VTH-BD-8FFEC2E3"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BD-02",
+      "subjectId": "caranx-melampygus",
+      "text": "成鱼身体两侧，有蓝色和黑色的小点。",
+      "sourceIds": [
+        "S-VTH-BD-8FFEC2E3"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BD-03",
+      "subjectId": "caranx-melampygus",
+      "text": "它会在礁区、礁湖和水道活动。",
+      "sourceIds": [
+        "S-VTH-BD-8FFEC2E3"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BE-01",
+      "subjectId": "thunnus-thynnus",
+      "text": "它身体粗壮而流线形，背部深蓝，肚子较白。",
+      "sourceIds": [
+        "S-VTH-BE-01BD7630"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BE-02",
+      "subjectId": "thunnus-thynnus",
+      "text": "大西洋蓝鳍金枪鱼的胸鳍，比一些金枪鱼短。",
+      "sourceIds": [
+        "S-VTH-BE-01BD7630"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BE-03",
+      "subjectId": "thunnus-thynnus",
+      "text": "成鱼主要吃鲱鱼、鲭鱼等小型鱼。",
+      "sourceIds": [
+        "S-VTH-BE-01BD7630"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BF-01",
+      "subjectId": "katsuwonus-pelamis",
+      "text": "它身体下半部，有四到六条深色纵向条纹。",
+      "sourceIds": [
+        "S-VTH-BF-057771CC"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BF-02",
+      "subjectId": "katsuwonus-pelamis",
+      "text": "它主要生活在温暖海洋的开阔水域。",
+      "sourceIds": [
+        "S-VTH-BF-057771CC"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BF-03",
+      "subjectId": "katsuwonus-pelamis",
+      "text": "它会吃鱼、虾蟹和头足类动物。",
+      "sourceIds": [
+        "S-VTH-BF-057771CC"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BG-01",
+      "subjectId": "xiphias-gladius",
+      "text": "它的上颌向前伸，长而扁，像一把剑。",
+      "sourceIds": [
+        "S-VTH-BG-09AE0E71"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BG-02",
+      "subjectId": "xiphias-gladius",
+      "text": "它的尾巴宽宽的，弯成月牙形。",
+      "sourceIds": [
+        "S-VTH-BG-09AE0E71"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BG-03",
+      "subjectId": "xiphias-gladius",
+      "text": "它身体上面颜色深，下面颜色较浅。",
+      "sourceIds": [
+        "S-VTH-BG-09AE0E71"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BH-01",
+      "subjectId": "istiophorus-platypterus",
+      "text": "它的背鳍又高又长，像一面展开的帆。",
+      "sourceIds": [
+        "S-VTH-BH-2B4B588C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BH-02",
+      "subjectId": "istiophorus-platypterus",
+      "text": "它的吻很长，横截面较圆，和剑鱼的扁剑不同。",
+      "sourceIds": [
+        "S-VTH-BH-2B4B588C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BH-03",
+      "subjectId": "istiophorus-platypterus",
+      "text": "它会在外海寻找小鱼和鱿鱼。",
+      "sourceIds": [
+        "S-VTH-BH-2B4B588C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BI-01",
+      "subjectId": "coryphaena-hippurus",
+      "text": "它背部蓝绿色，身体下方带金色和银色。",
+      "sourceIds": [
+        "S-VTH-BI-BE39DFE8"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BI-02",
+      "subjectId": "coryphaena-hippurus",
+      "text": "成年雄鱼额头较方，成年雌鱼额头较圆。",
+      "sourceIds": [
+        "S-VTH-BI-BE39DFE8"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BI-03",
+      "subjectId": "coryphaena-hippurus",
+      "text": "它会在海面附近捕食小鱼和无脊椎动物。",
+      "sourceIds": [
+        "S-VTH-BI-BE39DFE8"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BJ-01",
+      "subjectId": "sardina-pilchardus",
+      "text": "它背部绿色或橄榄色，肚子银白，体侧有深色小点。",
+      "sourceIds": [
+        "S-VTH-BJ-2EB56B36"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BJ-02",
+      "subjectId": "sardina-pilchardus",
+      "text": "它是沿岸的鱼，会组成很大的鱼群。",
+      "sourceIds": [
+        "S-VTH-BJ-2EB56B36"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BJ-03",
+      "subjectId": "sardina-pilchardus",
+      "text": "它主要吃水中小型甲壳类等浮游动物。",
+      "sourceIds": [
+        "S-VTH-BJ-2EB56B36"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BK-01",
+      "subjectId": "engraulis-encrasicolus",
+      "text": "它的鼻子向前伸，嘴在鼻子下面，裂得较大。",
+      "sourceIds": [
+        "S-VTH-BK-F1395C3B"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BK-02",
+      "subjectId": "engraulis-encrasicolus",
+      "text": "它们会形成大鱼群，在沿岸和河口活动。",
+      "sourceIds": [
+        "S-VTH-BK-F1395C3B"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BK-03",
+      "subjectId": "engraulis-encrasicolus",
+      "text": "这种鳀鱼分布在东大西洋和地中海等海域。",
+      "sourceIds": [
+        "S-VTH-BK-F1395C3B"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BL-01",
+      "subjectId": "trachurus-japonicus",
+      "text": "它身体侧面的线，排列着较高、较硬的鳞。",
+      "sourceIds": [
+        "S-VTH-BL-17AC1249"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BL-02",
+      "subjectId": "trachurus-japonicus",
+      "text": "它们一般成群，在近岸水域活动。",
+      "sourceIds": [
+        "S-VTH-BL-17AC1249"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BL-03",
+      "subjectId": "trachurus-japonicus",
+      "text": "它主要吃小型甲壳动物和鱼。",
+      "sourceIds": [
+        "S-VTH-BL-17AC1249"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BM-01",
+      "subjectId": "gadus-macrocephalus",
+      "text": "它下巴有一根长须，身体褐灰色，肚子较浅。",
+      "sourceIds": [
+        "S-VTH-BM-DB6D6AB2"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BM-02",
+      "subjectId": "gadus-macrocephalus",
+      "text": "较大的鱼常在北太平洋的海底附近活动。",
+      "sourceIds": [
+        "S-VTH-BM-DB6D6AB2"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BM-03",
+      "subjectId": "gadus-macrocephalus",
+      "text": "它会吃贝类、蠕虫、虾蟹和小鱼。",
+      "sourceIds": [
+        "S-VTH-BM-DB6D6AB2"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BN-01",
+      "subjectId": "gadus-chalcogrammus",
+      "text": "狭鳕属于鳕鱼家族，身体上有斑驳的花纹。",
+      "sourceIds": [
+        "S-VTH-BN-E9EB2D4D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BN-02",
+      "subjectId": "gadus-chalcogrammus",
+      "text": "幼鱼较常在水中层，大鱼更常接近海底。",
+      "sourceIds": [
+        "S-VTH-BN-E9EB2D4D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BN-03",
+      "subjectId": "gadus-chalcogrammus",
+      "text": "它们生活在北太平洋，常组成很大的鱼群。",
+      "sourceIds": [
+        "S-VTH-BN-E9EB2D4D"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BO-01",
+      "subjectId": "melanogrammus-aeglefinus",
+      "text": "它身体两侧有黑色斑块，像一枚黑色指印。",
+      "sourceIds": [
+        "S-VTH-BO-BFD246F6"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BO-02",
+      "subjectId": "melanogrammus-aeglefinus",
+      "text": "黑线鳕也是鳕鱼家族的一员。",
+      "sourceIds": [
+        "S-VTH-BO-BFD246F6"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BO-03",
+      "subjectId": "melanogrammus-aeglefinus",
+      "text": "它会在海底寻找贝类、蠕虫和棘皮动物。",
+      "sourceIds": [
+        "S-VTH-BO-BFD246F6"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BP-01",
+      "subjectId": "hippoglossus-hippoglossus",
+      "text": "这种大比目鱼的两只眼睛，都在身体右侧。",
+      "sourceIds": [
+        "S-VTH-BP-D15F1917"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BP-02",
+      "subjectId": "hippoglossus-hippoglossus",
+      "text": "它生活在北大西洋的海底附近。",
+      "sourceIds": [
+        "S-VTH-BP-D15F1917"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BP-03",
+      "subjectId": "hippoglossus-hippoglossus",
+      "text": "幼鱼吃小型无脊椎动物，成鱼主要吃鱼。",
+      "sourceIds": [
+        "S-VTH-BP-D15F1917"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BQ-01",
+      "subjectId": "phycodurus-eques",
+      "text": "它身上有像叶子的突出部分，还有细长的管状嘴。",
+      "sourceIds": [
+        "S-VTH-BQ-F748B5DE"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BQ-02",
+      "subjectId": "phycodurus-eques",
+      "text": "它生活在澳大利亚温带海域的海藻岩礁。",
+      "sourceIds": [
+        "S-VTH-BQ-F748B5DE"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BQ-03",
+      "subjectId": "phycodurus-eques",
+      "text": "雄叶海龙会把卵带在尾巴下面。",
+      "sourceIds": [
+        "S-VTH-BQ-F748B5DE"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BR-01",
+      "subjectId": "diodon-hystrix",
+      "text": "它灰褐色身体和鳍上有黑点，身体有长棘。",
+      "sourceIds": [
+        "S-VTH-BR-2A6349FD"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BR-02",
+      "subjectId": "diodon-hystrix",
+      "text": "遇到威胁时，它会吸水鼓起，棘也会竖起。",
+      "sourceIds": [
+        "S-VTH-BR-2A6349FD"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BR-03",
+      "subjectId": "diodon-hystrix",
+      "text": "它常在夜里寻找海螺、寄居蟹和海胆。",
+      "sourceIds": [
+        "S-VTH-BR-2A6349FD"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BS-01",
+      "subjectId": "pterois-volitans",
+      "text": "它胸鳍和背鳍很长，浅色身体上有红色到黑色条带。",
+      "sourceIds": [
+        "S-VTH-BS-A5244313"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BS-02",
+      "subjectId": "pterois-volitans",
+      "text": "它两只眼睛上方，通常各有一个突出的小须。",
+      "sourceIds": [
+        "S-VTH-BS-A5244313"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BS-03",
+      "subjectId": "pterois-volitans",
+      "text": "它原本广泛分布在热带印度洋和太平洋。",
+      "sourceIds": [
+        "S-VTH-BS-A5244313"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BT-01",
+      "subjectId": "cheilopogon-pinnatibarbatus",
+      "text": "它的胸鳍很大，看起来像一对展开的翅膀。",
+      "sourceIds": [
+        "S-VTH-BT-2022254A"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BT-02",
+      "subjectId": "cheilopogon-pinnatibarbatus",
+      "text": "这种飞鱼的背鳍有大黑斑，尾鳍也是深色的。",
+      "sourceIds": [
+        "S-VTH-BT-2022254A"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BT-03",
+      "subjectId": "cheilopogon-pinnatibarbatus",
+      "text": "它会吃浮游动物和小鱼。",
+      "sourceIds": [
+        "S-VTH-BT-2022254A"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BU-01",
+      "subjectId": "mola-mola",
+      "text": "它身体大而圆，嘴相比之下很小。",
+      "sourceIds": [
+        "S-VTH-BU-67BAC16C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BU-02",
+      "subjectId": "mola-mola",
+      "text": "它没有通常那样的尾鳍，身体后方是特殊的舵状结构。",
+      "sourceIds": [
+        "S-VTH-BU-67BAC16C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BU-03",
+      "subjectId": "mola-mola",
+      "text": "它摆动背鳍和臀鳍，在水中前进。",
+      "sourceIds": [
+        "S-VTH-BU-67BAC16C"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BV-01",
+      "subjectId": "chiloscyllium-plagiosum",
+      "text": "它身体细长，褐色底上有深色带子和白点。",
+      "sourceIds": [
+        "S-VTH-BV-05C307B7"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BV-02",
+      "subjectId": "chiloscyllium-plagiosum",
+      "text": "它是喜欢夜间活动的礁区鲨鱼。",
+      "sourceIds": [
+        "S-VTH-BV-05C307B7"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BV-03",
+      "subjectId": "chiloscyllium-plagiosum",
+      "text": "这种鲨鱼会产卵，小鲨鱼在卵壳里发育后出来。",
+      "sourceIds": [
+        "S-VTH-BV-05C307B7"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BW-01",
+      "subjectId": "stegostoma-tigrinum",
+      "text": "成鱼黄褐色，有深色斑点，尾巴特别长。",
+      "sourceIds": [
+        "S-VTH-BW-E5084976"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 佛罗里达博物馆旧页面用 Stegostoma fasciatum；新名与旧名映射另记录。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BW-02",
+      "subjectId": "stegostoma-tigrinum",
+      "text": "幼鱼身上有浅色条带，长大才变成斑点。",
+      "sourceIds": [
+        "S-VTH-BW-E5084976"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 佛罗里达博物馆旧页面用 Stegostoma fasciatum；新名与旧名映射另记录。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BW-03",
+      "subjectId": "stegostoma-tigrinum",
+      "text": "它背部和体侧，有明显的纵向脊。",
+      "sourceIds": [
+        "S-VTH-BW-E5084976"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 佛罗里达博物馆旧页面用 Stegostoma fasciatum；新名与旧名映射另记录。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BX-01",
+      "subjectId": "sphyrna-lewini",
+      "text": "它的头向两侧展开，前缘中央有一个凹口。",
+      "sourceIds": [
+        "S-VTH-BX-9F73E7F1"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BX-02",
+      "subjectId": "sphyrna-lewini",
+      "text": "它身体细长，第一片背鳍比第二片大。",
+      "sourceIds": [
+        "S-VTH-BX-9F73E7F1"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BX-03",
+      "subjectId": "sphyrna-lewini",
+      "text": "它生活在温暖海洋，能在近岸和外海活动。",
+      "sourceIds": [
+        "S-VTH-BX-9F73E7F1"
+      ],
+      "location": "Identification / Summary / Biology / Habitat / species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BY-01",
+      "subjectId": "penaeus-monodon",
+      "text": "腹部一节一节的，上面有深浅相间的条带。",
+      "sourceIds": [
+        "S-VTH-BY-63CD80AA"
+      ],
+      "location": "Penaeus monodon / morphology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BY-02",
+      "subjectId": "penaeus-monodon",
+      "text": "头前的尖尖额角，上面和下面都有小齿。",
+      "sourceIds": [
+        "S-VTH-BY-63CD80AA"
+      ],
+      "location": "Penaeus monodon / morphology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BY-03",
+      "subjectId": "penaeus-monodon",
+      "text": "活着的虎虾颜色会变化，并不总是橙红色。",
+      "sourceIds": [
+        "S-VTH-BY-63CD80AA"
+      ],
+      "location": "Penaeus monodon / morphology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BZ-01",
+      "subjectId": "penaeus-vannamei",
+      "text": "活着的时候，身体常常白白的、半透明。",
+      "sourceIds": [
+        "S-VTH-BZ-B11162B6"
+      ],
+      "location": "Biological features / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BZ-02",
+      "subjectId": "penaeus-vannamei",
+      "text": "头前有一段带着小齿的额角。",
+      "sourceIds": [
+        "S-VTH-BZ-B11162B6"
+      ],
+      "location": "Biological features / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-BZ-03",
+      "subjectId": "penaeus-vannamei",
+      "text": "幼虾可以在河口长大，成虾生活在海里。",
+      "sourceIds": [
+        "S-VTH-BZ-B11162B6"
+      ],
+      "location": "Biological features / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CA-01",
+      "subjectId": "penaeus-japonicus",
+      "text": "身体上有一条条深色横带。",
+      "sourceIds": [
+        "S-VTH-CA-C27E939B"
+      ],
+      "location": "Penaeus japonicus / colour",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CA-02",
+      "subjectId": "penaeus-japonicus",
+      "text": "小脚和触角上可以看到黄色。",
+      "sourceIds": [
+        "S-VTH-CA-C27E939B"
+      ],
+      "location": "Penaeus japonicus / colour",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CA-03",
+      "subjectId": "penaeus-japonicus",
+      "text": "尾巴的扇形部分，可以带着蓝色和黄色。",
+      "sourceIds": [
+        "S-VTH-CA-C27E939B"
+      ],
+      "location": "Penaeus japonicus / colour",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CB-01",
+      "subjectId": "penaeus-merguiensis",
+      "text": "身体可以是浅黄色、粉色或灰绿色。",
+      "sourceIds": [
+        "S-VTH-CB-B97E33AF"
+      ],
+      "location": "Penaeus merguiensis / diagnostic features",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CB-02",
+      "subjectId": "penaeus-merguiensis",
+      "text": "头前的额角比较高，像一个小三角。",
+      "sourceIds": [
+        "S-VTH-CB-B97E33AF"
+      ],
+      "location": "Penaeus merguiensis / diagnostic features",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CB-03",
+      "subjectId": "penaeus-merguiensis",
+      "text": "浅色身体上，可以看到细小的色点。",
+      "sourceIds": [
+        "S-VTH-CB-B97E33AF"
+      ],
+      "location": "Penaeus merguiensis / diagnostic features",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CC-01",
+      "subjectId": "pandalus-borealis",
+      "text": "它活着的时候就可以带红色，身体有些透明。",
+      "sourceIds": [
+        "S-VTH-CC-418C4C4D"
+      ],
+      "location": "Appearance / Habitat / Biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CC-02",
+      "subjectId": "pandalus-borealis",
+      "text": "腹部下面有小小的游泳脚，像一排小桨。",
+      "sourceIds": [
+        "S-VTH-CC-418C4C4D"
+      ],
+      "location": "Appearance / Habitat / Biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CC-03",
+      "subjectId": "pandalus-borealis",
+      "text": "虾妈妈会把卵带在腹部下面。",
+      "sourceIds": [
+        "S-VTH-CC-418C4C4D"
+      ],
+      "location": "Appearance / Habitat / Biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CD-01",
+      "subjectId": "oratosquilla-oratoria",
+      "text": "身体一节一节的，尾端有宽宽的尾扇。",
+      "sourceIds": [
+        "S-VTH-CD-69E66279"
+      ],
+      "location": "Stomatopoda introduction / Squillidae / Oratosquilla key",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 虾蛄属于口足目，和十足目的对虾不同；类别按钮是儿童浏览分组。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CD-02",
+      "subjectId": "oratosquilla-oratoria",
+      "text": "前面的捕食脚可以折起来，上面有尖齿。",
+      "sourceIds": [
+        "S-VTH-CD-69E66279"
+      ],
+      "location": "Stomatopoda introduction / Squillidae / Oratosquilla key",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 虾蛄属于口足目，和十足目的对虾不同；类别按钮是儿童浏览分组。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CD-03",
+      "subjectId": "oratosquilla-oratoria",
+      "text": "虽然名字里有虾，它属于虾蛄这一类。",
+      "sourceIds": [
+        "S-VTH-CD-69E66279"
+      ],
+      "location": "Stomatopoda introduction / Squillidae / Oratosquilla key",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 虾蛄属于口足目，和十足目的对虾不同；类别按钮是儿童浏览分组。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CE-01",
+      "subjectId": "panulirus-ornatus",
+      "text": "头前有一对长长的触角。",
+      "sourceIds": [
+        "S-VTH-CE-72B7628A"
+      ],
+      "location": "Panulirus ornatus / diagnostic diagram / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CE-02",
+      "subjectId": "panulirus-ornatus",
+      "text": "它不像螯龙虾那样，长着一对大钳子。",
+      "sourceIds": [
+        "S-VTH-CE-72B7628A"
+      ],
+      "location": "Panulirus ornatus / diagnostic diagram / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CE-03",
+      "subjectId": "panulirus-ornatus",
+      "text": "可以生活在浅海的岩石和珊瑚附近。",
+      "sourceIds": [
+        "S-VTH-CE-72B7628A"
+      ],
+      "location": "Panulirus ornatus / diagnostic diagram / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CF-01",
+      "subjectId": "panulirus-homarus",
+      "text": "它有一对很长的触角，前脚没有大螯。",
+      "sourceIds": [
+        "S-VTH-CF-9B1F606C"
+      ],
+      "location": "Panulirus homarus / diagnostic diagram / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CF-02",
+      "subjectId": "panulirus-homarus",
+      "text": "腹部的壳上，有横向的小沟。",
+      "sourceIds": [
+        "S-VTH-CF-9B1F606C"
+      ],
+      "location": "Panulirus homarus / diagnostic diagram / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CF-03",
+      "subjectId": "panulirus-homarus",
+      "text": "常住在浅海岩石附近，晚上出来活动。",
+      "sourceIds": [
+        "S-VTH-CF-9B1F606C"
+      ],
+      "location": "Panulirus homarus / diagnostic diagram / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CG-01",
+      "subjectId": "homarus-americanus",
+      "text": "前面长着一对大大的钳子，叫作螯。",
+      "sourceIds": [
+        "S-VTH-CG-E9116978"
+      ],
+      "location": "Appearance / Biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CG-02",
+      "subjectId": "homarus-americanus",
+      "text": "一个螯适合压碎食物，另一个适合撕开食物。",
+      "sourceIds": [
+        "S-VTH-CG-E9116978"
+      ],
+      "location": "Appearance / Biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CG-03",
+      "subjectId": "homarus-americanus",
+      "text": "活着的时候，常常是绿褐色，并非鲜红色。",
+      "sourceIds": [
+        "S-VTH-CG-E9116978"
+      ],
+      "location": "Appearance / Biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CH-01",
+      "subjectId": "scylla-serrata",
+      "text": "壳可以是绿色到近黑色。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Scylla serrata species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CH-02",
+      "subjectId": "scylla-serrata",
+      "text": "前面有一对粗壮的大螯。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Scylla serrata species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CH-03",
+      "subjectId": "scylla-serrata",
+      "text": "可以生活在近岸泥底和红树林附近。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Scylla serrata species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CI-01",
+      "subjectId": "portunus-pelagicus",
+      "text": "身体的壳像一把扇子，两侧有尖齿。",
+      "sourceIds": [
+        "S-VTH-CI-99ED55CC"
+      ],
+      "location": "Physical / Ecology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CI-02",
+      "subjectId": "portunus-pelagicus",
+      "text": "最后一对脚扁扁的，可以帮助游泳。",
+      "sourceIds": [
+        "S-VTH-CI-99ED55CC"
+      ],
+      "location": "Physical / Ecology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CI-03",
+      "subjectId": "portunus-pelagicus",
+      "text": "它会藏进沙泥里，也会在海草附近活动。",
+      "sourceIds": [
+        "S-VTH-CI-99ED55CC"
+      ],
+      "location": "Physical / Ecology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CJ-01",
+      "subjectId": "charybdis-feriata",
+      "text": "背壳中间，可以有浅色的十字图案。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Charybdis feriatus account; historical spelling feriatus",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 FAO 历史资料拼写 Charybdis feriatus；目前使用 Charybdis feriata。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CJ-02",
+      "subjectId": "charybdis-feriata",
+      "text": "腿和螯上可以看到深浅条带。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Charybdis feriatus account; historical spelling feriatus",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 FAO 历史资料拼写 Charybdis feriatus；目前使用 Charybdis feriata。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CJ-03",
+      "subjectId": "charybdis-feriata",
+      "text": "最后一对脚的末端是扁平的。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Charybdis feriatus account; historical spelling feriatus",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 FAO 历史资料拼写 Charybdis feriatus；目前使用 Charybdis feriata。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CK-01",
+      "subjectId": "cancer-pagurus",
+      "text": "椭圆的厚壳，边缘像一圈小波浪。",
+      "sourceIds": [
+        "S-VTH-CK-94BDE5F2"
+      ],
+      "location": "Description / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CK-02",
+      "subjectId": "cancer-pagurus",
+      "text": "大螯的尖端是深色的。",
+      "sourceIds": [
+        "S-VTH-CK-94BDE5F2"
+      ],
+      "location": "Description / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CK-03",
+      "subjectId": "cancer-pagurus",
+      "text": "可以生活在岩石附近，也能在泥沙底活动。",
+      "sourceIds": [
+        "S-VTH-CK-94BDE5F2"
+      ],
+      "location": "Description / Habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CL-01",
+      "subjectId": "chionoecetes-opilio",
+      "text": "硬硬的背壳比较圆。",
+      "sourceIds": [
+        "S-VTH-CL-4C361802"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CL-02",
+      "subjectId": "chionoecetes-opilio",
+      "text": "除了一对螯，还能看到四对步行脚。",
+      "sourceIds": [
+        "S-VTH-CL-4C361802"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CL-03",
+      "subjectId": "chionoecetes-opilio",
+      "text": "背面常是褐色，下面颜色较浅。",
+      "sourceIds": [
+        "S-VTH-CL-4C361802"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CM-01",
+      "subjectId": "paralithodes-camtschaticus",
+      "text": "背壳和脚上有尖尖的小刺。",
+      "sourceIds": [
+        "S-VTH-CM-10193D38"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 拟石蟹属于异尾类；蟹按钮是外形与生活联系分组，不等于严格的短尾类分类。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CM-02",
+      "subjectId": "paralithodes-camtschaticus",
+      "text": "能看到三对长长的步行脚，还有一对螯。",
+      "sourceIds": [
+        "S-VTH-CM-10193D38"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 拟石蟹属于异尾类；蟹按钮是外形与生活联系分组，不等于严格的短尾类分类。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CM-03",
+      "subjectId": "paralithodes-camtschaticus",
+      "text": "两个螯形状不同，一个较大，一个较小。",
+      "sourceIds": [
+        "S-VTH-CM-10193D38"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 拟石蟹属于异尾类；蟹按钮是外形与生活联系分组，不等于严格的短尾类分类。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CN-01",
+      "subjectId": "sepioteuthis-lessoniana",
+      "text": "身体两侧的鳍很宽，看起来有些像乌贼。",
+      "sourceIds": [
+        "S-VTH-CN-BABFB628"
+      ],
+      "location": "Appearance / camouflage",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 莱氏拟乌贼存在物种复合群；此卡沿用来源的名义种外形。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CN-02",
+      "subjectId": "sepioteuthis-lessoniana",
+      "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+      "sourceIds": [
+        "S-VTH-CN-A28DA354"
+      ],
+      "location": "Eight arms / ten appendages: class-level anatomy",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 莱氏拟乌贼存在物种复合群；此卡沿用来源的名义种外形。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CN-03",
+      "subjectId": "sepioteuthis-lessoniana",
+      "text": "皮肤里的色素细胞，可以帮助改变颜色和图案。",
+      "sourceIds": [
+        "S-VTH-CN-BABFB628"
+      ],
+      "location": "Appearance / camouflage",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 莱氏拟乌贼存在物种复合群；此卡沿用来源的名义种外形。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CO-01",
+      "subjectId": "loligo-vulgaris",
+      "text": "身体细长，像一个长筒。",
+      "sourceIds": [
+        "S-VTH-CO-6D0E8642"
+      ],
+      "location": "Description / identifying features",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CO-02",
+      "subjectId": "loligo-vulgaris",
+      "text": "后面的一对鳍，连起来像菱形。",
+      "sourceIds": [
+        "S-VTH-CO-6D0E8642"
+      ],
+      "location": "Description / identifying features",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CO-03",
+      "subjectId": "loligo-vulgaris",
+      "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+      "sourceIds": [
+        "S-VTH-CN-A28DA354"
+      ],
+      "location": "Eight arms / ten appendages: class-level anatomy",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CP-01",
+      "subjectId": "dosidicus-gigas",
+      "text": "皮肤上的深浅图案会发生变化。",
+      "sourceIds": [
+        "S-VTH-CP-B35A8939"
+      ],
+      "location": "Squid speak / captions / research summary",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CP-02",
+      "subjectId": "dosidicus-gigas",
+      "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+      "sourceIds": [
+        "S-VTH-CN-A28DA354"
+      ],
+      "location": "Eight arms / ten appendages: class-level anatomy",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CP-03",
+      "subjectId": "dosidicus-gigas",
+      "text": "它会捕食磷虾和多种鱼。",
+      "sourceIds": [
+        "S-VTH-CP-B35A8939"
+      ],
+      "location": "Squid speak / captions / research summary",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CQ-01",
+      "subjectId": "sepia-pharaonis",
+      "text": "头和腕上，可以出现深浅相间的虎斑纹。",
+      "sourceIds": [
+        "S-VTH-CQ-0B579701"
+      ],
+      "location": "pp 106–108 / diagnostic features / biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 WoRMS 当前接受名为 Acanthosepion pharaonis；FAO 2005 使用旧组合 Sepia pharaonis，图片生成原始提示按当时的制作输入保留。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CQ-02",
+      "subjectId": "sepia-pharaonis",
+      "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+      "sourceIds": [
+        "S-VTH-CN-A28DA354"
+      ],
+      "location": "Eight arms / ten appendages: class-level anatomy",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 WoRMS 当前接受名为 Acanthosepion pharaonis；FAO 2005 使用旧组合 Sepia pharaonis，图片生成原始提示按当时的制作输入保留。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CQ-03",
+      "subjectId": "sepia-pharaonis",
+      "text": "卵会成簇地附着在植物、贝壳等物体上。",
+      "sourceIds": [
+        "S-VTH-CQ-0B579701"
+      ],
+      "location": "pp 106–108 / diagnostic features / biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 WoRMS 当前接受名为 Acanthosepion pharaonis；FAO 2005 使用旧组合 Sepia pharaonis，图片生成原始提示按当时的制作输入保留。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CR-01",
+      "subjectId": "sepia-officinalis",
+      "text": "它会改变身体的颜色、图案和表面样子。",
+      "sourceIds": [
+        "S-VTH-CR-7F7647BA"
+      ],
+      "location": "Description / camouflage / diet",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CR-02",
+      "subjectId": "sepia-officinalis",
+      "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+      "sourceIds": [
+        "S-VTH-CN-A28DA354"
+      ],
+      "location": "Eight arms / ten appendages: class-level anatomy",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CR-03",
+      "subjectId": "sepia-officinalis",
+      "text": "它会吃虾、蟹、小鱼和一些贝类。",
+      "sourceIds": [
+        "S-VTH-CR-7F7647BA"
+      ],
+      "location": "Description / camouflage / diet",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CS-01",
+      "subjectId": "octopus-vulgaris",
+      "text": "章鱼有八条腕，没有鱿鱼那两条长触腕。",
+      "sourceIds": [
+        "S-VTH-CN-A28DA354"
+      ],
+      "location": "Eight arms / ten appendages: class-level anatomy",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 普通章鱼存在物种复合群；不把旧资料的广域分布全部作为本种已证实分布。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CS-02",
+      "subjectId": "octopus-vulgaris",
+      "text": "每条腕上，能看到两排吸盘。",
+      "sourceIds": [
+        "S-VTH-CS-DB95CD0F"
+      ],
+      "location": "Description / identifying features",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 普通章鱼存在物种复合群；不把旧资料的广域分布全部作为本种已证实分布。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CS-03",
+      "subjectId": "octopus-vulgaris",
+      "text": "身体颜色可以变化，不是一直保持一种颜色。",
+      "sourceIds": [
+        "S-VTH-CS-DB95CD0F"
+      ],
+      "location": "Description / identifying features",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 普通章鱼存在物种复合群；不把旧资料的广域分布全部作为本种已证实分布。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CT-01",
+      "subjectId": "enteroctopus-dofleini",
+      "text": "它有八条带着吸盘的腕。",
+      "sourceIds": [
+        "S-VTH-CT-7D12BCAA"
+      ],
+      "location": "Appearance / habitat / diet",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CT-02",
+      "subjectId": "enteroctopus-dofleini",
+      "text": "常在海底岩石的洞隙里找住处。",
+      "sourceIds": [
+        "S-VTH-CT-7D12BCAA"
+      ],
+      "location": "Appearance / habitat / diet",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CT-03",
+      "subjectId": "enteroctopus-dofleini",
+      "text": "它会捕食蟹、贝类和鱼等小动物。",
+      "sourceIds": [
+        "S-VTH-CT-7D12BCAA"
+      ],
+      "location": "Appearance / habitat / diet",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CU-01",
+      "subjectId": "haliotis-discus",
+      "text": "一片扁扁的壳，轮廓像耳朵。",
+      "sourceIds": [
+        "S-VTH-CU-6F38BF51"
+      ],
+      "location": "Abalone species / shell / feeding",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CU-02",
+      "subjectId": "haliotis-discus",
+      "text": "壳边有一排小孔。",
+      "sourceIds": [
+        "S-VTH-CU-6F38BF51"
+      ],
+      "location": "Abalone species / shell / feeding",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CU-03",
+      "subjectId": "haliotis-discus",
+      "text": "鲍鱼可以吃海藻。",
+      "sourceIds": [
+        "S-VTH-CU-6F38BF51"
+      ],
+      "location": "Abalone species / shell / feeding",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CV-01",
+      "subjectId": "haliotis-diversicolor",
+      "text": "鲍鱼属于螺类，背上只有一片壳。",
+      "sourceIds": [
+        "S-VTH-CU-6F38BF51"
+      ],
+      "location": "Haliotis diversicolor / shell / feeding",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CV-02",
+      "subjectId": "haliotis-diversicolor",
+      "text": "壳边能看到一排小孔。",
+      "sourceIds": [
+        "S-VTH-CU-6F38BF51"
+      ],
+      "location": "Haliotis diversicolor / shell / feeding",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CV-03",
+      "subjectId": "haliotis-diversicolor",
+      "text": "它会吃海藻。",
+      "sourceIds": [
+        "S-VTH-CU-6F38BF51"
+      ],
+      "location": "Haliotis diversicolor / shell / feeding",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CW-01",
+      "subjectId": "babylonia-areolata",
+      "text": "浅色的螺壳上，排着褐色方斑。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Babylonia areolata / p117",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CW-02",
+      "subjectId": "babylonia-areolata",
+      "text": "壳上部一圈圈变小，形成尖尖的螺塔。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Babylonia areolata / p117",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CW-03",
+      "subjectId": "babylonia-areolata",
+      "text": "生活在海底的沙泥中。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Babylonia areolata / p117",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CX-01",
+      "subjectId": "rapana-venosa",
+      "text": "壳的最后一圈大大鼓起，顶端较短。",
+      "sourceIds": [
+        "S-VTH-CX-4D6C3533"
+      ],
+      "location": "Identification / habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CX-02",
+      "subjectId": "rapana-venosa",
+      "text": "壳口里面可以是橙色的。",
+      "sourceIds": [
+        "S-VTH-CX-4D6C3533"
+      ],
+      "location": "Identification / habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CX-03",
+      "subjectId": "rapana-venosa",
+      "text": "螺壳上可以有深色的脉状花纹。",
+      "sourceIds": [
+        "S-VTH-CX-4D6C3533"
+      ],
+      "location": "Identification / habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CY-01",
+      "subjectId": "aliger-gigas",
+      "text": "成体有厚厚的螺壳，壳上还有短短的尖刺。",
+      "sourceIds": [
+        "S-VTH-CY-063D6710"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CY-02",
+      "subjectId": "aliger-gigas",
+      "text": "成体壳口里面常常是粉红色。",
+      "sourceIds": [
+        "S-VTH-CY-063D6710"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CY-03",
+      "subjectId": "aliger-gigas",
+      "text": "两只眼睛长在可以活动的眼柄上。",
+      "sourceIds": [
+        "S-VTH-CY-063D6710"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CZ-01",
+      "subjectId": "ruditapes-philippinarum",
+      "text": "身体外面，有两片椭圆的壳。",
+      "sourceIds": [
+        "S-VTH-CZ-FF2B1455"
+      ],
+      "location": "Biological features / habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CZ-02",
+      "subjectId": "ruditapes-philippinarum",
+      "text": "壳上的横纹和放射纹，交织成小格子。",
+      "sourceIds": [
+        "S-VTH-CZ-FF2B1455"
+      ],
+      "location": "Biological features / habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-CZ-03",
+      "subjectId": "ruditapes-philippinarum",
+      "text": "可以生活在浅海沙泥或沙砾底。",
+      "sourceIds": [
+        "S-VTH-CZ-FF2B1455"
+      ],
+      "location": "Biological features / habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DA-01",
+      "subjectId": "meretrix-meretrix",
+      "text": "两片厚壳，轮廓像圆圆的三角形。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Meretrix meretrix species account / p102",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DA-02",
+      "subjectId": "meretrix-meretrix",
+      "text": "壳面比较光滑，颜色和图案会变化。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Meretrix meretrix species account / p102",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DA-03",
+      "subjectId": "meretrix-meretrix",
+      "text": "生活在近岸浅海的沙泥底。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Meretrix meretrix species account / p102",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DB-01",
+      "subjectId": "perna-viridis",
+      "text": "幼小的时候，壳常常是鲜绿色。",
+      "sourceIds": [
+        "S-VTH-DB-08822540"
+      ],
+      "location": "Identification / ecology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DB-02",
+      "subjectId": "perna-viridis",
+      "text": "长大以后，壳会变成较深的绿褐色。",
+      "sourceIds": [
+        "S-VTH-DB-08822540"
+      ],
+      "location": "Identification / ecology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DB-03",
+      "subjectId": "perna-viridis",
+      "text": "它用一束细丝，把自己固定在硬物上。",
+      "sourceIds": [
+        "S-VTH-DB-08822540"
+      ],
+      "location": "Identification / ecology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DC-01",
+      "subjectId": "mytilus-edulis",
+      "text": "两片壳的轮廓，有些像长长的水滴。",
+      "sourceIds": [
+        "S-VTH-DC-91F2D359"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DC-02",
+      "subjectId": "mytilus-edulis",
+      "text": "壳可以是蓝黑色、黑色或褐色。",
+      "sourceIds": [
+        "S-VTH-DC-91F2D359"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DC-03",
+      "subjectId": "mytilus-edulis",
+      "text": "它用一束细丝，把自己固定在物体上。",
+      "sourceIds": [
+        "S-VTH-DC-91F2D359"
+      ],
+      "location": "Appearance",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DD-01",
+      "subjectId": "magallana-gigas",
+      "text": "两片壳的外面凹凸不平。",
+      "sourceIds": [
+        "S-VTH-DD-4DD5E53D"
+      ],
+      "location": "Appearance / biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DD-02",
+      "subjectId": "magallana-gigas",
+      "text": "一片壳较平，另一片像深一点的小碗。",
+      "sourceIds": [
+        "S-VTH-DD-4DD5E53D"
+      ],
+      "location": "Appearance / biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DD-03",
+      "subjectId": "magallana-gigas",
+      "text": "它过滤海水，吃水里的浮游小生物。",
+      "sourceIds": [
+        "S-VTH-DD-4DD5E53D"
+      ],
+      "location": "Appearance / biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DE-01",
+      "subjectId": "pecten-maximus",
+      "text": "两片壳像扇子一样展开。",
+      "sourceIds": [
+        "S-VTH-DE-0BFFE8ED"
+      ],
+      "location": "Description / identifying features / habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DE-02",
+      "subjectId": "pecten-maximus",
+      "text": "一片壳比较鼓，另一片比较平。",
+      "sourceIds": [
+        "S-VTH-DE-0BFFE8ED"
+      ],
+      "location": "Description / identifying features / habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DE-03",
+      "subjectId": "pecten-maximus",
+      "text": "它能在海底沙砾中，找一个浅浅的凹窝。",
+      "sourceIds": [
+        "S-VTH-DE-0BFFE8ED"
+      ],
+      "location": "Description / identifying features / habitat",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DF-01",
+      "subjectId": "tegillarca-granosa",
+      "text": "两片壳厚厚的，向外鼓起。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Tegillarca granosa / identification",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DF-02",
+      "subjectId": "tegillarca-granosa",
+      "text": "壳上有一条条向外放射的凸肋。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Tegillarca granosa / identification",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DF-03",
+      "subjectId": "tegillarca-granosa",
+      "text": "凸肋上，还有小小的结节。",
+      "sourceIds": [
+        "S-VTH-CH-BC6275DF"
+      ],
+      "location": "Tegillarca granosa / identification",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DG-01",
+      "subjectId": "sinonovacula-constricta",
+      "text": "这种双壳贝，叫作缢蛏，也叫毛蛏。",
+      "sourceIds": [
+        "S-VTH-DG-6A6C51D3"
+      ],
+      "location": "毛蟶 / identity / 棲地分布",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DG-02",
+      "subjectId": "sinonovacula-constricta",
+      "text": "它住在浅海的泥底。",
+      "sourceIds": [
+        "S-VTH-DG-6A6C51D3"
+      ],
+      "location": "毛蟶 / identity / 棲地分布",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DG-03",
+      "subjectId": "sinonovacula-constricta",
+      "text": "在中国沿海、日本和韩国等地可以见到。",
+      "sourceIds": [
+        "S-VTH-DG-6A6C51D3"
+      ],
+      "location": "毛蟶 / identity / 棲地分布",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DH-01",
+      "subjectId": "panopea-generosa",
+      "text": "两片壳外面，伸着长长的水管。",
+      "sourceIds": [
+        "S-VTH-DH-D1964B42"
+      ],
+      "location": "Appearance / habitat / biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DH-02",
+      "subjectId": "panopea-generosa",
+      "text": "水管有进水和出水的两个开口。",
+      "sourceIds": [
+        "S-VTH-DH-D1964B42"
+      ],
+      "location": "Appearance / habitat / biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DH-03",
+      "subjectId": "panopea-generosa",
+      "text": "身体可以埋在海底泥沙里。",
+      "sourceIds": [
+        "S-VTH-DH-D1964B42"
+      ],
+      "location": "Appearance / habitat / biology",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DI-01",
+      "subjectId": "apostichopus-japonicus",
+      "text": "身体长长的，背上有锥形小突起。",
+      "sourceIds": [
+        "S-VTH-DI-5F482454"
+      ],
+      "location": "Apostichopus japonicus species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DI-02",
+      "subjectId": "apostichopus-japonicus",
+      "text": "身体下面有一排排小管足。",
+      "sourceIds": [
+        "S-VTH-DI-5F482454"
+      ],
+      "location": "Apostichopus japonicus species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DI-03",
+      "subjectId": "apostichopus-japonicus",
+      "text": "不同个体可以是绿色、褐色或灰色。",
+      "sourceIds": [
+        "S-VTH-DI-5F482454"
+      ],
+      "location": "Apostichopus japonicus species account",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DJ-01",
+      "subjectId": "mesocentrotus-nudus",
+      "text": "这是一种海胆，日本叫它北紫海胆。",
+      "sourceIds": [
+        "S-VTH-DJ-4988796B"
+      ],
+      "location": "キタムラサキウニ / distribution / algae",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 旧名 Strongylocentrotus nudus；日本北紫海胆与另一物种紫海胆不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DJ-02",
+      "subjectId": "mesocentrotus-nudus",
+      "text": "在北海道附近的沿海可以见到。",
+      "sourceIds": [
+        "S-VTH-DJ-4988796B"
+      ],
+      "location": "キタムラサキウニ / distribution / algae",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 旧名 Strongylocentrotus nudus；日本北紫海胆与另一物种紫海胆不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DJ-03",
+      "subjectId": "mesocentrotus-nudus",
+      "text": "它会吃海藻，也会吃海藻的幼芽。",
+      "sourceIds": [
+        "S-VTH-DJ-4988796B"
+      ],
+      "location": "キタムラサキウニ / distribution / algae",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 旧名 Strongylocentrotus nudus；日本北紫海胆与另一物种紫海胆不同。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DK-01",
+      "subjectId": "rhopilema-esculentum",
+      "text": "身体上面像一把圆圆的伞。",
+      "sourceIds": [
+        "S-VTH-DK-E9A1062D"
+      ],
+      "location": "Rhopilema esculentum / umbrella / oral arms",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DK-02",
+      "subjectId": "rhopilema-esculentum",
+      "text": "伞的下面，有一簇口腕。",
+      "sourceIds": [
+        "S-VTH-DK-E9A1062D"
+      ],
+      "location": "Rhopilema esculentum / umbrella / oral arms",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "VTH-DK-03",
+      "subjectId": "rhopilema-esculentum",
+      "text": "海蜇属于水母，和鱼不属于同一类。",
+      "sourceIds": [
+        "S-VTH-DK-52E1862E"
+      ],
+      "location": "Jellyfish / Cnidaria",
+      "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+      "checkedAt": "2026-10-07",
       "reviewer": "primary-agent",
       "status": "checked",
       "publicationStatus": "preview-ready",

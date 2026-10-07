@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-07",
+  "status": "complete-local-preview",
+  "scope": "119 observation companions / 80 fishes + 39 other marine animals; fishing pool remains 12",
+  "added": {
+    "fish": 50,
+    "other": 39,
+    "originalImages": 89,
+    "audioClips": 356,
+    "comparisonGuides": 3
+  },
+  "totals": {
+    "date": "2026-10-07",
+    "fish": 119,
+    "images": 125,
+    "transparentImages": 121,
+    "guides": 10,
+    "audioClips": 484,
+    "voice": "Microsoft Huihui Desktop / zh-CN",
+    "audioSeconds": 2556.876,
+    "shortestClipSeconds": 1.676,
+    "longestClipSeconds": 9.993,
+    "sources": 128,
+    "claims": 370,
+    "checkedClaims": 369,
+    "excludedHistoricalClaims": [
+      "AH-06"
+    ],
+    "webImageBytes": 25283128,
+    "audioBytes": 122752472,
+    "checks": [
+      "unique IDs",
+      "fact/source/audio references",
+      "source and WebP dimensions",
+      "121 near-transparent corners (alpha <= 3 / 255)",
+      "484 non-silent PCM clips",
+      "10 self-contained editable SVGs",
+      "excluded unverified mechanism"
+    ],
+    "scope": "content pack only; no full game regression; no real iPad or scientific expert approval"
+  },
+  "categories": [
+    {
+      "id": "fish",
+      "label": "鱼",
+      "count": 80
+    },
+    {
+      "id": "shrimp",
+      "label": "虾与龙虾",
+      "count": 9
+    },
+    {
+      "id": "crab",
+      "label": "蟹",
+      "count": 6
+    },
+    {
+      "id": "cephalopod",
+      "label": "鱿鱼与章鱼",
+      "count": 7
+    },
+    {
+      "id": "gastropod",
+      "label": "螺与鲍鱼",
+      "count": 5
+    },
+    {
+      "id": "bivalve",
+      "label": "双壳贝",
+      "count": 9
+    },
+    {
+      "id": "other",
+      "label": "其他伙伴",
+      "count": 3
+    }
+  ],
+  "primaryAgentResearch": true,
+  "artwork": {
+    "engine": "built-in imagegen",
+    "sourcePhotosEmbedded": false,
+    "fullPrompts": "design/content/v1/generation-jobs-v3.json",
+    "originals": "design/content/v1/illustrations",
+    "exports": "public/content/v1/illustrations",
+    "repairs": [
+      "rachycentron-canadum",
+      "scylla-serrata",
+      "portunus-pelagicus",
+      "charybdis-feriata"
+    ],
+    "visualReview": "Six contact sheets inspected; whole-body silhouettes, salient patterns and obvious limb errors reviewed; not scientific expert approval",
+    "alphaReview": "120 zero-alpha upper-left corners, one Panulirus ornatus corner alpha 2/255; content check permits <=3/255"
+  },
+  "integrations": [
+    "Journal categories and common-name aliases",
+    "Workshop observation and palettes for all 119 companions",
+    "Three self-contained comparison SVGs",
+    "Preview category, aliases, sources, audio and enlarged image",
+    "Teleported workshop modal works when the More section is folded"
+  ],
+  "verification": {
+    "tests": 115,
+    "testFailures": 0,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "browserRecord": "docs/content/browser-verification-v3.json",
+    "imageAudioRecord": "docs/content/verification-v1.json",
+    "scope": "existing suite and focused library browser validation; historical game browser flows not rerun"
+  },
+  "limits": [
+    "No additional capture GLBs or marine-animal editor structures",
+    "Artwork is an original artistic approximation; no exact appendage/rib count or diagnosis from AI images",
+    "System speech is local review audio with distribution rights unverified",
+    "No real iPad/Safari/child acceptance or expert taxonomy/art approval"
+  ]
+}

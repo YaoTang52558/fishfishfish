@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-06",
+  "checkedAt": "2026-10-07",
   "purpose": "content-preparation; not runtime",
   "records": [
     {
@@ -344,6 +344,816 @@
       "checkedAt": "2026-10-06",
       "access": "direct-page",
       "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-VTH-AA-FB0FE0C8",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Gnathanodon speciosus",
+      "url": "https://fishesofaustralia.net.au/home/species/4274",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AB-76004010",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Rachycentron canadum",
+      "url": "https://fishesofaustralia.net.au/home/species/4421",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AC-233E999C",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Lutjanus argentimaculatus",
+      "url": "https://fishesofaustralia.net.au/home/species/548",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AD-FD99EEBD",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Lutjanus johnii",
+      "url": "https://fishesofaustralia.net.au/home/species/558",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AE-FD3E2D01",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Lutjanus sebae",
+      "url": "https://fishesofaustralia.net.au/home/species/567",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AF-C37D23FD",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Lethrinus nebulosus",
+      "url": "https://fishesofaustralia.net.au/home/species/2754",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AG-69CB4D1D",
+      "institution": "Australian Museum",
+      "title": "Cheilinus undulatus",
+      "url": "https://australian.museum/learn/animals/fishes/humphead-maori-wrasse-cheilinus-undulatus/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AH-C73ADD1C",
+      "institution": "Australian Museum",
+      "title": "Thalassoma lunare",
+      "url": "https://australian.museum/learn/animals/fishes/moon-wrasse-thalassoma-lunare/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AI-C5B7F0E1",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Chromis viridis",
+      "url": "https://fishesofaustralia.net.au/home/species/329",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AJ-ADB3AAE6",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Balistoides conspicillum",
+      "url": "https://fishesofaustralia.net.au/home/species/761",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AK-079CB8C6",
+      "institution": "Australian Museum",
+      "title": "Gymnothorax javanicus",
+      "url": "https://australian.museum/learn/animals/fishes/giant-moray-gymnothorax-javanicus-bleeker-1859/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AL-DED57468",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Platax teira",
+      "url": "https://fishesofaustralia.net.au/home/species/2210",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AM-D79EF095",
+      "institution": "Australian Museum",
+      "title": "Aulostomus chinensis",
+      "url": "https://australian.museum/learn/animals/fishes/trumpetfish-aulostomus-chinensis-linnaeus-1766/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AN-0D00AE69",
+      "institution": "NOAA Fisheries",
+      "title": "Salmo salar",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-salmon",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AO-CB2CB6DF",
+      "institution": "NOAA Fisheries",
+      "title": "Scomber scombrus",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-mackerel",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AP-D3CF4A92",
+      "institution": "NOAA Fisheries",
+      "title": "Clupea harengus",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-herring",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AQ-5F708390",
+      "institution": "NOAA Fisheries",
+      "title": "Paralichthys dentatus",
+      "url": "https://www.fisheries.noaa.gov/species/summer-flounder",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AR-3B410999",
+      "institution": "Australian Museum",
+      "title": "Carcharhinus melanopterus",
+      "url": "https://australian.museum/learn/animals/fishes/blacktip-reef-shark-carcharhinus-melanopterus-quoy-gaimard-1824/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AS-14666904",
+      "institution": "Florida Museum",
+      "title": "Rhincodon typus",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/whale-shark/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AT-11CEBF4D",
+      "institution": "Australian Museum",
+      "title": "Taeniura lymma",
+      "url": "https://australian.museum/learn/animals/fishes/bluespotted-fantail-ray-taeniura-lymma-forsskal-1775/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AU-B42D1627",
+      "institution": "NParks Singapore",
+      "title": "Periophthalmodon schlosseri",
+      "url": "https://biodiversitysg.nparks.gov.sg/our-biodiversity/marine-fishes/giant-mudskipper/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AV-9A5A4570",
+      "institution": "MBARI",
+      "title": "Melanocetus johnsonii",
+      "url": "https://www.mbari.org/news/amazing-black-sea-devil-anglerfish-observed-in-monterey-bay/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AW-15284255",
+      "institution": "中央研究院／臺灣魚類資料庫",
+      "title": "Pagrus major",
+      "url": "https://fishdb.sinica.edu.tw/taxon/382642-fishdb",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AX-3EF86484",
+      "institution": "中央研究院／臺灣魚類資料庫",
+      "title": "Acanthopagrus latus",
+      "url": "https://fishdb.sinica.edu.tw/taxon/382634-fishdb",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AY-85749043",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Mugil cephalus",
+      "url": "https://fishesofaustralia.net.au/home/species/3880",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-AZ-ECDF308D",
+      "institution": "中央研究院／臺灣魚類資料庫",
+      "title": "Pampus argenteus",
+      "url": "https://fishdb.sinica.edu.tw/taxon/382652-fishdb",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BA-3E67BC48",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Trachinotus blochii",
+      "url": "https://fishesofaustralia.net.au/home/species/2993",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BB-5708FA4C",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Eleutheronema tetradactylum",
+      "url": "https://www.fao.org/docrep/pdf/008/y5398e/y5398e03.pdf",
+      "checkedAt": "2026-10-07",
+      "access": "direct-pdf",
+      "notes": "pp17–18 / Eleutheronema tetradactylum"
+    },
+    {
+      "id": "S-VTH-BC-00E74ABB",
+      "institution": "中央研究院／数位典藏",
+      "title": "Siganus javus",
+      "url": "https://catalog.digitalarchives.tw/item/00/00/3f/8e.html",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BD-8FFEC2E3",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Caranx melampygus",
+      "url": "https://fishesofaustralia.net.au/home/species/1652",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BE-01BD7630",
+      "institution": "NOAA Fisheries",
+      "title": "Thunnus thynnus",
+      "url": "https://www.fisheries.noaa.gov/species/western-atlantic-bluefin-tuna",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BF-057771CC",
+      "institution": "NOAA Fisheries",
+      "title": "Katsuwonus pelamis",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-skipjack-tuna",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BG-09AE0E71",
+      "institution": "NOAA Fisheries",
+      "title": "Xiphias gladius",
+      "url": "https://www.fisheries.noaa.gov/species/north-atlantic-swordfish",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BH-2B4B588C",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Istiophorus platypterus",
+      "url": "https://fishesofaustralia.net.au/home/species/713",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BI-BE39DFE8",
+      "institution": "NOAA Fisheries",
+      "title": "Coryphaena hippurus",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-mahi-mahi",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BJ-2EB56B36",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Sardina pilchardus",
+      "url": "https://www.fao.org/fishery/docs/CDrom/ARTFIMED/ArtFiWeb/descript/Species/CLUSAPIL.HTML",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BK-F1395C3B",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Engraulis encrasicolus",
+      "url": "https://www.fao.org/4/t8200f/T8200F16.htm",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BL-17AC1249",
+      "institution": "中央研究院／臺灣魚類資料庫",
+      "title": "Trachurus japonicus",
+      "url": "https://fishdb.sinica.edu.tw/e_books/fishshell2011pic.php?id=289",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BM-DB6D6AB2",
+      "institution": "NOAA Fisheries",
+      "title": "Gadus macrocephalus",
+      "url": "https://www.fisheries.noaa.gov/species/pacific-cod",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BN-E9EB2D4D",
+      "institution": "NOAA Fisheries",
+      "title": "Gadus chalcogrammus",
+      "url": "https://www.fisheries.noaa.gov/species/alaska-pollock",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BO-BFD246F6",
+      "institution": "NOAA Fisheries",
+      "title": "Melanogrammus aeglefinus",
+      "url": "https://www.fisheries.noaa.gov/species/haddock",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BP-D15F1917",
+      "institution": "NOAA Fisheries",
+      "title": "Hippoglossus hippoglossus",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-halibut",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BQ-F748B5DE",
+      "institution": "Australian Museum",
+      "title": "Phycodurus eques",
+      "url": "https://australian.museum/learn/animals/fishes/leafy-seadragon-phycodurus-eques/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BR-2A6349FD",
+      "institution": "Florida Museum",
+      "title": "Diodon hystrix",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/porcupinefish/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BS-A5244313",
+      "institution": "Australian Museum",
+      "title": "Pterois volitans",
+      "url": "https://australian.museum/learn/animals/fishes/common-lionfish-pterois-volitans/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BT-2022254A",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Cheilopogon pinnatibarbatus",
+      "url": "https://fishesofaustralia.net.au/home/species/3721",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BU-67BAC16C",
+      "institution": "Australian Museum",
+      "title": "Mola mola",
+      "url": "https://australian.museum/learn/animals/fishes/ocean-sunfish-mola-mola/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BV-05C307B7",
+      "institution": "Florida Museum",
+      "title": "Chiloscyllium plagiosum",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/whitespotted-bambooshark/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BW-E5084976",
+      "institution": "Florida Museum",
+      "title": "Stegostoma tigrinum",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/stegostoma-fasciatum/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BW-913C55BC",
+      "institution": "WoRMS",
+      "title": "Stegostoma tigrinum",
+      "url": "https://www.marinespecies.org/aphia.php?id=220032&p=taxdetails",
+      "checkedAt": "2026-10-07",
+      "access": "indexed-account",
+      "notes": "Accepted-name mapping; indexed WoRMS entry"
+    },
+    {
+      "id": "S-VTH-BX-9F73E7F1",
+      "institution": "Florida Museum",
+      "title": "Sphyrna lewini",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/scalloped-hammerhead/",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "S-VTH-BY-63CD80AA",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Penaeus monodon",
+      "url": "https://www.fao.org/4/ac765t/AC765T05.htm",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Penaeus monodon / morphology"
+    },
+    {
+      "id": "S-VTH-BZ-B11162B6",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Penaeus vannamei",
+      "url": "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_whitelegshrimp.htm",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Biological features / Habitat"
+    },
+    {
+      "id": "S-VTH-CA-C27E939B",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Penaeus japonicus",
+      "url": "https://www.fao.org/4/ac741t/AC741T11.htm",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Penaeus japonicus / colour"
+    },
+    {
+      "id": "S-VTH-CB-B97E33AF",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Penaeus merguiensis",
+      "url": "https://www.fao.org/4/ad468e/AD468eQI.pdf",
+      "checkedAt": "2026-10-07",
+      "access": "direct-pdf",
+      "notes": "Penaeus merguiensis / diagnostic features"
+    },
+    {
+      "id": "S-VTH-CC-418C4C4D",
+      "institution": "NOAA Fisheries",
+      "title": "Pandalus borealis",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-northern-shrimp",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Appearance / Habitat / Biology"
+    },
+    {
+      "id": "S-VTH-CD-69E66279",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Oratosquilla oratoria",
+      "url": "https://www.fao.org/4/w7192e/w7192e12.pdf",
+      "checkedAt": "2026-10-07",
+      "access": "direct-pdf",
+      "notes": "Stomatopoda introduction / Squillidae / Oratosquilla key"
+    },
+    {
+      "id": "S-VTH-CE-72B7628A",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Panulirus ornatus",
+      "url": "https://www.fao.org/docrep/pdf/009/t0411e/t0411e23.pdf",
+      "checkedAt": "2026-10-07",
+      "access": "direct-pdf",
+      "notes": "Panulirus ornatus / diagnostic diagram / Habitat"
+    },
+    {
+      "id": "S-VTH-CF-9B1F606C",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Panulirus homarus",
+      "url": "https://www.fao.org/4/t0411e/t0411e22.pdf",
+      "checkedAt": "2026-10-07",
+      "access": "direct-pdf",
+      "notes": "Panulirus homarus / diagnostic diagram / Habitat"
+    },
+    {
+      "id": "S-VTH-CG-E9116978",
+      "institution": "NOAA Fisheries",
+      "title": "Homarus americanus",
+      "url": "https://www.fisheries.noaa.gov/species/american-lobster",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Appearance / Biology"
+    },
+    {
+      "id": "S-VTH-CH-BC6275DF",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Scylla serrata",
+      "url": "https://openknowledge.fao.org/server/api/core/bitstreams/f32d004b-6358-44f3-8242-b9d23e5346d0/content",
+      "checkedAt": "2026-10-07",
+      "access": "indexed-account",
+      "notes": "Scylla serrata species account"
+    },
+    {
+      "id": "S-VTH-CI-99ED55CC",
+      "institution": "NParks Singapore",
+      "title": "Portunus pelagicus",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/fauna/1/2/1207",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Physical / Ecology"
+    },
+    {
+      "id": "S-VTH-CJ-B3073833",
+      "institution": "WoRMS",
+      "title": "Charybdis feriata",
+      "url": "https://www.marinespecies.org/aphia.php?id=1779697&p=taxdetails",
+      "checkedAt": "2026-10-07",
+      "access": "indexed-account",
+      "notes": "Accepted-name mapping; indexed WoRMS entry"
+    },
+    {
+      "id": "S-VTH-CK-94BDE5F2",
+      "institution": "Marine Biological Association / MarLIN",
+      "title": "Cancer pagurus",
+      "url": "https://www.marlin.ac.uk/species/detail/1179",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Description / Habitat"
+    },
+    {
+      "id": "S-VTH-CL-4C361802",
+      "institution": "NOAA Fisheries",
+      "title": "Chionoecetes opilio",
+      "url": "https://www.fisheries.noaa.gov/species/alaska-snow-crab",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Appearance"
+    },
+    {
+      "id": "S-VTH-CM-10193D38",
+      "institution": "NOAA Fisheries",
+      "title": "Paralithodes camtschaticus",
+      "url": "https://www.fisheries.noaa.gov/species/red-king-crab",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Appearance"
+    },
+    {
+      "id": "S-VTH-CN-BABFB628",
+      "institution": "Monterey Bay Aquarium",
+      "title": "Sepioteuthis lessoniana",
+      "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/bigfin-reef-squid",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Appearance / camouflage"
+    },
+    {
+      "id": "S-VTH-CN-A28DA354",
+      "institution": "Monterey Bay Aquarium",
+      "title": "Sepioteuthis lessoniana",
+      "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/cephalopods",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Eight arms / ten appendages: class-level anatomy"
+    },
+    {
+      "id": "S-VTH-CO-6D0E8642",
+      "institution": "Marine Biological Association / MarLIN",
+      "title": "Loligo vulgaris",
+      "url": "https://www.marlin.ac.uk/species/detail/1111/1000",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Description / identifying features"
+    },
+    {
+      "id": "S-VTH-CP-B35A8939",
+      "institution": "MBARI",
+      "title": "Dosidicus gigas",
+      "url": "https://annualreport.mbari.org/2020/story/the-secret-language-of-humboldt-squid",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Squid speak / captions / research summary"
+    },
+    {
+      "id": "S-VTH-CQ-0B579701",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Acanthosepion pharaonis",
+      "url": "https://www.fao.org/4/a0150e/a0150e12.pdf",
+      "checkedAt": "2026-10-07",
+      "access": "direct-pdf",
+      "notes": "pp 106–108 / diagnostic features / biology"
+    },
+    {
+      "id": "S-VTH-CQ-31AB67AC",
+      "institution": "WoRMS",
+      "title": "Acanthosepion pharaonis",
+      "url": "https://www.marinespecies.org/aphia.php?id=1666972&p=taxdetails",
+      "checkedAt": "2026-10-07",
+      "access": "indexed-account",
+      "notes": "Accepted-name mapping; indexed WoRMS entry"
+    },
+    {
+      "id": "S-VTH-CR-7F7647BA",
+      "institution": "Monterey Bay Aquarium",
+      "title": "Sepia officinalis",
+      "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/common-cuttlefish",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Description / camouflage / diet"
+    },
+    {
+      "id": "S-VTH-CS-DB95CD0F",
+      "institution": "Marine Biological Association / MarLIN",
+      "title": "Octopus vulgaris",
+      "url": "https://www.marlin.ac.uk/species/detail/1117",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Description / identifying features"
+    },
+    {
+      "id": "S-VTH-CT-7D12BCAA",
+      "institution": "Monterey Bay Aquarium",
+      "title": "Enteroctopus dofleini",
+      "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/giant-pacific-octopus",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Appearance / habitat / diet"
+    },
+    {
+      "id": "S-VTH-CU-6F38BF51",
+      "institution": "台湾政府机构／海洋与渔业资料",
+      "title": "Haliotis discus",
+      "url": "https://www.agriculture.ntpc.gov.tw/en/gongliao_abalone.html",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Abalone species / shell / feeding"
+    },
+    {
+      "id": "S-VTH-CX-4D6C3533",
+      "institution": "USGS",
+      "title": "Rapana venosa",
+      "url": "https://nas.er.usgs.gov/Queries/FactSheet.aspx?SpeciesID=1018",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / habitat"
+    },
+    {
+      "id": "S-VTH-CY-063D6710",
+      "institution": "NOAA Fisheries",
+      "title": "Aliger gigas",
+      "url": "https://www.fisheries.noaa.gov/species/queen-conch",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Appearance"
+    },
+    {
+      "id": "S-VTH-CZ-FF2B1455",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Ruditapes philippinarum",
+      "url": "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_japanesecarpetshell.htm",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Biological features / habitat"
+    },
+    {
+      "id": "S-VTH-DB-08822540",
+      "institution": "USGS",
+      "title": "Perna viridis",
+      "url": "https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=110",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Identification / ecology"
+    },
+    {
+      "id": "S-VTH-DC-91F2D359",
+      "institution": "NOAA Fisheries",
+      "title": "Mytilus edulis",
+      "url": "https://www.fisheries.noaa.gov/species/blue-mussel",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Appearance"
+    },
+    {
+      "id": "S-VTH-DD-4DD5E53D",
+      "institution": "NOAA Fisheries",
+      "title": "Magallana gigas",
+      "url": "https://www.fisheries.noaa.gov/species/pacific-oyster",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Appearance / biology"
+    },
+    {
+      "id": "S-VTH-DE-0BFFE8ED",
+      "institution": "Marine Biological Association / MarLIN",
+      "title": "Pecten maximus",
+      "url": "https://www.marlin.ac.uk/species/detail/1398",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Description / identifying features / habitat"
+    },
+    {
+      "id": "S-VTH-DG-6A6C51D3",
+      "institution": "台湾政府机构／海洋与渔业资料",
+      "title": "Sinonovacula constricta",
+      "url": "https://kmweb.moa.gov.tw/theme_data.php?id=82&theme=fisheasy",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "毛蟶 / identity / 棲地分布"
+    },
+    {
+      "id": "S-VTH-DH-D1964B42",
+      "institution": "NOAA Fisheries",
+      "title": "Panopea generosa",
+      "url": "https://www.fisheries.noaa.gov/species/geoduck",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Appearance / habitat / biology"
+    },
+    {
+      "id": "S-VTH-DI-5F482454",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Apostichopus japonicus",
+      "url": "https://www.fao.org/4/i1918e/i1918e.pdf",
+      "checkedAt": "2026-10-07",
+      "access": "direct-pdf",
+      "notes": "Apostichopus japonicus species account"
+    },
+    {
+      "id": "S-VTH-DJ-4988796B",
+      "institution": "北海道立総合研究機構",
+      "title": "Mesocentrotus nudus",
+      "url": "https://www.hro.or.jp/fisheries/research/central/section/zoushoku/j12s220000001bka/j12s220000001dl8.html",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "キタムラサキウニ / distribution / algae"
+    },
+    {
+      "id": "S-VTH-DJ-D020AD34",
+      "institution": "WoRMS",
+      "title": "Mesocentrotus nudus",
+      "url": "https://www.marinespecies.org/aphia.php?p=image&pic=145612",
+      "checkedAt": "2026-10-07",
+      "access": "indexed-account",
+      "notes": "Accepted-name mapping; indexed WoRMS entry"
+    },
+    {
+      "id": "S-VTH-DK-E9A1062D",
+      "institution": "台湾政府机构／海洋与渔业资料",
+      "title": "Rhopilema esculentum",
+      "url": "https://scitechvista.nat.gov.tw/Article/c000003/detail?ID=8dab73f1-bbd5-4b70-b7c6-559a04580972",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Rhopilema esculentum / umbrella / oral arms"
+    },
+    {
+      "id": "S-VTH-DK-52E1862E",
+      "institution": "台湾政府机构／海洋与渔业资料",
+      "title": "Rhopilema esculentum",
+      "url": "https://www.tfrin.gov.tw/theme_data.php?id=420&sub_theme=G&theme=epaper_data",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Jellyfish / Cnidaria"
     }
   ]
 }

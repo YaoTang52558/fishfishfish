@@ -1,0 +1,2786 @@
+{
+  "version": 3,
+  "date": "2026-10-07",
+  "scope": "All fish directions discussed plus a broad bounded common seafood selection. Broad family terms are represented by explicit species, not all species on Earth.",
+  "existing": 30,
+  "newFish": 50,
+  "newOther": 39,
+  "records": [
+    {
+      "id": "gnathanodon-speciosus",
+      "name": "金鲹",
+      "scientificName": "Gnathanodon speciosus",
+      "category": "fish",
+      "shape": "Golden trevally adult, silvery body with yellowish fins, deeply forked yellow tail, blunt protrusible small mouth; NOT juvenile zebra stripes.",
+      "notes": "成鱼和幼鱼花纹不同，图中选成鱼。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/4274",
+      "prefix": "VTH-AA",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Golden trevally adult, silvery body with yellowish fins, deeply forked yellow tail, blunt protrusible small mouth; NOT juvenile zebra stripes. Scientific identity: Gnathanodon speciosus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "银色成鱼",
+          "text": "成鱼身体偏银灰色，鳍上可以带黄色。"
+        },
+        {
+          "key": "YOUNG",
+          "label": "小时候不同",
+          "text": "幼鱼是黄色的，身上有深色横带。"
+        },
+        {
+          "key": "HOME",
+          "label": "跟着大伙伴",
+          "text": "幼鱼有时跟在大鱼和海龟旁边活动。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "rachycentron-canadum",
+      "name": "军曹鱼",
+      "scientificName": "Rachycentron canadum",
+      "category": "fish",
+      "shape": "Cobia, elongated dark brown body with pale side stripe, broad flattened head, long pointed pectoral fins and crescent tail.",
+      "notes": "军曹鱼另属军曹鱼科，不能按中文鲹类名称归类。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/4421",
+      "prefix": "VTH-AB",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Cobia, elongated dark brown body with pale side stripe, broad flattened head, long backward-pointing sharply pointed pectoral fins, low separate first dorsal spines, elongated second dorsal fin and crescent tail. Scientific identity: Rachycentron canadum.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "长长的身体",
+          "text": "军曹鱼身体细长，下巴向前伸。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "尖尖的胸鳍",
+          "text": "它两侧的胸鳍向后伸，末端尖尖的。"
+        },
+        {
+          "key": "HOME",
+          "label": "暖海伙伴",
+          "text": "它生活在温暖的近海，也会进入河口。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "lutjanus-argentimaculatus",
+      "name": "红树林红笛鲷",
+      "scientificName": "Lutjanus argentimaculatus",
+      "category": "fish",
+      "shape": "Adult mangrove red snapper, robust copper reddish-brown body, strong closed jaw, continuous dorsal fin, slightly concave tail.",
+      "notes": "选择成鱼色型，幼鱼与成鱼环境及色泽有差别。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/548",
+      "prefix": "VTH-AC",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Adult mangrove red snapper, robust copper reddish-brown body, strong closed jaw, continuous dorsal fin, slightly concave tail. Scientific identity: Lutjanus argentimaculatus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "红褐色身体",
+          "text": "它的身体可以从绿褐色到红色，肚子颜色较浅。"
+        },
+        {
+          "key": "YOUNG",
+          "label": "幼鱼的家",
+          "text": "幼鱼喜欢红树林河口，长大后会移向较深的礁区。"
+        },
+        {
+          "key": "FOOD",
+          "label": "找小动物",
+          "text": "它会吃小鱼、虾蟹和其他小动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "lutjanus-johnii",
+      "name": "金目笛鲷",
+      "scientificName": "Lutjanus johnii",
+      "category": "fish",
+      "shape": "Johns snapper, golden-bronze body, golden eye, dark blotch on upper flank below soft dorsal fin, nearly truncate tail.",
+      "notes": "图片为有明显体侧黑斑的代表个体。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/558",
+      "prefix": "VTH-AD",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Johns snapper, golden-bronze body, golden eye, dark blotch on upper flank below soft dorsal fin, nearly truncate tail. Scientific identity: Lutjanus johnii.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "金色和黑斑",
+          "text": "它身体带金色光泽，背鳍下方有一块大黑斑。"
+        },
+        {
+          "key": "HOME",
+          "label": "河口和礁区",
+          "text": "幼鱼会在红树林活动，成鱼也住近岸礁区。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃小动物",
+          "text": "它会吃鱼、虾蟹和头足类动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "lutjanus-sebae",
+      "name": "红皇帝笛鲷",
+      "scientificName": "Lutjanus sebae",
+      "category": "fish",
+      "shape": "Emperor red snapper JUVENILE, tall red-white body, THREE broad dark red diagonal bands including eye head and tail base, long angular fins.",
+      "notes": "选择幼鱼三带型；成鱼通常更均匀红色。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/567",
+      "prefix": "VTH-AE",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Emperor red snapper JUVENILE, tall red-white body, THREE broad dark red diagonal bands including eye head and tail base, long angular fins. Scientific identity: Lutjanus sebae.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "红色条带",
+          "text": "幼鱼和年轻成鱼有三条明显的深红色带子。"
+        },
+        {
+          "key": "YOUNG",
+          "label": "小鱼的躲处",
+          "text": "小幼鱼会躲在海胆的棘之间。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃什么",
+          "text": "它会吃小鱼、虾蟹和头足类动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "lethrinus-nebulosus",
+      "name": "星斑裸颊鲷",
+      "scientificName": "Lethrinus nebulosus",
+      "category": "fish",
+      "shape": "Spangled emperor, silver olive body with small blue spots, blue lines on cheeks, long snout, orange-red dorsal edge, forked tail.",
+      "notes": "颜色随个体与环境变化，插画用代表色型。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/2754",
+      "prefix": "VTH-AF",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Spangled emperor, silver olive body with small blue spots, blue lines on cheeks, long snout, orange-red dorsal edge, forked tail. Scientific identity: Lethrinus nebulosus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "浅蓝色小点",
+          "text": "它鳞片上有浅色小点，眼睛周围还有蓝色线条。"
+        },
+        {
+          "key": "HOME",
+          "label": "不同的家园",
+          "text": "它能在礁区、海草床和近岸沙地生活。"
+        },
+        {
+          "key": "FOOD",
+          "label": "找底下的食物",
+          "text": "它会吃贝类、虾蟹和棘皮动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "cheilinus-undulatus",
+      "name": "苏眉鱼",
+      "scientificName": "Cheilinus undulatus",
+      "category": "fish",
+      "shape": "Humphead wrasse large adult male, huge fleshy lips, clear forehead hump, olive-blue green body with fine maze lines, rounded tail.",
+      "notes": "额头隆起与色型对应较大成鱼，不代表幼鱼。",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/humphead-maori-wrasse-cheilinus-undulatus/",
+      "prefix": "VTH-AG",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Humphead wrasse large adult male, huge fleshy lips, clear forehead hump, olive-blue green body with fine maze lines, rounded tail. Scientific identity: Cheilinus undulatus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "鼓鼓的额头",
+          "text": "成年苏眉鱼的额头鼓起来，嘴唇也厚厚的。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "弯弯的线",
+          "text": "它身上有弯曲的线条，眼睛后面也有线。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃海里小动物",
+          "text": "它会吃贝类、海胆、虾蟹和鱼。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "thalassoma-lunare",
+      "name": "月尾隆头鱼",
+      "scientificName": "Thalassoma lunare",
+      "category": "fish",
+      "shape": "Moon wrasse adult, lime green body with purple-pink bands on head, turquoise fins, unmistakable crescent yellow tail edged blue.",
+      "notes": "选择成鱼阶段，幼鱼不同。",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/moon-wrasse-thalassoma-lunare/",
+      "prefix": "VTH-AH",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Moon wrasse adult, lime green body with purple-pink bands on head, turquoise fins, unmistakable crescent yellow tail edged blue. Scientific identity: Thalassoma lunare.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "绿底红线",
+          "text": "它的绿色身体上有红色线条。"
+        },
+        {
+          "key": "YOUNG",
+          "label": "尾巴会变化",
+          "text": "幼鱼尾巴较平，成鱼尾巴像弯弯的月牙。"
+        },
+        {
+          "key": "HOME",
+          "label": "暖海礁区",
+          "text": "它生活在热带印度洋和太平洋的礁区。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "chromis-viridis",
+      "name": "蓝绿雀鲷",
+      "scientificName": "Chromis viridis",
+      "category": "fish",
+      "shape": "Blue-green chromis, small compressed pale turquoise blue-green fish with translucent forked tail and natural tiny eye.",
+      "notes": "蓝绿色的色泽受光线影响。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/329",
+      "prefix": "VTH-AI",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Blue-green chromis, small compressed pale turquoise blue-green fish with translucent forked tail and natural tiny eye. Scientific identity: Chromis viridis.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "蓝绿闪光",
+          "text": "它的身体会闪出蓝色和绿色的光泽。"
+        },
+        {
+          "key": "HOME",
+          "label": "一起游",
+          "text": "它常常成群，在分枝的珊瑚附近活动。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "细看鳍根",
+          "text": "这种蓝绿雀鲷的胸鳍根部，没有那种明显的黑斑。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "balistoides-conspicillum",
+      "name": "花纹鳞鲀",
+      "scientificName": "Balistoides conspicillum",
+      "category": "fish",
+      "shape": "Adult clown triggerfish, compressed black body with large white round spots on LOWER body, yellow spotted upper back and yellow-orange mouth, dorsal trigger spine.",
+      "notes": "白点和黄色区域的位置是观察重点。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/761",
+      "prefix": "VTH-AJ",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Adult clown triggerfish, compressed black body with large white round spots on LOWER body, yellow spotted upper back and yellow-orange mouth, dorsal trigger spine. Scientific identity: Balistoides conspicillum.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "黑底大白点",
+          "text": "它身体下半部的黑色底上，有很大的白色圆点。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "上面是网纹",
+          "text": "背部还有黄白色的网状花纹。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "橙色嘴唇",
+          "text": "它的嘴唇周围有橙色，尾根有浅色带子。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "gymnothorax-javanicus",
+      "name": "巨型裸胸鳝",
+      "scientificName": "Gymnothorax javanicus",
+      "category": "fish",
+      "shape": "Giant moray, elongated muscular snake-like brown speckled body, heavy blunt head, dorsal fin continuous with tail, NO pectoral fins or fish tail fan, closed mouth.",
+      "notes": "长身体不是蛇，属于鱼。",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/giant-moray-gymnothorax-javanicus-bleeker-1859/",
+      "prefix": "VTH-AK",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Giant moray, elongated muscular snake-like brown speckled body, heavy blunt head, dorsal fin continuous with tail, NO pectoral fins or fish tail fan, closed mouth. Scientific identity: Gymnothorax javanicus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "长身和斑点",
+          "text": "它身体细长，褐色底上有深色斑点。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "鳃口旁的黑块",
+          "text": "它鳃口附近有一块明显的黑色区域。"
+        },
+        {
+          "key": "HOME",
+          "label": "礁缝藏身",
+          "text": "它会待在珊瑚礁的洞、缝隙和岩檐下面。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "platax-teira",
+      "name": "长鳍燕鱼",
+      "scientificName": "Platax teira",
+      "category": "fish",
+      "shape": "Adult longfin batfish, very tall silver-grey disc body, broad dark band through eye and another behind head, yellowish pelvic fins, NOT juvenile giant elongated fins.",
+      "notes": "选择成鱼，幼鱼鳍更长。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/2210",
+      "prefix": "VTH-AL",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Adult longfin batfish, very tall silver-grey disc body, broad dark band through eye and another behind head, yellowish pelvic fins, NOT juvenile giant elongated fins. Scientific identity: Platax teira.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "高高扁扁",
+          "text": "它身体高而侧扁，胸鳍下面有深色斑块。"
+        },
+        {
+          "key": "YOUNG",
+          "label": "像一片小叶子",
+          "text": "很小的幼鱼是褐色的，看起来像漂浮的叶子。"
+        },
+        {
+          "key": "FOOD",
+          "label": "食物不止一种",
+          "text": "它会吃藻类、浮游动物和海底小动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "aulostomus-chinensis",
+      "name": "中国管口鱼",
+      "scientificName": "Aulostomus chinensis",
+      "category": "fish",
+      "shape": "Chinese trumpetfish, very long thin yellow-brown body, long tubular snout, small mouth, small dorsal and anal fins near rear, small tail fan.",
+      "notes": "细长管状嘴是识别重点。",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/trumpetfish-aulostomus-chinensis-linnaeus-1766/",
+      "prefix": "VTH-AM",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Chinese trumpetfish, very long thin yellow-brown body, long tubular snout, small mouth, small dorsal and anal fins near rear, small tail fan. Scientific identity: Aulostomus chinensis.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "管子一样的嘴",
+          "text": "它身体细长，嘴也像一根小管子。"
+        },
+        {
+          "key": "COLOR",
+          "label": "颜色能变化",
+          "text": "这种鱼有褐色、绿色和黄色等色型，还能改变颜色。"
+        },
+        {
+          "key": "HOME",
+          "label": "珊瑚礁伙伴",
+          "text": "它生活在珊瑚礁附近。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "salmo-salar",
+      "name": "大西洋鲑（三文鱼）",
+      "scientificName": "Salmo salar",
+      "category": "fish",
+      "shape": "Atlantic salmon ocean-phase adult, streamlined silver body, black spots mainly above lateral line, small fleshy adipose fin between dorsal fin and tail, gently forked tail.",
+      "notes": "选海洋阶段；不是所有叫三文鱼的商品都指这个物种。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-salmon",
+      "prefix": "VTH-AN",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Atlantic salmon ocean-phase adult, streamlined silver body, black spots mainly above lateral line, small fleshy adipose fin between dorsal fin and tail, gently forked tail. Scientific identity: Salmo salar.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "海里的银色",
+          "text": "大西洋鲑在海里时，身体两侧是银色的。"
+        },
+        {
+          "key": "YOUNG",
+          "label": "幼鱼有条纹",
+          "text": "幼鱼颜色偏褐，身上有深色竖条和小点。"
+        },
+        {
+          "key": "HOME",
+          "label": "河流和海洋",
+          "text": "它在河里出生，到海里长大，再回河里繁殖。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "scomber-scombrus",
+      "name": "大西洋鲭",
+      "scientificName": "Scomber scombrus",
+      "category": "fish",
+      "shape": "Atlantic mackerel, blue-green back with dark WAVY bars, silvery belly, two separated dorsal fins, tiny rear finlets and forked tail.",
+      "notes": "波纹在背部，腹部较浅。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-mackerel",
+      "prefix": "VTH-AO",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Atlantic mackerel, blue-green back with dark WAVY bars, silvery belly, two separated dorsal fins, tiny rear finlets and forked tail. Scientific identity: Scomber scombrus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "背上的波浪线",
+          "text": "它的蓝绿色背部有深色波浪线，肚子较白。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "流线形身体",
+          "text": "它身体两头较细，像一枚小梭子。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃什么",
+          "text": "它会吃小虾、小鱼和其他海里小动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "clupea-harengus",
+      "name": "大西洋鲱",
+      "scientificName": "Clupea harengus",
+      "category": "fish",
+      "shape": "Atlantic herring, silvery laterally compressed slim schooling fish, blue-grey back, single dorsal fin and forked tail, NO finlets.",
+      "notes": "群游行为不由单张图证明。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-herring",
+      "prefix": "VTH-AP",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Atlantic herring, silvery laterally compressed slim schooling fish, blue-grey back, single dorsal fin and forked tail, NO finlets. Scientific identity: Clupea harengus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "银色小鱼",
+          "text": "它身体银亮，背部带蓝绿色。"
+        },
+        {
+          "key": "HOME",
+          "label": "成群一起游",
+          "text": "它们常常聚成鱼群，一起觅食和活动。"
+        },
+        {
+          "key": "FOOD",
+          "label": "水里的小食物",
+          "text": "它会吃浮游动物和小型甲壳动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "paralichthys-dentatus",
+      "name": "夏鲆（比目鱼）",
+      "scientificName": "Paralichthys dentatus",
+      "category": "fish",
+      "shape": "Summer flounder dorsal eyed side viewed obliquely, flat asymmetric tan mottled oval body, BOTH eyes on LEFT side, long dorsal and anal fin fringes, five subtle ocelli.",
+      "notes": "两只眼在同一侧，幼鱼发育前不同。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/summer-flounder",
+      "prefix": "VTH-AQ",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Summer flounder dorsal eyed side viewed obliquely, flat asymmetric tan mottled oval body, BOTH eyes on LEFT side, long dorsal and anal fin fringes, five subtle ocelli. Scientific identity: Paralichthys dentatus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "扁扁的身体",
+          "text": "夏鲆身体扁平，上面较深，下面较白。"
+        },
+        {
+          "key": "YOUNG",
+          "label": "眼睛搬家",
+          "text": "它长大时，右边的眼睛会移到身体左边。"
+        },
+        {
+          "key": "COLOR",
+          "label": "颜色会变化",
+          "text": "它能改变身体颜色，配合周围海底的样子。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "carcharhinus-melanopterus",
+      "name": "黑鳍礁鲨",
+      "scientificName": "Carcharhinus melanopterus",
+      "category": "fish",
+      "shape": "Blacktip reef shark lateral, tan grey back white belly, distinct black tips on first dorsal and LOWER tail lobe, five gill slits, asymmetric shark tail.",
+      "notes": "鲨鱼属于鱼；不是本轮普通钓鱼池。",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/blacktip-reef-shark-carcharhinus-melanopterus-quoy-gaimard-1824/",
+      "prefix": "VTH-AR",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Blacktip reef shark lateral, tan grey back white belly, distinct black tips on first dorsal and LOWER tail lobe, five gill slits, asymmetric shark tail. Scientific identity: Carcharhinus melanopterus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "鳍尖是黑的",
+          "text": "它第一片背鳍和尾巴下叶，末端是黑色的。"
+        },
+        {
+          "key": "HOME",
+          "label": "浅海礁区",
+          "text": "它常在珊瑚礁附近的浅海活动。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "鲨鱼也是鱼",
+          "text": "它属于软骨鱼类，也是海里的鱼。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "rhincodon-typus",
+      "name": "鲸鲨",
+      "scientificName": "Rhincodon typus",
+      "category": "fish",
+      "shape": "Whale shark, very broad flattened head, huge forward-facing closed mouth, grey-blue body with orderly pale spots and stripes, five gill slits and shark tail.",
+      "notes": "鲸鲨是鱼，不是鲸。",
+      "sourceUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/whale-shark/",
+      "prefix": "VTH-AS",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Whale shark, very broad flattened head, huge forward-facing closed mouth, grey-blue body with orderly pale spots and stripes, five gill slits and shark tail. Scientific identity: Rhincodon typus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "点点和格纹",
+          "text": "鲸鲨的深色背部有浅色点点和条纹。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "宽头大嘴",
+          "text": "它的头很宽、很平，嘴在头部前方。"
+        },
+        {
+          "key": "FOOD",
+          "label": "过滤食物",
+          "text": "它能把水吸进大嘴，过滤浮游动物和其他小食物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "taeniura-lymma",
+      "name": "蓝点扇尾魟",
+      "scientificName": "Taeniura lymma",
+      "category": "fish",
+      "shape": "Bluespotted ribbontail ray dorsal view, rounded tan disc with vivid BLUE round spots, eyes on top, LONG narrow tail with blue longitudinal stripes and low tail finfold.",
+      "notes": "选择背面视角看盘形和蓝点。",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/bluespotted-fantail-ray-taeniura-lymma-forsskal-1775/",
+      "prefix": "VTH-AT",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Bluespotted ribbontail ray dorsal view, rounded tan disc with vivid BLUE round spots, eyes on top, LONG narrow tail with blue longitudinal stripes and low tail finfold. Scientific identity: Taeniura lymma.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "扁身体蓝点",
+          "text": "它扁扁的身体和腹鳍上，有亮蓝色的小点。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "尾巴的蓝线",
+          "text": "它尾巴两边各有一条蓝色线。"
+        },
+        {
+          "key": "FOOD",
+          "label": "涨潮找食物",
+          "text": "涨潮时它会进入浅水，寻找贝类等食物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "periophthalmodon-schlosseri",
+      "name": "大弹涂鱼",
+      "scientificName": "Periophthalmodon schlosseri",
+      "category": "fish",
+      "shape": "Giant mudskipper, elongated brown body, eyes raised on TOP of head, strong arm-like pectoral fins, mottled flanks and two dorsal fins, body resting pose without ground.",
+      "notes": "属于鱼，生活在潮间带。",
+      "sourceUrl": "https://biodiversitysg.nparks.gov.sg/our-biodiversity/marine-fishes/giant-mudskipper/",
+      "prefix": "VTH-AU",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Giant mudskipper, elongated brown body, eyes raised on TOP of head, strong arm-like pectoral fins, mottled flanks and two dorsal fins, body resting pose without ground. Scientific identity: Periophthalmodon schlosseri.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "身旁的黑线",
+          "text": "它身体两侧有宽宽的黑色条纹。"
+        },
+        {
+          "key": "HOME",
+          "label": "泥滩上的鱼",
+          "text": "它住在红树林和潮间带泥滩，会在水外活动。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "用鳍跳着走",
+          "text": "它两侧厚厚的胸鳍，能帮助它在泥上移动。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "melanocetus-johnsonii",
+      "name": "黑角鮟鱇",
+      "scientificName": "Melanocetus johnsonii",
+      "category": "fish",
+      "shape": "FEMALE humpback anglerfish, small globular black-brown deep sea fish, huge mouth with slender pointed teeth, thin dorsal fishing stalk with glowing tip, rounded tiny tail.",
+      "notes": "选择雌鱼，雄鱼外形与大小不同。",
+      "sourceUrl": "https://www.mbari.org/news/amazing-black-sea-devil-anglerfish-observed-in-monterey-bay/",
+      "prefix": "VTH-AV",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. FEMALE humpback anglerfish, small globular black-brown deep sea fish, huge mouth with slender pointed teeth, thin dorsal fishing stalk with glowing tip, rounded tiny tail. Scientific identity: Melanocetus johnsonii.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "头顶有小灯",
+          "text": "它头顶伸出一根像鱼竿的结构，末端能发光。"
+        },
+        {
+          "key": "FOOD",
+          "label": "用光引来食物",
+          "text": "它用这点光，在黑暗中吸引猎物。"
+        },
+        {
+          "key": "HOME",
+          "label": "黑暗深海",
+          "text": "研究人员曾在五百八十米深的海里拍到它。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "pagrus-major",
+      "name": "真鲷",
+      "scientificName": "Pagrus major",
+      "category": "fish",
+      "shape": "Red seabream adult, deep pink-red body with fine tiny blue flecks, large natural eye, spiny dorsal and forked pink tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://fishdb.sinica.edu.tw/taxon/382642-fishdb",
+      "prefix": "VTH-AW",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Red seabream adult, deep pink-red body with fine tiny blue flecks, large natural eye, spiny dorsal and forked pink tail. Scientific identity: Pagrus major.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "粉红和浅肚子",
+          "text": "真鲷身体淡红，肚子较白，尾巴分叉。"
+        },
+        {
+          "key": "HOME",
+          "label": "沙地和礁区",
+          "text": "它住在海里的沙泥底，也会在礁石附近活动。"
+        },
+        {
+          "key": "FOOD",
+          "label": "海底找食物",
+          "text": "它会吃生活在海底的小动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "acanthopagrus-latus",
+      "name": "黄鳍鲷",
+      "scientificName": "Acanthopagrus latus",
+      "category": "fish",
+      "shape": "Yellowfin seabream, silver-grey oval body, YELLOW pelvic anal and caudal fins, forked tail, continuous spiny dorsal.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 台湾来源的旧广泛分布未直接采用；澳大利亚同名旧记录与 A. morrisoni 混用，当前仅采用本页形态与栖所。",
+      "sourceUrl": "https://fishdb.sinica.edu.tw/taxon/382634-fishdb",
+      "prefix": "VTH-AX",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Yellowfin seabream, silver-grey oval body, YELLOW pelvic anal and caudal fins, forked tail, continuous spiny dorsal. Scientific identity: Acanthopagrus latus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "黄色的鳍",
+          "text": "它的胸鳍、腹鳍和臀鳍，可以呈鲜黄色。"
+        },
+        {
+          "key": "HOME",
+          "label": "河口与海岸",
+          "text": "它生活在沿岸沙泥底，也会进入河口。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃小动物",
+          "text": "它会吃蠕虫、贝类、虾蟹和小鱼。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "mugil-cephalus",
+      "name": "鲻鱼",
+      "scientificName": "Mugil cephalus",
+      "category": "fish",
+      "shape": "Flathead grey mullet, cylindrical silver-grey body, broad blunt flat head, small mouth, two widely separated dorsal fins, forked tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 本名包含隐存物种复合群，卡片不作全球统一物种鉴定。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/3880",
+      "prefix": "VTH-AY",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Flathead grey mullet, cylindrical silver-grey body, broad blunt flat head, small mouth, two widely separated dorsal fins, forked tail. Scientific identity: Mugil cephalus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "平平的小头",
+          "text": "它身体细长，头的上面宽而平，嘴较小。"
+        },
+        {
+          "key": "HOME",
+          "label": "海岸和河口",
+          "text": "它会在海岸、河口和河流下段活动。"
+        },
+        {
+          "key": "FOOD",
+          "label": "寻找藻和碎屑",
+          "text": "成鱼常在底部寻找藻类和有机碎屑。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "pampus-argenteus",
+      "name": "银鲳",
+      "scientificName": "Pampus argenteus",
+      "category": "fish",
+      "shape": "Silver pomfret, deep flat rhomboid silvery body, tiny head and mouth, long pointed dorsal and anal fins, no pelvic fins, deeply forked tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://fishdb.sinica.edu.tw/taxon/382652-fishdb",
+      "prefix": "VTH-AZ",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Silver pomfret, deep flat rhomboid silvery body, tiny head and mouth, long pointed dorsal and anal fins, no pelvic fins, deeply forked tail. Scientific identity: Pampus argenteus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "银色扁身体",
+          "text": "银鲳身体很扁，肚子银白，嘴较小。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "没有腹鳍",
+          "text": "成鱼没有通常长在肚子下面的腹鳍。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃什么",
+          "text": "它会吃水母和浮游动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "trachinotus-blochii",
+      "name": "金鲳（卵形鲳鲹）",
+      "scientificName": "Trachinotus blochii",
+      "category": "fish",
+      "shape": "Snubnose pompano, high silver oval body with yellowish belly and fins, blunt rounded snout, sickle dorsal and anal fins, deeply forked yellowish tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/2993",
+      "prefix": "VTH-BA",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Snubnose pompano, high silver oval body with yellowish belly and fins, blunt rounded snout, sickle dorsal and anal fins, deeply forked yellowish tail. Scientific identity: Trachinotus blochii.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "圆钝的鼻子",
+          "text": "它身体较高，鼻子圆圆的，成鱼可以带金橙色。"
+        },
+        {
+          "key": "HOME",
+          "label": "海岸和礁边",
+          "text": "它常在靠近礁区的浅海活动。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃硬壳小动物",
+          "text": "它会吃带硬壳的贝类和其他无脊椎动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "eleutheronema-tetradactylum",
+      "name": "马友（四指马鲅）",
+      "scientificName": "Eleutheronema tetradactylum",
+      "category": "fish",
+      "shape": "Fourfinger threadfin, silver slender fish with FOUR long separate free pectoral filaments under each pectoral fin, yellowish forked tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fao.org/docrep/pdf/008/y5398e/y5398e03.pdf",
+      "prefix": "VTH-BB",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Fourfinger threadfin, silver slender fish with FOUR long separate free pectoral filaments under each pectoral fin, yellowish forked tail. Scientific identity: Eleutheronema tetradactylum.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "胸鳍下的细丝",
+          "text": "它每侧胸鳍下面，有四根分开的丝状鳍条。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "两片背鳍",
+          "text": "它背上有两片分开的背鳍。"
+        },
+        {
+          "key": "HOME",
+          "label": "浅海和河口",
+          "text": "它可以生活在沿岸浅海和河口附近。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "pp17–18 / Eleutheronema tetradactylum"
+    },
+    {
+      "id": "siganus-javus",
+      "name": "条纹篮子鱼",
+      "scientificName": "Siganus javus",
+      "category": "fish",
+      "shape": "Streaked rabbitfish, grey olive high compressed body, pale streaks lower sides and spots above, small rabbit-like mouth, dorsal spines, slightly concave tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://catalog.digitalarchives.tw/item/00/00/3f/8e.html",
+      "prefix": "VTH-BC",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Streaked rabbitfish, grey olive high compressed body, pale streaks lower sides and spots above, small rabbit-like mouth, dorsal spines, slightly concave tail. Scientific identity: Siganus javus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "点点和波浪线",
+          "text": "它身体上方有小蓝点，下方有银蓝色波浪线。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "小嘴高身体",
+          "text": "它身体高而侧扁，嘴小，鼻子尖尖的。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃藻类",
+          "text": "它会吃礁石上的藻类和小型水生植物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "caranx-melampygus",
+      "name": "蓝鳍鲹",
+      "scientificName": "Caranx melampygus",
+      "category": "fish",
+      "shape": "Bluefin trevally adult, silver blue oval streamlined body with electric BLUE fins, small blue and black spots on upper sides, crescent forked tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/1652",
+      "prefix": "VTH-BD",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Bluefin trevally adult, silver blue oval streamlined body with electric BLUE fins, small blue and black spots on upper sides, crescent forked tail. Scientific identity: Caranx melampygus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "蓝色的鳍",
+          "text": "成鱼的鳍带着漂亮的蓝色。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "蓝黑色小点",
+          "text": "成鱼身体两侧，有蓝色和黑色的小点。"
+        },
+        {
+          "key": "HOME",
+          "label": "礁区伙伴",
+          "text": "它会在礁区、礁湖和水道活动。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "thunnus-thynnus",
+      "name": "大西洋蓝鳍金枪鱼",
+      "scientificName": "Thunnus thynnus",
+      "category": "fish",
+      "shape": "Atlantic bluefin tuna, large muscular torpedo blue-black back and silver belly, short pectoral fins, yellow rear finlets, crescent tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/western-atlantic-bluefin-tuna",
+      "prefix": "VTH-BE",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Atlantic bluefin tuna, large muscular torpedo blue-black back and silver belly, short pectoral fins, yellow rear finlets, crescent tail. Scientific identity: Thunnus thynnus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "梭子一样",
+          "text": "它身体粗壮而流线形，背部深蓝，肚子较白。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "短短的胸鳍",
+          "text": "大西洋蓝鳍金枪鱼的胸鳍，比一些金枪鱼短。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃鱼的猎手",
+          "text": "成鱼主要吃鲱鱼、鲭鱼等小型鱼。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "katsuwonus-pelamis",
+      "name": "鲣鱼",
+      "scientificName": "Katsuwonus pelamis",
+      "category": "fish",
+      "shape": "Skipjack tuna, silver torpedo body with FOUR to SIX longitudinal dark stripes on lower flanks and belly, dark blue back, small finlets and crescent tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-skipjack-tuna",
+      "prefix": "VTH-BF",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Skipjack tuna, silver torpedo body with FOUR to SIX longitudinal dark stripes on lower flanks and belly, dark blue back, small finlets and crescent tail. Scientific identity: Katsuwonus pelamis.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "下方的长条纹",
+          "text": "它身体下半部，有四到六条深色纵向条纹。"
+        },
+        {
+          "key": "HOME",
+          "label": "温暖外海",
+          "text": "它主要生活在温暖海洋的开阔水域。"
+        },
+        {
+          "key": "FOOD",
+          "label": "追着食物游",
+          "text": "它会吃鱼、虾蟹和头足类动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "xiphias-gladius",
+      "name": "剑鱼",
+      "scientificName": "Xiphias gladius",
+      "category": "fish",
+      "shape": "Swordfish adult, extremely LONG FLAT sword-shaped bill, streamlined dark silver body, high first dorsal fin, NO pelvic fins, crescent tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/north-atlantic-swordfish",
+      "prefix": "VTH-BG",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Swordfish adult, extremely LONG FLAT sword-shaped bill, streamlined dark silver body, high first dorsal fin, NO pelvic fins, crescent tail. Scientific identity: Xiphias gladius.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "剑一样的长嘴",
+          "text": "它的上颌向前伸，长而扁，像一把剑。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "弯弯的尾巴",
+          "text": "它的尾巴宽宽的，弯成月牙形。"
+        },
+        {
+          "key": "COLOR",
+          "label": "上深下浅",
+          "text": "它身体上面颜色深，下面颜色较浅。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "istiophorus-platypterus",
+      "name": "旗鱼",
+      "scientificName": "Istiophorus platypterus",
+      "category": "fish",
+      "shape": "Indo-Pacific sailfish, tall huge sail-like blue dorsal fin, slender long ROUND spear bill, blue-black body with fine pale vertical dotted bars, forked tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/713",
+      "prefix": "VTH-BH",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Indo-Pacific sailfish, tall huge sail-like blue dorsal fin, slender long ROUND spear bill, blue-black body with fine pale vertical dotted bars, forked tail. Scientific identity: Istiophorus platypterus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "背上像风帆",
+          "text": "它的背鳍又高又长，像一面展开的帆。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "细长的吻",
+          "text": "它的吻很长，横截面较圆，和剑鱼的扁剑不同。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃鱼和鱿鱼",
+          "text": "它会在外海寻找小鱼和鱿鱼。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "coryphaena-hippurus",
+      "name": "鲯鳅",
+      "scientificName": "Coryphaena hippurus",
+      "category": "fish",
+      "shape": "Mahi mahi adult MALE, steep blunt tall forehead, golden yellow flanks and iridescent blue-green back, single long dorsal fin, deeply forked tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-mahi-mahi",
+      "prefix": "VTH-BI",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Mahi mahi adult MALE, steep blunt tall forehead, golden yellow flanks and iridescent blue-green back, single long dorsal fin, deeply forked tail. Scientific identity: Coryphaena hippurus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "蓝绿和金色",
+          "text": "它背部蓝绿色，身体下方带金色和银色。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "额头不一样",
+          "text": "成年雄鱼额头较方，成年雌鱼额头较圆。"
+        },
+        {
+          "key": "FOOD",
+          "label": "海面附近觅食",
+          "text": "它会在海面附近捕食小鱼和无脊椎动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "sardina-pilchardus",
+      "name": "欧洲沙丁鱼",
+      "scientificName": "Sardina pilchardus",
+      "category": "fish",
+      "shape": "European pilchard, small silvery slim fish with blue-green back, single dorsal fin, row of small faint dark side spots and forked tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fao.org/fishery/docs/CDrom/ARTFIMED/ArtFiWeb/descript/Species/CLUSAPIL.HTML",
+      "prefix": "VTH-BJ",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. European pilchard, small silvery slim fish with blue-green back, single dorsal fin, row of small faint dark side spots and forked tail. Scientific identity: Sardina pilchardus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "背绿肚子银",
+          "text": "它背部绿色或橄榄色，肚子银白，体侧有深色小点。"
+        },
+        {
+          "key": "HOME",
+          "label": "一大群一起游",
+          "text": "它是沿岸的鱼，会组成很大的鱼群。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃浮游动物",
+          "text": "它主要吃水中小型甲壳类等浮游动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "engraulis-encrasicolus",
+      "name": "欧洲鳀鱼",
+      "scientificName": "Engraulis encrasicolus",
+      "category": "fish",
+      "shape": "European anchovy, very small slender silver fish with strong silver side stripe, long pointed snout and mouth extending BEHIND eye, single dorsal fin and forked tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fao.org/4/t8200f/T8200F16.htm",
+      "prefix": "VTH-BK",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. European anchovy, very small slender silver fish with strong silver side stripe, long pointed snout and mouth extending BEHIND eye, single dorsal fin and forked tail. Scientific identity: Engraulis encrasicolus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "鼻子在嘴上方",
+          "text": "它的鼻子向前伸，嘴在鼻子下面，裂得较大。"
+        },
+        {
+          "key": "HOME",
+          "label": "成群的小鱼",
+          "text": "它们会形成大鱼群，在沿岸和河口活动。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "欧洲鳀鱼",
+          "text": "这种鳀鱼分布在东大西洋和地中海等海域。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "trachurus-japonicus",
+      "name": "日本竹荚鱼",
+      "scientificName": "Trachurus japonicus",
+      "category": "fish",
+      "shape": "Japanese jack mackerel, slim silver fish greenish back, large eye, black spot on upper gill cover, two dorsal fins, hard lateral scutes near tail base, forked tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://fishdb.sinica.edu.tw/e_books/fishshell2011pic.php?id=289",
+      "prefix": "VTH-BL",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Japanese jack mackerel, slim silver fish greenish back, large eye, black spot on upper gill cover, two dorsal fins, hard lateral scutes near tail base, forked tail. Scientific identity: Trachurus japonicus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "硬硬的侧线鳞",
+          "text": "它身体侧面的线，排列着较高、较硬的鳞。"
+        },
+        {
+          "key": "HOME",
+          "label": "沿岸结伴游",
+          "text": "它们一般成群，在近岸水域活动。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃小虾小鱼",
+          "text": "它主要吃小型甲壳动物和鱼。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "gadus-macrocephalus",
+      "name": "太平洋鳕",
+      "scientificName": "Gadus macrocephalus",
+      "category": "fish",
+      "shape": "Pacific cod, brown speckled heavy elongated fish, conspicuous CHIN BARBEL, THREE separate dorsal fins, two anal fins, pale lateral line.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/pacific-cod",
+      "prefix": "VTH-BM",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Pacific cod, brown speckled heavy elongated fish, conspicuous CHIN BARBEL, THREE separate dorsal fins, two anal fins, pale lateral line. Scientific identity: Gadus macrocephalus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "下巴的小须",
+          "text": "它下巴有一根长须，身体褐灰色，肚子较浅。"
+        },
+        {
+          "key": "HOME",
+          "label": "北太平洋海底",
+          "text": "较大的鱼常在北太平洋的海底附近活动。"
+        },
+        {
+          "key": "FOOD",
+          "label": "找海底小动物",
+          "text": "它会吃贝类、蠕虫、虾蟹和小鱼。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "gadus-chalcogrammus",
+      "name": "狭鳕",
+      "scientificName": "Gadus chalcogrammus",
+      "category": "fish",
+      "shape": "Alaska pollock, elongated silver-grey mottled fish, THREE dorsal fins and two anal fins, tiny chin barbel, gently concave tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/alaska-pollock",
+      "prefix": "VTH-BN",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Alaska pollock, elongated silver-grey mottled fish, THREE dorsal fins and two anal fins, tiny chin barbel, gently concave tail. Scientific identity: Gadus chalcogrammus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "身上的斑纹",
+          "text": "狭鳕属于鳕鱼家族，身体上有斑驳的花纹。"
+        },
+        {
+          "key": "YOUNG",
+          "label": "大小换水层",
+          "text": "幼鱼较常在水中层，大鱼更常接近海底。"
+        },
+        {
+          "key": "HOME",
+          "label": "冷海鱼群",
+          "text": "它们生活在北太平洋，常组成很大的鱼群。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "melanogrammus-aeglefinus",
+      "name": "黑线鳕",
+      "scientificName": "Melanogrammus aeglefinus",
+      "category": "fish",
+      "shape": "Haddock, silver-grey fish with THREE dorsal fins, dark lateral line and unmistakeable BLACK blotch above pectoral fin, small chin barbel.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/haddock",
+      "prefix": "VTH-BO",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Haddock, silver-grey fish with THREE dorsal fins, dark lateral line and unmistakeable BLACK blotch above pectoral fin, small chin barbel. Scientific identity: Melanogrammus aeglefinus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "身旁的黑印",
+          "text": "它身体两侧有黑色斑块，像一枚黑色指印。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "鳕鱼家族",
+          "text": "黑线鳕也是鳕鱼家族的一员。"
+        },
+        {
+          "key": "FOOD",
+          "label": "海底觅食",
+          "text": "它会在海底寻找贝类、蠕虫和棘皮动物。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "hippoglossus-hippoglossus",
+      "name": "大西洋大比目鱼",
+      "scientificName": "Hippoglossus hippoglossus",
+      "category": "fish",
+      "shape": "Atlantic halibut adult eyed side oblique top view, long diamond flat brown body, BOTH eyes on RIGHT side, long dorsal and anal fringes, slightly concave tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-halibut",
+      "prefix": "VTH-BP",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Atlantic halibut adult eyed side oblique top view, long diamond flat brown body, BOTH eyes on RIGHT side, long dorsal and anal fringes, slightly concave tail. Scientific identity: Hippoglossus hippoglossus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "两眼在右边",
+          "text": "这种大比目鱼的两只眼睛，都在身体右侧。"
+        },
+        {
+          "key": "HOME",
+          "label": "北大西洋海底",
+          "text": "它生活在北大西洋的海底附近。"
+        },
+        {
+          "key": "FOOD",
+          "label": "长大吃鱼",
+          "text": "幼鱼吃小型无脊椎动物，成鱼主要吃鱼。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "phycodurus-eques",
+      "name": "叶海龙",
+      "scientificName": "Phycodurus eques",
+      "category": "fish",
+      "shape": "Leafy seadragon, upright slender yellow-olive bony fish, long tube snout, many leaf-like camouflage appendages, curled but NOT prehensile tail; NOT seahorse head.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/leafy-seadragon-phycodurus-eques/",
+      "prefix": "VTH-BQ",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Leafy seadragon, upright slender yellow-olive bony fish, long tube snout, many leaf-like camouflage appendages, curled but NOT prehensile tail; NOT seahorse head. Scientific identity: Phycodurus eques.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "叶子一样的身体",
+          "text": "它身上有像叶子的突出部分，还有细长的管状嘴。"
+        },
+        {
+          "key": "HOME",
+          "label": "海藻旁藏身",
+          "text": "它生活在澳大利亚温带海域的海藻岩礁。"
+        },
+        {
+          "key": "EGGS",
+          "label": "爸爸带着卵",
+          "text": "雄叶海龙会把卵带在尾巴下面。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "diodon-hystrix",
+      "name": "密斑刺鲀",
+      "scientificName": "Diodon hystrix",
+      "category": "fish",
+      "shape": "Spot-fin porcupinefish NORMAL uninflated posture, roundish beige body with small dark spots, long spines laid close to body, large eye, rounded fins.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/porcupinefish/",
+      "prefix": "VTH-BR",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Spot-fin porcupinefish NORMAL uninflated posture, roundish beige body with small dark spots, long spines laid close to body, large eye, rounded fins. Scientific identity: Diodon hystrix.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "点点和小棘",
+          "text": "它灰褐色身体和鳍上有黑点，身体有长棘。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "遇险会鼓起",
+          "text": "遇到威胁时，它会吸水鼓起，棘也会竖起。"
+        },
+        {
+          "key": "FOOD",
+          "label": "夜里找硬壳食物",
+          "text": "它常在夜里寻找海螺、寄居蟹和海胆。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "pterois-volitans",
+      "name": "蓑鲉（狮子鱼）",
+      "scientificName": "Pterois volitans",
+      "category": "fish",
+      "shape": "Red lionfish, red-brown and cream zebra stripes, long SEPARATE dorsal spines, large fan-like pectoral fins with banded rays, natural face.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/common-lionfish-pterois-volitans/",
+      "prefix": "VTH-BS",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Red lionfish, red-brown and cream zebra stripes, long SEPARATE dorsal spines, large fan-like pectoral fins with banded rays, natural face. Scientific identity: Pterois volitans.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "长长的鳍",
+          "text": "它胸鳍和背鳍很长，浅色身体上有红色到黑色条带。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "眼睛上有小须",
+          "text": "它两只眼睛上方，通常各有一个突出的小须。"
+        },
+        {
+          "key": "HOME",
+          "label": "热带海洋",
+          "text": "它原本广泛分布在热带印度洋和太平洋。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "cheilopogon-pinnatibarbatus",
+      "name": "高鳍飞鱼",
+      "scientificName": "Cheilopogon pinnatibarbatus",
+      "category": "fish",
+      "shape": "Tallfin flyingfish, slender silvery fish with enormous wing-like PECTORAL fins extended, smaller pelvic fins, tail lower lobe longer than upper.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/3721",
+      "prefix": "VTH-BT",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Tallfin flyingfish, slender silvery fish with enormous wing-like PECTORAL fins extended, smaller pelvic fins, tail lower lobe longer than upper. Scientific identity: Cheilopogon pinnatibarbatus.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "像翅膀的胸鳍",
+          "text": "它的胸鳍很大，看起来像一对展开的翅膀。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "鳍上的深色",
+          "text": "这种飞鱼的背鳍有大黑斑，尾鳍也是深色的。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃小食物",
+          "text": "它会吃浮游动物和小鱼。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "mola-mola",
+      "name": "翻车鱼",
+      "scientificName": "Mola mola",
+      "category": "fish",
+      "shape": "Ocean sunfish adult, huge disc-shaped compressed grey fish, small mouth, tall dorsal and anal fins, NO normal tail; short scalloped CLAVUS rear edge.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/ocean-sunfish-mola-mola/",
+      "prefix": "VTH-BU",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Ocean sunfish adult, huge disc-shaped compressed grey fish, small mouth, tall dorsal and anal fins, NO normal tail; short scalloped CLAVUS rear edge. Scientific identity: Mola mola.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "圆圆的大身体",
+          "text": "它身体大而圆，嘴相比之下很小。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "特别的身体后缘",
+          "text": "它没有通常那样的尾鳍，身体后方是特殊的舵状结构。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "用上下鳍游",
+          "text": "它摆动背鳍和臀鳍，在水中前进。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "chiloscyllium-plagiosum",
+      "name": "白斑竹鲨",
+      "scientificName": "Chiloscyllium plagiosum",
+      "category": "fish",
+      "shape": "Whitespotted bamboo shark ADULT, slender brown grey benthic shark with many SMALL white spots, short rounded snout, two dorsal fins set far back, very long tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/whitespotted-bambooshark/",
+      "prefix": "VTH-BV",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Whitespotted bamboo shark ADULT, slender brown grey benthic shark with many SMALL white spots, short rounded snout, two dorsal fins set far back, very long tail. Scientific identity: Chiloscyllium plagiosum.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "细长和白点",
+          "text": "它身体细长，褐色底上有深色带子和白点。"
+        },
+        {
+          "key": "HOME",
+          "label": "夜里的礁区",
+          "text": "它是喜欢夜间活动的礁区鲨鱼。"
+        },
+        {
+          "key": "EGGS",
+          "label": "卵壳里的小鲨鱼",
+          "text": "这种鲨鱼会产卵，小鲨鱼在卵壳里发育后出来。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "stegostoma-tigrinum",
+      "name": "豹纹鲨",
+      "scientificName": "Stegostoma tigrinum",
+      "category": "fish",
+      "shape": "Zebra shark ADULT, yellow-brown body with small dark spots NOT juvenile zebra bands, five longitudinal body ridges, exceptionally LONG tail, small blunt head.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。 佛罗里达博物馆旧页面用 Stegostoma fasciatum；新名与旧名映射另记录。",
+      "sourceUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/stegostoma-fasciatum/",
+      "prefix": "VTH-BW",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Zebra shark ADULT, yellow-brown body with small dark spots NOT juvenile zebra bands, five longitudinal body ridges, exceptionally LONG tail, small blunt head. Scientific identity: Stegostoma tigrinum.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "斑点长尾巴",
+          "text": "成鱼黄褐色，有深色斑点，尾巴特别长。"
+        },
+        {
+          "key": "YOUNG",
+          "label": "小时候是条带",
+          "text": "幼鱼身上有浅色条带，长大才变成斑点。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "背上有纵脊",
+          "text": "它背部和体侧，有明显的纵向脊。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "sphyrna-lewini",
+      "name": "路氏双髻鲨（锤头鲨）",
+      "scientificName": "Sphyrna lewini",
+      "category": "fish",
+      "shape": "Scalloped hammerhead lateral three-quarter view showing HAMMER shaped head with scalloped leading edge, grey body white underside, tall dorsal fin, asymmetric shark tail.",
+      "notes": "以明确物种代表常用名称；插画是观察示意，不用来野外鉴定。",
+      "sourceUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/scalloped-hammerhead/",
+      "prefix": "VTH-BX",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Scalloped hammerhead lateral three-quarter view showing HAMMER shaped head with scalloped leading edge, grey body white underside, tall dorsal fin, asymmetric shark tail. Scientific identity: Sphyrna lewini.",
+      "status": "complete-observation-preview",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "锤子一样的头",
+          "text": "它的头向两侧展开，前缘中央有一个凹口。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "第一片背鳍较大",
+          "text": "它身体细长，第一片背鳍比第二片大。"
+        },
+        {
+          "key": "HOME",
+          "label": "暖海里的伙伴",
+          "text": "它生活在温暖海洋，能在近岸和外海活动。"
+        }
+      ],
+      "checkedAt": "2026-10-07",
+      "sourceLocation": "Identification / Summary / Biology / Habitat / species account"
+    },
+    {
+      "id": "penaeus-monodon",
+      "name": "斑节对虾（虎虾）",
+      "scientificName": "Penaeus monodon",
+      "category": "shrimp",
+      "shape": "Giant tiger prawn LIVE unboiled dark green-brown with cream and dark abdominal cross bands, toothed rostrum, long antennae, slender walking legs, swimmerets and tail fan.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fao.org/4/ac765t/AC765T05.htm",
+      "prefix": "VTH-BY",
+      "prompt": "Create ONE original educational animal illustration for a premium ocean discovery game for 6–8-year-olds. Scientific-educational satin 3D cutout, natural anatomy and small natural eyes, clean species-specific silhouette, realistic soft colors, no cartoon face, no human features, no labels, no text, no scenery, no cast shadow. True transparent background. Full animal entirely within generous margins. Live ADULT giant tiger prawn Penaeus monodon, natural unboiled dark brown-green coloration with alternating cream and dark cross bands on the segmented abdomen; long antennae, pointed toothed rostrum, slender walking legs, abdominal swimmerets, full tail fan. Left-facing three-quarter lateral view, do not depict a lobster or a cooked orange shrimp. Horizontal 3:2 composition.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Penaeus monodon / morphology",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "深浅条带",
+          "text": "腹部一节一节的，上面有深浅相间的条带。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "带齿的额角",
+          "text": "头前的尖尖额角，上面和下面都有小齿。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "颜色有变化",
+          "text": "活着的虎虾颜色会变化，并不总是橙红色。"
+        }
+      ]
+    },
+    {
+      "id": "penaeus-vannamei",
+      "name": "南美白对虾",
+      "scientificName": "Penaeus vannamei",
+      "category": "shrimp",
+      "shape": "Whiteleg shrimp LIVE, translucent pale grey-white segmented body, pale white walking legs, moderately long toothed rostrum, long antennae and tail fan, no cooked red color.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_whitelegshrimp.htm",
+      "prefix": "VTH-BZ",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Whiteleg shrimp LIVE, translucent pale grey-white segmented body, pale white walking legs, moderately long toothed rostrum, long antennae and tail fan, no cooked red color. Scientific identity: Penaeus vannamei.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Biological features / Habitat",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "半透明身体",
+          "text": "活着的时候，身体常常白白的、半透明。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "带齿的额角",
+          "text": "头前有一段带着小齿的额角。"
+        },
+        {
+          "key": "HOME",
+          "label": "长大换地方",
+          "text": "幼虾可以在河口长大，成虾生活在海里。"
+        }
+      ]
+    },
+    {
+      "id": "penaeus-japonicus",
+      "name": "日本对虾（车虾）",
+      "scientificName": "Penaeus japonicus",
+      "category": "shrimp",
+      "shape": "Kuruma prawn LIVE, tan translucent body with dark brown abdominal cross stripes, blue-yellow tail fan, pointed toothed rostrum and long antennae.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fao.org/4/ac741t/AC741T11.htm",
+      "prefix": "VTH-CA",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Kuruma prawn LIVE, tan translucent body with dark brown abdominal cross stripes, blue-yellow tail fan, pointed toothed rostrum and long antennae. Scientific identity: Penaeus japonicus.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Penaeus japonicus / colour",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "深色横带",
+          "text": "身体上有一条条深色横带。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "黄色小脚",
+          "text": "小脚和触角上可以看到黄色。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "彩色尾扇",
+          "text": "尾巴的扇形部分，可以带着蓝色和黄色。"
+        }
+      ]
+    },
+    {
+      "id": "penaeus-merguiensis",
+      "name": "墨吉对虾（香蕉虾）",
+      "scientificName": "Penaeus merguiensis",
+      "category": "shrimp",
+      "shape": "Banana prawn LIVE, slender translucent cream-yellow body with fine reddish-brown specks, gently upward curved rostrum, pale legs and long antennae.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fao.org/4/ad468e/AD468eQI.pdf",
+      "prefix": "VTH-CB",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Banana prawn LIVE, slender translucent cream-yellow body with fine reddish-brown specks, gently upward curved rostrum, pale legs and long antennae. Scientific identity: Penaeus merguiensis.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Penaeus merguiensis / diagnostic features",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "浅浅的颜色",
+          "text": "身体可以是浅黄色、粉色或灰绿色。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "高高的额角",
+          "text": "头前的额角比较高，像一个小三角。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "小小色点",
+          "text": "浅色身体上，可以看到细小的色点。"
+        }
+      ]
+    },
+    {
+      "id": "pandalus-borealis",
+      "name": "北方长额虾（北极甜虾）",
+      "scientificName": "Pandalus borealis",
+      "category": "shrimp",
+      "shape": "Northern shrimp LIVE naturally pink-red translucent segmented body, very LONG slender toothed rostrum curved up, long antennae, small walking legs and tail fan.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-northern-shrimp",
+      "prefix": "VTH-CC",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Northern shrimp LIVE naturally pink-red translucent segmented body, very LONG slender toothed rostrum curved up, long antennae, small walking legs and tail fan. Scientific identity: Pandalus borealis.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Appearance / Habitat / Biology",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "活着也红红的",
+          "text": "它活着的时候就可以带红色，身体有些透明。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "腹下的小桨",
+          "text": "腹部下面有小小的游泳脚，像一排小桨。"
+        },
+        {
+          "key": "EGGS",
+          "label": "腹下带着卵",
+          "text": "虾妈妈会把卵带在腹部下面。"
+        }
+      ]
+    },
+    {
+      "id": "oratosquilla-oratoria",
+      "name": "口虾蛄（皮皮虾）",
+      "scientificName": "Oratosquilla oratoria",
+      "category": "shrimp",
+      "shape": "Japanese mantis shrimp LIVE, elongated flattened olive-grey segmented body, prominent stalked eyes, folded raptorial front limbs, broad armored tail fan; not a true shrimp.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 虾蛄属于口足目，和十足目的对虾不同；类别按钮是儿童浏览分组。",
+      "sourceUrl": "https://www.fao.org/4/w7192e/w7192e12.pdf",
+      "prefix": "VTH-CD",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Japanese mantis shrimp LIVE, elongated flattened olive-grey segmented body, prominent stalked eyes, folded raptorial front limbs, broad armored tail fan; not a true shrimp. Scientific identity: Oratosquilla oratoria.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Stomatopoda introduction / Squillidae / Oratosquilla key",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "分节的身体",
+          "text": "身体一节一节的，尾端有宽宽的尾扇。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "捕捉食物的脚",
+          "text": "前面的捕食脚可以折起来，上面有尖齿。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "名字叫虾蛄",
+          "text": "虽然名字里有虾，它属于虾蛄这一类。"
+        }
+      ]
+    },
+    {
+      "id": "panulirus-ornatus",
+      "name": "锦绣龙虾",
+      "scientificName": "Panulirus ornatus",
+      "category": "shrimp",
+      "shape": "Ornate spiny lobster LIVE, bulky colorful blue-green carapace with orange and blue leg bands, very long thick spiny antennae, segmented abdomen and tail fan, NO large front CLAWS.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fao.org/docrep/pdf/009/t0411e/t0411e23.pdf",
+      "prefix": "VTH-CE",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Ornate spiny lobster LIVE, bulky colorful blue-green carapace with orange and blue leg bands, very long thick spiny antennae, segmented abdomen and tail fan, NO large front CLAWS. Scientific identity: Panulirus ornatus.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Panulirus ornatus / diagnostic diagram / Habitat",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "长长的触角",
+          "text": "头前有一对长长的触角。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "没有大螯",
+          "text": "它不像螯龙虾那样，长着一对大钳子。"
+        },
+        {
+          "key": "HOME",
+          "label": "浅海的家",
+          "text": "可以生活在浅海的岩石和珊瑚附近。"
+        }
+      ]
+    },
+    {
+      "id": "panulirus-homarus",
+      "name": "波纹龙虾",
+      "scientificName": "Panulirus homarus",
+      "category": "shrimp",
+      "shape": "Scalloped spiny lobster LIVE green-brown speckled carapace, scalloped transverse grooves on abdomen, long thick spiny antennae, walking legs, NO large claws.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fao.org/4/t0411e/t0411e22.pdf",
+      "prefix": "VTH-CF",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Scalloped spiny lobster LIVE green-brown speckled carapace, scalloped transverse grooves on abdomen, long thick spiny antennae, walking legs, NO large claws. Scientific identity: Panulirus homarus.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Panulirus homarus / diagnostic diagram / Habitat",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "细长触角",
+          "text": "它有一对很长的触角，前脚没有大螯。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "腹部的小沟",
+          "text": "腹部的壳上，有横向的小沟。"
+        },
+        {
+          "key": "HOME",
+          "label": "晚上活动",
+          "text": "常住在浅海岩石附近，晚上出来活动。"
+        }
+      ]
+    },
+    {
+      "id": "homarus-americanus",
+      "name": "美洲螯龙虾",
+      "scientificName": "Homarus americanus",
+      "category": "shrimp",
+      "shape": "American lobster LIVE mottled greenish-brown, TWO large DIFFERENT front claws one crusher one cutter, four pairs walking legs, long antennae and segmented tail fan, no cooked red. ",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/american-lobster",
+      "prefix": "VTH-CG",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. American lobster LIVE mottled greenish-brown, TWO large DIFFERENT front claws one crusher one cutter, four pairs walking legs, long antennae and segmented tail fan, no cooked red.  Scientific identity: Homarus americanus.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Appearance / Biology",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "一对大螯",
+          "text": "前面长着一对大大的钳子，叫作螯。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "两螯不一样",
+          "text": "一个螯适合压碎食物，另一个适合撕开食物。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "活体的颜色",
+          "text": "活着的时候，常常是绿褐色，并非鲜红色。"
+        }
+      ]
+    },
+    {
+      "id": "scylla-serrata",
+      "name": "锯缘青蟹",
+      "scientificName": "Scylla serrata",
+      "category": "crab",
+      "shape": "Giant mud crab LIVE dark green-brown broad carapace, massive pair of front claws, three pairs walking legs and rear pair flattened SWIMMING paddles, oblique dorsal view.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://openknowledge.fao.org/server/api/core/bitstreams/f32d004b-6358-44f3-8242-b9d23e5346d0/content",
+      "prefix": "VTH-CH",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Giant mud crab LIVE dark green-brown broad carapace, massive pair of front claws, three pairs walking legs and rear pair flattened SWIMMING paddles, oblique dorsal view. Scientific identity: Scylla serrata. IMPORTANT ANATOMICAL CORRECTION: show one crab in a clear TOP-DOWN dorsal view, head facing left. Exactly five paired limb sets: ONE pair of pincers at the head, THREE pairs of slender pointed walking legs behind the pincers, then ONE LAST pair of flattened oval swimming paddles at the rear. Exactly TWO flattened swimming paddle tips in the whole animal. Never turn the other walking legs into paddle fins. Space all legs so their attachments are clear and do not merge or duplicate. No extra floating legs. Live natural coloration. Uniform fully transparent empty background, no halo.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Scylla serrata species account",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "深色的壳",
+          "text": "壳可以是绿色到近黑色。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "有力的大螯",
+          "text": "前面有一对粗壮的大螯。"
+        },
+        {
+          "key": "HOME",
+          "label": "泥底的家",
+          "text": "可以生活在近岸泥底和红树林附近。"
+        }
+      ]
+    },
+    {
+      "id": "portunus-pelagicus",
+      "name": "远海梭子蟹（花蟹）",
+      "scientificName": "Portunus pelagicus",
+      "category": "crab",
+      "shape": "Blue swimming crab MALE LIVE, blue carapace with pale mottling, long pointed lateral spines, slender blue claws, three pairs walking legs and rear pair swimming paddles.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.nparks.gov.sg/florafaunaweb/fauna/1/2/1207",
+      "prefix": "VTH-CI",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Blue swimming crab MALE LIVE, blue carapace with pale mottling, long pointed lateral spines, slender blue claws, three pairs walking legs and rear pair swimming paddles. Scientific identity: Portunus pelagicus. IMPORTANT ANATOMICAL CORRECTION: show one crab in a clear TOP-DOWN dorsal view, head facing left. Exactly five paired limb sets: ONE pair of pincers at the head, THREE pairs of slender pointed walking legs behind the pincers, then ONE LAST pair of flattened oval swimming paddles at the rear. Exactly TWO flattened swimming paddle tips in the whole animal. Never turn the other walking legs into paddle fins. Space all legs so their attachments are clear and do not merge or duplicate. No extra floating legs. Live natural coloration. Uniform fully transparent empty background, no halo.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Physical / Ecology",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "扇形的壳",
+          "text": "身体的壳像一把扇子，两侧有尖齿。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "小桨一样的脚",
+          "text": "最后一对脚扁扁的，可以帮助游泳。"
+        },
+        {
+          "key": "HOME",
+          "label": "藏进沙泥",
+          "text": "它会藏进沙泥里，也会在海草附近活动。"
+        }
+      ]
+    },
+    {
+      "id": "charybdis-feriata",
+      "name": "锈斑蟳（红花蟹）",
+      "scientificName": "Charybdis feriata",
+      "category": "crab",
+      "shape": "Crucifix crab LIVE maroon-brown carapace with pale cross-like central pattern and pale lengthwise bands, stout claws, swimming paddle hind legs.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 FAO 历史资料拼写 Charybdis feriatus；目前使用 Charybdis feriata。",
+      "sourceUrl": "https://openknowledge.fao.org/server/api/core/bitstreams/f32d004b-6358-44f3-8242-b9d23e5346d0/content",
+      "prefix": "VTH-CJ",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Crucifix crab LIVE maroon-brown carapace with pale cross-like central pattern and pale lengthwise bands, stout claws, swimming paddle hind legs. Scientific identity: Charybdis feriata. IMPORTANT ANATOMICAL CORRECTION: show one crab in a clear TOP-DOWN dorsal view, head facing left. Exactly five paired limb sets: ONE pair of pincers at the head, THREE pairs of slender pointed walking legs behind the pincers, then ONE LAST pair of flattened oval swimming paddles at the rear. Exactly TWO flattened swimming paddle tips in the whole animal. Never turn the other walking legs into paddle fins. Space all legs so their attachments are clear and do not merge or duplicate. No extra floating legs. Live natural coloration. Uniform fully transparent empty background, no halo.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Charybdis feriatus account; historical spelling feriatus",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "壳上的十字",
+          "text": "背壳中间，可以有浅色的十字图案。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "带纹的小脚",
+          "text": "腿和螯上可以看到深浅条带。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "会游泳的脚",
+          "text": "最后一对脚的末端是扁平的。"
+        }
+      ]
+    },
+    {
+      "id": "cancer-pagurus",
+      "name": "黄道蟹（面包蟹）",
+      "scientificName": "Cancer pagurus",
+      "category": "crab",
+      "shape": "Brown edible crab LIVE, broad oval reddish-brown carapace with pie-crust scalloped edge, stout black-tipped claws, FOUR pairs walking legs, no swimming paddle.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.marlin.ac.uk/species/detail/1179",
+      "prefix": "VTH-CK",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Brown edible crab LIVE, broad oval reddish-brown carapace with pie-crust scalloped edge, stout black-tipped claws, FOUR pairs walking legs, no swimming paddle. Scientific identity: Cancer pagurus.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Description / Habitat",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "饼边一样的壳",
+          "text": "椭圆的厚壳，边缘像一圈小波浪。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "黑色螯尖",
+          "text": "大螯的尖端是深色的。"
+        },
+        {
+          "key": "HOME",
+          "label": "海底找家",
+          "text": "可以生活在岩石附近，也能在泥沙底活动。"
+        }
+      ]
+    },
+    {
+      "id": "chionoecetes-opilio",
+      "name": "雪蟹",
+      "scientificName": "Chionoecetes opilio",
+      "category": "crab",
+      "shape": "Snow crab LIVE pale reddish-brown small triangular-round body, exceptionally long slender FOUR pairs walking legs, small pair claws, dorsal view.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/alaska-snow-crab",
+      "prefix": "VTH-CL",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Snow crab LIVE pale reddish-brown small triangular-round body, exceptionally long slender FOUR pairs walking legs, small pair claws, dorsal view. Scientific identity: Chionoecetes opilio.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Appearance",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "圆圆的背壳",
+          "text": "硬硬的背壳比较圆。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "四对步行脚",
+          "text": "除了一对螯，还能看到四对步行脚。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "上下颜色不同",
+          "text": "背面常是褐色，下面颜色较浅。"
+        }
+      ]
+    },
+    {
+      "id": "paralithodes-camtschaticus",
+      "name": "堪察加拟石蟹（帝王蟹）",
+      "scientificName": "Paralithodes camtschaticus",
+      "category": "crab",
+      "shape": "Red king crab LIVE brownish burgundy spiny carapace and legs, TWO claws and THREE pairs long visible walking legs, small rear leg pair hidden under shell; no eight large walking legs.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 拟石蟹属于异尾类；蟹按钮是外形与生活联系分组，不等于严格的短尾类分类。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/red-king-crab",
+      "prefix": "VTH-CM",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Red king crab LIVE brownish burgundy spiny carapace and legs, TWO claws and THREE pairs long visible walking legs, small rear leg pair hidden under shell; no eight large walking legs. Scientific identity: Paralithodes camtschaticus.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Appearance",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "带刺的壳",
+          "text": "背壳和脚上有尖尖的小刺。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "三对步行脚",
+          "text": "能看到三对长长的步行脚，还有一对螯。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "一大一小的螯",
+          "text": "两个螯形状不同，一个较大，一个较小。"
+        }
+      ]
+    },
+    {
+      "id": "sepioteuthis-lessoniana",
+      "name": "莱氏拟乌贼（大鳍鱿鱼）",
+      "scientificName": "Sepioteuthis lessoniana",
+      "category": "cephalopod",
+      "shape": "Bigfin reef squid LIVE, elongated translucent bronze mantle with broad oval fins running nearly full mantle length, huge natural eyes, EIGHT short arms and TWO long feeding tentacles.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 莱氏拟乌贼存在物种复合群；此卡沿用来源的名义种外形。",
+      "sourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/bigfin-reef-squid",
+      "prefix": "VTH-CN",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Bigfin reef squid LIVE, elongated translucent bronze mantle with broad oval fins running nearly full mantle length, huge natural eyes, EIGHT short arms and TWO long feeding tentacles. Scientific identity: Sepioteuthis lessoniana.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Appearance / camouflage",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "宽宽的侧鳍",
+          "text": "身体两侧的鳍很宽，看起来有些像乌贼。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "八加二",
+          "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+          "sourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/cephalopods",
+          "sourceLocation": "Eight arms / ten appendages: class-level anatomy"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "会变颜色",
+          "text": "皮肤里的色素细胞，可以帮助改变颜色和图案。"
+        }
+      ]
+    },
+    {
+      "id": "loligo-vulgaris",
+      "name": "欧洲枪乌贼（鱿鱼）",
+      "scientificName": "Loligo vulgaris",
+      "category": "cephalopod",
+      "shape": "European squid LIVE, elongated translucent cream-pink torpedo mantle, triangular rhomboid fins on rear half, EIGHT short arms and TWO long club-tipped tentacles, large eyes.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.marlin.ac.uk/species/detail/1111/1000",
+      "prefix": "VTH-CO",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. European squid LIVE, elongated translucent cream-pink torpedo mantle, triangular rhomboid fins on rear half, EIGHT short arms and TWO long club-tipped tentacles, large eyes. Scientific identity: Loligo vulgaris.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Description / identifying features",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "细长身体",
+          "text": "身体细长，像一个长筒。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "菱形的鳍",
+          "text": "后面的一对鳍，连起来像菱形。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "八加二",
+          "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+          "sourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/cephalopods",
+          "sourceLocation": "Eight arms / ten appendages: class-level anatomy"
+        }
+      ]
+    },
+    {
+      "id": "dosidicus-gigas",
+      "name": "茎柔鱼（洪堡鱿鱼）",
+      "scientificName": "Dosidicus gigas",
+      "category": "cephalopod",
+      "shape": "Humboldt squid LIVE, large muscular red-brown elongated mantle, triangular rear fins, EIGHT short arms with suckers and TWO long tentacles, large eyes.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://annualreport.mbari.org/2020/story/the-secret-language-of-humboldt-squid",
+      "prefix": "VTH-CP",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Humboldt squid LIVE, large muscular red-brown elongated mantle, triangular rear fins, EIGHT short arms with suckers and TWO long tentacles, large eyes. Scientific identity: Dosidicus gigas.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Squid speak / captions / research summary",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "会变图案",
+          "text": "皮肤上的深浅图案会发生变化。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "八加二",
+          "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+          "sourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/cephalopods",
+          "sourceLocation": "Eight arms / ten appendages: class-level anatomy"
+        },
+        {
+          "key": "FOOD",
+          "label": "寻找小动物",
+          "text": "它会捕食磷虾和多种鱼。"
+        }
+      ]
+    },
+    {
+      "id": "sepia-pharaonis",
+      "name": "虎斑乌贼",
+      "scientificName": "Acanthosepion pharaonis",
+      "category": "cephalopod",
+      "shape": "Pharaoh cuttlefish LIVE, broad flattened oval tan mantle with fine zebra-like brown wavy bands, narrow fin skirt along BOTH sides, EIGHT arms and TWO retractile feeding tentacles only slightly extended.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 WoRMS 当前接受名为 Acanthosepion pharaonis；FAO 2005 使用旧组合 Sepia pharaonis，图片生成原始提示按当时的制作输入保留。",
+      "sourceUrl": "https://www.fao.org/4/a0150e/a0150e12.pdf",
+      "prefix": "VTH-CQ",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Pharaoh cuttlefish LIVE, broad flattened oval tan mantle with fine zebra-like brown wavy bands, narrow fin skirt along BOTH sides, EIGHT arms and TWO retractile feeding tentacles only slightly extended. Scientific identity: Sepia pharaonis.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "pp 106–108 / diagnostic features / biology",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "虎斑花衣服",
+          "text": "头和腕上，可以出现深浅相间的虎斑纹。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "八加二",
+          "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+          "sourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/cephalopods",
+          "sourceLocation": "Eight arms / ten appendages: class-level anatomy"
+        },
+        {
+          "key": "EGGS",
+          "label": "一串串的卵",
+          "text": "卵会成簇地附着在植物、贝壳等物体上。"
+        }
+      ],
+      "legacyNames": [
+        "Sepia pharaonis"
+      ]
+    },
+    {
+      "id": "sepia-officinalis",
+      "name": "普通乌贼（墨鱼）",
+      "scientificName": "Sepia officinalis",
+      "category": "cephalopod",
+      "shape": "Common cuttlefish LIVE, broad oval light tan mottled mantle with narrow undulating fin fringe on both sides, EIGHT short arms and TWO feeding tentacles, subtle W-shaped pupils.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/common-cuttlefish",
+      "prefix": "VTH-CR",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Common cuttlefish LIVE, broad oval light tan mottled mantle with narrow undulating fin fringe on both sides, EIGHT short arms and TWO feeding tentacles, subtle W-shaped pupils. Scientific identity: Sepia officinalis.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Description / camouflage / diet",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "颜色会变化",
+          "text": "它会改变身体的颜色、图案和表面样子。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "八加二",
+          "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+          "sourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/cephalopods",
+          "sourceLocation": "Eight arms / ten appendages: class-level anatomy"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃小动物",
+          "text": "它会吃虾、蟹、小鱼和一些贝类。"
+        }
+      ]
+    },
+    {
+      "id": "octopus-vulgaris",
+      "name": "普通章鱼",
+      "scientificName": "Octopus vulgaris",
+      "category": "cephalopod",
+      "shape": "Common octopus LIVE tan-brown mottled rounded mantle, exactly EIGHT distinct flexible arms with paired sucker rows, no fins, two natural eyes, arms spread gently three-quarter view.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 普通章鱼存在物种复合群；不把旧资料的广域分布全部作为本种已证实分布。",
+      "sourceUrl": "https://www.marlin.ac.uk/species/detail/1117",
+      "prefix": "VTH-CS",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Common octopus LIVE tan-brown mottled rounded mantle, exactly EIGHT distinct flexible arms with paired sucker rows, no fins, two natural eyes, arms spread gently three-quarter view. Scientific identity: Octopus vulgaris.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Description / identifying features",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "八条腕",
+          "text": "章鱼有八条腕，没有鱿鱼那两条长触腕。",
+          "sourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/cephalopods",
+          "sourceLocation": "Eight arms / ten appendages: class-level anatomy"
+        },
+        {
+          "key": "DETAIL",
+          "label": "两排吸盘",
+          "text": "每条腕上，能看到两排吸盘。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "颜色会变化",
+          "text": "身体颜色可以变化，不是一直保持一种颜色。"
+        }
+      ]
+    },
+    {
+      "id": "enteroctopus-dofleini",
+      "name": "北太平洋巨型章鱼",
+      "scientificName": "Enteroctopus dofleini",
+      "category": "cephalopod",
+      "shape": "Giant Pacific octopus LIVE reddish-brown massive wrinkled bulbous mantle and exactly EIGHT thick long arms with two rows suckers, calm naturally curled pose, no fins.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/giant-pacific-octopus",
+      "prefix": "VTH-CT",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Giant Pacific octopus LIVE reddish-brown massive wrinkled bulbous mantle and exactly EIGHT thick long arms with two rows suckers, calm naturally curled pose, no fins. Scientific identity: Enteroctopus dofleini.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Appearance / habitat / diet",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "八条大腕",
+          "text": "它有八条带着吸盘的腕。"
+        },
+        {
+          "key": "HOME",
+          "label": "岩石里的窝",
+          "text": "常在海底岩石的洞隙里找住处。"
+        },
+        {
+          "key": "FOOD",
+          "label": "抓住食物",
+          "text": "它会捕食蟹、贝类和鱼等小动物。"
+        }
+      ]
+    },
+    {
+      "id": "haliotis-discus",
+      "name": "盘鲍（鲍鱼）",
+      "scientificName": "Haliotis discus",
+      "category": "gastropod",
+      "shape": "Japanese abalone LIVE oblique top-side view, ONE flattened ear-shaped rough grey-brown shell with row of respiratory holes, visible broad muscular cream FOOT and short tentacles beneath; not two-valved clam.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.agriculture.ntpc.gov.tw/en/gongliao_abalone.html",
+      "prefix": "VTH-CU",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Japanese abalone LIVE oblique top-side view, ONE flattened ear-shaped rough grey-brown shell with row of respiratory holes, visible broad muscular cream FOOT and short tentacles beneath; not two-valved clam. Scientific identity: Haliotis discus.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Abalone species / shell / feeding",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "耳朵形的壳",
+          "text": "一片扁扁的壳，轮廓像耳朵。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "一排小孔",
+          "text": "壳边有一排小孔。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃海藻",
+          "text": "鲍鱼可以吃海藻。"
+        }
+      ]
+    },
+    {
+      "id": "haliotis-diversicolor",
+      "name": "杂色鲍",
+      "scientificName": "Haliotis diversicolor",
+      "category": "gastropod",
+      "shape": "Small abalone LIVE, ONE low elongated ear-shaped mottled brown-green shell with row of respiratory holes, broad muscular foot and fine epipodial tentacles.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.agriculture.ntpc.gov.tw/en/gongliao_abalone.html",
+      "prefix": "VTH-CV",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Small abalone LIVE, ONE low elongated ear-shaped mottled brown-green shell with row of respiratory holes, broad muscular foot and fine epipodial tentacles. Scientific identity: Haliotis diversicolor.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Haliotis diversicolor / shell / feeding",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "扁扁的一片壳",
+          "text": "鲍鱼属于螺类，背上只有一片壳。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "壳上的小孔",
+          "text": "壳边能看到一排小孔。"
+        },
+        {
+          "key": "FOOD",
+          "label": "海藻食物",
+          "text": "它会吃海藻。"
+        }
+      ]
+    },
+    {
+      "id": "babylonia-areolata",
+      "name": "方斑东风螺（花螺）",
+      "scientificName": "Babylonia areolata",
+      "category": "gastropod",
+      "shape": "Spotted babylon sea snail LIVE, smooth ivory spiral shell with neat rectangular brown patches in rows, pointed conical spire, large oval aperture with visible pale foot and siphon.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://openknowledge.fao.org/server/api/core/bitstreams/f32d004b-6358-44f3-8242-b9d23e5346d0/content",
+      "prefix": "VTH-CW",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Spotted babylon sea snail LIVE, smooth ivory spiral shell with neat rectangular brown patches in rows, pointed conical spire, large oval aperture with visible pale foot and siphon. Scientific identity: Babylonia areolata.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Babylonia areolata / p117",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "方方的斑点",
+          "text": "浅色的螺壳上，排着褐色方斑。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "尖尖的螺塔",
+          "text": "壳上部一圈圈变小，形成尖尖的螺塔。"
+        },
+        {
+          "key": "HOME",
+          "label": "沙泥底的家",
+          "text": "生活在海底的沙泥中。"
+        }
+      ]
+    },
+    {
+      "id": "rapana-venosa",
+      "name": "脉红螺（海螺）",
+      "scientificName": "Rapana venosa",
+      "category": "gastropod",
+      "shape": "Veined rapa whelk LIVE, heavy broad brown-grey spiral shell with shoulder knobs and vein-like dark marks, large ORANGE interior aperture visible with dark muscular foot.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://nas.er.usgs.gov/Queries/FactSheet.aspx?SpeciesID=1018",
+      "prefix": "VTH-CX",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Veined rapa whelk LIVE, heavy broad brown-grey spiral shell with shoulder knobs and vein-like dark marks, large ORANGE interior aperture visible with dark muscular foot. Scientific identity: Rapana venosa.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Identification / habitat",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "圆鼓鼓的壳",
+          "text": "壳的最后一圈大大鼓起，顶端较短。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "橙色壳口",
+          "text": "壳口里面可以是橙色的。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "深色细纹",
+          "text": "螺壳上可以有深色的脉状花纹。"
+        }
+      ]
+    },
+    {
+      "id": "aliger-gigas",
+      "name": "女王凤凰螺",
+      "scientificName": "Aliger gigas",
+      "category": "gastropod",
+      "shape": "Queen conch ADULT LIVE, heavy tan spiral shell with broad flared PINK lip and short rounded knobs on spire, TWO stalked eyes emerging, pale foot visible, full shell.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/queen-conch",
+      "prefix": "VTH-CY",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Queen conch ADULT LIVE, heavy tan spiral shell with broad flared PINK lip and short rounded knobs on spire, TWO stalked eyes emerging, pale foot visible, full shell. Scientific identity: Aliger gigas.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Appearance",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "厚厚的螺壳",
+          "text": "成体有厚厚的螺壳，壳上还有短短的尖刺。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "粉色壳口",
+          "text": "成体壳口里面常常是粉红色。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "伸出来的眼睛",
+          "text": "两只眼睛长在可以活动的眼柄上。"
+        }
+      ]
+    },
+    {
+      "id": "ruditapes-philippinarum",
+      "name": "菲律宾蛤仔（花蛤）",
+      "scientificName": "Ruditapes philippinarum",
+      "category": "bivalve",
+      "shape": "Manila clam LIVE closed bivalve shell, oval tan shell with varied dark chevron patches and fine CROSSHATCH radial and concentric ridges; paired valves slightly visible in oblique view.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_japanesecarpetshell.htm",
+      "prefix": "VTH-CZ",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Manila clam LIVE closed bivalve shell, oval tan shell with varied dark chevron patches and fine CROSSHATCH radial and concentric ridges; paired valves slightly visible in oblique view. Scientific identity: Ruditapes philippinarum.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Biological features / habitat",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "两片椭圆壳",
+          "text": "身体外面，有两片椭圆的壳。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "交叉小纹路",
+          "text": "壳上的横纹和放射纹，交织成小格子。"
+        },
+        {
+          "key": "HOME",
+          "label": "沙泥中的家",
+          "text": "可以生活在浅海沙泥或沙砾底。"
+        }
+      ]
+    },
+    {
+      "id": "meretrix-meretrix",
+      "name": "文蛤",
+      "scientificName": "Meretrix meretrix",
+      "category": "bivalve",
+      "shape": "Hard clam LIVE closed bivalve, smooth polished triangular-oval cream tan shell with brown zigzag bands and dark posterior patch, paired valves oblique view.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://openknowledge.fao.org/server/api/core/bitstreams/f32d004b-6358-44f3-8242-b9d23e5346d0/content",
+      "prefix": "VTH-DA",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Hard clam LIVE closed bivalve, smooth polished triangular-oval cream tan shell with brown zigzag bands and dark posterior patch, paired valves oblique view. Scientific identity: Meretrix meretrix.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Meretrix meretrix species account / p102",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "圆三角的壳",
+          "text": "两片厚壳，轮廓像圆圆的三角形。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "光滑壳面",
+          "text": "壳面比较光滑，颜色和图案会变化。"
+        },
+        {
+          "key": "HOME",
+          "label": "浅海沙泥",
+          "text": "生活在近岸浅海的沙泥底。"
+        }
+      ]
+    },
+    {
+      "id": "perna-viridis",
+      "name": "翡翠贻贝（青口）",
+      "scientificName": "Perna viridis",
+      "category": "bivalve",
+      "shape": "Asian green mussel LIVE closed elongated wedge-shaped paired shell, dark brown middle grading vivid emerald GREEN along growing edge, pointed hinge end.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=110",
+      "prefix": "VTH-DB",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Asian green mussel LIVE closed elongated wedge-shaped paired shell, dark brown middle grading vivid emerald GREEN along growing edge, pointed hinge end. Scientific identity: Perna viridis.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Identification / ecology",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "绿色的壳",
+          "text": "幼小的时候，壳常常是鲜绿色。"
+        },
+        {
+          "key": "YOUNG",
+          "label": "长大变深",
+          "text": "长大以后，壳会变成较深的绿褐色。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "用丝固定",
+          "text": "它用一束细丝，把自己固定在硬物上。"
+        }
+      ]
+    },
+    {
+      "id": "mytilus-edulis",
+      "name": "紫贻贝（蓝贻贝）",
+      "scientificName": "Mytilus edulis",
+      "category": "bivalve",
+      "shape": "Blue mussel LIVE closed smooth elongated wedge-shaped paired shell, glossy navy blue-black with fine growth lines, pointed hinge end.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/blue-mussel",
+      "prefix": "VTH-DC",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Blue mussel LIVE closed smooth elongated wedge-shaped paired shell, glossy navy blue-black with fine growth lines, pointed hinge end. Scientific identity: Mytilus edulis.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Appearance",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "水滴一样的壳",
+          "text": "两片壳的轮廓，有些像长长的水滴。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "深色的壳",
+          "text": "壳可以是蓝黑色、黑色或褐色。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "用丝固定",
+          "text": "它用一束细丝，把自己固定在物体上。"
+        }
+      ]
+    },
+    {
+      "id": "magallana-gigas",
+      "name": "太平洋牡蛎（生蚝）",
+      "scientificName": "Magallana gigas",
+      "category": "bivalve",
+      "shape": "Pacific oyster LIVE closed irregular rough layered white-grey BIVALVE shell, asymmetric deep cupped bottom valve and flatter top valve, no pearl prop.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/pacific-oyster",
+      "prefix": "VTH-DD",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Pacific oyster LIVE closed irregular rough layered white-grey BIVALVE shell, asymmetric deep cupped bottom valve and flatter top valve, no pearl prop. Scientific identity: Magallana gigas.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Appearance / biology",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "粗糙的壳",
+          "text": "两片壳的外面凹凸不平。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "两壳不一样",
+          "text": "一片壳较平，另一片像深一点的小碗。"
+        },
+        {
+          "key": "FOOD",
+          "label": "过滤小食物",
+          "text": "它过滤海水，吃水里的浮游小生物。"
+        }
+      ]
+    },
+    {
+      "id": "pecten-maximus",
+      "name": "大扇贝",
+      "scientificName": "Pecten maximus",
+      "category": "bivalve",
+      "shape": "Great scallop LIVE slightly open bivalve, fan-shaped orange-brown shell with strong RADIAL ribs and two small ear-like hinge wings, tiny blue eyes at mantle edge, no pearl.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.marlin.ac.uk/species/detail/1398",
+      "prefix": "VTH-DE",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Great scallop LIVE slightly open bivalve, fan-shaped orange-brown shell with strong RADIAL ribs and two small ear-like hinge wings, tiny blue eyes at mantle edge, no pearl. Scientific identity: Pecten maximus.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Description / identifying features / habitat",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "扇形的壳",
+          "text": "两片壳像扇子一样展开。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "凸壳和平壳",
+          "text": "一片壳比较鼓，另一片比较平。"
+        },
+        {
+          "key": "HOME",
+          "label": "沙砾底的家",
+          "text": "它能在海底沙砾中，找一个浅浅的凹窝。"
+        }
+      ]
+    },
+    {
+      "id": "tegillarca-granosa",
+      "name": "泥蚶（血蚶）",
+      "scientificName": "Tegillarca granosa",
+      "category": "bivalve",
+      "shape": "Blood cockle LIVE CLOSED cream grey thick rounded inflated paired shells with strong evenly spaced radial ribs, no red flesh or blood.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://openknowledge.fao.org/server/api/core/bitstreams/f32d004b-6358-44f3-8242-b9d23e5346d0/content",
+      "prefix": "VTH-DF",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Blood cockle LIVE CLOSED cream grey thick rounded inflated paired shells with strong evenly spaced radial ribs, no red flesh or blood. Scientific identity: Tegillarca granosa.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Tegillarca granosa / identification",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "两片鼓壳",
+          "text": "两片壳厚厚的，向外鼓起。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "一条条凸肋",
+          "text": "壳上有一条条向外放射的凸肋。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "凸肋上的小粒",
+          "text": "凸肋上，还有小小的结节。"
+        }
+      ]
+    },
+    {
+      "id": "sinonovacula-constricta",
+      "name": "缢蛏（蛏子）",
+      "scientificName": "Sinonovacula constricta",
+      "category": "bivalve",
+      "shape": "Chinese razor clam LIVE, elongated slender rectangular golden tan paired shells with rounded ends and a slight central constriction, short cream siphons protruding.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://kmweb.moa.gov.tw/theme_data.php?id=82&theme=fisheasy",
+      "prefix": "VTH-DG",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Chinese razor clam LIVE, elongated slender rectangular golden tan paired shells with rounded ends and a slight central constriction, short cream siphons protruding. Scientific identity: Sinonovacula constricta.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "毛蟶 / identity / 棲地分布",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "名字叫缢蛏",
+          "text": "这种双壳贝，叫作缢蛏，也叫毛蛏。"
+        },
+        {
+          "key": "HOME",
+          "label": "泥底的家",
+          "text": "它住在浅海的泥底。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "西北太平洋伙伴",
+          "text": "在中国沿海、日本和韩国等地可以见到。"
+        }
+      ]
+    },
+    {
+      "id": "panopea-generosa",
+      "name": "象拔蚌",
+      "scientificName": "Panopea generosa",
+      "category": "bivalve",
+      "shape": "Geoduck LIVE, small oval pale cream paired shell with a VERY LONG thick tan double-tipped siphon protruding and wrinkled body, side view.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/geoduck",
+      "prefix": "VTH-DH",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Geoduck LIVE, small oval pale cream paired shell with a VERY LONG thick tan double-tipped siphon protruding and wrinkled body, side view. Scientific identity: Panopea generosa.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Appearance / habitat / biology",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "长长的水管",
+          "text": "两片壳外面，伸着长长的水管。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "进水和出水",
+          "text": "水管有进水和出水的两个开口。"
+        },
+        {
+          "key": "HOME",
+          "label": "埋在海底",
+          "text": "身体可以埋在海底泥沙里。"
+        }
+      ]
+    },
+    {
+      "id": "apostichopus-japonicus",
+      "name": "仿刺参（海参）",
+      "scientificName": "Apostichopus japonicus",
+      "category": "other",
+      "shape": "Japanese sea cucumber LIVE dark olive-brown thick elongated cucumber-like leathery body with several rows soft conical papillae, small underside tube feet, no eyes or fish fins.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://www.fao.org/4/i1918e/i1918e.pdf",
+      "prefix": "VTH-DI",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Japanese sea cucumber LIVE dark olive-brown thick elongated cucumber-like leathery body with several rows soft conical papillae, small underside tube feet, no eyes or fish fins. Scientific identity: Apostichopus japonicus.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Apostichopus japonicus species account",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "软软的长身体",
+          "text": "身体长长的，背上有锥形小突起。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "下面的小管足",
+          "text": "身体下面有一排排小管足。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "颜色会不同",
+          "text": "不同个体可以是绿色、褐色或灰色。"
+        }
+      ]
+    },
+    {
+      "id": "mesocentrotus-nudus",
+      "name": "光棘球海胆",
+      "scientificName": "Mesocentrotus nudus",
+      "category": "other",
+      "shape": "Northern purple sea urchin LIVE, dark purple-black spherical test with many long straight fine spines radiating all directions, no face, slight underside visible.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 旧名 Strongylocentrotus nudus；日本北紫海胆与另一物种紫海胆不同。",
+      "sourceUrl": "https://www.hro.or.jp/fisheries/research/central/section/zoushoku/j12s220000001bka/j12s220000001dl8.html",
+      "prefix": "VTH-DJ",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Northern purple sea urchin LIVE, dark purple-black spherical test with many long straight fine spines radiating all directions, no face, slight underside visible. Scientific identity: Mesocentrotus nudus.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "キタムラサキウニ / distribution / algae",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "一种海胆",
+          "text": "这是一种海胆，日本叫它北紫海胆。"
+        },
+        {
+          "key": "HOME",
+          "label": "北海道的伙伴",
+          "text": "在北海道附近的沿海可以见到。"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃海藻",
+          "text": "它会吃海藻，也会吃海藻的幼芽。"
+        }
+      ]
+    },
+    {
+      "id": "rhopilema-esculentum",
+      "name": "海蜇",
+      "scientificName": "Rhopilema esculentum",
+      "category": "other",
+      "shape": "Edible jellyfish LIVE, translucent pale blue hemispherical bell, thick cauliflower-like hanging oral arms with smooth clubs, no fish eyes or octopus suckers.",
+      "notes": "中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。",
+      "sourceUrl": "https://scitechvista.nat.gov.tw/Article/c000003/detail?ID=8dab73f1-bbd5-4b70-b7c6-559a04580972",
+      "prefix": "VTH-DK",
+      "prompt": "Create ONE original scientific-educational ocean animal cutout for a premium discovery game for 6–8-year-olds. Soft satin physically believable 3D illustration, accurate species-specific anatomy, clean readable silhouette, natural small eyes, no human face or eyelashes, no text, no labels, no accessories, no plate, no scenery, no cast shadow. Truly transparent background. Full LIVE animal with every appendage entirely inside generous margins. Normally left-facing true lateral view unless dorsal or oblique view is needed to explain anatomy. Horizontal 3:2 composition. Edible jellyfish LIVE, translucent pale blue hemispherical bell, thick cauliflower-like hanging oral arms with smooth clubs, no fish eyes or octopus suckers. Scientific identity: Rhopilema esculentum.",
+      "status": "complete-observation-preview",
+      "sourceLocation": "Rhopilema esculentum / umbrella / oral arms",
+      "checkedAt": "2026-10-07",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "伞状的身体",
+          "text": "身体上面像一把圆圆的伞。"
+        },
+        {
+          "key": "DETAIL",
+          "label": "下面的口腕",
+          "text": "伞的下面，有一簇口腕。"
+        },
+        {
+          "key": "DETAILTWO",
+          "label": "它是水母",
+          "text": "海蜇属于水母，和鱼不属于同一类。",
+          "sourceUrl": "https://www.tfrin.gov.tw/theme_data.php?id=420&sub_theme=G&theme=epaper_data",
+          "sourceLocation": "Jellyfish / Cnidaria"
+        }
+      ]
+    }
+  ]
+}
