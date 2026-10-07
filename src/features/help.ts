@@ -1,4 +1,5 @@
 export const helpTopics = {
+  sculpt: { icon: '🤏', title: '捏一捏', text: '上下拖动鱼背和肚子上的圆点。捏错了，点弯箭头就能回去。' },
   shape: { icon: '🧩', title: '换部件', text: '点鱼旁边的部件，再挑一个。你的笔迹还会留着。' },
   colors: { icon: '🎨', title: '涂颜色', text: '先选身体、尾巴或鳍，再点一种颜色。也可以试试不同花纹。' },
   brush: { icon: '🖌️', title: '自由画', text: '选画笔和颜色，用手指在鱼身上画。点弯箭头，可以撤销。' },

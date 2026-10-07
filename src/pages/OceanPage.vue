@@ -195,7 +195,7 @@ async function card() {
   <PageHeading eyebrow="自己的海洋 / MY OCEAN" title="这是你创造的海洋。" description="点自己的鱼，近看每一笔，或陪它玩一个泡泡。想怎么创造，都可以。" />
   <p v-if="message" class="session-notice" role="status">{{ message }}</p>
   <p v-if="errorText" class="leave-warning" role="alert">{{ errorText }}</p>
-  <div v-if="status === 'ready'" class="ocean-view-switch" role="group" aria-label="海洋画面"><button class="button button--muted" :aria-pressed="!volumeOcean" @click="volumeOcean = false">🌊 画出来的海洋</button><button class="button button--muted" :aria-pressed="volumeOcean" @click="volumeOcean = true">🌀 立体海洋样板</button><LocalOceanDisplay :fish="actors" :textures="textures" @change="showcaseOpen = $event" /></div>
+  <div v-if="status === 'ready'" class="ocean-view-switch" role="group" aria-label="海洋画面"><button class="button button--muted" :aria-pressed="!volumeOcean" @click="volumeOcean = false">🌊 画出来的海洋</button><button class="button button--muted" :aria-pressed="volumeOcean" @click="volumeOcean = true">🌀 立体海洋</button><LocalOceanDisplay :fish="actors" :textures="textures" @change="showcaseOpen = $event" /></div>
   <p v-if="invalidCount" class="session-notice">有 {{ invalidCount }} 条作品记录无法读取，已原样保留，没有显示。</p>
   <div v-if="status === 'unavailable'" class="ocean-layout">
     <SeaScene />

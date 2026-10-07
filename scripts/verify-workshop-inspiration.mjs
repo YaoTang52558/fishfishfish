@@ -14,7 +14,7 @@ page.on('console',msg=>{if(msg.type()==='error'||msg.text().includes('Runtime di
 page.on('response',r=>{if(r.status()>=400)badResponses.push({url:r.url(),status:r.status()});});
 const url=process.env.FISH_WORKSHOP_PREVIEW_URL||'http://127.0.0.1:5175/create';
 await page.goto(url);
-await page.waitForFunction(()=>window.__fishEditor && document.querySelector('.stage-toolbar button:last-child')?.disabled === false);
+await page.waitForFunction(()=>window.__fishEditor && document.querySelector('.studio-layout')?.inert === false);
 await page.getByRole('button',{name:'画笔',exact:true}).click();
 const canvas=page.locator('.fish-canvas-stage canvas');
 await canvas.scrollIntoViewIfNeeded();
@@ -26,7 +26,7 @@ await page.mouse.up();
 await page.waitForFunction(()=>window.__fishEditor.history.undoCount>0 && document.querySelector('.save-status')?.textContent.includes('已保存'));
 const snapshot=()=>page.evaluate(()=>({design:JSON.stringify(window.__fishEditor.design.value),history:window.__fishEditor.history.undoCount,paintTick:window.__fishEditor.paintTick.value,canvas:document.querySelector('.fish-canvas-stage canvas').toDataURL()}));
 const before=await snapshot();
-await page.locator('.inspiration-open').click();
+await page.locator('.inspiration-open').evaluate(el => el.closest('details').open = true); await page.locator('.inspiration-open').click();
 await page.locator('.inspiration-observation').waitFor();
 assert.equal(await page.locator('[data-inspiration-fish]').count(),6);
 assert.ok(await page.locator('audio').evaluate(a=>a.paused));
@@ -77,7 +77,7 @@ assert.equal(await page.evaluate(()=>JSON.stringify(window.__fishEditor.design.v
 const retryPage=await context.newPage();
 let failed=false;
 await retryPage.route('**/content/v1/data.json',route=>{if(!failed){failed=true;return route.fulfill({status:503,body:'unavailable'});}return route.continue();});
-await retryPage.goto(url);await retryPage.locator('.inspiration-open').click();
+await retryPage.goto(url);await retryPage.locator('.inspiration-open').evaluate(el => el.closest('details').open = true);await retryPage.locator('.inspiration-open').click();
 await retryPage.getByRole('button',{name:'再试一次',exact:true}).click();
 await retryPage.locator('.inspiration-observation').waitFor();
 assert.equal(await retryPage.locator('[data-inspiration-fish]').count(),6);

@@ -15,7 +15,7 @@ try {
   page.on('response', r => { if (r.status() >= 400) badResponses.push({ url: r.url(), status: r.status() }); });
   const url = process.env.FISH_WORKSHOP_PREVIEW_URL || 'http://127.0.0.1:5175/create';
   await page.goto(url);
-  await page.waitForFunction(() => window.__fishEditor && !document.querySelector('.stage-toolbar button:last-child').disabled);
+  await page.waitForFunction(() => window.__fishEditor && document.querySelector('.studio-layout')?.inert === false);
   const settle = () => page.evaluate(() => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r))));
   const state = () => page.evaluate(() => ({ design: JSON.parse(JSON.stringify(window.__fishEditor.design.value)), count: window.__fishEditor.history.undoCount, tick: window.__fishEditor.paintTick.value }));
   await page.getByRole('button', { name: '颜色', exact: true }).click();
@@ -32,7 +32,7 @@ try {
   const box = await workshopCanvas.boundingBox(); await page.mouse.click(box.x + box.width * .44, box.y + box.height * .59);
   await page.waitForFunction(() => document.querySelector('.save-status').textContent.includes('已保存'));
   const before = await state(); assert.equal(before.design.stamps.length, 1); assert.ok(before.design.paint.colorAssetId && before.design.paint.glowAssetId);
-  await page.locator('.showcase-entry').click(); await page.locator('.showcase-dialog[open]').waitFor(); await settle();
+  await page.locator('.showcase-entry').evaluate(el => el.closest('details').open = true); await page.locator('.showcase-entry').click(); await page.locator('.showcase-dialog[open]').waitFor(); await settle();
   await page.keyboard.press('Control+z'); assert.deepEqual(await state(), before);
   await page.getByRole('button', { name: '⏸ 停一停', exact: true }).click(); await settle();
   const detailCanvas = page.locator('.showcase-view canvas');

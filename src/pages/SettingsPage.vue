@@ -90,7 +90,7 @@ async function confirmImport() {
 }
 </script>
 <template>
-  <PageHeading eyebrow="按你的节奏 / SETTINGS" title="让这片海，更适合你。" description="声音、辅助操作、动态效果和作品备份，都在这里管理。" />
+  <PageHeading eyebrow="按你的节奏 / SETTINGS" title="一起照顾这片海。" description="声音、辅助操作、动态效果和作品备份，都在这里管理。" />
   <div class="settings-layout">
     <section class="settings-panel" aria-labelledby="preferences-title"><h2 id="preferences-title">体验偏好</h2>
       <div v-for="item in preferences" :key="item.key" class="setting-row">
@@ -130,7 +130,7 @@ async function confirmImport() {
       <p v-if="notice" class="session-notice" role="status">{{ notice }}</p>
       <ul v-if="errors.length" class="backup-errors" role="alert"><li v-for="item in errors" :key="item">{{ item }}</li></ul>
       <p class="panel-footnote">导入会整体替换，不做合并；失败或取消都不会改动现有作品。</p>
-      <div class="danger-zone">
+      <details class="danger-zone"><summary>整理存档与清空数据</summary>
         <h3>清空全部数据</h3>
         <p>删除这台设备上的全部原创鱼、草稿、图鉴发现、彩蛋记录和设置。无法撤销。</p>
         <button v-if="confirmClear === 0" class="button button--muted chip-button--danger" :disabled="status !== 'ready' || busy" @click="confirmClear = 1">清空全部数据…</button>
@@ -144,7 +144,9 @@ async function confirmImport() {
             <button class="button button--muted" :disabled="busy" @click="confirmClear = 0">取消</button>
           </div>
         </div>
-      </div>
+      </details>
     </section>
   </div>
 </template>
+
+<style scoped>.danger-zone>summary{min-height:48px;padding:12px 0;cursor:pointer;font-size:14px}</style>

@@ -84,3 +84,6 @@ onBeforeUnmount(() => { alive = false; generation++; stop(); for (const bitmap o
     <p class="tool-hint">彩蛋是游戏里的趣味设定，不代表真实鱼类的能力。</p>
   </template>
 </template>
+
+<style scoped>.page-heading{margin:0 0 14px}.page-heading :deep(h1){font-size:26px;margin:6px 0}.page-heading :deep(.page-description){font-size:13px}.journal-tabs{margin-bottom:12px}</style>
+<style scoped>.page-heading :deep(.eyebrow){display:none}</style>

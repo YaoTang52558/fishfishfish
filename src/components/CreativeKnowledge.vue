@@ -6,7 +6,7 @@ import { loadObservationContent, type ObservationContent } from '../features/ins
 import ObservationDetail from './ObservationDetail.vue';
 import { stopNarration } from '../features/voice.ts';
 import PartThumb from './PartThumb.vue';
-const props = defineProps<{ design: FishDesign; paint?: CanvasImageSource | null; glow?: CanvasImageSource | null; disabled?: boolean }>();
+const props = defineProps<{ design: FishDesign; initialTopic?: 'mouth' | 'fin' | 'tail' | 'shape'; paint?: CanvasImageSource | null; glow?: CanvasImageSource | null; disabled?: boolean }>();
 const emit = defineEmits<{ opened: []; closed: [] }>();
 const dialog = ref<HTMLDialogElement>(), button = ref<HTMLButtonElement>(), content = shallowRef<ObservationContent | null>(null), openState = ref(false), error = ref(false);
 const mouthName = computed(() => mouths.find(m => m.id === props.design.parts.mouthId)?.name ?? '想象的嘴巴');
@@ -15,22 +15,22 @@ const topics = {
   mouth: { title: '嘴巴有什么不同？', icon: '👄', label: '嘴巴', focus: 'mouth' as const, ids: ['forcipiger-flavissimus','scarus-ghobban'], question: '看看自己造的嘴巴。它像下面哪位朋友？也可以谁都不像。', note: '长嘴能探查礁缝，鹦嘴鱼会刮着吃藻类。不同物种有不同用法，你的幻想鱼可以有自己的故事。' },
   fin: { title: '鳍长在哪里？', icon: '🪽', label: '鱼鳍', focus: 'whole' as const, ids: ['zanclus-cornutus','sphyraena-barracuda'], question: '背上的长丝和分开的两片鳍，哪种让你有新想法？', note: '角镰鱼背上有长长的鳍条，大魣有分开的两片背鳍。观察外形以后，你可以创造自己的鳍。' },
   tail: { title: '尾巴都一样吗？', icon: '↔️', label: '尾巴', focus: 'tail' as const, ids: ['hippocampus-kuda','trichiurus-lepturus'], question: '海马能用尾巴抓住东西，带鱼末端却没有扇形尾鳍。你的鱼想要什么尾巴？', note: '这里比较的是这两种鱼的结构。创作里的尾巴与游速是游戏设定，不等于真实鱼类的运动规律。' },
-  shape: { title: '鱼也有不同身形', icon: '🐟', label: '身形', focus: 'body' as const, ids: ['ostracion-cubicus','mobula-birostris'], question: '小盒子和大翅膀，让你想到了什么？', note: '黄箱鲀的身体像盒子，蝠鲼宽大的胸鳍像翅膀。当前工坊可以捏身体；专用海马和鳐的完整结构仍需继续制作。' },
+  shape: { title: '鱼也有不同身形', icon: '🐟', label: '身形', focus: 'body' as const, ids: ['ostracion-cubicus','mobula-birostris'], question: '小盒子和大翅膀，让你想到了什么？', note: '黄箱鲀的身体像盒子，蝠鲼宽大的胸鳍像翅膀。你的幻想鱼也可以有自己的形状。' },
 };
 const examples = computed(() => content.value?.fish.filter(f => topics[topic.value].ids.includes(f.id)) ?? []);
 let alive = true;
 async function load() { error.value = false; try { const result = await loadObservationContent(); if (alive) content.value = result; } catch { if (alive) error.value = true; } }
-function open() { if (!dialog.value || props.disabled) return; stopNarration(); emit('opened'); openState.value = true; dialog.value.showModal(); if (!content.value) void load(); }
+function open() { if (!dialog.value || props.disabled) return; topic.value = props.initialTopic ?? 'mouth'; stopNarration(); emit('opened'); openState.value = true; dialog.value.showModal(); if (!content.value) void load(); }
 async function closed() { if (!openState.value) return; openState.value = false; emit('closed'); await nextTick(); if (alive) button.value?.focus({ preventScroll: true }); }
 onBeforeUnmount(() => { alive = false; if (openState.value) emit('closed'); });
 </script>
 <template>
-  <div class="creative-knowledge"><button ref="button" :disabled="disabled" aria-label="看看嘴巴有什么不同" @click="open">🔎 嘴巴的秘密</button>
+  <div class="creative-knowledge"><button ref="button" :disabled="disabled" aria-label="看看真实鱼的秘密" @click="open">🔎 看看真鱼</button>
     <dialog ref="dialog" aria-labelledby="mouth-topic-title" @close="closed" @cancel.prevent="dialog?.close()"><template v-if="openState">
       <header><div><small>你的创作 → 真实鱼朋友 → 再去想象</small><h2 id="mouth-topic-title">{{ topics[topic].title }}</h2></div><button aria-label="回去继续创作" @click="dialog?.close()">🖌️ 回去画</button></header>
       <nav class="topic-tabs" aria-label="创作观察主题"><button v-for="(t, key) in topics" :key="key" :aria-pressed="topic === key" @click="topic = key; stopNarration()">{{ t.icon }} {{ t.label }}</button></nav>
       <div class="your-feature"><PartThumb :design="design" :focus="topics[topic].focus" :paint="paint" :glow="glow" /><div><strong>我的鱼{{ topic === 'mouth' ? '：' + mouthName : '' }}</strong><p>{{ topics[topic].question }}</p></div></div>
-      <p v-if="error" role="alert">参考图暂时没读到。<button @click="load">重试</button></p><p v-else-if="!content" role="status">正在打开嘴巴观察图…</p>
+      <p v-if="error" role="alert">参考图暂时没读到。<button @click="load">重试</button></p><p v-else-if="!content" role="status">正在打开鱼朋友的图画…</p>
       <div v-if="content" class="mouth-examples"><ObservationDetail v-for="fish in examples" :key="fish.id" :fish="fish" :content="content" compact /></div>
       <footer><p>{{ topics[topic].note }}</p><button @click="dialog?.close()">🖌️ 我有新的想法了</button></footer>
     </template></dialog>

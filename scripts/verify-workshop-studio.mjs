@@ -14,7 +14,7 @@ try {
   page.on('console', m => { if (m.type() === 'error' || m.text().includes('Runtime directive')) errors.push(m.text()); });
   page.on('response', r => { if (r.status() >= 400) badResponses.push({ url: r.url(), status: r.status() }); });
   const url = process.env.FISH_WORKSHOP_PREVIEW_URL || 'http://127.0.0.1:5175/create';
-  const ready = () => page.waitForFunction(() => window.__fishEditor && !document.querySelector('.stage-toolbar button:last-child').disabled);
+  const ready = () => page.waitForFunction(() => window.__fishEditor && document.querySelector('.studio-layout')?.inert === false);
   const saved = () => page.waitForFunction(() => document.querySelector('.save-status').textContent.includes('已保存'));
   const settle = () => page.evaluate(() => new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r))));
   const state = () => page.evaluate(() => ({ design: JSON.parse(JSON.stringify(window.__fishEditor.design.value)), history: window.__fishEditor.history.undoCount, tick: window.__fishEditor.paintTick.value }));
@@ -38,7 +38,7 @@ try {
     await page.mouse.move(box.x + box.width * .44, box.y + box.height * (.47 + dy)); await page.mouse.down();
     await page.mouse.move(box.x + box.width * .57, box.y + box.height * (.51 + dy), { steps: 10 }); await page.mouse.up();
   }
-  await page.getByRole('button', { name: '深海蓝', exact: true }).click(); await stroke();
+  await page.locator('.studio-tools').getByRole('button', { name: '深海蓝', exact: true }).click(); await stroke();
   await page.getByRole('button', { name: '发光笔', exact: true }).click(); await stroke(.07);
   await page.getByRole('button', { name: '印章', exact: true }).click();
   await canvas.scrollIntoViewIfNeeded(); const box = await canvas.boundingBox(); await page.mouse.click(box.x + box.width * .46, box.y + box.height * .59);
@@ -104,7 +104,7 @@ try {
   // Actual touch dispatch covers drawing on the wider mobile canvas after rotating.
   const touchContext = await browser.newContext({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true });
   const touch = await touchContext.newPage(); touch.on('pageerror',e => errors.push(e.message)); await touch.goto(url);
-  await touch.waitForFunction(() => window.__fishEditor && !document.querySelector('.stage-toolbar button:last-child').disabled);
+  await touch.waitForFunction(() => window.__fishEditor && document.querySelector('.studio-layout')?.inert === false);
   await touch.getByRole('button', { name: '画笔', exact: true }).tap(); const touchCanvas = touch.locator('.workshop-stage > .fish-canvas-stage canvas'); await touchCanvas.scrollIntoViewIfNeeded();
   const tb = await touchCanvas.boundingBox(), cdp = await touchContext.newCDPSession(touch);
   await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x: tb.x + tb.width * .44, y: tb.y + tb.height * .48 }] });

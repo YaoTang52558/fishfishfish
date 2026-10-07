@@ -38,7 +38,9 @@ const session = layers ? useDraftSession(editor.design, layers, { load: (next) =
 const design = editor.design;
 
 const tabs = ['造型', '部件', '颜色', '画笔'] as const;
-const selected = ref<(typeof tabs)[number]>('造型');
+const selected = ref<(typeof tabs)[number]>('画笔');
+const sculpting = ref(false);
+const knowledgeTopic = computed(() => activePart.value === 'tailId' ? 'tail' : activePart.value === 'finId' ? 'fin' : activePart.value === 'mouthId' ? 'mouth' : 'shape');
 const activePart = ref<PartKey>('bodyId');
 const tabIcons = { 造型: '🐟', 部件: '🧩', 颜色: '🎨', 画笔: '🖌️' };
 const primaryFinish = ref<HTMLButtonElement>();
@@ -58,7 +60,7 @@ const observationOpen = ref(false);
 const showcaseOpen = ref(false);
 const knowledgeOpen = ref(false);
 const helpOpen = ref(false);
-const helpTopic = computed<HelpTopic>(() => mode.value === 'finish' ? 'save' : mode.value === 'trial' ? 'trial' : selected.value === '画笔' ? 'brush' : selected.value === '颜色' ? 'colors' : 'shape');
+const helpTopic = computed<HelpTopic>(() => mode.value === 'finish' ? 'save' : mode.value === 'trial' ? 'trial' : sculpting.value ? 'sculpt' : selected.value === '画笔' ? 'brush' : selected.value === '颜色' ? 'colors' : 'shape');
 function borrowFeature(next: FishDesign, label: string) {
   editor.commit(label, { ...design.value, colors: { ...next.colors }, pattern: { ...next.pattern } });
   editor.message.value = '用上啦！可以继续画，也可以撤销。';
@@ -120,7 +122,9 @@ const statusText = computed(() => session?.statusText.value ?? '此浏览器无�
 const stamp = editor.selectedStamp;
 const stageLabel = computed(() => {
   if (editor.preview.value) return '随机预览';
-  if (selected.value !== '画笔') return '你的造型';
+  if (sculpting.value) return '🤏 拖动鱼背和肚子上的圆点';
+  if (selected.value === '颜色') return `🎨 给${colorTargets.find(t => t.key === colorTarget.value)?.name ?? '身体'}换颜色，点下面的色块`;
+  if (selected.value !== '画笔') return '点旁边换部件，点画笔就能画';
   const tool = editor.tool.value;
   return tool === 'fill' ? '换底色 · 点一下要换色的部位' : tool === 'stamp' ? '印章 · 点身体盖章' : `${currentTool.value.name} · 只画在身体上`;
 });
@@ -132,13 +136,18 @@ function nudgeStamp(du: number, dv: number) { editor.adjustStamp('移动印章',
 function finishGesture() { editor.release(); editor.endLive('调整造型或花纹'); }
 function selectTab(tab: (typeof tabs)[number]) {
   if (session?.committing.value) return;
-  finishGesture(); selected.value = tab; mode.value = 'edit'; confirmClear.value = false;
+  finishGesture(); selected.value = tab; mode.value = 'edit'; confirmClear.value = false; sculpting.value = false;
   if (tab === '造型' || tab === '部件') {
     if (selectedGroup.value.tab !== tab) activePart.value = tab === '造型' ? 'bodyId' : 'tailId';
   }
 }
 function selectGroup(key: PartKey) {
   activePart.value = key; selectTab(selectedGroup.value.tab);
+}
+function quickTool(action: 'pen' | 'eraser' | 'colors' | 'sculpt') {
+  selectTab(action === 'colors' ? '颜色' : action === 'sculpt' ? '造型' : '画笔');
+  if (action === 'pen' || action === 'eraser') editor.tool.value = action;
+  if (action === 'sculpt') { activePart.value = 'bodyId'; sculpting.value = true; }
 }
 function returnToEdit() { if (!session?.committing.value) { finishGesture(); mode.value = 'edit'; } }
 
@@ -279,13 +288,15 @@ onBeforeUnmount(() => { session?.dispose(); window.removeEventListener('keydown'
     <section class="workshop-stage studio-stage" :class="{ 'has-preview': !!editor.preview.value }" aria-label="鱼造型预览">
       <div class="stage-toolbar" role="toolbar" aria-label="编辑操作">
         <ContextHelp :topic="helpTopic" :disabled="!!session?.committing.value || loading" @change="helpOpen = $event; finishGesture()" />
-        <CreativeKnowledge v-show="mode === 'edit'" :design="design" :paint="color?.canvas" :glow="glow?.canvas" :disabled="!!editor.preview.value || loading" @opened="finishGesture(); knowledgeOpen = true" @closed="knowledgeOpen = false" />
+        <CreativeKnowledge v-show="mode === 'edit'" :initial-topic="knowledgeTopic" :design="design" :paint="color?.canvas" :glow="glow?.canvas" :disabled="!!editor.preview.value || loading" @opened="finishGesture(); knowledgeOpen = true" @closed="knowledgeOpen = false" />
         <button class="chip-button" aria-label="撤销" :disabled="!editor.canUndo.value || trial || !!editor.preview.value" @click="editor.undo()"><span aria-hidden="true">↶</span> 撤销</button>
         <button class="chip-button" aria-label="重做" :disabled="!editor.canRedo.value || trial || !!editor.preview.value" @click="editor.redo()"><span aria-hidden="true">↷</span> 重做</button>
+        <details class="studio-more"><summary>⋯ 更多</summary><div class="studio-more-panel">
         <button class="chip-button" aria-label="随机造型" :disabled="trial" @click="finishGesture(); editor.previewRandom()"><span aria-hidden="true">🎲</span> 随机造型</button>
         <button class="chip-button" aria-label="暗背景" :aria-pressed="dark" :class="{ selected: dark }" @click="dark = !dark"><span aria-hidden="true">{{ dark ? '🌙' : '☀️' }}</span> 暗背景</button>
         <FishInspiration v-show="!trial" class="studio-inspiration" :initial-id="typeof route.query.observe === 'string' ? route.query.observe : undefined" :design="design" :color="color" :glow="glow" :paint-tick="editor.paintTick.value" :disabled="!!editor.preview.value || loading || trial" @opened="finishGesture(); observationOpen = true" @closed="observationOpen = false" @applied="borrowFeature" />
         <button class="chip-button" :disabled="!session || session.status.value !== 'ready'" @click="confirmAction = 'new'">新建一条</button>
+        </div></details>
       </div>
       <div v-if="editor.preview.value" class="preview-bar" role="status">
         <span>随机预览：还没有改变你的鱼，笔迹和印章会保留。</span>
@@ -316,17 +327,28 @@ onBeforeUnmount(() => { session?.dispose(); window.removeEventListener('keydown'
         <button v-for="group in leftDock" :key="group.key" :data-part-tool="group.key" :aria-label="`换${group.title}`" :aria-pressed="selected === group.tab && activePart === group.key" @click="selectGroup(group.key)"><PartThumb :design="design" :focus="group.focus" /><span>{{ group.title }}</span></button>
       </div>
       <FishCanvas v-if="!trial" :design="editor.preview.value ?? design" :color="color" :glow="glow" :paint-tick="editor.paintTick.value"
-        :interactive="!editor.preview.value && selected === '画笔' && !!layers" :dark="dark" :selected-stamp-id="editor.tool.value === 'stamp' ? editor.selectedStampId.value : null"
+        :interactive="!editor.preview.value && selected === '画笔' && !!layers" :sculpting="sculpting && !editor.preview.value" :dark="dark" :selected-stamp-id="editor.tool.value === 'stamp' ? editor.selectedStampId.value : null"
         :label="stageLabel"
-        @press="editor.press" @drag="editor.move" @release="editor.release" />
+        @press="editor.press" @drag="editor.move" @release="editor.release" @sculpt-live="editor.live($event)" @sculpt-end="editor.endLive('捏轮廓')" />
       <div v-if="!trial" class="studio-dock studio-dock--right" role="group" aria-label="头型、眼睛和嘴工具" :inert="!!editor.preview.value">
         <button v-for="group in rightDock" :key="group.key" :data-part-tool="group.key" :aria-label="`换${group.title}`" :aria-pressed="selected === group.tab && activePart === group.key" @click="selectGroup(group.key)"><PartThumb :design="design" :focus="group.focus" /><span>{{ group.title }}</span></button>
+      </div>
+      <div v-if="!trial" class="studio-quicktools" role="group" aria-label="直接创作工具" :inert="!!editor.preview.value">
+        <button aria-label="画一画" :aria-pressed="selected === '画笔' && editor.tool.value === 'pen'" @click="quickTool('pen')"><span aria-hidden="true">🖌️</span>画一画</button>
+        <button aria-label="擦一擦" :aria-pressed="selected === '画笔' && editor.tool.value === 'eraser'" @click="quickTool('eraser')"><span aria-hidden="true">🧽</span>擦一擦</button>
+        <button aria-label="换颜色" :aria-pressed="selected === '颜色'" @click="quickTool('colors')"><span aria-hidden="true">🎨</span>换颜色</button>
+        <button aria-label="捏一捏" :aria-pressed="sculpting" @click="quickTool('sculpt')"><span aria-hidden="true">🤏</span>捏一捏</button>
+      </div>
+      <div v-if="!trial && (selected === '画笔' || selected === '颜色')" class="studio-quickpalette" role="group" :aria-label="selected === '画笔' ? '画笔颜色' : '选中部位的底色'" :inert="!!editor.preview.value">
+        <button v-for="item in palette" :key="item.value" :aria-label="`快捷颜色：${item.name}`" :aria-pressed="(selected === '画笔' ? editor.brushColor.value : targetColor) === item.value" :style="{ '--quick-color': item.value }" @click="selected === '画笔' ? editor.brushColor.value = item.value : editor.commit('换颜色', changeColor(design, colorTarget, item.value))"><span /></button>
       </div>
       <div class="stage-bottom">
         <span class="save-status" :class="`save-status--${session?.saveState.value ?? 'error'}`" role="status">{{ statusText }}</span>
         <div class="stage-actions">
+          <details class="studio-more"><summary>🐟 看看作品</summary><div class="studio-more-panel">
           <FishShowcase :design="design" :name="session?.meta.value.name" :paint="color?.canvas" :glow="glow?.canvas" :glow-version="glow?.version" :effect="shownEffect" :disabled="!!editor.preview.value || loading" @opened="editor.release(); showcaseOpen = true" @closed="showcaseOpen = false" />
           <CreativeVolume :design="design" :name="session?.meta.value.name" :paint="color?.canvas" :glow="glow?.canvas" :disabled="!!editor.preview.value || loading" @opened="finishGesture(); showcaseOpen = true" @closed="showcaseOpen = false" />
+          </div></details>
           <button v-if="session?.saveState.value === 'error' && session.error.value?.kind !== 'conflict'" class="button button--muted" @click="retry">重试保存</button>
           <button v-if="session?.status.value === 'invalid'" class="button button--muted" @click="session.discardInvalidDraft()">放弃旧草稿</button>
           <button v-if="session?.status.value === 'unavailable' || session?.saveState.value === 'error'" class="button button--muted" @click="exportTemporary">导出这条鱼</button>
@@ -479,6 +501,9 @@ onBeforeUnmount(() => { session?.dispose(); window.removeEventListener('keydown'
     </aside>
   </div>
 </template>
+<style scoped>
+.studio-quicktools,.studio-quickpalette{grid-column:1/-1;display:flex;justify-content:center;gap:10px;flex-wrap:wrap;padding:8px 12px;background:#f3f8f2}.studio-quicktools{grid-row:calc(var(--studio-row,2) + 1)}.studio-quickpalette{grid-row:calc(var(--studio-row,2) + 2);gap:4px;padding-top:0}.studio-quicktools button{min-height:56px;min-width:110px;border:1px solid #bfd7ca;border-radius:15px;background:#fffdf2;color:#315c50;font-size:15px;display:flex;align-items:center;justify-content:center;gap:8px}.studio-quicktools button span{font-size:25px}.studio-quicktools button[aria-pressed=true]{background:#d4ebdf;border:2px solid #448d74}.studio-quickpalette button{width:48px;height:48px;padding:6px;border:2px solid transparent;background:transparent;border-radius:50%}.studio-quickpalette button span{display:block;width:100%;height:100%;border-radius:50%;background:var(--quick-color);border:1px solid #385f5066}.studio-quickpalette button[aria-pressed=true]{border-color:#175f57;background:#fffdf2}.studio-more summary{min-height:48px;display:flex;align-items:center;padding:8px 12px;border:1px solid #bfd4c4;border-radius:12px;font-size:13px;cursor:pointer;list-style:none;background:#fffdf3}.studio-more-panel{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:12px}.stage-toolbar .studio-more[open]{flex-basis:100%}.studio-stage>.stage-bottom{grid-row:calc(var(--studio-row,2) + 3)}@media(max-width:560px){.studio-quicktools{gap:6px;padding:7px}.studio-quicktools button{min-width:0;flex:1;font-size:12px;flex-direction:column;gap:2px}.studio-quickpalette{gap:1px}.studio-quickpalette button{width:44px;height:44px}}
+</style>
 
 <style scoped>
 .studio-tools .segmented button{white-space:nowrap}
@@ -503,3 +528,5 @@ onBeforeUnmount(() => { session?.dispose(); window.removeEventListener('keydown'
   .studio-tools>.segmented button{padding:8px 5px;font-size:11px}
 }
 </style>
+
+<style scoped>@media(max-width:480px){.studio-stage>.studio-quicktools{grid-row:calc(var(--studio-tool-row,3) + 1)}.studio-stage>.studio-quickpalette{grid-row:calc(var(--studio-tool-row,3) + 2)}.studio-stage>.stage-bottom{grid-row:calc(var(--studio-tool-row,3) + 3)}}.is-observing .studio-stage>.stage-bottom{grid-row:auto}</style>

@@ -9,14 +9,14 @@ void initPreferences();
 const route = useRoute();
 const scenePage = computed(() => route.name === 'dev-fishing-3d' || route.name === 'preview-fishing-3d'
   || (import.meta.env.MODE === 'fishing-preview' && route.name === 'fishing'));
-const creativePage = computed(() => route.path === '/create' || route.path === '/ocean');
+const creativePage = computed(() => ['/create', '/ocean', '/journal'].includes(route.path));
 const main = ref<HTMLElement>();
 const links = [
   { to: '/create', label: '创造鱼', icon: 'brush' },
   { to: '/fishing/reef-edge', label: '去钓鱼', icon: 'hook' },
   { to: '/ocean', label: '我的海洋', icon: 'waves' },
   { to: '/journal', label: '图鉴', icon: 'book' },
-  { to: '/settings', label: '设置', icon: 'settings' },
+  { to: '/settings', label: '家长', icon: 'settings' },
 ] as const;
 
 watch(() => route.fullPath, async () => {
@@ -43,6 +43,6 @@ watch(() => route.fullPath, async () => {
     <main id="main-content" ref="main" tabindex="-1">
       <RouterView />
     </main>
-    <footer class="site-footer"><span>一片小海洋，无限种想象。</span><span>作品只保存在这台设备 · 记得在设置里备份</span></footer>
+    <footer class="site-footer"><span>一片小海洋，无限种想象。</span><span>作品只保存在这台设备 · 记得在家长入口备份</span></footer>
   </div>
 </template>
