@@ -1,8 +1,10 @@
 # fishfishfish 开发交接与验收计划
 
+> 历史归档：此文记录当时的计划、决定或阶段证据，保留追溯用途。当前入口见 [文档索引](../../README.md)、[项目状态](../../PROJECT_STATUS.md) 与 [完整计划](../../MASTER_PLAN.md)。历史数量和测试结果不代表当前版本。
+
 版本 1.3 · 2026-10-06 · 状态：步骤 01–09 与审查修复已完成；3D 钓鱼 G1–G4 与 G5 开发准备已实现；iPad 真机、读屏与亲子试玩待验收
 
-本文保留开发顺序与逐阶段历史；章节里的测试数、限制和“下一步”属于当时版本。当前状态与优先级统一以 [PROJECT_STATUS.md](PROJECT_STATUS.md) 为准，G5 实测操作见 [G5_PLAYTEST.md](G5_PLAYTEST.md)。
+本文保留开发顺序与逐阶段历史；章节里的测试数、限制和“下一步”属于当时版本。当前状态与优先级统一以 [PROJECT_STATUS.md](../../PROJECT_STATUS.md) 为准，G5 实测操作见 [G5_PLAYTEST.md](../../G5_PLAYTEST.md)。
 
 ## 1. 接手前检查
 
@@ -333,7 +335,7 @@
 
 ### 2.12 新版 3D 钓鱼实施入口 · 2026-10-05
 
-用户认可 3D 概念图并要求设计实现。设计阶段交付 [FISHING_3D_DESIGN.md](FISHING_3D_DESIGN.md) 和 [画面参考](../design/fishing-3d-concept.png)，PRD／技术设计已同步新版目标。其后完成 G1，证据见 2.13；数据库与备份版本保持既有契约。
+用户认可 3D 概念图并要求设计实现。设计阶段交付 [FISHING_3D_DESIGN.md](../../FISHING_3D_DESIGN.md) 和 [画面参考](../../../design/fishing-3d-concept.png)，PRD／技术设计已同步新版目标。其后完成 G1，证据见 2.13；数据库与备份版本保持既有契约。
 
 | 步骤 | 交付 | 当前状态 |
 | --- | --- | --- |

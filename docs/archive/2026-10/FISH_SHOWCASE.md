@@ -1,5 +1,7 @@
 # 自己的鱼 · 近看与入海样板
 
+> 历史归档：此文记录当时的计划、决定或阶段证据，保留追溯用途。当前入口见 [文档索引](../../README.md)、[项目状态](../../PROJECT_STATUS.md) 与 [完整计划](../../MASTER_PLAN.md)。历史数量和测试结果不代表当前版本。
+
 2026-10-06 · 已实现 · 面向新加坡小学一年级孩子。
 
 在 [创造工坊](http://127.0.0.1:5175/create) 的画布下点「🔍 近看」。完成、取名并放进海洋后，新鱼游入、镜头靠近，并出现彩色欢迎提示。在 [我的海洋](http://127.0.0.1:5175/ocean) 选择作品，画面旁也能近看与找鱼；作品资料与列表在画面下方。
@@ -24,10 +26,10 @@
 
 ## 文件与有限验证
 
-- [近看组件](../src/components/FishShowcase.vue)
-- [工坊入口](../src/pages/CreatePage.vue)、[海洋入口](../src/pages/OceanPage.vue)
-- [海洋镜头与欢迎卡](../src/components/OceanTank.vue)、[试游暂停](../src/components/TrialSwim.vue)
-- [流程验证脚本](../scripts/verify-fish-showcase.mjs)、[验证记录](content/fish-showcase-verification.json)、[截图](../design/fish-showcase/)
+- [近看组件](../../../src/components/FishShowcase.vue)
+- [工坊入口](../../../src/pages/CreatePage.vue)、[海洋入口](../../../src/pages/OceanPage.vue)
+- [海洋镜头与欢迎卡](../../../src/components/OceanTank.vue)、[试游暂停](../../../src/components/TrialSwim.vue)
+- [流程验证脚本](../../../scripts/verify-fish-showcase.mjs)、[验证记录](../../content/fish-showcase-verification.json)、[截图](../../../design/fish-showcase)
 
 类型检查和这一段浏览器流程通过。实际画普通笔、发光笔并盖印章后验证三种取景、暂停／转身／暗处、取消与焦点返回、背景暂停、保存入海、收起后按需加载和释放位图，以及减少动态模式。近看与入海展示前后的存档作品完全一致。
 

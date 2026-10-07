@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-07T04:39:32.056Z",
+  "result": "passed",
+  "physicalDeviceVerified": false,
+  "scope": "isolated Edge child interaction samples; no child or Safari acceptance claim",
+  "checks": [
+    "creation CTA above fold at 1024/768/390",
+    "default drawing creates saved paint",
+    "direct six-point sculpt; extreme drag clamped; single undo/redo preserves paint; CDP touch at 390",
+    "random preview disables quick tools/palette and cancellation preserves design",
+    "one-click narration starts and closes cleanly",
+    "current part selects knowledge topic",
+    "draft/last saved work continuation with accurate primary CTA",
+    "default-name save, sculpt and paint survive",
+    "big observation before folded filters; filtered fish selectable",
+    "explicit gentle assistance persists without changing artwork",
+    "parent measurement and destructive tools initially collapsed"
+  ],
+  "layouts": [
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "horizontalOverflow": false
+    }
+  ],
+  "errors": [],
+  "badResponses": []
+}

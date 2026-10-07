@@ -1,6 +1,6 @@
 # 3D 钓鱼实现设计
 
-版本 1.6 · 2026-10-06 · G1–G4 与 G5 教学／自适应画质／验收候选构建已实现；iPad 真机与亲子试玩仍待验收。目标数值仍需试玩校准，阶段证据见 [实施计划第 2.13–2.17 节](IMPLEMENTATION_PLAN.md)。
+版本 1.6 · 2026-10-06 · G1–G4 与 G5 教学／自适应画质／验收候选构建已实现；iPad 真机与亲子试玩仍待验收。目标数值仍需试玩校准，阶段证据见 [实施计划第 2.13–2.17 节](archive/2026-10/IMPLEMENTATION_PLAN.md)。
 
 本文维护现行设计与验收条件；当前进度和剩余优先级见 [PROJECT_STATUS.md](PROJECT_STATUS.md)，操作表单见 [G5_PLAYTEST.md](G5_PLAYTEST.md)。
 

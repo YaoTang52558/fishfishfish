@@ -1,3 +1,5 @@
+// Historical expansion snapshot, intentionally disabled to avoid overwriting current docs/data.
+throw new Error('Archived one-off script. See docs/README.md for current content tools.');
 import fs from 'node:fs';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const json=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');

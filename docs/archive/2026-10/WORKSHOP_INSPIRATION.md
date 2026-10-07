@@ -1,5 +1,7 @@
 # 工坊里的鱼朋友 · 观察与借灵感样板
 
+> 历史归档：此文记录当时的计划、决定或阶段证据，保留追溯用途。当前入口见 [文档索引](../../README.md)、[项目状态](../../PROJECT_STATUS.md) 与 [完整计划](../../MASTER_PLAN.md)。历史数量和测试结果不代表当前版本。
+
 2026-10-06 · 面向新加坡小学一年级孩子 · 已实现。
 
 在 [创造工坊](http://127.0.0.1:5175/create) 点「看看鱼」，在同一个页面观察真实鱼，再回到自己的画布。无需先钓到鱼，也不要求照着参考图画。
@@ -29,12 +31,12 @@
 
 ## 文件与验证
 
-- [工坊页面](../src/pages/CreatePage.vue)
-- [观察窗与画布旁参考](../src/components/FishInspiration.vue)
-- [观察内容加载](../src/features/inspiration/content.ts)，复用 [30 鱼数据](../public/content/v1/data.json)，不改游戏物种目录和钓鱼池。
-- [借用配方](../src/features/inspiration/recipes.ts)、[预览与调整](../src/components/FishBorrowPreview.vue)。
-- [有限浏览器验证](content/workshop-inspiration-verification.json)、[验证脚本](../scripts/verify-workshop-inspiration.mjs)、[画面截图](../design/workshop-inspiration/)。
-- [借用流程验证](content/workshop-borrow-verification.json)、[验证脚本](../scripts/verify-workshop-borrow.mjs)。
+- [工坊页面](../../../src/pages/CreatePage.vue)
+- [观察窗与画布旁参考](../../../src/components/FishInspiration.vue)
+- [观察内容加载](../../../src/features/inspiration/content.ts)，复用 [30 鱼数据](../../../public/content/v1/data.json)，不改游戏物种目录和钓鱼池。
+- [借用配方](../../../src/features/inspiration/recipes.ts)、[预览与调整](../../../src/components/FishBorrowPreview.vue)。
+- [有限浏览器验证](../../content/workshop-inspiration-verification.json)、[验证脚本](../../../scripts/verify-workshop-inspiration.mjs)、[画面截图](../../../design/workshop-inspiration)。
+- [借用流程验证](../../content/workshop-borrow-verification.json)、[验证脚本](../../../scripts/verify-workshop-borrow.mjs)。
 
 类型检查通过；浏览器实际画一笔后验证观察前后造型、画布像素、笔迹版本与撤销历史一致，并验证重新加载草稿、语音启停、六／六／三十鱼切换、失败重试、焦点返回与三个尺寸布局。只查此次工坊接入，没有运行全量游戏测试或构建。平板尺寸为桌面 Edge 模拟，iPad 9 触摸和声音仍需家庭试玩。
 

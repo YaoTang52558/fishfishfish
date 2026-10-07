@@ -1,8 +1,10 @@
 # 钓鱼玩法重做：先做出一场好玩的拉锯
 
-2026-10-05 调研归档 · 2026-10-06 整理说明：本文保留当时的研究与取舍，下面“当前／下一步”均指调研时的旧版，不作为实时进度。3D G1–G4 与 G5 开发准备已实现，当前状态见 [PROJECT_STATUS.md](PROJECT_STATUS.md)。以下时间、难度和成功率均为当时试验目标。
+> 历史归档：此文记录当时的计划、决定或阶段证据，保留追溯用途。当前入口见 [文档索引](../../README.md)、[项目状态](../../PROJECT_STATUS.md) 与 [完整计划](../../MASTER_PLAN.md)。历史数量和测试结果不代表当前版本。
 
-现行决策：完整流程保持角色背后的海面抛竿与拉鱼，鼓轮随收线转动；最初“提竿切水下”的设想已被 2026-10-06 用户反馈修订，水下只保留开发练习。工程设计、素材与预算见 [FISHING_3D_DESIGN.md](FISHING_3D_DESIGN.md)，[概念图](../design/fishing-3d-concept.png) 保留作美术历史参考。
+2026-10-05 调研归档 · 2026-10-06 整理说明：本文保留当时的研究与取舍，下面“当前／下一步”均指调研时的旧版，不作为实时进度。3D G1–G4 与 G5 开发准备已实现，当前状态见 [PROJECT_STATUS.md](../../PROJECT_STATUS.md)。以下时间、难度和成功率均为当时试验目标。
+
+现行决策：完整流程保持角色背后的海面抛竿与拉鱼，鼓轮随收线转动；最初“提竿切水下”的设想已被 2026-10-06 用户反馈修订，水下只保留开发练习。工程设计、素材与预算见 [FISHING_3D_DESIGN.md](../../FISHING_3D_DESIGN.md)，[概念图](../../../design/fishing-3d-concept.png) 保留作美术历史参考。
 
 ## 目前为什么缺少游戏感
 
@@ -10,7 +12,7 @@
 
 因此下一步应优先改变玩家观察和操作的对象：看鱼向哪里冲、看鱼竿怎样弯，再决定控竿和收线。张力仍是必要的反馈，但应服务这场拉锯。
 
-依据代码：[FishingScene.vue](../src/components/FishingScene.vue)、[fishing.ts](../src/domain/fishing.ts)、[FishingPage.vue](../src/pages/FishingPage.vue)。这是针对现有实现的设计判断，仍需试玩验证。
+依据代码：[FishingScene.vue](../../../src/components/FishingScene.vue)、[fishing.ts](../../../src/domain/fishing.ts)、[FishingPage.vue](../../../src/pages/FishingPage.vue)。这是针对现有实现的设计判断，仍需试玩验证。
 
 ## 市面游戏参考与取舍
 

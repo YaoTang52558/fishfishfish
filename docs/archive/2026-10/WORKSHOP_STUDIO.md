@@ -1,8 +1,10 @@
 # 创作工坊品质样板：计划 1–3
 
+> 历史归档：此文记录当时的计划、决定或阶段证据，保留追溯用途。当前入口见 [文档索引](../../README.md)、[项目状态](../../PROJECT_STATUS.md) 与 [完整计划](../../MASTER_PLAN.md)。历史数量和测试结果不代表当前版本。
+
 2026-10-07 · 已实现首版样板 · 面向新加坡小学一年级孩子，目标设备 iPad 9 或同等平板。
 
-打开 [创造工坊](http://127.0.0.1:5175/create)。本轮覆盖 [最新完整计划](MASTER_PLAN.md) 的整体视觉基线、工坊布局，以及创作—试游—入海—再次编辑的连贯性；审美反馈与真实平板体验仍待评审。
+打开 [创造工坊](http://127.0.0.1:5175/create)。本轮覆盖 [最新完整计划](../../MASTER_PLAN.md) 的整体视觉基线、工坊布局，以及创作—试游—入海—再次编辑的连贯性；审美反馈与真实平板体验仍待评审。
 
 ## 1. 画面与识别
 
@@ -33,13 +35,13 @@
 
 ## 4. 文件与验证
 
-- [工坊布局与阶段](../src/pages/CreatePage.vue)、[页面壳](../src/App.vue)、[共用界面样式](../src/styles.css)
-- [静态水景](../src/rendering/studioWater.ts)、[工坊画布](../src/components/FishCanvas.vue)、[试游](../src/components/TrialSwim.vue)、[近看](../src/components/FishShowcase.vue)、[局部缩略图](../src/components/PartThumb.vue)
-- [本轮浏览器脚本](../scripts/verify-workshop-studio.mjs)、[结果记录](content/workshop-studio-verification.json)、[横竖屏截图](../design/workshop-studio/)
+- [工坊布局与阶段](../../../src/pages/CreatePage.vue)、[页面壳](../../../src/App.vue)、[共用界面样式](../../../src/styles.css)
+- [静态水景](../../../src/rendering/studioWater.ts)、[工坊画布](../../../src/components/FishCanvas.vue)、[试游](../../../src/components/TrialSwim.vue)、[近看](../../../src/components/FishShowcase.vue)、[局部缩略图](../../../src/components/PartThumb.vue)
+- [本轮浏览器脚本](../../../scripts/verify-workshop-studio.mjs)、[结果记录](../../content/workshop-studio-verification.json)、[横竖屏截图](../../../design/workshop-studio)
 
 类型检查和本轮浏览器流程通过：实际普通笔／发光笔／印章输入、六个图形部位对应选择与一步撤销、三种尺寸、试游／入海往返、默认命名、双击只保存一条、再编辑笔迹文件哈希不变、更新与另存分开、刷新恢复，以及模拟触摸绘画与转屏后往返保留笔迹。
 
-相关 [借灵感流程](content/workshop-borrow-verification.json) 和 [近看流程](content/fish-showcase-verification.json) 复查通过。借用流程的精确像素比较在隔离测试上下文预先设置读回模式，避免 Edge 连续读回时在 GPU／软件绘制之间切换；不修改应用渲染设置，不作为性能证据。
+相关 [借灵感流程](../../content/workshop-borrow-verification.json) 和 [近看流程](../../content/fish-showcase-verification.json) 复查通过。借用流程的精确像素比较在隔离测试上下文预先设置读回模式，避免 Edge 连续读回时在 GPU／软件绘制之间切换；不修改应用渲染设置，不作为性能证据。
 
 浏览器为桌面 Edge，主要尺寸为 1024×768、768×1024、390×844，触摸通过 CDP 模拟。没有运行全量游戏测试或构建，也没有取得 iPad 真机、画笔跟手、20 鱼性能或孩子满意度结论。
 

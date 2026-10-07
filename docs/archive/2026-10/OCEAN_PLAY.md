@@ -1,12 +1,14 @@
 # 珊瑚浅海与泡泡陪玩样板
 
+> 历史归档：此文记录当时的计划、决定或阶段证据，保留追溯用途。当前入口见 [文档索引](../../README.md)、[项目状态](../../PROJECT_STATUS.md) 与 [完整计划](../../MASTER_PLAN.md)。历史数量和测试结果不代表当前版本。
+
 2026-10-06 · 已实现 · 面向新加坡小学一年级孩子。
 
 打开 [我的海洋](http://127.0.0.1:5175/ocean)，选择自己的鱼，点「🫧 玩泡泡」。没有作品时，海洋保留空景与创造入口，不把示范鱼当成孩子的作品。
 
 ## 当前体验
 
-- 复用已制作的 [珊瑚全景](../public/content/v1/environments/reef-panorama.webp)，水面光、两侧礁体与沙地构成空间层次；中间水域留给孩子创作的鱼。环境是泛珊瑚浅海概念，不宣称复原某个真实地点或鉴定具体珊瑚物种。
+- 复用已制作的 [珊瑚全景](../../../public/content/v1/environments/reef-panorama.webp)，水面光、两侧礁体与沙地构成空间层次；中间水域留给孩子创作的鱼。环境是泛珊瑚浅海概念，不宣称复原某个真实地点或鉴定具体珊瑚物种。
 - 海洋画面扩大为主区域，作品资料与列表移到下方；近看、找鱼、陪玩和点听放在画面旁的工具条。
 - 玩泡泡时沿用已选的原创鱼；未选自己的鱼时自动选择第一条正在展示的原创鱼。物种访客不作为此轮陪玩对象。
 - 点圈形泡泡，让鱼平缓转身并游过去；点水面其他位置，可以移动目标。泡泡在可游水域内保持边距，不要求精确点中鱼嘴。
@@ -24,11 +26,11 @@
 
 ## 文件与有限验证
 
-- [海洋页面与布局](../src/pages/OceanPage.vue)、[画面与泡泡交互](../src/components/OceanTank.vue)
-- [环境绘制](../src/rendering/oceanEnvironment.ts)、[临时跟随规则](../src/features/ocean/bubblePlay.ts)
-- [两项规则测试](../tests/ocean-bubble.test.ts)
-- [浏览器流程脚本](../scripts/verify-ocean-play.mjs)、[记录](content/ocean-play-verification.json)、[截图](../design/ocean-play/)
-- [点听脚本](content/scripts/ocean-play-audio.json)、[实际 WAV](../public/audio/vo-ocean-bubble-help.wav)：Microsoft Huihui Desktop 合成的中文试听，独立于素材包的 128 段语音。
+- [海洋页面与布局](../../../src/pages/OceanPage.vue)、[画面与泡泡交互](../../../src/components/OceanTank.vue)
+- [环境绘制](../../../src/rendering/oceanEnvironment.ts)、[临时跟随规则](../../../src/features/ocean/bubblePlay.ts)
+- [两项规则测试](../../../tests/ocean-bubble.test.ts)
+- [浏览器流程脚本](../../../scripts/verify-ocean-play.mjs)、[记录](../../content/ocean-play-verification.json)、[截图](../../../design/ocean-play)
+- [点听脚本](../../content/scripts/ocean-play-audio.json)、[实际 WAV](../../../public/audio/vo-ocean-bubble-help.wav)：Microsoft Huihui Desktop 合成的中文试听，独立于素材包的 128 段语音。
 
 类型检查、两项跟随规则测试及本段浏览器流程通过。规则测试覆盖前后／上下／近处目标、不同尾巴与身长、渐进转身、反复换目标与转屏边界。浏览器实际画一笔并保存后，检查键盘呼唤与抵达、换目标、点听、近看暂停、退出、三种尺寸、减少动态、背景加载失败和空海洋入口。陪玩前后的作品、收藏设置与资产引用完全一致。
 
@@ -42,7 +44,7 @@
 
 预览仅保存在当前页面内存中，不写 IndexedDB 或备份。每张预览为 240×144 静态 PNG，按作品修订和资产引用缓存；收起作品需要的全尺寸笔迹逐条解码，生成预览后立即释放，只让海里正在显示的鱼保留游动所需位图。异步加载使用票据，过期或离页的结果关闭自身位图；笔迹缺失时明确标记「笔迹暂未读到」，保留原始存档。
 
-实现见 [预览渲染](../src/rendering/fishThumbnail.ts)。[本轮浏览器脚本](../scripts/verify-ocean-collection.mjs) 使用隔离的 30 条作品夹具，验证真实笔迹与印章、隐藏作品预览、缺失资产提示、找鱼不写存档、键盘与减少动态、显隐释放位图、横竖屏布局及离页清理；[记录](content/ocean-collection-verification.json) 与 [截图](../design/ocean-collection/) 已保存。泡泡流程也复查通过。本轮仍只做相关检查，未执行全量游戏测试、构建或真机验收。
+实现见 [预览渲染](../../../src/rendering/fishThumbnail.ts)。[本轮浏览器脚本](../../../scripts/verify-ocean-collection.mjs) 使用隔离的 30 条作品夹具，验证真实笔迹与印章、隐藏作品预览、缺失资产提示、找鱼不写存档、键盘与减少动态、显隐释放位图、横竖屏布局及离页清理；[记录](../../content/ocean-collection-verification.json) 与 [截图](../../../design/ocean-collection) 已保存。泡泡流程也复查通过。本轮仍只做相关检查，未执行全量游戏测试、构建或真机验收。
 
 ## 下一轮评审
 
