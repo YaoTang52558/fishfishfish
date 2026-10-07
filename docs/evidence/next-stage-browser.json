@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-07T04:03:01.518Z",
+  "result": "passed",
+  "physicalDeviceVerified": false,
+  "scope": "13–19 playable samples, Edge isolated fixtures; no family/physical acceptance claim",
+  "volumeContract": {
+    "calls": 60,
+    "triangles": 50740,
+    "maxZ": 0.12262548506259918,
+    "finite": true
+  },
+  "checks": [
+    "pointer sculpt/undo/redo/draft reload",
+    "four creation topics with eight source-backed species",
+    "true body volume, 20 model draw/triangle budget",
+    "22 artwork collection/hidden filter/name search/full-resolution PNG",
+    "reef/rock exploration does not change captures or artwork",
+    "3D marine sample at 1024 and 390",
+    "manual playtest preserves failure and unmeasured outcomes"
+  ],
+  "errors": [],
+  "badResponses": [],
+  "views": [
+    "design/next-stage/sculpt-workshop-1024.png",
+    "design/next-stage/creative-shape-topic.png",
+    "design/next-stage/creative-volume-front.png",
+    "design/next-stage/creative-volume-quarter.png",
+    "design/next-stage/creative-ocean-20-1024.png",
+    "design/next-stage/creative-ocean-390.png",
+    "design/next-stage/reef-exploration.png",
+    "design/next-stage/rock-exploration.png",
+    "design/next-stage/local-fullscreen-ocean.png",
+    "design/next-stage/playtest-1024.png"
+  ]
+}
