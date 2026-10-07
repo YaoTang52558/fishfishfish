@@ -1,0 +1,31 @@
+<script setup lang="ts">
+import { computed, ref, watch } from 'vue';
+import { contentAsset, type ObservationContent, type ObservationFish, type ObservationPoint } from '../features/inspiration/content.ts';
+import { useVoice } from '../features/voice.ts';
+import { usePreferences } from '../features/preferences.ts';
+import ReefRelations from './ReefRelations.vue';
+const props = defineProps<{ fish: ObservationFish; content: ObservationContent; compact?: boolean }>();
+const voice = useVoice(), prefs = usePreferences(), point = ref<ObservationPoint | null>(null), zoomed = ref(false);
+const facts = computed(() => props.content.claims.filter(c => props.fish.factIds.includes(c.id)));
+const sources = computed(() => props.content.sources.filter(s => props.fish.sourceIds.includes(s.id)));
+const physical = (p: ObservationPoint) => !['HOME','FOOD','BABY','EGGS','YOUNG','GROW'].includes(p.key) && p.x !== null && p.y !== null;
+const ratio = computed(() => props.fish.id === 'hippocampus-kuda' ? '2 / 3' : props.fish.id === 'mobula-birostris' ? '1' : '3 / 2');
+const pointOrigin = computed(() => ({ transformOrigin: `${(point.value?.x ?? .5) * 100}% ${(point.value?.y ?? .5) * 100}%` }));
+function choose(p: ObservationPoint) { point.value = p; zoomed.value = physical(p); voice.play(contentAsset(p.audio)); }
+watch(() => props.fish.id, () => { voice.stop(); point.value = null; zoomed.value = false; });
+</script>
+<template>
+  <article class="observation-detail" :class="{ compact }" :aria-label="fish.name + '观察卡'">
+    <header><div><small>真实鱼朋友</small><h2>{{ fish.name }}</h2></div><button :aria-label="voice.playing.value ? '停止讲解' : '听听' + fish.name" @click="voice.playing.value ? voice.stop() : voice.play(contentAsset(point?.audio ?? fish.introAudio))">{{ voice.playing.value ? '■ 停止' : '🔊 听听' }}</button></header>
+    <div class="specimen-window" :class="{ zoomed }"><div class="specimen-art" :class="{ 'is-seahorse': fish.id === 'hippocampus-kuda', 'is-ray': fish.id === 'mobula-birostris' }" :style="{ aspectRatio: ratio }"><img :src="contentAsset(fish.image)" :alt="fish.formalName + '的原创观察插画'" :style="pointOrigin"><template v-if="!zoomed"><button v-for="(p, i) in fish.points.filter(physical)" :key="p.key" class="observation-pin" :style="{ left: (p.x! * 100) + '%', top: (p.y! * 100) + '%' }" :aria-label="'观察' + p.label" @click="choose(p)">{{ i + 1 }}</button></template></div><button v-if="zoomed" class="zoom-reset" @click="zoomed = false">↔ 看整条鱼</button></div>
+    <p class="observation-caption" role="status">{{ point?.text ?? fish.intro[0] }}</p>
+    <div class="observation-points" role="group" aria-label="观察部位"><button v-for="(p, i) in fish.points" :key="p.key" :aria-pressed="point?.key === p.key" @click="choose(p)"><span aria-hidden="true">{{ i + 1 }} · 🔎</span>{{ p.label }}</button></div>
+    <p v-if="voice.error.value" role="status">声音没播出来，仍然可以看图和文字，再点一下重听。</p>
+    <ReefRelations v-if="fish.id === 'amphiprion-ocellaris' && !compact" :content="content" />
+    <details class="observation-parent" :open="prefs.knowledgeDepth.value === 'curious'"><summary>👨‍👦 一起了解更多 · 资料来源</summary><p><strong>{{ fish.formalName }}</strong> · <i>{{ fish.scientificName }}</i></p><p>{{ fish.parent }}</p><ul><li v-for="fact in facts" :key="fact.id">{{ fact.text }}<small>{{ fact.conditions }}</small></li></ul><a v-for="source in sources" :key="source.id" :href="source.url" target="_blank" rel="noopener noreferrer">{{ source.institution }} · {{ source.title }}</a><p>原创观察插画不是鉴定照片。素材核对日期：{{ content.date }}。</p></details>
+  </article>
+</template>
+<style scoped>
+.observation-detail{min-width:0;padding:20px;background:#fffdf3;border:1px solid #c9dfd3;border-radius:22px}header{display:flex;align-items:center;justify-content:space-between;gap:12px}h2{margin:4px 0;font-size:26px}header small{color:#668372;font-size:12px}button{min-height:44px;min-width:44px;border:1px solid #bdd6c5;border-radius:13px;background:#edf6e8;color:#315c4c;padding:10px 14px;font-size:13px;cursor:pointer}header button{flex-shrink:0}.specimen-window{position:relative;display:flex;justify-content:center;align-items:center;height:310px;overflow:hidden;background:radial-gradient(ellipse,#eaf5df,#d5e9e1);border-radius:18px;margin:16px 0}.specimen-art{position:relative;width:min(100%,440px);max-height:100%;max-width:100%;height:auto}.specimen-art[style*='2 / 3']{width:190px}.specimen-art[style*='1 / 1']{width:290px}.specimen-art img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .25s}.zoomed img{transform:scale(2.6)}.observation-pin{position:absolute;transform:translate(-50%,-50%);padding:0;border:2px solid #fff6d5;border-radius:50%;background:#245f55d9;color:#fff;box-shadow:0 2px 8px #204c4833}.zoom-reset{position:absolute;bottom:10px;right:10px;background:#fffdf0ed}.observation-caption{min-height:48px;line-height:1.8;font-size:16px;color:#365e4d}.observation-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.observation-points button{display:flex;flex-direction:column;gap:8px;align-items:center;min-height:72px;padding:10px 5px}.observation-points button[aria-pressed=true]{background:#286d5b;color:#fff5d6}.observation-points span{font-size:18px}summary{min-height:44px;padding:14px 0;cursor:pointer}.observation-parent{font-size:12px;color:#6b7b6b;border-top:1px solid #dce6d6;margin-top:18px}.observation-parent p,li{line-height:1.8}.observation-parent small{display:block;color:#7a8777}.observation-parent a{display:block;padding:12px 0;min-height:44px;overflow-wrap:anywhere;color:#366a54;text-decoration:underline}.compact{padding:14px}.compact h2{font-size:20px}.compact .specimen-window{height:235px}.compact .specimen-art{width:min(100%,340px)}.compact .specimen-art[style*='2 / 3']{width:140px}.compact .observation-caption{font-size:14px}.compact .observation-points button{font-size:11px}@media(max-width:600px){.observation-detail{padding:14px}h2{font-size:22px}.specimen-window{height:250px}.observation-points button{font-size:12px}}@media(prefers-reduced-motion:reduce){.specimen-art img{transition:none}}
+.specimen-art.is-ray{width:280px}.specimen-art.is-seahorse{width:190px}.compact .specimen-art.is-ray{width:220px}.compact .specimen-art.is-seahorse{width:140px}@media(max-width:600px){.specimen-art.is-ray{width:230px}.specimen-art.is-seahorse{width:156px}}
+</style>

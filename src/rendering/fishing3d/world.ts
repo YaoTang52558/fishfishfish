@@ -14,7 +14,7 @@ import type { FightState3D } from '../../domain/fishing3d/state.ts';
 import { toWorld } from './coordinates.ts';
 import { castPosition } from '../../domain/fishing3d/round.ts';
 import type { RoundState } from '../../domain/fishing3d/round.ts';
-import { bobberPosition, castingPose, splashAge, surfaceFloat, surfaceRodTip } from '../../domain/fishing3d/visual.ts';
+import { bobberPosition, castingPose, landedFishPosition, splashAge, surfaceFloat, surfaceRodTip } from '../../domain/fishing3d/visual.ts';
 import { spots } from '../../domain/fishing.ts';
 
 export function createFishingWorld(resources: SceneResources, options: { habitatId?: HabitatId; fullContent?: boolean; deferModels?: boolean } = {}) {
@@ -51,11 +51,29 @@ export function createFishingWorld(resources: SceneResources, options: { habitat
     batches.get(key)!.matrices.push(dummy.matrix.clone());
   }
   const shore = new Group(); scene.add(shore);
-  instance(rock, coast ? '#6c7c78' : '#ddc9a5', [-3.4, -0.2, 7.5], [coast ? 5.8 : 6.6, 1.4, 3.5]);
-  instance(rock, coast ? '#87958c' : '#edd8b1', [-3, 0.4, 6.3], [2.6, 0.6, 1.6]);
-  for (let i = 0; i < 17; i++) {
-    const x = -10 + i * 0.85;
-    instance(rock, coast ? '#6c7c78' : i % 2 ? '#b5b79b' : '#ddc9a5', [x, 0.03, 5.8 + Math.sin(i * 2.4) * 0.5], [0.7 + (i % 3) * 0.2, coast ? .7 : .5, 0.65], i);
+  // Different silhouettes, rather than recolouring a shared shoreline.
+  if (coast) {
+    for (let row = 0; row < 3; row++) for (let i = 0; i < 6; i++) {
+      const x = -3.5 - i * 1.4, z = 6.4 + row * 1.7;
+      instance(rock, row === 0 ? '#6c7c78' : '#87958c', [x, .15 + row * .42, z], [1.6, .65 + row * .3, 1.45], i * .4);
+    }
+    // A visible opening between two pillars and a roof, away from the cast corridor.
+    instance(rock, '#647875', [-6.6, .2, 2.8], [.8, 1.4, .8]);
+    instance(rock, '#647875', [-9, .25, 2.9], [.8, 1.5, .9]);
+    instance(rock, '#87958c', [-7.8, 1.4, 2.9], [2, .55, 1]);
+    instance(rock, '#687b7c', [5.3, -.18, -6], [1.8, .7, 1.3]);
+  } else {
+    // Broad curved sand cove behind the seated fisher, with low coral shelves at the sides.
+    for (let i = 0; i < 11; i++) {
+      const x = -10 + i * 1.15, z = 6.5 + Math.pow((x + 3) / 5, 2);
+      instance(sphere, i % 2 ? '#edd8b1' : '#ddc9a5', [x, -.2, z], [1.6, .6, 2.4]);
+    }
+    instance(rock, '#ddc9a5', [-3, .4, 6.3], [2.6, .6, 1.6]);
+    for (const side of [-1,1]) for (let i=0;i<6;i++) {
+      const x=side * (5.5 + i * .45), z=2 - i * 1.2;
+      instance(rock, '#a9b395', [x,-.65,z], [.9,.5,.8]);
+      for (let j=0;j<3;j++) instance(sphere,j%2 ? '#d49da7' : '#e7c18a',[x+(j-1)*.25,-.28+j*.06,z],[.22,.28,.24]);
+    }
   }
   // Seabed remains visible below both cameras and slopes into deeper water.
   const bedGeometry = resources.geometry(new PlaneGeometry(130, 130, 24, 24));
@@ -63,7 +81,7 @@ export function createFishingWorld(resources: SceneResources, options: { habitat
   const positions = bedGeometry.getAttribute('position');
   for (let i = 0; i < positions.count; i++) {
     const x = positions.getX(i), z = positions.getZ(i);
-    positions.setY(i, (coast ? -3.8 : -3.2) + Math.sin(x * 0.5) * 0.13 + Math.cos(z * 0.6) * 0.18 - Math.max(0, -z) * (coast ? .09 : .06));
+    positions.setY(i, (coast ? -3.8 : -1.9) + Math.sin(x * 0.5) * 0.13 + Math.cos(z * 0.6) * 0.18 - Math.max(0, -z) * (coast ? .09 : .06));
   }
   bedGeometry.computeVertexNormals();
   const bedMaterial = resources.material(new ShaderMaterial({
@@ -95,8 +113,8 @@ export function createFishingWorld(resources: SceneResources, options: { habitat
   }
   for (let i = 0; i < 6; i++) {
     const x = -25 + i * 11, z = -32 - (i % 3) * 8;
-    instance(rock, '#85aba4', [x, 1, z], [3 + (i % 3), 3.5 + (i % 2) * 3, 3], i);
-    instance(rock, '#5b9a83', [x, 3, z], [2.5, 2, 2.5]);
+    instance(rock, coast ? '#748b91' : '#85aba4', [x, 1, z], [3 + (i % 3), coast ? 6 + (i % 2) * 4 : 2.4, 3], i);
+    if (!coast) instance(rock, '#5b9a83', [x, 2.4, z], [2.5, 1.2, 2.5]);
   }
   for (let i = 0; i < 8; i++) {
     instance(sphere, '#eff5e8', [-40 + i * 12, 7 + (i % 2) * 2, -60], [6, 1.1, 2]);
@@ -193,11 +211,11 @@ export function createFishingWorld(resources: SceneResources, options: { habitat
       void main(){float wave=0.0; float glitter=0.0;
         if(detail>.5){wave=sin(p.x*2.3+time*0.6+sin(p.z*1.8))*sin(p.z*2.4-time*0.7);glitter=pow(max(wave,0.0),18.0);}
         float deep=1.0-smoothstep(-30.0,4.0,p.z);
-        vec3 c=mix(vec3(0.015,0.32,0.28),vec3(0.006,0.095,0.21),deep);
+        vec3 c=mix(vec3(0.08,0.55,0.49),vec3(0.01,0.20,0.34),deep);
         if(coast>.5)c=mix(vec3(.06,.23,.27),vec3(.02,.09,.16),deep);
         c+=glitter*vec3(0.21,0.31,0.26); c+=wave*0.018;
         if(underwater>0.5)c=vec3(0.12,0.65,0.70)+glitter*0.14;
-        gl_FragColor=vec4(c,underwater>0.5?0.65*exp(-0.0025*depth*depth):0.88);
+        gl_FragColor=vec4(c,underwater>0.5?0.65*exp(-0.0025*depth*depth):(coast>.5?.88:.70));
         #include <tonemapping_fragment>
         #include <colorspace_fragment>
       }`,
@@ -210,6 +228,11 @@ export function createFishingWorld(resources: SceneResources, options: { habitat
     scene.add(instances);
       if (['#ddc9a5', '#edd8b1', '#b5b79b', '#548d55','#6c7c78','#87958c'].includes(batch.color)) shoreInstances.push(instances);
   }
+  const foamMaterial = resources.material(new MeshBasicMaterial({ color: '#eefcff', transparent: true, opacity: .5, depthWrite: false }));
+  const shoreFoam = coast ? [-6.5,-8.5,-4.8].map((x,i) => {
+    const wave = new Mesh(resources.geometry(new TorusGeometry(1,.035,4,32)),foamMaterial);
+    wave.rotation.x = Math.PI/2; wave.position.set(x,.065,3.2+i*.85); wave.scale.set(1.2,.4,1);wave.renderOrder=4;scene.add(wave);return wave;
+  }) : [];
   const mouth = new Vector3();
   const castSpots = spots.map(({ id }) => {
     const marker = new Mesh(resources.geometry(new TorusGeometry(0.42, 0.045, 6, 24)), material('#fff4c2'));
@@ -230,6 +253,8 @@ export function createFishingWorld(resources: SceneResources, options: { habitat
       fish = models.get(round?.speciesId ?? '') ?? models.values().next().value ?? emptyModel;
     }
     const t = time;
+    shoreFoam.forEach((wave,i) => { const pulse = reducedMotion ? .5 : (Math.sin(t * 1.1 + i) + 1) / 2; wave.scale.set(1 + pulse*.8,.35+pulse*.25,1); });
+    foamMaterial.opacity = reducedMotion ? .35 : .3 + Math.sin(t*.8)*.12;
     reelCrank.rotation.z = reducedMotion ? 0 : (fight?.reelTurns ?? 0) * Math.PI * 2;
     const pose = round ? castingPose(round, reducedMotion) : null;
     avatar.rotation.x = pose?.lean ?? 0;
@@ -281,11 +306,10 @@ export function createFishingWorld(resources: SceneResources, options: { habitat
     castSpots.forEach(marker => { marker.visible = round?.phase === 'setup'; });
     castTargets.forEach(target => { target.visible = round?.phase === 'setup'; });
     fish.group.visible = !round || ['landing', 'caught', 'released'].includes(round.phase);
-    if (round && fight && ['landing', 'caught', 'released'].includes(round.phase)) fish.group.position.y = round.phase === 'caught' ? 0.4 : -0.12;
+    if (round && fight && ['landing', 'caught', 'released'].includes(round.phase)) toWorld(landedFishPosition(round, reducedMotion), fish.group.position);
     net.visible=netHandle.visible=!!round&&['landing','caught'].includes(round.phase);
     if(net.visible){net.position.copy(fish.group.position);net.position.y-=.25;const from=new Vector3(-2.72,1.55,5.72),to=net.position.clone(),axis=to.clone().sub(from);netHandle.position.copy(from).add(to).multiplyScalar(.5);netHandle.scale.y=axis.length();netHandle.quaternion.setFromUnitVectors(new Vector3(0,1,0),axis.normalize());}
     if (round?.phase === 'released') {
-      fish.group.position.z -= round.ticks / 60 * 2; fish.group.position.y -= round.ticks / 60 * 0.3;
       fish.animate(round.ticks / 60, reducedMotion);
     }
     bobber.visible = !fight; ripple.visible = !fight;
@@ -361,8 +385,8 @@ export function createFishingWorld(resources: SceneResources, options: { habitat
       shore.visible = !below; avatar.visible = !below;
       reelCrank.visible = !below;
       shoreInstances.forEach((object) => { object.visible = !below; });
-      scene.background = new Color(below ? '#2c959d' : '#a8def0');
-      scene.fog = new FogExp2(below ? '#2c959d' : '#a8def0', below ? 0.047 : 0.011);
+      scene.background = new Color(below ? '#2c959d' : coast ? '#bdd3df' : '#ade7ed');
+      scene.fog = new FogExp2(below ? '#2c959d' : coast ? '#bdd3df' : '#ade7ed', below ? 0.047 : 0.011);
       bedMaterial.uniforms.fogColor!.value = scene.fog.color;
       bedMaterial.uniforms.fogDensity!.value = scene.fog.density;
       water.uniforms.underwater!.value = below ? 1 : 0;

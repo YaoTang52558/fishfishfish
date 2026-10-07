@@ -1,7 +1,12 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { onMounted, ref, watch } from 'vue';
+import { useVoice } from '../features/voice.ts';
+import { helpAudio, type HelpTopic } from '../features/help.ts';
 const emit = defineEmits<{ close: [] }>();
 const dialog = ref<HTMLDialogElement>(), step = ref(0);
+const voice = useVoice();
+const topics: HelpTopic[] = ['bite', 'fight', 'land'];
+watch(step, () => voice.stop());
 const steps = [
   { icon: '◎', title: '看浮漂，等咬钩', text: '选鱼饵、点落点抛竿。浮漂沉下，出现「咬钩了」时再点提竿。小幅轻触先等等。' },
   { icon: '◉', title: '喘息收线，发力松线', text: '鱼喘息时按住收线，鼓轮就会转。鱼冲刺、下潜或鱼线过紧时松开；横游时向相反方向控竿。大鱼更有力。' },
@@ -16,7 +21,9 @@ onMounted(() => dialog.value?.showModal());
       <div class="tutorial-icon" aria-hidden="true">{{ steps[step]!.icon }}</div>
       <h2 id="tutorial-title">{{ steps[step]!.title }}</h2>
       <p>{{ steps[step]!.text }}</p>
-      <p class="tutorial-note">教学期间已暂停，关掉后接着玩。声音默认关闭。</p>
+      <button :aria-label="voice.playing.value ? '停止教学讲解' : '听这一步教学'" @click="voice.playing.value ? voice.stop() : voice.play(helpAudio(topics[step]!))">{{ voice.playing.value ? '■ 停止' : '🔊 听这一步' }}</button>
+      <p class="tutorial-note">教学期间已暂停。可以跳过，也可以随时回来听。</p>
+      <p v-if="voice.error.value" role="status">声音没播出来，可以再点一次。</p>
       <div class="tutorial-actions"><button @click="emit('close')">{{ step === 2 ? '直接开始' : '跳过教学' }}</button><button v-if="step > 0" @click="step--">上一步</button><button class="next" @click="step < 2 ? step++ : emit('close')">{{ step < 2 ? '下一步' : '我来试试' }}</button></div>
     </div>
   </dialog>

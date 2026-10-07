@@ -6,6 +6,8 @@ import { createPrototypeFish } from '../src/rendering/fishing3d/fish.ts';
 import { createFishingWorld } from '../src/rendering/fishing3d/world.ts';
 import { FishingCameras } from '../src/rendering/fishing3d/cameras.ts';
 import { SceneClock } from '../src/features/fishing3d/clock.ts';
+import { castPosition } from '../src/domain/fishing3d/round.ts';
+import { toWorld } from '../src/rendering/fishing3d/coordinates.ts';
 
 test('3D 场景时间不受渲染帧率影响，后台恢复不追赶流逝时间', () => {
   const clocks = [30, 60, 120].map((fps) => {
@@ -86,6 +88,22 @@ test('竖屏海面构图同时保留角色草帽、竿尖和浮漂', () => {
     for (const point of [new Vector3(-3.78, 2.5, 6.1), new Vector3(-0.7, 3.6, 2.8), new Vector3(2.1, 0.2, 1.1)]) {
       const projected = point.project(cameras.camera);
       assert.ok(Math.abs(projected.x) < 1 && Math.abs(projected.y) < 1, `画布 ${width}×${height}：${projected.toArray()}`);
+    }
+  }
+});
+
+test('大场景横竖屏构图为落点标签保留空间，角色与竿尖仍可见', () => {
+  for (const [width, height] of [[350, 634], [712, 854], [976, 598], [788, 308]]) {
+    const cameras = new FishingCameras(true);
+    cameras.resize(width!, height!); cameras.camera.updateMatrixWorld();
+    for (const id of ['near', 'middle', 'far'] as const) {
+      const p = toWorld(castPosition(id)).project(cameras.camera);
+      const x = (p.x + 1) * width! / 2, y = (1 - p.y) * height! / 2;
+      assert.ok(x >= 44 && x <= width! - 44 && y >= 118 && y <= height! - 100, `${id} @ ${width}×${height}: ${x}, ${y}`);
+    }
+    for (const point of [new Vector3(-3.78, 2.5, 6.1), new Vector3(-0.7, 3.6, 2.8)]) {
+      const p = point.project(cameras.camera);
+      assert.ok(Math.abs(p.x) < 1 && Math.abs(p.y) < 1);
     }
   }
 });

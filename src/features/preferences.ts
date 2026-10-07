@@ -40,7 +40,9 @@ export function usePreferences() {
     systemReducedMotion,
     soundEnabled: computed(() => settings.value.soundEnabled),
     assistMode: computed(() => settings.value.assistMode),
-    async update(patch: Partial<Pick<ProfileSettings, 'soundEnabled' | 'reducedMotion' | 'assistMode'>>) {
+    challenge: computed(() => settings.value.challenge ?? 'regular'),
+    knowledgeDepth: computed(() => settings.value.knowledgeDepth ?? 'simple'),
+    async update(patch: Partial<Pick<ProfileSettings, 'soundEnabled' | 'reducedMotion' | 'assistMode' | 'challenge' | 'knowledgeDepth'>>) {
       error.value = '';
       if (!persistent.value) { settings.value = { ...settings.value, ...patch }; return; }
       // 入海或改展示列表也会推进设置修订号：冲突时重新读取最新设置再试一次。

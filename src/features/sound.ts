@@ -2,6 +2,7 @@
  * 极简提示音：用 Web Audio 合成，不加载音频文件。默认关闭，只在用户操作后创建音频环境；
  * 任何音频错误都静默忽略，声音只是辅助，所有提示同时有文字与画面。
  */
+import { voiceActive } from './voice.ts';
 let context: AudioContext | null = null;
 type Cue = 'bite' | 'hook' | 'catch' | 'escape' | 'cast' | 'splash' | 'reel' | 'payout';
 const notes: Record<Cue, Array<[frequency: number, start: number, duration: number]>> = {
@@ -15,7 +16,7 @@ const notes: Record<Cue, Array<[frequency: number, start: number, duration: numb
   payout: [[260,0,.065]],
 };
 export function playCue(cue: Cue, enabled: boolean) {
-  if (!enabled) return;
+  if (!enabled || voiceActive()) return;
   try {
     const Ctor = window.AudioContext ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
     if (!Ctor) return;

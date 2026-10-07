@@ -15,6 +15,7 @@ export const router = createRouter({
     },
     { path: '/journal', name: 'journal', component: () => import('../pages/JournalPage.vue'), meta: { title: '图鉴' } },
     { path: '/settings', name: 'settings', component: () => import('../pages/SettingsPage.vue'), meta: { title: '设置' } },
+    { path: '/playtest', name: 'playtest', component: () => import('../pages/PlaytestPage.vue'), meta: { title: '家庭试玩记录' } },
     // 组合总览只在开发模式注册，正式构建不包含该页面。
     ...(import.meta.env.DEV ? [
       { path: '/dev/parts', name: 'dev-parts', component: () => import('../pages/DevPartsPage.vue'), meta: { title: '部件组合总览' } },

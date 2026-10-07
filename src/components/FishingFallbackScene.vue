@@ -4,17 +4,17 @@ import { speciesById, speciesDesign } from '../catalog/species';
 import { getFishGeometry } from '../domain/geometry';
 import { renderFish } from '../rendering/FishRenderer';
 import { castPosition, roundActive } from '../domain/fishing3d/round';
-import { bobberPosition, castingPose, splashAge, surfaceFloat, surfaceRodTip } from '../domain/fishing3d/visual';
+import { bobberPosition, castingPose, landedFishPosition, splashAge, surfaceFloat, surfaceRodTip } from '../domain/fishing3d/visual';
 import { SceneClock } from '../features/fishing3d/clock';
 import type { RoundSession } from '../features/fishing3d/round';
-import type { SceneStatus } from '../features/fishing3d/runtime';
+import type { SceneStatus, SceneTarget } from '../features/fishing3d/runtime';
 const props = defineProps<{ round: RoundSession; paused: boolean; reducedMotion: boolean }>();
-const emit = defineEmits<{ status: [value: SceneStatus]; clearInput: [] }>();
+const emit = defineEmits<{ status: [value: SceneStatus]; clearInput: []; targets: [value: SceneTarget[]] }>();
 const canvas = ref<HTMLCanvasElement>();
 const clock = new SceneClock(), controller = new AbortController();
 let frame: number | undefined, observer: ResizeObserver | undefined, unsubscribe: (() => void) | undefined;
 let blurred = false, lastReport = 0;
-const runnable = () => !props.paused && !blurred && !document.hidden && (!props.reducedMotion || roundActive(props.round.read()) || props.round.pendingEncounter());
+const runnable = () => !props.paused && !blurred && !document.hidden && (!props.reducedMotion || roundActive(props.round.read()) || props.round.read().phase === 'caught' && props.round.read().ticks < 180 || props.round.pendingEncounter());
 function draw() {
   const el = canvas.value, ctx = el?.getContext('2d'); if (!el || !ctx) return;
   const w = el.clientWidth, h = el.clientHeight, s = props.round.read();
@@ -24,6 +24,15 @@ function draw() {
   ctx.fillStyle = sky; ctx.fillRect(0, 0, w, h);
   ctx.fillStyle = coast ? '#83908b' : '#dbcca9'; ctx.fillRect(0, h * 0.82, w, h * 0.18);
   ctx.strokeStyle = '#ecf6e7'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(0, h * 0.28); ctx.lineTo(w, h * 0.28); ctx.stroke();
+  if (coast) {
+    ctx.fillStyle = '#526e76'; ctx.beginPath(); ctx.moveTo(0,h*.72); ctx.lineTo(w*.08,h*.56);ctx.lineTo(w*.16,h*.63);ctx.lineTo(w*.20,h*.84);ctx.lineTo(0,h);ctx.fill();
+    ctx.fillStyle = '#849c9c';ctx.beginPath();ctx.moveTo(w*.76,h*.28);ctx.lineTo(w*.81,h*.14);ctx.lineTo(w*.87,h*.25);ctx.lineTo(w*.91,h*.28);ctx.fill();
+    ctx.strokeStyle = '#e2f6f0';ctx.lineWidth = 3;
+    for(let i=0;i<3;i++){const y=h*(.68+i*.055),offset=props.reducedMotion?0:Math.sin(clock.time+i)*5;ctx.beginPath();ctx.ellipse(w*.1+offset,y,w*.07,h*.015,0,0,Math.PI*2);ctx.stroke();}
+  } else {
+    ctx.fillStyle='#eee0b8';ctx.beginPath();ctx.moveTo(0,h*.8);ctx.quadraticCurveTo(w*.28,h*.7,w*.25,h);ctx.lineTo(0,h);ctx.fill();
+    for(const side of [.08,.94]) for(let i=0;i<4;i++){ctx.fillStyle=i%2?'#deac9d':'#dcce86';ctx.beginPath();ctx.ellipse(w*(side+(i-1.5)*.02),h*(.67+i*.025),w*.018,h*.024,0,0,Math.PI*2);ctx.fill();}
+  }
   // Oblique projection preserves both lateral X and shore-distance Z, with depth on Y.
   const project = (p: { x: number; y: number; z: number }) => ({ x: w * (0.18 + p.z / 18 * 0.65 + p.x / 18 * 0.18), y: h * (0.78 - p.z / 18 * 0.35 - p.y / (p.y > 0 ? 15 : 5)) });
   const tip = project(s.fight ? surfaceRodTip(s.fight) : castingPose(s, props.reducedMotion).tip);
@@ -55,7 +64,7 @@ function draw() {
   }
   if (s.fight && ['landing', 'caught', 'released'].includes(s.phase)) {
     const fish = speciesById(s.speciesId ?? ''); if (!fish) return;
-    const position = { ...s.fight.fishPosition, y: s.phase === 'caught' ? 0.4 : -0.12 }; if (s.phase === 'released') { position.z += s.ticks / 60 * 2; position.y -= s.ticks / 60 * 0.3; }
+    const position = landedFishPosition(s, props.reducedMotion);
     const p = project(position), design = speciesDesign(fish), scale = Math.min(w * 0.18, 110);
     const heading = s.fight.fishHeading, dx = (heading.z * 0.65 + heading.x * 0.18) * w / 18, dy = -heading.y * h / 5;
     const facing = dx < 0 ? -1 : 1, angle = Math.atan2(dy, dx) - (facing < 0 ? Math.PI : 0);
@@ -84,6 +93,10 @@ function sync() {
 }
 onMounted(() => {
   const el = canvas.value!;
+  emit('targets', (['near', 'middle', 'far'] as const).map(id => {
+    const p = castPosition(id);
+    return { id, x: (0.18 + p.z / 18 * 0.65 + p.x / 18 * 0.18) * 100, y: (0.78 - p.z / 18 * 0.35) * 100, visible: true };
+  }));
   observer = new ResizeObserver(() => { stop(); el.width = Math.max(1, el.clientWidth); el.height = Math.max(1, el.clientHeight); sync(); }); observer.observe(el);
   unsubscribe = props.round.subscribe(() => { draw(); if (runnable() && frame === undefined) sync(); });
   document.addEventListener('visibilitychange', sync, { signal: controller.signal });

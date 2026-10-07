@@ -6,6 +6,7 @@ import { createFight, landFish, stepFight } from './simulate.ts';
 import { emptyFightInput, mouthPosition } from './state.ts';
 import type { FightInput, FightSample, FightState3D, Vec3 } from './state.ts';
 import { CAST_MOTION } from './cast.ts';
+import type { Challenge } from '../growth.ts';
 
 export type RoundPhase = 'setup' | 'casting' | 'waiting' | 'bite' | 'fighting' | 'landing' | 'caught' | 'released' | 'escaped';
 export interface RoundState {
@@ -13,6 +14,7 @@ export interface RoundState {
   attemptId: string | null; speciesId: string | null; bait: BaitId | null; spot: CastSpot | null;
   clues: Record<CastSpot, Clue>; fight: FightState3D | null; assist: boolean; failStreak: number;
   escape: 'early' | 'missed' | 'line' | 'timeout' | null; error: 'no-candidates' | null;
+  challenge: Challenge;
 }
 export interface RoundContent { pool: readonly FishingSpecies[]; habitatId: HabitatId; samples: Readonly<Record<string, FightSample>>; mouthAnchors?: Readonly<Record<string, Vec3>> }
 export type RoundCommand =
@@ -20,18 +22,21 @@ export type RoundCommand =
   | { type: 'pull' | 'land' | 'release' | 'cancel' }
   | { type: 'retry'; seed: number }
   | { type: 'setAssist'; on: boolean };
+// Challenge changes are accepted only between casts; help can be switched during play.
+export type ChallengeCommand = { type: 'setChallenge'; value: Challenge };
 // Separate both distance and lateral direction so the surface camera shows three distinct areas.
 export const castPosition = (spot: CastSpot): Vec3 => ({ x: spot === 'near' ? -1.6 : spot === 'far' ? 4.4 : 1, y: 0, z: spot === 'near' ? 2.8 : spot === 'far' ? 11 : 6.5 });
 export const roundActive = (s: RoundState) => ['casting', 'waiting', 'bite', 'fighting', 'landing', 'released'].includes(s.phase);
-export function createRound(seed: number, assist = false): RoundState {
+export function createRound(seed: number, assist = false, challenge: Challenge = 'regular'): RoundState {
   return { phase: 'setup', ticks: 0, waitTicks: 0, seed, attemptId: null, speciesId: null, bait: null, spot: null,
-    clues: arrangeClues(seed), fight: null, assist, failStreak: 0, escape: null, error: null };
+    clues: arrangeClues(seed), fight: null, assist, challenge, failStreak: 0, escape: null, error: null };
 }
 const escaped = (s: RoundState, reason: RoundState['escape']): RoundState => ({ ...s, phase: 'escaped', ticks: 0, escape: reason, failStreak: s.failStreak + 1 });
-export function commandRound(s: RoundState, command: RoundCommand, content: RoundContent): RoundState {
+export function commandRound(s: RoundState, command: RoundCommand | ChallengeCommand, content: RoundContent): RoundState {
   switch (command.type) {
     case 'setAssist': return { ...s, assist: command.on };
-    case 'cancel': return { ...createRound(s.seed, s.assist), clues: s.clues, failStreak: s.failStreak };
+    case 'setChallenge': return ['setup', 'escaped', 'caught'].includes(s.phase) && ['gentle', 'regular', 'hard'].includes(command.value) ? { ...s, challenge: command.value } : s;
+    case 'cancel': return { ...createRound(s.seed, s.assist, s.challenge), clues: s.clues, failStreak: s.failStreak };
     case 'cast': {
       if (s.phase !== 'setup' || !command.attemptId || !Number.isFinite(command.seed)
         || !['shrimp', 'algae', 'lure'].includes(command.bait) || !['near', 'middle', 'far'].includes(command.spot)) return s;
@@ -55,7 +60,7 @@ export function commandRound(s: RoundState, command: RoundCommand, content: Roun
     }
     case 'land': return s.phase === 'landing' && s.fight ? { ...s, phase: 'caught', ticks: 0, failStreak: 0, fight: landFish(s.fight) } : s;
     case 'release': return s.phase === 'caught' ? { ...s, phase: 'released', ticks: 0 } : s;
-    case 'retry': return ['escaped', 'released'].includes(s.phase) ? { ...createRound(command.seed, s.assist), failStreak: s.failStreak } : s;
+    case 'retry': return ['escaped', 'released'].includes(s.phase) ? { ...createRound(command.seed, s.assist, s.challenge), failStreak: s.failStreak } : s;
   }
 }
 /** One 1/60 second business step, shared by WebGL and Canvas. Camera transitions never own time. */
@@ -64,12 +69,14 @@ export function stepRound(s: RoundState, input: FightInput = emptyFightInput()):
   if (s.phase === 'casting') return ticks >= CAST_MOTION.totalTicks ? { ...s, phase: 'waiting', ticks: 0 } : { ...s, ticks };
   if (s.phase === 'waiting') return ticks >= s.waitTicks ? { ...s, phase: 'bite', ticks: 0 } : { ...s, ticks };
   if (s.phase === 'bite') return ticks >= Math.ceil(biteWindow(s.assist) * 60) ? escaped(s, 'missed') : { ...s, ticks };
-  if (s.phase === 'released') return ticks >= 72 ? { ...createRound(s.seed + 1, s.assist), failStreak: s.failStreak } : { ...s, ticks };
+  if (s.phase === 'released') return ticks >= 72 ? { ...createRound(s.seed + 1, s.assist, s.challenge), failStreak: s.failStreak } : { ...s, ticks };
+  if (s.phase === 'caught') return { ...s, ticks: Math.min(180, ticks) };
   if (s.phase === 'landing' && s.assist && s.fight) return { ...s, phase: 'caught', ticks: 0, failStreak: 0, fight: landFish(s.fight) };
   if (s.phase !== 'fighting' || !s.fight) return s;
   const action = s.fight.action === 'telegraph' ? s.fight.nextAction : s.fight.action;
   const rodAxis = s.assist && action === 'lateral' ? -s.fight.lateralSign : input.rodAxis;
-  const fight = stepFight(s.fight, { ...input, rodAxis }, s.assist);
+  const reel = input.reel && !(s.assist && action !== 'rest' && s.fight.tension > .8);
+  const fight = stepFight(s.fight, { reel, rodAxis }, s.assist, s.challenge);
   if (fight.phase === 'escaped') return { ...escaped(s, fight.escapeReason), fight };
   return { ...s, ticks: fight.phase === s.phase ? ticks : 0, phase: fight.phase, fight };
 }

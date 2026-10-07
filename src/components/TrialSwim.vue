@@ -6,11 +6,12 @@ import type { EffectId, FishDesign } from '../domain/types.ts';
 import type { PaintLayer } from '../features/editor/paintLayer.ts';
 import { usePreferences } from '../features/preferences.ts';
 import { renderFish } from '../rendering/FishRenderer.ts';
+import { drawStudioWater } from '../rendering/studioWater.ts';
 
 // 试游只读：同一份设计与笔迹层，只播放动画，不接收绘画输入。
 const props = defineProps<{
   design: FishDesign; color?: PaintLayer | null; glow?: PaintLayer | null; dark?: boolean;
-  effect?: EffectId | null; duration?: number; label?: string;
+  effect?: EffectId | null; duration?: number; label?: string; paused?: boolean; presentation?: 'trial' | 'arrival';
 }>();
 const emit = defineEmits<{ ended: [] }>();
 const canvas = ref<HTMLCanvasElement>();
@@ -26,7 +27,7 @@ let endedSent = false;
 
 function layout(width: number, height: number) {
   const bounds = getFishGeometry(props.design).bounds;
-  const scale = Math.min(width * 0.24, height * 0.62 / (bounds.maxY - bounds.minY));
+  const scale = Math.min(width * (props.presentation === 'arrival' ? .62 : .34) / (bounds.maxX - bounds.minX), height * .65 / (bounds.maxY - bounds.minY));
   const bodyLength = scale * props.design.shape.length;
   const reach = Math.max(-bounds.minX, bounds.maxX) * scale;
   return { scale, bodyLength, halfWidth: Math.max(0, (width / 2 - reach - 12) / bodyLength) };
@@ -47,10 +48,7 @@ function tick(now: number) {
   const backingWidth = Math.round(width * dpr), backingHeight = Math.round(height * dpr);
   if (element.width !== backingWidth || element.height !== backingHeight) { element.width = backingWidth; element.height = backingHeight; }
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-  const background = ctx.createLinearGradient(0, 0, 0, height);
-  if (props.dark) { background.addColorStop(0, '#12233B'); background.addColorStop(1, '#050B16'); }
-  else { background.addColorStop(0, '#2C7A72'); background.addColorStop(1, '#0F3B3E'); }
-  ctx.fillStyle = background; ctx.fillRect(0, 0, width, height);
+  drawStudioWater(ctx, width, height, props.dark);
   if (!motion.value) {
     ctx.fillStyle = '#FFFFFF'; ctx.globalAlpha = 0.06;
     for (let index = 0; index < 7; index += 1) {
@@ -60,7 +58,8 @@ function tick(now: number) {
     ctx.globalAlpha = 1;
   }
   renderFish(ctx, props.design,
-    { x: width / 2 + state.x * bodyLength, y: height / 2 + swimBob(state) * bodyLength, scale, facing: swimFacing(state) },
+    { x: props.presentation === 'arrival' ? width / 2 - (getFishGeometry(props.design).bounds.minX + getFishGeometry(props.design).bounds.maxX) / 2 * scale : width / 2 + state.x * bodyLength,
+      y: height / 2 + swimBob(state) * bodyLength, scale, facing: props.presentation === 'arrival' ? 1 : swimFacing(state) },
     { paint: props.color?.canvas, glow: props.glow ? { source: props.glow.canvas, version: props.glow.version } : null,
       tailAngle: tailAngle(state, profile.value), finAngle: finAngle(state), wave: state.time * 5, dim: props.dark ? 0.55 : 0,
       effect: motion.value ? null : props.effect, time: state.time });
@@ -71,13 +70,14 @@ defineExpose({ restart, elapsed: () => state.time });
 watch(() => props.duration, () => { endedSent = false; });
 /** 切到后台时暂停，返回后不补算后台时长。 */
 function onVisibility() {
-  if (document.hidden) { if (frame) cancelAnimationFrame(frame); frame = 0; }
+  if (document.hidden || props.paused) { if (frame) cancelAnimationFrame(frame); frame = 0; }
   else if (!frame) { last = null; accumulator = 0; frame = requestAnimationFrame(tick); }
 }
 onMounted(() => {
   document.addEventListener('visibilitychange', onVisibility);
-  if (!document.hidden) frame = requestAnimationFrame(tick);
+  if (!document.hidden && !props.paused) frame = requestAnimationFrame(tick);
 });
+watch(() => props.paused, onVisibility);
 onBeforeUnmount(() => {
   document.removeEventListener('visibilitychange', onVisibility);
   if (frame) cancelAnimationFrame(frame);

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { nextTick, ref, watch } from 'vue';
+import { computed, nextTick, ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import AppIcon from './components/AppIcon.vue';
 import { initPreferences } from './features/preferences.ts';
@@ -7,6 +7,9 @@ import { initPreferences } from './features/preferences.ts';
 void initPreferences();
 
 const route = useRoute();
+const scenePage = computed(() => route.name === 'dev-fishing-3d' || route.name === 'preview-fishing-3d'
+  || (import.meta.env.MODE === 'fishing-preview' && route.name === 'fishing'));
+const creativePage = computed(() => route.path === '/create' || route.path === '/ocean');
 const main = ref<HTMLElement>();
 const links = [
   { to: '/create', label: '创造鱼', icon: 'brush' },
@@ -24,7 +27,7 @@ watch(() => route.fullPath, async () => {
 
 <template>
   <a class="skip-link" href="#main-content">跳到主要内容</a>
-  <div class="app-shell">
+  <div class="app-shell" :class="{ 'app-shell--scene': scenePage, 'app-shell--creative': creativePage }">
     <header class="site-header">
       <RouterLink to="/" class="brand" aria-label="我的海洋，返回首页">
         <span class="brand-mark"><AppIcon name="fish" /></span>

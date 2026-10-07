@@ -13,11 +13,13 @@ export interface FishDesign {
   shape: Record<ShapeKey, number>;
   parts: { headId: string; tailId: string; finId: string; eyeId: string; mouthId: string };
   colors: Record<ColorSlot, string>;
-  pattern: { id: string; primary: string; secondary: string };
+  pattern: { id: string; primary: string; secondary: string; size?: number; density?: number };
   // 无笔迹时没有资产引用；有笔迹时指向 assets 中不可变的 PNG。
   paint: { resolution: 512; colorAssetId: string | null; glowAssetId: string | null };
   stamps: Stamp[];
   mirroredSide: true;
+  /** Optional trunk control offsets in canonical coordinates; old designs omit them. */
+  sculpt?: { top: [number, number, number]; bottom: [number, number, number] };
 }
 export interface AnimationProfile { thrust: number; agility: number; amplitude: number }
 export interface BodyDefinition {
@@ -83,6 +85,8 @@ export interface ProfileSettings {
   soundEnabled: boolean;
   reducedMotion: boolean;
   assistMode: boolean;
+  challenge?: import('./growth.ts').Challenge;
+  knowledgeDepth?: import('./growth.ts').KnowledgeDepth;
 }
 export interface EffectDiscovery { effectId: EffectId; firstDiscoveredAt: string }
 export interface StoredAsset {

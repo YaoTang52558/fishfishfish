@@ -120,7 +120,11 @@ export const patterns: readonly PatternDefinition[] = [
   { id: 'waves', name: '波浪' }, { id: 'scales', name: '鳞片' }, { id: 'checks', name: '格子' },
   { id: 'countershade', name: '背深腹浅' }, { id: 'zebra', name: '斑马纹' }, { id: 'stars', name: '星点' },
   { id: 'eyespot', name: '眼斑' },
+  { id: 'clown-bands', name: '小丑鱼白带' }, { id: 'grouper-spots', name: '石斑圆点' }, { id: 'honeycomb', name: '蜂窝纹' },
 ];
+
+export const adjustablePatterns = new Set(['clown-bands', 'grouper-spots', 'honeycomb']);
+export const patternLimits = { size: { min: 0.6, max: 1.6 }, density: { min: 0.65, max: 1.5 } } as const;
 
 export const stampKinds: readonly StampDefinition[] = [
   { id: 'starfish', name: '海星' }, { id: 'shell', name: '贝壳' }, { id: 'bubble', name: '泡泡' },

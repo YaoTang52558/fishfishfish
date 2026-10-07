@@ -6,6 +6,18 @@ import { CAST_MOTION as C } from './cast.ts';
 export { CAST_MOTION } from './cast.ts';
 const ease = (t: number) => { const u = Math.max(0, Math.min(1, t)); return u * u * (3 - 2 * u); };
 const blend = (a: Vec3, b: Vec3, t: number): Vec3 => ({ x: a.x + (b.x - a.x) * t, y: a.y + (b.y - a.y) * t, z: a.z + (b.z - a.z) * t });
+/** Net presentation uses the current round's same fish; it never changes capture state. */
+export function landedFishPosition(s: RoundState, reducedMotion = false): Vec3 {
+  const start = { ...(s.fight?.fishPosition ?? { x: 0, y: -.12, z: 1 }), y: -.12 };
+  const end = { x: -.35, y: .8, z: 1.6 };
+  if (s.phase === 'caught') {
+    const u = reducedMotion ? 1 : ease(s.ticks / 81);
+    if (u === 1) return end;
+    const p = blend(start, end, u); p.y += reducedMotion ? 0 : Math.sin(u * Math.PI) * .35; return p;
+  }
+  if (s.phase === 'released') { const u = ease(s.ticks / 72); return { x: end.x + u * 1.1, y: end.y - u * 1.35, z: end.z + u * 2.5 }; }
+  return start;
+}
 // Same coordinates as the resting G1 rod tip, expressed in the business coordinate system.
 const restTip: Vec3 = { x: 0, y: 3.6, z: 2.7 };
 /** Surface presentation keeps the rod up at the shore while the simulation handles underwater forces. */

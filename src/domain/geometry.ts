@@ -67,7 +67,7 @@ const bump = (t: number) => Math.sin(Math.PI * t) ** 2;
 const smooth = (t: number) => t * t * (3 - 2 * t);
 
 /** 躯干与头型合成的规范轮廓函数；所有部件都只通过这里取连接面。 */
-export function bodyOutline(body: BodyDefinition, head: HeadDefinition, headRatio: number) {
+export function bodyOutline(body: BodyDefinition, head: HeadDefinition, headRatio: number, sculpt?: FishDesign['sculpt']) {
   const top = monotoneSpline(body.profile.s, body.profile.top);
   const bottom = monotoneSpline(body.profile.s, body.profile.bottom);
   const neckX = 0.5 - headRatio, trunkLength = neckX + 0.5, headLength = 0.5 - neckX;
@@ -79,13 +79,16 @@ export function bodyOutline(body: BodyDefinition, head: HeadDefinition, headRati
   const half = (t: number) => Math.max(0, (hn + mh * headLength * t * (1 - t)) * f(t));
   const center = (t: number) => cn + mc * headLength * t * (1 - t) ** 2 + head.tip * hn * smooth(t);
   const fitBox = (y: number) => clamp(y, -0.5, 0.5);
+  const controls = [0, 0.25, 0.5, 0.75, 1];
+  const sculptTop = sculpt ? monotoneSpline(controls, [0, ...sculpt.top, 0]) : null;
+  const sculptBottom = sculpt ? monotoneSpline(controls, [0, ...sculpt.bottom, 0]) : null;
   const headTop = (t: number) => fitBox(center(t) - half(t) - head.brow * hn * bump(t));
   const headBottom = (t: number) => fitBox(Math.max(center(t) + half(t) + head.chin * hn * bump(t), headTop(t)));
   return {
     neckX, trunkLength, headLength, topN, bottomN, slopeTop, slopeBottom,
     trunkX: (s: number) => -0.5 + s * trunkLength,
-    trunkTop: (s: number) => fitBox(top.value(s)),
-    trunkBottom: (s: number) => fitBox(bottom.value(s)),
+    trunkTop: (s: number) => sculptTop ? clamp(top.value(s) + sculptTop.value(s), -0.5, -0.025) : fitBox(top.value(s)),
+    trunkBottom: (s: number) => sculptBottom ? clamp(bottom.value(s) + sculptBottom.value(s), 0.025, 0.5) : fitBox(bottom.value(s)),
     headX: (t: number) => neckX + t * headLength,
     headTop, headBottom,
   };
@@ -191,7 +194,7 @@ function computeGeometry(design: FishDesign): FishGeometry {
   const tail = byId(tails, design.parts.tailId, 'tail'), finSet = byId(finSets, design.parts.finId, 'fin');
   const eye = byId(eyes, design.parts.eyeId, 'eye'), mouth = byId(mouths, design.parts.mouthId, 'mouth');
   const axes = { x: design.shape.length, y: design.shape.height * bodyAspect };
-  const outline = bodyOutline(body, head, design.shape.headRatio);
+  const outline = bodyOutline(body, head, design.shape.headRatio, design.sculpt);
   const toActual = (p: Point): Point => ({ x: p.x * axes.x, y: p.y * axes.y });
 
   const trunkSteps = 44, headSteps = 40;
@@ -292,7 +295,7 @@ function computeGeometry(design: FishDesign): FishGeometry {
 const cache = new Map<string, FishGeometry>();
 /** 按造型与部件缓存；绘画、颜色和印章变化不重建几何。 */
 export function getFishGeometry(design: FishDesign): FishGeometry {
-  const key = `${design.bodyId}|${design.parts.headId}|${design.parts.tailId}|${design.parts.finId}|${design.parts.eyeId}|${design.parts.mouthId}|${design.shape.length}|${design.shape.height}|${design.shape.headRatio}`;
+  const key = `${design.bodyId}|${design.parts.headId}|${design.parts.tailId}|${design.parts.finId}|${design.parts.eyeId}|${design.parts.mouthId}|${design.shape.length}|${design.shape.height}|${design.shape.headRatio}|${JSON.stringify(design.sculpt)}`;
   let geometry = cache.get(key);
   if (!geometry) {
     geometry = computeGeometry(design);

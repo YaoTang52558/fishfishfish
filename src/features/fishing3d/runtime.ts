@@ -16,12 +16,14 @@ import type { PerformanceMeasurement, QualityPreference, RenderQuality } from '.
 
 const health = { scenes: 0, loops: 0, created: 0, disposed: 0 };
 export type SceneStatus = 'loading' | 'running' | 'paused' | 'context-lost' | 'error';
+export interface SceneTarget { id: CastSpot; x: number; y: number; visible: boolean }
 export interface SceneDiagnostics {
   fps: number; p95: number; seconds: number; calls: number; triangles: number;
   geometries: number; textures: number; resources: number; gpu: string;
   width: number; height: number; dpr: number; time: number; fish: string;
   scenes: number; loops: number; created: number; disposed: number;
   quality: RenderQuality; qualityPreference: QualityPreference; measurement: PerformanceMeasurement | null;
+  castTargets: SceneTarget[];
 }
 interface Options {
   round?: RoundSession;
@@ -43,7 +45,7 @@ export function createFishingRuntime(host: HTMLElement, options: Options) {
   let world: ReturnType<typeof createFishingWorld>;
   try { world = createFishingWorld(resources, { habitatId: options.round?.content.habitatId, fullContent: !!options.round, deferModels: !!options.round }); }
   catch (error) { resources.dispose(); renderer.dispose(); renderer.forceContextLoss(); throw error; }
-  const cameras = new FishingCameras();
+  const cameras = new FishingCameras(!!options.round);
   const clock = new SceneClock();
   let fight: FightState3D | undefined;
   let input = emptyFightInput();
@@ -74,7 +76,7 @@ export function createFishingRuntime(host: HTMLElement, options: Options) {
   health.scenes++; health.created++;
 
   const currentFight = () => options.round ? options.round.read().fight ?? undefined : fight;
-  const active = () => options.round ? roundActive(options.round.read()) || options.round.pendingEncounter() : fight?.phase === 'fighting';
+  const active = () => options.round ? roundActive(options.round.read()) || options.round.read().phase === 'caught' && options.round.read().ticks < 180 || options.round.pendingEncounter() : fight?.phase === 'fighting';
   function runnable() { return !dead && warmed && !lost && !paused && !blurred && !document.hidden && (!reducedMotion || active()); }
   function stop() {
     if (raf !== undefined) measurement?.interrupt();
@@ -98,6 +100,11 @@ export function createFishingRuntime(host: HTMLElement, options: Options) {
       fish: world.fishPosition.toArray().map((value) => value.toFixed(3)).join(', '),
       ...health,
       quality: adaptiveQuality.current, qualityPreference: adaptiveQuality.preference, measurement: measurement?.read() ?? null,
+      castTargets: world.castSpots.map(target => {
+        const point = target.position.clone().project(cameras.camera);
+        return { id: target.userData.spot as CastSpot, x: (point.x + 1) * 50, y: (1 - point.y) * 50,
+          visible: point.z > -1 && point.z < 1 && Math.abs(point.x) < 1 && Math.abs(point.y) < 1 };
+      }),
     });
     options.onFight?.(fight ?? null);
     options.round?.publish();

@@ -49,7 +49,7 @@ export const species: readonly SpeciesDefinition[] = [
     appearance: '身体橙色，头部、身体中部和尾柄各有一条白色宽带，白带边有细黑线，鳍上有黑边',
     realDiet: '吃藻类、桡足类、等足类和浮游动物', realHabitat: '印度-西太平洋珊瑚礁，住在大型海葵中，水深约 3–15 米', maxLengthCm: 11,
     facts: [
-      fact('它身上有一层黏液，能保护它不被海葵的触手蜇伤。', 'https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/'),
+      fact('适应特定的宿主海葵后，它身上的黏液帮助抵御海葵触手的蜇刺。', 'https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/'),
       fact('如果雌鱼死了，群里体型最大的雄鱼会变成雌鱼。', 'https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/'),
     ],
     observation: { question: '真实的眼斑双锯鱼身上有几条白色宽带？', answer: '3 条：头部、身体中部和尾柄各一条。' },
@@ -109,7 +109,7 @@ export const species: readonly SpeciesDefinition[] = [
     appearance: '身体圆胖，背部绿褐色布满白色小圆点，腹部有白色条纹，胸鳍根部绕着深浅相间的环',
     realDiet: '杂食：藻类、珊瑚、海绵、海星、软体动物和蟹等', realHabitat: '印度-太平洋，从河口、礁坪、潟湖到外礁坡，水深 1–50 米', maxLengthCm: 50,
     facts: [
-      fact('它体内有气囊，能让肚子迅速鼓起来。', 'http://www.sp2000.org.cn/Fauna/fauna/detil/23882'),
+      fact('它身体上侧和尾鳍有白色小点，下侧有浅色线纹。', 'https://australian.museum/learn/animals/fishes/stars-and-stripes-toadfish-arothron-hispidus-linnaeus-1758/'),
       fact('它的皮肤和内脏里有河鲀毒素，这种毒可能致命。', 'https://australian.museum/learn/animals/fishes/stars-and-stripes-toadfish-arothron-hispidus-linnaeus-1758/'),
     ],
     observation: { question: '真实的纹腹叉鼻鲀，背上有什么样的花纹？', answer: '许多白色小圆点。' },

@@ -274,11 +274,12 @@ export async function loadDiscoveries(db: IDBDatabase): Promise<Discovery[]> {
 }
 
 /** 更新体验偏好（声音、辅助、减少动态）；比较修订号。 */
-export function updatePreferences(db: IDBDatabase, patch: Partial<Pick<ProfileSettings, 'soundEnabled' | 'reducedMotion' | 'assistMode'>>, expectedRevision: number): Promise<ProfileSettings> {
+export function updatePreferences(db: IDBDatabase, patch: Partial<Pick<ProfileSettings, 'soundEnabled' | 'reducedMotion' | 'assistMode' | 'challenge' | 'knowledgeDepth'>>, expectedRevision: number): Promise<ProfileSettings> {
   return transact(db, ['settings'], async (tx) => {
     const settings = await readSettings(tx);
     if (settings.revision !== expectedRevision) throw new StorageError('conflict', '设置已在另一个页面修改');
     const next = { ...settings, ...patch, revision: settings.revision + 1 };
+    if (!validateSettings(next).ok) throw new StorageError('invalid', '设置选项无效');
     tx.objectStore('settings').put(next);
     return next;
   }, 'settings');

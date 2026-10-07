@@ -8,11 +8,12 @@ import { playCue } from '../features/sound.ts';
 import { clearAllData, loadDiscoveries, loadProfile } from '../storage/repository.ts';
 import { validateBackupTextures } from '../storage/backupTextures.ts';
 import PageHeading from '../components/PageHeading.vue';
+import GrowthSettings from '../components/GrowthSettings.vue';
 
 const prefs = usePreferences();
 const preferences = [
   { key: 'soundEnabled', title: '提示音', text: '默认关闭。打开后，咬钩和钓到鱼时会有简短提示音；所有提示同时有文字和画面。' },
-  { key: 'assistMode', title: '辅助操作', text: '提竿时间从 2.5 秒延长到 5 秒，“正好”的张力区间更宽。发现的鱼一样记入图鉴。' },
+  { key: 'assistMode', title: '辅助操作', text: '提竿时间从 2.5 秒延长到 5 秒。立体钓场会帮你控竿、鱼线太紧时放线和抄起。发现的鱼一样记入图鉴。' },
   { key: 'reducedMotion', title: '减少动态', text: '关闭气泡粒子、彩蛋特效和入海镜头，鱼仍会慢慢游。系统已开启“减少动态效果”时会自动生效。' },
 ] as const;
 const confirmClear = ref(0);
@@ -98,6 +99,8 @@ async function confirmImport() {
       </div>
       <p v-if="!prefs.persistent.value" class="tool-hint">本地存储不可用，偏好只在这次打开期间有效。</p>
       <p v-if="prefs.error.value" class="editor-message">{{ prefs.error.value }}</p>
+      <GrowthSettings />
+      <RouterLink to="/playtest" class="button button--muted">📝 家庭试玩记录</RouterLink>
       <h2 class="data-title">数据说明</h2>
       <ul class="data-notes">
         <li>作品、图鉴和设置只保存在这台设备的这个浏览器里，不需要注册，也不会上传或同步。</li>

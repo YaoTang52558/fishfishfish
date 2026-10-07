@@ -6,6 +6,7 @@ import type { FishDesign } from '../domain/types.ts';
 import type { PointerSample } from '../features/editor/editor.ts';
 import type { PaintLayer } from '../features/editor/paintLayer.ts';
 import { renderFish } from '../rendering/FishRenderer.ts';
+import { drawStudioWater } from '../rendering/studioWater.ts';
 
 const props = defineProps<{
   design: FishDesign; color?: PaintLayer | null; glow?: PaintLayer | null; paintTick?: number;
@@ -38,13 +39,7 @@ function draw() {
   const backingWidth = Math.round(width * dpr), backingHeight = Math.round(height * dpr);
   if (element.width !== backingWidth || element.height !== backingHeight) { element.width = backingWidth; element.height = backingHeight; }
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-  const background = ctx.createLinearGradient(0, 0, width, height);
-  if (props.dark) { background.addColorStop(0, '#0E1E33'); background.addColorStop(1, '#050B16'); }
-  else { background.addColorStop(0, '#286E68'); background.addColorStop(1, '#103E40'); }
-  ctx.fillStyle = background; ctx.fillRect(0, 0, width, height);
-  ctx.fillStyle = '#FFFFFF'; ctx.globalAlpha = props.dark ? 0.02 : 0.035;
-  ctx.beginPath(); ctx.moveTo(width * 0.12, 0); ctx.lineTo(width * 0.3, 0); ctx.lineTo(width * 0.65, height); ctx.lineTo(width * 0.4, height); ctx.fill();
-  ctx.globalAlpha = 1;
+  drawStudioWater(ctx, width, height, props.dark);
   renderFish(ctx, props.design, placement, {
     paint: props.color?.canvas, glow: props.glow ? { source: props.glow.canvas, version: props.glow.version } : null,
     dim: props.dark ? 0.55 : 0, selectedStampId: props.interactive ? props.selectedStampId : null,

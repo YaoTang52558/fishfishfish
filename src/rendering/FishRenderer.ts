@@ -33,19 +33,19 @@ export interface RenderOptions {
 
 export interface BodySprite { key: string; canvas: HTMLCanvasElement; box: { minX: number; minY: number; maxX: number; maxY: number } }
 
-/** 身体内部：底色 → 花纹（只在躯干）→ 头色 → 明暗 → 自由颜色层 → 印章，全部裁剪在轮廓内。 */
+/** 身体内部：底色与头色 → 花纹（白带可延伸到头）→ 明暗 → 自由颜色层 → 印章，全部裁剪在轮廓内。 */
 function drawBodyInterior(ctx: CanvasRenderingContext2D, design: FishDesign, geometry: FishGeometry, paint: CanvasImageSource | null) {
   const { axes } = geometry;
   trace(ctx, geometry.contour); ctx.fillStyle = design.colors.body; ctx.fill();
   ctx.save();
   trace(ctx, geometry.contour); ctx.clip();
+  trace(ctx, geometry.head); ctx.fillStyle = design.colors.head; ctx.fill();
   if (design.pattern.id !== 'none') {
-    ctx.save(); trace(ctx, geometry.trunk); ctx.clip();
+    ctx.save(); trace(ctx, design.pattern.id === 'clown-bands' ? geometry.contour : geometry.trunk); ctx.clip();
     ctx.scale(axes.x, axes.y / bodyAspect);
-    drawPattern(ctx, design.pattern.id, design.pattern.primary, design.pattern.secondary);
+    drawPattern(ctx, design.pattern.id, design.pattern.primary, design.pattern.secondary, design.pattern);
     ctx.restore();
   }
-  trace(ctx, geometry.head); ctx.fillStyle = design.colors.head; ctx.fill();
   // 柔和的背深腹浅明暗，在笔迹之下，不改变孩子画的颜色。
   const { minX, maxX, minY: top, maxY: bottom } = geometry.bodyBox;
   const light = ctx.createLinearGradient(0, top, 0, bottom);
@@ -263,7 +263,7 @@ export function renderFish(ctx: CanvasRenderingContext2D, design: FishDesign, pl
   trace(ctx, geometry.contour, false); ctx.strokeStyle = shade(design.colors.body, -0.5); ctx.globalAlpha = 0.5; ctx.lineWidth = 0.007; ctx.stroke(); ctx.globalAlpha = 1;
 
   if (options.glow) {
-    const key = `${design.bodyId}|${design.parts.headId}|${design.shape.headRatio}`;
+    const key = `${design.bodyId}|${design.parts.headId}|${design.shape.headRatio}|${JSON.stringify(design.sculpt)}`;
     const masked = maskedGlow(options.glow.source, options.glow.version, geometry, key);
     const pixelsPerUnit = Math.hypot(ctx.getTransform().a, ctx.getTransform().b);
     ctx.save();
@@ -289,7 +289,7 @@ export function renderFish(ctx: CanvasRenderingContext2D, design: FishDesign, pl
 /** 发光笔迹裁剪到当前身体轮廓后的非透明像素数（彩蛋“看得见的发光笔迹”规则使用）。 */
 export function visibleGlowPixels(source: CanvasImageSource, version: number, design: FishDesign): number {
   const geometry = getFishGeometry(design);
-  const masked = maskedGlow(source, version, geometry, `${design.bodyId}|${design.parts.headId}|${design.shape.headRatio}`);
+  const masked = maskedGlow(source, version, geometry, `${design.bodyId}|${design.parts.headId}|${design.shape.headRatio}|${JSON.stringify(design.sculpt)}`);
   const data = masked.getContext('2d', { willReadFrequently: true })!.getImageData(0, 0, paintResolution, paintResolution).data;
   let count = 0;
   for (let index = 3; index < data.length; index += 4) if (data[index] !== 0) count += 1;

@@ -12,8 +12,10 @@ export class FishingCameras {
   private readonly startPosition = new Vector3();
   private readonly startFocus = new Vector3();
   private transition = 1;
+  private readonly immersive: boolean;
 
-  constructor() {
+  constructor(immersive = false) {
+    this.immersive = immersive;
     this.camera.position.set(5.4, 4.2, 10);
     this.focus.set(-0.7, 0.25, 1);
     this.camera.lookAt(this.focus);
@@ -32,7 +34,9 @@ export class FishingCameras {
   update(dt: number, reducedMotion: boolean, fishPosition: Vector3) {
     if (this.view === 'surface') {
       this.destination.set(5.4, 4.2, 10);
-      this.target.set(-0.7, 0.25, 1);
+      // A tall play area should show the water rather than expanding the empty sky.
+      const portrait = this.immersive ? Math.max(0, Math.min(1, (1.35 - this.camera.aspect) / 0.65)) : 0;
+      this.target.set(-0.7, 0.25 - portrait * 2.65, 1);
     } else {
       // Offset is fixed: no automatic orbit that reverses the controls' screen direction.
       this.destination.copy(fishPosition).add(new Vector3(1.8, 0.65, 4.8));
@@ -49,12 +53,13 @@ export class FishingCameras {
   resize(width: number, height: number) {
     this.camera.aspect = width / Math.max(height, 1);
     this.frameWidth();
+    if (this.immersive && this.view === 'surface') this.update(0, true, new Vector3());
   }
 
   private frameWidth() {
     // Keep enough horizontal field for the avatar AND bobber on portrait screens.
     const minimumAspect = this.view === 'surface' ? 1.85 : 1.2;
-    this.camera.fov = Math.min(100, Math.atan(Math.tan(24 * Math.PI / 180) * Math.max(1, minimumAspect / this.camera.aspect)) * 360 / Math.PI);
+    this.camera.fov = Math.min(this.immersive ? 105 : 100, Math.atan(Math.tan(24 * Math.PI / 180) * Math.max(1, minimumAspect / this.camera.aspect)) * 360 / Math.PI);
     this.camera.updateProjectionMatrix();
   }
 }

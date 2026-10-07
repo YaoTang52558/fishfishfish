@@ -1,4 +1,4 @@
-import { bodies, eyes, finSets, heads, mouths, palette, patterns, shapeLimits, stampKinds, stampLimits, tails } from '../catalog/fish.ts';
+import { bodies, eyes, finSets, heads, mouths, palette, patterns, patternLimits, shapeLimits, stampKinds, stampLimits, tails } from '../catalog/fish.ts';
 import type { ColorSlot, FishDesign, ShapeKey, Stamp } from './types.ts';
 
 export type PartKey = 'bodyId' | keyof FishDesign['parts'];
@@ -30,6 +30,12 @@ export function changeTail(design: FishDesign, tailId: string): FishDesign { ret
 export function resetShape(design: FishDesign): FishDesign {
   return { ...design, shape: { length: 1, height: 1, headRatio: 0.3 } };
 }
+export function changeSculpt(design: FishDesign, edge: 'top' | 'bottom', index: number, value: number): FishDesign {
+  if (!Number.isInteger(index) || index < 0 || index > 2 || !Number.isFinite(value) || Math.abs(value) > 0.14) throw new RangeError('Invalid sculpt');
+  const sculpt = { top: [...(design.sculpt?.top ?? [0, 0, 0])] as [number, number, number], bottom: [...(design.sculpt?.bottom ?? [0, 0, 0])] as [number, number, number] };
+  sculpt[edge][index] = value;
+  return { ...design, sculpt };
+}
 const isPaletteColor = (value: unknown): value is string => palette.some((color) => color.value === value);
 export function changeColor(design: FishDesign, slot: ColorSlot | 'primary' | 'secondary', color: string): FishDesign {
   if (!isPaletteColor(color)) throw new RangeError('Color must come from the palette');
@@ -39,6 +45,11 @@ export function changeColor(design: FishDesign, slot: ColorSlot | 'primary' | 's
 export function changePattern(design: FishDesign, id: string): FishDesign {
   if (!patterns.some((pattern) => pattern.id === id)) throw new RangeError('Unknown pattern');
   return { ...design, pattern: { ...design.pattern, id } };
+}
+export function changePatternDetail(design: FishDesign, key: 'size' | 'density', value: number): FishDesign {
+  const limit = patternLimits[key];
+  if (!Number.isFinite(value) || value < limit.min || value > limit.max) throw new RangeError(`Invalid pattern.${key}`);
+  return { ...design, pattern: { ...design.pattern, [key]: value } };
 }
 export function setPaintAsset(design: FishDesign, colorAssetId: string | null, glowAssetId: string | null = design.paint.glowAssetId): FishDesign {
   if (colorAssetId !== null && !isAssetId(colorAssetId)) throw new RangeError('Invalid asset ID');
@@ -94,6 +105,8 @@ export function validateFishDesign(input: unknown): { ok: true; value: FishDesig
   if (item.schemaVersion !== 1) errors.push('schemaVersion');
   if (!bodies.some((body) => body.id === item.bodyId)) errors.push('bodyId');
   if (item.mirroredSide !== true) errors.push('mirroredSide');
+  const sculpt = record(item.sculpt);
+  if (item.sculpt !== undefined && (!sculpt || !['top', 'bottom'].every(edge => Array.isArray(sculpt[edge]) && (sculpt[edge] as unknown[]).length === 3 && (sculpt[edge] as unknown[]).every(v => typeof v === 'number' && Number.isFinite(v) && Math.abs(v) <= 0.14)))) errors.push('sculpt');
   for (const key of ['length', 'height', 'headRatio'] as const) {
     const value = shape?.[key], limits = shapeLimits[key];
     if (typeof value !== 'number' || !Number.isFinite(value) || value < limits.min || value > limits.max) errors.push(`shape.${key}`);
@@ -103,6 +116,10 @@ export function validateFishDesign(input: unknown): { ok: true; value: FishDesig
   }
   for (const key of colorSlots) if (!isPaletteColor(colors?.[key])) errors.push(`colors.${key}`);
   if (!patterns.some((entry) => entry.id === pattern?.id) || !isPaletteColor(pattern?.primary) || !isPaletteColor(pattern?.secondary)) errors.push('pattern');
+  for (const key of ['size', 'density'] as const) {
+    const value = pattern?.[key], limit = patternLimits[key];
+    if (value !== undefined && (typeof value !== 'number' || !Number.isFinite(value) || value < limit.min || value > limit.max)) errors.push(`pattern.${key}`);
+  }
   if (paint?.resolution !== 512) errors.push('paint.resolution');
   for (const key of ['colorAssetId', 'glowAssetId']) {
     const value = paint?.[key];
@@ -117,9 +134,11 @@ export function validateFishDesign(input: unknown): { ok: true; value: FishDesig
     shape: { length: shape.length as number, height: shape.height as number, headRatio: shape.headRatio as number },
     parts: { headId: parts.headId as string, tailId: parts.tailId as string, finId: parts.finId as string, eyeId: parts.eyeId as string, mouthId: parts.mouthId as string },
     colors: { body: colors.body as string, head: colors.head as string, fin: colors.fin as string, tail: colors.tail as string },
-    pattern: { id: pattern.id as string, primary: pattern.primary as string, secondary: pattern.secondary as string },
+    pattern: { id: pattern.id as string, primary: pattern.primary as string, secondary: pattern.secondary as string,
+      ...(pattern.size === undefined ? {} : { size: pattern.size as number }), ...(pattern.density === undefined ? {} : { density: pattern.density as number }) },
     paint: { resolution: 512, colorAssetId: paint.colorAssetId as string | null, glowAssetId: paint.glowAssetId as string | null },
     stamps: stamps as Stamp[], mirroredSide: true,
+    ...(sculpt ? { sculpt: { top: [...sculpt.top as number[]] as [number, number, number], bottom: [...sculpt.bottom as number[]] as [number, number, number] } } : {}),
   } };
 }
 

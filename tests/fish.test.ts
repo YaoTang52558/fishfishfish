@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { bodies, eyes, finSets, heads, mouths, palette, patterns, shapeLimits, stampLimits, tails, validateCatalog } from '../src/catalog/fish.ts';
 import {
-  addStamp, changeColor, changePart, changePattern, changeShape, createFishDesign, randomizeDesign, removeStamp, resetShape,
+  addStamp, changeColor, changePart, changePattern, changePatternDetail, changeShape, createFishDesign, randomizeDesign, removeStamp, resetShape,
   updateStamp, validateFishDesign,
 } from '../src/domain/fish.ts';
 import { bodyOutline, getEditorBounds, getFishGeometry, hitRegion, pointInPolygon } from '../src/domain/geometry.ts';
@@ -29,7 +29,7 @@ const stamp = (id: string, patch: Partial<Stamp> = {}): Stamp => ({ id, kind: 'h
 
 test('catalog covers the P0 part counts and every default document is valid and independent', () => {
   assert.deepEqual(validateCatalog(), []);
-  assert.deepEqual([bodies.length, heads.length, tails.length, finSets.length, eyes.length, mouths.length, patterns.length - 1, palette.length], [5, 5, 6, 6, 5, 5, 10, 12]);
+  assert.deepEqual([bodies.length, heads.length, tails.length, finSets.length, eyes.length, mouths.length, patterns.length - 1, palette.length], [5, 5, 6, 6, 5, 5, 13, 12]);
   const first = createFishDesign(), second = createFishDesign();
   first.shape.length = 1.4;
   assert.equal(second.shape.length, 1);
@@ -77,6 +77,20 @@ test('validation removes unknown fields and detaches mutable objects', () => {
   assert.equal('extra' in result.value.stamps[0]!, false);
   result.value.shape.height = 1.3;
   assert.equal(design.shape.height, 1);
+});
+
+test('adjustable patterns survive document validation while old documents retain their shape', () => {
+  const old = createFishDesign();
+  assert.deepEqual(validateFishDesign(old), { ok: true, value: old });
+  for (const id of ['clown-bands', 'grouper-spots', 'honeycomb']) {
+    const changed = changePatternDetail(changePatternDetail(changePattern(old, id), 'size', 1.3), 'density', 0.8);
+    assert.deepEqual(validateFishDesign(JSON.parse(JSON.stringify(changed))), { ok: true, value: changed });
+  }
+  for (const key of ['size', 'density'] as const) for (const value of [NaN, Infinity, 0, 2, '1', null]) {
+    assert.equal(validateFishDesign({ ...old, pattern: { ...old.pattern, [key]: value } }).ok, false);
+    if (typeof value === 'number') assert.throws(() => changePatternDetail(old, key, value), RangeError);
+  }
+  assert.equal('size' in old.pattern, false);
 });
 
 test('reset restores only proportions, retaining parts, colors, stamps and paint references', () => {

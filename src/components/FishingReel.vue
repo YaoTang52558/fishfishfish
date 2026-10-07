@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import type { FightState3D } from '../domain/fishing3d/state';
-defineProps<{ fight: FightState3D; paused: boolean; reducedMotion: boolean }>();
+defineProps<{ fight: FightState3D; paused: boolean; reducedMotion: boolean; compact?: boolean }>();
 </script>
 
 <template>
-  <div class="reel" role="img" :aria-label="paused ? '鼓轮已暂停' : fight.reeling ? '鼓轮正在收线' : '鼓轮停转，正在松线'" :data-reeling="fight.reeling && !paused">
+  <div class="reel" :class="{ compact }" role="img" :aria-label="paused ? '鼓轮已暂停' : fight.reeling ? '鼓轮正在收线' : '鼓轮停转，正在松线'" :data-reeling="fight.reeling && !paused">
     <div class="reel-caption"><span class="status-dot" :class="{ active: fight.reeling && !paused }" /><strong>{{ paused ? '已暂停' : fight.reeling ? '正在收线' : '松线 · 等它喘息' }}</strong></div>
     <svg viewBox="0 0 180 100" aria-hidden="true">
       <defs><linearGradient id="reel-metal" x2="0" y2="1"><stop stop-color="#ffe6a4" /><stop offset=".5" stop-color="#bd8745" /><stop offset="1" stop-color="#e8bd6d" /></linearGradient></defs>
@@ -32,4 +32,6 @@ defineProps<{ fight: FightState3D; paused: boolean; reducedMotion: boolean }>();
 .reel { position: absolute; right: 14px; bottom: 14px; width: 164px; padding: 10px 10px 8px; border: 1px solid #e8d8ab55; border-radius: 18px; background: #163f43e8; color: #fff1d1; box-shadow: 0 6px 24px #163f4333; pointer-events: none; }
 .reel-caption { display: flex; align-items: center; gap: 6px; font-size: 12px; }.status-dot { width: 6px; height: 6px; border-radius: 50%; background: #d4b477; }.status-dot.active { background: #a8e6bd; }svg { display: block; width: 100%; height: 86px; }.crank { transform-origin: 119px 50px; }small { display: block; text-align: center; font-size: 11px; color: #dddcbd; }
 @media(max-width:600px) { .reel { width: 134px; right: 10px; bottom: 10px; padding: 8px; }svg { height: 72px; }.reel-caption { font-size: 11px; } }
+.reel.compact { position: static; width: 110px; padding: 0; border: 0; background: none; box-shadow: none; color: inherit; }
+.compact .reel-caption, .compact small { display: none; }.compact svg { height: 60px; }
 </style>

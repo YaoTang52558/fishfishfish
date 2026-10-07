@@ -85,6 +85,8 @@ export function validateSettings(input: unknown): Result<ProfileSettings> {
   if (item.id !== 'profile' || item.schemaVersion !== 1) errors.push('id');
   if (!Number.isSafeInteger(item.revision) || (item.revision as number) < 0) errors.push('revision');
   for (const key of ['soundEnabled', 'reducedMotion', 'assistMode']) if (typeof item[key] !== 'boolean') errors.push(key);
+  if (item.challenge !== undefined && !['gentle', 'regular', 'hard'].includes(item.challenge as string)) errors.push('challenge');
+  if (item.knowledgeDepth !== undefined && !['simple', 'curious'].includes(item.knowledgeDepth as string)) errors.push('knowledgeDepth');
   const entries = Array.isArray(item.visibleEntries) ? item.visibleEntries : null;
   const parsed: OceanEntry[] = [];
   if (!entries || entries.length > VISIBLE_LIMIT) errors.push('visibleEntries');
@@ -100,5 +102,7 @@ export function validateSettings(input: unknown): Result<ProfileSettings> {
   return { ok: true, value: {
     id: 'profile', schemaVersion: 1, revision: item.revision as number, visibleEntries: parsed,
     soundEnabled: item.soundEnabled as boolean, reducedMotion: item.reducedMotion as boolean, assistMode: item.assistMode as boolean,
+    ...(item.challenge !== undefined ? { challenge: item.challenge as ProfileSettings['challenge'] } : {}),
+    ...(item.knowledgeDepth !== undefined ? { knowledgeDepth: item.knowledgeDepth as ProfileSettings['knowledgeDepth'] } : {}),
   } };
 }
