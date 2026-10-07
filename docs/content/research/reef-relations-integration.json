@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-07",
+  "id": "REL-CLOWN-FOOD",
+  "subjectId": "amphiprion-ocellaris",
+  "text": "眼斑双锯鱼会取食藻类、桡足类、等足类和浮游动物。",
+  "sourceId": "S-FM-CLOWN",
+  "sourceUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+  "location": "Food Habits",
+  "conditions": "食物举例，不是完整或唯一食谱；不把钓饵权重当作真实食性。",
+  "status": "primary-source-rechecked",
+  "usage": "ReefRelations interactive food node; does not modify the existing versioned content/v1 integrity manifest."
+}

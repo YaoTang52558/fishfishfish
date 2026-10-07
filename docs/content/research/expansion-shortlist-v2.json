@@ -1,0 +1,598 @@
+{
+  "version": 2,
+  "date": "2026-10-06",
+  "owner": "primary-agent",
+  "request": "用户同意其余均衡方向，并强调石斑有多种；主代理据此补四种石斑候选、选六种石斑小组与下一批18种",
+  "existingProducedSpecies": 12,
+  "newCandidates": 40,
+  "totalPoolIncludingExisting": 52,
+  "selectionStatus": "selected-batch-produced",
+  "quantityPolicy": "52个候选为资料库，不是上限或已制作数；下一批选18种，其中6种石斑，制作完成后真实鱼素材数由12到30",
+  "groups": [
+    {
+      "key": "nearshore",
+      "name": "近海钓鱼与游猎",
+      "purpose": "补足熟悉的大鱼、轮廓和钓鱼对象；动作难度作为游戏设计另定。"
+    },
+    {
+      "key": "grouper_snapper",
+      "name": "石斑与笛鲷等礁区对象",
+      "purpose": "大口、头身比例、色块与斑点；石斑不只留一个泛称。"
+    },
+    {
+      "key": "colour_reef",
+      "name": "鲜艳礁鱼与成长变化",
+      "purpose": "为涂色、花纹、嘴形和成长外观提供灵感；新增不只靠换色。"
+    },
+    {
+      "key": "unusual_shape",
+      "name": "特别的身体与嘴尾",
+      "purpose": "方、长、竖直和高侧扁等结构对比；先做观察图，再判断哪些进入编辑器。"
+    },
+    {
+      "key": "world_seas",
+      "name": "熟悉食材与不同海域",
+      "purpose": "连接生活经验和世界海洋；不把这些对象都放进同一片热带礁区。"
+    },
+    {
+      "key": "new_perspectives",
+      "name": "鲨鳐、潮间带与深海",
+      "purpose": "增加不同观察角度与世界感；默认先做观察和创作参考，不自动加入普通钓鱼池。"
+    }
+  ],
+  "records": [
+    {
+      "id": "sphyraena-barracuda",
+      "workingNameZh": "海狼候选／大魣",
+      "scientificName": "Sphyraena barracuda",
+      "group": "nearshore",
+      "sourceUrl": "https://www.nparks.gov.sg/nature/species-list/marine-fishes",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/sphyraena-barracuda.md"
+    },
+    {
+      "id": "caranx-ignobilis",
+      "workingNameZh": "GT／巨型鲹",
+      "scientificName": "Caranx ignobilis",
+      "group": "nearshore",
+      "sourceUrl": "https://lifg.australian.museum/Group.html?groupId=6gQsxIRa&hierarchyId=PVWrQCLG",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/caranx-ignobilis.md"
+    },
+    {
+      "id": "lates-calcarifer",
+      "workingNameZh": "海鲈候选／亚洲海鲈",
+      "scientificName": "Lates calcarifer",
+      "group": "nearshore",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/barramundi-lates-calcarifer-bloch-1790/",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/lates-calcarifer.md"
+    },
+    {
+      "id": "scomberomorus-commerson",
+      "workingNameZh": "马鲛候选／康氏马鲛",
+      "scientificName": "Scomberomorus commerson",
+      "group": "nearshore",
+      "sourceUrl": "https://www.nparks.gov.sg/nature/species-list/marine-fishes",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/scomberomorus-commerson.md"
+    },
+    {
+      "id": "gnathanodon-speciosus",
+      "workingNameZh": "金鲹",
+      "scientificName": "Gnathanodon speciosus",
+      "group": "nearshore",
+      "sourceUrl": "https://www.nparks.gov.sg/nature/species-list/marine-fishes",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "rachycentron-canadum",
+      "workingNameZh": "军曹鱼",
+      "scientificName": "Rachycentron canadum",
+      "group": "nearshore",
+      "sourceUrl": "https://www.nparks.gov.sg/nature/species-list/marine-fishes",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "epinephelus-coioides",
+      "workingNameZh": "橙点石斑鱼",
+      "scientificName": "Epinephelus coioides",
+      "group": "grouper_snapper",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/goldspotted-rockcod-epinephelus-coioides/",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "subgroup": "groupers",
+      "selectionReason": "橙褐小点与不规则斜带；点的相对大小随成长变化",
+      "observationEvidence": {
+        "checkedAt": "2026-10-06",
+        "location": "Identification / Summary / Colour",
+        "summary": "橙褐小点与不规则斜带；点的相对大小随成长变化",
+        "conditions": "不是所有石斑统一的点纹模板",
+        "status": "source-summary-checked"
+      },
+      "selectedForNextBatch": true,
+      "packet": "../species/epinephelus-coioides.md"
+    },
+    {
+      "id": "plectropomus-leopardus",
+      "workingNameZh": "东星斑候选／豹纹鳃棘鲈",
+      "scientificName": "Plectropomus leopardus",
+      "group": "grouper_snapper",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/common-coral-trout-plectropomus-leopardus/",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "subgroup": "groupers",
+      "selectionReason": "红至绿褐色型、上部蓝色小点，色泽可随环境和活动变化",
+      "observationEvidence": {
+        "checkedAt": "2026-10-06",
+        "location": "Identification / Summary / Colour",
+        "summary": "红至绿褐色型、上部蓝色小点，色泽可随环境和活动变化",
+        "conditions": "红色只是可选代表色型，不给整个物种固定一种颜色",
+        "status": "source-summary-checked"
+      },
+      "selectedForNextBatch": true,
+      "packet": "../species/plectropomus-leopardus.md"
+    },
+    {
+      "id": "lutjanus-argentimaculatus",
+      "workingNameZh": "红树林红笛鲷候选",
+      "scientificName": "Lutjanus argentimaculatus",
+      "group": "grouper_snapper",
+      "sourceUrl": "https://www.nparks.gov.sg/nature/species-list/marine-fishes",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "lutjanus-johnii",
+      "workingNameZh": "金目笛鲷候选",
+      "scientificName": "Lutjanus johnii",
+      "group": "grouper_snapper",
+      "sourceUrl": "https://www.nparks.gov.sg/nature/species-list/marine-fishes",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "lutjanus-sebae",
+      "workingNameZh": "红皇帝笛鲷候选",
+      "scientificName": "Lutjanus sebae",
+      "group": "grouper_snapper",
+      "sourceUrl": "https://www.nparks.gov.sg/nature/species-list/marine-fishes",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "lethrinus-nebulosus",
+      "workingNameZh": "星斑裸颊鲷候选",
+      "scientificName": "Lethrinus nebulosus",
+      "group": "grouper_snapper",
+      "sourceUrl": "https://www.nparks.gov.sg/nature/species-list/marine-fishes",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "scarus-ghobban",
+      "workingNameZh": "鹦哥鱼候选／蓝纹鹦嘴鱼",
+      "scientificName": "Scarus ghobban",
+      "group": "colour_reef",
+      "sourceUrl": "https://www.nparks.gov.sg/publications-resources/articles/recognising-eight-marine-creatures",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/scarus-ghobban.md"
+    },
+    {
+      "id": "cheilinus-undulatus",
+      "workingNameZh": "苏眉鱼候选／波纹唇鱼",
+      "scientificName": "Cheilinus undulatus",
+      "group": "colour_reef",
+      "sourceUrl": "https://lifg.australian.museum/Group.html?groupId=AIC0I6mO&hierarchyId=PVWrQCLG",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "thalassoma-lunare",
+      "workingNameZh": "月尾隆头鱼",
+      "scientificName": "Thalassoma lunare",
+      "group": "colour_reef",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/moon-wrasse-thalassoma-lunare/",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "pomacanthus-imperator",
+      "workingNameZh": "帝王神仙鱼",
+      "scientificName": "Pomacanthus imperator",
+      "group": "colour_reef",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/emperor-angelfish-pomacanthus-imperator/",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/pomacanthus-imperator.md"
+    },
+    {
+      "id": "chromis-viridis",
+      "workingNameZh": "蓝绿雀鲷候选",
+      "scientificName": "Chromis viridis",
+      "group": "colour_reef",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/329",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "balistoides-conspicillum",
+      "workingNameZh": "花纹鳞鲀候选",
+      "scientificName": "Balistoides conspicillum",
+      "group": "colour_reef",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/clown-triggerfish-balistoides-conspicillum-bloch-schneider-1801/",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "ostracion-cubicus",
+      "workingNameZh": "黄箱鲀",
+      "scientificName": "Ostracion cubicus",
+      "group": "unusual_shape",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/yellow-boxfish-ostracion-cubicus/",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/ostracion-cubicus.md"
+    },
+    {
+      "id": "hippocampus-kuda",
+      "workingNameZh": "河口海马候选",
+      "scientificName": "Hippocampus kuda",
+      "group": "unusual_shape",
+      "sourceUrl": "https://www.nparks.gov.sg/florafaunaweb/fauna/3/0/305",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/hippocampus-kuda.md"
+    },
+    {
+      "id": "gymnothorax-javanicus",
+      "workingNameZh": "巨型裸胸鳝",
+      "scientificName": "Gymnothorax javanicus",
+      "group": "unusual_shape",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/giant-moray-gymnothorax-javanicus-bleeker-1859/",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "trichiurus-lepturus",
+      "workingNameZh": "带鱼候选／大头带鱼",
+      "scientificName": "Trichiurus lepturus",
+      "group": "unusual_shape",
+      "sourceUrl": "https://www.fishbase.se/summary/Trichiuris_haumela.html",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/trichiurus-lepturus.md"
+    },
+    {
+      "id": "platax-teira",
+      "workingNameZh": "长鳍燕鱼候选",
+      "scientificName": "Platax teira",
+      "group": "unusual_shape",
+      "sourceUrl": "https://www.nparks.gov.sg/nature/species-list/marine-fishes",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "aulostomus-chinensis",
+      "workingNameZh": "中国管口鱼候选",
+      "scientificName": "Aulostomus chinensis",
+      "group": "unusual_shape",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/trumpetfish-aulostomus-chinensis-linnaeus-1766/",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "gadus-morhua",
+      "workingNameZh": "鳕鱼候选／大西洋鳕",
+      "scientificName": "Gadus morhua",
+      "group": "world_seas",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-cod",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/gadus-morhua.md"
+    },
+    {
+      "id": "salmo-salar",
+      "workingNameZh": "三文鱼候选／大西洋鲑",
+      "scientificName": "Salmo salar",
+      "group": "world_seas",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-salmon",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "thunnus-albacares",
+      "workingNameZh": "黄鳍金枪鱼",
+      "scientificName": "Thunnus albacares",
+      "group": "world_seas",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-yellowfin-tuna",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/thunnus-albacares.md"
+    },
+    {
+      "id": "scomber-scombrus",
+      "workingNameZh": "大西洋鲭",
+      "scientificName": "Scomber scombrus",
+      "group": "world_seas",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-mackerel",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "clupea-harengus",
+      "workingNameZh": "大西洋鲱",
+      "scientificName": "Clupea harengus",
+      "group": "world_seas",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/atlantic-herring",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "paralichthys-dentatus",
+      "workingNameZh": "比目鱼候选／夏鲆",
+      "scientificName": "Paralichthys dentatus",
+      "group": "world_seas",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/summer-flounder",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "carcharhinus-melanopterus",
+      "workingNameZh": "黑鳍礁鲨候选",
+      "scientificName": "Carcharhinus melanopterus",
+      "group": "new_perspectives",
+      "sourceUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/blacktip-reef-shark/",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "rhincodon-typus",
+      "workingNameZh": "鲸鲨",
+      "scientificName": "Rhincodon typus",
+      "group": "new_perspectives",
+      "sourceUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/whale-shark/",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "mobula-birostris",
+      "workingNameZh": "巨型蝠鲼",
+      "scientificName": "Mobula birostris",
+      "group": "new_perspectives",
+      "sourceUrl": "https://www.fisheries.noaa.gov/species/giant-manta-ray",
+      "status": "observation-material-produced",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": true,
+      "selectedForNextBatch": true,
+      "packet": "../species/mobula-birostris.md"
+    },
+    {
+      "id": "taeniura-lymma",
+      "workingNameZh": "蓝点扇尾魟候选",
+      "scientificName": "Taeniura lymma",
+      "group": "new_perspectives",
+      "sourceUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/bluespotted-ribbontail-ray/",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "periophthalmodon-schlosseri",
+      "workingNameZh": "大弹涂鱼候选",
+      "scientificName": "Periophthalmodon schlosseri",
+      "group": "new_perspectives",
+      "sourceUrl": "https://biodiversitysg.nparks.gov.sg/our-biodiversity/marine-fishes/giant-mudskipper/",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "melanocetus-johnsonii",
+      "workingNameZh": "黑角鮟鱇候选",
+      "scientificName": "Melanocetus johnsonii",
+      "group": "new_perspectives",
+      "sourceUrl": "https://www.mbari.org/news/amazing-black-sea-devil-anglerfish-observed-in-monterey-bay/",
+      "status": "candidate-source-found",
+      "reviewScope": "初筛身份/来源与产品覆盖；未完成逐条知识、中文规范名、接受学名与素材审核",
+      "produced": false,
+      "selectedForNextBatch": false
+    },
+    {
+      "id": "epinephelus-fuscoguttatus",
+      "workingNameZh": "老虎斑（工作名）",
+      "scientificName": "Epinephelus fuscoguttatus",
+      "group": "grouper_snapper",
+      "sourceUrl": "https://fishesofaustralia.net.au/Home/species/4670",
+      "status": "observation-material-produced",
+      "reviewScope": "本轮核对识别特征摘要；中文规范名、接受名与完整儿童文案在制作前另核",
+      "produced": true,
+      "subgroup": "groupers",
+      "selectionReason": "密集褐色小点、成组深色斑块、尾柄上方黑色鞍状斑",
+      "observationEvidence": {
+        "checkedAt": "2026-10-06",
+        "location": "Identification / Summary / Colour",
+        "summary": "密集褐色小点、成组深色斑块、尾柄上方黑色鞍状斑",
+        "conditions": "资料常见英文名 Brown-marbled Grouper；不等同所有带虎纹的鱼",
+        "status": "source-summary-checked"
+      },
+      "selectedForNextBatch": true,
+      "packet": "../species/epinephelus-fuscoguttatus.md"
+    },
+    {
+      "id": "epinephelus-merra",
+      "workingNameZh": "蜂窝石斑（工作名）",
+      "scientificName": "Epinephelus merra",
+      "group": "grouper_snapper",
+      "sourceUrl": "https://fishesofaustralia.net.au/home/species/3848",
+      "status": "observation-material-produced",
+      "reviewScope": "本轮核对识别特征摘要；中文规范名、接受名与完整儿童文案在制作前另核",
+      "produced": true,
+      "subgroup": "groupers",
+      "selectionReason": "密集褐色斑块形成蜂窝／网格感，腹部间距较大",
+      "observationEvidence": {
+        "checkedAt": "2026-10-06",
+        "location": "Identification / Summary / Colour",
+        "summary": "密集褐色斑块形成蜂窝／网格感，腹部间距较大",
+        "conditions": "与相近花纹种易混，详细鉴别在后续物种包记录",
+        "status": "source-summary-checked"
+      },
+      "selectedForNextBatch": true,
+      "packet": "../species/epinephelus-merra.md"
+    },
+    {
+      "id": "epinephelus-lanceolatus",
+      "workingNameZh": "龙趸／巨型石斑（工作名）",
+      "scientificName": "Epinephelus lanceolatus",
+      "group": "grouper_snapper",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/queensland-groper-epinephelus-lanceolatus-bloch-1790/",
+      "status": "observation-material-produced",
+      "reviewScope": "本轮核对识别特征摘要；中文规范名、接受名与完整儿童文案在制作前另核",
+      "produced": true,
+      "subgroup": "groupers",
+      "selectionReason": "大口与圆尾；幼鱼黑黄图案，成鱼绿灰至灰褐，鳍有小黑点",
+      "observationEvidence": {
+        "checkedAt": "2026-10-06",
+        "location": "Identification / Summary / Colour",
+        "summary": "大口与圆尾；幼鱼黑黄图案，成鱼绿灰至灰褐，鳍有小黑点",
+        "conditions": "幼成体表现明显不同；两种外观仍只计一个物种",
+        "status": "source-summary-checked"
+      },
+      "selectedForNextBatch": true,
+      "packet": "../species/epinephelus-lanceolatus.md"
+    },
+    {
+      "id": "cephalopholis-argus",
+      "workingNameZh": "蓝点石斑（工作名）",
+      "scientificName": "Cephalopholis argus",
+      "group": "grouper_snapper",
+      "sourceUrl": "https://australian.museum/learn/animals/fishes/peacock-rockcod-cephalopholis-argus-bloch-schneider-1801/",
+      "status": "observation-material-produced",
+      "reviewScope": "本轮核对识别特征摘要；中文规范名、接受名与完整儿童文案在制作前另核",
+      "produced": true,
+      "subgroup": "groupers",
+      "selectionReason": "棕至绿褐色体，头身鳍布满带暗边的蓝色点，后体有时见浅带",
+      "observationEvidence": {
+        "checkedAt": "2026-10-06",
+        "location": "Identification / Summary / Colour",
+        "summary": "棕至绿褐色体，头身鳍布满带暗边的蓝色点，后体有时见浅带",
+        "conditions": "蓝点石斑为便于讨论的工作名，正式对象以学名和来源明确",
+        "status": "source-summary-checked"
+      },
+      "selectedForNextBatch": true,
+      "packet": "../species/cephalopholis-argus.md"
+    }
+  ],
+  "userPreference": {
+    "mode": "balanced",
+    "explicitFeedback": "石斑鱼有好几种哈 其他我没意见",
+    "interpretation": "同意其余方向，石斑应展开为多个明确物种；具体六种和18种配比由主代理据此选材"
+  },
+  "nextBatch": {
+    "selectedBy": "primary-agent",
+    "count": 18,
+    "grouperCount": 6,
+    "targetTotalProducedFishAfterBatch": 30,
+    "ids": [
+      "epinephelus-coioides",
+      "plectropomus-leopardus",
+      "epinephelus-fuscoguttatus",
+      "epinephelus-merra",
+      "epinephelus-lanceolatus",
+      "cephalopholis-argus",
+      "caranx-ignobilis",
+      "sphyraena-barracuda",
+      "lates-calcarifer",
+      "scomberomorus-commerson",
+      "scarus-ghobban",
+      "pomacanthus-imperator",
+      "trichiurus-lepturus",
+      "ostracion-cubicus",
+      "hippocampus-kuda",
+      "gadus-morhua",
+      "thunnus-albacares",
+      "mobula-birostris"
+    ],
+    "status": "produced-and-preview-checked",
+    "counts": {
+      "groupers": 6,
+      "nearshore": 4,
+      "colourReef": 2,
+      "unusualShape": 3,
+      "worldSeas": 2,
+      "sharkRay": 1
+    }
+  },
+  "totalProducedSpecies": 30
+}

@@ -1,0 +1,701 @@
+{
+  "date": "2026-10-07",
+  "status": "integrated-playable-sample",
+  "producedSpecies": 30,
+  "fishingSpecies": 12,
+  "remainingCandidatesProduced": false,
+  "topics": [
+    {
+      "id": "mouth",
+      "title": "嘴与找食物",
+      "specimens": [
+        {
+          "id": "forcipiger-flavissimus",
+          "name": "黄镊口鱼",
+          "scientificName": "Forcipiger flavissimus",
+          "image": "illustrations/forcipiger-flavissimus.webp",
+          "introAudio": "audio/vo-ff-intro.wav",
+          "points": [
+            {
+              "key": "MOUTH",
+              "label": "长长的嘴",
+              "text": "它会到珊瑚枝和礁缝里找食物。",
+              "factIds": [
+                "FF-03"
+              ],
+              "x": 0.2,
+              "y": 0.42,
+              "audio": "audio/vo-ff-mouth.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "FF-03",
+              "text": "本种与 F. longirostris 都会探查珊瑚枝与礁缝中的无脊椎动物。",
+              "conditions": "该句涉及两种；不混用下一句仅描述 F. longirostris 的整吞机制",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-WA-FORCEPS"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "scarus-ghobban",
+          "name": "蓝纹鹦嘴鱼",
+          "scientificName": "Scarus ghobban",
+          "image": "illustrations/scarus-ghobban.webp",
+          "introAudio": "audio/vo-sg-intro.wav",
+          "points": [
+            {
+              "key": "MOUTH",
+              "label": "像喙的嘴",
+              "text": "它的嘴，像小鸟的喙。",
+              "factIds": [
+                "SG-01"
+              ],
+              "x": 0.19,
+              "y": 0.5,
+              "audio": "audio/vo-sg-mouth.wav"
+            },
+            {
+              "key": "FOOD",
+              "label": "刮食藻类",
+              "text": "它会刮着吃藻类。",
+              "factIds": [
+                "SG-03"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-sg-food.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "SG-01",
+              "text": "鹦嘴鱼的齿形成齿板，唇多覆盖齿板。",
+              "conditions": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-V2-SG"
+              ]
+            },
+            {
+              "id": "SG-03",
+              "text": "刮食底栖藻类及死珊瑚表面碎屑。",
+              "conditions": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-V2-SG"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fin",
+      "title": "鳍的结构",
+      "specimens": [
+        {
+          "id": "zanclus-cornutus",
+          "name": "角镰鱼",
+          "scientificName": "Zanclus cornutus",
+          "image": "illustrations/zanclus-cornutus.webp",
+          "introAudio": "audio/vo-zc-intro.wav",
+          "points": [
+            {
+              "key": "FIN",
+              "label": "长长的背鳍",
+              "text": "背上的鳍，像一条长长的白丝。",
+              "factIds": [
+                "ZC-01"
+              ],
+              "x": 0.56,
+              "y": 0.26,
+              "audio": "audio/vo-zc-fin.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "ZC-01",
+              "text": "背鳍延伸为长而弯曲的白色丝状部分。",
+              "conditions": "可用于大体轮廓对比，不计算鳍条",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-AM-IDOL"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sphyraena-barracuda",
+          "name": "海狼 · 大魣",
+          "scientificName": "Sphyraena barracuda",
+          "image": "illustrations/sphyraena-barracuda.webp",
+          "introAudio": "audio/vo-sb-intro.wav",
+          "points": [
+            {
+              "key": "FINS",
+              "label": "分开的背鳍",
+              "text": "背上这两片鳍，隔得很远。",
+              "factIds": [
+                "SB-02"
+              ],
+              "x": 0.69,
+              "y": 0.36,
+              "audio": "audio/vo-sb-fins.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "SB-02",
+              "text": "棘背鳍与软背鳍相距较远。",
+              "conditions": "海狼是多义俗名，本卡限定大魣 S. barracuda。闭口插画强调形状和鳍，不夸张表现牙齿；不是所有魣都画同样黑点。",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-V2-SB"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tail",
+      "title": "不同的尾部",
+      "specimens": [
+        {
+          "id": "hippocampus-kuda",
+          "name": "河口海马",
+          "scientificName": "Hippocampus kuda",
+          "image": "illustrations/hippocampus-kuda.webp",
+          "introAudio": "audio/vo-hk-intro.wav",
+          "points": [
+            {
+              "key": "TAIL",
+              "label": "能抓住的尾巴",
+              "text": "弯弯的尾巴，能抓住东西。",
+              "factIds": [
+                "HK-01"
+              ],
+              "x": 0.52,
+              "y": 0.85,
+              "audio": "audio/vo-hk-tail.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "HK-01",
+              "text": "海马用可抓握尾巴固定身体。",
+              "conditions": "NParks 页面以 Hippocampus spp. 汇总，明确提到 H. kuda 河口海草栖所；育儿与抓握尾为海马类群知识。黄褐色是艺术选择，图不作相似海马的精确分类依据。",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-V2-HK"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "trichiurus-lepturus",
+          "name": "大头带鱼",
+          "scientificName": "Trichiurus lepturus",
+          "image": "illustrations/trichiurus-lepturus.webp",
+          "introAudio": "audio/vo-tl-intro.wav",
+          "points": [
+            {
+              "key": "TAIL",
+              "label": "尖尖的末端",
+              "text": "身体末端尖尖的，没有扇形尾鳍。",
+              "factIds": [
+                "TL-02"
+              ],
+              "x": 0.93,
+              "y": 0.53,
+              "audio": "audio/vo-tl-tail.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "TL-02",
+              "text": "尾鳍与腹鳍缺失。",
+              "conditions": "限定 T. lepturus 示例；带鱼涉及相似物种复合群，不声称餐桌带鱼全为本种。闭口、完整活鱼示意；没有给它补上不存在的扇尾。",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-V2-TL"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shape",
+      "title": "盒子和大翅膀",
+      "specimens": [
+        {
+          "id": "ostracion-cubicus",
+          "name": "黄箱鲀",
+          "scientificName": "Ostracion cubicus",
+          "image": "illustrations/ostracion-cubicus.webp",
+          "introAudio": "audio/vo-oc-intro.wav",
+          "points": [
+            {
+              "key": "BODY",
+              "label": "盒子身体",
+              "text": "身体像一个小盒子。",
+              "factIds": [
+                "OC-01"
+              ],
+              "x": 0.49,
+              "y": 0.51,
+              "audio": "audio/vo-oc-body.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "OC-01",
+              "text": "身体呈箱形。",
+              "conditions": "本图选幼鱼亮黄黑点色型。箱鲀不是充气后的河鲀，没有加入角箱鲀的额角；成长变化不以当前一张图证明。",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-V2-OC"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mobula-birostris",
+          "name": "巨型蝠鲼",
+          "scientificName": "Mobula birostris",
+          "image": "illustrations/mobula-birostris.webp",
+          "introAudio": "audio/vo-mb-intro.wav",
+          "points": [
+            {
+              "key": "FINS",
+              "label": "像翅膀的鳍",
+              "text": "大大的胸鳍，像一对翅膀。",
+              "factIds": [
+                "MB-01"
+              ],
+              "x": 0.21,
+              "y": 0.4,
+              "audio": "audio/vo-mb-fins.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "MB-01",
+              "text": "身体菱形，两侧有伸展的翼状胸鳍。",
+              "conditions": "采用背面稍斜的宽幅黑背示意，区别于侧视硬骨鱼；没有腹面斑点图供个体辨识。蝠鲼用于观察、入海与创作灵感，当前不进入普通钓鱼池。",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-V2-MB"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reef",
+      "title": "珊瑚、海葵与伙伴",
+      "specimens": [
+        {
+          "id": "amphiprion-ocellaris",
+          "name": "小丑鱼",
+          "scientificName": "Amphiprion ocellaris",
+          "image": "illustrations/amphiprion-ocellaris.webp",
+          "introAudio": "audio/vo-ao-intro.wav",
+          "points": [
+            {
+              "key": "HOME",
+              "label": "海葵伙伴",
+              "text": "这种小丑鱼，会和这种海葵一起生活。",
+              "factIds": [
+                "AO-03",
+                "RM-01"
+              ],
+              "x": 0.23,
+              "y": 0.54,
+              "audio": "audio/vo-ao-home.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "AO-03",
+              "text": "生活于珊瑚礁等热带海洋环境，可与 Radianthus magnifica 建立宿主关系。",
+              "conditions": "生态来源使用旧名 Heteractis magnifica；不是所有海葵都能作为宿主，也不是唯一宿主",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-FM-CLOWN",
+                "S-AM-CLOWN",
+                "S-WORMS-ANEMONE"
+              ]
+            },
+            {
+              "id": "RM-01",
+              "text": "WoRMS 将 Heteractis magnifica 接受到 Radianthus magnifica。",
+              "conditions": "直连受限；发布前复查接受名条目，项目ID固定",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-WORMS-ANEMONE",
+                "S-WORMS-IMAGE"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rock",
+      "title": "守卵与礁底家园",
+      "specimens": [
+        {
+          "id": "hexagrammos-otakii",
+          "name": "六线鱼",
+          "scientificName": "Hexagrammos otakii",
+          "image": "illustrations/hexagrammos-otakii.webp",
+          "introAudio": "audio/vo-ho-intro.wav",
+          "points": [
+            {
+              "key": "HOME",
+              "label": "岩石海岸",
+              "text": "它会住在岩石海岸。",
+              "factIds": [
+                "HO-02"
+              ],
+              "x": 0.28,
+              "y": 0.54,
+              "audio": "audio/vo-ho-home.wav"
+            },
+            {
+              "key": "EGGS",
+              "label": "守护鱼卵",
+              "text": "鱼爸爸，会守护附在小石头上的卵。",
+              "factIds": [
+                "HO-03"
+              ],
+              "x": 0.63,
+              "y": 0.5,
+              "audio": "audio/vo-ho-eggs.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "HO-02",
+              "text": "栖息于岩石海岸及人工礁等环境。",
+              "conditions": "西北太平洋温带物种，不宣称是新加坡当地鱼",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-FB-GREENLING"
+              ]
+            },
+            {
+              "id": "HO-03",
+              "text": "卵块可附着小石，雄鱼守护卵块。",
+              "conditions": "资料描述的繁殖行为；不是每条画面中的鱼都正护卵",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-FB-GREENLING"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sebastiscus-marmoratus",
+          "name": "褐菖鲉",
+          "scientificName": "Sebastiscus marmoratus",
+          "image": "illustrations/sebastiscus-marmoratus.webp",
+          "introAudio": "audio/vo-sm-intro.wav",
+          "points": [
+            {
+              "key": "HOME",
+              "label": "浅海岩礁",
+              "text": "它生活在浅海的岩礁底部。",
+              "factIds": [
+                "SM-02"
+              ],
+              "x": 0.28,
+              "y": 0.51,
+              "audio": "audio/vo-sm-home.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "SM-02",
+              "text": "生活在浅海岩礁底部。",
+              "conditions": "资料的栖所描述，不证明与其他鱼在同一地点共存",
+              "checkedAt": "2026-10-06",
+              "sourceIds": [
+                "S-TW-MARMO"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "environment": [
+    {
+      "id": "RF-01",
+      "subjectId": "reef-shallows",
+      "text": "珊瑚是动物；珊瑚与海葵具有共同的水螅体基本结构。",
+      "sourceIds": [
+        "S-SI-REEF"
+      ],
+      "location": "What Are Corals? / Animal, Vegetable & Mineral",
+      "conditions": "概括知识，不把任何花形物体识别为某一物种",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RF-02",
+      "subjectId": "reef-shallows",
+      "text": "石珊瑚的水螅体可形成碳酸钙骨骼，是重要造礁者。",
+      "sourceIds": [
+        "S-SI-REEF"
+      ],
+      "location": "Coral Diversity",
+      "conditions": "只适用于这里讨论的石珊瑚，不说所有珊瑚骨骼都一样",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RF-03",
+      "subjectId": "reef-shallows",
+      "text": "许多温暖浅水珊瑚与能光合作用的共生藻交换营养。",
+      "sourceIds": [
+        "S-SI-REEF"
+      ],
+      "location": "Animal, Vegetable & Mineral",
+      "conditions": "不是所有珊瑚都依赖光，避免泛化到深海",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AO-03",
+      "subjectId": "amphiprion-ocellaris",
+      "text": "生活于珊瑚礁等热带海洋环境，可与 Radianthus magnifica 建立宿主关系。",
+      "sourceIds": [
+        "S-FM-CLOWN",
+        "S-AM-CLOWN",
+        "S-WORMS-ANEMONE"
+      ],
+      "location": "Habitat；WoRMS Accepted name",
+      "conditions": "生态来源使用旧名 Heteractis magnifica；不是所有海葵都能作为宿主，也不是唯一宿主",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RM-01",
+      "subjectId": "radianthus-magnifica",
+      "text": "WoRMS 将 Heteractis magnifica 接受到 Radianthus magnifica。",
+      "sourceIds": [
+        "S-WORMS-ANEMONE",
+        "S-WORMS-IMAGE"
+      ],
+      "location": "Accepted name / image taxon mapping",
+      "conditions": "直连受限；发布前复查接受名条目，项目ID固定",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RM-03",
+      "subjectId": "radianthus-magnifica",
+      "text": "该种展开的触手细长，末端圆或微膨，常见亮色端部；柱体可红至紫色。",
+      "sourceIds": [
+        "S-ANEMONE-REDSEA2021"
+      ],
+      "location": "Results / Heteractis magnifica；红海与亚丁湾实地调查；使用旧属名",
+      "conditions": "2021 论文使用 Heteractis magnifica 旧名；描绘紫柱/绿触手色型，不声称所有个体均如此",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RM-04",
+      "subjectId": "radianthus-magnifica",
+      "text": "实地调查通常见该种附着在暴露的礁石上。",
+      "sourceIds": [
+        "S-ANEMONE-REDSEA2021"
+      ],
+      "location": "Results / Heteractis magnifica；红海与亚丁湾实地调查；使用旧属名",
+      "conditions": "调查范围为红海与亚丁湾；不用于证明新加坡具体海域的配对或分布",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "S-FM-CLOWN",
+      "institution": "Florida Museum",
+      "title": "Clown Anemonefish",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "机构物种资料；身份、外形、宿主与适应；图片版权另记"
+    },
+    {
+      "id": "S-AM-CLOWN",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Western Clown Anemonefish",
+      "url": "https://australian.museum/learn/animals/fishes/western-clown-anemonefish-amphiprion-ocellaris-cuvier-1830/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Introduction / Habitat；页面更新时间未在本轮登记"
+    },
+    {
+      "id": "S-WORMS-ANEMONE",
+      "institution": "WoRMS / World List of Actiniaria",
+      "title": "Heteractis magnifica / AphiaID 290090",
+      "url": "https://www.marinespecies.org/aphia.php?id=290090&p=taxdetails",
+      "checkedAt": "2026-10-06",
+      "access": "indexed-page-and-gallery",
+      "notes": "旧名接受到 Radianthus magnifica；直连403，核对搜索返回正文及图册对应"
+    },
+    {
+      "id": "S-WA-FORCEPS",
+      "institution": "Waikīkī Aquarium",
+      "title": "Forceps Butterflyfish",
+      "url": "https://www.waikikiaquarium.org/experience/animal-guide/fishes/butterflyfishes/forceps-butterflyfish/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "正文第1–6段；嘴形、觅食与相似种"
+    },
+    {
+      "id": "S-SI-REEF",
+      "institution": "Smithsonian Ocean Portal Team / reviewed by Nancy Knowlton",
+      "title": "Corals and Coral Reefs",
+      "url": "https://ocean.si.edu/ocean-life/invertebrates/corals-and-coral-reefs",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "What Are Corals? / Coral Diversity；概括性珊瑚知识，图片逐件核权"
+    },
+    {
+      "id": "S-WORMS-IMAGE",
+      "institution": "WoRMS Actiniaria / ReefLifeApps.com",
+      "title": "Heteractis magnifica2 DMS / image 132841",
+      "url": "https://marinespecies.org/Actiniaria/aphia.php?p=image&pic=132841&tid=290090",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "图像元数据与新旧名对应；CC BY-SA 3.0，同时要求转载前告知作者"
+    },
+    {
+      "id": "S-AM-IDOL",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Moorish Idol",
+      "url": "https://australian.museum/learn/animals/fishes/moorish-idol-zanclus-cornutus-linnaeus-1758/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification"
+    },
+    {
+      "id": "S-TW-MARMO",
+      "institution": "中央研究院生物多樣性研究中心／臺灣魚類資料庫",
+      "title": "Sebastiscus marmoratus",
+      "url": "https://catalog.digitalarchives.tw/item/00/42/6f/31.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "形態特徵 / 棲所生態"
+    },
+    {
+      "id": "S-FB-GREENLING",
+      "institution": "FishBase",
+      "title": "Hexagrammos otakii",
+      "url": "https://www.fishbase.se/summary/Hexagrammos-otakii.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Biology / Body shape"
+    },
+    {
+      "id": "S-ANEMONE-REDSEA2021",
+      "institution": "Bennett-Smith et al. / Marine Biodiversity Records",
+      "title": "Clownfish hosting anemones of the Red Sea",
+      "url": "https://link.springer.com/article/10.1186/s41200-021-00216-6",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Results / Heteractis magnifica；红海与亚丁湾实地调查；使用旧属名"
+    },
+    {
+      "id": "S-V2-SB",
+      "institution": "Florida Museum of Natural History",
+      "title": "Great Barracuda",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/great-barracuda/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-SG",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Bluebarred Parrotfish",
+      "url": "https://fishesofaustralia.net.au/home/species/2360",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-TL",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Largehead Hairtail",
+      "url": "https://fishesofaustralia.net.au/home/species/2562",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-OC",
+      "institution": "Australian Museum",
+      "title": "Yellow Boxfish",
+      "url": "https://australian.museum/learn/animals/fishes/yellow-boxfish-ostracion-cubicus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-HK",
+      "institution": "NParks Singapore",
+      "title": "Seahorses / Estuarine Seahorse",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/fauna/3/0/305",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-MB",
+      "institution": "NOAA Fisheries",
+      "title": "Giant Manta Ray",
+      "url": "https://www.fisheries.noaa.gov/species/giant-manta-ray",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    }
+  ],
+  "model": {
+    "type": "procedural-original-design",
+    "mirroredSide": true,
+    "finStructure": "flat-paired-pectoral-and-dorsal-ventral",
+    "swimming": "game-animation-not-species-science"
+  }
+}

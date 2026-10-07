@@ -1,0 +1,1864 @@
+{
+  "version": 2,
+  "date": "2026-10-06",
+  "sources": [
+    {
+      "id": "S-V2-EC",
+      "institution": "Australian Museum",
+      "title": "Goldspotted Rockcod",
+      "url": "https://australian.museum/learn/animals/fishes/goldspotted-rockcod-epinephelus-coioides/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-PL",
+      "institution": "Australian Museum",
+      "title": "Common Coral Trout",
+      "url": "https://australian.museum/learn/animals/fishes/common-coral-trout-plectropomus-leopardus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-EF",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Brown-marbled Grouper",
+      "url": "https://fishesofaustralia.net.au/Home/species/4670",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-EM",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Honeycomb Grouper",
+      "url": "https://fishesofaustralia.net.au/home/species/3848",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-EL",
+      "institution": "Australian Museum",
+      "title": "Queensland Groper",
+      "url": "https://australian.museum/learn/animals/fishes/queensland-groper-epinephelus-lanceolatus-bloch-1790/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-CA",
+      "institution": "Australian Museum",
+      "title": "Peacock Rockcod",
+      "url": "https://australian.museum/learn/animals/fishes/peacock-rockcod-cephalopholis-argus-bloch-schneider-1801/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-CI",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Giant Trevally",
+      "url": "https://fishesofaustralia.net.au/home/species/4268",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-SB",
+      "institution": "Florida Museum of Natural History",
+      "title": "Great Barracuda",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/great-barracuda/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-LC",
+      "institution": "Australian Museum",
+      "title": "Barramundi",
+      "url": "https://australian.museum/learn/animals/fishes/barramundi-lates-calcarifer-bloch-1790/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-SC",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Spanish Mackerel",
+      "url": "https://fishesofaustralia.net.au/home/species/728",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-SG",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Bluebarred Parrotfish",
+      "url": "https://fishesofaustralia.net.au/home/species/2360",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-PI",
+      "institution": "Australian Museum",
+      "title": "Emperor Angelfish",
+      "url": "https://australian.museum/learn/animals/fishes/emperor-angelfish-pomacanthus-imperator/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-TL",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Largehead Hairtail",
+      "url": "https://fishesofaustralia.net.au/home/species/2562",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-OC",
+      "institution": "Australian Museum",
+      "title": "Yellow Boxfish",
+      "url": "https://australian.museum/learn/animals/fishes/yellow-boxfish-ostracion-cubicus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-HK",
+      "institution": "NParks Singapore",
+      "title": "Seahorses / Estuarine Seahorse",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/fauna/3/0/305",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-GM",
+      "institution": "NOAA Fisheries",
+      "title": "Atlantic Cod",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-cod",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-TA",
+      "institution": "NOAA Fisheries",
+      "title": "Atlantic Yellowfin Tuna",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-yellowfin-tuna",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-MB",
+      "institution": "NOAA Fisheries",
+      "title": "Giant Manta Ray",
+      "url": "https://www.fisheries.noaa.gov/species/giant-manta-ray",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    }
+  ],
+  "claims": [
+    {
+      "id": "EC-01",
+      "subjectId": "epinephelus-coioides",
+      "text": "头、身体和中间各鳍有许多小橙褐色斑点。",
+      "sourceIds": [
+        "S-V2-EC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择橙褐点成鱼示意；斑点相对大小随成长变化。来源英文 Cod 在这里指石斑，不是大西洋鳕。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EC-02",
+      "subjectId": "epinephelus-coioides",
+      "text": "体侧有五条不规则斜带，向腹侧分叉。",
+      "sourceIds": [
+        "S-V2-EC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择橙褐点成鱼示意；斑点相对大小随成长变化。来源英文 Cod 在这里指石斑，不是大西洋鳕。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EC-03",
+      "subjectId": "epinephelus-coioides",
+      "text": "幼鱼可生活于河口和淤泥环境；成鱼可见于外海。",
+      "sourceIds": [
+        "S-V2-EC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择橙褐点成鱼示意；斑点相对大小随成长变化。来源英文 Cod 在这里指石斑，不是大西洋鳕。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PL-01",
+      "subjectId": "plectropomus-leopardus",
+      "text": "头和身体上部约三分之二及中间各鳍具有深边蓝点。",
+      "sourceIds": [
+        "S-V2-PL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "东星斑是孩子入口工作名，本卡只对应 Plectropomus leopardus。选择红色成鱼；颜色不是固定身份标签。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PL-02",
+      "subjectId": "plectropomus-leopardus",
+      "text": "体色可由红色至绿褐色，随时段、栖所和活动状态变化。",
+      "sourceIds": [
+        "S-V2-PL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "东星斑是孩子入口工作名，本卡只对应 Plectropomus leopardus。选择红色成鱼；颜色不是固定身份标签。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PL-03",
+      "subjectId": "plectropomus-leopardus",
+      "text": "尾鳍中间鳍条常具白色边缘。",
+      "sourceIds": [
+        "S-V2-PL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "东星斑是孩子入口工作名，本卡只对应 Plectropomus leopardus。选择红色成鱼；颜色不是固定身份标签。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EF-01",
+      "subjectId": "epinephelus-fuscoguttatus",
+      "text": "淡黄褐底色有密集小褐点，并有五列不规则深褐色斑块。",
+      "sourceIds": [
+        "S-V2-EF"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "老虎斑为工作名；画的是 E. fuscoguttatus 成鱼近似色型，不能把市场商品名当成所有石斑的精确鉴定。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EF-02",
+      "subjectId": "epinephelus-fuscoguttatus",
+      "text": "尾柄上方有明显黑色鞍状斑。",
+      "sourceIds": [
+        "S-V2-EF"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "老虎斑为工作名；画的是 E. fuscoguttatus 成鱼近似色型，不能把市场商品名当成所有石斑的精确鉴定。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EF-03",
+      "subjectId": "epinephelus-fuscoguttatus",
+      "text": "幼鱼可见于海草床；成鱼常见于珊瑚丰富的礁区。",
+      "sourceIds": [
+        "S-V2-EF"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "老虎斑为工作名；画的是 E. fuscoguttatus 成鱼近似色型，不能把市场商品名当成所有石斑的精确鉴定。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EM-01",
+      "subjectId": "epinephelus-merra",
+      "text": "密集褐色斑点之间有浅色间隔，呈蜂窝状花纹。",
+      "sourceIds": [
+        "S-V2-EM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蜂窝石斑是工作名。小型石斑的蜂窝纹具有观察价值，但相似种仍需专业鉴定，不能只凭图认种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EM-02",
+      "subjectId": "epinephelus-merra",
+      "text": "腹部褐斑的间隔较疏。",
+      "sourceIds": [
+        "S-V2-EM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蜂窝石斑是工作名。小型石斑的蜂窝纹具有观察价值，但相似种仍需专业鉴定，不能只凭图认种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EM-03",
+      "subjectId": "epinephelus-merra",
+      "text": "尾鳍呈圆形。",
+      "sourceIds": [
+        "S-V2-EM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蜂窝石斑是工作名。小型石斑的蜂窝纹具有观察价值，但相似种仍需专业鉴定，不能只凭图认种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EL-01",
+      "subjectId": "epinephelus-lanceolatus",
+      "text": "具有大口及圆形尾鳍。",
+      "sourceIds": [
+        "S-V2-EL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "画的是成鱼灰褐示意，不混用幼鱼黑黄色。记录最大体型与常见体型是不同概念，此卡不让所有鱼都成为纪录巨鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EL-02",
+      "subjectId": "epinephelus-lanceolatus",
+      "text": "幼鱼具不规则黑黄花纹；成鱼多为绿灰或灰褐色并有淡斑。",
+      "sourceIds": [
+        "S-V2-EL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "画的是成鱼灰褐示意，不混用幼鱼黑黄色。记录最大体型与常见体型是不同概念，此卡不让所有鱼都成为纪录巨鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EL-03",
+      "subjectId": "epinephelus-lanceolatus",
+      "text": "成鱼各鳍具有许多小黑点。",
+      "sourceIds": [
+        "S-V2-EL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "画的是成鱼灰褐示意，不混用幼鱼黑黄色。记录最大体型与常见体型是不同概念，此卡不让所有鱼都成为纪录巨鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CA-01",
+      "subjectId": "cephalopholis-argus",
+      "text": "褐色至绿褐色体上有许多具深边的小蓝点，延伸至各鳍。",
+      "sourceIds": [
+        "S-V2-CA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蓝点石斑为工作名，仅对应 C. argus。画选绿褐底色、淡后部带纹；条带显现有条件。与红色东星斑分开比较。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CA-02",
+      "subjectId": "cephalopholis-argus",
+      "text": "胸鳍前有浅色区域。",
+      "sourceIds": [
+        "S-V2-CA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蓝点石斑为工作名，仅对应 C. argus。画选绿褐底色、淡后部带纹；条带显现有条件。与红色东星斑分开比较。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CA-03",
+      "subjectId": "cephalopholis-argus",
+      "text": "部分个体可显现五至六条后半身浅色条带。",
+      "sourceIds": [
+        "S-V2-CA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蓝点石斑为工作名，仅对应 C. argus。画选绿褐底色、淡后部带纹；条带显现有条件。与红色东星斑分开比较。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CI-01",
+      "subjectId": "caranx-ignobilis",
+      "text": "头部轮廓陡峭。",
+      "sourceIds": [
+        "S-V2-CI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "GT 是英文俗名 Giant Trevally 的简称。选择银色成鱼示意；强壮外形不自动转成孩子必须更难的操作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CI-02",
+      "subjectId": "caranx-ignobilis",
+      "text": "体色可为银色、暗金色至近黑色。",
+      "sourceIds": [
+        "S-V2-CI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "GT 是英文俗名 Giant Trevally 的简称。选择银色成鱼示意；强壮外形不自动转成孩子必须更难的操作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CI-03",
+      "subjectId": "caranx-ignobilis",
+      "text": "侧线后段具有坚硬的棱鳞。",
+      "sourceIds": [
+        "S-V2-CI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "GT 是英文俗名 Giant Trevally 的简称。选择银色成鱼示意；强壮外形不自动转成孩子必须更难的操作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SB-01",
+      "subjectId": "sphyraena-barracuda",
+      "text": "身体细长流线型，口大且下颌突出。",
+      "sourceIds": [
+        "S-V2-SB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "海狼是多义俗名，本卡限定大魣 S. barracuda。闭口插画强调形状和鳍，不夸张表现牙齿；不是所有魣都画同样黑点。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SB-02",
+      "subjectId": "sphyraena-barracuda",
+      "text": "棘背鳍与软背鳍相距较远。",
+      "sourceIds": [
+        "S-V2-SB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "海狼是多义俗名，本卡限定大魣 S. barracuda。闭口插画强调形状和鳍，不夸张表现牙齿；不是所有魣都画同样黑点。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SB-03",
+      "subjectId": "sphyraena-barracuda",
+      "text": "下体侧的黑点是该种的重要识别特征。",
+      "sourceIds": [
+        "S-V2-SB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "海狼是多义俗名，本卡限定大魣 S. barracuda。闭口插画强调形状和鳍，不夸张表现牙齿；不是所有魣都画同样黑点。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "LC-01",
+      "subjectId": "lates-calcarifer",
+      "text": "上颌后缘延至眼后方。",
+      "sourceIds": [
+        "S-V2-LC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择银色成鱼示意；幼鱼有不同斑纹。亚洲海鲈 Lates calcarifer 与欧洲海鲈是不同物种，不共用学名卡。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "LC-02",
+      "subjectId": "lates-calcarifer",
+      "text": "尾鳍呈圆形。",
+      "sourceIds": [
+        "S-V2-LC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择银色成鱼示意；幼鱼有不同斑纹。亚洲海鲈 Lates calcarifer 与欧洲海鲈是不同物种，不共用学名卡。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "LC-03",
+      "subjectId": "lates-calcarifer",
+      "text": "可生活于溪流、河流及河口等环境。",
+      "sourceIds": [
+        "S-V2-LC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择银色成鱼示意；幼鱼有不同斑纹。亚洲海鲈 Lates calcarifer 与欧洲海鲈是不同物种，不共用学名卡。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SC-01",
+      "subjectId": "scomberomorus-commerson",
+      "text": "体侧有许多细窄波状暗带，并延伸到侧线以下。",
+      "sourceIds": [
+        "S-V2-SC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应康氏马鲛 S. commerson 的成鱼条带色型；幼鱼另有点纹。马鲛俗名覆盖多种鱼，不能混为一种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SC-02",
+      "subjectId": "scomberomorus-commerson",
+      "text": "背部深蓝灰色，体侧银色带蓝色反光。",
+      "sourceIds": [
+        "S-V2-SC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应康氏马鲛 S. commerson 的成鱼条带色型；幼鱼另有点纹。马鲛俗名覆盖多种鱼，不能混为一种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SC-03",
+      "subjectId": "scomberomorus-commerson",
+      "text": "幼鱼常具斑点，不能把成鱼条带推广到所有年龄。",
+      "sourceIds": [
+        "S-V2-SC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应康氏马鲛 S. commerson 的成鱼条带色型；幼鱼另有点纹。马鲛俗名覆盖多种鱼，不能混为一种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SG-01",
+      "subjectId": "scarus-ghobban",
+      "text": "鹦嘴鱼的齿形成齿板，唇多覆盖齿板。",
+      "sourceIds": [
+        "S-V2-SG"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SG-02",
+      "subjectId": "scarus-ghobban",
+      "text": "初始阶段多黄至橙褐并有蓝色嘴眼条带；终末阶段雄鱼多蓝绿、鳞缘粉色。",
+      "sourceIds": [
+        "S-V2-SG"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SG-03",
+      "subjectId": "scarus-ghobban",
+      "text": "刮食底栖藻类及死珊瑚表面碎屑。",
+      "sourceIds": [
+        "S-V2-SG"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PI-01",
+      "subjectId": "pomacanthus-imperator",
+      "text": "成鱼身体具黄色和紫蓝色斜纹。",
+      "sourceIds": [
+        "S-V2-PI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "插画明确为成鱼；幼鱼圆环仅由亲子文字介绍，不能从成鱼插画直接找到。不同鱼龄画面后续可独立制作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PI-02",
+      "subjectId": "pomacanthus-imperator",
+      "text": "成鱼有覆盖眼部的弯曲黑带。",
+      "sourceIds": [
+        "S-V2-PI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "插画明确为成鱼；幼鱼圆环仅由亲子文字介绍，不能从成鱼插画直接找到。不同鱼龄画面后续可独立制作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PI-03",
+      "subjectId": "pomacanthus-imperator",
+      "text": "幼鱼蓝黑色，身体后部有白环，外围是不完整蓝白圈。",
+      "sourceIds": [
+        "S-V2-PI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "插画明确为成鱼；幼鱼圆环仅由亲子文字介绍，不能从成鱼插画直接找到。不同鱼龄画面后续可独立制作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TL-01",
+      "subjectId": "trichiurus-lepturus",
+      "text": "身体极延长、侧扁，逐渐变细直至尖端。",
+      "sourceIds": [
+        "S-V2-TL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "限定 T. lepturus 示例；带鱼涉及相似物种复合群，不声称餐桌带鱼全为本种。闭口、完整活鱼示意；没有给它补上不存在的扇尾。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TL-02",
+      "subjectId": "trichiurus-lepturus",
+      "text": "尾鳍与腹鳍缺失。",
+      "sourceIds": [
+        "S-V2-TL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "限定 T. lepturus 示例；带鱼涉及相似物种复合群，不声称餐桌带鱼全为本种。闭口、完整活鱼示意；没有给它补上不存在的扇尾。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TL-03",
+      "subjectId": "trichiurus-lepturus",
+      "text": "背鳍高且基部很长，臀鳍缩为微小棘突。",
+      "sourceIds": [
+        "S-V2-TL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "限定 T. lepturus 示例；带鱼涉及相似物种复合群，不声称餐桌带鱼全为本种。闭口、完整活鱼示意；没有给它补上不存在的扇尾。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "OC-01",
+      "subjectId": "ostracion-cubicus",
+      "text": "身体呈箱形。",
+      "sourceIds": [
+        "S-V2-OC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本图选幼鱼亮黄黑点色型。箱鲀不是充气后的河鲀，没有加入角箱鲀的额角；成长变化不以当前一张图证明。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "OC-02",
+      "subjectId": "ostracion-cubicus",
+      "text": "幼鱼亮黄色，具黑色斑点。",
+      "sourceIds": [
+        "S-V2-OC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本图选幼鱼亮黄黑点色型。箱鲀不是充气后的河鲀，没有加入角箱鲀的额角；成长变化不以当前一张图证明。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "OC-03",
+      "subjectId": "ostracion-cubicus",
+      "text": "随成长黑点相对变小，体色可偏褐，点可变成带黑边的白点。",
+      "sourceIds": [
+        "S-V2-OC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本图选幼鱼亮黄黑点色型。箱鲀不是充气后的河鲀，没有加入角箱鲀的额角；成长变化不以当前一张图证明。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "HK-01",
+      "subjectId": "hippocampus-kuda",
+      "text": "海马用可抓握尾巴固定身体。",
+      "sourceIds": [
+        "S-V2-HK"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "NParks 页面以 Hippocampus spp. 汇总，明确提到 H. kuda 河口海草栖所；育儿与抓握尾为海马类群知识。黄褐色是艺术选择，图不作相似海马的精确分类依据。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "HK-02",
+      "subjectId": "hippocampus-kuda",
+      "text": "河口海马主要生活于海草区，通常在河口附近。",
+      "sourceIds": [
+        "S-V2-HK"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "NParks 页面以 Hippocampus spp. 汇总，明确提到 H. kuda 河口海草栖所；育儿与抓握尾为海马类群知识。黄褐色是艺术选择，图不作相似海马的精确分类依据。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "HK-03",
+      "subjectId": "hippocampus-kuda",
+      "text": "雄海马腹部具育儿袋，雌鱼把卵放入袋中。",
+      "sourceIds": [
+        "S-V2-HK"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "NParks 页面以 Hippocampus spp. 汇总，明确提到 H. kuda 河口海草栖所；育儿与抓握尾为海马类群知识。黄褐色是艺术选择，图不作相似海马的精确分类依据。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "GM-01",
+      "subjectId": "gadus-morhua",
+      "text": "下颌下有明显触须。",
+      "sourceIds": [
+        "S-V2-GM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鳕鱼俗名不只一种。本卡明确为北大西洋 Gadus morhua；不能放进新加坡珊瑚礁并宣称当地自然分布。选择橄榄褐色示意。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "GM-02",
+      "subjectId": "gadus-morhua",
+      "text": "通常头、鳍、尾和体表具深色小斑，腹部浅色且通常无斑。",
+      "sourceIds": [
+        "S-V2-GM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鳕鱼俗名不只一种。本卡明确为北大西洋 Gadus morhua；不能放进新加坡珊瑚礁并宣称当地自然分布。选择橄榄褐色示意。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "GM-03",
+      "subjectId": "gadus-morhua",
+      "text": "具有明显侧线。",
+      "sourceIds": [
+        "S-V2-GM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鳕鱼俗名不只一种。本卡明确为北大西洋 Gadus morhua；不能放进新加坡珊瑚礁并宣称当地自然分布。选择橄榄褐色示意。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TA-01",
+      "subjectId": "thunnus-albacares",
+      "text": "身体呈鱼雷形。",
+      "sourceIds": [
+        "S-V2-TA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应 T. albacares，采用长黄鳍成鱼近似图。NOAA 该页关注大西洋种群，不将其管理规则泛化为全球；图片体形不证明速度纪录。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TA-02",
+      "subjectId": "thunnus-albacares",
+      "text": "背鳍、臀鳍及小鳍鲜黄色，长黄色背鳍是识别特征。",
+      "sourceIds": [
+        "S-V2-TA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应 T. albacares，采用长黄鳍成鱼近似图。NOAA 该页关注大西洋种群，不将其管理规则泛化为全球；图片体形不证明速度纪录。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TA-03",
+      "subjectId": "thunnus-albacares",
+      "text": "背和体侧上部金属深蓝，腹侧由黄色过渡到银色。",
+      "sourceIds": [
+        "S-V2-TA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应 T. albacares，采用长黄鳍成鱼近似图。NOAA 该页关注大西洋种群，不将其管理规则泛化为全球；图片体形不证明速度纪录。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "MB-01",
+      "subjectId": "mobula-birostris",
+      "text": "身体菱形，两侧有伸展的翼状胸鳍。",
+      "sourceIds": [
+        "S-V2-MB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "采用背面稍斜的宽幅黑背示意，区别于侧视硬骨鱼；没有腹面斑点图供个体辨识。蝠鲼用于观察、入海与创作灵感，当前不进入普通钓鱼池。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "MB-02",
+      "subjectId": "mobula-birostris",
+      "text": "嘴宽且位于头前方，有一对帮助导水取食的头鳍。",
+      "sourceIds": [
+        "S-V2-MB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "采用背面稍斜的宽幅黑背示意，区别于侧视硬骨鱼；没有腹面斑点图供个体辨识。蝠鲼用于观察、入海与创作灵感，当前不进入普通钓鱼池。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "MB-03",
+      "subjectId": "mobula-birostris",
+      "text": "为滤食性，主要食物包含浮游动物。",
+      "sourceIds": [
+        "S-V2-MB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "采用背面稍斜的宽幅黑背示意，区别于侧视硬骨鱼；没有腹面斑点图供个体辨识。蝠鲼用于观察、入海与创作灵感，当前不进入普通钓鱼池。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    }
+  ],
+  "fish": [
+    {
+      "id": "epinephelus-coioides",
+      "prefix": "EC",
+      "name": "橙点石斑",
+      "formalName": "橙点石斑",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "这条石斑鱼，穿着橙色点点的衣服。",
+        [
+          "EC-01"
+        ]
+      ],
+      "invite": "你的鱼想穿圆点、斜带，还是两种都有？",
+      "parent": "选择橙褐点成鱼示意；斑点相对大小随成长变化。来源英文 Cod 在这里指石斑，不是大西洋鳕。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "DOTS",
+          "橙色点点",
+          "身上有许多橙褐色小点。",
+          [
+            "EC-01"
+          ],
+          0.48,
+          0.43
+        ],
+        [
+          "BANDS",
+          "斜斜的带子",
+          "身上还有斜斜的深色带子。",
+          [
+            "EC-02"
+          ],
+          0.59,
+          0.5
+        ],
+        [
+          "YOUNG",
+          "小时候的家",
+          "小鱼会住在河口。",
+          [
+            "EC-03"
+          ],
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "id": "plectropomus-leopardus",
+      "prefix": "PL",
+      "name": "东星斑",
+      "formalName": "东星斑",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "看看这条红色的石斑鱼，蓝点好漂亮。",
+        [
+          "PL-01"
+        ]
+      ],
+      "invite": "你的鱼想把蓝点放在什么颜色上？",
+      "parent": "东星斑是孩子入口工作名，本卡只对应 Plectropomus leopardus。选择红色成鱼；颜色不是固定身份标签。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "DOTS",
+          "蓝色小点",
+          "红色衣服上，还有蓝色小点。",
+          [
+            "PL-01"
+          ],
+          0.48,
+          0.42
+        ],
+        [
+          "COLOR",
+          "不同的颜色",
+          "它也可以是绿褐色的。",
+          [
+            "PL-02"
+          ],
+          0.38,
+          0.54
+        ],
+        [
+          "TAIL",
+          "尾巴的浅边",
+          "尾巴中间的鳍条，常有浅色边。",
+          [
+            "PL-03"
+          ],
+          0.85,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "epinephelus-fuscoguttatus",
+      "prefix": "EF",
+      "name": "老虎斑",
+      "formalName": "老虎斑",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "这条石斑鱼，身上是大斑和小点。",
+        [
+          "EF-01"
+        ]
+      ],
+      "invite": "用大斑块和小点，设计一件花衣服吧。",
+      "parent": "老虎斑为工作名；画的是 E. fuscoguttatus 成鱼近似色型，不能把市场商品名当成所有石斑的精确鉴定。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "PATTERN",
+          "大斑与小点",
+          "大块深色斑里，还有小小的点。",
+          [
+            "EF-01"
+          ],
+          0.48,
+          0.48
+        ],
+        [
+          "SPOT",
+          "尾根的黑块",
+          "尾巴根部上面，有一块黑色。",
+          [
+            "EF-02"
+          ],
+          0.79,
+          0.39
+        ],
+        [
+          "YOUNG",
+          "小鱼与海草",
+          "小时候，它也会住在海草间。",
+          [
+            "EF-03"
+          ],
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "id": "epinephelus-merra",
+      "prefix": "EM",
+      "name": "蜂窝石斑",
+      "formalName": "蜂窝石斑",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "看看它的花纹，像一片小蜂窝。",
+        [
+          "EM-01"
+        ]
+      ],
+      "invite": "试试格子、拼图块，再留一些浅色缝隙。",
+      "parent": "蜂窝石斑是工作名。小型石斑的蜂窝纹具有观察价值，但相似种仍需专业鉴定，不能只凭图认种。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "PATTERN",
+          "蜂窝花纹",
+          "这些褐色花纹，像一个个小格子。",
+          [
+            "EM-01"
+          ],
+          0.48,
+          0.43
+        ],
+        [
+          "BODY",
+          "肚子上的间隔",
+          "到了肚子，点点之间的空隙更大。",
+          [
+            "EM-02"
+          ],
+          0.49,
+          0.63
+        ],
+        [
+          "TAIL",
+          "圆圆的尾巴",
+          "尾巴的边，圆圆的。",
+          [
+            "EM-03"
+          ],
+          0.86,
+          0.51
+        ]
+      ]
+    },
+    {
+      "id": "epinephelus-lanceolatus",
+      "prefix": "EL",
+      "name": "龙趸",
+      "formalName": "龙趸",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "这是一条大石斑，叫龙趸。",
+        [
+          "EL-01"
+        ]
+      ],
+      "invite": "如果你的鱼长大换衣服，你想画哪两套？",
+      "parent": "画的是成鱼灰褐示意，不混用幼鱼黑黄色。记录最大体型与常见体型是不同概念，此卡不让所有鱼都成为纪录巨鱼。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "MOUTH",
+          "大大的嘴",
+          "看看它的大嘴巴。",
+          [
+            "EL-01"
+          ],
+          0.13,
+          0.53
+        ],
+        [
+          "COLOR",
+          "长大换衣服",
+          "小鱼黑黄相间，长大后颜色会变。",
+          [
+            "EL-02"
+          ],
+          0.48,
+          0.47
+        ],
+        [
+          "FINS",
+          "鳍上的黑点",
+          "它的鳍上，有很多小黑点。",
+          [
+            "EL-03"
+          ],
+          0.6,
+          0.3
+        ]
+      ]
+    },
+    {
+      "id": "cephalopholis-argus",
+      "prefix": "CA",
+      "name": "蓝点石斑",
+      "formalName": "蓝点石斑",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "这条褐色的石斑鱼，也有蓝点。",
+        [
+          "CA-01"
+        ]
+      ],
+      "invite": "同样的蓝点，放在红色和褐色上，有什么不同？",
+      "parent": "蓝点石斑为工作名，仅对应 C. argus。画选绿褐底色、淡后部带纹；条带显现有条件。与红色东星斑分开比较。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "DOTS",
+          "有深边的蓝点",
+          "蓝点外面，还有一圈深色边。",
+          [
+            "CA-01"
+          ],
+          0.48,
+          0.45
+        ],
+        [
+          "SPOT",
+          "胸鳍前的浅色",
+          "胸鳍前面，有一片浅色。",
+          [
+            "CA-02"
+          ],
+          0.31,
+          0.52
+        ],
+        [
+          "BANDS",
+          "淡淡的带子",
+          "有时候，身体后面还有浅色带子。",
+          [
+            "CA-03"
+          ],
+          0.66,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "caranx-ignobilis",
+      "prefix": "CI",
+      "name": "GT 大鲹",
+      "formalName": "GT 大鲹",
+      "group": "nearshore",
+      "habitat": "nearshore",
+      "intro": [
+        "这是大鲹，钓鱼的人也叫它 GT。",
+        [
+          "CI-01"
+        ]
+      ],
+      "invite": "给你的鱼画一个陡陡的额头，再试试平一点的。",
+      "parent": "GT 是英文俗名 Giant Trevally 的简称。选择银色成鱼示意；强壮外形不自动转成孩子必须更难的操作。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "BODY",
+          "陡陡的额头",
+          "看看额头，陡陡的。",
+          [
+            "CI-01"
+          ],
+          0.25,
+          0.34
+        ],
+        [
+          "COLOR",
+          "银色的身体",
+          "它可以是银色，也可以更深。",
+          [
+            "CI-02"
+          ],
+          0.48,
+          0.46
+        ],
+        [
+          "SCALES",
+          "硬硬的小鳞",
+          "身体侧面后半段，还有一排硬硬的小鳞。",
+          [
+            "CI-03"
+          ],
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "id": "sphyraena-barracuda",
+      "prefix": "SB",
+      "name": "海狼 · 大魣",
+      "formalName": "海狼 · 大魣",
+      "group": "nearshore",
+      "habitat": "nearshore",
+      "intro": [
+        "看看海狼，身体好长呀。",
+        [
+          "SB-01"
+        ]
+      ],
+      "invite": "把鱼拉成长条，再给两片鳍留一点距离。",
+      "parent": "海狼是多义俗名，本卡限定大魣 S. barracuda。闭口插画强调形状和鳍，不夸张表现牙齿；不是所有魣都画同样黑点。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "BODY",
+          "长长的身体",
+          "它的身体，细细长长的。",
+          [
+            "SB-01"
+          ],
+          0.48,
+          0.49
+        ],
+        [
+          "FINS",
+          "分开的背鳍",
+          "背上这两片鳍，隔得很远。",
+          [
+            "SB-02"
+          ],
+          0.69,
+          0.36
+        ],
+        [
+          "SPOT",
+          "下边的黑点",
+          "身体下边，还有一些黑点。",
+          [
+            "SB-03"
+          ],
+          0.55,
+          0.56
+        ]
+      ]
+    },
+    {
+      "id": "lates-calcarifer",
+      "prefix": "LC",
+      "name": "亚洲海鲈",
+      "formalName": "亚洲海鲈",
+      "group": "nearshore",
+      "habitat": "nearshore",
+      "intro": [
+        "这条银色的鱼，叫亚洲海鲈。",
+        [
+          "LC-01"
+        ]
+      ],
+      "invite": "给你的鱼换一条圆尾巴，再试试分叉尾巴。",
+      "parent": "选择银色成鱼示意；幼鱼有不同斑纹。亚洲海鲈 Lates calcarifer 与欧洲海鲈是不同物种，不共用学名卡。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "MOUTH",
+          "大嘴巴",
+          "它的嘴巴，一直伸到眼睛后面。",
+          [
+            "LC-01"
+          ],
+          0.2,
+          0.52
+        ],
+        [
+          "TAIL",
+          "圆尾巴",
+          "看看尾巴，是圆圆的扇形。",
+          [
+            "LC-02"
+          ],
+          0.85,
+          0.5
+        ],
+        [
+          "HOME",
+          "河口与河流",
+          "它也能在河口和河流生活。",
+          [
+            "LC-03"
+          ],
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "id": "scomberomorus-commerson",
+      "prefix": "SC",
+      "name": "康氏马鲛",
+      "formalName": "康氏马鲛",
+      "group": "nearshore",
+      "habitat": "nearshore",
+      "intro": [
+        "这条马鲛鱼，穿着细细的波纹。",
+        [
+          "SC-01"
+        ]
+      ],
+      "invite": "你的鱼想画直线，还是弯弯的波浪？",
+      "parent": "本卡对应康氏马鲛 S. commerson 的成鱼条带色型；幼鱼另有点纹。马鲛俗名覆盖多种鱼，不能混为一种。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "BANDS",
+          "细细的波纹",
+          "身上有好多细细的波浪带子。",
+          [
+            "SC-01"
+          ],
+          0.48,
+          0.46
+        ],
+        [
+          "COLOR",
+          "蓝灰与银色",
+          "背上蓝灰，身体侧边银亮亮。",
+          [
+            "SC-02"
+          ],
+          0.47,
+          0.37
+        ],
+        [
+          "YOUNG",
+          "小鱼的花纹",
+          "小时候，常常是点点花纹。",
+          [
+            "SC-03"
+          ],
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "id": "scarus-ghobban",
+      "prefix": "SG",
+      "name": "蓝纹鹦嘴鱼",
+      "formalName": "蓝纹鹦嘴鱼",
+      "group": "colourReef",
+      "habitat": "reef",
+      "intro": [
+        "这是一条鹦嘴鱼，看看它的嘴。",
+        [
+          "SG-01"
+        ]
+      ],
+      "invite": "把小喙和彩色花纹，画到你自己的鱼上。",
+      "parent": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "MOUTH",
+          "像喙的嘴",
+          "它的嘴，像小鸟的喙。",
+          [
+            "SG-01"
+          ],
+          0.19,
+          0.5
+        ],
+        [
+          "COLOR",
+          "两套花衣服",
+          "不同成长阶段，花衣服不一样。",
+          [
+            "SG-02"
+          ],
+          0.47,
+          0.45
+        ],
+        [
+          "FOOD",
+          "刮食藻类",
+          "它会刮着吃藻类。",
+          [
+            "SG-03"
+          ],
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "id": "pomacanthus-imperator",
+      "prefix": "PI",
+      "name": "帝王神仙鱼",
+      "formalName": "帝王神仙鱼",
+      "group": "colourReef",
+      "habitat": "reef",
+      "intro": [
+        "这条神仙鱼，穿着蓝黄条纹。",
+        [
+          "PI-01"
+        ]
+      ],
+      "invite": "试试条纹，再给小鱼设计另一套圆环衣服。",
+      "parent": "插画明确为成鱼；幼鱼圆环仅由亲子文字介绍，不能从成鱼插画直接找到。不同鱼龄画面后续可独立制作。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "BANDS",
+          "蓝黄条纹",
+          "蓝色和黄色，排成一条条。",
+          [
+            "PI-01"
+          ],
+          0.48,
+          0.46
+        ],
+        [
+          "SPOT",
+          "眼睛的黑带",
+          "眼睛这里，有一条弯弯的黑带。",
+          [
+            "PI-02"
+          ],
+          0.26,
+          0.4
+        ],
+        [
+          "YOUNG",
+          "小鱼的圆环",
+          "小时候，它穿的是圆环花纹。",
+          [
+            "PI-03"
+          ],
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "id": "trichiurus-lepturus",
+      "prefix": "TL",
+      "name": "大头带鱼",
+      "formalName": "大头带鱼",
+      "group": "unusualShape",
+      "habitat": "nearshore",
+      "intro": [
+        "看看带鱼，像一条银色的长带子。",
+        [
+          "TL-01"
+        ]
+      ],
+      "invite": "画一条长长的鱼，末端可以尖尖的，也可以自由想象。",
+      "parent": "限定 T. lepturus 示例；带鱼涉及相似物种复合群，不声称餐桌带鱼全为本种。闭口、完整活鱼示意；没有给它补上不存在的扇尾。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "BODY",
+          "像一条带子",
+          "它的身体，又长又扁。",
+          [
+            "TL-01"
+          ],
+          0.46,
+          0.51
+        ],
+        [
+          "TAIL",
+          "尖尖的末端",
+          "身体末端尖尖的，没有扇形尾鳍。",
+          [
+            "TL-02"
+          ],
+          0.93,
+          0.53
+        ],
+        [
+          "FIN",
+          "长长的背鳍",
+          "背上的鳍，沿着身体排得很长。",
+          [
+            "TL-03"
+          ],
+          0.47,
+          0.41
+        ]
+      ]
+    },
+    {
+      "id": "ostracion-cubicus",
+      "prefix": "OC",
+      "name": "黄箱鲀",
+      "formalName": "黄箱鲀",
+      "group": "unusualShape",
+      "habitat": "reef",
+      "intro": [
+        "这是黄箱鲀，像个黄色小盒子。",
+        [
+          "OC-01"
+        ]
+      ],
+      "invite": "你的鱼可以是盒子形，也可以试试圆球形。",
+      "parent": "本图选幼鱼亮黄黑点色型。箱鲀不是充气后的河鲀，没有加入角箱鲀的额角；成长变化不以当前一张图证明。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "BODY",
+          "盒子身体",
+          "身体像一个小盒子。",
+          [
+            "OC-01"
+          ],
+          0.49,
+          0.51
+        ],
+        [
+          "DOTS",
+          "黄衣黑点",
+          "黄色衣服上，有黑色圆点。",
+          [
+            "OC-02"
+          ],
+          0.48,
+          0.4
+        ],
+        [
+          "GROW",
+          "长大变化",
+          "长大以后，颜色和点点会变化。",
+          [
+            "OC-03"
+          ],
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "id": "hippocampus-kuda",
+      "prefix": "HK",
+      "name": "河口海马",
+      "formalName": "河口海马",
+      "group": "unusualShape",
+      "habitat": "nearshore",
+      "intro": [
+        "海马也是鱼，看它弯弯的尾巴。",
+        [
+          "HK-01"
+        ]
+      ],
+      "invite": "画一条卷卷的尾巴，再选一个海草旁的家。",
+      "parent": "NParks 页面以 Hippocampus spp. 汇总，明确提到 H. kuda 河口海草栖所；育儿与抓握尾为海马类群知识。黄褐色是艺术选择，图不作相似海马的精确分类依据。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "TAIL",
+          "能抓住的尾巴",
+          "弯弯的尾巴，能抓住东西。",
+          [
+            "HK-01"
+          ],
+          0.52,
+          0.85
+        ],
+        [
+          "HOME",
+          "海草的家",
+          "这种海马，常住在河口附近的海草间。",
+          [
+            "HK-02"
+          ],
+          null,
+          null
+        ],
+        [
+          "BABY",
+          "爸爸的育儿袋",
+          "鱼爸爸，有一个装鱼卵的育儿袋。",
+          [
+            "HK-03"
+          ],
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "id": "gadus-morhua",
+      "prefix": "GM",
+      "name": "大西洋鳕",
+      "formalName": "大西洋鳕",
+      "group": "worldSeas",
+      "habitat": "world",
+      "intro": [
+        "这条鱼，叫大西洋鳕。看看下巴的小须。",
+        [
+          "GM-01"
+        ]
+      ],
+      "invite": "给你的鱼画一根小须，再画一条身体侧面的线。",
+      "parent": "鳕鱼俗名不只一种。本卡明确为北大西洋 Gadus morhua；不能放进新加坡珊瑚礁并宣称当地自然分布。选择橄榄褐色示意。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "MOUTH",
+          "下巴的小须",
+          "下巴下面，有一根小小的须。",
+          [
+            "GM-01"
+          ],
+          0.045,
+          0.62
+        ],
+        [
+          "PATTERN",
+          "深点与浅肚子",
+          "身上有深色点，肚子却浅浅的。",
+          [
+            "GM-02"
+          ],
+          0.48,
+          0.5
+        ],
+        [
+          "BODY",
+          "身体上的线",
+          "身体侧面，还有一条长长的线。",
+          [
+            "GM-03"
+          ],
+          0.53,
+          0.42
+        ]
+      ]
+    },
+    {
+      "id": "thunnus-albacares",
+      "prefix": "TA",
+      "name": "黄鳍金枪鱼",
+      "formalName": "黄鳍金枪鱼",
+      "group": "worldSeas",
+      "habitat": "world",
+      "intro": [
+        "看黄鳍金枪鱼，它的鳍是黄色的。",
+        [
+          "TA-01"
+        ]
+      ],
+      "invite": "画一些小小的鳍，或者给大鳍换你喜欢的颜色。",
+      "parent": "本卡对应 T. albacares，采用长黄鳍成鱼近似图。NOAA 该页关注大西洋种群，不将其管理规则泛化为全球；图片体形不证明速度纪录。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "BODY",
+          "像一枚鱼雷",
+          "身体两头细，中间粗。",
+          [
+            "TA-01"
+          ],
+          0.48,
+          0.48
+        ],
+        [
+          "FINS",
+          "黄色的鳍",
+          "背鳍、臀鳍和后面的小鳍，是黄色的。",
+          [
+            "TA-02"
+          ],
+          0.66,
+          0.29
+        ],
+        [
+          "COLOR",
+          "蓝背与银肚",
+          "背上深蓝，肚子银亮亮。",
+          [
+            "TA-03"
+          ],
+          0.42,
+          0.56
+        ]
+      ]
+    },
+    {
+      "id": "mobula-birostris",
+      "prefix": "MB",
+      "name": "巨型蝠鲼",
+      "formalName": "巨型蝠鲼",
+      "group": "sharkRay",
+      "habitat": "world",
+      "intro": [
+        "这是巨型蝠鲼，它也是一种鱼。",
+        [
+          "MB-01"
+        ]
+      ],
+      "invite": "试试大翅膀一样的鳍，再自由设计头前的两片小叶子。",
+      "parent": "采用背面稍斜的宽幅黑背示意，区别于侧视硬骨鱼；没有腹面斑点图供个体辨识。蝠鲼用于观察、入海与创作灵感，当前不进入普通钓鱼池。",
+      "commonNameStatus": "working-name",
+      "points": [
+        [
+          "FINS",
+          "像翅膀的鳍",
+          "大大的胸鳍，像一对翅膀。",
+          [
+            "MB-01"
+          ],
+          0.21,
+          0.4
+        ],
+        [
+          "MOUTH",
+          "头前的小叶片",
+          "嘴巴前面，有两片小小的头鳍。",
+          [
+            "MB-02"
+          ],
+          0.4,
+          0.09
+        ],
+        [
+          "FOOD",
+          "过滤小食物",
+          "它会从水里，过滤浮游小动物。",
+          [
+            "MB-03"
+          ],
+          null,
+          null
+        ]
+      ]
+    }
+  ]
+}

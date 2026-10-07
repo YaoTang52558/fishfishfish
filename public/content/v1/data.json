@@ -1,0 +1,5794 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-06",
+  "fish": [
+    {
+      "id": "amphiprion-ocellaris",
+      "prefix": "AO",
+      "name": "小丑鱼",
+      "formalName": "眼斑双锯鱼",
+      "habitat": "reef",
+      "intro": [
+        "这是一条小丑鱼，看看它的白带。",
+        [
+          "AO-01",
+          "AO-02"
+        ]
+      ],
+      "invite": "你的鱼想画几条带子？也可以画成弯弯的。",
+      "parent": "这里画的是常见橙色型。海葵配对只指本页的明确物种；不是所有鱼都能进入所有海葵。",
+      "points": [
+        {
+          "key": "BANDS",
+          "label": "三条白带",
+          "text": "它的头、身体中间和尾根，各有一条白带。",
+          "factIds": [
+            "AO-02"
+          ],
+          "x": 0.48,
+          "y": 0.46,
+          "audio": "audio/vo-ao-bands.wav"
+        },
+        {
+          "key": "FINS",
+          "label": "鳍的颜色",
+          "text": "看，它的鳍上还有黑色。",
+          "factIds": [
+            "AO-02"
+          ],
+          "x": 0.53,
+          "y": 0.29,
+          "audio": "audio/vo-ao-fins.wav"
+        },
+        {
+          "key": "HOME",
+          "label": "海葵伙伴",
+          "text": "这种小丑鱼，会和这种海葵一起生活。",
+          "factIds": [
+            "AO-03",
+            "RM-01"
+          ],
+          "x": 0.23,
+          "y": 0.54,
+          "audio": "audio/vo-ao-home.wav"
+        }
+      ],
+      "scientificName": "Amphiprion ocellaris",
+      "image": "illustrations/amphiprion-ocellaris.webp",
+      "introAudio": "audio/vo-ao-intro.wav",
+      "factIds": [
+        "AO-01",
+        "AO-02",
+        "AO-03",
+        "RM-01",
+        "AO-04"
+      ],
+      "sourceIds": [
+        "S-WORMS-CLOWN",
+        "S-AM-CLOWN",
+        "S-FM-CLOWN",
+        "S-WORMS-ANEMONE",
+        "S-WORMS-IMAGE"
+      ]
+    },
+    {
+      "id": "forcipiger-flavissimus",
+      "prefix": "FF",
+      "name": "黄镊口鱼",
+      "formalName": "黄镊口鱼",
+      "habitat": "reef",
+      "intro": [
+        "看，这条鱼有一张细长的嘴。",
+        [
+          "FF-01"
+        ]
+      ],
+      "invite": "试着给你的鱼画一张长嘴，再试试短嘴。",
+      "parent": "长嘴与探礁缝取食有依据；并不代表所有长嘴鱼都吃同一种食物。黑点在臀鳍而非眼睛或尾鳍。",
+      "points": [
+        {
+          "key": "MOUTH",
+          "label": "长长的嘴",
+          "text": "它会到珊瑚枝和礁缝里找食物。",
+          "factIds": [
+            "FF-03"
+          ],
+          "x": 0.2,
+          "y": 0.42,
+          "audio": "audio/vo-ff-mouth.wav"
+        },
+        {
+          "key": "SPOT",
+          "label": "鳍上的黑点",
+          "text": "找找尾根下方的鳍，上面有一个黑点。",
+          "factIds": [
+            "FF-02"
+          ],
+          "x": 0.67,
+          "y": 0.67,
+          "audio": "audio/vo-ff-spot.wav"
+        },
+        {
+          "key": "PAIR",
+          "label": "一起活动",
+          "text": "它们常常两条一起，也会单独出现。",
+          "factIds": [
+            "FF-05"
+          ],
+          "x": 0.48,
+          "y": 0.47,
+          "audio": "audio/vo-ff-pair.wav"
+        }
+      ],
+      "scientificName": "Forcipiger flavissimus",
+      "image": "illustrations/forcipiger-flavissimus.webp",
+      "introAudio": "audio/vo-ff-intro.wav",
+      "factIds": [
+        "FF-01",
+        "FF-03",
+        "FF-02",
+        "FF-05",
+        "FF-04"
+      ],
+      "sourceIds": [
+        "S-AM-FORCEPS",
+        "S-WA-FORCEPS"
+      ]
+    },
+    {
+      "id": "arothron-hispidus",
+      "prefix": "AH",
+      "name": "白点河鲀",
+      "formalName": "纹腹叉鼻鲀",
+      "habitat": "reef",
+      "intro": [
+        "这条鱼圆圆的，身上有点点和线条。",
+        [
+          "AH-01",
+          "AH-03"
+        ]
+      ],
+      "invite": "上面画点点，下面画线条，或者换一种你喜欢的组合。",
+      "parent": "展示正常未膨胀状态。花纹与嘴形有证据；“气囊”旧说法不进入新内容，不靠画面推断游速或膨胀机制。",
+      "points": [
+        {
+          "key": "PATTERN",
+          "label": "点点与线条",
+          "text": "上面是白点，下面是浅色线条。",
+          "factIds": [
+            "AH-01"
+          ],
+          "x": 0.5,
+          "y": 0.4,
+          "audio": "audio/vo-ah-pattern.wav"
+        },
+        {
+          "key": "RINGS",
+          "label": "深浅圆环",
+          "text": "看胸鳍根部，一圈深，一圈浅。",
+          "factIds": [
+            "AH-02"
+          ],
+          "x": 0.36,
+          "y": 0.56,
+          "audio": "audio/vo-ah-rings.wav"
+        },
+        {
+          "key": "MOUTH",
+          "label": "小小的喙",
+          "text": "它的嘴，像一个小喙。",
+          "factIds": [
+            "AH-04"
+          ],
+          "x": 0.2,
+          "y": 0.55,
+          "audio": "audio/vo-ah-mouth.wav"
+        }
+      ],
+      "scientificName": "Arothron hispidus",
+      "image": "illustrations/arothron-hispidus.webp",
+      "introAudio": "audio/vo-ah-intro.wav",
+      "factIds": [
+        "AH-01",
+        "AH-03",
+        "AH-02",
+        "AH-04",
+        "AH-05"
+      ],
+      "sourceIds": [
+        "S-AM-PUFFER"
+      ]
+    },
+    {
+      "id": "zebrasoma-flavescens",
+      "prefix": "ZF",
+      "name": "黄刺尾鱼",
+      "formalName": "黄高鳍刺尾鱼",
+      "habitat": "reef",
+      "intro": [
+        "这条鱼，白天常常是亮黄色的。",
+        [
+          "ZF-01"
+        ]
+      ],
+      "invite": "你的鱼在白天和晚上，要穿一样的颜色吗？",
+      "parent": "图画白天色型；夜间颜色与条带不能用当前静态图直接观察。它主要吃藻类，鱼饵权重属于游戏设定。",
+      "points": [
+        {
+          "key": "TAIL",
+          "label": "尾根的白刺",
+          "text": "看看尾巴根部，这里有一根白色的小刺。",
+          "factIds": [
+            "ZF-01"
+          ],
+          "x": 0.7,
+          "y": 0.51,
+          "audio": "audio/vo-zf-tail.wav"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃藻类",
+          "text": "它会啃食藻类。",
+          "factIds": [
+            "ZF-02"
+          ],
+          "x": 0.2,
+          "y": 0.49,
+          "audio": "audio/vo-zf-food.wav"
+        },
+        {
+          "key": "NIGHT",
+          "label": "夜晚的颜色",
+          "text": "到了晚上，黄色会变暗，身体中间会出现白带。",
+          "factIds": [
+            "ZF-03"
+          ],
+          "x": 0.47,
+          "y": 0.47,
+          "audio": "audio/vo-zf-night.wav"
+        }
+      ],
+      "scientificName": "Zebrasoma flavescens",
+      "image": "illustrations/zebrasoma-flavescens.webp",
+      "introAudio": "audio/vo-zf-intro.wav",
+      "factIds": [
+        "ZF-01",
+        "ZF-02",
+        "ZF-03"
+      ],
+      "sourceIds": [
+        "S-WA-YELLOW"
+      ]
+    },
+    {
+      "id": "paracanthurus-hepatus",
+      "prefix": "PH",
+      "name": "蓝刺尾鱼",
+      "formalName": "黄尾副刺尾鱼",
+      "habitat": "reef",
+      "intro": [
+        "看看这条蓝色的鱼，还有黑色图案。",
+        [
+          "PH-01"
+        ]
+      ],
+      "invite": "给你的鱼选两种很不一样的颜色，再加一块大图案。",
+      "parent": "观察身体、尾鳍和食物；不把所有刺尾鱼都当作吃藻类。这里没有把尾柄刀片与有毒鳍刺混为同一个结构。",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "蓝与黑",
+          "text": "蓝色的身体上，有黑色图案。",
+          "factIds": [
+            "PH-01"
+          ],
+          "x": 0.5,
+          "y": 0.43,
+          "audio": "audio/vo-ph-body.wav"
+        },
+        {
+          "key": "TAIL",
+          "label": "黄色尾巴",
+          "text": "尾巴是黄色的，上下边缘有黑色。",
+          "factIds": [
+            "PH-02"
+          ],
+          "x": 0.76,
+          "y": 0.49,
+          "audio": "audio/vo-ph-tail.wav"
+        },
+        {
+          "key": "FOOD",
+          "label": "小小的食物",
+          "text": "它主要吃水里的浮游小动物。",
+          "factIds": [
+            "PH-03"
+          ],
+          "x": 0.2,
+          "y": 0.52,
+          "audio": "audio/vo-ph-food.wav"
+        }
+      ],
+      "scientificName": "Paracanthurus hepatus",
+      "image": "illustrations/paracanthurus-hepatus.webp",
+      "introAudio": "audio/vo-ph-intro.wav",
+      "factIds": [
+        "PH-01",
+        "PH-02",
+        "PH-03"
+      ],
+      "sourceIds": [
+        "S-AM-BLUE"
+      ]
+    },
+    {
+      "id": "zanclus-cornutus",
+      "prefix": "ZC",
+      "name": "角镰鱼",
+      "formalName": "角镰鱼",
+      "habitat": "reef",
+      "intro": [
+        "看看这条鱼，背鳍拖着长长的白丝。",
+        [
+          "ZC-01"
+        ]
+      ],
+      "invite": "画一条长鳍，或者画成好多短鳍，都可以。",
+      "parent": "长白丝是背鳍的一部分。成鱼眼前骨质突起仅在亲子事实里介绍，当前图不作为该微小结构的准确放大图。",
+      "points": [
+        {
+          "key": "FIN",
+          "label": "长长的背鳍",
+          "text": "背上的鳍，像一条长长的白丝。",
+          "factIds": [
+            "ZC-01"
+          ],
+          "x": 0.56,
+          "y": 0.26,
+          "audio": "audio/vo-zc-fin.wav"
+        },
+        {
+          "key": "BANDS",
+          "label": "两条黑带",
+          "text": "身体上有两条宽宽的黑带。",
+          "factIds": [
+            "ZC-02"
+          ],
+          "x": 0.48,
+          "y": 0.49,
+          "audio": "audio/vo-zc-bands.wav"
+        },
+        {
+          "key": "NOSE",
+          "label": "嘴前的黄色",
+          "text": "看看嘴巴前面，还有一块黄色。",
+          "factIds": [
+            "ZC-02"
+          ],
+          "x": 0.26,
+          "y": 0.47,
+          "audio": "audio/vo-zc-nose.wav"
+        }
+      ],
+      "scientificName": "Zanclus cornutus",
+      "image": "illustrations/zanclus-cornutus.webp",
+      "introAudio": "audio/vo-zc-intro.wav",
+      "factIds": [
+        "ZC-01",
+        "ZC-02",
+        "ZC-03"
+      ],
+      "sourceIds": [
+        "S-AM-IDOL"
+      ]
+    },
+    {
+      "id": "sebastes-schlegelii",
+      "prefix": "SS",
+      "name": "岩礁里的平鲉",
+      "formalName": "许氏平鲉",
+      "habitat": "rock",
+      "intro": [
+        "这条鱼，生活在近岸的岩礁。",
+        [
+          "SS-01"
+        ]
+      ],
+      "invite": "给你的鱼画几块不规则的斑点，再选一块石头旁的家。",
+      "parent": "本批核对栖所、幼鱼阶段与卵胎生。灰黑插画是外形近似，旧目录毒性与出生即会游的断言未作为已核对新内容；未使用该部分口播。",
+      "points": [
+        {
+          "key": "HOME",
+          "label": "岩礁的家",
+          "text": "它的家，在近岸的岩礁。",
+          "factIds": [
+            "SS-01"
+          ],
+          "x": 0.48,
+          "y": 0.53,
+          "audio": "audio/vo-ss-home.wav"
+        },
+        {
+          "key": "YOUNG",
+          "label": "小鱼与海藻",
+          "text": "小时候，它可以和漂浮的海藻一起出现。",
+          "factIds": [
+            "SS-02"
+          ],
+          "x": 0.32,
+          "y": 0.52,
+          "audio": "audio/vo-ss-young.wav"
+        },
+        {
+          "key": "BABY",
+          "label": "鱼宝宝",
+          "text": "它的宝宝，先在妈妈身体里发育。",
+          "factIds": [
+            "SS-03"
+          ],
+          "x": 0.58,
+          "y": 0.51,
+          "audio": "audio/vo-ss-baby.wav"
+        }
+      ],
+      "scientificName": "Sebastes schlegelii",
+      "image": "illustrations/sebastes-schlegelii.webp",
+      "introAudio": "audio/vo-ss-intro.wav",
+      "factIds": [
+        "SS-01",
+        "SS-02",
+        "SS-03"
+      ],
+      "sourceIds": [
+        "S-FB-ROCKFISH"
+      ]
+    },
+    {
+      "id": "acanthopagrus-schlegelii",
+      "prefix": "AS",
+      "name": "黑鲷",
+      "formalName": "黑棘鲷",
+      "habitat": "rock",
+      "intro": [
+        "这条鱼灰灰的，胸鳍却是橘黄色的。",
+        [
+          "AS-01"
+        ]
+      ],
+      "invite": "给灰色的鱼，加一块你喜欢的亮色。",
+      "parent": "黑棘鲷沿用项目中文名；台湾资料使用黑鲷。只展示来源支持的特征，不把性转变简化为每个个体必然发生。",
+      "points": [
+        {
+          "key": "FIN",
+          "label": "橘色胸鳍",
+          "text": "看看身体侧边的鳍，是橘黄色的。",
+          "factIds": [
+            "AS-01"
+          ],
+          "x": 0.37,
+          "y": 0.56,
+          "audio": "audio/vo-as-fin.wav"
+        },
+        {
+          "key": "TAIL",
+          "label": "分叉尾巴",
+          "text": "尾巴分成了上下两边。",
+          "factIds": [
+            "AS-02"
+          ],
+          "x": 0.77,
+          "y": 0.49,
+          "audio": "audio/vo-as-tail.wav"
+        },
+        {
+          "key": "HOME",
+          "label": "海湾与河口",
+          "text": "它也会生活在海湾和河口。",
+          "factIds": [
+            "AS-03"
+          ],
+          "x": 0.49,
+          "y": 0.5,
+          "audio": "audio/vo-as-home.wav"
+        }
+      ],
+      "scientificName": "Acanthopagrus schlegelii",
+      "image": "illustrations/acanthopagrus-schlegelii.webp",
+      "introAudio": "audio/vo-as-intro.wav",
+      "factIds": [
+        "AS-01",
+        "AS-02",
+        "AS-03"
+      ],
+      "sourceIds": [
+        "S-TW-BREAM"
+      ]
+    },
+    {
+      "id": "hexagrammos-otakii",
+      "prefix": "HO",
+      "name": "六线鱼",
+      "formalName": "大泷六线鱼",
+      "habitat": "rock",
+      "intro": [
+        "看看这条鱼，身体长长的。",
+        [
+          "HO-01"
+        ]
+      ],
+      "invite": "把你的鱼拉长一点，再试试短而圆的身体。",
+      "parent": "本批核对体形、岩岸栖所与雄鱼护卵；侧线数量和泳姿不从画面推断。它是温带物种，不称作新加坡本地鱼。",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "长长的身体",
+          "text": "它的身体，比圆圆的鱼更长。",
+          "factIds": [
+            "HO-01"
+          ],
+          "x": 0.49,
+          "y": 0.49,
+          "audio": "audio/vo-ho-body.wav"
+        },
+        {
+          "key": "HOME",
+          "label": "岩石海岸",
+          "text": "它会住在岩石海岸。",
+          "factIds": [
+            "HO-02"
+          ],
+          "x": 0.28,
+          "y": 0.54,
+          "audio": "audio/vo-ho-home.wav"
+        },
+        {
+          "key": "EGGS",
+          "label": "守护鱼卵",
+          "text": "鱼爸爸，会守护附在小石头上的卵。",
+          "factIds": [
+            "HO-03"
+          ],
+          "x": 0.63,
+          "y": 0.5,
+          "audio": "audio/vo-ho-eggs.wav"
+        }
+      ],
+      "scientificName": "Hexagrammos otakii",
+      "image": "illustrations/hexagrammos-otakii.webp",
+      "introAudio": "audio/vo-ho-intro.wav",
+      "factIds": [
+        "HO-01",
+        "HO-02",
+        "HO-03"
+      ],
+      "sourceIds": [
+        "S-FB-GREENLING"
+      ]
+    },
+    {
+      "id": "oplegnathus-fasciatus",
+      "prefix": "OF",
+      "name": "条石鲷",
+      "formalName": "条石鲷",
+      "habitat": "rock",
+      "intro": [
+        "看看这条鱼，有好多黑色带子。",
+        [
+          "OF-01"
+        ]
+      ],
+      "invite": "画宽带子、细带子，或者把它们变成彩虹色。",
+      "parent": "示意带纹明显的个体；七条包括眼部的一条，不要求儿童完成数数题。嘴是齿愈合形成的喙状结构。",
+      "points": [
+        {
+          "key": "BANDS",
+          "label": "七条黑带",
+          "text": "这些黑带里，有一条穿过眼睛。",
+          "factIds": [
+            "OF-01"
+          ],
+          "x": 0.43,
+          "y": 0.48,
+          "audio": "audio/vo-of-bands.wav"
+        },
+        {
+          "key": "MOUTH",
+          "label": "像喙的嘴",
+          "text": "它的牙齿连在一起，形成了像喙的嘴。",
+          "factIds": [
+            "OF-02"
+          ],
+          "x": 0.22,
+          "y": 0.53,
+          "audio": "audio/vo-of-mouth.wav"
+        },
+        {
+          "key": "YOUNG",
+          "label": "小鱼与海藻",
+          "text": "小鱼会跟着漂浮的海藻活动。",
+          "factIds": [
+            "OF-03"
+          ],
+          "x": 0.59,
+          "y": 0.48,
+          "audio": "audio/vo-of-young.wav"
+        }
+      ],
+      "scientificName": "Oplegnathus fasciatus",
+      "image": "illustrations/oplegnathus-fasciatus.webp",
+      "introAudio": "audio/vo-of-intro.wav",
+      "factIds": [
+        "OF-01",
+        "OF-02",
+        "OF-03"
+      ],
+      "sourceIds": [
+        "S-TW-KNIFEJAW"
+      ]
+    },
+    {
+      "id": "girella-punctata",
+      "prefix": "GP",
+      "name": "斑鱾",
+      "formalName": "斑鱾",
+      "habitat": "rock",
+      "intro": [
+        "靠近看看，这条鱼身上有小黑点。",
+        [
+          "GP-01"
+        ]
+      ],
+      "invite": "画一些很小的点，再画几个很大的点，看看有什么不同。",
+      "parent": "台湾资料中文名为瓜子鱲，项目沿用斑鱾。食性季节变化属于该区域资料；不当成全球各地相同的季节规律。",
+      "points": [
+        {
+          "key": "DOTS",
+          "label": "小小黑点",
+          "text": "鳞片上，有小小的黑点。",
+          "factIds": [
+            "GP-01"
+          ],
+          "x": 0.53,
+          "y": 0.42,
+          "audio": "audio/vo-gp-dots.wav"
+        },
+        {
+          "key": "FIN",
+          "label": "胸鳍根部",
+          "text": "胸鳍根部，还有一块深色斑。",
+          "factIds": [
+            "GP-02"
+          ],
+          "x": 0.36,
+          "y": 0.54,
+          "audio": "audio/vo-gp-fin.wav"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃些什么",
+          "text": "它吃藻类，也吃一些小生物。",
+          "factIds": [
+            "GP-03"
+          ],
+          "x": 0.2,
+          "y": 0.52,
+          "audio": "audio/vo-gp-food.wav"
+        }
+      ],
+      "scientificName": "Girella punctata",
+      "image": "illustrations/girella-punctata.webp",
+      "introAudio": "audio/vo-gp-intro.wav",
+      "factIds": [
+        "GP-01",
+        "GP-02",
+        "GP-03"
+      ],
+      "sourceIds": [
+        "S-TW-GIRELLA"
+      ]
+    },
+    {
+      "id": "sebastiscus-marmoratus",
+      "prefix": "SM",
+      "name": "褐菖鲉",
+      "formalName": "褐菖鲉",
+      "habitat": "rock",
+      "intro": [
+        "看看岩礁里的这条鱼，这张图选了红褐色。",
+        [
+          "SM-01",
+          "SM-02"
+        ]
+      ],
+      "invite": "给你的鱼混合两种颜色，画出不规则的花纹。",
+      "parent": "颜色有个体和环境条件变化，红褐色是插画选择。尾部按大体轮廓示意，不认证旧资料中的精确横带数。",
+      "points": [
+        {
+          "key": "COLOR",
+          "label": "变化的颜色",
+          "text": "它的颜色，会随着生活条件有所不同。",
+          "factIds": [
+            "SM-01"
+          ],
+          "x": 0.49,
+          "y": 0.46,
+          "audio": "audio/vo-sm-color.wav"
+        },
+        {
+          "key": "HOME",
+          "label": "浅海岩礁",
+          "text": "它生活在浅海的岩礁底部。",
+          "factIds": [
+            "SM-02"
+          ],
+          "x": 0.28,
+          "y": 0.51,
+          "audio": "audio/vo-sm-home.wav"
+        },
+        {
+          "key": "FOOD",
+          "label": "吃小鱼",
+          "text": "它的食物里，主要有小鱼。",
+          "factIds": [
+            "SM-03"
+          ],
+          "x": 0.2,
+          "y": 0.56,
+          "audio": "audio/vo-sm-food.wav"
+        }
+      ],
+      "scientificName": "Sebastiscus marmoratus",
+      "image": "illustrations/sebastiscus-marmoratus.webp",
+      "introAudio": "audio/vo-sm-intro.wav",
+      "factIds": [
+        "SM-01",
+        "SM-02",
+        "SM-03"
+      ],
+      "sourceIds": [
+        "S-TW-MARMO"
+      ]
+    },
+    {
+      "id": "epinephelus-coioides",
+      "prefix": "EC",
+      "name": "橙点石斑",
+      "formalName": "橙点石斑",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "这条石斑鱼，穿着橙色点点的衣服。",
+        [
+          "EC-01"
+        ]
+      ],
+      "invite": "你的鱼想穿圆点、斜带，还是两种都有？",
+      "parent": "选择橙褐点成鱼示意；斑点相对大小随成长变化。来源英文 Cod 在这里指石斑，不是大西洋鳕。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "DOTS",
+          "label": "橙色点点",
+          "text": "身上有许多橙褐色小点。",
+          "factIds": [
+            "EC-01"
+          ],
+          "x": 0.48,
+          "y": 0.43,
+          "audio": "audio/vo-ec-dots.wav"
+        },
+        {
+          "key": "BANDS",
+          "label": "斜斜的带子",
+          "text": "身上还有斜斜的深色带子。",
+          "factIds": [
+            "EC-02"
+          ],
+          "x": 0.59,
+          "y": 0.5,
+          "audio": "audio/vo-ec-bands.wav"
+        },
+        {
+          "key": "YOUNG",
+          "label": "小时候的家",
+          "text": "小鱼会住在河口。",
+          "factIds": [
+            "EC-03"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-ec-young.wav"
+        }
+      ],
+      "scientificName": "Epinephelus coioides",
+      "image": "illustrations/epinephelus-coioides.webp",
+      "introAudio": "audio/vo-ec-intro.wav",
+      "factIds": [
+        "EC-01",
+        "EC-02",
+        "EC-03"
+      ],
+      "sourceIds": [
+        "S-V2-EC"
+      ]
+    },
+    {
+      "id": "plectropomus-leopardus",
+      "prefix": "PL",
+      "name": "东星斑",
+      "formalName": "东星斑",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "看看这条红色的石斑鱼，蓝点好漂亮。",
+        [
+          "PL-01"
+        ]
+      ],
+      "invite": "你的鱼想把蓝点放在什么颜色上？",
+      "parent": "东星斑是孩子入口工作名，本卡只对应 Plectropomus leopardus。选择红色成鱼；颜色不是固定身份标签。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "DOTS",
+          "label": "蓝色小点",
+          "text": "红色衣服上，还有蓝色小点。",
+          "factIds": [
+            "PL-01"
+          ],
+          "x": 0.48,
+          "y": 0.42,
+          "audio": "audio/vo-pl-dots.wav"
+        },
+        {
+          "key": "COLOR",
+          "label": "不同的颜色",
+          "text": "它也可以是绿褐色的。",
+          "factIds": [
+            "PL-02"
+          ],
+          "x": 0.38,
+          "y": 0.54,
+          "audio": "audio/vo-pl-color.wav"
+        },
+        {
+          "key": "TAIL",
+          "label": "尾巴的浅边",
+          "text": "尾巴中间的鳍条，常有浅色边。",
+          "factIds": [
+            "PL-03"
+          ],
+          "x": 0.85,
+          "y": 0.5,
+          "audio": "audio/vo-pl-tail.wav"
+        }
+      ],
+      "scientificName": "Plectropomus leopardus",
+      "image": "illustrations/plectropomus-leopardus.webp",
+      "introAudio": "audio/vo-pl-intro.wav",
+      "factIds": [
+        "PL-01",
+        "PL-02",
+        "PL-03"
+      ],
+      "sourceIds": [
+        "S-V2-PL"
+      ]
+    },
+    {
+      "id": "epinephelus-fuscoguttatus",
+      "prefix": "EF",
+      "name": "老虎斑",
+      "formalName": "老虎斑",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "这条石斑鱼，身上是大斑和小点。",
+        [
+          "EF-01"
+        ]
+      ],
+      "invite": "用大斑块和小点，设计一件花衣服吧。",
+      "parent": "老虎斑为工作名；画的是 E. fuscoguttatus 成鱼近似色型，不能把市场商品名当成所有石斑的精确鉴定。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "PATTERN",
+          "label": "大斑与小点",
+          "text": "大块深色斑里，还有小小的点。",
+          "factIds": [
+            "EF-01"
+          ],
+          "x": 0.48,
+          "y": 0.48,
+          "audio": "audio/vo-ef-pattern.wav"
+        },
+        {
+          "key": "SPOT",
+          "label": "尾根的黑块",
+          "text": "尾巴根部上面，有一块黑色。",
+          "factIds": [
+            "EF-02"
+          ],
+          "x": 0.79,
+          "y": 0.39,
+          "audio": "audio/vo-ef-spot.wav"
+        },
+        {
+          "key": "YOUNG",
+          "label": "小鱼与海草",
+          "text": "小时候，它也会住在海草间。",
+          "factIds": [
+            "EF-03"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-ef-young.wav"
+        }
+      ],
+      "scientificName": "Epinephelus fuscoguttatus",
+      "image": "illustrations/epinephelus-fuscoguttatus.webp",
+      "introAudio": "audio/vo-ef-intro.wav",
+      "factIds": [
+        "EF-01",
+        "EF-02",
+        "EF-03"
+      ],
+      "sourceIds": [
+        "S-V2-EF"
+      ]
+    },
+    {
+      "id": "epinephelus-merra",
+      "prefix": "EM",
+      "name": "蜂窝石斑",
+      "formalName": "蜂窝石斑",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "看看它的花纹，像一片小蜂窝。",
+        [
+          "EM-01"
+        ]
+      ],
+      "invite": "试试格子、拼图块，再留一些浅色缝隙。",
+      "parent": "蜂窝石斑是工作名。小型石斑的蜂窝纹具有观察价值，但相似种仍需专业鉴定，不能只凭图认种。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "PATTERN",
+          "label": "蜂窝花纹",
+          "text": "这些褐色花纹，像一个个小格子。",
+          "factIds": [
+            "EM-01"
+          ],
+          "x": 0.48,
+          "y": 0.43,
+          "audio": "audio/vo-em-pattern.wav"
+        },
+        {
+          "key": "BODY",
+          "label": "肚子上的间隔",
+          "text": "到了肚子，点点之间的空隙更大。",
+          "factIds": [
+            "EM-02"
+          ],
+          "x": 0.49,
+          "y": 0.63,
+          "audio": "audio/vo-em-body.wav"
+        },
+        {
+          "key": "TAIL",
+          "label": "圆圆的尾巴",
+          "text": "尾巴的边，圆圆的。",
+          "factIds": [
+            "EM-03"
+          ],
+          "x": 0.86,
+          "y": 0.51,
+          "audio": "audio/vo-em-tail.wav"
+        }
+      ],
+      "scientificName": "Epinephelus merra",
+      "image": "illustrations/epinephelus-merra.webp",
+      "introAudio": "audio/vo-em-intro.wav",
+      "factIds": [
+        "EM-01",
+        "EM-02",
+        "EM-03"
+      ],
+      "sourceIds": [
+        "S-V2-EM"
+      ]
+    },
+    {
+      "id": "epinephelus-lanceolatus",
+      "prefix": "EL",
+      "name": "龙趸",
+      "formalName": "龙趸",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "这是一条大石斑，叫龙趸。",
+        [
+          "EL-01"
+        ]
+      ],
+      "invite": "如果你的鱼长大换衣服，你想画哪两套？",
+      "parent": "画的是成鱼灰褐示意，不混用幼鱼黑黄色。记录最大体型与常见体型是不同概念，此卡不让所有鱼都成为纪录巨鱼。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "MOUTH",
+          "label": "大大的嘴",
+          "text": "看看它的大嘴巴。",
+          "factIds": [
+            "EL-01"
+          ],
+          "x": 0.13,
+          "y": 0.53,
+          "audio": "audio/vo-el-mouth.wav"
+        },
+        {
+          "key": "COLOR",
+          "label": "长大换衣服",
+          "text": "小鱼黑黄相间，长大后颜色会变。",
+          "factIds": [
+            "EL-02"
+          ],
+          "x": 0.48,
+          "y": 0.47,
+          "audio": "audio/vo-el-color.wav"
+        },
+        {
+          "key": "FINS",
+          "label": "鳍上的黑点",
+          "text": "它的鳍上，有很多小黑点。",
+          "factIds": [
+            "EL-03"
+          ],
+          "x": 0.6,
+          "y": 0.3,
+          "audio": "audio/vo-el-fins.wav"
+        }
+      ],
+      "scientificName": "Epinephelus lanceolatus",
+      "image": "illustrations/epinephelus-lanceolatus.webp",
+      "introAudio": "audio/vo-el-intro.wav",
+      "factIds": [
+        "EL-01",
+        "EL-02",
+        "EL-03"
+      ],
+      "sourceIds": [
+        "S-V2-EL"
+      ]
+    },
+    {
+      "id": "cephalopholis-argus",
+      "prefix": "CA",
+      "name": "蓝点石斑",
+      "formalName": "蓝点石斑",
+      "group": "grouper",
+      "habitat": "reef",
+      "intro": [
+        "这条褐色的石斑鱼，也有蓝点。",
+        [
+          "CA-01"
+        ]
+      ],
+      "invite": "同样的蓝点，放在红色和褐色上，有什么不同？",
+      "parent": "蓝点石斑为工作名，仅对应 C. argus。画选绿褐底色、淡后部带纹；条带显现有条件。与红色东星斑分开比较。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "DOTS",
+          "label": "有深边的蓝点",
+          "text": "蓝点外面，还有一圈深色边。",
+          "factIds": [
+            "CA-01"
+          ],
+          "x": 0.48,
+          "y": 0.45,
+          "audio": "audio/vo-ca-dots.wav"
+        },
+        {
+          "key": "SPOT",
+          "label": "胸鳍前的浅色",
+          "text": "胸鳍前面，有一片浅色。",
+          "factIds": [
+            "CA-02"
+          ],
+          "x": 0.31,
+          "y": 0.52,
+          "audio": "audio/vo-ca-spot.wav"
+        },
+        {
+          "key": "BANDS",
+          "label": "淡淡的带子",
+          "text": "有时候，身体后面还有浅色带子。",
+          "factIds": [
+            "CA-03"
+          ],
+          "x": 0.66,
+          "y": 0.5,
+          "audio": "audio/vo-ca-bands.wav"
+        }
+      ],
+      "scientificName": "Cephalopholis argus",
+      "image": "illustrations/cephalopholis-argus.webp",
+      "introAudio": "audio/vo-ca-intro.wav",
+      "factIds": [
+        "CA-01",
+        "CA-02",
+        "CA-03"
+      ],
+      "sourceIds": [
+        "S-V2-CA"
+      ]
+    },
+    {
+      "id": "caranx-ignobilis",
+      "prefix": "CI",
+      "name": "GT 大鲹",
+      "formalName": "GT 大鲹",
+      "group": "nearshore",
+      "habitat": "nearshore",
+      "intro": [
+        "这是大鲹，钓鱼的人也叫它 GT。",
+        [
+          "CI-01"
+        ]
+      ],
+      "invite": "给你的鱼画一个陡陡的额头，再试试平一点的。",
+      "parent": "GT 是英文俗名 Giant Trevally 的简称。选择银色成鱼示意；强壮外形不自动转成孩子必须更难的操作。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "陡陡的额头",
+          "text": "看看额头，陡陡的。",
+          "factIds": [
+            "CI-01"
+          ],
+          "x": 0.25,
+          "y": 0.34,
+          "audio": "audio/vo-ci-body.wav"
+        },
+        {
+          "key": "COLOR",
+          "label": "银色的身体",
+          "text": "它可以是银色，也可以更深。",
+          "factIds": [
+            "CI-02"
+          ],
+          "x": 0.48,
+          "y": 0.46,
+          "audio": "audio/vo-ci-color.wav"
+        },
+        {
+          "key": "SCALES",
+          "label": "硬硬的小鳞",
+          "text": "身体侧面后半段，还有一排硬硬的小鳞。",
+          "factIds": [
+            "CI-03"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-ci-scales.wav"
+        }
+      ],
+      "scientificName": "Caranx ignobilis",
+      "image": "illustrations/caranx-ignobilis.webp",
+      "introAudio": "audio/vo-ci-intro.wav",
+      "factIds": [
+        "CI-01",
+        "CI-02",
+        "CI-03"
+      ],
+      "sourceIds": [
+        "S-V2-CI"
+      ]
+    },
+    {
+      "id": "sphyraena-barracuda",
+      "prefix": "SB",
+      "name": "海狼 · 大魣",
+      "formalName": "海狼 · 大魣",
+      "group": "nearshore",
+      "habitat": "nearshore",
+      "intro": [
+        "看看海狼，身体好长呀。",
+        [
+          "SB-01"
+        ]
+      ],
+      "invite": "把鱼拉成长条，再给两片鳍留一点距离。",
+      "parent": "海狼是多义俗名，本卡限定大魣 S. barracuda。闭口插画强调形状和鳍，不夸张表现牙齿；不是所有魣都画同样黑点。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "长长的身体",
+          "text": "它的身体，细细长长的。",
+          "factIds": [
+            "SB-01"
+          ],
+          "x": 0.48,
+          "y": 0.49,
+          "audio": "audio/vo-sb-body.wav"
+        },
+        {
+          "key": "FINS",
+          "label": "分开的背鳍",
+          "text": "背上这两片鳍，隔得很远。",
+          "factIds": [
+            "SB-02"
+          ],
+          "x": 0.69,
+          "y": 0.36,
+          "audio": "audio/vo-sb-fins.wav"
+        },
+        {
+          "key": "SPOT",
+          "label": "下边的黑点",
+          "text": "身体下边，还有一些黑点。",
+          "factIds": [
+            "SB-03"
+          ],
+          "x": 0.55,
+          "y": 0.56,
+          "audio": "audio/vo-sb-spot.wav"
+        }
+      ],
+      "scientificName": "Sphyraena barracuda",
+      "image": "illustrations/sphyraena-barracuda.webp",
+      "introAudio": "audio/vo-sb-intro.wav",
+      "factIds": [
+        "SB-01",
+        "SB-02",
+        "SB-03"
+      ],
+      "sourceIds": [
+        "S-V2-SB"
+      ]
+    },
+    {
+      "id": "lates-calcarifer",
+      "prefix": "LC",
+      "name": "亚洲海鲈",
+      "formalName": "亚洲海鲈",
+      "group": "nearshore",
+      "habitat": "nearshore",
+      "intro": [
+        "这条银色的鱼，叫亚洲海鲈。",
+        [
+          "LC-01"
+        ]
+      ],
+      "invite": "给你的鱼换一条圆尾巴，再试试分叉尾巴。",
+      "parent": "选择银色成鱼示意；幼鱼有不同斑纹。亚洲海鲈 Lates calcarifer 与欧洲海鲈是不同物种，不共用学名卡。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "MOUTH",
+          "label": "大嘴巴",
+          "text": "它的嘴巴，一直伸到眼睛后面。",
+          "factIds": [
+            "LC-01"
+          ],
+          "x": 0.2,
+          "y": 0.52,
+          "audio": "audio/vo-lc-mouth.wav"
+        },
+        {
+          "key": "TAIL",
+          "label": "圆尾巴",
+          "text": "看看尾巴，是圆圆的扇形。",
+          "factIds": [
+            "LC-02"
+          ],
+          "x": 0.85,
+          "y": 0.5,
+          "audio": "audio/vo-lc-tail.wav"
+        },
+        {
+          "key": "HOME",
+          "label": "河口与河流",
+          "text": "它也能在河口和河流生活。",
+          "factIds": [
+            "LC-03"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-lc-home.wav"
+        }
+      ],
+      "scientificName": "Lates calcarifer",
+      "image": "illustrations/lates-calcarifer.webp",
+      "introAudio": "audio/vo-lc-intro.wav",
+      "factIds": [
+        "LC-01",
+        "LC-02",
+        "LC-03"
+      ],
+      "sourceIds": [
+        "S-V2-LC"
+      ]
+    },
+    {
+      "id": "scomberomorus-commerson",
+      "prefix": "SC",
+      "name": "康氏马鲛",
+      "formalName": "康氏马鲛",
+      "group": "nearshore",
+      "habitat": "nearshore",
+      "intro": [
+        "这条马鲛鱼，穿着细细的波纹。",
+        [
+          "SC-01"
+        ]
+      ],
+      "invite": "你的鱼想画直线，还是弯弯的波浪？",
+      "parent": "本卡对应康氏马鲛 S. commerson 的成鱼条带色型；幼鱼另有点纹。马鲛俗名覆盖多种鱼，不能混为一种。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "BANDS",
+          "label": "细细的波纹",
+          "text": "身上有好多细细的波浪带子。",
+          "factIds": [
+            "SC-01"
+          ],
+          "x": 0.48,
+          "y": 0.46,
+          "audio": "audio/vo-sc-bands.wav"
+        },
+        {
+          "key": "COLOR",
+          "label": "蓝灰与银色",
+          "text": "背上蓝灰，身体侧边银亮亮。",
+          "factIds": [
+            "SC-02"
+          ],
+          "x": 0.47,
+          "y": 0.37,
+          "audio": "audio/vo-sc-color.wav"
+        },
+        {
+          "key": "YOUNG",
+          "label": "小鱼的花纹",
+          "text": "小时候，常常是点点花纹。",
+          "factIds": [
+            "SC-03"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-sc-young.wav"
+        }
+      ],
+      "scientificName": "Scomberomorus commerson",
+      "image": "illustrations/scomberomorus-commerson.webp",
+      "introAudio": "audio/vo-sc-intro.wav",
+      "factIds": [
+        "SC-01",
+        "SC-02",
+        "SC-03"
+      ],
+      "sourceIds": [
+        "S-V2-SC"
+      ]
+    },
+    {
+      "id": "scarus-ghobban",
+      "prefix": "SG",
+      "name": "蓝纹鹦嘴鱼",
+      "formalName": "蓝纹鹦嘴鱼",
+      "group": "colourReef",
+      "habitat": "reef",
+      "intro": [
+        "这是一条鹦嘴鱼，看看它的嘴。",
+        [
+          "SG-01"
+        ]
+      ],
+      "invite": "把小喙和彩色花纹，画到你自己的鱼上。",
+      "parent": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "MOUTH",
+          "label": "像喙的嘴",
+          "text": "它的嘴，像小鸟的喙。",
+          "factIds": [
+            "SG-01"
+          ],
+          "x": 0.19,
+          "y": 0.5,
+          "audio": "audio/vo-sg-mouth.wav"
+        },
+        {
+          "key": "COLOR",
+          "label": "两套花衣服",
+          "text": "不同成长阶段，花衣服不一样。",
+          "factIds": [
+            "SG-02"
+          ],
+          "x": 0.47,
+          "y": 0.45,
+          "audio": "audio/vo-sg-color.wav"
+        },
+        {
+          "key": "FOOD",
+          "label": "刮食藻类",
+          "text": "它会刮着吃藻类。",
+          "factIds": [
+            "SG-03"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-sg-food.wav"
+        }
+      ],
+      "scientificName": "Scarus ghobban",
+      "image": "illustrations/scarus-ghobban.webp",
+      "introAudio": "audio/vo-sg-intro.wav",
+      "factIds": [
+        "SG-01",
+        "SG-02",
+        "SG-03"
+      ],
+      "sourceIds": [
+        "S-V2-SG"
+      ]
+    },
+    {
+      "id": "pomacanthus-imperator",
+      "prefix": "PI",
+      "name": "帝王神仙鱼",
+      "formalName": "帝王神仙鱼",
+      "group": "colourReef",
+      "habitat": "reef",
+      "intro": [
+        "这条神仙鱼，穿着蓝黄条纹。",
+        [
+          "PI-01"
+        ]
+      ],
+      "invite": "试试条纹，再给小鱼设计另一套圆环衣服。",
+      "parent": "插画明确为成鱼；幼鱼圆环仅由亲子文字介绍，不能从成鱼插画直接找到。不同鱼龄画面后续可独立制作。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "BANDS",
+          "label": "蓝黄条纹",
+          "text": "蓝色和黄色，排成一条条。",
+          "factIds": [
+            "PI-01"
+          ],
+          "x": 0.48,
+          "y": 0.46,
+          "audio": "audio/vo-pi-bands.wav"
+        },
+        {
+          "key": "SPOT",
+          "label": "眼睛的黑带",
+          "text": "眼睛这里，有一条弯弯的黑带。",
+          "factIds": [
+            "PI-02"
+          ],
+          "x": 0.26,
+          "y": 0.4,
+          "audio": "audio/vo-pi-spot.wav"
+        },
+        {
+          "key": "YOUNG",
+          "label": "小鱼的圆环",
+          "text": "小时候，它穿的是圆环花纹。",
+          "factIds": [
+            "PI-03"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-pi-young.wav"
+        }
+      ],
+      "scientificName": "Pomacanthus imperator",
+      "image": "illustrations/pomacanthus-imperator.webp",
+      "introAudio": "audio/vo-pi-intro.wav",
+      "factIds": [
+        "PI-01",
+        "PI-02",
+        "PI-03"
+      ],
+      "sourceIds": [
+        "S-V2-PI"
+      ]
+    },
+    {
+      "id": "trichiurus-lepturus",
+      "prefix": "TL",
+      "name": "大头带鱼",
+      "formalName": "大头带鱼",
+      "group": "unusualShape",
+      "habitat": "nearshore",
+      "intro": [
+        "看看带鱼，像一条银色的长带子。",
+        [
+          "TL-01"
+        ]
+      ],
+      "invite": "画一条长长的鱼，末端可以尖尖的，也可以自由想象。",
+      "parent": "限定 T. lepturus 示例；带鱼涉及相似物种复合群，不声称餐桌带鱼全为本种。闭口、完整活鱼示意；没有给它补上不存在的扇尾。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "像一条带子",
+          "text": "它的身体，又长又扁。",
+          "factIds": [
+            "TL-01"
+          ],
+          "x": 0.46,
+          "y": 0.51,
+          "audio": "audio/vo-tl-body.wav"
+        },
+        {
+          "key": "TAIL",
+          "label": "尖尖的末端",
+          "text": "身体末端尖尖的，没有扇形尾鳍。",
+          "factIds": [
+            "TL-02"
+          ],
+          "x": 0.93,
+          "y": 0.53,
+          "audio": "audio/vo-tl-tail.wav"
+        },
+        {
+          "key": "FIN",
+          "label": "长长的背鳍",
+          "text": "背上的鳍，沿着身体排得很长。",
+          "factIds": [
+            "TL-03"
+          ],
+          "x": 0.47,
+          "y": 0.41,
+          "audio": "audio/vo-tl-fin.wav"
+        }
+      ],
+      "scientificName": "Trichiurus lepturus",
+      "image": "illustrations/trichiurus-lepturus.webp",
+      "introAudio": "audio/vo-tl-intro.wav",
+      "factIds": [
+        "TL-01",
+        "TL-02",
+        "TL-03"
+      ],
+      "sourceIds": [
+        "S-V2-TL"
+      ]
+    },
+    {
+      "id": "ostracion-cubicus",
+      "prefix": "OC",
+      "name": "黄箱鲀",
+      "formalName": "黄箱鲀",
+      "group": "unusualShape",
+      "habitat": "reef",
+      "intro": [
+        "这是黄箱鲀，像个黄色小盒子。",
+        [
+          "OC-01"
+        ]
+      ],
+      "invite": "你的鱼可以是盒子形，也可以试试圆球形。",
+      "parent": "本图选幼鱼亮黄黑点色型。箱鲀不是充气后的河鲀，没有加入角箱鲀的额角；成长变化不以当前一张图证明。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "盒子身体",
+          "text": "身体像一个小盒子。",
+          "factIds": [
+            "OC-01"
+          ],
+          "x": 0.49,
+          "y": 0.51,
+          "audio": "audio/vo-oc-body.wav"
+        },
+        {
+          "key": "DOTS",
+          "label": "黄衣黑点",
+          "text": "黄色衣服上，有黑色圆点。",
+          "factIds": [
+            "OC-02"
+          ],
+          "x": 0.48,
+          "y": 0.4,
+          "audio": "audio/vo-oc-dots.wav"
+        },
+        {
+          "key": "GROW",
+          "label": "长大变化",
+          "text": "长大以后，颜色和点点会变化。",
+          "factIds": [
+            "OC-03"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-oc-grow.wav"
+        }
+      ],
+      "scientificName": "Ostracion cubicus",
+      "image": "illustrations/ostracion-cubicus.webp",
+      "introAudio": "audio/vo-oc-intro.wav",
+      "factIds": [
+        "OC-01",
+        "OC-02",
+        "OC-03"
+      ],
+      "sourceIds": [
+        "S-V2-OC"
+      ]
+    },
+    {
+      "id": "hippocampus-kuda",
+      "prefix": "HK",
+      "name": "河口海马",
+      "formalName": "河口海马",
+      "group": "unusualShape",
+      "habitat": "nearshore",
+      "intro": [
+        "海马也是鱼，看它弯弯的尾巴。",
+        [
+          "HK-01"
+        ]
+      ],
+      "invite": "画一条卷卷的尾巴，再选一个海草旁的家。",
+      "parent": "NParks 页面以 Hippocampus spp. 汇总，明确提到 H. kuda 河口海草栖所；育儿与抓握尾为海马类群知识。黄褐色是艺术选择，图不作相似海马的精确分类依据。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "TAIL",
+          "label": "能抓住的尾巴",
+          "text": "弯弯的尾巴，能抓住东西。",
+          "factIds": [
+            "HK-01"
+          ],
+          "x": 0.52,
+          "y": 0.85,
+          "audio": "audio/vo-hk-tail.wav"
+        },
+        {
+          "key": "HOME",
+          "label": "海草的家",
+          "text": "这种海马，常住在河口附近的海草间。",
+          "factIds": [
+            "HK-02"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-hk-home.wav"
+        },
+        {
+          "key": "BABY",
+          "label": "爸爸的育儿袋",
+          "text": "鱼爸爸，有一个装鱼卵的育儿袋。",
+          "factIds": [
+            "HK-03"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-hk-baby.wav"
+        }
+      ],
+      "scientificName": "Hippocampus kuda",
+      "image": "illustrations/hippocampus-kuda.webp",
+      "introAudio": "audio/vo-hk-intro.wav",
+      "factIds": [
+        "HK-01",
+        "HK-02",
+        "HK-03"
+      ],
+      "sourceIds": [
+        "S-V2-HK"
+      ]
+    },
+    {
+      "id": "gadus-morhua",
+      "prefix": "GM",
+      "name": "大西洋鳕",
+      "formalName": "大西洋鳕",
+      "group": "worldSeas",
+      "habitat": "world",
+      "intro": [
+        "这条鱼，叫大西洋鳕。看看下巴的小须。",
+        [
+          "GM-01"
+        ]
+      ],
+      "invite": "给你的鱼画一根小须，再画一条身体侧面的线。",
+      "parent": "鳕鱼俗名不只一种。本卡明确为北大西洋 Gadus morhua；不能放进新加坡珊瑚礁并宣称当地自然分布。选择橄榄褐色示意。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "MOUTH",
+          "label": "下巴的小须",
+          "text": "下巴下面，有一根小小的须。",
+          "factIds": [
+            "GM-01"
+          ],
+          "x": 0.045,
+          "y": 0.62,
+          "audio": "audio/vo-gm-mouth.wav"
+        },
+        {
+          "key": "PATTERN",
+          "label": "深点与浅肚子",
+          "text": "身上有深色点，肚子却浅浅的。",
+          "factIds": [
+            "GM-02"
+          ],
+          "x": 0.48,
+          "y": 0.5,
+          "audio": "audio/vo-gm-pattern.wav"
+        },
+        {
+          "key": "BODY",
+          "label": "身体上的线",
+          "text": "身体侧面，还有一条长长的线。",
+          "factIds": [
+            "GM-03"
+          ],
+          "x": 0.53,
+          "y": 0.42,
+          "audio": "audio/vo-gm-body.wav"
+        }
+      ],
+      "scientificName": "Gadus morhua",
+      "image": "illustrations/gadus-morhua.webp",
+      "introAudio": "audio/vo-gm-intro.wav",
+      "factIds": [
+        "GM-01",
+        "GM-02",
+        "GM-03"
+      ],
+      "sourceIds": [
+        "S-V2-GM"
+      ]
+    },
+    {
+      "id": "thunnus-albacares",
+      "prefix": "TA",
+      "name": "黄鳍金枪鱼",
+      "formalName": "黄鳍金枪鱼",
+      "group": "worldSeas",
+      "habitat": "world",
+      "intro": [
+        "看黄鳍金枪鱼，它的鳍是黄色的。",
+        [
+          "TA-01"
+        ]
+      ],
+      "invite": "画一些小小的鳍，或者给大鳍换你喜欢的颜色。",
+      "parent": "本卡对应 T. albacares，采用长黄鳍成鱼近似图。NOAA 该页关注大西洋种群，不将其管理规则泛化为全球；图片体形不证明速度纪录。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "BODY",
+          "label": "像一枚鱼雷",
+          "text": "身体两头细，中间粗。",
+          "factIds": [
+            "TA-01"
+          ],
+          "x": 0.48,
+          "y": 0.48,
+          "audio": "audio/vo-ta-body.wav"
+        },
+        {
+          "key": "FINS",
+          "label": "黄色的鳍",
+          "text": "背鳍、臀鳍和后面的小鳍，是黄色的。",
+          "factIds": [
+            "TA-02"
+          ],
+          "x": 0.66,
+          "y": 0.29,
+          "audio": "audio/vo-ta-fins.wav"
+        },
+        {
+          "key": "COLOR",
+          "label": "蓝背与银肚",
+          "text": "背上深蓝，肚子银亮亮。",
+          "factIds": [
+            "TA-03"
+          ],
+          "x": 0.42,
+          "y": 0.56,
+          "audio": "audio/vo-ta-color.wav"
+        }
+      ],
+      "scientificName": "Thunnus albacares",
+      "image": "illustrations/thunnus-albacares.webp",
+      "introAudio": "audio/vo-ta-intro.wav",
+      "factIds": [
+        "TA-01",
+        "TA-02",
+        "TA-03"
+      ],
+      "sourceIds": [
+        "S-V2-TA"
+      ]
+    },
+    {
+      "id": "mobula-birostris",
+      "prefix": "MB",
+      "name": "巨型蝠鲼",
+      "formalName": "巨型蝠鲼",
+      "group": "sharkRay",
+      "habitat": "world",
+      "intro": [
+        "这是巨型蝠鲼，它也是一种鱼。",
+        [
+          "MB-01"
+        ]
+      ],
+      "invite": "试试大翅膀一样的鳍，再自由设计头前的两片小叶子。",
+      "parent": "采用背面稍斜的宽幅黑背示意，区别于侧视硬骨鱼；没有腹面斑点图供个体辨识。蝠鲼用于观察、入海与创作灵感，当前不进入普通钓鱼池。",
+      "commonNameStatus": "working-name",
+      "points": [
+        {
+          "key": "FINS",
+          "label": "像翅膀的鳍",
+          "text": "大大的胸鳍，像一对翅膀。",
+          "factIds": [
+            "MB-01"
+          ],
+          "x": 0.21,
+          "y": 0.4,
+          "audio": "audio/vo-mb-fins.wav"
+        },
+        {
+          "key": "MOUTH",
+          "label": "头前的小叶片",
+          "text": "嘴巴前面，有两片小小的头鳍。",
+          "factIds": [
+            "MB-02"
+          ],
+          "x": 0.4,
+          "y": 0.09,
+          "audio": "audio/vo-mb-mouth.wav"
+        },
+        {
+          "key": "FOOD",
+          "label": "过滤小食物",
+          "text": "它会从水里，过滤浮游小动物。",
+          "factIds": [
+            "MB-03"
+          ],
+          "x": null,
+          "y": null,
+          "audio": "audio/vo-mb-food.wav"
+        }
+      ],
+      "scientificName": "Mobula birostris",
+      "image": "illustrations/mobula-birostris.webp",
+      "introAudio": "audio/vo-mb-intro.wav",
+      "factIds": [
+        "MB-01",
+        "MB-02",
+        "MB-03"
+      ],
+      "sourceIds": [
+        "S-V2-MB"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S-FM-CLOWN",
+      "institution": "Florida Museum",
+      "title": "Clown Anemonefish",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "机构物种资料；身份、外形、宿主与适应；图片版权另记"
+    },
+    {
+      "id": "S-AM-CLOWN",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Western Clown Anemonefish",
+      "url": "https://australian.museum/learn/animals/fishes/western-clown-anemonefish-amphiprion-ocellaris-cuvier-1830/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Introduction / Habitat；页面更新时间未在本轮登记"
+    },
+    {
+      "id": "S-WORMS-CLOWN",
+      "institution": "WoRMS",
+      "title": "Amphiprion ocellaris / AphiaID 278400",
+      "url": "https://www.marinespecies.org/aphia.php?id=278400&p=taxdetails",
+      "checkedAt": "2026-10-06",
+      "access": "indexed-page",
+      "notes": "接受名；检索返回条目正文，直接访问可能受限"
+    },
+    {
+      "id": "S-WORMS-ANEMONE",
+      "institution": "WoRMS / World List of Actiniaria",
+      "title": "Heteractis magnifica / AphiaID 290090",
+      "url": "https://www.marinespecies.org/aphia.php?id=290090&p=taxdetails",
+      "checkedAt": "2026-10-06",
+      "access": "indexed-page-and-gallery",
+      "notes": "旧名接受到 Radianthus magnifica；直连403，核对搜索返回正文及图册对应"
+    },
+    {
+      "id": "S-WA-FORCEPS",
+      "institution": "Waikīkī Aquarium",
+      "title": "Forceps Butterflyfish",
+      "url": "https://www.waikikiaquarium.org/experience/animal-guide/fishes/butterflyfishes/forceps-butterflyfish/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "正文第1–6段；嘴形、觅食与相似种"
+    },
+    {
+      "id": "S-AM-FORCEPS",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Forceps Fish",
+      "url": "https://australian.museum/learn/animals/fishes/forceps-fish-forcipiger-flavissimus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Feeding and diet / Other behaviours；2021-03-15 更新"
+    },
+    {
+      "id": "S-AM-PUFFER",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Stars-and-stripes Puffer",
+      "url": "https://australian.museum/learn/animals/fishes/stars-and-stripes-toadfish-arothron-hispidus-linnaeus-1758/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Habitat / Feeding and diet；2019-01-21 更新"
+    },
+    {
+      "id": "S-SI-REEF",
+      "institution": "Smithsonian Ocean Portal Team / reviewed by Nancy Knowlton",
+      "title": "Corals and Coral Reefs",
+      "url": "https://ocean.si.edu/ocean-life/invertebrates/corals-and-coral-reefs",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "What Are Corals? / Coral Diversity；概括性珊瑚知识，图片逐件核权"
+    },
+    {
+      "id": "S-NP-ANEMONE",
+      "institution": "NParks",
+      "title": "Cnidaria (non-Scleractinia)",
+      "url": "https://www.nparks.gov.sg/nature/species-list/cnidaria-%28non-scleractinia%29",
+      "checkedAt": "2026-10-06",
+      "access": "indexed-page",
+      "notes": "2024-10-08；RDB3表列旧名 Heteractis magnifica；不是具体地点同域关系证据"
+    },
+    {
+      "id": "S-WORMS-IMAGE",
+      "institution": "WoRMS Actiniaria / ReefLifeApps.com",
+      "title": "Heteractis magnifica2 DMS / image 132841",
+      "url": "https://marinespecies.org/Actiniaria/aphia.php?p=image&pic=132841&tid=290090",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "图像元数据与新旧名对应；CC BY-SA 3.0，同时要求转载前告知作者"
+    },
+    {
+      "id": "S-WA-YELLOW",
+      "institution": "Waikīkī Aquarium",
+      "title": "Yellow Tang",
+      "url": "https://www.waikikiaquarium.org/experience/animal-guide/fishes/surgeonfishes/yellow-tang/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Description / feeding / nighttime color"
+    },
+    {
+      "id": "S-AM-BLUE",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Blue Tang",
+      "url": "https://australian.museum/learn/animals/fishes/blue-tang-paracanthurus-hepatus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Feeding and diet"
+    },
+    {
+      "id": "S-AM-IDOL",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Moorish Idol",
+      "url": "https://australian.museum/learn/animals/fishes/moorish-idol-zanclus-cornutus-linnaeus-1758/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification"
+    },
+    {
+      "id": "S-TW-BREAM",
+      "institution": "中央研究院生物多樣性研究中心／臺灣魚類資料庫",
+      "title": "Acanthopagrus schlegelii",
+      "url": "https://catalog.digitalarchives.tw/item/00/42/6e/36.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "形態特徵 / 棲所生態"
+    },
+    {
+      "id": "S-TW-KNIFEJAW",
+      "institution": "中央研究院生物多樣性研究中心／臺灣魚類資料庫",
+      "title": "Oplegnathus fasciatus",
+      "url": "https://catalog.digitalarchives.tw/item/00/42/6c/9f.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "形態特徵 / 棲所生態"
+    },
+    {
+      "id": "S-TW-GIRELLA",
+      "institution": "中央研究院生物多樣性研究中心／臺灣魚類資料庫",
+      "title": "Girella punctata",
+      "url": "https://catalog.digitalarchives.tw/item/00/42/6b/6f.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "形態特徵 / 棲所生態；季节描述限于该区域资料"
+    },
+    {
+      "id": "S-TW-MARMO",
+      "institution": "中央研究院生物多樣性研究中心／臺灣魚類資料庫",
+      "title": "Sebastiscus marmoratus",
+      "url": "https://catalog.digitalarchives.tw/item/00/42/6f/31.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "形態特徵 / 棲所生態"
+    },
+    {
+      "id": "S-FB-ROCKFISH",
+      "institution": "FishBase",
+      "title": "Sebastes schlegelii",
+      "url": "https://www.fishbase.se/summary/Sebastes-schlegelii.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Biology / Environment"
+    },
+    {
+      "id": "S-FB-GREENLING",
+      "institution": "FishBase",
+      "title": "Hexagrammos otakii",
+      "url": "https://www.fishbase.se/summary/Hexagrammos-otakii.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Biology / Body shape"
+    },
+    {
+      "id": "S-ANEMONE-REDSEA2021",
+      "institution": "Bennett-Smith et al. / Marine Biodiversity Records",
+      "title": "Clownfish hosting anemones of the Red Sea",
+      "url": "https://link.springer.com/article/10.1186/s41200-021-00216-6",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Results / Heteractis magnifica；红海与亚丁湾实地调查；使用旧属名"
+    },
+    {
+      "id": "S-V2-EC",
+      "institution": "Australian Museum",
+      "title": "Goldspotted Rockcod",
+      "url": "https://australian.museum/learn/animals/fishes/goldspotted-rockcod-epinephelus-coioides/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-PL",
+      "institution": "Australian Museum",
+      "title": "Common Coral Trout",
+      "url": "https://australian.museum/learn/animals/fishes/common-coral-trout-plectropomus-leopardus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-EF",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Brown-marbled Grouper",
+      "url": "https://fishesofaustralia.net.au/Home/species/4670",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-EM",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Honeycomb Grouper",
+      "url": "https://fishesofaustralia.net.au/home/species/3848",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-EL",
+      "institution": "Australian Museum",
+      "title": "Queensland Groper",
+      "url": "https://australian.museum/learn/animals/fishes/queensland-groper-epinephelus-lanceolatus-bloch-1790/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-CA",
+      "institution": "Australian Museum",
+      "title": "Peacock Rockcod",
+      "url": "https://australian.museum/learn/animals/fishes/peacock-rockcod-cephalopholis-argus-bloch-schneider-1801/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-CI",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Giant Trevally",
+      "url": "https://fishesofaustralia.net.au/home/species/4268",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-SB",
+      "institution": "Florida Museum of Natural History",
+      "title": "Great Barracuda",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/great-barracuda/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-LC",
+      "institution": "Australian Museum",
+      "title": "Barramundi",
+      "url": "https://australian.museum/learn/animals/fishes/barramundi-lates-calcarifer-bloch-1790/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-SC",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Spanish Mackerel",
+      "url": "https://fishesofaustralia.net.au/home/species/728",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-SG",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Bluebarred Parrotfish",
+      "url": "https://fishesofaustralia.net.au/home/species/2360",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-PI",
+      "institution": "Australian Museum",
+      "title": "Emperor Angelfish",
+      "url": "https://australian.museum/learn/animals/fishes/emperor-angelfish-pomacanthus-imperator/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-TL",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Largehead Hairtail",
+      "url": "https://fishesofaustralia.net.au/home/species/2562",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-OC",
+      "institution": "Australian Museum",
+      "title": "Yellow Boxfish",
+      "url": "https://australian.museum/learn/animals/fishes/yellow-boxfish-ostracion-cubicus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-HK",
+      "institution": "NParks Singapore",
+      "title": "Seahorses / Estuarine Seahorse",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/fauna/3/0/305",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-GM",
+      "institution": "NOAA Fisheries",
+      "title": "Atlantic Cod",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-cod",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-TA",
+      "institution": "NOAA Fisheries",
+      "title": "Atlantic Yellowfin Tuna",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-yellowfin-tuna",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-MB",
+      "institution": "NOAA Fisheries",
+      "title": "Giant Manta Ray",
+      "url": "https://www.fisheries.noaa.gov/species/giant-manta-ray",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    }
+  ],
+  "claims": [
+    {
+      "id": "AO-01",
+      "subjectId": "amphiprion-ocellaris",
+      "text": "Amphiprion ocellaris 为接受学名。",
+      "sourceIds": [
+        "S-WORMS-CLOWN"
+      ],
+      "location": "Taxon details / Status",
+      "conditions": "中文项目名沿用旧目录，本轮未重新核对中文名录",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AO-02",
+      "subjectId": "amphiprion-ocellaris",
+      "text": "常见橙色型在头、体中部和尾柄有三条白带，鳍带黑色。",
+      "sourceIds": [
+        "S-AM-CLOWN",
+        "S-FM-CLOWN"
+      ],
+      "location": "Introduction / opening description",
+      "conditions": "存在地域色型差异，不把橙色当作所有个体的唯一颜色",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AO-03",
+      "subjectId": "amphiprion-ocellaris",
+      "text": "生活于珊瑚礁等热带海洋环境，可与 Radianthus magnifica 建立宿主关系。",
+      "sourceIds": [
+        "S-FM-CLOWN",
+        "S-AM-CLOWN",
+        "S-WORMS-ANEMONE"
+      ],
+      "location": "Habitat；WoRMS Accepted name",
+      "conditions": "生态来源使用旧名 Heteractis magnifica；不是所有海葵都能作为宿主，也不是唯一宿主",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AO-04",
+      "subjectId": "amphiprion-ocellaris",
+      "text": "黏液保护与对宿主的适应有关，博物馆描述需有适应过程。",
+      "sourceIds": [
+        "S-FM-CLOWN"
+      ],
+      "location": "Habitat / paragraph on acclimation",
+      "conditions": "不改写成碰任何海葵都不会被蜇；机制更深解释待原始研究核对",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "FF-01",
+      "subjectId": "forcipiger-flavissimus",
+      "text": "嘴吻细长；身体亮黄，头部上黑下银白。",
+      "sourceIds": [
+        "S-AM-FORCEPS"
+      ],
+      "location": "Identification",
+      "conditions": "本种识别描述，不由形状推断全部能力",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "FF-02",
+      "subjectId": "forcipiger-flavissimus",
+      "text": "尾柄附近的臀鳍上有一个黑点。",
+      "sourceIds": [
+        "S-AM-FORCEPS"
+      ],
+      "location": "Identification",
+      "conditions": "是臀鳍的局部，不能画成尾鳍黑点",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "FF-03",
+      "subjectId": "forcipiger-flavissimus",
+      "text": "本种与 F. longirostris 都会探查珊瑚枝与礁缝中的无脊椎动物。",
+      "sourceIds": [
+        "S-WA-FORCEPS"
+      ],
+      "location": "正文第4段",
+      "conditions": "该句涉及两种；不混用下一句仅描述 F. longirostris 的整吞机制",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "FF-04",
+      "subjectId": "forcipiger-flavissimus",
+      "text": "能夹取小型甲壳类和鱼卵，也会撕下较大猎物的部分。",
+      "sourceIds": [
+        "S-WA-FORCEPS",
+        "S-AM-FORCEPS"
+      ],
+      "location": "正文第5段 / Feeding and diet",
+      "conditions": "不改写成只吸食、只吃整只甲壳类或所有长嘴都有相同功能",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "FF-05",
+      "subjectId": "forcipiger-flavissimus",
+      "text": "常见成对，也可单独或小群出现。",
+      "sourceIds": [
+        "S-AM-FORCEPS"
+      ],
+      "location": "Other behaviours and adaptations",
+      "conditions": "常见描述不是强制配对规则",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AH-01",
+      "subjectId": "arothron-hispidus",
+      "text": "上侧和尾鳍有白色小点，下侧有白至淡蓝的线纹。",
+      "sourceIds": [
+        "S-AM-PUFFER"
+      ],
+      "location": "Identification / first paragraph",
+      "conditions": "只记外形，不附加伪装、防御等未经核对的花纹原因",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AH-02",
+      "subjectId": "arothron-hispidus",
+      "text": "胸鳍基部与鳃口周围有深浅交替环纹。",
+      "sourceIds": [
+        "S-AM-PUFFER"
+      ],
+      "location": "Identification / first paragraph",
+      "conditions": "制作局部图时保留部位，不把环纹移到眼睛",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AH-03",
+      "subjectId": "arothron-hispidus",
+      "text": "身体圆，背鳍位于身体后部，与相近大小的臀鳍相对。",
+      "sourceIds": [
+        "S-AM-PUFFER"
+      ],
+      "location": "Identification / second paragraph",
+      "conditions": "不是本种独有，不推断圆身游得慢",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AH-04",
+      "subjectId": "arothron-hispidus",
+      "text": "嘴呈喙状，上下颌各有两块融合的齿板。",
+      "sourceIds": [
+        "S-AM-PUFFER"
+      ],
+      "location": "Feeding and diet",
+      "conditions": "记录齿板结构；儿童入口先不展开牙数",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AH-05",
+      "subjectId": "arothron-hispidus",
+      "text": "栖息环境包括河口与珊瑚礁。",
+      "sourceIds": [
+        "S-AM-PUFFER"
+      ],
+      "location": "Habitat",
+      "conditions": "不证明三样本鱼在某个新加坡地点共同出现",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RM-01",
+      "subjectId": "radianthus-magnifica",
+      "text": "WoRMS 将 Heteractis magnifica 接受到 Radianthus magnifica。",
+      "sourceIds": [
+        "S-WORMS-ANEMONE",
+        "S-WORMS-IMAGE"
+      ],
+      "location": "Accepted name / image taxon mapping",
+      "conditions": "直连受限；发布前复查接受名条目，项目ID固定",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RM-02",
+      "subjectId": "radianthus-magnifica",
+      "text": "NParks 的新加坡名录以旧名 Heteractis magnifica 收录该物种。",
+      "sourceIds": [
+        "S-NP-ANEMONE",
+        "S-WORMS-ANEMONE"
+      ],
+      "location": "RDB3 species table / synonym mapping",
+      "conditions": "只支持国家名录记录，不支持某海岸位置、三鱼同域或小丑鱼当地宿主配对",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RF-01",
+      "subjectId": "reef-shallows",
+      "text": "珊瑚是动物；珊瑚与海葵具有共同的水螅体基本结构。",
+      "sourceIds": [
+        "S-SI-REEF"
+      ],
+      "location": "What Are Corals? / Animal, Vegetable & Mineral",
+      "conditions": "概括知识，不把任何花形物体识别为某一物种",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RF-02",
+      "subjectId": "reef-shallows",
+      "text": "石珊瑚的水螅体可形成碳酸钙骨骼，是重要造礁者。",
+      "sourceIds": [
+        "S-SI-REEF"
+      ],
+      "location": "Coral Diversity",
+      "conditions": "只适用于这里讨论的石珊瑚，不说所有珊瑚骨骼都一样",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RF-03",
+      "subjectId": "reef-shallows",
+      "text": "许多温暖浅水珊瑚与能光合作用的共生藻交换营养。",
+      "sourceIds": [
+        "S-SI-REEF"
+      ],
+      "location": "Animal, Vegetable & Mineral",
+      "conditions": "不是所有珊瑚都依赖光，避免泛化到深海",
+      "checkedAt": "2026-10-06",
+      "reviewer": "parent-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "ZF-01",
+      "subjectId": "zebrasoma-flavescens",
+      "text": "身体高而侧扁；常见白天色型为柠檬黄，尾柄两侧各有白色棘。",
+      "sourceIds": [
+        "S-WA-YELLOW"
+      ],
+      "location": "Description / feeding / nighttime color",
+      "conditions": "白天色型；不是新加坡物种出现证明",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "ZF-02",
+      "subjectId": "zebrasoma-flavescens",
+      "text": "主要刮食藻类。",
+      "sourceIds": [
+        "S-WA-YELLOW"
+      ],
+      "location": "Description / feeding / nighttime color",
+      "conditions": "来源的物种食性描述，不能把游戏鱼饵权重当真实偏好",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "ZF-03",
+      "subjectId": "zebrasoma-flavescens",
+      "text": "夜间黄色会变暗，体侧中线可出现白色条带。",
+      "sourceIds": [
+        "S-WA-YELLOW"
+      ],
+      "location": "Description / feeding / nighttime color",
+      "conditions": "昼夜色型有条件，当前插画仅画白天",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PH-01",
+      "subjectId": "paracanthurus-hepatus",
+      "text": "身体蓝色并有黑色图案。",
+      "sourceIds": [
+        "S-AM-BLUE"
+      ],
+      "location": "Identification / Feeding and diet",
+      "conditions": "用于已注明物种的观察；插画为近似示意，不支持逐鳍条、逐鳞计数",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PH-02",
+      "subjectId": "paracanthurus-hepatus",
+      "text": "尾鳍黄色，上下边缘有黑色条纹。",
+      "sourceIds": [
+        "S-AM-BLUE"
+      ],
+      "location": "Identification / Feeding and diet",
+      "conditions": "用于已注明物种的观察；插画为近似示意，不支持逐鳍条、逐鳞计数",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PH-03",
+      "subjectId": "paracanthurus-hepatus",
+      "text": "主要吃浮游动物。",
+      "sourceIds": [
+        "S-AM-BLUE"
+      ],
+      "location": "Identification / Feeding and diet",
+      "conditions": "用于已注明物种的观察；插画为近似示意，不支持逐鳍条、逐鳞计数",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "ZC-01",
+      "subjectId": "zanclus-cornutus",
+      "text": "背鳍延伸为长而弯曲的白色丝状部分。",
+      "sourceIds": [
+        "S-AM-IDOL"
+      ],
+      "location": "Identification",
+      "conditions": "可用于大体轮廓对比，不计算鳍条",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "ZC-02",
+      "subjectId": "zanclus-cornutus",
+      "text": "体侧有两条宽黑带，吻部有黄色鞍状斑。",
+      "sourceIds": [
+        "S-AM-IDOL"
+      ],
+      "location": "Identification",
+      "conditions": "典型识别特征，插画的白黄区域是示意",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "ZC-03",
+      "subjectId": "zanclus-cornutus",
+      "text": "成鱼眼前有骨质突起，雄鱼通常更明显。",
+      "sourceIds": [
+        "S-AM-IDOL"
+      ],
+      "location": "Identification",
+      "conditions": "限成鱼，插画不是眼前骨突起的放大证据",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SS-01",
+      "subjectId": "sebastes-schlegelii",
+      "text": "生活在近岸岩石底质环境。",
+      "sourceIds": [
+        "S-FB-ROCKFISH"
+      ],
+      "location": "Biology / Environment",
+      "conditions": "西北太平洋温带物种；当前岩礁是虚构主题",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SS-02",
+      "subjectId": "sebastes-schlegelii",
+      "text": "幼鱼可与漂浮海藻关联。",
+      "sourceIds": [
+        "S-FB-ROCKFISH"
+      ],
+      "location": "Biology / Environment",
+      "conditions": "限幼鱼阶段；不说所有年龄都住漂浮海藻",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SS-03",
+      "subjectId": "sebastes-schlegelii",
+      "text": "卵胎生，胚胎在母体内发育后产出幼鱼。",
+      "sourceIds": [
+        "S-FB-ROCKFISH"
+      ],
+      "location": "Biology / Environment",
+      "conditions": "不额外断言出生瞬间的泳姿、速度或行为",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AS-01",
+      "subjectId": "acanthopagrus-schlegelii",
+      "text": "体色灰黑、有银色光泽，胸鳍橘黄色。",
+      "sourceIds": [
+        "S-TW-BREAM"
+      ],
+      "location": "形態特徵 / 棲所生態",
+      "conditions": "用于已注明物种的观察；插画为近似示意，不支持逐鳍条、逐鳞计数",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AS-02",
+      "subjectId": "acanthopagrus-schlegelii",
+      "text": "尾鳍分叉。",
+      "sourceIds": [
+        "S-TW-BREAM"
+      ],
+      "location": "形態特徵 / 棲所生態",
+      "conditions": "用于已注明物种的观察；插画为近似示意，不支持逐鳍条、逐鳞计数",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "AS-03",
+      "subjectId": "acanthopagrus-schlegelii",
+      "text": "可栖息沿海内湾与河口等环境。",
+      "sourceIds": [
+        "S-TW-BREAM"
+      ],
+      "location": "形態特徵 / 棲所生態",
+      "conditions": "用于已注明物种的观察；插画为近似示意，不支持逐鳍条、逐鳞计数",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "HO-01",
+      "subjectId": "hexagrammos-otakii",
+      "text": "体形延长。",
+      "sourceIds": [
+        "S-FB-GREENLING"
+      ],
+      "location": "Biology / Body shape",
+      "conditions": "体形记录不支持把长身体直接等同游得快",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "HO-02",
+      "subjectId": "hexagrammos-otakii",
+      "text": "栖息于岩石海岸及人工礁等环境。",
+      "sourceIds": [
+        "S-FB-GREENLING"
+      ],
+      "location": "Biology / Body shape",
+      "conditions": "西北太平洋温带物种，不宣称是新加坡当地鱼",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "HO-03",
+      "subjectId": "hexagrammos-otakii",
+      "text": "卵块可附着小石，雄鱼守护卵块。",
+      "sourceIds": [
+        "S-FB-GREENLING"
+      ],
+      "location": "Biology / Body shape",
+      "conditions": "资料描述的繁殖行为；不是每条画面中的鱼都正护卵",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "OF-01",
+      "subjectId": "oplegnathus-fasciatus",
+      "text": "具七条暗色横带，包括穿过眼部的一条。",
+      "sourceIds": [
+        "S-TW-KNIFEJAW"
+      ],
+      "location": "形態特徵 / 棲所生態",
+      "conditions": "画带纹明显的个体；不把该花纹当所有年龄、性别都不变",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "OF-02",
+      "subjectId": "oplegnathus-fasciatus",
+      "text": "齿愈合成喙状，能处理带硬壳的食物。",
+      "sourceIds": [
+        "S-TW-KNIFEJAW"
+      ],
+      "location": "形態特徵 / 棲所生態",
+      "conditions": "来源形态与食性摘要，不用插画显示不可见的内部齿列",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "OF-03",
+      "subjectId": "oplegnathus-fasciatus",
+      "text": "幼鱼可随漂浮海藻活动。",
+      "sourceIds": [
+        "S-TW-KNIFEJAW"
+      ],
+      "location": "形態特徵 / 棲所生態",
+      "conditions": "限幼鱼，不作当地定点出现证据",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "GP-01",
+      "subjectId": "girella-punctata",
+      "text": "体色灰褐至暗褐，鳞片基部有小黑点。",
+      "sourceIds": [
+        "S-TW-GIRELLA"
+      ],
+      "location": "形態特徵 / 棲所生態；季节描述限于该区域资料",
+      "conditions": "小点的精确鳞片位置看来源；插画不用于鳞片计数",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "GP-02",
+      "subjectId": "girella-punctata",
+      "text": "胸鳍基部有暗褐色斑。",
+      "sourceIds": [
+        "S-TW-GIRELLA"
+      ],
+      "location": "形態特徵 / 棲所生態；季节描述限于该区域资料",
+      "conditions": "局部观察示意",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "GP-03",
+      "subjectId": "girella-punctata",
+      "text": "资料记载吃藻类与小生物，食性有季节变化。",
+      "sourceIds": [
+        "S-TW-GIRELLA"
+      ],
+      "location": "形態特徵 / 棲所生態；季节描述限于该区域资料",
+      "conditions": "季节细节只对应台湾来源，不推广为所有地区的统一规律",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SM-01",
+      "subjectId": "sebastiscus-marmoratus",
+      "text": "体色可为淡红，色泽随栖息深度等条件变化。",
+      "sourceIds": [
+        "S-TW-MARMO"
+      ],
+      "location": "形態特徵 / 棲所生態",
+      "conditions": "当前选择红褐示意色型；未把历史横带数重新认证",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SM-02",
+      "subjectId": "sebastiscus-marmoratus",
+      "text": "生活在浅海岩礁底部。",
+      "sourceIds": [
+        "S-TW-MARMO"
+      ],
+      "location": "形態特徵 / 棲所生態",
+      "conditions": "资料的栖所描述，不证明与其他鱼在同一地点共存",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SM-03",
+      "subjectId": "sebastiscus-marmoratus",
+      "text": "食物主要包括小鱼。",
+      "sourceIds": [
+        "S-TW-MARMO"
+      ],
+      "location": "形態特徵 / 棲所生態",
+      "conditions": "食性摘要，游戏中的鱼饵选择单独配置",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RM-03",
+      "subjectId": "radianthus-magnifica",
+      "text": "该种展开的触手细长，末端圆或微膨，常见亮色端部；柱体可红至紫色。",
+      "sourceIds": [
+        "S-ANEMONE-REDSEA2021"
+      ],
+      "location": "Results / Heteractis magnifica；红海与亚丁湾实地调查；使用旧属名",
+      "conditions": "2021 论文使用 Heteractis magnifica 旧名；描绘紫柱/绿触手色型，不声称所有个体均如此",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "RM-04",
+      "subjectId": "radianthus-magnifica",
+      "text": "实地调查通常见该种附着在暴露的礁石上。",
+      "sourceIds": [
+        "S-ANEMONE-REDSEA2021"
+      ],
+      "location": "Results / Heteractis magnifica；红海与亚丁湾实地调查；使用旧属名",
+      "conditions": "调查范围为红海与亚丁湾；不用于证明新加坡具体海域的配对或分布",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EC-01",
+      "subjectId": "epinephelus-coioides",
+      "text": "头、身体和中间各鳍有许多小橙褐色斑点。",
+      "sourceIds": [
+        "S-V2-EC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择橙褐点成鱼示意；斑点相对大小随成长变化。来源英文 Cod 在这里指石斑，不是大西洋鳕。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EC-02",
+      "subjectId": "epinephelus-coioides",
+      "text": "体侧有五条不规则斜带，向腹侧分叉。",
+      "sourceIds": [
+        "S-V2-EC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择橙褐点成鱼示意；斑点相对大小随成长变化。来源英文 Cod 在这里指石斑，不是大西洋鳕。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EC-03",
+      "subjectId": "epinephelus-coioides",
+      "text": "幼鱼可生活于河口和淤泥环境；成鱼可见于外海。",
+      "sourceIds": [
+        "S-V2-EC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择橙褐点成鱼示意；斑点相对大小随成长变化。来源英文 Cod 在这里指石斑，不是大西洋鳕。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PL-01",
+      "subjectId": "plectropomus-leopardus",
+      "text": "头和身体上部约三分之二及中间各鳍具有深边蓝点。",
+      "sourceIds": [
+        "S-V2-PL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "东星斑是孩子入口工作名，本卡只对应 Plectropomus leopardus。选择红色成鱼；颜色不是固定身份标签。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PL-02",
+      "subjectId": "plectropomus-leopardus",
+      "text": "体色可由红色至绿褐色，随时段、栖所和活动状态变化。",
+      "sourceIds": [
+        "S-V2-PL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "东星斑是孩子入口工作名，本卡只对应 Plectropomus leopardus。选择红色成鱼；颜色不是固定身份标签。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PL-03",
+      "subjectId": "plectropomus-leopardus",
+      "text": "尾鳍中间鳍条常具白色边缘。",
+      "sourceIds": [
+        "S-V2-PL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "东星斑是孩子入口工作名，本卡只对应 Plectropomus leopardus。选择红色成鱼；颜色不是固定身份标签。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EF-01",
+      "subjectId": "epinephelus-fuscoguttatus",
+      "text": "淡黄褐底色有密集小褐点，并有五列不规则深褐色斑块。",
+      "sourceIds": [
+        "S-V2-EF"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "老虎斑为工作名；画的是 E. fuscoguttatus 成鱼近似色型，不能把市场商品名当成所有石斑的精确鉴定。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EF-02",
+      "subjectId": "epinephelus-fuscoguttatus",
+      "text": "尾柄上方有明显黑色鞍状斑。",
+      "sourceIds": [
+        "S-V2-EF"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "老虎斑为工作名；画的是 E. fuscoguttatus 成鱼近似色型，不能把市场商品名当成所有石斑的精确鉴定。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EF-03",
+      "subjectId": "epinephelus-fuscoguttatus",
+      "text": "幼鱼可见于海草床；成鱼常见于珊瑚丰富的礁区。",
+      "sourceIds": [
+        "S-V2-EF"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "老虎斑为工作名；画的是 E. fuscoguttatus 成鱼近似色型，不能把市场商品名当成所有石斑的精确鉴定。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EM-01",
+      "subjectId": "epinephelus-merra",
+      "text": "密集褐色斑点之间有浅色间隔，呈蜂窝状花纹。",
+      "sourceIds": [
+        "S-V2-EM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蜂窝石斑是工作名。小型石斑的蜂窝纹具有观察价值，但相似种仍需专业鉴定，不能只凭图认种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EM-02",
+      "subjectId": "epinephelus-merra",
+      "text": "腹部褐斑的间隔较疏。",
+      "sourceIds": [
+        "S-V2-EM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蜂窝石斑是工作名。小型石斑的蜂窝纹具有观察价值，但相似种仍需专业鉴定，不能只凭图认种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EM-03",
+      "subjectId": "epinephelus-merra",
+      "text": "尾鳍呈圆形。",
+      "sourceIds": [
+        "S-V2-EM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蜂窝石斑是工作名。小型石斑的蜂窝纹具有观察价值，但相似种仍需专业鉴定，不能只凭图认种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EL-01",
+      "subjectId": "epinephelus-lanceolatus",
+      "text": "具有大口及圆形尾鳍。",
+      "sourceIds": [
+        "S-V2-EL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "画的是成鱼灰褐示意，不混用幼鱼黑黄色。记录最大体型与常见体型是不同概念，此卡不让所有鱼都成为纪录巨鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EL-02",
+      "subjectId": "epinephelus-lanceolatus",
+      "text": "幼鱼具不规则黑黄花纹；成鱼多为绿灰或灰褐色并有淡斑。",
+      "sourceIds": [
+        "S-V2-EL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "画的是成鱼灰褐示意，不混用幼鱼黑黄色。记录最大体型与常见体型是不同概念，此卡不让所有鱼都成为纪录巨鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "EL-03",
+      "subjectId": "epinephelus-lanceolatus",
+      "text": "成鱼各鳍具有许多小黑点。",
+      "sourceIds": [
+        "S-V2-EL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "画的是成鱼灰褐示意，不混用幼鱼黑黄色。记录最大体型与常见体型是不同概念，此卡不让所有鱼都成为纪录巨鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CA-01",
+      "subjectId": "cephalopholis-argus",
+      "text": "褐色至绿褐色体上有许多具深边的小蓝点，延伸至各鳍。",
+      "sourceIds": [
+        "S-V2-CA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蓝点石斑为工作名，仅对应 C. argus。画选绿褐底色、淡后部带纹；条带显现有条件。与红色东星斑分开比较。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CA-02",
+      "subjectId": "cephalopholis-argus",
+      "text": "胸鳍前有浅色区域。",
+      "sourceIds": [
+        "S-V2-CA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蓝点石斑为工作名，仅对应 C. argus。画选绿褐底色、淡后部带纹；条带显现有条件。与红色东星斑分开比较。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CA-03",
+      "subjectId": "cephalopholis-argus",
+      "text": "部分个体可显现五至六条后半身浅色条带。",
+      "sourceIds": [
+        "S-V2-CA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "蓝点石斑为工作名，仅对应 C. argus。画选绿褐底色、淡后部带纹；条带显现有条件。与红色东星斑分开比较。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CI-01",
+      "subjectId": "caranx-ignobilis",
+      "text": "头部轮廓陡峭。",
+      "sourceIds": [
+        "S-V2-CI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "GT 是英文俗名 Giant Trevally 的简称。选择银色成鱼示意；强壮外形不自动转成孩子必须更难的操作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CI-02",
+      "subjectId": "caranx-ignobilis",
+      "text": "体色可为银色、暗金色至近黑色。",
+      "sourceIds": [
+        "S-V2-CI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "GT 是英文俗名 Giant Trevally 的简称。选择银色成鱼示意；强壮外形不自动转成孩子必须更难的操作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "CI-03",
+      "subjectId": "caranx-ignobilis",
+      "text": "侧线后段具有坚硬的棱鳞。",
+      "sourceIds": [
+        "S-V2-CI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "GT 是英文俗名 Giant Trevally 的简称。选择银色成鱼示意；强壮外形不自动转成孩子必须更难的操作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SB-01",
+      "subjectId": "sphyraena-barracuda",
+      "text": "身体细长流线型，口大且下颌突出。",
+      "sourceIds": [
+        "S-V2-SB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "海狼是多义俗名，本卡限定大魣 S. barracuda。闭口插画强调形状和鳍，不夸张表现牙齿；不是所有魣都画同样黑点。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SB-02",
+      "subjectId": "sphyraena-barracuda",
+      "text": "棘背鳍与软背鳍相距较远。",
+      "sourceIds": [
+        "S-V2-SB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "海狼是多义俗名，本卡限定大魣 S. barracuda。闭口插画强调形状和鳍，不夸张表现牙齿；不是所有魣都画同样黑点。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SB-03",
+      "subjectId": "sphyraena-barracuda",
+      "text": "下体侧的黑点是该种的重要识别特征。",
+      "sourceIds": [
+        "S-V2-SB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "海狼是多义俗名，本卡限定大魣 S. barracuda。闭口插画强调形状和鳍，不夸张表现牙齿；不是所有魣都画同样黑点。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "LC-01",
+      "subjectId": "lates-calcarifer",
+      "text": "上颌后缘延至眼后方。",
+      "sourceIds": [
+        "S-V2-LC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择银色成鱼示意；幼鱼有不同斑纹。亚洲海鲈 Lates calcarifer 与欧洲海鲈是不同物种，不共用学名卡。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "LC-02",
+      "subjectId": "lates-calcarifer",
+      "text": "尾鳍呈圆形。",
+      "sourceIds": [
+        "S-V2-LC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择银色成鱼示意；幼鱼有不同斑纹。亚洲海鲈 Lates calcarifer 与欧洲海鲈是不同物种，不共用学名卡。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "LC-03",
+      "subjectId": "lates-calcarifer",
+      "text": "可生活于溪流、河流及河口等环境。",
+      "sourceIds": [
+        "S-V2-LC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "选择银色成鱼示意；幼鱼有不同斑纹。亚洲海鲈 Lates calcarifer 与欧洲海鲈是不同物种，不共用学名卡。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SC-01",
+      "subjectId": "scomberomorus-commerson",
+      "text": "体侧有许多细窄波状暗带，并延伸到侧线以下。",
+      "sourceIds": [
+        "S-V2-SC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应康氏马鲛 S. commerson 的成鱼条带色型；幼鱼另有点纹。马鲛俗名覆盖多种鱼，不能混为一种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SC-02",
+      "subjectId": "scomberomorus-commerson",
+      "text": "背部深蓝灰色，体侧银色带蓝色反光。",
+      "sourceIds": [
+        "S-V2-SC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应康氏马鲛 S. commerson 的成鱼条带色型；幼鱼另有点纹。马鲛俗名覆盖多种鱼，不能混为一种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SC-03",
+      "subjectId": "scomberomorus-commerson",
+      "text": "幼鱼常具斑点，不能把成鱼条带推广到所有年龄。",
+      "sourceIds": [
+        "S-V2-SC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应康氏马鲛 S. commerson 的成鱼条带色型；幼鱼另有点纹。马鲛俗名覆盖多种鱼，不能混为一种。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SG-01",
+      "subjectId": "scarus-ghobban",
+      "text": "鹦嘴鱼的齿形成齿板，唇多覆盖齿板。",
+      "sourceIds": [
+        "S-V2-SG"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SG-02",
+      "subjectId": "scarus-ghobban",
+      "text": "初始阶段多黄至橙褐并有蓝色嘴眼条带；终末阶段雄鱼多蓝绿、鳞缘粉色。",
+      "sourceIds": [
+        "S-V2-SG"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "SG-03",
+      "subjectId": "scarus-ghobban",
+      "text": "刮食底栖藻类及死珊瑚表面碎屑。",
+      "sourceIds": [
+        "S-V2-SG"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PI-01",
+      "subjectId": "pomacanthus-imperator",
+      "text": "成鱼身体具黄色和紫蓝色斜纹。",
+      "sourceIds": [
+        "S-V2-PI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "插画明确为成鱼；幼鱼圆环仅由亲子文字介绍，不能从成鱼插画直接找到。不同鱼龄画面后续可独立制作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PI-02",
+      "subjectId": "pomacanthus-imperator",
+      "text": "成鱼有覆盖眼部的弯曲黑带。",
+      "sourceIds": [
+        "S-V2-PI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "插画明确为成鱼；幼鱼圆环仅由亲子文字介绍，不能从成鱼插画直接找到。不同鱼龄画面后续可独立制作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "PI-03",
+      "subjectId": "pomacanthus-imperator",
+      "text": "幼鱼蓝黑色，身体后部有白环，外围是不完整蓝白圈。",
+      "sourceIds": [
+        "S-V2-PI"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "插画明确为成鱼；幼鱼圆环仅由亲子文字介绍，不能从成鱼插画直接找到。不同鱼龄画面后续可独立制作。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TL-01",
+      "subjectId": "trichiurus-lepturus",
+      "text": "身体极延长、侧扁，逐渐变细直至尖端。",
+      "sourceIds": [
+        "S-V2-TL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "限定 T. lepturus 示例；带鱼涉及相似物种复合群，不声称餐桌带鱼全为本种。闭口、完整活鱼示意；没有给它补上不存在的扇尾。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TL-02",
+      "subjectId": "trichiurus-lepturus",
+      "text": "尾鳍与腹鳍缺失。",
+      "sourceIds": [
+        "S-V2-TL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "限定 T. lepturus 示例；带鱼涉及相似物种复合群，不声称餐桌带鱼全为本种。闭口、完整活鱼示意；没有给它补上不存在的扇尾。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TL-03",
+      "subjectId": "trichiurus-lepturus",
+      "text": "背鳍高且基部很长，臀鳍缩为微小棘突。",
+      "sourceIds": [
+        "S-V2-TL"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "限定 T. lepturus 示例；带鱼涉及相似物种复合群，不声称餐桌带鱼全为本种。闭口、完整活鱼示意；没有给它补上不存在的扇尾。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "OC-01",
+      "subjectId": "ostracion-cubicus",
+      "text": "身体呈箱形。",
+      "sourceIds": [
+        "S-V2-OC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本图选幼鱼亮黄黑点色型。箱鲀不是充气后的河鲀，没有加入角箱鲀的额角；成长变化不以当前一张图证明。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "OC-02",
+      "subjectId": "ostracion-cubicus",
+      "text": "幼鱼亮黄色，具黑色斑点。",
+      "sourceIds": [
+        "S-V2-OC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本图选幼鱼亮黄黑点色型。箱鲀不是充气后的河鲀，没有加入角箱鲀的额角；成长变化不以当前一张图证明。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "OC-03",
+      "subjectId": "ostracion-cubicus",
+      "text": "随成长黑点相对变小，体色可偏褐，点可变成带黑边的白点。",
+      "sourceIds": [
+        "S-V2-OC"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本图选幼鱼亮黄黑点色型。箱鲀不是充气后的河鲀，没有加入角箱鲀的额角；成长变化不以当前一张图证明。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "HK-01",
+      "subjectId": "hippocampus-kuda",
+      "text": "海马用可抓握尾巴固定身体。",
+      "sourceIds": [
+        "S-V2-HK"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "NParks 页面以 Hippocampus spp. 汇总，明确提到 H. kuda 河口海草栖所；育儿与抓握尾为海马类群知识。黄褐色是艺术选择，图不作相似海马的精确分类依据。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "HK-02",
+      "subjectId": "hippocampus-kuda",
+      "text": "河口海马主要生活于海草区，通常在河口附近。",
+      "sourceIds": [
+        "S-V2-HK"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "NParks 页面以 Hippocampus spp. 汇总，明确提到 H. kuda 河口海草栖所；育儿与抓握尾为海马类群知识。黄褐色是艺术选择，图不作相似海马的精确分类依据。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "HK-03",
+      "subjectId": "hippocampus-kuda",
+      "text": "雄海马腹部具育儿袋，雌鱼把卵放入袋中。",
+      "sourceIds": [
+        "S-V2-HK"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "NParks 页面以 Hippocampus spp. 汇总，明确提到 H. kuda 河口海草栖所；育儿与抓握尾为海马类群知识。黄褐色是艺术选择，图不作相似海马的精确分类依据。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "GM-01",
+      "subjectId": "gadus-morhua",
+      "text": "下颌下有明显触须。",
+      "sourceIds": [
+        "S-V2-GM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鳕鱼俗名不只一种。本卡明确为北大西洋 Gadus morhua；不能放进新加坡珊瑚礁并宣称当地自然分布。选择橄榄褐色示意。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "GM-02",
+      "subjectId": "gadus-morhua",
+      "text": "通常头、鳍、尾和体表具深色小斑，腹部浅色且通常无斑。",
+      "sourceIds": [
+        "S-V2-GM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鳕鱼俗名不只一种。本卡明确为北大西洋 Gadus morhua；不能放进新加坡珊瑚礁并宣称当地自然分布。选择橄榄褐色示意。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "GM-03",
+      "subjectId": "gadus-morhua",
+      "text": "具有明显侧线。",
+      "sourceIds": [
+        "S-V2-GM"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "鳕鱼俗名不只一种。本卡明确为北大西洋 Gadus morhua；不能放进新加坡珊瑚礁并宣称当地自然分布。选择橄榄褐色示意。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TA-01",
+      "subjectId": "thunnus-albacares",
+      "text": "身体呈鱼雷形。",
+      "sourceIds": [
+        "S-V2-TA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应 T. albacares，采用长黄鳍成鱼近似图。NOAA 该页关注大西洋种群，不将其管理规则泛化为全球；图片体形不证明速度纪录。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TA-02",
+      "subjectId": "thunnus-albacares",
+      "text": "背鳍、臀鳍及小鳍鲜黄色，长黄色背鳍是识别特征。",
+      "sourceIds": [
+        "S-V2-TA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应 T. albacares，采用长黄鳍成鱼近似图。NOAA 该页关注大西洋种群，不将其管理规则泛化为全球；图片体形不证明速度纪录。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "TA-03",
+      "subjectId": "thunnus-albacares",
+      "text": "背和体侧上部金属深蓝，腹侧由黄色过渡到银色。",
+      "sourceIds": [
+        "S-V2-TA"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "本卡对应 T. albacares，采用长黄鳍成鱼近似图。NOAA 该页关注大西洋种群，不将其管理规则泛化为全球；图片体形不证明速度纪录。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "MB-01",
+      "subjectId": "mobula-birostris",
+      "text": "身体菱形，两侧有伸展的翼状胸鳍。",
+      "sourceIds": [
+        "S-V2-MB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "采用背面稍斜的宽幅黑背示意，区别于侧视硬骨鱼；没有腹面斑点图供个体辨识。蝠鲼用于观察、入海与创作灵感，当前不进入普通钓鱼池。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "MB-02",
+      "subjectId": "mobula-birostris",
+      "text": "嘴宽且位于头前方，有一对帮助导水取食的头鳍。",
+      "sourceIds": [
+        "S-V2-MB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "采用背面稍斜的宽幅黑背示意，区别于侧视硬骨鱼；没有腹面斑点图供个体辨识。蝠鲼用于观察、入海与创作灵感，当前不进入普通钓鱼池。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    },
+    {
+      "id": "MB-03",
+      "subjectId": "mobula-birostris",
+      "text": "为滤食性，主要食物包含浮游动物。",
+      "sourceIds": [
+        "S-V2-MB"
+      ],
+      "location": "Identification / Summary / Features / Appearance / Ecology",
+      "conditions": "采用背面稍斜的宽幅黑背示意，区别于侧视硬骨鱼；没有腹面斑点图供个体辨识。蝠鲼用于观察、入海与创作灵感，当前不进入普通钓鱼池。",
+      "checkedAt": "2026-10-06",
+      "reviewer": "primary-agent",
+      "status": "checked",
+      "publicationStatus": "preview-ready",
+      "issue": null
+    }
+  ],
+  "clips": [
+    {
+      "id": "VO-AO-INTRO",
+      "text": "这是一条小丑鱼，看看它的白带。",
+      "factIds": [
+        "AO-01",
+        "AO-02"
+      ],
+      "subjectId": "amphiprion-ocellaris",
+      "kind": "knowledge",
+      "file": "audio/vo-ao-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AO-BANDS",
+      "text": "它的头、身体中间和尾根，各有一条白带。",
+      "factIds": [
+        "AO-02"
+      ],
+      "subjectId": "amphiprion-ocellaris",
+      "kind": "knowledge",
+      "file": "audio/vo-ao-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AO-FINS",
+      "text": "看，它的鳍上还有黑色。",
+      "factIds": [
+        "AO-02"
+      ],
+      "subjectId": "amphiprion-ocellaris",
+      "kind": "knowledge",
+      "file": "audio/vo-ao-fins.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AO-HOME",
+      "text": "这种小丑鱼，会和这种海葵一起生活。",
+      "factIds": [
+        "AO-03",
+        "RM-01"
+      ],
+      "subjectId": "amphiprion-ocellaris",
+      "kind": "knowledge",
+      "file": "audio/vo-ao-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-FF-INTRO",
+      "text": "看，这条鱼有一张细长的嘴。",
+      "factIds": [
+        "FF-01"
+      ],
+      "subjectId": "forcipiger-flavissimus",
+      "kind": "knowledge",
+      "file": "audio/vo-ff-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-FF-MOUTH",
+      "text": "它会到珊瑚枝和礁缝里找食物。",
+      "factIds": [
+        "FF-03"
+      ],
+      "subjectId": "forcipiger-flavissimus",
+      "kind": "knowledge",
+      "file": "audio/vo-ff-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-FF-SPOT",
+      "text": "找找尾根下方的鳍，上面有一个黑点。",
+      "factIds": [
+        "FF-02"
+      ],
+      "subjectId": "forcipiger-flavissimus",
+      "kind": "knowledge",
+      "file": "audio/vo-ff-spot.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-FF-PAIR",
+      "text": "它们常常两条一起，也会单独出现。",
+      "factIds": [
+        "FF-05"
+      ],
+      "subjectId": "forcipiger-flavissimus",
+      "kind": "knowledge",
+      "file": "audio/vo-ff-pair.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AH-INTRO",
+      "text": "这条鱼圆圆的，身上有点点和线条。",
+      "factIds": [
+        "AH-01",
+        "AH-03"
+      ],
+      "subjectId": "arothron-hispidus",
+      "kind": "knowledge",
+      "file": "audio/vo-ah-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AH-PATTERN",
+      "text": "上面是白点，下面是浅色线条。",
+      "factIds": [
+        "AH-01"
+      ],
+      "subjectId": "arothron-hispidus",
+      "kind": "knowledge",
+      "file": "audio/vo-ah-pattern.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AH-RINGS",
+      "text": "看胸鳍根部，一圈深，一圈浅。",
+      "factIds": [
+        "AH-02"
+      ],
+      "subjectId": "arothron-hispidus",
+      "kind": "knowledge",
+      "file": "audio/vo-ah-rings.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AH-MOUTH",
+      "text": "它的嘴，像一个小喙。",
+      "factIds": [
+        "AH-04"
+      ],
+      "subjectId": "arothron-hispidus",
+      "kind": "knowledge",
+      "file": "audio/vo-ah-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZF-INTRO",
+      "text": "这条鱼，白天常常是亮黄色的。",
+      "factIds": [
+        "ZF-01"
+      ],
+      "subjectId": "zebrasoma-flavescens",
+      "kind": "knowledge",
+      "file": "audio/vo-zf-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZF-TAIL",
+      "text": "看看尾巴根部，这里有一根白色的小刺。",
+      "factIds": [
+        "ZF-01"
+      ],
+      "subjectId": "zebrasoma-flavescens",
+      "kind": "knowledge",
+      "file": "audio/vo-zf-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZF-FOOD",
+      "text": "它会啃食藻类。",
+      "factIds": [
+        "ZF-02"
+      ],
+      "subjectId": "zebrasoma-flavescens",
+      "kind": "knowledge",
+      "file": "audio/vo-zf-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZF-NIGHT",
+      "text": "到了晚上，黄色会变暗，身体中间会出现白带。",
+      "factIds": [
+        "ZF-03"
+      ],
+      "subjectId": "zebrasoma-flavescens",
+      "kind": "knowledge",
+      "file": "audio/vo-zf-night.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PH-INTRO",
+      "text": "看看这条蓝色的鱼，还有黑色图案。",
+      "factIds": [
+        "PH-01"
+      ],
+      "subjectId": "paracanthurus-hepatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ph-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PH-BODY",
+      "text": "蓝色的身体上，有黑色图案。",
+      "factIds": [
+        "PH-01"
+      ],
+      "subjectId": "paracanthurus-hepatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ph-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PH-TAIL",
+      "text": "尾巴是黄色的，上下边缘有黑色。",
+      "factIds": [
+        "PH-02"
+      ],
+      "subjectId": "paracanthurus-hepatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ph-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PH-FOOD",
+      "text": "它主要吃水里的浮游小动物。",
+      "factIds": [
+        "PH-03"
+      ],
+      "subjectId": "paracanthurus-hepatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ph-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZC-INTRO",
+      "text": "看看这条鱼，背鳍拖着长长的白丝。",
+      "factIds": [
+        "ZC-01"
+      ],
+      "subjectId": "zanclus-cornutus",
+      "kind": "knowledge",
+      "file": "audio/vo-zc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZC-FIN",
+      "text": "背上的鳍，像一条长长的白丝。",
+      "factIds": [
+        "ZC-01"
+      ],
+      "subjectId": "zanclus-cornutus",
+      "kind": "knowledge",
+      "file": "audio/vo-zc-fin.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZC-BANDS",
+      "text": "身体上有两条宽宽的黑带。",
+      "factIds": [
+        "ZC-02"
+      ],
+      "subjectId": "zanclus-cornutus",
+      "kind": "knowledge",
+      "file": "audio/vo-zc-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZC-NOSE",
+      "text": "看看嘴巴前面，还有一块黄色。",
+      "factIds": [
+        "ZC-02"
+      ],
+      "subjectId": "zanclus-cornutus",
+      "kind": "knowledge",
+      "file": "audio/vo-zc-nose.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SS-INTRO",
+      "text": "这条鱼，生活在近岸的岩礁。",
+      "factIds": [
+        "SS-01"
+      ],
+      "subjectId": "sebastes-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-ss-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SS-HOME",
+      "text": "它的家，在近岸的岩礁。",
+      "factIds": [
+        "SS-01"
+      ],
+      "subjectId": "sebastes-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-ss-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SS-YOUNG",
+      "text": "小时候，它可以和漂浮的海藻一起出现。",
+      "factIds": [
+        "SS-02"
+      ],
+      "subjectId": "sebastes-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-ss-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SS-BABY",
+      "text": "它的宝宝，先在妈妈身体里发育。",
+      "factIds": [
+        "SS-03"
+      ],
+      "subjectId": "sebastes-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-ss-baby.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AS-INTRO",
+      "text": "这条鱼灰灰的，胸鳍却是橘黄色的。",
+      "factIds": [
+        "AS-01"
+      ],
+      "subjectId": "acanthopagrus-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-as-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AS-FIN",
+      "text": "看看身体侧边的鳍，是橘黄色的。",
+      "factIds": [
+        "AS-01"
+      ],
+      "subjectId": "acanthopagrus-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-as-fin.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AS-TAIL",
+      "text": "尾巴分成了上下两边。",
+      "factIds": [
+        "AS-02"
+      ],
+      "subjectId": "acanthopagrus-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-as-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AS-HOME",
+      "text": "它也会生活在海湾和河口。",
+      "factIds": [
+        "AS-03"
+      ],
+      "subjectId": "acanthopagrus-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-as-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HO-INTRO",
+      "text": "看看这条鱼，身体长长的。",
+      "factIds": [
+        "HO-01"
+      ],
+      "subjectId": "hexagrammos-otakii",
+      "kind": "knowledge",
+      "file": "audio/vo-ho-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HO-BODY",
+      "text": "它的身体，比圆圆的鱼更长。",
+      "factIds": [
+        "HO-01"
+      ],
+      "subjectId": "hexagrammos-otakii",
+      "kind": "knowledge",
+      "file": "audio/vo-ho-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HO-HOME",
+      "text": "它会住在岩石海岸。",
+      "factIds": [
+        "HO-02"
+      ],
+      "subjectId": "hexagrammos-otakii",
+      "kind": "knowledge",
+      "file": "audio/vo-ho-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HO-EGGS",
+      "text": "鱼爸爸，会守护附在小石头上的卵。",
+      "factIds": [
+        "HO-03"
+      ],
+      "subjectId": "hexagrammos-otakii",
+      "kind": "knowledge",
+      "file": "audio/vo-ho-eggs.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OF-INTRO",
+      "text": "看看这条鱼，有好多黑色带子。",
+      "factIds": [
+        "OF-01"
+      ],
+      "subjectId": "oplegnathus-fasciatus",
+      "kind": "knowledge",
+      "file": "audio/vo-of-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OF-BANDS",
+      "text": "这些黑带里，有一条穿过眼睛。",
+      "factIds": [
+        "OF-01"
+      ],
+      "subjectId": "oplegnathus-fasciatus",
+      "kind": "knowledge",
+      "file": "audio/vo-of-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OF-MOUTH",
+      "text": "它的牙齿连在一起，形成了像喙的嘴。",
+      "factIds": [
+        "OF-02"
+      ],
+      "subjectId": "oplegnathus-fasciatus",
+      "kind": "knowledge",
+      "file": "audio/vo-of-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OF-YOUNG",
+      "text": "小鱼会跟着漂浮的海藻活动。",
+      "factIds": [
+        "OF-03"
+      ],
+      "subjectId": "oplegnathus-fasciatus",
+      "kind": "knowledge",
+      "file": "audio/vo-of-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GP-INTRO",
+      "text": "靠近看看，这条鱼身上有小黑点。",
+      "factIds": [
+        "GP-01"
+      ],
+      "subjectId": "girella-punctata",
+      "kind": "knowledge",
+      "file": "audio/vo-gp-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GP-DOTS",
+      "text": "鳞片上，有小小的黑点。",
+      "factIds": [
+        "GP-01"
+      ],
+      "subjectId": "girella-punctata",
+      "kind": "knowledge",
+      "file": "audio/vo-gp-dots.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GP-FIN",
+      "text": "胸鳍根部，还有一块深色斑。",
+      "factIds": [
+        "GP-02"
+      ],
+      "subjectId": "girella-punctata",
+      "kind": "knowledge",
+      "file": "audio/vo-gp-fin.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GP-FOOD",
+      "text": "它吃藻类，也吃一些小生物。",
+      "factIds": [
+        "GP-03"
+      ],
+      "subjectId": "girella-punctata",
+      "kind": "knowledge",
+      "file": "audio/vo-gp-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SM-INTRO",
+      "text": "看看岩礁里的这条鱼，这张图选了红褐色。",
+      "factIds": [
+        "SM-01",
+        "SM-02"
+      ],
+      "subjectId": "sebastiscus-marmoratus",
+      "kind": "knowledge",
+      "file": "audio/vo-sm-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SM-COLOR",
+      "text": "它的颜色，会随着生活条件有所不同。",
+      "factIds": [
+        "SM-01"
+      ],
+      "subjectId": "sebastiscus-marmoratus",
+      "kind": "knowledge",
+      "file": "audio/vo-sm-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SM-HOME",
+      "text": "它生活在浅海的岩礁底部。",
+      "factIds": [
+        "SM-02"
+      ],
+      "subjectId": "sebastiscus-marmoratus",
+      "kind": "knowledge",
+      "file": "audio/vo-sm-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SM-FOOD",
+      "text": "它的食物里，主要有小鱼。",
+      "factIds": [
+        "SM-03"
+      ],
+      "subjectId": "sebastiscus-marmoratus",
+      "kind": "knowledge",
+      "file": "audio/vo-sm-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EC-INTRO",
+      "text": "这条石斑鱼，穿着橙色点点的衣服。",
+      "factIds": [
+        "EC-01"
+      ],
+      "subjectId": "epinephelus-coioides",
+      "kind": "knowledge",
+      "file": "audio/vo-ec-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EC-DOTS",
+      "text": "身上有许多橙褐色小点。",
+      "factIds": [
+        "EC-01"
+      ],
+      "subjectId": "epinephelus-coioides",
+      "kind": "knowledge",
+      "file": "audio/vo-ec-dots.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EC-BANDS",
+      "text": "身上还有斜斜的深色带子。",
+      "factIds": [
+        "EC-02"
+      ],
+      "subjectId": "epinephelus-coioides",
+      "kind": "knowledge",
+      "file": "audio/vo-ec-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EC-YOUNG",
+      "text": "小鱼会住在河口。",
+      "factIds": [
+        "EC-03"
+      ],
+      "subjectId": "epinephelus-coioides",
+      "kind": "knowledge",
+      "file": "audio/vo-ec-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PL-INTRO",
+      "text": "看看这条红色的石斑鱼，蓝点好漂亮。",
+      "factIds": [
+        "PL-01"
+      ],
+      "subjectId": "plectropomus-leopardus",
+      "kind": "knowledge",
+      "file": "audio/vo-pl-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PL-DOTS",
+      "text": "红色衣服上，还有蓝色小点。",
+      "factIds": [
+        "PL-01"
+      ],
+      "subjectId": "plectropomus-leopardus",
+      "kind": "knowledge",
+      "file": "audio/vo-pl-dots.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PL-COLOR",
+      "text": "它也可以是绿褐色的。",
+      "factIds": [
+        "PL-02"
+      ],
+      "subjectId": "plectropomus-leopardus",
+      "kind": "knowledge",
+      "file": "audio/vo-pl-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PL-TAIL",
+      "text": "尾巴中间的鳍条，常有浅色边。",
+      "factIds": [
+        "PL-03"
+      ],
+      "subjectId": "plectropomus-leopardus",
+      "kind": "knowledge",
+      "file": "audio/vo-pl-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EF-INTRO",
+      "text": "这条石斑鱼，身上是大斑和小点。",
+      "factIds": [
+        "EF-01"
+      ],
+      "subjectId": "epinephelus-fuscoguttatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ef-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EF-PATTERN",
+      "text": "大块深色斑里，还有小小的点。",
+      "factIds": [
+        "EF-01"
+      ],
+      "subjectId": "epinephelus-fuscoguttatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ef-pattern.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EF-SPOT",
+      "text": "尾巴根部上面，有一块黑色。",
+      "factIds": [
+        "EF-02"
+      ],
+      "subjectId": "epinephelus-fuscoguttatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ef-spot.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EF-YOUNG",
+      "text": "小时候，它也会住在海草间。",
+      "factIds": [
+        "EF-03"
+      ],
+      "subjectId": "epinephelus-fuscoguttatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ef-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EM-INTRO",
+      "text": "看看它的花纹，像一片小蜂窝。",
+      "factIds": [
+        "EM-01"
+      ],
+      "subjectId": "epinephelus-merra",
+      "kind": "knowledge",
+      "file": "audio/vo-em-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EM-PATTERN",
+      "text": "这些褐色花纹，像一个个小格子。",
+      "factIds": [
+        "EM-01"
+      ],
+      "subjectId": "epinephelus-merra",
+      "kind": "knowledge",
+      "file": "audio/vo-em-pattern.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EM-BODY",
+      "text": "到了肚子，点点之间的空隙更大。",
+      "factIds": [
+        "EM-02"
+      ],
+      "subjectId": "epinephelus-merra",
+      "kind": "knowledge",
+      "file": "audio/vo-em-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EM-TAIL",
+      "text": "尾巴的边，圆圆的。",
+      "factIds": [
+        "EM-03"
+      ],
+      "subjectId": "epinephelus-merra",
+      "kind": "knowledge",
+      "file": "audio/vo-em-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EL-INTRO",
+      "text": "这是一条大石斑，叫龙趸。",
+      "factIds": [
+        "EL-01"
+      ],
+      "subjectId": "epinephelus-lanceolatus",
+      "kind": "knowledge",
+      "file": "audio/vo-el-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EL-MOUTH",
+      "text": "看看它的大嘴巴。",
+      "factIds": [
+        "EL-01"
+      ],
+      "subjectId": "epinephelus-lanceolatus",
+      "kind": "knowledge",
+      "file": "audio/vo-el-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EL-COLOR",
+      "text": "小鱼黑黄相间，长大后颜色会变。",
+      "factIds": [
+        "EL-02"
+      ],
+      "subjectId": "epinephelus-lanceolatus",
+      "kind": "knowledge",
+      "file": "audio/vo-el-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EL-FINS",
+      "text": "它的鳍上，有很多小黑点。",
+      "factIds": [
+        "EL-03"
+      ],
+      "subjectId": "epinephelus-lanceolatus",
+      "kind": "knowledge",
+      "file": "audio/vo-el-fins.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CA-INTRO",
+      "text": "这条褐色的石斑鱼，也有蓝点。",
+      "factIds": [
+        "CA-01"
+      ],
+      "subjectId": "cephalopholis-argus",
+      "kind": "knowledge",
+      "file": "audio/vo-ca-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CA-DOTS",
+      "text": "蓝点外面，还有一圈深色边。",
+      "factIds": [
+        "CA-01"
+      ],
+      "subjectId": "cephalopholis-argus",
+      "kind": "knowledge",
+      "file": "audio/vo-ca-dots.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CA-SPOT",
+      "text": "胸鳍前面，有一片浅色。",
+      "factIds": [
+        "CA-02"
+      ],
+      "subjectId": "cephalopholis-argus",
+      "kind": "knowledge",
+      "file": "audio/vo-ca-spot.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CA-BANDS",
+      "text": "有时候，身体后面还有浅色带子。",
+      "factIds": [
+        "CA-03"
+      ],
+      "subjectId": "cephalopholis-argus",
+      "kind": "knowledge",
+      "file": "audio/vo-ca-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CI-INTRO",
+      "text": "这是大鲹，钓鱼的人也叫它 GT。",
+      "factIds": [
+        "CI-01"
+      ],
+      "subjectId": "caranx-ignobilis",
+      "kind": "knowledge",
+      "file": "audio/vo-ci-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CI-BODY",
+      "text": "看看额头，陡陡的。",
+      "factIds": [
+        "CI-01"
+      ],
+      "subjectId": "caranx-ignobilis",
+      "kind": "knowledge",
+      "file": "audio/vo-ci-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CI-COLOR",
+      "text": "它可以是银色，也可以更深。",
+      "factIds": [
+        "CI-02"
+      ],
+      "subjectId": "caranx-ignobilis",
+      "kind": "knowledge",
+      "file": "audio/vo-ci-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CI-SCALES",
+      "text": "身体侧面后半段，还有一排硬硬的小鳞。",
+      "factIds": [
+        "CI-03"
+      ],
+      "subjectId": "caranx-ignobilis",
+      "kind": "knowledge",
+      "file": "audio/vo-ci-scales.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SB-INTRO",
+      "text": "看看海狼，身体好长呀。",
+      "factIds": [
+        "SB-01"
+      ],
+      "subjectId": "sphyraena-barracuda",
+      "kind": "knowledge",
+      "file": "audio/vo-sb-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SB-BODY",
+      "text": "它的身体，细细长长的。",
+      "factIds": [
+        "SB-01"
+      ],
+      "subjectId": "sphyraena-barracuda",
+      "kind": "knowledge",
+      "file": "audio/vo-sb-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SB-FINS",
+      "text": "背上这两片鳍，隔得很远。",
+      "factIds": [
+        "SB-02"
+      ],
+      "subjectId": "sphyraena-barracuda",
+      "kind": "knowledge",
+      "file": "audio/vo-sb-fins.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SB-SPOT",
+      "text": "身体下边，还有一些黑点。",
+      "factIds": [
+        "SB-03"
+      ],
+      "subjectId": "sphyraena-barracuda",
+      "kind": "knowledge",
+      "file": "audio/vo-sb-spot.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-LC-INTRO",
+      "text": "这条银色的鱼，叫亚洲海鲈。",
+      "factIds": [
+        "LC-01"
+      ],
+      "subjectId": "lates-calcarifer",
+      "kind": "knowledge",
+      "file": "audio/vo-lc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-LC-MOUTH",
+      "text": "它的嘴巴，一直伸到眼睛后面。",
+      "factIds": [
+        "LC-01"
+      ],
+      "subjectId": "lates-calcarifer",
+      "kind": "knowledge",
+      "file": "audio/vo-lc-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-LC-TAIL",
+      "text": "看看尾巴，是圆圆的扇形。",
+      "factIds": [
+        "LC-02"
+      ],
+      "subjectId": "lates-calcarifer",
+      "kind": "knowledge",
+      "file": "audio/vo-lc-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-LC-HOME",
+      "text": "它也能在河口和河流生活。",
+      "factIds": [
+        "LC-03"
+      ],
+      "subjectId": "lates-calcarifer",
+      "kind": "knowledge",
+      "file": "audio/vo-lc-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SC-INTRO",
+      "text": "这条马鲛鱼，穿着细细的波纹。",
+      "factIds": [
+        "SC-01"
+      ],
+      "subjectId": "scomberomorus-commerson",
+      "kind": "knowledge",
+      "file": "audio/vo-sc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SC-BANDS",
+      "text": "身上有好多细细的波浪带子。",
+      "factIds": [
+        "SC-01"
+      ],
+      "subjectId": "scomberomorus-commerson",
+      "kind": "knowledge",
+      "file": "audio/vo-sc-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SC-COLOR",
+      "text": "背上蓝灰，身体侧边银亮亮。",
+      "factIds": [
+        "SC-02"
+      ],
+      "subjectId": "scomberomorus-commerson",
+      "kind": "knowledge",
+      "file": "audio/vo-sc-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SC-YOUNG",
+      "text": "小时候，常常是点点花纹。",
+      "factIds": [
+        "SC-03"
+      ],
+      "subjectId": "scomberomorus-commerson",
+      "kind": "knowledge",
+      "file": "audio/vo-sc-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SG-INTRO",
+      "text": "这是一条鹦嘴鱼，看看它的嘴。",
+      "factIds": [
+        "SG-01"
+      ],
+      "subjectId": "scarus-ghobban",
+      "kind": "knowledge",
+      "file": "audio/vo-sg-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SG-MOUTH",
+      "text": "它的嘴，像小鸟的喙。",
+      "factIds": [
+        "SG-01"
+      ],
+      "subjectId": "scarus-ghobban",
+      "kind": "knowledge",
+      "file": "audio/vo-sg-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SG-COLOR",
+      "text": "不同成长阶段，花衣服不一样。",
+      "factIds": [
+        "SG-02"
+      ],
+      "subjectId": "scarus-ghobban",
+      "kind": "knowledge",
+      "file": "audio/vo-sg-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SG-FOOD",
+      "text": "它会刮着吃藻类。",
+      "factIds": [
+        "SG-03"
+      ],
+      "subjectId": "scarus-ghobban",
+      "kind": "knowledge",
+      "file": "audio/vo-sg-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PI-INTRO",
+      "text": "这条神仙鱼，穿着蓝黄条纹。",
+      "factIds": [
+        "PI-01"
+      ],
+      "subjectId": "pomacanthus-imperator",
+      "kind": "knowledge",
+      "file": "audio/vo-pi-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PI-BANDS",
+      "text": "蓝色和黄色，排成一条条。",
+      "factIds": [
+        "PI-01"
+      ],
+      "subjectId": "pomacanthus-imperator",
+      "kind": "knowledge",
+      "file": "audio/vo-pi-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PI-SPOT",
+      "text": "眼睛这里，有一条弯弯的黑带。",
+      "factIds": [
+        "PI-02"
+      ],
+      "subjectId": "pomacanthus-imperator",
+      "kind": "knowledge",
+      "file": "audio/vo-pi-spot.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PI-YOUNG",
+      "text": "小时候，它穿的是圆环花纹。",
+      "factIds": [
+        "PI-03"
+      ],
+      "subjectId": "pomacanthus-imperator",
+      "kind": "knowledge",
+      "file": "audio/vo-pi-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TL-INTRO",
+      "text": "看看带鱼，像一条银色的长带子。",
+      "factIds": [
+        "TL-01"
+      ],
+      "subjectId": "trichiurus-lepturus",
+      "kind": "knowledge",
+      "file": "audio/vo-tl-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TL-BODY",
+      "text": "它的身体，又长又扁。",
+      "factIds": [
+        "TL-01"
+      ],
+      "subjectId": "trichiurus-lepturus",
+      "kind": "knowledge",
+      "file": "audio/vo-tl-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TL-TAIL",
+      "text": "身体末端尖尖的，没有扇形尾鳍。",
+      "factIds": [
+        "TL-02"
+      ],
+      "subjectId": "trichiurus-lepturus",
+      "kind": "knowledge",
+      "file": "audio/vo-tl-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TL-FIN",
+      "text": "背上的鳍，沿着身体排得很长。",
+      "factIds": [
+        "TL-03"
+      ],
+      "subjectId": "trichiurus-lepturus",
+      "kind": "knowledge",
+      "file": "audio/vo-tl-fin.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OC-INTRO",
+      "text": "这是黄箱鲀，像个黄色小盒子。",
+      "factIds": [
+        "OC-01"
+      ],
+      "subjectId": "ostracion-cubicus",
+      "kind": "knowledge",
+      "file": "audio/vo-oc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OC-BODY",
+      "text": "身体像一个小盒子。",
+      "factIds": [
+        "OC-01"
+      ],
+      "subjectId": "ostracion-cubicus",
+      "kind": "knowledge",
+      "file": "audio/vo-oc-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OC-DOTS",
+      "text": "黄色衣服上，有黑色圆点。",
+      "factIds": [
+        "OC-02"
+      ],
+      "subjectId": "ostracion-cubicus",
+      "kind": "knowledge",
+      "file": "audio/vo-oc-dots.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OC-GROW",
+      "text": "长大以后，颜色和点点会变化。",
+      "factIds": [
+        "OC-03"
+      ],
+      "subjectId": "ostracion-cubicus",
+      "kind": "knowledge",
+      "file": "audio/vo-oc-grow.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HK-INTRO",
+      "text": "海马也是鱼，看它弯弯的尾巴。",
+      "factIds": [
+        "HK-01"
+      ],
+      "subjectId": "hippocampus-kuda",
+      "kind": "knowledge",
+      "file": "audio/vo-hk-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HK-TAIL",
+      "text": "弯弯的尾巴，能抓住东西。",
+      "factIds": [
+        "HK-01"
+      ],
+      "subjectId": "hippocampus-kuda",
+      "kind": "knowledge",
+      "file": "audio/vo-hk-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HK-HOME",
+      "text": "这种海马，常住在河口附近的海草间。",
+      "factIds": [
+        "HK-02"
+      ],
+      "subjectId": "hippocampus-kuda",
+      "kind": "knowledge",
+      "file": "audio/vo-hk-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HK-BABY",
+      "text": "鱼爸爸，有一个装鱼卵的育儿袋。",
+      "factIds": [
+        "HK-03"
+      ],
+      "subjectId": "hippocampus-kuda",
+      "kind": "knowledge",
+      "file": "audio/vo-hk-baby.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GM-INTRO",
+      "text": "这条鱼，叫大西洋鳕。看看下巴的小须。",
+      "factIds": [
+        "GM-01"
+      ],
+      "subjectId": "gadus-morhua",
+      "kind": "knowledge",
+      "file": "audio/vo-gm-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GM-MOUTH",
+      "text": "下巴下面，有一根小小的须。",
+      "factIds": [
+        "GM-01"
+      ],
+      "subjectId": "gadus-morhua",
+      "kind": "knowledge",
+      "file": "audio/vo-gm-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GM-PATTERN",
+      "text": "身上有深色点，肚子却浅浅的。",
+      "factIds": [
+        "GM-02"
+      ],
+      "subjectId": "gadus-morhua",
+      "kind": "knowledge",
+      "file": "audio/vo-gm-pattern.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GM-BODY",
+      "text": "身体侧面，还有一条长长的线。",
+      "factIds": [
+        "GM-03"
+      ],
+      "subjectId": "gadus-morhua",
+      "kind": "knowledge",
+      "file": "audio/vo-gm-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TA-INTRO",
+      "text": "看黄鳍金枪鱼，它的鳍是黄色的。",
+      "factIds": [
+        "TA-01"
+      ],
+      "subjectId": "thunnus-albacares",
+      "kind": "knowledge",
+      "file": "audio/vo-ta-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TA-BODY",
+      "text": "身体两头细，中间粗。",
+      "factIds": [
+        "TA-01"
+      ],
+      "subjectId": "thunnus-albacares",
+      "kind": "knowledge",
+      "file": "audio/vo-ta-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TA-FINS",
+      "text": "背鳍、臀鳍和后面的小鳍，是黄色的。",
+      "factIds": [
+        "TA-02"
+      ],
+      "subjectId": "thunnus-albacares",
+      "kind": "knowledge",
+      "file": "audio/vo-ta-fins.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TA-COLOR",
+      "text": "背上深蓝，肚子银亮亮。",
+      "factIds": [
+        "TA-03"
+      ],
+      "subjectId": "thunnus-albacares",
+      "kind": "knowledge",
+      "file": "audio/vo-ta-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-MB-INTRO",
+      "text": "这是巨型蝠鲼，它也是一种鱼。",
+      "factIds": [
+        "MB-01"
+      ],
+      "subjectId": "mobula-birostris",
+      "kind": "knowledge",
+      "file": "audio/vo-mb-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-MB-FINS",
+      "text": "大大的胸鳍，像一对翅膀。",
+      "factIds": [
+        "MB-01"
+      ],
+      "subjectId": "mobula-birostris",
+      "kind": "knowledge",
+      "file": "audio/vo-mb-fins.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-MB-MOUTH",
+      "text": "嘴巴前面，有两片小小的头鳍。",
+      "factIds": [
+        "MB-02"
+      ],
+      "subjectId": "mobula-birostris",
+      "kind": "knowledge",
+      "file": "audio/vo-mb-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-MB-FOOD",
+      "text": "它会从水里，过滤浮游小动物。",
+      "factIds": [
+        "MB-03"
+      ],
+      "subjectId": "mobula-birostris",
+      "kind": "knowledge",
+      "file": "audio/vo-mb-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-RM-INTRO",
+      "text": "这是一只海葵，也是这种小丑鱼的伙伴。",
+      "factIds": [
+        "AO-03",
+        "RM-01"
+      ],
+      "subjectId": "radianthus-magnifica",
+      "kind": "knowledge",
+      "file": "audio/vo-rm-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-RF-CORAL",
+      "text": "珊瑚也是动物。",
+      "factIds": [
+        "RF-01"
+      ],
+      "subjectId": "reef-shallows",
+      "kind": "knowledge",
+      "file": "audio/vo-rf-coral.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-LOOK",
+      "text": "看看真实的鱼。",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-look.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-DRAW",
+      "text": "回去画你的鱼吧。",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-draw.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-SAVED",
+      "text": "保存好啦。",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-saved.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-OCEAN",
+      "text": "你的鱼，游进海里啦。",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-ocean.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-CAUGHT",
+      "text": "钓到啦！",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-caught.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-AGAIN",
+      "text": "再听一遍。",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-again.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    }
+  ],
+  "host": {
+    "id": "radianthus-magnifica",
+    "name": "海葵伙伴",
+    "scientificName": "Radianthus magnifica",
+    "image": "illustrations/radianthus-magnifica.webp",
+    "audio": "audio/vo-rm-intro.wav",
+    "factIds": [
+      "AO-03",
+      "RM-01",
+      "RM-03",
+      "RM-04"
+    ]
+  },
+  "environments": [
+    {
+      "id": "reef",
+      "name": "珊瑚浅海",
+      "image": "environments/reef-panorama.webp",
+      "description": "沙地通道 · 珊瑚礁体 · 清亮蓝水"
+    },
+    {
+      "id": "rock",
+      "name": "岩礁海岸",
+      "image": "environments/rock-panorama.webp",
+      "description": "岩壁石拱 · 卵石底部 · 海藻丛"
+    }
+  ],
+  "guides": [
+    {
+      "id": "clown-bands",
+      "title": "白带在哪里？",
+      "file": "guides/clown-bands.svg",
+      "factIds": [
+        "AO-02"
+      ]
+    },
+    {
+      "id": "forceps-mouth",
+      "title": "看看长嘴与黑点",
+      "file": "guides/forceps-mouth.svg",
+      "factIds": [
+        "FF-01",
+        "FF-02",
+        "FF-03"
+      ]
+    },
+    {
+      "id": "puffer-pattern",
+      "title": "点点、线条和圆环",
+      "file": "guides/puffer-pattern.svg",
+      "factIds": [
+        "AH-01",
+        "AH-02"
+      ]
+    },
+    {
+      "id": "host-partners",
+      "title": "小丑鱼与它的海葵伙伴",
+      "file": "guides/host-partners.svg",
+      "factIds": [
+        "AO-03",
+        "RM-01",
+        "RM-03",
+        "RM-04"
+      ]
+    },
+    {
+      "id": "shape-inspiration",
+      "title": "三种身体的灵感",
+      "file": "guides/shape-inspiration.svg",
+      "factIds": [
+        "AO-02",
+        "FF-01",
+        "AH-03"
+      ]
+    },
+    {
+      "id": "real-and-imagined",
+      "title": "看真实的鱼，画自己的鱼",
+      "file": "guides/real-and-imagined.svg",
+      "factIds": [
+        "AO-02"
+      ]
+    },
+    {
+      "id": "grouper-families",
+      "title": "六种石斑，各有自己的花衣服",
+      "file": "guides/grouper-families.svg",
+      "factIds": [
+        "EC-01",
+        "EC-02",
+        "EC-03",
+        "PL-01",
+        "PL-02",
+        "PL-03",
+        "EF-01",
+        "EF-02",
+        "EF-03",
+        "EM-01",
+        "EM-02",
+        "EM-03",
+        "EL-01",
+        "EL-02",
+        "EL-03",
+        "CA-01",
+        "CA-02",
+        "CA-03"
+      ]
+    }
+  ]
+}

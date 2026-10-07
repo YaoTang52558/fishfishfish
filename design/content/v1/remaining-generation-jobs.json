@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rock-panorama",
+    "src": "C:\\Users\\27975\\.codex\\generated_images\\01a10edd-b31f-7da2-9f76-84b19e3be8ba\\exec-3fbd0e6f-ad33-4c54-9e69-a51c73b8eabb.png",
+    "kind": "environments",
+    "prompt": "Use case stylized-concept. ONE wide cinematic environment background for a premium ocean creation game played by a young child on tablet. Beautiful polished 3D art, tactile natural materials, sunlight through water, believable spatial depth with friendly rounded forms. Landscape 16:9. No text or UI, no people, no animals or fish; no logos. Central broad open water must remain quiet for the player's fish and controls; foreground scenic elements confined mostly to lower edges, midground opening and distant silhouettes create clear depth. Picture is original fictional environment, not a real Singapore site. Temperate coastal ROCKY reef UNDERWATER. Contrasting geographic silhouette: tall weathered grey-brown layered ROCK WALL on left, rocky arch and broad grey boulders on right, pebble/cobble and sand bottom sloping diagonally, a narrow shaft of clear sunlight from above. Water muted jade/blue-green, sparse brown-green marine algae at rock bases, no tropical branching corals, no colorful coral garden, no deep black sea. Broad central open channel with deeper blue in distance. Warm sunlight on rock edges gives beauty without looking gloomy. Distinct layout and geology from a coral bay."
+  },
+  {
+    "id": "fantasy-bubble-star",
+    "src": "C:\\Users\\27975\\.codex\\generated_images\\01a10edd-b31f-7da2-9f76-84b19e3be8ba\\exec-987b1670-e66d-471f-8113-852332d5d251.png",
+    "kind": "illustrations",
+    "prompt": "Use case illustration-story. ONE original imaginary fish created for a child's ocean art game, full body LEFT-facing side view isolated on TRUE alpha transparency. A friendly believable fish silhouette, round oval pale TURQUOISE body, small round dark eye, simple closed mouth, rounded coral pink/orange fins and fan tail with teal tips. The surface carries visible playful CHILD-PAINTED brush strokes: three slightly wobbly CORAL PINK STARS across the side, loose sun-yellow curved lines near belly, few cobalt dot marks near tail. Preserve crayon/paintlike irregular artwork, not a pristine pattern or a real biological species. Soft premium 3D satin form, children's art lovingly brought to life; not overly toy plastic, no human eyebrows or lips. Fish fills central two-thirds with generous padding. No glow halo, no shadow/ground/water/background/scenery/text/logos. Original art for project, no famous copyrighted character."
+  },
+  {
+    "id": "ocean-close",
+    "src": "C:\\Users\\27975\\.codex\\generated_images\\01a10edd-b31f-7da2-9f76-84b19e3be8ba\\exec-b3df850a-0071-45a9-a42c-cc9ce10ffc13.png",
+    "kind": "environments",
+    "prompt": "Use case compositing / stylized-concept. Input 1 is the exact original fantasy fish whose identity must be preserved: turquoise child-painted fish with three pink stars, yellow curved belly strokes, blue tail dots, coral fins tipped turquoise. Input 2 is the environment style reference. Create ONE beautiful wide landscape 16:9 CLOSE VIEW in that bright shallow reef ocean, fish dominates middle-left about 55% frame width and is fully visible, sharp child-painted texture and original silhouette preserved. Calm right side blue-green water provides quiet negative space for controls later. Soft depth of field on distant corals, luminous surface above, a few delicate bubbles near but NOT covering the fish, no extra fish, no text/UI/logo. Preserve exactly the painted stars, strokes and dot motifs; do not turn it into a real species or a different character. All original art, premium polished 3D children's ocean game mood."
+  },
+  {
+    "id": "ocean-arrival",
+    "src": "C:\\Users\\27975\\.codex\\generated_images\\01a10edd-b31f-7da2-9f76-84b19e3be8ba\\exec-c3abf549-9a60-4187-b9f3-cdd7256fff71.png",
+    "kind": "environments",
+    "prompt": "Use case compositing / illustration-story. Input 1 is the exact original fantasy fish; input 2 is reef environment style. Create ONE WIDE LANDSCAPE storyboard artwork with THREE clean equal horizontal panels in a single row, separated by a narrow cream gap, no text or UI. Each panel is a consecutive shot within the same shallow turquoise coral ocean. Panel 1: SAME turquoise fish with pink stars, yellow curved belly lines and blue tail dots swims into view from an open water area. Panel 2: SAME fish approaches viewer, its own child-painted texture and full original silhouette clearly visible. Panel 3: SAME fish swims onward into its spacious marine home, foreground coral at corners, calm blue depth. Preserve identical fish colors, three star motifs, fin design and dot pattern across all panels. Fish large enough to read, no other animal, no black bars, no captions/numbers/arrows/logos/confetti/humans. Polished warm child-friendly 3D rendered illustration with clear spatial depth."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-06",
+  "purpose": "content-preparation; not runtime",
+  "records": [
+    {
+      "id": "REL-AO-RM",
+      "from": "amphiprion-ocellaris",
+      "to": "radianthus-magnifica",
+      "type": "anemone-host-association",
+      "claimIds": [
+        "AO-03",
+        "AO-04",
+        "RM-01"
+      ],
+      "status": "checked",
+      "publicationStatus": "draft",
+      "conditions": "物种级已知关系；不是当前新加坡地点的共同出现证明；画面可作为泛珊瑚礁关系样本",
+      "childFrame": "看它和海葵一起生活；适应机制留在亲子展开",
+      "excludedClaims": [
+        "任何鱼都能住进去",
+        "小丑鱼天生对所有海葵免疫",
+        "已确定海葵每次都从它获得清洁帮助"
+      ]
+    }
+  ]
+}

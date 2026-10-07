@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-07",
+  "scope": "workshop borrowing only; desktop Edge, no physical iPad",
+  "checks": [
+    "real pen + glow + stamp retained",
+    "preview/cancel has no history or draft mutation",
+    "original comparison",
+    "colours only / pattern only",
+    "apply is one undo step; redo restores",
+    "three pattern renders and adjustable parameters",
+    "manual audio start/stop",
+    "all 30 colour offers; unsupported patterns omitted",
+    "parameters and paint survive saved draft reload",
+    "three responsive layouts"
+  ],
+  "views": [
+    {
+      "pattern": "clown-bands",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "design/workshop-inspiration/borrow-clown-bands-1024.png"
+    },
+    {
+      "pattern": "grouper-spots",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "design/workshop-inspiration/borrow-grouper-spots-768.png"
+    },
+    {
+      "pattern": "honeycomb",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "design/workshop-inspiration/borrow-honeycomb-390.png"
+    }
+  ],
+  "errors": [],
+  "badResponses": [],
+  "pixelReadback": "Inspected editor canvas uses willReadFrequently in the isolated QA context to keep repeated pixel comparisons on one raster backend; no application or performance settings changed."
+}

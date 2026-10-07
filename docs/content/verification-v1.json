@@ -1,0 +1,1058 @@
+{
+  "summary": {
+    "date": "2026-10-06",
+    "fish": 30,
+    "images": 36,
+    "transparentImages": 32,
+    "guides": 7,
+    "audioClips": 128,
+    "voice": "Microsoft Huihui Desktop / zh-CN",
+    "audioSeconds": 538.172,
+    "shortestClipSeconds": 1.676,
+    "longestClipSeconds": 6.501,
+    "sources": 38,
+    "claims": 103,
+    "checkedClaims": 102,
+    "excludedHistoricalClaims": [
+      "AH-06"
+    ],
+    "webImageBytes": 6930498,
+    "audioBytes": 25838284,
+    "checks": [
+      "unique IDs",
+      "fact/source/audio references",
+      "source and WebP dimensions",
+      "32 transparent corners",
+      "128 non-silent PCM clips",
+      "7 self-contained editable SVGs",
+      "excluded unverified mechanism"
+    ],
+    "scope": "content pack only; no full game regression; no real iPad or scientific expert approval"
+  },
+  "audio": [
+    {
+      "id": "VO-AO-INTRO",
+      "file": "public/content/v1/audio/vo-ao-intro.wav",
+      "seconds": 4.668,
+      "rms": 1528,
+      "peak": 16316,
+      "bytes": 224096
+    },
+    {
+      "id": "VO-AO-BANDS",
+      "file": "public/content/v1/audio/vo-ao-bands.wav",
+      "seconds": 5.832,
+      "rms": 1384,
+      "peak": 23213,
+      "bytes": 279986
+    },
+    {
+      "id": "VO-AO-FINS",
+      "file": "public/content/v1/audio/vo-ao-fins.wav",
+      "seconds": 3.683,
+      "rms": 1611,
+      "peak": 22165,
+      "bytes": 176842
+    },
+    {
+      "id": "VO-AO-HOME",
+      "file": "public/content/v1/audio/vo-ao-home.wav",
+      "seconds": 5.35,
+      "rms": 1123,
+      "peak": 13561,
+      "bytes": 256864
+    },
+    {
+      "id": "VO-FF-INTRO",
+      "file": "public/content/v1/audio/vo-ff-intro.wav",
+      "seconds": 4.296,
+      "rms": 1350,
+      "peak": 15105,
+      "bytes": 206262
+    },
+    {
+      "id": "VO-FF-MOUTH",
+      "file": "public/content/v1/audio/vo-ff-mouth.wav",
+      "seconds": 4.18,
+      "rms": 1974,
+      "peak": 23357,
+      "bytes": 200664
+    },
+    {
+      "id": "VO-FF-SPOT",
+      "file": "public/content/v1/audio/vo-ff-spot.wav",
+      "seconds": 5.096,
+      "rms": 1813,
+      "peak": 20443,
+      "bytes": 244630
+    },
+    {
+      "id": "VO-FF-PAIR",
+      "file": "public/content/v1/audio/vo-ff-pair.wav",
+      "seconds": 5.008,
+      "rms": 1599,
+      "peak": 23645,
+      "bytes": 240410
+    },
+    {
+      "id": "VO-AH-INTRO",
+      "file": "public/content/v1/audio/vo-ah-intro.wav",
+      "seconds": 5.18,
+      "rms": 1428,
+      "peak": 18249,
+      "bytes": 248698
+    },
+    {
+      "id": "VO-AH-PATTERN",
+      "file": "public/content/v1/audio/vo-ah-pattern.wav",
+      "seconds": 4.842,
+      "rms": 1583,
+      "peak": 20505,
+      "bytes": 232440
+    },
+    {
+      "id": "VO-AH-RINGS",
+      "file": "public/content/v1/audio/vo-ah-rings.wav",
+      "seconds": 4.988,
+      "rms": 1082,
+      "peak": 16213,
+      "bytes": 239448
+    },
+    {
+      "id": "VO-AH-MOUTH",
+      "file": "public/content/v1/audio/vo-ah-mouth.wav",
+      "seconds": 3.403,
+      "rms": 1543,
+      "peak": 22162,
+      "bytes": 163380
+    },
+    {
+      "id": "VO-ZF-INTRO",
+      "file": "public/content/v1/audio/vo-zf-intro.wav",
+      "seconds": 4.603,
+      "rms": 1524,
+      "peak": 16867,
+      "bytes": 221010
+    },
+    {
+      "id": "VO-ZF-TAIL",
+      "file": "public/content/v1/audio/vo-zf-tail.wav",
+      "seconds": 5.172,
+      "rms": 1195,
+      "peak": 17434,
+      "bytes": 248322
+    },
+    {
+      "id": "VO-ZF-FOOD",
+      "file": "public/content/v1/audio/vo-zf-food.wav",
+      "seconds": 2.474,
+      "rms": 1568,
+      "peak": 23801,
+      "bytes": 118820
+    },
+    {
+      "id": "VO-ZF-NIGHT",
+      "file": "public/content/v1/audio/vo-zf-night.wav",
+      "seconds": 6.501,
+      "rms": 1737,
+      "peak": 22984,
+      "bytes": 312104
+    },
+    {
+      "id": "VO-PH-INTRO",
+      "file": "public/content/v1/audio/vo-ph-intro.wav",
+      "seconds": 4.855,
+      "rms": 1516,
+      "peak": 17255,
+      "bytes": 233072
+    },
+    {
+      "id": "VO-PH-BODY",
+      "file": "public/content/v1/audio/vo-ph-body.wav",
+      "seconds": 4.252,
+      "rms": 1472,
+      "peak": 16367,
+      "bytes": 204148
+    },
+    {
+      "id": "VO-PH-TAIL",
+      "file": "public/content/v1/audio/vo-ph-tail.wav",
+      "seconds": 4.779,
+      "rms": 1599,
+      "peak": 20635,
+      "bytes": 229430
+    },
+    {
+      "id": "VO-PH-FOOD",
+      "file": "public/content/v1/audio/vo-ph-food.wav",
+      "seconds": 3.733,
+      "rms": 1595,
+      "peak": 23078,
+      "bytes": 179208
+    },
+    {
+      "id": "VO-ZC-INTRO",
+      "file": "public/content/v1/audio/vo-zc-intro.wav",
+      "seconds": 5.019,
+      "rms": 1316,
+      "peak": 17255,
+      "bytes": 240968
+    },
+    {
+      "id": "VO-ZC-FIN",
+      "file": "public/content/v1/audio/vo-zc-fin.wav",
+      "seconds": 4.448,
+      "rms": 1484,
+      "peak": 17632,
+      "bytes": 213560
+    },
+    {
+      "id": "VO-ZC-BANDS",
+      "file": "public/content/v1/audio/vo-zc-bands.wav",
+      "seconds": 3.774,
+      "rms": 1775,
+      "peak": 20060,
+      "bytes": 181182
+    },
+    {
+      "id": "VO-ZC-NOSE",
+      "file": "public/content/v1/audio/vo-zc-nose.wav",
+      "seconds": 4.566,
+      "rms": 1450,
+      "peak": 17434,
+      "bytes": 219202
+    },
+    {
+      "id": "VO-SS-INTRO",
+      "file": "public/content/v1/audio/vo-ss-intro.wav",
+      "seconds": 4.269,
+      "rms": 1601,
+      "peak": 14433,
+      "bytes": 204978
+    },
+    {
+      "id": "VO-SS-HOME",
+      "file": "public/content/v1/audio/vo-ss-home.wav",
+      "seconds": 3.543,
+      "rms": 2012,
+      "peak": 22947,
+      "bytes": 170128
+    },
+    {
+      "id": "VO-SS-YOUNG",
+      "file": "public/content/v1/audio/vo-ss-young.wav",
+      "seconds": 5.366,
+      "rms": 1720,
+      "peak": 23046,
+      "bytes": 257628
+    },
+    {
+      "id": "VO-SS-BABY",
+      "file": "public/content/v1/audio/vo-ss-baby.wav",
+      "seconds": 4.528,
+      "rms": 2112,
+      "peak": 22614,
+      "bytes": 217380
+    },
+    {
+      "id": "VO-AS-INTRO",
+      "file": "public/content/v1/audio/vo-as-intro.wav",
+      "seconds": 4.918,
+      "rms": 1169,
+      "peak": 15489,
+      "bytes": 236122
+    },
+    {
+      "id": "VO-AS-FIN",
+      "file": "public/content/v1/audio/vo-as-fin.wav",
+      "seconds": 4.586,
+      "rms": 1135,
+      "peak": 17434,
+      "bytes": 220170
+    },
+    {
+      "id": "VO-AS-TAIL",
+      "file": "public/content/v1/audio/vo-as-tail.wav",
+      "seconds": 3.318,
+      "rms": 1435,
+      "peak": 15448,
+      "bytes": 159320
+    },
+    {
+      "id": "VO-AS-HOME",
+      "file": "public/content/v1/audio/vo-as-home.wav",
+      "seconds": 3.888,
+      "rms": 1960,
+      "peak": 22150,
+      "bytes": 186668
+    },
+    {
+      "id": "VO-HO-INTRO",
+      "file": "public/content/v1/audio/vo-ho-intro.wav",
+      "seconds": 4.033,
+      "rms": 1257,
+      "peak": 17255,
+      "bytes": 193610
+    },
+    {
+      "id": "VO-HO-BODY",
+      "file": "public/content/v1/audio/vo-ho-body.wav",
+      "seconds": 4.188,
+      "rms": 1137,
+      "peak": 21589,
+      "bytes": 201054
+    },
+    {
+      "id": "VO-HO-HOME",
+      "file": "public/content/v1/audio/vo-ho-home.wav",
+      "seconds": 3.008,
+      "rms": 1844,
+      "peak": 23533,
+      "bytes": 144452
+    },
+    {
+      "id": "VO-HO-EGGS",
+      "file": "public/content/v1/audio/vo-ho-eggs.wav",
+      "seconds": 4.788,
+      "rms": 1535,
+      "peak": 21167,
+      "bytes": 229880
+    },
+    {
+      "id": "VO-OF-INTRO",
+      "file": "public/content/v1/audio/vo-of-intro.wav",
+      "seconds": 4.489,
+      "rms": 1511,
+      "peak": 17255,
+      "bytes": 215504
+    },
+    {
+      "id": "VO-OF-BANDS",
+      "file": "public/content/v1/audio/vo-of-bands.wav",
+      "seconds": 4.481,
+      "rms": 1422,
+      "peak": 13884,
+      "bytes": 215152
+    },
+    {
+      "id": "VO-OF-MOUTH",
+      "file": "public/content/v1/audio/vo-of-mouth.wav",
+      "seconds": 5.135,
+      "rms": 1479,
+      "peak": 22575,
+      "bytes": 246530
+    },
+    {
+      "id": "VO-OF-YOUNG",
+      "file": "public/content/v1/audio/vo-of-young.wav",
+      "seconds": 3.895,
+      "rms": 1593,
+      "peak": 17517,
+      "bytes": 187010
+    },
+    {
+      "id": "VO-GP-INTRO",
+      "file": "public/content/v1/audio/vo-gp-intro.wav",
+      "seconds": 4.903,
+      "rms": 1680,
+      "peak": 19663,
+      "bytes": 235370
+    },
+    {
+      "id": "VO-GP-DOTS",
+      "file": "public/content/v1/audio/vo-gp-dots.wav",
+      "seconds": 3.716,
+      "rms": 1293,
+      "peak": 17072,
+      "bytes": 178408
+    },
+    {
+      "id": "VO-GP-FIN",
+      "file": "public/content/v1/audio/vo-gp-fin.wav",
+      "seconds": 4.176,
+      "rms": 1518,
+      "peak": 14621,
+      "bytes": 200470
+    },
+    {
+      "id": "VO-GP-FOOD",
+      "file": "public/content/v1/audio/vo-gp-food.wav",
+      "seconds": 4.074,
+      "rms": 1420,
+      "peak": 22887,
+      "bytes": 195620
+    },
+    {
+      "id": "VO-SM-INTRO",
+      "file": "public/content/v1/audio/vo-sm-intro.wav",
+      "seconds": 5.484,
+      "rms": 1548,
+      "peak": 18589,
+      "bytes": 263256
+    },
+    {
+      "id": "VO-SM-COLOR",
+      "file": "public/content/v1/audio/vo-sm-color.wav",
+      "seconds": 5.236,
+      "rms": 1327,
+      "peak": 22575,
+      "bytes": 251370
+    },
+    {
+      "id": "VO-SM-HOME",
+      "file": "public/content/v1/audio/vo-sm-home.wav",
+      "seconds": 3.761,
+      "rms": 1898,
+      "peak": 22445,
+      "bytes": 180598
+    },
+    {
+      "id": "VO-SM-FOOD",
+      "file": "public/content/v1/audio/vo-sm-food.wav",
+      "seconds": 3.849,
+      "rms": 1410,
+      "peak": 22451,
+      "bytes": 184820
+    },
+    {
+      "id": "VO-EC-INTRO",
+      "file": "public/content/v1/audio/vo-ec-intro.wav",
+      "seconds": 4.868,
+      "rms": 1445,
+      "peak": 16956,
+      "bytes": 233714
+    },
+    {
+      "id": "VO-EC-DOTS",
+      "file": "public/content/v1/audio/vo-ec-dots.wav",
+      "seconds": 3.631,
+      "rms": 1550,
+      "peak": 20589,
+      "bytes": 174352
+    },
+    {
+      "id": "VO-EC-BANDS",
+      "file": "public/content/v1/audio/vo-ec-bands.wav",
+      "seconds": 3.808,
+      "rms": 1631,
+      "peak": 22460,
+      "bytes": 182824
+    },
+    {
+      "id": "VO-EC-YOUNG",
+      "file": "public/content/v1/audio/vo-ec-young.wav",
+      "seconds": 2.911,
+      "rms": 1354,
+      "peak": 15091,
+      "bytes": 139770
+    },
+    {
+      "id": "VO-PL-INTRO",
+      "file": "public/content/v1/audio/vo-pl-intro.wav",
+      "seconds": 5.451,
+      "rms": 1726,
+      "peak": 17265,
+      "bytes": 261700
+    },
+    {
+      "id": "VO-PL-DOTS",
+      "file": "public/content/v1/audio/vo-pl-dots.wav",
+      "seconds": 4.218,
+      "rms": 1405,
+      "peak": 14548,
+      "bytes": 202500
+    },
+    {
+      "id": "VO-PL-COLOR",
+      "file": "public/content/v1/audio/vo-pl-color.wav",
+      "seconds": 3.048,
+      "rms": 1540,
+      "peak": 23045,
+      "bytes": 146332
+    },
+    {
+      "id": "VO-PL-TAIL",
+      "file": "public/content/v1/audio/vo-pl-tail.wav",
+      "seconds": 4.493,
+      "rms": 1166,
+      "peak": 16500,
+      "bytes": 215700
+    },
+    {
+      "id": "VO-EF-INTRO",
+      "file": "public/content/v1/audio/vo-ef-intro.wav",
+      "seconds": 4.833,
+      "rms": 1891,
+      "peak": 17677,
+      "bytes": 232050
+    },
+    {
+      "id": "VO-EF-PATTERN",
+      "file": "public/content/v1/audio/vo-ef-pattern.wav",
+      "seconds": 4.491,
+      "rms": 1987,
+      "peak": 23521,
+      "bytes": 215596
+    },
+    {
+      "id": "VO-EF-SPOT",
+      "file": "public/content/v1/audio/vo-ef-spot.wav",
+      "seconds": 4.193,
+      "rms": 1356,
+      "peak": 16388,
+      "bytes": 201290
+    },
+    {
+      "id": "VO-EF-YOUNG",
+      "file": "public/content/v1/audio/vo-ef-young.wav",
+      "seconds": 4.22,
+      "rms": 1769,
+      "peak": 22800,
+      "bytes": 202628
+    },
+    {
+      "id": "VO-EM-INTRO",
+      "file": "public/content/v1/audio/vo-em-intro.wav",
+      "seconds": 4.532,
+      "rms": 1827,
+      "peak": 21991,
+      "bytes": 217560
+    },
+    {
+      "id": "VO-EM-PATTERN",
+      "file": "public/content/v1/audio/vo-em-pattern.wav",
+      "seconds": 4.616,
+      "rms": 1749,
+      "peak": 21541,
+      "bytes": 221614
+    },
+    {
+      "id": "VO-EM-BODY",
+      "file": "public/content/v1/audio/vo-em-body.wav",
+      "seconds": 4.547,
+      "rms": 1542,
+      "peak": 22737,
+      "bytes": 218300
+    },
+    {
+      "id": "VO-EM-TAIL",
+      "file": "public/content/v1/audio/vo-em-tail.wav",
+      "seconds": 3.12,
+      "rms": 957,
+      "peak": 8854,
+      "bytes": 149810
+    },
+    {
+      "id": "VO-EL-INTRO",
+      "file": "public/content/v1/audio/vo-el-intro.wav",
+      "seconds": 4.06,
+      "rms": 1789,
+      "peak": 18138,
+      "bytes": 194924
+    },
+    {
+      "id": "VO-EL-MOUTH",
+      "file": "public/content/v1/audio/vo-el-mouth.wav",
+      "seconds": 2.578,
+      "rms": 1559,
+      "peak": 15246,
+      "bytes": 123792
+    },
+    {
+      "id": "VO-EL-COLOR",
+      "file": "public/content/v1/audio/vo-el-color.wav",
+      "seconds": 4.929,
+      "rms": 1615,
+      "peak": 16844,
+      "bytes": 236658
+    },
+    {
+      "id": "VO-EL-FINS",
+      "file": "public/content/v1/audio/vo-el-fins.wav",
+      "seconds": 3.915,
+      "rms": 1457,
+      "peak": 22675,
+      "bytes": 187964
+    },
+    {
+      "id": "VO-CA-INTRO",
+      "file": "public/content/v1/audio/vo-ca-intro.wav",
+      "seconds": 4.222,
+      "rms": 1382,
+      "peak": 14784,
+      "bytes": 202698
+    },
+    {
+      "id": "VO-CA-DOTS",
+      "file": "public/content/v1/audio/vo-ca-dots.wav",
+      "seconds": 4.276,
+      "rms": 1494,
+      "peak": 14392,
+      "bytes": 205312
+    },
+    {
+      "id": "VO-CA-SPOT",
+      "file": "public/content/v1/audio/vo-ca-spot.wav",
+      "seconds": 3.845,
+      "rms": 816,
+      "peak": 8232,
+      "bytes": 184612
+    },
+    {
+      "id": "VO-CA-BANDS",
+      "file": "public/content/v1/audio/vo-ca-bands.wav",
+      "seconds": 4.675,
+      "rms": 1409,
+      "peak": 14240,
+      "bytes": 224426
+    },
+    {
+      "id": "VO-CI-INTRO",
+      "file": "public/content/v1/audio/vo-ci-intro.wav",
+      "seconds": 4.434,
+      "rms": 1701,
+      "peak": 22011,
+      "bytes": 212880
+    },
+    {
+      "id": "VO-CI-BODY",
+      "file": "public/content/v1/audio/vo-ci-body.wav",
+      "seconds": 3.085,
+      "rms": 1060,
+      "peak": 17069,
+      "bytes": 148126
+    },
+    {
+      "id": "VO-CI-COLOR",
+      "file": "public/content/v1/audio/vo-ci-color.wav",
+      "seconds": 4.181,
+      "rms": 1192,
+      "peak": 22842,
+      "bytes": 200712
+    },
+    {
+      "id": "VO-CI-SCALES",
+      "file": "public/content/v1/audio/vo-ci-scales.wav",
+      "seconds": 5.401,
+      "rms": 1643,
+      "peak": 19346,
+      "bytes": 259292
+    },
+    {
+      "id": "VO-SB-INTRO",
+      "file": "public/content/v1/audio/vo-sb-intro.wav",
+      "seconds": 3.812,
+      "rms": 1312,
+      "peak": 17434,
+      "bytes": 183036
+    },
+    {
+      "id": "VO-SB-BODY",
+      "file": "public/content/v1/audio/vo-sb-body.wav",
+      "seconds": 3.617,
+      "rms": 1279,
+      "peak": 22674,
+      "bytes": 173672
+    },
+    {
+      "id": "VO-SB-FINS",
+      "file": "public/content/v1/audio/vo-sb-fins.wav",
+      "seconds": 3.959,
+      "rms": 1350,
+      "peak": 22016,
+      "bytes": 190080
+    },
+    {
+      "id": "VO-SB-SPOT",
+      "file": "public/content/v1/audio/vo-sb-spot.wav",
+      "seconds": 3.9,
+      "rms": 1251,
+      "peak": 14224,
+      "bytes": 187258
+    },
+    {
+      "id": "VO-LC-INTRO",
+      "file": "public/content/v1/audio/vo-lc-intro.wav",
+      "seconds": 4.138,
+      "rms": 1577,
+      "peak": 17753,
+      "bytes": 198678
+    },
+    {
+      "id": "VO-LC-MOUTH",
+      "file": "public/content/v1/audio/vo-lc-mouth.wav",
+      "seconds": 4.219,
+      "rms": 1443,
+      "peak": 21809,
+      "bytes": 202580
+    },
+    {
+      "id": "VO-LC-TAIL",
+      "file": "public/content/v1/audio/vo-lc-tail.wav",
+      "seconds": 3.837,
+      "rms": 1129,
+      "peak": 17069,
+      "bytes": 184204
+    },
+    {
+      "id": "VO-LC-HOME",
+      "file": "public/content/v1/audio/vo-lc-home.wav",
+      "seconds": 3.905,
+      "rms": 1878,
+      "peak": 23037,
+      "bytes": 187494
+    },
+    {
+      "id": "VO-SC-INTRO",
+      "file": "public/content/v1/audio/vo-sc-intro.wav",
+      "seconds": 4.31,
+      "rms": 1457,
+      "peak": 18658,
+      "bytes": 206940
+    },
+    {
+      "id": "VO-SC-BANDS",
+      "file": "public/content/v1/audio/vo-sc-bands.wav",
+      "seconds": 3.958,
+      "rms": 1918,
+      "peak": 20589,
+      "bytes": 190042
+    },
+    {
+      "id": "VO-SC-COLOR",
+      "file": "public/content/v1/audio/vo-sc-color.wav",
+      "seconds": 4.269,
+      "rms": 1405,
+      "peak": 16167,
+      "bytes": 204958
+    },
+    {
+      "id": "VO-SC-YOUNG",
+      "file": "public/content/v1/audio/vo-sc-young.wav",
+      "seconds": 4.139,
+      "rms": 1654,
+      "peak": 23606,
+      "bytes": 198736
+    },
+    {
+      "id": "VO-SG-INTRO",
+      "file": "public/content/v1/audio/vo-sg-intro.wav",
+      "seconds": 4.424,
+      "rms": 1132,
+      "peak": 17837,
+      "bytes": 212396
+    },
+    {
+      "id": "VO-SG-MOUTH",
+      "file": "public/content/v1/audio/vo-sg-mouth.wav",
+      "seconds": 3.406,
+      "rms": 1656,
+      "peak": 22162,
+      "bytes": 163518
+    },
+    {
+      "id": "VO-SG-COLOR",
+      "file": "public/content/v1/audio/vo-sg-color.wav",
+      "seconds": 4.405,
+      "rms": 1584,
+      "peak": 22318,
+      "bytes": 211500
+    },
+    {
+      "id": "VO-SG-FOOD",
+      "file": "public/content/v1/audio/vo-sg-food.wav",
+      "seconds": 2.681,
+      "rms": 1979,
+      "peak": 23351,
+      "bytes": 128740
+    },
+    {
+      "id": "VO-PI-INTRO",
+      "file": "public/content/v1/audio/vo-pi-intro.wav",
+      "seconds": 4.459,
+      "rms": 1505,
+      "peak": 19337,
+      "bytes": 214058
+    },
+    {
+      "id": "VO-PI-BANDS",
+      "file": "public/content/v1/audio/vo-pi-bands.wav",
+      "seconds": 4.274,
+      "rms": 1415,
+      "peak": 15799,
+      "bytes": 205216
+    },
+    {
+      "id": "VO-PI-SPOT",
+      "file": "public/content/v1/audio/vo-pi-spot.wav",
+      "seconds": 4.231,
+      "rms": 1641,
+      "peak": 19912,
+      "bytes": 203150
+    },
+    {
+      "id": "VO-PI-YOUNG",
+      "file": "public/content/v1/audio/vo-pi-young.wav",
+      "seconds": 4.277,
+      "rms": 1851,
+      "peak": 23128,
+      "bytes": 205326
+    },
+    {
+      "id": "VO-TL-INTRO",
+      "file": "public/content/v1/audio/vo-tl-intro.wav",
+      "seconds": 4.715,
+      "rms": 1717,
+      "peak": 17457,
+      "bytes": 226352
+    },
+    {
+      "id": "VO-TL-BODY",
+      "file": "public/content/v1/audio/vo-tl-body.wav",
+      "seconds": 3.314,
+      "rms": 1325,
+      "peak": 21787,
+      "bytes": 159098
+    },
+    {
+      "id": "VO-TL-TAIL",
+      "file": "public/content/v1/audio/vo-tl-tail.wav",
+      "seconds": 4.798,
+      "rms": 1326,
+      "peak": 14580,
+      "bytes": 230342
+    },
+    {
+      "id": "VO-TL-FIN",
+      "file": "public/content/v1/audio/vo-tl-fin.wav",
+      "seconds": 4.387,
+      "rms": 1083,
+      "peak": 13405,
+      "bytes": 210602
+    },
+    {
+      "id": "VO-OC-INTRO",
+      "file": "public/content/v1/audio/vo-oc-intro.wav",
+      "seconds": 4.747,
+      "rms": 1522,
+      "peak": 17014,
+      "bytes": 227904
+    },
+    {
+      "id": "VO-OC-BODY",
+      "file": "public/content/v1/audio/vo-oc-body.wav",
+      "seconds": 3.027,
+      "rms": 1290,
+      "peak": 17726,
+      "bytes": 145364
+    },
+    {
+      "id": "VO-OC-DOTS",
+      "file": "public/content/v1/audio/vo-oc-dots.wav",
+      "seconds": 4.037,
+      "rms": 1382,
+      "peak": 20598,
+      "bytes": 193842
+    },
+    {
+      "id": "VO-OC-GROW",
+      "file": "public/content/v1/audio/vo-oc-grow.wav",
+      "seconds": 4.59,
+      "rms": 1508,
+      "peak": 16169,
+      "bytes": 220382
+    },
+    {
+      "id": "VO-HK-INTRO",
+      "file": "public/content/v1/audio/vo-hk-intro.wav",
+      "seconds": 4.272,
+      "rms": 1874,
+      "peak": 19801,
+      "bytes": 205110
+    },
+    {
+      "id": "VO-HK-TAIL",
+      "file": "public/content/v1/audio/vo-hk-tail.wav",
+      "seconds": 3.728,
+      "rms": 1877,
+      "peak": 23153,
+      "bytes": 179012
+    },
+    {
+      "id": "VO-HK-HOME",
+      "file": "public/content/v1/audio/vo-hk-home.wav",
+      "seconds": 5.239,
+      "rms": 1441,
+      "peak": 18485,
+      "bytes": 251506
+    },
+    {
+      "id": "VO-HK-BABY",
+      "file": "public/content/v1/audio/vo-hk-baby.wav",
+      "seconds": 4.463,
+      "rms": 1565,
+      "peak": 21167,
+      "bytes": 214274
+    },
+    {
+      "id": "VO-GM-INTRO",
+      "file": "public/content/v1/audio/vo-gm-intro.wav",
+      "seconds": 6.213,
+      "rms": 1592,
+      "peak": 16889,
+      "bytes": 298274
+    },
+    {
+      "id": "VO-GM-MOUTH",
+      "file": "public/content/v1/audio/vo-gm-mouth.wav",
+      "seconds": 4.171,
+      "rms": 1675,
+      "peak": 19979,
+      "bytes": 200264
+    },
+    {
+      "id": "VO-GM-PATTERN",
+      "file": "public/content/v1/audio/vo-gm-pattern.wav",
+      "seconds": 4.635,
+      "rms": 1297,
+      "peak": 20589,
+      "bytes": 222530
+    },
+    {
+      "id": "VO-GM-BODY",
+      "file": "public/content/v1/audio/vo-gm-body.wav",
+      "seconds": 4.538,
+      "rms": 1394,
+      "peak": 17329,
+      "bytes": 217862
+    },
+    {
+      "id": "VO-TA-INTRO",
+      "file": "public/content/v1/audio/vo-ta-intro.wav",
+      "seconds": 4.701,
+      "rms": 1504,
+      "peak": 23000,
+      "bytes": 225714
+    },
+    {
+      "id": "VO-TA-BODY",
+      "file": "public/content/v1/audio/vo-ta-body.wav",
+      "seconds": 3.591,
+      "rms": 905,
+      "peak": 8682,
+      "bytes": 172428
+    },
+    {
+      "id": "VO-TA-FINS",
+      "file": "public/content/v1/audio/vo-ta-fins.wav",
+      "seconds": 5.432,
+      "rms": 1180,
+      "peak": 18207,
+      "bytes": 260766
+    },
+    {
+      "id": "VO-TA-COLOR",
+      "file": "public/content/v1/audio/vo-ta-color.wav",
+      "seconds": 3.776,
+      "rms": 1482,
+      "peak": 15043,
+      "bytes": 181304
+    },
+    {
+      "id": "VO-MB-INTRO",
+      "file": "public/content/v1/audio/vo-mb-intro.wav",
+      "seconds": 4.456,
+      "rms": 1272,
+      "peak": 23815,
+      "bytes": 213954
+    },
+    {
+      "id": "VO-MB-FINS",
+      "file": "public/content/v1/audio/vo-mb-fins.wav",
+      "seconds": 3.918,
+      "rms": 1845,
+      "peak": 21328,
+      "bytes": 188116
+    },
+    {
+      "id": "VO-MB-MOUTH",
+      "file": "public/content/v1/audio/vo-mb-mouth.wav",
+      "seconds": 4.56,
+      "rms": 1104,
+      "peak": 13350,
+      "bytes": 218928
+    },
+    {
+      "id": "VO-MB-FOOD",
+      "file": "public/content/v1/audio/vo-mb-food.wav",
+      "seconds": 4.388,
+      "rms": 1404,
+      "peak": 23652,
+      "bytes": 210686
+    },
+    {
+      "id": "VO-RM-INTRO",
+      "file": "public/content/v1/audio/vo-rm-intro.wav",
+      "seconds": 5.066,
+      "rms": 1254,
+      "peak": 15381,
+      "bytes": 243192
+    },
+    {
+      "id": "VO-RF-CORAL",
+      "file": "public/content/v1/audio/vo-rf-coral.wav",
+      "seconds": 2.459,
+      "rms": 1303,
+      "peak": 20178,
+      "bytes": 118068
+    },
+    {
+      "id": "VO-UI-LOOK",
+      "file": "public/content/v1/audio/vo-ui-look.wav",
+      "seconds": 2.502,
+      "rms": 990,
+      "peak": 14916,
+      "bytes": 120122
+    },
+    {
+      "id": "VO-UI-DRAW",
+      "file": "public/content/v1/audio/vo-ui-draw.wav",
+      "seconds": 2.552,
+      "rms": 1439,
+      "peak": 20188,
+      "bytes": 122554
+    },
+    {
+      "id": "VO-UI-SAVED",
+      "file": "public/content/v1/audio/vo-ui-saved.wav",
+      "seconds": 1.97,
+      "rms": 1722,
+      "peak": 20806,
+      "bytes": 94622
+    },
+    {
+      "id": "VO-UI-OCEAN",
+      "file": "public/content/v1/audio/vo-ui-ocean.wav",
+      "seconds": 3.236,
+      "rms": 870,
+      "peak": 10898,
+      "bytes": 155362
+    },
+    {
+      "id": "VO-UI-CAUGHT",
+      "file": "public/content/v1/audio/vo-ui-caught.wav",
+      "seconds": 1.676,
+      "rms": 1987,
+      "peak": 20590,
+      "bytes": 80516
+    },
+    {
+      "id": "VO-UI-AGAIN",
+      "file": "public/content/v1/audio/vo-ui-again.wav",
+      "seconds": 1.88,
+      "rms": 1755,
+      "peak": 22066,
+      "bytes": 90272
+    }
+  ]
+}

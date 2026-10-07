@@ -1,0 +1,28 @@
+import fs from 'node:fs';
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const json=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
+const edit=(p,fn)=>fs.writeFileSync(p,fn(fs.readFileSync(p,'utf8')));
+const summary=read('docs/content/verification-v1.json').summary;
+const data=read('public/content/v1/data.json'), batch=read('docs/content/research/production-batch-v2.json');
+if(summary.fish!==30 || summary.audioClips!==128)throw new Error('Finish production verification first.');
+const delivery=read('docs/content/delivery-v1.json');
+delivery.revision=2;delivery.files={fishCards:summary.fish,transparentIllustrations:summary.transparentImages,environmentImages:4,editableGuides:summary.guides,actualAudioClips:summary.audioClips,sources:summary.sources,checkedClaims:summary.checkedClaims,excludedHistoricalClaims:1};
+delivery.checks.affectedCatalogTests='No game code changed this batch; no game tests rerun.';
+delete delivery.checks.localDocumentLinks;
+delivery.futureScope='Remaining 22 of the 52 candidates are research candidates; new game fish, GLB, editor structures and full 3D scenery are separate work.';
+json('docs/content/delivery-v1.json',delivery);
+json('docs/content/delivery-v2.json',{version:2,date:data.date,owner:'primary-agent',delegated:false,status:'produced-and-preview-checked',addedFish:18,addedTransparentImages:18,addedAudioClips:72,addedGuides:1,totalFish:30,grouperSpecies:6,ids:batch.fish.map(f=>f.id),sources:batch.sources.map(s=>s.id),claims:batch.claims.map(c=>c.id),checks:{files:'verification-v1.json',browser:'browser-verification-v1.json',fullGameTestsRun:false,productionBuildRun:false,physicalIPadTested:false},integration:'Standalone 2D content preview. No new GLB or ordinary fishing-pool entries.'});
+const shortlist=read('docs/content/research/expansion-shortlist-v2.json');
+shortlist.totalProducedSpecies=30;shortlist.selectionStatus='selected-batch-produced';shortlist.nextBatch.status='produced-and-preview-checked';
+for(const row of shortlist.records)if(shortlist.nextBatch.ids.includes(row.id)){row.produced=true;row.status='observation-material-produced';row.packet='../species/'+row.id+'.md';}
+json('docs/content/research/expansion-shortlist-v2.json',shortlist);
+edit('README.md',s=>s.replace('12 鱼观察卡、14 张透明插画、4 张海洋画面、6 张可编辑 SVG、56 段中文试听','30 鱼观察卡、32 张透明插画、4 张海洋画面、7 张可编辑 SVG、128 段中文试听（新增 18 鱼，含六种石斑）'));
+edit('design/content/v1/README.md',s=>s.replace('12 鱼、1 海葵、1 幻想鱼','30 鱼、1 海葵、1 幻想鱼')+'\n扩展批次 18 张原图的生成输入见 [generation-jobs-v2.json](generation-jobs-v2.json)，汇总仍以 generation.json 为准。六种石斑对比参考为 guides/grouper-families.svg。\n');
+edit('docs/PRODUCT_EVOLUTION_PLAN.md',s=>s.replace('现有 12 鱼观察素材与两种海洋画面已交付','30 鱼观察素材（本批新增 18 鱼、含六种石斑）与两种海洋画面已交付'));
+edit('docs/PROJECT_STATUS.md',s=>s.replace('## 当前交付','2026-10-06 素材扩展批次已完成：30 种真实鱼观察卡、32 张透明插画、4 张环境画面、7 张 SVG 与 128 段中文试听。新增六种石斑与对比图；来源、文件与有限预览检查见 [素材包](content/README.md)。这是独立素材评审页，游戏模型与钓场仍为既有 12 鱼。\n\n## 当前交付'));
+edit('docs/content/research/next-batch-v2.md',s=>s.replace('当前状态：选材完成、尚未制作新增插画与音频。','当前状态：18 鱼插画、观察卡、72 段新音频和六石斑对比 SVG 已制作并通过素材／预览检查。').replace('完成后真实鱼观察素材由 12 增至 30','真实鱼观察素材已由 12 增至 30').replace('- 本轮仅选材与核对石斑识别摘要，不改变已交付 12 鱼的数量，不运行游戏测试。','- 本批由主代理亲自完成新增 18 鱼；总数为 30 鱼。只查素材和预览，不运行全量游戏测试或构建。\n- 成品见 [交付记录](../delivery-v2.json)、[内容包](../README.md)；完整逐条依据见 [制作数据](production-batch-v2.json)。'));
+edit('docs/content/research/expansion-shortlist-v2.md',s=>s.replace('当前成品仍为 12 种真实鱼','当前成品已为 30 种真实鱼（原有 12＋本批 18）').replace('下一批由主代理选 18 种，其中六种石斑','本批由主代理选并完成 18 种，其中六种石斑'));
+edit('docs/FISH_DIVERSITY_RESEARCH.md',s=>s.replace(/\*\*本页数量路线为早期方案。\*\*[^\r\n]+/,'**本页数量路线为早期方案。** 最新 [扩展初筛 v2](content/research/expansion-shortlist-v2.md) 为 40 个新增候选＋原有 12 鱼，共 52 个对象；其中新增 18 种已制作，总成品 30 种。名单与产出见 [本批选材和交付](content/research/next-batch-v2.md)。候选、二维观察素材与游戏三维模型分别计数。'));
+edit('docs/content/inventory.md',s=>s.replace('## 逐鱼素材覆盖','二维观察素材现为 **30 种**；下面 12 鱼表仍是已有游戏目录和模型盘点。新增 18 鱼不自动成为游戏模型／钓鱼池，详见 [扩展交付](delivery-v2.json)。\n\n## 逐鱼素材覆盖').replace('儿童语音 | 56 段实际 WAV','儿童语音 | 128 段实际 WAV').replace('新 8 鱼与特殊结构候选见','新增 18 鱼成品及其余候选见'));
+edit('docs/CONTENT_ASSET_PLAN.md',s=>s.replace('v0.3 ·','v0.4 ·').replace('本轮已完成 12 鱼观察卡','本轮已完成 30 鱼观察卡').replace('六张 SVG 和 56 段实际中文试听','七张 SVG 和 128 段实际中文试听').replace('当前是选材完成，新增成品尚未制作；前述 48 为上一轮初筛记录。','本批 18 鱼素材已完成，总观察鱼数为 30；前述 48 为上一轮初筛记录。').replace('现有 12 鱼范围内的资料和表现素材已完成','30 鱼的观察资料和二维表现素材已完成').replace('当前范围为现有 12 鱼素材与两种环境样图。未来 20–30 种、真实泳姿研究和完整三维场景不计入完成数。','当前范围为 30 鱼观察素材与两种环境样图；52 个候选中其余 22 个尚未制作。真实泳姿研究和完整三维场景不计入完成数。')+'\n## 12. 扩展批次成品\n\n2026-10-06 用户确认执行后，主代理亲自新增 18 鱼：六种石斑、GT、海狼、亚洲海鲈、康氏马鲛、蓝纹鹦嘴鱼、帝王神仙鱼、大头带鱼、黄箱鲀、河口海马、大西洋鳕、黄鳍金枪鱼、巨型蝠鲼。每鱼有独立 PNG／WebP、观察卡与四段实际声音，并新增六种石斑对比 SVG。生命阶段、工作名、海域与证据范围逐条记录。首批交付数字留在第 11 节作历史记录；当前数量与检查以 [素材总交付](content/README.md) 为准。\n');
+console.log(JSON.stringify({fish:summary.fish,newFish:18,remainingCandidates:22}));

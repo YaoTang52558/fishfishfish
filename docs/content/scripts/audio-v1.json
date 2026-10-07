@@ -1,0 +1,1922 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-06",
+  "autoPlay": false,
+  "overlap": false,
+  "rightsStatus": "local-review-only",
+  "records": [
+    {
+      "id": "VO-AO-INTRO",
+      "text": "这是一条小丑鱼，看看它的白带。",
+      "factIds": [
+        "AO-01",
+        "AO-02"
+      ],
+      "subjectId": "amphiprion-ocellaris",
+      "kind": "knowledge",
+      "file": "audio/vo-ao-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AO-BANDS",
+      "text": "它的头、身体中间和尾根，各有一条白带。",
+      "factIds": [
+        "AO-02"
+      ],
+      "subjectId": "amphiprion-ocellaris",
+      "kind": "knowledge",
+      "file": "audio/vo-ao-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AO-FINS",
+      "text": "看，它的鳍上还有黑色。",
+      "factIds": [
+        "AO-02"
+      ],
+      "subjectId": "amphiprion-ocellaris",
+      "kind": "knowledge",
+      "file": "audio/vo-ao-fins.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AO-HOME",
+      "text": "这种小丑鱼，会和这种海葵一起生活。",
+      "factIds": [
+        "AO-03",
+        "RM-01"
+      ],
+      "subjectId": "amphiprion-ocellaris",
+      "kind": "knowledge",
+      "file": "audio/vo-ao-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-FF-INTRO",
+      "text": "看，这条鱼有一张细长的嘴。",
+      "factIds": [
+        "FF-01"
+      ],
+      "subjectId": "forcipiger-flavissimus",
+      "kind": "knowledge",
+      "file": "audio/vo-ff-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-FF-MOUTH",
+      "text": "它会到珊瑚枝和礁缝里找食物。",
+      "factIds": [
+        "FF-03"
+      ],
+      "subjectId": "forcipiger-flavissimus",
+      "kind": "knowledge",
+      "file": "audio/vo-ff-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-FF-SPOT",
+      "text": "找找尾根下方的鳍，上面有一个黑点。",
+      "factIds": [
+        "FF-02"
+      ],
+      "subjectId": "forcipiger-flavissimus",
+      "kind": "knowledge",
+      "file": "audio/vo-ff-spot.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-FF-PAIR",
+      "text": "它们常常两条一起，也会单独出现。",
+      "factIds": [
+        "FF-05"
+      ],
+      "subjectId": "forcipiger-flavissimus",
+      "kind": "knowledge",
+      "file": "audio/vo-ff-pair.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AH-INTRO",
+      "text": "这条鱼圆圆的，身上有点点和线条。",
+      "factIds": [
+        "AH-01",
+        "AH-03"
+      ],
+      "subjectId": "arothron-hispidus",
+      "kind": "knowledge",
+      "file": "audio/vo-ah-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AH-PATTERN",
+      "text": "上面是白点，下面是浅色线条。",
+      "factIds": [
+        "AH-01"
+      ],
+      "subjectId": "arothron-hispidus",
+      "kind": "knowledge",
+      "file": "audio/vo-ah-pattern.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AH-RINGS",
+      "text": "看胸鳍根部，一圈深，一圈浅。",
+      "factIds": [
+        "AH-02"
+      ],
+      "subjectId": "arothron-hispidus",
+      "kind": "knowledge",
+      "file": "audio/vo-ah-rings.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AH-MOUTH",
+      "text": "它的嘴，像一个小喙。",
+      "factIds": [
+        "AH-04"
+      ],
+      "subjectId": "arothron-hispidus",
+      "kind": "knowledge",
+      "file": "audio/vo-ah-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZF-INTRO",
+      "text": "这条鱼，白天常常是亮黄色的。",
+      "factIds": [
+        "ZF-01"
+      ],
+      "subjectId": "zebrasoma-flavescens",
+      "kind": "knowledge",
+      "file": "audio/vo-zf-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZF-TAIL",
+      "text": "看看尾巴根部，这里有一根白色的小刺。",
+      "factIds": [
+        "ZF-01"
+      ],
+      "subjectId": "zebrasoma-flavescens",
+      "kind": "knowledge",
+      "file": "audio/vo-zf-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZF-FOOD",
+      "text": "它会啃食藻类。",
+      "factIds": [
+        "ZF-02"
+      ],
+      "subjectId": "zebrasoma-flavescens",
+      "kind": "knowledge",
+      "file": "audio/vo-zf-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZF-NIGHT",
+      "text": "到了晚上，黄色会变暗，身体中间会出现白带。",
+      "factIds": [
+        "ZF-03"
+      ],
+      "subjectId": "zebrasoma-flavescens",
+      "kind": "knowledge",
+      "file": "audio/vo-zf-night.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PH-INTRO",
+      "text": "看看这条蓝色的鱼，还有黑色图案。",
+      "factIds": [
+        "PH-01"
+      ],
+      "subjectId": "paracanthurus-hepatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ph-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PH-BODY",
+      "text": "蓝色的身体上，有黑色图案。",
+      "factIds": [
+        "PH-01"
+      ],
+      "subjectId": "paracanthurus-hepatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ph-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PH-TAIL",
+      "text": "尾巴是黄色的，上下边缘有黑色。",
+      "factIds": [
+        "PH-02"
+      ],
+      "subjectId": "paracanthurus-hepatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ph-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PH-FOOD",
+      "text": "它主要吃水里的浮游小动物。",
+      "factIds": [
+        "PH-03"
+      ],
+      "subjectId": "paracanthurus-hepatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ph-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZC-INTRO",
+      "text": "看看这条鱼，背鳍拖着长长的白丝。",
+      "factIds": [
+        "ZC-01"
+      ],
+      "subjectId": "zanclus-cornutus",
+      "kind": "knowledge",
+      "file": "audio/vo-zc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZC-FIN",
+      "text": "背上的鳍，像一条长长的白丝。",
+      "factIds": [
+        "ZC-01"
+      ],
+      "subjectId": "zanclus-cornutus",
+      "kind": "knowledge",
+      "file": "audio/vo-zc-fin.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZC-BANDS",
+      "text": "身体上有两条宽宽的黑带。",
+      "factIds": [
+        "ZC-02"
+      ],
+      "subjectId": "zanclus-cornutus",
+      "kind": "knowledge",
+      "file": "audio/vo-zc-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-ZC-NOSE",
+      "text": "看看嘴巴前面，还有一块黄色。",
+      "factIds": [
+        "ZC-02"
+      ],
+      "subjectId": "zanclus-cornutus",
+      "kind": "knowledge",
+      "file": "audio/vo-zc-nose.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SS-INTRO",
+      "text": "这条鱼，生活在近岸的岩礁。",
+      "factIds": [
+        "SS-01"
+      ],
+      "subjectId": "sebastes-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-ss-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SS-HOME",
+      "text": "它的家，在近岸的岩礁。",
+      "factIds": [
+        "SS-01"
+      ],
+      "subjectId": "sebastes-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-ss-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SS-YOUNG",
+      "text": "小时候，它可以和漂浮的海藻一起出现。",
+      "factIds": [
+        "SS-02"
+      ],
+      "subjectId": "sebastes-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-ss-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SS-BABY",
+      "text": "它的宝宝，先在妈妈身体里发育。",
+      "factIds": [
+        "SS-03"
+      ],
+      "subjectId": "sebastes-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-ss-baby.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AS-INTRO",
+      "text": "这条鱼灰灰的，胸鳍却是橘黄色的。",
+      "factIds": [
+        "AS-01"
+      ],
+      "subjectId": "acanthopagrus-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-as-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AS-FIN",
+      "text": "看看身体侧边的鳍，是橘黄色的。",
+      "factIds": [
+        "AS-01"
+      ],
+      "subjectId": "acanthopagrus-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-as-fin.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AS-TAIL",
+      "text": "尾巴分成了上下两边。",
+      "factIds": [
+        "AS-02"
+      ],
+      "subjectId": "acanthopagrus-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-as-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-AS-HOME",
+      "text": "它也会生活在海湾和河口。",
+      "factIds": [
+        "AS-03"
+      ],
+      "subjectId": "acanthopagrus-schlegelii",
+      "kind": "knowledge",
+      "file": "audio/vo-as-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HO-INTRO",
+      "text": "看看这条鱼，身体长长的。",
+      "factIds": [
+        "HO-01"
+      ],
+      "subjectId": "hexagrammos-otakii",
+      "kind": "knowledge",
+      "file": "audio/vo-ho-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HO-BODY",
+      "text": "它的身体，比圆圆的鱼更长。",
+      "factIds": [
+        "HO-01"
+      ],
+      "subjectId": "hexagrammos-otakii",
+      "kind": "knowledge",
+      "file": "audio/vo-ho-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HO-HOME",
+      "text": "它会住在岩石海岸。",
+      "factIds": [
+        "HO-02"
+      ],
+      "subjectId": "hexagrammos-otakii",
+      "kind": "knowledge",
+      "file": "audio/vo-ho-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HO-EGGS",
+      "text": "鱼爸爸，会守护附在小石头上的卵。",
+      "factIds": [
+        "HO-03"
+      ],
+      "subjectId": "hexagrammos-otakii",
+      "kind": "knowledge",
+      "file": "audio/vo-ho-eggs.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OF-INTRO",
+      "text": "看看这条鱼，有好多黑色带子。",
+      "factIds": [
+        "OF-01"
+      ],
+      "subjectId": "oplegnathus-fasciatus",
+      "kind": "knowledge",
+      "file": "audio/vo-of-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OF-BANDS",
+      "text": "这些黑带里，有一条穿过眼睛。",
+      "factIds": [
+        "OF-01"
+      ],
+      "subjectId": "oplegnathus-fasciatus",
+      "kind": "knowledge",
+      "file": "audio/vo-of-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OF-MOUTH",
+      "text": "它的牙齿连在一起，形成了像喙的嘴。",
+      "factIds": [
+        "OF-02"
+      ],
+      "subjectId": "oplegnathus-fasciatus",
+      "kind": "knowledge",
+      "file": "audio/vo-of-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OF-YOUNG",
+      "text": "小鱼会跟着漂浮的海藻活动。",
+      "factIds": [
+        "OF-03"
+      ],
+      "subjectId": "oplegnathus-fasciatus",
+      "kind": "knowledge",
+      "file": "audio/vo-of-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GP-INTRO",
+      "text": "靠近看看，这条鱼身上有小黑点。",
+      "factIds": [
+        "GP-01"
+      ],
+      "subjectId": "girella-punctata",
+      "kind": "knowledge",
+      "file": "audio/vo-gp-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GP-DOTS",
+      "text": "鳞片上，有小小的黑点。",
+      "factIds": [
+        "GP-01"
+      ],
+      "subjectId": "girella-punctata",
+      "kind": "knowledge",
+      "file": "audio/vo-gp-dots.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GP-FIN",
+      "text": "胸鳍根部，还有一块深色斑。",
+      "factIds": [
+        "GP-02"
+      ],
+      "subjectId": "girella-punctata",
+      "kind": "knowledge",
+      "file": "audio/vo-gp-fin.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GP-FOOD",
+      "text": "它吃藻类，也吃一些小生物。",
+      "factIds": [
+        "GP-03"
+      ],
+      "subjectId": "girella-punctata",
+      "kind": "knowledge",
+      "file": "audio/vo-gp-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SM-INTRO",
+      "text": "看看岩礁里的这条鱼，这张图选了红褐色。",
+      "factIds": [
+        "SM-01",
+        "SM-02"
+      ],
+      "subjectId": "sebastiscus-marmoratus",
+      "kind": "knowledge",
+      "file": "audio/vo-sm-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SM-COLOR",
+      "text": "它的颜色，会随着生活条件有所不同。",
+      "factIds": [
+        "SM-01"
+      ],
+      "subjectId": "sebastiscus-marmoratus",
+      "kind": "knowledge",
+      "file": "audio/vo-sm-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SM-HOME",
+      "text": "它生活在浅海的岩礁底部。",
+      "factIds": [
+        "SM-02"
+      ],
+      "subjectId": "sebastiscus-marmoratus",
+      "kind": "knowledge",
+      "file": "audio/vo-sm-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SM-FOOD",
+      "text": "它的食物里，主要有小鱼。",
+      "factIds": [
+        "SM-03"
+      ],
+      "subjectId": "sebastiscus-marmoratus",
+      "kind": "knowledge",
+      "file": "audio/vo-sm-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EC-INTRO",
+      "text": "这条石斑鱼，穿着橙色点点的衣服。",
+      "factIds": [
+        "EC-01"
+      ],
+      "subjectId": "epinephelus-coioides",
+      "kind": "knowledge",
+      "file": "audio/vo-ec-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EC-DOTS",
+      "text": "身上有许多橙褐色小点。",
+      "factIds": [
+        "EC-01"
+      ],
+      "subjectId": "epinephelus-coioides",
+      "kind": "knowledge",
+      "file": "audio/vo-ec-dots.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EC-BANDS",
+      "text": "身上还有斜斜的深色带子。",
+      "factIds": [
+        "EC-02"
+      ],
+      "subjectId": "epinephelus-coioides",
+      "kind": "knowledge",
+      "file": "audio/vo-ec-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EC-YOUNG",
+      "text": "小鱼会住在河口。",
+      "factIds": [
+        "EC-03"
+      ],
+      "subjectId": "epinephelus-coioides",
+      "kind": "knowledge",
+      "file": "audio/vo-ec-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PL-INTRO",
+      "text": "看看这条红色的石斑鱼，蓝点好漂亮。",
+      "factIds": [
+        "PL-01"
+      ],
+      "subjectId": "plectropomus-leopardus",
+      "kind": "knowledge",
+      "file": "audio/vo-pl-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PL-DOTS",
+      "text": "红色衣服上，还有蓝色小点。",
+      "factIds": [
+        "PL-01"
+      ],
+      "subjectId": "plectropomus-leopardus",
+      "kind": "knowledge",
+      "file": "audio/vo-pl-dots.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PL-COLOR",
+      "text": "它也可以是绿褐色的。",
+      "factIds": [
+        "PL-02"
+      ],
+      "subjectId": "plectropomus-leopardus",
+      "kind": "knowledge",
+      "file": "audio/vo-pl-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PL-TAIL",
+      "text": "尾巴中间的鳍条，常有浅色边。",
+      "factIds": [
+        "PL-03"
+      ],
+      "subjectId": "plectropomus-leopardus",
+      "kind": "knowledge",
+      "file": "audio/vo-pl-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EF-INTRO",
+      "text": "这条石斑鱼，身上是大斑和小点。",
+      "factIds": [
+        "EF-01"
+      ],
+      "subjectId": "epinephelus-fuscoguttatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ef-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EF-PATTERN",
+      "text": "大块深色斑里，还有小小的点。",
+      "factIds": [
+        "EF-01"
+      ],
+      "subjectId": "epinephelus-fuscoguttatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ef-pattern.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EF-SPOT",
+      "text": "尾巴根部上面，有一块黑色。",
+      "factIds": [
+        "EF-02"
+      ],
+      "subjectId": "epinephelus-fuscoguttatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ef-spot.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EF-YOUNG",
+      "text": "小时候，它也会住在海草间。",
+      "factIds": [
+        "EF-03"
+      ],
+      "subjectId": "epinephelus-fuscoguttatus",
+      "kind": "knowledge",
+      "file": "audio/vo-ef-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EM-INTRO",
+      "text": "看看它的花纹，像一片小蜂窝。",
+      "factIds": [
+        "EM-01"
+      ],
+      "subjectId": "epinephelus-merra",
+      "kind": "knowledge",
+      "file": "audio/vo-em-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EM-PATTERN",
+      "text": "这些褐色花纹，像一个个小格子。",
+      "factIds": [
+        "EM-01"
+      ],
+      "subjectId": "epinephelus-merra",
+      "kind": "knowledge",
+      "file": "audio/vo-em-pattern.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EM-BODY",
+      "text": "到了肚子，点点之间的空隙更大。",
+      "factIds": [
+        "EM-02"
+      ],
+      "subjectId": "epinephelus-merra",
+      "kind": "knowledge",
+      "file": "audio/vo-em-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EM-TAIL",
+      "text": "尾巴的边，圆圆的。",
+      "factIds": [
+        "EM-03"
+      ],
+      "subjectId": "epinephelus-merra",
+      "kind": "knowledge",
+      "file": "audio/vo-em-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EL-INTRO",
+      "text": "这是一条大石斑，叫龙趸。",
+      "factIds": [
+        "EL-01"
+      ],
+      "subjectId": "epinephelus-lanceolatus",
+      "kind": "knowledge",
+      "file": "audio/vo-el-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EL-MOUTH",
+      "text": "看看它的大嘴巴。",
+      "factIds": [
+        "EL-01"
+      ],
+      "subjectId": "epinephelus-lanceolatus",
+      "kind": "knowledge",
+      "file": "audio/vo-el-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EL-COLOR",
+      "text": "小鱼黑黄相间，长大后颜色会变。",
+      "factIds": [
+        "EL-02"
+      ],
+      "subjectId": "epinephelus-lanceolatus",
+      "kind": "knowledge",
+      "file": "audio/vo-el-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-EL-FINS",
+      "text": "它的鳍上，有很多小黑点。",
+      "factIds": [
+        "EL-03"
+      ],
+      "subjectId": "epinephelus-lanceolatus",
+      "kind": "knowledge",
+      "file": "audio/vo-el-fins.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CA-INTRO",
+      "text": "这条褐色的石斑鱼，也有蓝点。",
+      "factIds": [
+        "CA-01"
+      ],
+      "subjectId": "cephalopholis-argus",
+      "kind": "knowledge",
+      "file": "audio/vo-ca-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CA-DOTS",
+      "text": "蓝点外面，还有一圈深色边。",
+      "factIds": [
+        "CA-01"
+      ],
+      "subjectId": "cephalopholis-argus",
+      "kind": "knowledge",
+      "file": "audio/vo-ca-dots.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CA-SPOT",
+      "text": "胸鳍前面，有一片浅色。",
+      "factIds": [
+        "CA-02"
+      ],
+      "subjectId": "cephalopholis-argus",
+      "kind": "knowledge",
+      "file": "audio/vo-ca-spot.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CA-BANDS",
+      "text": "有时候，身体后面还有浅色带子。",
+      "factIds": [
+        "CA-03"
+      ],
+      "subjectId": "cephalopholis-argus",
+      "kind": "knowledge",
+      "file": "audio/vo-ca-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CI-INTRO",
+      "text": "这是大鲹，钓鱼的人也叫它 GT。",
+      "factIds": [
+        "CI-01"
+      ],
+      "subjectId": "caranx-ignobilis",
+      "kind": "knowledge",
+      "file": "audio/vo-ci-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CI-BODY",
+      "text": "看看额头，陡陡的。",
+      "factIds": [
+        "CI-01"
+      ],
+      "subjectId": "caranx-ignobilis",
+      "kind": "knowledge",
+      "file": "audio/vo-ci-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CI-COLOR",
+      "text": "它可以是银色，也可以更深。",
+      "factIds": [
+        "CI-02"
+      ],
+      "subjectId": "caranx-ignobilis",
+      "kind": "knowledge",
+      "file": "audio/vo-ci-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-CI-SCALES",
+      "text": "身体侧面后半段，还有一排硬硬的小鳞。",
+      "factIds": [
+        "CI-03"
+      ],
+      "subjectId": "caranx-ignobilis",
+      "kind": "knowledge",
+      "file": "audio/vo-ci-scales.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SB-INTRO",
+      "text": "看看海狼，身体好长呀。",
+      "factIds": [
+        "SB-01"
+      ],
+      "subjectId": "sphyraena-barracuda",
+      "kind": "knowledge",
+      "file": "audio/vo-sb-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SB-BODY",
+      "text": "它的身体，细细长长的。",
+      "factIds": [
+        "SB-01"
+      ],
+      "subjectId": "sphyraena-barracuda",
+      "kind": "knowledge",
+      "file": "audio/vo-sb-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SB-FINS",
+      "text": "背上这两片鳍，隔得很远。",
+      "factIds": [
+        "SB-02"
+      ],
+      "subjectId": "sphyraena-barracuda",
+      "kind": "knowledge",
+      "file": "audio/vo-sb-fins.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SB-SPOT",
+      "text": "身体下边，还有一些黑点。",
+      "factIds": [
+        "SB-03"
+      ],
+      "subjectId": "sphyraena-barracuda",
+      "kind": "knowledge",
+      "file": "audio/vo-sb-spot.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-LC-INTRO",
+      "text": "这条银色的鱼，叫亚洲海鲈。",
+      "factIds": [
+        "LC-01"
+      ],
+      "subjectId": "lates-calcarifer",
+      "kind": "knowledge",
+      "file": "audio/vo-lc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-LC-MOUTH",
+      "text": "它的嘴巴，一直伸到眼睛后面。",
+      "factIds": [
+        "LC-01"
+      ],
+      "subjectId": "lates-calcarifer",
+      "kind": "knowledge",
+      "file": "audio/vo-lc-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-LC-TAIL",
+      "text": "看看尾巴，是圆圆的扇形。",
+      "factIds": [
+        "LC-02"
+      ],
+      "subjectId": "lates-calcarifer",
+      "kind": "knowledge",
+      "file": "audio/vo-lc-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-LC-HOME",
+      "text": "它也能在河口和河流生活。",
+      "factIds": [
+        "LC-03"
+      ],
+      "subjectId": "lates-calcarifer",
+      "kind": "knowledge",
+      "file": "audio/vo-lc-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SC-INTRO",
+      "text": "这条马鲛鱼，穿着细细的波纹。",
+      "factIds": [
+        "SC-01"
+      ],
+      "subjectId": "scomberomorus-commerson",
+      "kind": "knowledge",
+      "file": "audio/vo-sc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SC-BANDS",
+      "text": "身上有好多细细的波浪带子。",
+      "factIds": [
+        "SC-01"
+      ],
+      "subjectId": "scomberomorus-commerson",
+      "kind": "knowledge",
+      "file": "audio/vo-sc-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SC-COLOR",
+      "text": "背上蓝灰，身体侧边银亮亮。",
+      "factIds": [
+        "SC-02"
+      ],
+      "subjectId": "scomberomorus-commerson",
+      "kind": "knowledge",
+      "file": "audio/vo-sc-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SC-YOUNG",
+      "text": "小时候，常常是点点花纹。",
+      "factIds": [
+        "SC-03"
+      ],
+      "subjectId": "scomberomorus-commerson",
+      "kind": "knowledge",
+      "file": "audio/vo-sc-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SG-INTRO",
+      "text": "这是一条鹦嘴鱼，看看它的嘴。",
+      "factIds": [
+        "SG-01"
+      ],
+      "subjectId": "scarus-ghobban",
+      "kind": "knowledge",
+      "file": "audio/vo-sg-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SG-MOUTH",
+      "text": "它的嘴，像小鸟的喙。",
+      "factIds": [
+        "SG-01"
+      ],
+      "subjectId": "scarus-ghobban",
+      "kind": "knowledge",
+      "file": "audio/vo-sg-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SG-COLOR",
+      "text": "不同成长阶段，花衣服不一样。",
+      "factIds": [
+        "SG-02"
+      ],
+      "subjectId": "scarus-ghobban",
+      "kind": "knowledge",
+      "file": "audio/vo-sg-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-SG-FOOD",
+      "text": "它会刮着吃藻类。",
+      "factIds": [
+        "SG-03"
+      ],
+      "subjectId": "scarus-ghobban",
+      "kind": "knowledge",
+      "file": "audio/vo-sg-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PI-INTRO",
+      "text": "这条神仙鱼，穿着蓝黄条纹。",
+      "factIds": [
+        "PI-01"
+      ],
+      "subjectId": "pomacanthus-imperator",
+      "kind": "knowledge",
+      "file": "audio/vo-pi-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PI-BANDS",
+      "text": "蓝色和黄色，排成一条条。",
+      "factIds": [
+        "PI-01"
+      ],
+      "subjectId": "pomacanthus-imperator",
+      "kind": "knowledge",
+      "file": "audio/vo-pi-bands.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PI-SPOT",
+      "text": "眼睛这里，有一条弯弯的黑带。",
+      "factIds": [
+        "PI-02"
+      ],
+      "subjectId": "pomacanthus-imperator",
+      "kind": "knowledge",
+      "file": "audio/vo-pi-spot.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-PI-YOUNG",
+      "text": "小时候，它穿的是圆环花纹。",
+      "factIds": [
+        "PI-03"
+      ],
+      "subjectId": "pomacanthus-imperator",
+      "kind": "knowledge",
+      "file": "audio/vo-pi-young.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TL-INTRO",
+      "text": "看看带鱼，像一条银色的长带子。",
+      "factIds": [
+        "TL-01"
+      ],
+      "subjectId": "trichiurus-lepturus",
+      "kind": "knowledge",
+      "file": "audio/vo-tl-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TL-BODY",
+      "text": "它的身体，又长又扁。",
+      "factIds": [
+        "TL-01"
+      ],
+      "subjectId": "trichiurus-lepturus",
+      "kind": "knowledge",
+      "file": "audio/vo-tl-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TL-TAIL",
+      "text": "身体末端尖尖的，没有扇形尾鳍。",
+      "factIds": [
+        "TL-02"
+      ],
+      "subjectId": "trichiurus-lepturus",
+      "kind": "knowledge",
+      "file": "audio/vo-tl-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TL-FIN",
+      "text": "背上的鳍，沿着身体排得很长。",
+      "factIds": [
+        "TL-03"
+      ],
+      "subjectId": "trichiurus-lepturus",
+      "kind": "knowledge",
+      "file": "audio/vo-tl-fin.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OC-INTRO",
+      "text": "这是黄箱鲀，像个黄色小盒子。",
+      "factIds": [
+        "OC-01"
+      ],
+      "subjectId": "ostracion-cubicus",
+      "kind": "knowledge",
+      "file": "audio/vo-oc-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OC-BODY",
+      "text": "身体像一个小盒子。",
+      "factIds": [
+        "OC-01"
+      ],
+      "subjectId": "ostracion-cubicus",
+      "kind": "knowledge",
+      "file": "audio/vo-oc-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OC-DOTS",
+      "text": "黄色衣服上，有黑色圆点。",
+      "factIds": [
+        "OC-02"
+      ],
+      "subjectId": "ostracion-cubicus",
+      "kind": "knowledge",
+      "file": "audio/vo-oc-dots.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-OC-GROW",
+      "text": "长大以后，颜色和点点会变化。",
+      "factIds": [
+        "OC-03"
+      ],
+      "subjectId": "ostracion-cubicus",
+      "kind": "knowledge",
+      "file": "audio/vo-oc-grow.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HK-INTRO",
+      "text": "海马也是鱼，看它弯弯的尾巴。",
+      "factIds": [
+        "HK-01"
+      ],
+      "subjectId": "hippocampus-kuda",
+      "kind": "knowledge",
+      "file": "audio/vo-hk-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HK-TAIL",
+      "text": "弯弯的尾巴，能抓住东西。",
+      "factIds": [
+        "HK-01"
+      ],
+      "subjectId": "hippocampus-kuda",
+      "kind": "knowledge",
+      "file": "audio/vo-hk-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HK-HOME",
+      "text": "这种海马，常住在河口附近的海草间。",
+      "factIds": [
+        "HK-02"
+      ],
+      "subjectId": "hippocampus-kuda",
+      "kind": "knowledge",
+      "file": "audio/vo-hk-home.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-HK-BABY",
+      "text": "鱼爸爸，有一个装鱼卵的育儿袋。",
+      "factIds": [
+        "HK-03"
+      ],
+      "subjectId": "hippocampus-kuda",
+      "kind": "knowledge",
+      "file": "audio/vo-hk-baby.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GM-INTRO",
+      "text": "这条鱼，叫大西洋鳕。看看下巴的小须。",
+      "factIds": [
+        "GM-01"
+      ],
+      "subjectId": "gadus-morhua",
+      "kind": "knowledge",
+      "file": "audio/vo-gm-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GM-MOUTH",
+      "text": "下巴下面，有一根小小的须。",
+      "factIds": [
+        "GM-01"
+      ],
+      "subjectId": "gadus-morhua",
+      "kind": "knowledge",
+      "file": "audio/vo-gm-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GM-PATTERN",
+      "text": "身上有深色点，肚子却浅浅的。",
+      "factIds": [
+        "GM-02"
+      ],
+      "subjectId": "gadus-morhua",
+      "kind": "knowledge",
+      "file": "audio/vo-gm-pattern.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-GM-BODY",
+      "text": "身体侧面，还有一条长长的线。",
+      "factIds": [
+        "GM-03"
+      ],
+      "subjectId": "gadus-morhua",
+      "kind": "knowledge",
+      "file": "audio/vo-gm-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TA-INTRO",
+      "text": "看黄鳍金枪鱼，它的鳍是黄色的。",
+      "factIds": [
+        "TA-01"
+      ],
+      "subjectId": "thunnus-albacares",
+      "kind": "knowledge",
+      "file": "audio/vo-ta-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TA-BODY",
+      "text": "身体两头细，中间粗。",
+      "factIds": [
+        "TA-01"
+      ],
+      "subjectId": "thunnus-albacares",
+      "kind": "knowledge",
+      "file": "audio/vo-ta-body.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TA-FINS",
+      "text": "背鳍、臀鳍和后面的小鳍，是黄色的。",
+      "factIds": [
+        "TA-02"
+      ],
+      "subjectId": "thunnus-albacares",
+      "kind": "knowledge",
+      "file": "audio/vo-ta-fins.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-TA-COLOR",
+      "text": "背上深蓝，肚子银亮亮。",
+      "factIds": [
+        "TA-03"
+      ],
+      "subjectId": "thunnus-albacares",
+      "kind": "knowledge",
+      "file": "audio/vo-ta-color.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-MB-INTRO",
+      "text": "这是巨型蝠鲼，它也是一种鱼。",
+      "factIds": [
+        "MB-01"
+      ],
+      "subjectId": "mobula-birostris",
+      "kind": "knowledge",
+      "file": "audio/vo-mb-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-MB-FINS",
+      "text": "大大的胸鳍，像一对翅膀。",
+      "factIds": [
+        "MB-01"
+      ],
+      "subjectId": "mobula-birostris",
+      "kind": "knowledge",
+      "file": "audio/vo-mb-fins.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-MB-MOUTH",
+      "text": "嘴巴前面，有两片小小的头鳍。",
+      "factIds": [
+        "MB-02"
+      ],
+      "subjectId": "mobula-birostris",
+      "kind": "knowledge",
+      "file": "audio/vo-mb-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-MB-FOOD",
+      "text": "它会从水里，过滤浮游小动物。",
+      "factIds": [
+        "MB-03"
+      ],
+      "subjectId": "mobula-birostris",
+      "kind": "knowledge",
+      "file": "audio/vo-mb-food.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-RM-INTRO",
+      "text": "这是一只海葵，也是这种小丑鱼的伙伴。",
+      "factIds": [
+        "AO-03",
+        "RM-01"
+      ],
+      "subjectId": "radianthus-magnifica",
+      "kind": "knowledge",
+      "file": "audio/vo-rm-intro.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-RF-CORAL",
+      "text": "珊瑚也是动物。",
+      "factIds": [
+        "RF-01"
+      ],
+      "subjectId": "reef-shallows",
+      "kind": "knowledge",
+      "file": "audio/vo-rf-coral.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-LOOK",
+      "text": "看看真实的鱼。",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-look.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-DRAW",
+      "text": "回去画你的鱼吧。",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-draw.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-SAVED",
+      "text": "保存好啦。",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-saved.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-OCEAN",
+      "text": "你的鱼，游进海里啦。",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-ocean.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-CAUGHT",
+      "text": "钓到啦！",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-caught.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    },
+    {
+      "id": "VO-UI-AGAIN",
+      "text": "再听一遍。",
+      "factIds": [],
+      "subjectId": "interface",
+      "kind": "operation",
+      "file": "audio/vo-ui-again.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音相关条款与目标发行范围",
+      "pronunciation": "孩子入口不用学名；少量鳍、胸鳍、喙等词由图与短句辅助"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-06",
+  "scope": "Own-ocean play help; separate from the 128 species/material clips.",
+  "records": [
+    {
+      "id": "VO-OCEAN-BUBBLE-HELP",
+      "text": "点一下泡泡，你的鱼会游过来。也可以点水里的别处，放一个新的泡泡。",
+      "playback": "Tap only; stops when requested, leaving play, opening close-up, hiding page or navigating away."
+    }
+  ]
+}

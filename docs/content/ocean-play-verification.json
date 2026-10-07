@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-07",
+  "scope": "shallow environment + original-fish bubble play only; desktop Edge, no physical iPad",
+  "checks": [
+    "real drawing saves before entering ocean",
+    "bubble keyboard activation and reached response",
+    "water retargeting; one selected original fish",
+    "manual help voice starts/stops",
+    "close-up pauses underlying play",
+    "three responsive layouts and target remains in bounds",
+    "reduced motion removes bubble effects but retains requested play",
+    "fish/settings/assets unchanged by play",
+    "image failure fallback",
+    "empty ocean asks for creation; no demo fish saved"
+  ],
+  "views": [
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "design/ocean-play/shallow-1024.png"
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "design/ocean-play/shallow-768.png"
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "design/ocean-play/shallow-390.png"
+    }
+  ],
+  "errors": [],
+  "badResponses": []
+}

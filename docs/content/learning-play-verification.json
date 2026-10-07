@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-07",
+  "result": "passed",
+  "physicalDeviceVerified": false,
+  "scope": "4–12 integration sample; isolated Edge; actual pointer drawing/holding; round clock accelerated with development-only session hook for wait/fight, UI commands for cast/pull/land/release",
+  "checks": [
+    "30 observations and six groupers; shape filtering, compare, zoom, sources",
+    "single narration owner, manual replay/stop, help pauses round; checked clownfish food narration",
+    "mouth learning preserves painted design and undo history",
+    "finger guidance/theme does not alter artwork",
+    "independent growth preferences persist on reload",
+    "separated cast targets, center controls, pointer release",
+    "same species/attempt from catch through record and release; celebration skippable",
+    "reef/rock WebGL scenes, Canvas fallback and mobile non-overlapping targets; 30 observations distinct from 12 catch records"
+  ],
+  "errors": [],
+  "badResponses": [],
+  "views": [
+    "design/learning-play/journal-compare-1024.png",
+    "design/learning-play/journal-reef-relations-1024.png",
+    "design/learning-play/journal-768.png",
+    "design/learning-play/journal-390.png",
+    "design/learning-play/creation-mouth-topic-1024.png",
+    "design/learning-play/ocean-finger-rock-1024.png",
+    "design/learning-play/growth-settings-1024.png",
+    "design/learning-play/fishing-reef-1024.png",
+    "design/learning-play/fishing-controls-1024.png",
+    "design/learning-play/catch-celebration-1024.png",
+    "design/learning-play/fishing-rock-1024.png",
+    "design/learning-play/fishing-rock-390.png",
+    "design/learning-play/fishing-rock-fallback-1024.png",
+    "design/learning-play/fishing-rock-fallback-390.png"
+  ]
+}

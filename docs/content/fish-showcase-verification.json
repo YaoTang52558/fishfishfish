@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-07",
+  "scope": "own-fish close-up and arrival only; desktop Edge, no physical iPad",
+  "checks": [
+    "real pen/glow/stamp preserved through whole/pattern/face views",
+    "pause/turn/dark view; no design or undo mutation",
+    "Escape and focus return",
+    "trial and ocean behind dialog pause",
+    "saved arrival greeting and larger camera",
+    "one saved fish with original design",
+    "hidden fish paint loads read-only and releases bitmaps",
+    "reduced motion static close-up and greeting; no camera pan",
+    "three responsive layouts"
+  ],
+  "views": [
+    {
+      "file": "design/fish-showcase/whole-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "file": "design/fish-showcase/pattern-768.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "file": "design/fish-showcase/face-390.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "errors": [],
+  "badResponses": []
+}

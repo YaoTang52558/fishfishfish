@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-06",
+  "scope": "workshop observation integration only; desktop Edge with tablet and phone viewports; not physical iPad",
+  "checks": [
+    "real stroke and design persist through observing",
+    "undo shortcut blocked behind modal",
+    "6 starter / 6 grouper / 30 full cards",
+    "audio only after tap; stops on filtering and closing",
+    "remembered reference without applying design",
+    "native Escape and focus return",
+    "parent source links",
+    "network failure and retry",
+    "saved draft reload preserved",
+    "three responsive layouts"
+  ],
+  "views": [
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "file": "design/workshop-inspiration/observation-1024x768.png",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "file": "design/workshop-inspiration/observation-768x1024.png",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "design/workshop-inspiration/observation-390x844.png",
+      "noHorizontalOverflow": true
+    }
+  ],
+  "errors": [],
+  "badResponses": []
+}

@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-06",
+  "purpose": "content-preparation; not runtime",
+  "records": [
+    {
+      "id": "S-FM-CLOWN",
+      "institution": "Florida Museum",
+      "title": "Clown Anemonefish",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/clown-anemonefish/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "机构物种资料；身份、外形、宿主与适应；图片版权另记"
+    },
+    {
+      "id": "S-AM-CLOWN",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Western Clown Anemonefish",
+      "url": "https://australian.museum/learn/animals/fishes/western-clown-anemonefish-amphiprion-ocellaris-cuvier-1830/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Introduction / Habitat；页面更新时间未在本轮登记"
+    },
+    {
+      "id": "S-WORMS-CLOWN",
+      "institution": "WoRMS",
+      "title": "Amphiprion ocellaris / AphiaID 278400",
+      "url": "https://www.marinespecies.org/aphia.php?id=278400&p=taxdetails",
+      "checkedAt": "2026-10-06",
+      "access": "indexed-page",
+      "notes": "接受名；检索返回条目正文，直接访问可能受限"
+    },
+    {
+      "id": "S-WORMS-ANEMONE",
+      "institution": "WoRMS / World List of Actiniaria",
+      "title": "Heteractis magnifica / AphiaID 290090",
+      "url": "https://www.marinespecies.org/aphia.php?id=290090&p=taxdetails",
+      "checkedAt": "2026-10-06",
+      "access": "indexed-page-and-gallery",
+      "notes": "旧名接受到 Radianthus magnifica；直连403，核对搜索返回正文及图册对应"
+    },
+    {
+      "id": "S-WA-FORCEPS",
+      "institution": "Waikīkī Aquarium",
+      "title": "Forceps Butterflyfish",
+      "url": "https://www.waikikiaquarium.org/experience/animal-guide/fishes/butterflyfishes/forceps-butterflyfish/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "正文第1–6段；嘴形、觅食与相似种"
+    },
+    {
+      "id": "S-AM-FORCEPS",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Forceps Fish",
+      "url": "https://australian.museum/learn/animals/fishes/forceps-fish-forcipiger-flavissimus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Feeding and diet / Other behaviours；2021-03-15 更新"
+    },
+    {
+      "id": "S-AM-PUFFER",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Stars-and-stripes Puffer",
+      "url": "https://australian.museum/learn/animals/fishes/stars-and-stripes-toadfish-arothron-hispidus-linnaeus-1758/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Habitat / Feeding and diet；2019-01-21 更新"
+    },
+    {
+      "id": "S-SI-REEF",
+      "institution": "Smithsonian Ocean Portal Team / reviewed by Nancy Knowlton",
+      "title": "Corals and Coral Reefs",
+      "url": "https://ocean.si.edu/ocean-life/invertebrates/corals-and-coral-reefs",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "What Are Corals? / Coral Diversity；概括性珊瑚知识，图片逐件核权"
+    },
+    {
+      "id": "S-NP-ANEMONE",
+      "institution": "NParks",
+      "title": "Cnidaria (non-Scleractinia)",
+      "url": "https://www.nparks.gov.sg/nature/species-list/cnidaria-%28non-scleractinia%29",
+      "checkedAt": "2026-10-06",
+      "access": "indexed-page",
+      "notes": "2024-10-08；RDB3表列旧名 Heteractis magnifica；不是具体地点同域关系证据"
+    },
+    {
+      "id": "S-WORMS-IMAGE",
+      "institution": "WoRMS Actiniaria / ReefLifeApps.com",
+      "title": "Heteractis magnifica2 DMS / image 132841",
+      "url": "https://marinespecies.org/Actiniaria/aphia.php?p=image&pic=132841&tid=290090",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "图像元数据与新旧名对应；CC BY-SA 3.0，同时要求转载前告知作者"
+    },
+    {
+      "id": "S-WA-YELLOW",
+      "institution": "Waikīkī Aquarium",
+      "title": "Yellow Tang",
+      "url": "https://www.waikikiaquarium.org/experience/animal-guide/fishes/surgeonfishes/yellow-tang/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Description / feeding / nighttime color"
+    },
+    {
+      "id": "S-AM-BLUE",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Blue Tang",
+      "url": "https://australian.museum/learn/animals/fishes/blue-tang-paracanthurus-hepatus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Feeding and diet"
+    },
+    {
+      "id": "S-AM-IDOL",
+      "institution": "Australian Museum / Mark McGrouther",
+      "title": "Moorish Idol",
+      "url": "https://australian.museum/learn/animals/fishes/moorish-idol-zanclus-cornutus-linnaeus-1758/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification"
+    },
+    {
+      "id": "S-TW-BREAM",
+      "institution": "中央研究院生物多樣性研究中心／臺灣魚類資料庫",
+      "title": "Acanthopagrus schlegelii",
+      "url": "https://catalog.digitalarchives.tw/item/00/42/6e/36.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "形態特徵 / 棲所生態"
+    },
+    {
+      "id": "S-TW-KNIFEJAW",
+      "institution": "中央研究院生物多樣性研究中心／臺灣魚類資料庫",
+      "title": "Oplegnathus fasciatus",
+      "url": "https://catalog.digitalarchives.tw/item/00/42/6c/9f.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "形態特徵 / 棲所生態"
+    },
+    {
+      "id": "S-TW-GIRELLA",
+      "institution": "中央研究院生物多樣性研究中心／臺灣魚類資料庫",
+      "title": "Girella punctata",
+      "url": "https://catalog.digitalarchives.tw/item/00/42/6b/6f.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "形態特徵 / 棲所生態；季节描述限于该区域资料"
+    },
+    {
+      "id": "S-TW-MARMO",
+      "institution": "中央研究院生物多樣性研究中心／臺灣魚類資料庫",
+      "title": "Sebastiscus marmoratus",
+      "url": "https://catalog.digitalarchives.tw/item/00/42/6f/31.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "形態特徵 / 棲所生態"
+    },
+    {
+      "id": "S-FB-ROCKFISH",
+      "institution": "FishBase",
+      "title": "Sebastes schlegelii",
+      "url": "https://www.fishbase.se/summary/Sebastes-schlegelii.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Biology / Environment"
+    },
+    {
+      "id": "S-FB-GREENLING",
+      "institution": "FishBase",
+      "title": "Hexagrammos otakii",
+      "url": "https://www.fishbase.se/summary/Hexagrammos-otakii.html",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Biology / Body shape"
+    },
+    {
+      "id": "S-ANEMONE-REDSEA2021",
+      "institution": "Bennett-Smith et al. / Marine Biodiversity Records",
+      "title": "Clownfish hosting anemones of the Red Sea",
+      "url": "https://link.springer.com/article/10.1186/s41200-021-00216-6",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Results / Heteractis magnifica；红海与亚丁湾实地调查；使用旧属名"
+    },
+    {
+      "id": "S-V2-EC",
+      "institution": "Australian Museum",
+      "title": "Goldspotted Rockcod",
+      "url": "https://australian.museum/learn/animals/fishes/goldspotted-rockcod-epinephelus-coioides/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-PL",
+      "institution": "Australian Museum",
+      "title": "Common Coral Trout",
+      "url": "https://australian.museum/learn/animals/fishes/common-coral-trout-plectropomus-leopardus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-EF",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Brown-marbled Grouper",
+      "url": "https://fishesofaustralia.net.au/Home/species/4670",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-EM",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Honeycomb Grouper",
+      "url": "https://fishesofaustralia.net.au/home/species/3848",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-EL",
+      "institution": "Australian Museum",
+      "title": "Queensland Groper",
+      "url": "https://australian.museum/learn/animals/fishes/queensland-groper-epinephelus-lanceolatus-bloch-1790/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-CA",
+      "institution": "Australian Museum",
+      "title": "Peacock Rockcod",
+      "url": "https://australian.museum/learn/animals/fishes/peacock-rockcod-cephalopholis-argus-bloch-schneider-1801/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-CI",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Giant Trevally",
+      "url": "https://fishesofaustralia.net.au/home/species/4268",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-SB",
+      "institution": "Florida Museum of Natural History",
+      "title": "Great Barracuda",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/great-barracuda/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-LC",
+      "institution": "Australian Museum",
+      "title": "Barramundi",
+      "url": "https://australian.museum/learn/animals/fishes/barramundi-lates-calcarifer-bloch-1790/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-SC",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Spanish Mackerel",
+      "url": "https://fishesofaustralia.net.au/home/species/728",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-SG",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Bluebarred Parrotfish",
+      "url": "https://fishesofaustralia.net.au/home/species/2360",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-PI",
+      "institution": "Australian Museum",
+      "title": "Emperor Angelfish",
+      "url": "https://australian.museum/learn/animals/fishes/emperor-angelfish-pomacanthus-imperator/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-TL",
+      "institution": "Museums Victoria / Fishes of Australia",
+      "title": "Largehead Hairtail",
+      "url": "https://fishesofaustralia.net.au/home/species/2562",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-OC",
+      "institution": "Australian Museum",
+      "title": "Yellow Boxfish",
+      "url": "https://australian.museum/learn/animals/fishes/yellow-boxfish-ostracion-cubicus/",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-HK",
+      "institution": "NParks Singapore",
+      "title": "Seahorses / Estuarine Seahorse",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/fauna/3/0/305",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-GM",
+      "institution": "NOAA Fisheries",
+      "title": "Atlantic Cod",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-cod",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-TA",
+      "institution": "NOAA Fisheries",
+      "title": "Atlantic Yellowfin Tuna",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-yellowfin-tuna",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-V2-MB",
+      "institution": "NOAA Fisheries",
+      "title": "Giant Manta Ray",
+      "url": "https://www.fisheries.noaa.gov/species/giant-manta-ray",
+      "checkedAt": "2026-10-06",
+      "access": "direct-page",
+      "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    }
+  ]
+}

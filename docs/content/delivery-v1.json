@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "date": "2026-10-06",
+  "owner": "primary-agent",
+  "delegatedThisProductionRound": false,
+  "status": "materials-produced-and-preview-checked",
+  "previewUrl": "http://127.0.0.1:5175/content/v1/index.html",
+  "files": {
+    "fishCards": 30,
+    "transparentIllustrations": 32,
+    "environmentImages": 4,
+    "editableGuides": 7,
+    "actualAudioClips": 128,
+    "sources": 38,
+    "checkedClaims": 102,
+    "excludedHistoricalClaims": 1
+  },
+  "checks": {
+    "contentFiles": "verification-v1.json",
+    "browser": "browser-verification-v1.json",
+    "affectedCatalogTests": "No game code changed this batch; no game tests rerun.",
+    "fullGameTestsRun": false,
+    "productionBuildRun": false,
+    "physicalIPadTested": false
+  },
+  "audioRights": "Microsoft Huihui Desktop system voice; actual local preview files; redistribution terms not verified",
+  "gameIntegration": "Standalone material preview; existing 3D scenes not replaced; legacy puffer gas-sac claim corrected in src/catalog/species.ts",
+  "futureScope": "Remaining 22 of the 52 candidates are research candidates; new game fish, GLB, editor structures and full 3D scenery are separate work.",
+  "revision": 2
+}

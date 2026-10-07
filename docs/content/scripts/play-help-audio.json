@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-07",
+  "scope": "UI instructions; separate from species facts. Tap, replay, stop; automatic catch voice follows sound preference.",
+  "records": [
+    {
+      "id": "VO-HELP-SHAPE",
+      "text": "点鱼旁边的部件，再挑一个。你的笔迹还会留着。"
+    },
+    {
+      "id": "VO-HELP-COLORS",
+      "text": "先选身体、尾巴或鳍，再点一种颜色。也可以试试不同花纹。"
+    },
+    {
+      "id": "VO-HELP-BRUSH",
+      "text": "选画笔和颜色，用手指在鱼身上画。点弯箭头，可以撤销。"
+    },
+    {
+      "id": "VO-HELP-TRIAL",
+      "text": "看看你造的鱼怎么游。随时回去改，也可以直接入海。"
+    },
+    {
+      "id": "VO-HELP-SAVE",
+      "text": "给小伙伴起个名字，再点入海。改旧鱼时，更新会保留原来的位置，另存会多出一条鱼。"
+    },
+    {
+      "id": "VO-HELP-CAST",
+      "text": "先选鱼饵，再点近处、中段或远处，把鱼饵抛过去。"
+    },
+    {
+      "id": "VO-HELP-BITE",
+      "text": "看浮漂。它沉下，出现咬钩了，就点提竿。轻轻动一下，先等等。"
+    },
+    {
+      "id": "VO-HELP-FIGHT",
+      "text": "鱼喘息时，按住中间的鼓轮收线。鱼冲刺或鱼线太紧时，松开手就放线。横游时，点另一边的箭头。"
+    },
+    {
+      "id": "VO-HELP-LAND",
+      "text": "鱼到岸边了，轻轻抄起。看看它，再把它放回大海。"
+    },
+    {
+      "id": "VO-HELP-CATCH",
+      "text": "钓到啦！看看这位鱼朋友，再轻轻把它放回大海。"
+    },
+    {
+      "id": "VO-HELP-SHRIMP",
+      "text": "虾型饵，在游戏里更容易遇到喜欢虾型饵的鱼。换一种饵，机会就会变。"
+    },
+    {
+      "id": "VO-HELP-ALGAE",
+      "text": "藻食型饵，在游戏里更偏向藻食鱼。每种饵都有机会，不保证钓到哪一种。"
+    },
+    {
+      "id": "VO-HELP-LURE",
+      "text": "拟饵是假鱼饵。游戏里，它更偏向喜欢拟饵的鱼，不一定钓到大鱼。"
+    }
+  ]
+}

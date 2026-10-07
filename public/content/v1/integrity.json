@@ -1,0 +1,880 @@
+{
+  "date": "2026-10-06",
+  "files": [
+    {
+      "path": "public/content/v1/audio/vo-ah-intro.wav",
+      "bytes": 248698,
+      "sha256": "6e4edf6146eb92a8dc28d839b34e58dd0f8a4f13fb1bd529d36914251fb4edfb"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ah-mouth.wav",
+      "bytes": 163380,
+      "sha256": "bee87d9a1440d8c789d3b1270d4261594eb76efde86210eb4e9e8c1230c5f089"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ah-pattern.wav",
+      "bytes": 232440,
+      "sha256": "c2e6279636a2f29ea4d41faacc829a49c3f521ffb2fa23828d7cc34e945025cc"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ah-rings.wav",
+      "bytes": 239448,
+      "sha256": "88755ea23d922455b0e383cb4f6c092797eaec2da80ef5e4589472dc06e38e1e"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ao-bands.wav",
+      "bytes": 279986,
+      "sha256": "7b1ef24528d5d9f65f40783e3c59dc2b1066cb453da0a552801cf90018846f58"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ao-fins.wav",
+      "bytes": 176842,
+      "sha256": "e8cdd11bff4c2d9f446cbbbd47ef1c2d3cd909e7ef1ed81d0f627153eb2408b3"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ao-home.wav",
+      "bytes": 256864,
+      "sha256": "47dccdf37a28fc9edaa72250cef1ce80fc48bda2d6035b988e4603e1fe38de9e"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ao-intro.wav",
+      "bytes": 224096,
+      "sha256": "7be7ec88fe1a968196f1d3c7c8b5d5bb57d63045a5a4f499b1b875f598fdb461"
+    },
+    {
+      "path": "public/content/v1/audio/vo-as-fin.wav",
+      "bytes": 220170,
+      "sha256": "cb4144cd7d36c231cba638583f491b9e58b0568720a073d97fb2e49f3c55cf00"
+    },
+    {
+      "path": "public/content/v1/audio/vo-as-home.wav",
+      "bytes": 186668,
+      "sha256": "9e7db3133eee3232bf8e95dbd702a604e3ced70260d2537b6733e79302a7c5df"
+    },
+    {
+      "path": "public/content/v1/audio/vo-as-intro.wav",
+      "bytes": 236122,
+      "sha256": "8423b8e381cd1513293f8f0a6f09da8881a104fb4755186444cd577d6b50ed33"
+    },
+    {
+      "path": "public/content/v1/audio/vo-as-tail.wav",
+      "bytes": 159320,
+      "sha256": "31af431adb80ec742dba425e8c2f78018bd6cd3688f115bd8a063019c9e4277a"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ca-bands.wav",
+      "bytes": 224426,
+      "sha256": "2601cf4092b28cd960004892c2d696a20a4d4311b66703b8874c9f02e75b9380"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ca-dots.wav",
+      "bytes": 205312,
+      "sha256": "c10809aba33bb57a6c65c942f7851ca3fc8e22f1db34d9d33cedc3e4725e8e98"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ca-intro.wav",
+      "bytes": 202698,
+      "sha256": "caa998fb29e2e1fa8740b2b7a8638e2e622ef13066a6285f1e7f1ae24b1705c3"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ca-spot.wav",
+      "bytes": 184612,
+      "sha256": "3e171c71e9303b5404a440a3cc6dc2661f4cf28b61702ea4b90eb8114f928a1c"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ci-body.wav",
+      "bytes": 148126,
+      "sha256": "afbe30e70900fa3c78dfa1cce9a5f1f9b9b0f5c74f291abebc084c1d4102272a"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ci-color.wav",
+      "bytes": 200712,
+      "sha256": "68c5b210635762edc2f5d36ab8732670e31e9018e3d40a4d62fe8b6496e7d8cd"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ci-intro.wav",
+      "bytes": 212880,
+      "sha256": "fd1e2788eae3d5350d29e9cf742f2475d20aaaf02589ba6f3a8b2931cabcaf46"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ci-scales.wav",
+      "bytes": 259292,
+      "sha256": "fe276e656b572f79d9e295b168c6c2f764dac444507869756a7b8264f87a04b7"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ec-bands.wav",
+      "bytes": 182824,
+      "sha256": "6b385cab66ea0418392c3cdd79b41dcd97a052fd84542498f9690f93b38bcf5b"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ec-dots.wav",
+      "bytes": 174352,
+      "sha256": "35235ed8c3233f970be7b768fd9d6daeee555287acf376f7898dcabe58431666"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ec-intro.wav",
+      "bytes": 233714,
+      "sha256": "df55d741be8840a98a2022aec5c13b37c0c0adc8dab1db673a6e06df37054f2e"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ec-young.wav",
+      "bytes": 139770,
+      "sha256": "08a47b1bd960d89d239291fb1507271e02f210454a10cf3b314b73030927daff"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ef-intro.wav",
+      "bytes": 232050,
+      "sha256": "0837b15b79298cfff06db0da4be9af50b15e0b56de3abe9b1e1cb6dcb2158d78"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ef-pattern.wav",
+      "bytes": 215596,
+      "sha256": "e5c8761721e75298bad65ae0c8dade50b64a7fd653d48545bbf7706b742a0eda"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ef-spot.wav",
+      "bytes": 201290,
+      "sha256": "10d420380508ef71f13fed7779c30cbccb4a1b32a3c43035414bfbe7d1c2c925"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ef-young.wav",
+      "bytes": 202628,
+      "sha256": "1dcf9ed17ff7bf1f63704f7669fe38d2e524dac8b0d8bb26f643da918ae6034b"
+    },
+    {
+      "path": "public/content/v1/audio/vo-el-color.wav",
+      "bytes": 236658,
+      "sha256": "e7a2eae2d432e56c102e917bcd07f2a678004b6af71415bfce7ec32ef50ee62e"
+    },
+    {
+      "path": "public/content/v1/audio/vo-el-fins.wav",
+      "bytes": 187964,
+      "sha256": "eac5b0cf9e4e63bbdcf7bffd196933cb690bdb57f5293927f6ce96f98f91651a"
+    },
+    {
+      "path": "public/content/v1/audio/vo-el-intro.wav",
+      "bytes": 194924,
+      "sha256": "4c9d4aaf13431dd9edfe4122a614ad6efbdce9720809e775aba64c6121903641"
+    },
+    {
+      "path": "public/content/v1/audio/vo-el-mouth.wav",
+      "bytes": 123792,
+      "sha256": "2e27bbba05be72d8b7916a585e4f68d0ef55c8f4bd80094c1224ce85615cadbe"
+    },
+    {
+      "path": "public/content/v1/audio/vo-em-body.wav",
+      "bytes": 218300,
+      "sha256": "1055be3609ff4539896163593f4871b320a443e0f6a6fafdc35f6ce59648f815"
+    },
+    {
+      "path": "public/content/v1/audio/vo-em-intro.wav",
+      "bytes": 217560,
+      "sha256": "3dd8ca9b94b5614e165cf9e1b31b17d62189705e93fd6c3f0720b3d953a377f9"
+    },
+    {
+      "path": "public/content/v1/audio/vo-em-pattern.wav",
+      "bytes": 221614,
+      "sha256": "2c9a7d18f331a02932d511157db42864155b3d8aada174da9fd68d107030c6b9"
+    },
+    {
+      "path": "public/content/v1/audio/vo-em-tail.wav",
+      "bytes": 149810,
+      "sha256": "0c684ee89e40375b1756cb76f7100b33498bb0bde1991380d00d79c41c0a2bd9"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ff-intro.wav",
+      "bytes": 206262,
+      "sha256": "9a694390e3184ffecf3a7d59a6208e3cbbc0501f4e2da6a08830b340287207d9"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ff-mouth.wav",
+      "bytes": 200664,
+      "sha256": "0f18e0b8a24a447af2aa26a8c10b772d462dd202bfaa76ec6c78808cfeb5d40b"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ff-pair.wav",
+      "bytes": 240410,
+      "sha256": "b736c59c6769c10f930ad8531661ed9ddd80eb3c2120a4e9beb11b5c282c4622"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ff-spot.wav",
+      "bytes": 244630,
+      "sha256": "a53e1407ee2b14c042160c0cc924e24f9e91b573433de6fc05925807633c85e3"
+    },
+    {
+      "path": "public/content/v1/audio/vo-gm-body.wav",
+      "bytes": 217862,
+      "sha256": "d9f9eef6ead6e0d9af364646ae51d66f092f91b709dd8a63ce4effa6b1dae7a5"
+    },
+    {
+      "path": "public/content/v1/audio/vo-gm-intro.wav",
+      "bytes": 298274,
+      "sha256": "4367aefd3ef593e377f00e43929e60040ec0983094ba5f64daf2f6ca2d468b1b"
+    },
+    {
+      "path": "public/content/v1/audio/vo-gm-mouth.wav",
+      "bytes": 200264,
+      "sha256": "4128710de3c65797ea79d370689b0d2e737a5f2215a280509f328063ba382879"
+    },
+    {
+      "path": "public/content/v1/audio/vo-gm-pattern.wav",
+      "bytes": 222530,
+      "sha256": "86795f458f34a38df54ec0d1eabe5d86e65760ebff9b399e5a96d5d27e17e11b"
+    },
+    {
+      "path": "public/content/v1/audio/vo-gp-dots.wav",
+      "bytes": 178408,
+      "sha256": "160768d4e65bc607776726cd7f13454ba41713ef9116f1d27275e7b3a844ff99"
+    },
+    {
+      "path": "public/content/v1/audio/vo-gp-fin.wav",
+      "bytes": 200470,
+      "sha256": "6eac0e7c0473c8bfb62199a65c2528c7f6ea32eaa534a51718b4497e29cd1504"
+    },
+    {
+      "path": "public/content/v1/audio/vo-gp-food.wav",
+      "bytes": 195620,
+      "sha256": "7eb33f257f70ec49b8a021026c7d780ec1163228fd2d662c6da261d4a8ebc00e"
+    },
+    {
+      "path": "public/content/v1/audio/vo-gp-intro.wav",
+      "bytes": 235370,
+      "sha256": "491fb5570ed8fcfc573fb7d457802d8024b75eda24b6d16bc70f875b06c46e8c"
+    },
+    {
+      "path": "public/content/v1/audio/vo-hk-baby.wav",
+      "bytes": 214274,
+      "sha256": "d5f4f4dcc2294dfda249b050ac22d2696548b78be30f763d58da9fb6a27b1a43"
+    },
+    {
+      "path": "public/content/v1/audio/vo-hk-home.wav",
+      "bytes": 251506,
+      "sha256": "e1eb7399070180d5ac737d37892ee6079c0a89b50b88f15d2435e8b43e7eb2bb"
+    },
+    {
+      "path": "public/content/v1/audio/vo-hk-intro.wav",
+      "bytes": 205110,
+      "sha256": "ba6e61b52d290218a93e33a85026de44ac73763e2466bde65d5c8981bd7f941b"
+    },
+    {
+      "path": "public/content/v1/audio/vo-hk-tail.wav",
+      "bytes": 179012,
+      "sha256": "8609e571afb232b757823d2d65d76b8409be246638ac7352bc2eb51e0255da32"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ho-body.wav",
+      "bytes": 201054,
+      "sha256": "fa7411d446e2b8700e58861144a05b7a51be2b7691f36b373597638e3385a0cf"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ho-eggs.wav",
+      "bytes": 229880,
+      "sha256": "f76bacb1f790c19767cbff371b9f40ef0ddaf72bf4502b22ee71dc0e06b1ac48"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ho-home.wav",
+      "bytes": 144452,
+      "sha256": "ddd532a0169a9d5e00181b63759ed31ee690e699e2017ea22da44af180dfe706"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ho-intro.wav",
+      "bytes": 193610,
+      "sha256": "c6a205cf16b991520af8b707e9a76245ec81df0da3a7d0eb966b6b2c66e21daa"
+    },
+    {
+      "path": "public/content/v1/audio/vo-lc-home.wav",
+      "bytes": 187494,
+      "sha256": "b51b871a3cee7c52f60c9e5bb356701cbfb8c74aa66a51c07620eec863606109"
+    },
+    {
+      "path": "public/content/v1/audio/vo-lc-intro.wav",
+      "bytes": 198678,
+      "sha256": "b0472fd6c9e745c986c65bd44389ae1d4273f43175bc52c915d6837eb2129553"
+    },
+    {
+      "path": "public/content/v1/audio/vo-lc-mouth.wav",
+      "bytes": 202580,
+      "sha256": "c0db158b5272c3dcb2c735039c1d79661e9eecde1faa7e9f30c077031c26a392"
+    },
+    {
+      "path": "public/content/v1/audio/vo-lc-tail.wav",
+      "bytes": 184204,
+      "sha256": "3f327bf383473ef86df5635a6f4e2a019810a87425d27d91c3a8484457c56e27"
+    },
+    {
+      "path": "public/content/v1/audio/vo-mb-fins.wav",
+      "bytes": 188116,
+      "sha256": "8f1dd4bf84934722c0d4718c3ed70bbee296827432529eb5bda4418c4960d94e"
+    },
+    {
+      "path": "public/content/v1/audio/vo-mb-food.wav",
+      "bytes": 210686,
+      "sha256": "a7314f95a85dd50b569a6ca1f8485d0af865df71985bdb8c93f329a7f41122c9"
+    },
+    {
+      "path": "public/content/v1/audio/vo-mb-intro.wav",
+      "bytes": 213954,
+      "sha256": "a64be546e682b57dcc733d2979398581d69f6bbdba1232043a18f3fa5d94dfbd"
+    },
+    {
+      "path": "public/content/v1/audio/vo-mb-mouth.wav",
+      "bytes": 218928,
+      "sha256": "3be5a1f0f78285dd464a2e3c31bdd8d11cd90e666b8776e40f4731656d6cc7b8"
+    },
+    {
+      "path": "public/content/v1/audio/vo-oc-body.wav",
+      "bytes": 145364,
+      "sha256": "3be678267734508d34865d7c77d9192caa072075d5650e0adf7ee3f452640891"
+    },
+    {
+      "path": "public/content/v1/audio/vo-oc-dots.wav",
+      "bytes": 193842,
+      "sha256": "70138d58fa01b4517d9154fac824f4e6da344fae72fca21b76fe84921e7344b0"
+    },
+    {
+      "path": "public/content/v1/audio/vo-oc-grow.wav",
+      "bytes": 220382,
+      "sha256": "c6a155ad688f564b2b93f90a2ade8e053a2b50f230de8ee9da6752d13ee4db1e"
+    },
+    {
+      "path": "public/content/v1/audio/vo-oc-intro.wav",
+      "bytes": 227904,
+      "sha256": "4230ae955652099a2fc0eb07f51e9758cf999f06bce8a3b9532509985d0f5332"
+    },
+    {
+      "path": "public/content/v1/audio/vo-of-bands.wav",
+      "bytes": 215152,
+      "sha256": "77bd6782c30a3bab3aa364bcf29123cfae31f9af56fcf34fe1a2a0273e8eaa3d"
+    },
+    {
+      "path": "public/content/v1/audio/vo-of-intro.wav",
+      "bytes": 215504,
+      "sha256": "37d61add1ab2e70d8cf0101326db76307fff1dc1ff5c281ede135321f18bc4ff"
+    },
+    {
+      "path": "public/content/v1/audio/vo-of-mouth.wav",
+      "bytes": 246530,
+      "sha256": "b26308e1c5f6e036736fcbfe2cc54c57637ef7c8fb85f7ce5148ac5d801b2d61"
+    },
+    {
+      "path": "public/content/v1/audio/vo-of-young.wav",
+      "bytes": 187010,
+      "sha256": "d4fa7fea2fb9ae9e8c6d286743d04dfc5a8f29e19ea2ec0da3d68c996291d3fd"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ph-body.wav",
+      "bytes": 204148,
+      "sha256": "96cbe7c10060557ef5a783e573d9d7c40d552f3f97fabbaea8325984d6b21761"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ph-food.wav",
+      "bytes": 179208,
+      "sha256": "85c2165111c3e0bbf5bcf9fd50b7a99689b49583f0d9a3f9df2142c6d08acec5"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ph-intro.wav",
+      "bytes": 233072,
+      "sha256": "f50ddbdc88e4c97beb325ec783c1ab594a9202da4b7e3cffbe6e1d4abef0ef71"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ph-tail.wav",
+      "bytes": 229430,
+      "sha256": "8856c81184c50c30b080c1e3ce7a9f2a2bfed3ddaf080ec363a468e48ee38b7a"
+    },
+    {
+      "path": "public/content/v1/audio/vo-pi-bands.wav",
+      "bytes": 205216,
+      "sha256": "3325c3a6d8e020c8d7edceffdb97bb1f0a42a4d7c0bd974f86f314c16657a223"
+    },
+    {
+      "path": "public/content/v1/audio/vo-pi-intro.wav",
+      "bytes": 214058,
+      "sha256": "6b760440381446b9b74cf94d5a6572b0adbda31940c7f848e104052d50a3c958"
+    },
+    {
+      "path": "public/content/v1/audio/vo-pi-spot.wav",
+      "bytes": 203150,
+      "sha256": "4b369f20c078c2de80543a4351a17df8bdcd23f12c88eea30d43304dd094b93f"
+    },
+    {
+      "path": "public/content/v1/audio/vo-pi-young.wav",
+      "bytes": 205326,
+      "sha256": "a250df76844263a7257d9627762e67fab2c5e001317e104136138e6921236935"
+    },
+    {
+      "path": "public/content/v1/audio/vo-pl-color.wav",
+      "bytes": 146332,
+      "sha256": "9d61abb17aee90694f76a930e995da7bcc5bba65d3d67cbdd14f4b9c41727222"
+    },
+    {
+      "path": "public/content/v1/audio/vo-pl-dots.wav",
+      "bytes": 202500,
+      "sha256": "8a4b75030ab2d258278d3efd2f46915b405b2b314d8334f88e29e137160f36b4"
+    },
+    {
+      "path": "public/content/v1/audio/vo-pl-intro.wav",
+      "bytes": 261700,
+      "sha256": "ec014eb96c8eafd6646ed351844eaccf3f433fd982ded78eb713612dc560863c"
+    },
+    {
+      "path": "public/content/v1/audio/vo-pl-tail.wav",
+      "bytes": 215700,
+      "sha256": "f6c9a2d6b42ba110433cb986153d4b2034e86c4af41af5f748d4917c8546bb72"
+    },
+    {
+      "path": "public/content/v1/audio/vo-rf-coral.wav",
+      "bytes": 118068,
+      "sha256": "480d62622f0399364218bf64e29a22d7a019b5d5ee0f1b7f88f4f4ebd6cf51c5"
+    },
+    {
+      "path": "public/content/v1/audio/vo-rm-intro.wav",
+      "bytes": 243192,
+      "sha256": "efe276501e9445d619a258ffe63bcb220ee676259b02643b8ac85f04a53a5822"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sb-body.wav",
+      "bytes": 173672,
+      "sha256": "fb1da8b1fd99a8db9f867be04fef214c7a40e4ff79b69098126c5d6b1a659f31"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sb-fins.wav",
+      "bytes": 190080,
+      "sha256": "e56789a4d1ef161e370f52ffd974fd1b84a9854c3f3cafeb555fc8d081233c42"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sb-intro.wav",
+      "bytes": 183036,
+      "sha256": "af7ccf0aae509b048feb6cfeb6cf07f9ac6d8cb5e04bb4c113c7b268f11f00df"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sb-spot.wav",
+      "bytes": 187258,
+      "sha256": "94913e4b966b24962aad88bd70a32a57f2bde3fb4b49e46cb6404be878743acf"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sc-bands.wav",
+      "bytes": 190042,
+      "sha256": "730b30c417a76c7fca58664a50f4104b09cb2678db2bf0e8206892cea318c6a2"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sc-color.wav",
+      "bytes": 204958,
+      "sha256": "9dd2829571cd088a6e18aa451517f3ff03af6d4f05da6e772829e9ca03cc5cd3"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sc-intro.wav",
+      "bytes": 206940,
+      "sha256": "7ec9e9b40b54cc2b74f42c0794546f2c477c100905e92b28fce9d45e3ab26544"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sc-young.wav",
+      "bytes": 198736,
+      "sha256": "5da14b3c86940317a4563fec53a1c823267f54f528fb0cfba24d9a7f7db1732c"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sg-color.wav",
+      "bytes": 211500,
+      "sha256": "22d3908f04728b604d2134f20b2da61e9af588128b01cb12069f618989a7f453"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sg-food.wav",
+      "bytes": 128740,
+      "sha256": "0b62b9fc61249d14b4742bd599e95272558ed63d3d3063448b8c86144e02e2a6"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sg-intro.wav",
+      "bytes": 212396,
+      "sha256": "3d765885dc5d39194e26e19c4ea0f6de9e6c9219d837f895a9f5dfc6ec670ba4"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sg-mouth.wav",
+      "bytes": 163518,
+      "sha256": "ce725ee428f17dc21b4bc10be14608f7a22f8bdb9e85ae429f430e48fc9a1ea4"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sm-color.wav",
+      "bytes": 251370,
+      "sha256": "4a4a8da33cf0416e96fdc2a6c8941f8ba986c835fbe7dae378083205141a9942"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sm-food.wav",
+      "bytes": 184820,
+      "sha256": "44d06e4ac8a741db9ffc71c6d7c61838480dca91573e1367d49c3de072e10955"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sm-home.wav",
+      "bytes": 180598,
+      "sha256": "7b929367f59a99c9b3da43811b7ae72daf741750c5c67c04c1613a3166ddccdb"
+    },
+    {
+      "path": "public/content/v1/audio/vo-sm-intro.wav",
+      "bytes": 263256,
+      "sha256": "14ed13c39535bcccfe60a3a3cd1d0f9863ac6cc606175cd85933323d2b5913cf"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ss-baby.wav",
+      "bytes": 217380,
+      "sha256": "a2d25b9dc23c9a351f32cde0e6b35ac91609346f1a1620518429b5807c96c3d3"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ss-home.wav",
+      "bytes": 170128,
+      "sha256": "440bd861e271fd99c4b6088a9b2c297fbcf1e83b438dc699e7fb1d336df684bb"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ss-intro.wav",
+      "bytes": 204978,
+      "sha256": "90a36268d0898078b16ff5e4d94877492ecc81942c3ec42bbe84131143f8192d"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ss-young.wav",
+      "bytes": 257628,
+      "sha256": "2956601e44b4b7535f779831aeba32a871dfc88c6c9dd92ffdd257418f2fe32c"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ta-body.wav",
+      "bytes": 172428,
+      "sha256": "c98eda105cde08084288c605b00414fd89e6af976964a5a2ce27a1a03df478d5"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ta-color.wav",
+      "bytes": 181304,
+      "sha256": "89d4af6381eb89114b20f70e39b18565cfbd13187b4b6b6e43fe44227a195cb7"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ta-fins.wav",
+      "bytes": 260766,
+      "sha256": "32051af330bd17c4f28aedf4d469b5045bf004fcd05bebdec7045101960d49d4"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ta-intro.wav",
+      "bytes": 225714,
+      "sha256": "a905407d2ba24a2d9abaedb147ff9b9bc9ac7ad364c96a9d100fffa354621a49"
+    },
+    {
+      "path": "public/content/v1/audio/vo-tl-body.wav",
+      "bytes": 159098,
+      "sha256": "a4752ebb197540210060bfb6b36cd9a553a4cab0a38e7b6b47c785756845afbe"
+    },
+    {
+      "path": "public/content/v1/audio/vo-tl-fin.wav",
+      "bytes": 210602,
+      "sha256": "3233ebfe5c283693d1a433d679ddacb54a7acf61fde6e7b363bb4febc6c624a1"
+    },
+    {
+      "path": "public/content/v1/audio/vo-tl-intro.wav",
+      "bytes": 226352,
+      "sha256": "e8caaed8ba9ac4c6cb04ba78fb04c141b74e00b6b95df08bf1155f890c3a6dfb"
+    },
+    {
+      "path": "public/content/v1/audio/vo-tl-tail.wav",
+      "bytes": 230342,
+      "sha256": "414a682d0071f1ec587791ffd8e042a22edc7faf0626ec0ea54e68665ef2b4c4"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ui-again.wav",
+      "bytes": 90272,
+      "sha256": "83c5a441be57643917b5d8fd68fcc3ff5940044cda09c4ca3951b4b0160deea1"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ui-caught.wav",
+      "bytes": 80516,
+      "sha256": "45f0585591b3aaa3e49c1b238ab9740bd93e576cc1c94ff3ccb3cb17361f0801"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ui-draw.wav",
+      "bytes": 122554,
+      "sha256": "d52f6858716ba4ef177f504a99cc9d8a2f1406afaebe2d362ef3bdb302619dbc"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ui-look.wav",
+      "bytes": 120122,
+      "sha256": "8e0401a142a04a27b21136c81661201ade8546ad7d25f9e86ac3ce985a125dca"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ui-ocean.wav",
+      "bytes": 155362,
+      "sha256": "71729c6b7b877340743d3a91645135832f48cf5616284b3eb4abe000a9433241"
+    },
+    {
+      "path": "public/content/v1/audio/vo-ui-saved.wav",
+      "bytes": 94622,
+      "sha256": "543cd76297497ab6765ac31026e8b782ec45cdb1babd0d34a69f0fb23b8dbfc5"
+    },
+    {
+      "path": "public/content/v1/audio/vo-zc-bands.wav",
+      "bytes": 181182,
+      "sha256": "62e1a7cbd0b9050a0da8dcfe4a847acb6458a7faa9313d53a9afd8ebcc8f1f52"
+    },
+    {
+      "path": "public/content/v1/audio/vo-zc-fin.wav",
+      "bytes": 213560,
+      "sha256": "119b2369a49e998b63cab973a88404b3dcc6d06bbcff32946548d1e8c6143ca8"
+    },
+    {
+      "path": "public/content/v1/audio/vo-zc-intro.wav",
+      "bytes": 240968,
+      "sha256": "35944f1fb14e0ef4f411b6e0808b5123df79a08f53919d74dc7ea2df58774084"
+    },
+    {
+      "path": "public/content/v1/audio/vo-zc-nose.wav",
+      "bytes": 219202,
+      "sha256": "61353b75253d0f3c67e49419a0c75dd0be9e13dcdb484cf454b39ed8ec8a4c7a"
+    },
+    {
+      "path": "public/content/v1/audio/vo-zf-food.wav",
+      "bytes": 118820,
+      "sha256": "bdfe81f460c3000b680d7d75824867a8e8a484b1b6599a8dc6b8688164160635"
+    },
+    {
+      "path": "public/content/v1/audio/vo-zf-intro.wav",
+      "bytes": 221010,
+      "sha256": "6780bce4708950fb98b662c2b21976de4a4873c52a283d0d3b6698ad2eebbb84"
+    },
+    {
+      "path": "public/content/v1/audio/vo-zf-night.wav",
+      "bytes": 312104,
+      "sha256": "25cebcce1a0ab3b35cb42cea7fa9db8aea6082b6f3f335b1f77b773be4d3bc9b"
+    },
+    {
+      "path": "public/content/v1/audio/vo-zf-tail.wav",
+      "bytes": 248322,
+      "sha256": "8ce0fb774e6c0cf9a376c70fa9c78c29b00dbdb74dbfcb4f5ad7f6b02e51639e"
+    },
+    {
+      "path": "public/content/v1/data.json",
+      "bytes": 198918,
+      "sha256": "775d7472989b5d7587cc36300eef05a43f3f4db898ace82f38bf400f39904bb6"
+    },
+    {
+      "path": "public/content/v1/environments/ocean-arrival.webp",
+      "bytes": 287152,
+      "sha256": "3c12fb152f45b56362fd970b8869083b736db47ba09975d50be3d82fe3064f6e"
+    },
+    {
+      "path": "public/content/v1/environments/ocean-close.webp",
+      "bytes": 228968,
+      "sha256": "f75089e65fb3ac57fbdb7e007cf5c3afc22f3d27a982f0ef1bbd5a5b7cdb17da"
+    },
+    {
+      "path": "public/content/v1/environments/reef-panorama.webp",
+      "bytes": 281122,
+      "sha256": "7de371bba9c68bbec3e64830dcb5583099fa85af96efd89e355af4d366f38dd2"
+    },
+    {
+      "path": "public/content/v1/environments/rock-panorama.webp",
+      "bytes": 397950,
+      "sha256": "7370fd9b2652fa9a7c5ba3d4e35fc0fbb437913693508e98d7ffb1cf58602ef0"
+    },
+    {
+      "path": "public/content/v1/guides/clown-bands.svg",
+      "bytes": 201864,
+      "sha256": "67d2d77e43f943063ddde0ea9de9fe515b03aff19d81da26b023affbeff1c575"
+    },
+    {
+      "path": "public/content/v1/guides/forceps-mouth.svg",
+      "bytes": 217949,
+      "sha256": "71ac57a7b4d3f6235158493720cfa9957fd2c4774a079ba0afffb19d5957cfb5"
+    },
+    {
+      "path": "public/content/v1/guides/grouper-families.svg",
+      "bytes": 1514048,
+      "sha256": "5c7a3aebd96e8ed1be428a3d25b56f1b8b0cedada58a7e0f2a8b007dec1205a6"
+    },
+    {
+      "path": "public/content/v1/guides/host-partners.svg",
+      "bytes": 617892,
+      "sha256": "a47c7f7193c3be76edccc18060a08272e86539e9264cd3a98094ef627ff38009"
+    },
+    {
+      "path": "public/content/v1/guides/puffer-pattern.svg",
+      "bytes": 205802,
+      "sha256": "07ff51fbc20bfdd362e9f80875bd8a2a4f7757cd04125fc023fad034a6aa90ed"
+    },
+    {
+      "path": "public/content/v1/guides/real-and-imagined.svg",
+      "bytes": 458597,
+      "sha256": "db9cda8a877228808af09078125225fd481a553934fb89965dbf71575d171e96"
+    },
+    {
+      "path": "public/content/v1/guides/shape-inspiration.svg",
+      "bytes": 621443,
+      "sha256": "aab2c8db30cdca099ba3f4f717bf074bca473adb90f82f41b2f87baee77f8bb6"
+    },
+    {
+      "path": "public/content/v1/illustrations/acanthopagrus-schlegelii.webp",
+      "bytes": 223030,
+      "sha256": "513396a5106cc7612b5b37fdc0e828e6e27d0fe1cdc4504d6cf4859c7917580c"
+    },
+    {
+      "path": "public/content/v1/illustrations/amphiprion-ocellaris.webp",
+      "bytes": 149998,
+      "sha256": "86f18a382d88f1d3f69df621b7a33999d0f6274860f666a1064308b2a196795d"
+    },
+    {
+      "path": "public/content/v1/illustrations/arothron-hispidus.webp",
+      "bytes": 152924,
+      "sha256": "43a34dc899482ad1c62e26ced4c6146bded48daa8be3db8714c743688e2e8fd2"
+    },
+    {
+      "path": "public/content/v1/illustrations/caranx-ignobilis.webp",
+      "bytes": 173880,
+      "sha256": "e73246db38558b1c3cab814b74d69a8b4ea4041259ac0f1db96f4ef41fd2e9de"
+    },
+    {
+      "path": "public/content/v1/illustrations/cephalopholis-argus.webp",
+      "bytes": 187708,
+      "sha256": "0174470bdffffc2d4c2948ba969cabbb538bf4c91aa03e699dfebab771473493"
+    },
+    {
+      "path": "public/content/v1/illustrations/epinephelus-coioides.webp",
+      "bytes": 186444,
+      "sha256": "a63a50269f8fb88f570a74e4720eed0633f98febaaeab62f9d64fe3e43ccf26d"
+    },
+    {
+      "path": "public/content/v1/illustrations/epinephelus-fuscoguttatus.webp",
+      "bytes": 204790,
+      "sha256": "7ebe1dc8083ae179f6470e3af5c165b4cb3c5841894f2b42e3bd6087c3e52bc5"
+    },
+    {
+      "path": "public/content/v1/illustrations/epinephelus-lanceolatus.webp",
+      "bytes": 193614,
+      "sha256": "1dc051c85fccbf9f7fa96d1eb341db2828198127fe56cdc24589ebfa1f1d7a5f"
+    },
+    {
+      "path": "public/content/v1/illustrations/epinephelus-merra.webp",
+      "bytes": 203706,
+      "sha256": "0ce5dd00c05e8314da4beed9ddcfe3aa78df82df159afed1a40569facb758074"
+    },
+    {
+      "path": "public/content/v1/illustrations/fantasy-bubble-star.webp",
+      "bytes": 192946,
+      "sha256": "9ea21112e0e52ffb7b882ed286a0ca93d0b32426afb6cabb92433e92afebecf4"
+    },
+    {
+      "path": "public/content/v1/illustrations/forcipiger-flavissimus.webp",
+      "bytes": 162074,
+      "sha256": "c97bdd933431b7f1d6dd03f3ff9b97d7815ca48fb35ca36fb1078b87f837414c"
+    },
+    {
+      "path": "public/content/v1/illustrations/gadus-morhua.webp",
+      "bytes": 146552,
+      "sha256": "3222868d7379d720b7340b2db54444d129e4c375314c78c466b94b504a52173a"
+    },
+    {
+      "path": "public/content/v1/illustrations/girella-punctata.webp",
+      "bytes": 207204,
+      "sha256": "64195dc31455f3e1912fbd536ec3ef869d9eae423e49d784097f144a049bcf82"
+    },
+    {
+      "path": "public/content/v1/illustrations/hexagrammos-otakii.webp",
+      "bytes": 157498,
+      "sha256": "22bf298ced8a36dadc2907e069ce762fb8a95cf6c82e0241a46816de6db15dfa"
+    },
+    {
+      "path": "public/content/v1/illustrations/hippocampus-kuda.webp",
+      "bytes": 209772,
+      "sha256": "28a233e40c1275be2016c3f4dc0684c3d1e769911f302f8df8001e367fa137fb"
+    },
+    {
+      "path": "public/content/v1/illustrations/lates-calcarifer.webp",
+      "bytes": 185082,
+      "sha256": "fee1e49b1786617d17778f9de10bb19ed8ad0bd0d89cd4cf58a7d88070f24e12"
+    },
+    {
+      "path": "public/content/v1/illustrations/mobula-birostris.webp",
+      "bytes": 100906,
+      "sha256": "f0af57a9b1b9a009591d9ca464cbc4f938bfe88b54c3fefaba08e76b1290dcaa"
+    },
+    {
+      "path": "public/content/v1/illustrations/oplegnathus-fasciatus.webp",
+      "bytes": 222832,
+      "sha256": "bd7188dcd745b0fffb5638c67cb8b88b216e91b55944ffac98c90c7724b3be5b"
+    },
+    {
+      "path": "public/content/v1/illustrations/ostracion-cubicus.webp",
+      "bytes": 159444,
+      "sha256": "a0becff40aa098b8fcede2cee65ae5fdd48ffd80e0a656da690de562a3ce2800"
+    },
+    {
+      "path": "public/content/v1/illustrations/paracanthurus-hepatus.webp",
+      "bytes": 193384,
+      "sha256": "df1b23c7b4cc1dc022838c461c5581c167dc2b4f0674486754860ca3349fe9ac"
+    },
+    {
+      "path": "public/content/v1/illustrations/plectropomus-leopardus.webp",
+      "bytes": 157026,
+      "sha256": "9b0908420e1182ab7003cc775148485a73284d7dbb50fe253e9518d052db305d"
+    },
+    {
+      "path": "public/content/v1/illustrations/pomacanthus-imperator.webp",
+      "bytes": 253290,
+      "sha256": "93e9d563d6e510721b23b9c557807b33e1a28834844223703987c913b95275b8"
+    },
+    {
+      "path": "public/content/v1/illustrations/radianthus-magnifica.webp",
+      "bytes": 312414,
+      "sha256": "8c51b8821365384779afa22c8928a1aa1d4c10c2526f330213957d09498ec3fc"
+    },
+    {
+      "path": "public/content/v1/illustrations/scarus-ghobban.webp",
+      "bytes": 157158,
+      "sha256": "3968c969aa38999259c78d61d08cab4414db7022e6a4f2d291c9ee078bc9f3f0"
+    },
+    {
+      "path": "public/content/v1/illustrations/scomberomorus-commerson.webp",
+      "bytes": 115940,
+      "sha256": "4456cbb2474537cf1a0aaeb5ab4c01998674df730705b5e74163094ee0eb0350"
+    },
+    {
+      "path": "public/content/v1/illustrations/sebastes-schlegelii.webp",
+      "bytes": 214656,
+      "sha256": "0c23a993f10b79a264b4eb7ae62c2106bb887ab9cabf87ba5f6ebeab866d983a"
+    },
+    {
+      "path": "public/content/v1/illustrations/sebastiscus-marmoratus.webp",
+      "bytes": 234608,
+      "sha256": "dcb00e6c6df9ee7cd0e4a1b4df28ecf50a60d42763c64388a4f0a9e26f0b3c35"
+    },
+    {
+      "path": "public/content/v1/illustrations/sphyraena-barracuda.webp",
+      "bytes": 95974,
+      "sha256": "a234256eca8bcf6cef011bf2e1f5296ff47919369760aa59f9326aab55d19eec"
+    },
+    {
+      "path": "public/content/v1/illustrations/thunnus-albacares.webp",
+      "bytes": 161112,
+      "sha256": "6168926592c6778961f0f4d0a11955861123f4f3219958661cabb8fe1b873aa4"
+    },
+    {
+      "path": "public/content/v1/illustrations/trichiurus-lepturus.webp",
+      "bytes": 62760,
+      "sha256": "9cbd8e23ddcf1fbfb5efff2da4e9ef90fa50cd75e938eb9c571be0f04e34725c"
+    },
+    {
+      "path": "public/content/v1/illustrations/zanclus-cornutus.webp",
+      "bytes": 212892,
+      "sha256": "454fe673a992007c47784e477f6f2ab34db25ef8b77f08872076fea1d6b1781b"
+    },
+    {
+      "path": "public/content/v1/illustrations/zebrasoma-flavescens.webp",
+      "bytes": 143688,
+      "sha256": "98b027485e95333fa5f6a16b390fd3901c5d36357434d9b7d1b078d5f88105e4"
+    },
+    {
+      "path": "public/content/v1/index.html",
+      "bytes": 5212,
+      "sha256": "814952f82c5ad5b8d311af44b682a21fc9cfbf413e1e6a7d7286703949305a61"
+    },
+    {
+      "path": "public/content/v1/preview.css",
+      "bytes": 10552,
+      "sha256": "6758f16b741924c01befaa04c1753d2b022500b4469b3c6b358ba092bf2cff90"
+    },
+    {
+      "path": "public/content/v1/preview.js",
+      "bytes": 7445,
+      "sha256": "3ddd38f01ef114b6fbe5e51a63a49d376ba1ac66f9ca6ee95c9263a719ea29f2"
+    }
+  ]
+}

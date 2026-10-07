@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-06",
+  "browser": "Headless Edge desktop and tablet-size viewports; not physical iPad",
+  "checks": [
+    "30 selectable fish and image decoding",
+    "six grouper and four special-body filters",
+    "intro / point audio / stop / switching stops playback",
+    "two distinct scene images",
+    "arrival modal and close",
+    "parent source links",
+    "all visible image loads",
+    "no horizontal overflow at three sizes",
+    "no page errors or HTTP failures"
+  ],
+  "results": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "design/content/v1/qa/preview-1440x1000.png",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshot": "design/content/v1/qa/preview-1024x768.png",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "screenshot": "design/content/v1/qa/preview-768x1024.png",
+      "noHorizontalOverflow": true
+    }
+  ],
+  "errors": [],
+  "badResponses": []
+}

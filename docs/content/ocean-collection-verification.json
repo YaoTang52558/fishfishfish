@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-07",
+  "scope": "original-fish picture collection and larger ocean; isolated fixtures, desktop Edge; no physical iPad",
+  "checks": [
+    "30 saved designs rendered as static picture cards",
+    "hidden fish preserves actual paint and stamps",
+    "hidden temporary bitmaps released; only visible source layers retained",
+    "thumbnail selection and finding do not write storage",
+    "keyboard selection and reduced motion",
+    "hidden fish remains hidden until explicitly put back",
+    "show/hide retains fish and assets and releases old bitmaps",
+    "three responsive scene/card layouts; no horizontal overflow; touch buttons at least 44px",
+    "missing paint labelled; other cards remain readable",
+    "all owned ocean bitmaps released on route exit"
+  ],
+  "views": [
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "scene": "design/ocean-collection/scene-1024.png",
+      "collection": "design/ocean-collection/cards-1024.png"
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "scene": "design/ocean-collection/scene-768.png",
+      "collection": "design/ocean-collection/cards-768.png"
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scene": "design/ocean-collection/scene-390.png",
+      "collection": "design/ocean-collection/cards-390.png"
+    }
+  ],
+  "errors": []
+}
