@@ -8,12 +8,23 @@ export interface ObservationPoint {
   y: number | null;
   factIds: string[];
 }
+export type ObservationCategory = 'fish' | 'shrimp' | 'crab' | 'cephalopod' | 'gastropod' | 'bivalve' | 'other';
+export const observationCategories: { id: ObservationCategory | 'all'; label: string; icon: string }[] = [
+  { id: 'all', label: '全部', icon: '🌊' }, { id: 'fish', label: '鱼', icon: '🐟' },
+  { id: 'shrimp', label: '虾与龙虾', icon: '🦐' }, { id: 'crab', label: '蟹', icon: '🦀' },
+  { id: 'cephalopod', label: '鱿鱼与章鱼', icon: '🦑' }, { id: 'gastropod', label: '螺与鲍鱼', icon: '🐚' },
+  { id: 'bivalve', label: '双壳贝', icon: '🦪' }, { id: 'other', label: '其他伙伴', icon: '⭐' },
+];
+export const creatureCategory = (item: ObservationFish): ObservationCategory => item.category ?? 'fish';
 export interface ObservationFish {
   id: string;
   name: string;
   formalName: string;
   scientificName: string;
   group?: string;
+  category?: ObservationCategory;
+  aliases?: string[];
+  aspectRatio?: string;
   image: string;
   intro: [string, string[]];
   introAudio: string;
@@ -33,14 +44,15 @@ export interface ObservationContent {
 
 export const contentAsset = (file: string) => `${import.meta.env.BASE_URL}content/v1/${file}`;
 const starterIds = new Set(['amphiprion-ocellaris', 'epinephelus-merra', 'scarus-ghobban', 'ostracion-cubicus', 'hippocampus-kuda', 'mobula-birostris']);
-export type ObservationGroup = 'starter' | 'grouper' | 'all';
+export type ObservationGroup = 'starter' | 'grouper' | 'all' | 'marine';
 export const observationGroups: { id: ObservationGroup; label: string; icon: string }[] = [
   { id: 'starter', label: '先看看', icon: '🐟' },
   { id: 'grouper', label: '石斑', icon: '🔵' },
+  { id: 'marine', label: '虾蟹与贝', icon: '🐚' },
   { id: 'all', label: '全部', icon: '🌊' },
 ];
 export function observationFish(fish: ObservationFish[], group: ObservationGroup) {
-  return fish.filter(item => group === 'all' || (group === 'grouper' ? item.group === 'grouper' : starterIds.has(item.id)));
+  return fish.filter(item => group === 'all' || (group === 'marine' ? creatureCategory(item) !== 'fish' : group === 'grouper' ? item.group === 'grouper' : starterIds.has(item.id)));
 }
 
 let pending: Promise<ObservationContent> | null = null;

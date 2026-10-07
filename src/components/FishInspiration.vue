@@ -153,7 +153,7 @@ onBeforeUnmount(() => {
     <div v-if="companion" class="companion-art"><img :src="contentAsset(companion.fish.image)" :alt="`${companion.fish.name}的观察参考`"></div>
     <div v-else class="inspiration-peek" aria-hidden="true"><img v-for="id in previewIds" :key="id" :src="contentAsset(`illustrations/${id}.webp`)" alt=""></div>
     <div class="inspiration-entry-copy">
-      <strong>{{ companion ? companion.fish.name : '鱼朋友，给你一点灵感' }}</strong>
+      <strong>{{ companion ? companion.fish.name : '海洋朋友，给你一点灵感' }}</strong>
       <p>{{ companion ? (companion.point?.label ?? '想怎么画，都可以。') : '看看颜色、嘴巴和花纹。' }}</p>
     </div>
     <div class="inspiration-entry-actions">
@@ -163,17 +163,17 @@ onBeforeUnmount(() => {
     <p v-if="audioError && !isOpen" class="inspiration-entry-error" role="status">声音没播出来，可以再点一下。</p>
   </div>
 
-  <dialog ref="dialog" class="inspiration-dialog" aria-labelledby="inspiration-title" @close="onClose" @cancel.prevent="close">
+  <Teleport to="body"><dialog ref="dialog" class="inspiration-dialog" aria-labelledby="inspiration-title" @close="onClose" @cancel.prevent="close">
     <header class="inspiration-heading"><div><p>看一看，再自由地画</p><h2 id="inspiration-title">海里的灵感</h2></div><button class="inspiration-close" autofocus @click="close"><span aria-hidden="true">✕</span> 继续画</button></header>
     <FishBorrowPreview v-if="borrowing && selected && recipe" :key="selected.id" :design="design" :fish="selected" :recipe="recipe" :kind="borrowing" :color="color" :glow="glow" :paint-tick="paintTick" :playing="!!playing" :audio-status="audioError ? '声音没播出来，可以再点一下。' : playing ? spoken : ''" @apply="applyBorrow" @cancel="cancelBorrow" @hear="hearFeature" />
-    <div v-else-if="loading || loadError" class="inspiration-loading" role="status"><AppIcon name="fish" /><p>{{ loadError ? '鱼朋友还没游过来。' : '鱼朋友游过来啦…' }}</p><button v-if="loadError" class="button" @click="load">再试一次</button></div>
+    <div v-else-if="loading || loadError" class="inspiration-loading" role="status"><AppIcon name="fish" /><p>{{ loadError ? '海洋朋友还没游过来。' : '海洋朋友游过来啦…' }}</p><button v-if="loadError" class="button" @click="load">再试一次</button></div>
     <div v-else-if="selected" class="inspiration-body">
-      <aside class="inspiration-library" aria-label="选择鱼朋友">
-        <div class="inspiration-groups" role="group" aria-label="鱼朋友分类"><button v-for="item in observationGroups" :key="item.id" :data-inspiration-group="item.id" :aria-pressed="group === item.id" @click="changeGroup(item.id)"><span aria-hidden="true">{{ item.icon }}</span>{{ item.label }}</button></div>
+      <aside class="inspiration-library" aria-label="选择海洋伙伴">
+        <div class="inspiration-groups" role="group" aria-label="海洋朋友分类"><button v-for="item in observationGroups" :key="item.id" :data-inspiration-group="item.id" :aria-pressed="group === item.id" @click="changeGroup(item.id)"><span aria-hidden="true">{{ item.icon }}</span>{{ item.label }}</button></div>
         <div class="inspiration-fish-list"><button v-for="fish in visibleFish" :key="fish.id" :data-inspiration-fish="fish.id" :aria-pressed="selected.id === fish.id" :aria-label="`看看${fish.name}`" @click="choose(fish)"><img :src="contentAsset(fish.image)" alt="" loading="lazy"><span>{{ fish.name }}</span></button></div>
       </aside>
       <section class="inspiration-observation" :aria-label="`${selected.name}的观察卡`">
-        <div class="inspiration-fish-heading"><div><span>真实的鱼 · 观察插画</span><h3>{{ selected.name }}</h3></div><div class="inspiration-top-audio"><button class="inspiration-listen" :class="{ playing: playing === 'intro' }" @click="hearIntro"><span aria-hidden="true">🔊</span> 听听它</button><button class="inspiration-stop" :disabled="!playing" aria-label="停止声音" @click="stopAudio">■</button></div></div>
+        <div class="inspiration-fish-heading"><div><span>真实伙伴 · 观察插画</span><h3>{{ selected.name }}</h3></div><div class="inspiration-top-audio"><button class="inspiration-listen" :class="{ playing: playing === 'intro' }" @click="hearIntro"><span aria-hidden="true">🔊</span> 听听它</button><button class="inspiration-stop" :disabled="!playing" aria-label="停止声音" @click="stopAudio">■</button></div></div>
         <div class="inspiration-specimen-well"><div class="inspiration-specimen" :style="specimenStyle"><img :src="contentAsset(selected.image)" :alt="`${selected.name}的原创外形示意图`"><button v-for="pin in pins" :key="pin.point.key" class="inspiration-pin" :class="{ active: playing === pin.point.key }" :style="{ left: `${pin.point.x! * 100}%`, top: `${pin.point.y! * 100}%` }" :aria-label="`观察点 ${pin.index + 1}，听听${pin.point.label}`" @click="hearPoint(pin.point)">{{ pin.index + 1 }}</button></div></div>
         <div class="inspiration-points"><button v-for="(point, index) in selected.points" :key="point.key" :class="{ active: currentPoint?.key === point.key }" :aria-pressed="currentPoint?.key === point.key" @click="hearPoint(point)"><span class="point-number">{{ index + 1 }}</span><span>{{ point.label }}</span><span aria-hidden="true">🔊</span></button></div>
         <div class="inspiration-spoken" role="status"><span aria-hidden="true">♪</span><p>{{ audioError ? '声音没播出来，可以再点一下。' : spoken }}</p></div>
@@ -182,7 +182,7 @@ onBeforeUnmount(() => {
       </section>
     </div>
     <footer v-if="selected && !loading && !loadError && !borrowing" class="inspiration-dialog-footer"><div class="inspiration-borrow-actions"><button v-if="recipe" data-borrow="colors" @click="tryBorrow('colors')">🎨 试试颜色</button><button v-if="recipe?.pattern" data-borrow="pattern" @click="tryBorrow('pattern')">▧ 试试花纹</button></div><button class="inspiration-return" @click="keepIdea"><AppIcon name="brush" />继续自由画<AppIcon name="arrow" /></button></footer>
-  </dialog>
+  </dialog></Teleport>
   <audio ref="player" preload="none" @ended="playing = null; releaseVoice(player)"></audio>
   </div>
 </template>

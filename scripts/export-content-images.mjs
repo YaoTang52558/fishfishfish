@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
+import crypto from 'node:crypto';
 const root = process.cwd();
 const require = createRequire(import.meta.url);
 let sharp;
@@ -17,15 +18,21 @@ for (const job of jobs) {
   if (previous?.prompt === job.prompt && previous?.generationFile === path.basename(job.src) && fs.existsSync(source) && fs.existsSync(output)) continue;
   fs.mkdirSync(path.dirname(source), { recursive: true });
   fs.mkdirSync(path.dirname(output), { recursive: true });
-  if (fs.existsSync(job.src)) fs.copyFileSync(job.src, source);
+  let reusable = false;
+  if (process.argv.includes('--resume') && !previous && fs.existsSync(source) && fs.existsSync(output) && fs.existsSync(job.src)) {
+    const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+    if(hash(source)===hash(job.src))try{const m=await sharp(output).metadata();reusable=m.width>0&&m.height>0;}catch{reusable=false;}
+  }
+  if (!reusable && fs.existsSync(job.src)) fs.copyFileSync(job.src, source);
   else if (!fs.existsSync(source)) throw new Error(`Missing original PNG for ${job.id}`);
   const meta = await sharp(source).metadata();
-  await sharp(source).resize({ width: job.kind === 'environments' ? 1920 : 1200, withoutEnlargement: true }).webp({ quality: 88, alphaQuality: 100, effort: 6 }).toFile(output);
+  if (!reusable) await sharp(source).resize({ width: job.kind === 'environments' ? 1920 : 1200, withoutEnlargement: true }).webp({ quality: 88, alphaQuality: 100, effort: 3 }).toFile(output);
   const web = await sharp(output).metadata();
-  const record = { id: job.id, source, path: output, engine: 'built-in imagegen', generatedAt: '2026-10-06', prompt: job.prompt, generationFile: path.basename(job.src), width: meta.width, height: meta.height, hasAlpha: meta.hasAlpha, webWidth: web.width, webHeight: web.height, webBytes: fs.statSync(output).size };
+  const record = { id: job.id, source, path: output, engine: 'built-in imagegen', generatedAt: job.generatedAt ?? '2026-10-06', prompt: job.prompt, generationFile: path.basename(job.src), width: meta.width, height: meta.height, hasAlpha: meta.hasAlpha, webWidth: web.width, webHeight: web.height, webBytes: fs.statSync(output).size };
   if (job.id.startsWith('ocean-')) record.inputSources = ['design/content/v1/illustrations/fantasy-bubble-star.png', 'design/content/v1/environments/reef-panorama.png'];
   const index = manifest.records.findIndex(item => item.id === job.id);
   if (index === -1) manifest.records.push(record); else manifest.records[index] = record;
+  fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
 }
 fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
 console.log(JSON.stringify({ images: manifest.records.length, webBytes: manifest.records.reduce((n, r) => n + r.webBytes, 0) }));

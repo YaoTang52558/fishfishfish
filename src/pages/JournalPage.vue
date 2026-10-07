@@ -53,9 +53,9 @@ onBeforeUnmount(() => { alive = false; generation++; stop(); for (const bitmap o
 </script>
 
 <template>
-  <PageHeading eyebrow="发现与收藏 / JOURNAL" title="每一个小发现，都值得记住。" description="海洋里的真实鱼类，和你想象中的原创作品，各有自己的位置。" />
+  <PageHeading eyebrow="发现与收藏 / JOURNAL" title="每一个小发现，都值得记住。" description="海洋里的真实生物，和你想象中的原创作品，各有自己的位置。" />
   <div class="segmented journal-tabs" aria-label="图鉴分区">
-    <button :aria-pressed="section === 'discoveries'" :class="{ selected: section === 'discoveries' }" @click="section = 'discoveries'">🐟 鱼朋友</button>
+    <button :aria-pressed="section === 'discoveries'" :class="{ selected: section === 'discoveries' }" @click="section = 'discoveries'">🌊 海洋朋友</button>
     <button :aria-pressed="section === 'creations'" :class="{ selected: section === 'creations' }" @click="section = 'creations'">我的创造</button>
   </div>
   <p v-if="status === 'unavailable'" class="leave-warning">这台设备暂时不能读取本地存档，图鉴记录无法显示。</p>

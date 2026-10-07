@@ -1,4 +1,5 @@
 import type { FishDesign } from '../../domain/types.ts';
+import { expandedSchemes } from './expandedPalettes.ts';
 
 export type BorrowKind = 'colors' | 'pattern';
 export interface FishRecipe { colors: FishDesign['colors']; pattern?: FishDesign['pattern'] }
@@ -45,7 +46,7 @@ const motifs: Record<string, FishDesign['pattern']> = {
   'epinephelus-merra': { id: 'honeycomb', primary: olive, secondary: cream },
 };
 export function fishRecipe(id: string): FishRecipe | null {
-  const colors = schemes[id];
+  const colors = schemes[id] ?? expandedSchemes[id];
   if (!colors) return null;
   return { colors: { body: colors[0], head: colors[1], fin: colors[2], tail: colors[3] },
     ...(motifs[id] ? { pattern: { ...motifs[id], size: 1, density: 1 } } : {}) };

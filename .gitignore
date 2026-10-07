@@ -8,4 +8,5 @@ node_modules/
 dist/
 dist-fishing-preview/
 .verification/
+design/content/v1/jobs-v3-results/
 *.tsbuildinfo

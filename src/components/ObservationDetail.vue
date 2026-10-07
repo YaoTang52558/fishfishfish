@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue';
-import { contentAsset, type ObservationContent, type ObservationFish, type ObservationPoint } from '../features/inspiration/content.ts';
+import { contentAsset, creatureCategory, observationCategories, type ObservationContent, type ObservationFish, type ObservationPoint } from '../features/inspiration/content.ts';
 import { useVoice } from '../features/voice.ts';
 import { usePreferences } from '../features/preferences.ts';
 import ReefRelations from './ReefRelations.vue';
@@ -9,15 +9,16 @@ const voice = useVoice(), prefs = usePreferences(), point = ref<ObservationPoint
 const facts = computed(() => props.content.claims.filter(c => props.fish.factIds.includes(c.id)));
 const sources = computed(() => props.content.sources.filter(s => props.fish.sourceIds.includes(s.id)));
 const physical = (p: ObservationPoint) => !['HOME','FOOD','BABY','EGGS','YOUNG','GROW'].includes(p.key) && p.x !== null && p.y !== null;
-const ratio = computed(() => props.fish.id === 'hippocampus-kuda' ? '2 / 3' : props.fish.id === 'mobula-birostris' ? '1' : '3 / 2');
+const ratio = computed(() => props.fish.aspectRatio ?? (props.fish.id === 'hippocampus-kuda' ? '2 / 3' : props.fish.id === 'mobula-birostris' ? '1' : '3 / 2'));
+const categoryName = computed(() => observationCategories.find(c => c.id === creatureCategory(props.fish))?.label ?? '海洋伙伴');
 const pointOrigin = computed(() => ({ transformOrigin: `${(point.value?.x ?? .5) * 100}% ${(point.value?.y ?? .5) * 100}%` }));
 function choose(p: ObservationPoint) { point.value = p; zoomed.value = physical(p); voice.play(contentAsset(p.audio)); }
 watch(() => props.fish.id, () => { voice.stop(); point.value = null; zoomed.value = false; });
 </script>
 <template>
   <article class="observation-detail" :class="{ compact }" :aria-label="fish.name + '观察卡'">
-    <header><div><small>真实鱼朋友</small><h2>{{ fish.name }}</h2></div><button :aria-label="voice.playing.value ? '停止讲解' : '听听' + fish.name" @click="voice.playing.value ? voice.stop() : voice.play(contentAsset(point?.audio ?? fish.introAudio))">{{ voice.playing.value ? '■ 停止' : '🔊 听听' }}</button></header>
-    <div class="specimen-window" :class="{ zoomed }"><div class="specimen-art" :class="{ 'is-seahorse': fish.id === 'hippocampus-kuda', 'is-ray': fish.id === 'mobula-birostris' }" :style="{ aspectRatio: ratio }"><img :src="contentAsset(fish.image)" :alt="fish.formalName + '的原创观察插画'" :style="pointOrigin"><template v-if="!zoomed"><button v-for="(p, i) in fish.points.filter(physical)" :key="p.key" class="observation-pin" :style="{ left: (p.x! * 100) + '%', top: (p.y! * 100) + '%' }" :aria-label="'观察' + p.label" @click="choose(p)">{{ i + 1 }}</button></template></div><button v-if="zoomed" class="zoom-reset" @click="zoomed = false">↔ 看整条鱼</button></div>
+    <header><div><small>真实海洋伙伴 · {{ categoryName }}</small><h2>{{ fish.name }}</h2></div><button :aria-label="voice.playing.value ? '停止讲解' : '听听' + fish.name" @click="voice.playing.value ? voice.stop() : voice.play(contentAsset(point?.audio ?? fish.introAudio))">{{ voice.playing.value ? '■ 停止' : '🔊 听听' }}</button></header>
+    <div class="specimen-window" :class="{ zoomed }"><div class="specimen-art" :class="{ 'is-seahorse': fish.id === 'hippocampus-kuda', 'is-ray': fish.id === 'mobula-birostris' }" :style="{ aspectRatio: ratio }"><img :src="contentAsset(fish.image)" :alt="fish.formalName + '的原创观察插画'" :style="pointOrigin"><template v-if="!zoomed"><button v-for="(p, i) in fish.points.filter(physical)" :key="p.key" class="observation-pin" :style="{ left: (p.x! * 100) + '%', top: (p.y! * 100) + '%' }" :aria-label="'观察' + p.label" @click="choose(p)">{{ i + 1 }}</button></template></div><button v-if="zoomed" class="zoom-reset" @click="zoomed = false">↔ 看完整伙伴</button></div>
     <p class="observation-caption" role="status">{{ point?.text ?? fish.intro[0] }}</p>
     <div class="observation-points" role="group" aria-label="观察部位"><button v-for="(p, i) in fish.points" :key="p.key" :aria-pressed="point?.key === p.key" @click="choose(p)"><span aria-hidden="true">{{ i + 1 }} · 🔎</span>{{ p.label }}</button></div>
     <p v-if="voice.error.value" role="status">声音没播出来，仍然可以看图和文字，再点一下重听。</p>
