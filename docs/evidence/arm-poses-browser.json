@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-08",
+  "scope": "Isolated desktop Edge with tablet/phone viewports; not physical iPad, Safari, child or GPU performance acceptance",
+  "checks": [
+    "real body stroke survives optional arm edits/removal/undo",
+    "1–8 count including odd counts",
+    "mouse and CDP touch slider gestures each commit once",
+    "three viewport layouts",
+    "arm help and revised topic narration start/stop",
+    "knowledge returns to arm tool without changing design",
+    "animated 3D preview, pause and rotation",
+    "trial animation, dialog pause and reduced motion",
+    "draft reload, ocean save, full backup with paint asset and re-edit",
+    "3D ocean opens without application errors",
+    "single-arm mouse and cancelled touch endpoint gestures, keyboard nudge and undo/redo preserve other arms",
+    "folded independent tools, shared edits, reset/undo and count-selection clamp",
+    "individually posed work reloads, saves and exports without losing body paint"
+  ],
+  "views": [
+    {
+      "width": 1024,
+      "height": 768,
+      "screenshot": ".verification/arm-poses/editor-1024.png"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "screenshot": ".verification/arm-poses/editor-768.png"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "screenshot": ".verification/arm-poses/editor-390.png"
+    }
+  ],
+  "errors": [],
+  "responses": []
+}

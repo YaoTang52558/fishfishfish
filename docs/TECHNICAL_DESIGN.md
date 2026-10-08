@@ -80,7 +80,8 @@ interface FishDesign {
   pattern: { id: string; primary: string; secondary: string; size?: number; density?: number };
   paint: { resolution: 512; colorAssetId: string | null; glowAssetId: string | null };
   sculpt?: { top: [number, number, number]; bottom: [number, number, number] };
-  arms?: { count: number; length: number; curl: number; color: string };
+  arms?: { count: number; length: number; curl: number; color: string;
+    poses?: Array<{ position: number; angle: number; length: number; curl: number }> };
   stamps: Array<{
     id: string; kind: string; color: string; // color 来自色卡，步骤 04 新增
     u: number; v: number; scale: number; rotation: number;
@@ -188,7 +189,11 @@ type OceanEntry =
 
 2026-10-08 幻想腕足：`arms` 缺失表示不添加；数量整数 1–8，长度为身体长度的 0.15–0.55，卷曲 0–1，颜色为合法 `#RRGGBB`。`changeArms` 生成不可变文档，移除时删除字段；`validateFishDesign` 深拷贝并拒绝不合法结构。主画面滑杆一次手势一步历史，参数不改变身体的规范绘画坐标或纹理引用。
 
-`domain/arms.ts` 将根部连接到捏形后的腹部，24 段中心线用于二维轮廓和三维管状网格；运动是游戏表现。编辑时静止，取长度上限与卷曲采样的固定范围，预留采样误差，拖滑杆不缩放相机；展示另预留摆动边界。三维八条腕足共用一个网格，最多 1800 顶点／3120 三角形；每帧更新已有位置与法线数组，关闭时释放网格与材质。不支持吸盘或逐条摆放，画笔仍裁剪到身体。减少动态冻结试游画面，计时仍运行；暂停冻结计时。
+`domain/arms.ts` 将根部连接到捏形后的腹部，24 段中心线用于二维轮廓和三维管状网格；运动是游戏表现。编辑时静止，取长度上限与卷曲采样的固定范围，预留采样误差，拖滑杆不缩放相机；展示另预留摆动边界。三维八条腕足共用一个网格，最多 1800 顶点／3120 三角形；每帧更新已有位置与法线数组，关闭时释放网格与材质。不支持吸盘，画笔仍裁剪到身体。减少动态冻结试游画面，计时仍运行；暂停冻结计时。
+
+逐条姿态采用 optional `arms.poses`，缺失时由整体参数生成原排列，存在时必须与 `count` 等长。每项的 `position` 是躯干沿腹部比例 0.18–0.9，`angle` 为 -1.35–1.35 弧度，长度与卷曲遵从整体范围；校验深拷贝、去除未知字段，不接受空缺或非有限数。`changeArmPose` 只改指定索引；数量缩减保留前面的姿态、增长为新条目补默认值；整体长短／卷曲修改同步相应字段，保留位置与朝向；恢复一起摆时删除 poses。选择索引仅在当前工具会话使用，不保存。
+
+单条编辑提供 44px 以上的末端圆点和滑杆；拖动锁定相机，将指针通过同一静态中心线反算长度／朝向并限幅，取消指针或失去捕获提交当前可见结果，方向键可挪末端。进入单条编辑时预留全部可达姿态，中心线包围范围按角度／卷曲采样、补误差并惰性缓存，避免扩大默认启动计算或每帧重新采样。鼠标／触摸／方向键、撤销与保存流程见 [逐条姿态证据](evidence/arm-poses-browser.json)。
 
 固定绘制顺序：幻想腕足 → 远侧鳍 → 尾 → 身体底色 → 花纹（只在躯干）→ 头底色 → 明暗 → 自由颜色层 → 印章 → 鳃盖线 → 近侧胸鳍 → 眼睛嘴 → 外轮廓 → 发光层。发光层放在最后，以免被胸鳍遮住，并且不受暗背景压暗；光晕可以溢出轮廓，笔迹本身仍受裁剪。暗背景预览让每个部件画完立即压暗自身，重叠处不会被压暗两次。外轮廓不描尾柄截面，尾巴与身体之间没有接缝线。
 
@@ -380,7 +385,7 @@ PNG 编码和规则计算先在事务外完成；不要在活动 IndexedDB 事�
 
 备份是 JSON envelope：`format:'fishfishfish-backup'`、`schemaVersion:1`、`catalogVersion`、`exportedAt`、鱼、草稿、发现、捕获凭证、彩蛋、设置，以及 PNG 的 base64 资产映射。禁止导出内存 object URL 或远程图片 URL。
 
-腕足轮把 `catalogVersion` 从 2 提升到 3，数据库与文档 `schemaVersion` 保持 1。新版本接受没有腕足的旧作品／版本 2 备份；新备份保留腕足，旧版本通过目录版本检查拒绝导入，避免丢弃新字段。不要用旧构建编辑已由新构建写入的同源数据库：旧代码不认识新增 optional 字段，这不是双向版本迁移。
+当前 `catalogVersion` 为 4：整体腕足轮从 2 升到 3，逐条姿态轮升到 4；数据库与文档 `schemaVersion` 保持 1。新版本接受没有腕足的旧作品、版本 2 备份与没有 poses 的版本 3 腕足备份；新备份保留姿态，旧版本通过目录版本检查拒绝导入，避免丢弃新字段。不要用旧构建编辑已由新构建写入的同源数据库：旧代码不认识新增 optional 字段，这不是双向版本迁移。
 
 导入最大 50MiB 文件、30 条原创鱼、1 草稿、24 印章/鱼；每个 PNG ≤2MiB 且精确 512×512。真实鱼 ID、部件 ID、色值、数字范围、名字长度、引用完整性、重复 ID 均在替换前检查。未知字段不透传为 HTML；名称按普通文本渲染。未来版本不能识别时拒绝并说明，不擦除旧存档。
 
