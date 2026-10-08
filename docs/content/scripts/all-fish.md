@@ -495,7 +495,7 @@
 | VO-CREATE-TAIL | 卷卷的尾巴，还是细细的尾巴？看看这两位朋友，再给自己的鱼想一条尾巴。 | HK-01、TL-02 | [WAV](../../../public/content/v1/audio/vo-create-tail.wav) |
 | VO-CREATE-SHAPE | 小盒子，大翅膀。看看它们的身体。你的鱼想像什么？回去捏一捏，也可以用画笔画出想法。 | OC-01、MB-01 | [WAV](../../../public/content/v1/audio/vo-create-shape.wav) |
 | VO-CREATE-PATTERN | 看看虎虾的一条条，和花螺的一点点。你想给鱼画哪件花衣服？也可以把两种花纹混在一起。 | VTH-BY-01、VTH-CW-01 | [WAV](../../../public/content/v1/audio/vo-create-pattern.wav) |
-| VO-CREATE-ARMS | 看看章鱼和鱿鱼的腕。回去用画笔画弯弯的线，加上小圆点。你的幻想鱼也可以有新点子。 | VTH-CS-01、VTH-CS-02、VTH-CO-01、VTH-CO-03 | [WAV](../../../public/content/v1/audio/vo-create-arms.wav) |
+| VO-CREATE-ARMS | 看看章鱼和鱿鱼的腕。回去点加腕足，选几条，再卷一卷。也可以用画笔画弯弯的线，试试新点子。 | VTH-CS-01、VTH-CS-02、VTH-CO-01、VTH-CO-03 | [WAV](../../../public/content/v1/audio/vo-create-arms.wav) |
 | VO-CREATE-SHELL | 像耳朵，像扇子。看看鲍鱼和扇贝的壳。回去画一片想象的壳，也可以试试贝壳印章。 | VTH-CU-01、VTH-CU-02、VTH-DE-01、VTH-DE-02 | [WAV](../../../public/content/v1/audio/vo-create-shell.wav) |
 
 Microsoft Huihui Desktop / zh-CN，Rate -1，24kHz 单声道 16bit PCM；授权记录仍为本地试听。主动点听、切换和离页停止。创作点子不是生物规律或任务要求。

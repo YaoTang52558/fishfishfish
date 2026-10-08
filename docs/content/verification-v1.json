@@ -7,9 +7,9 @@
     "guides": 10,
     "audioClips": 491,
     "voice": "Microsoft Huihui Desktop / zh-CN",
-    "audioSeconds": 2632.709,
+    "audioSeconds": 2634.292,
     "shortestClipSeconds": 1.676,
-    "longestClipSeconds": 13.501,
+    "longestClipSeconds": 14.045,
     "sources": 128,
     "claims": 370,
     "checkedClaims": 369,
@@ -17,7 +17,7 @@
       "AH-06"
     ],
     "webImageBytes": 25283128,
-    "audioBytes": 126392808,
+    "audioBytes": 126468802,
     "checks": [
       "unique IDs",
       "fact/source/audio references",
@@ -3945,10 +3945,10 @@
     {
       "id": "VO-CREATE-ARMS",
       "file": "public/content/v1/audio/vo-create-arms.wav",
-      "seconds": 12.462,
-      "rms": 1670,
-      "peak": 21606,
-      "bytes": 598212
+      "seconds": 14.045,
+      "rms": 1694,
+      "peak": 22498,
+      "bytes": 674206
     },
     {
       "id": "VO-CREATE-SHELL",

@@ -79,6 +79,8 @@ interface FishDesign {
   colors: Record<ColorSlot, string>; // 首版只接受色卡中的 #RRGGBB
   pattern: { id: string; primary: string; secondary: string; size?: number; density?: number };
   paint: { resolution: 512; colorAssetId: string | null; glowAssetId: string | null };
+  sculpt?: { top: [number, number, number]; bottom: [number, number, number] };
+  arms?: { count: number; length: number; curl: number; color: string };
   stamps: Array<{
     id: string; kind: string; color: string; // color 来自色卡，步骤 04 新增
     u: number; v: number; scale: number; rotation: number;
@@ -184,7 +186,11 @@ type OceanEntry =
 
 每个配置都保留 `id/name/license`，尾与鳍带 `animationProfile`。几何按造型与部件缓存，绘画、颜色和印章变化不重建几何。工坊相机取当前部件在最大长高下的范围：调比例不移动相机，换部件才重新取景。
 
-固定绘制顺序：远侧鳍 → 尾 → 身体底色 → 花纹（只在躯干）→ 头底色 → 明暗 → 自由颜色层 → 印章 → 鳃盖线 → 近侧胸鳍 → 眼睛嘴 → 外轮廓 → 发光层。发光层放在最后，以免被胸鳍遮住，并且不受暗背景压暗；光晕可以溢出轮廓，笔迹本身仍受裁剪。暗背景预览让每个部件画完立即压暗自身，重叠处不会被压暗两次。外轮廓不描尾柄截面，尾巴与身体之间没有接缝线。
+2026-10-08 幻想腕足：`arms` 缺失表示不添加；数量整数 1–8，长度为身体长度的 0.15–0.55，卷曲 0–1，颜色为合法 `#RRGGBB`。`changeArms` 生成不可变文档，移除时删除字段；`validateFishDesign` 深拷贝并拒绝不合法结构。主画面滑杆一次手势一步历史，参数不改变身体的规范绘画坐标或纹理引用。
+
+`domain/arms.ts` 将根部连接到捏形后的腹部，24 段中心线用于二维轮廓和三维管状网格；运动是游戏表现。编辑时静止，取长度上限与卷曲采样的固定范围，预留采样误差，拖滑杆不缩放相机；展示另预留摆动边界。三维八条腕足共用一个网格，最多 1800 顶点／3120 三角形；每帧更新已有位置与法线数组，关闭时释放网格与材质。不支持吸盘或逐条摆放，画笔仍裁剪到身体。减少动态冻结试游画面，计时仍运行；暂停冻结计时。
+
+固定绘制顺序：幻想腕足 → 远侧鳍 → 尾 → 身体底色 → 花纹（只在躯干）→ 头底色 → 明暗 → 自由颜色层 → 印章 → 鳃盖线 → 近侧胸鳍 → 眼睛嘴 → 外轮廓 → 发光层。发光层放在最后，以免被胸鳍遮住，并且不受暗背景压暗；光晕可以溢出轮廓，笔迹本身仍受裁剪。暗背景预览让每个部件画完立即压暗自身，重叠处不会被压暗两次。外轮廓不描尾柄截面，尾巴与身体之间没有接缝线。
 
 素材必须同源或本地打包，不运行用户输入 SVG；不得使用外站图片污染导出 Canvas。每项资产记录原创/授权来源，真实鱼不得套用一张相同外形只更名字。
 
@@ -373,6 +379,8 @@ PNG 编码和规则计算先在事务外完成；不要在活动 IndexedDB 事�
 ## 9. 备份、迁移与输入校验
 
 备份是 JSON envelope：`format:'fishfishfish-backup'`、`schemaVersion:1`、`catalogVersion`、`exportedAt`、鱼、草稿、发现、捕获凭证、彩蛋、设置，以及 PNG 的 base64 资产映射。禁止导出内存 object URL 或远程图片 URL。
+
+腕足轮把 `catalogVersion` 从 2 提升到 3，数据库与文档 `schemaVersion` 保持 1。新版本接受没有腕足的旧作品／版本 2 备份；新备份保留腕足，旧版本通过目录版本检查拒绝导入，避免丢弃新字段。不要用旧构建编辑已由新构建写入的同源数据库：旧代码不认识新增 optional 字段，这不是双向版本迁移。
 
 导入最大 50MiB 文件、30 条原创鱼、1 草稿、24 印章/鱼；每个 PNG ≤2MiB 且精确 512×512。真实鱼 ID、部件 ID、色值、数字范围、名字长度、引用完整性、重复 ID 均在替换前检查。未知字段不透传为 HTML；名称按普通文本渲染。未来版本不能识别时拒绝并说明，不擦除旧存档。
 
