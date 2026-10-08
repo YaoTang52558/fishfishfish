@@ -58,11 +58,11 @@ function tick(now: number) {
     ctx.globalAlpha = 1;
   }
   renderFish(ctx, props.design,
-    { x: props.presentation === 'arrival' ? width / 2 - (getFishGeometry(props.design).bounds.minX + getFishGeometry(props.design).bounds.maxX) / 2 * scale : width / 2 + state.x * bodyLength,
-      y: height / 2 + swimBob(state) * bodyLength, scale, facing: props.presentation === 'arrival' ? 1 : swimFacing(state) },
+    { x: props.presentation === 'arrival' ? width / 2 - (getFishGeometry(props.design).bounds.minX + getFishGeometry(props.design).bounds.maxX) / 2 * scale : width / 2 + (motion.value ? 0 : state.x * bodyLength),
+      y: height / 2 + (motion.value ? 0 : swimBob(state) * bodyLength) - (props.design.arms ? (getFishGeometry(props.design).bounds.minY + getFishGeometry(props.design).bounds.maxY) / 2 * scale : 0), scale, facing: props.presentation === 'arrival' || motion.value ? 1 : swimFacing(state) },
     { paint: props.color?.canvas, glow: props.glow ? { source: props.glow.canvas, version: props.glow.version } : null,
-      tailAngle: tailAngle(state, profile.value), finAngle: finAngle(state), wave: state.time * 5, dim: props.dark ? 0.55 : 0,
-      effect: motion.value ? null : props.effect, time: state.time });
+      tailAngle: motion.value ? 0 : tailAngle(state, profile.value), finAngle: motion.value ? 0 : finAngle(state), wave: motion.value ? 0 : state.time * 5, dim: props.dark ? 0.55 : 0,
+      effect: motion.value ? null : props.effect, time: motion.value ? 0 : state.time });
 }
 /** 重新开始计时（“继续看”不重置，只有重新试游时调用）。 */
 function restart() { state = createSwimState(); endedSent = false; }

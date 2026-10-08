@@ -1,4 +1,4 @@
-import { bodies, eyes, finSets, heads, mouths, palette, patterns, patternLimits, shapeLimits, stampKinds, stampLimits, tails } from '../catalog/fish.ts';
+import { armLimits, bodies, eyes, finSets, heads, mouths, palette, patterns, patternLimits, shapeLimits, stampKinds, stampLimits, tails } from '../catalog/fish.ts';
 import type { ColorSlot, FishDesign, ShapeKey, Stamp } from './types.ts';
 
 export type PartKey = 'bodyId' | keyof FishDesign['parts'];
@@ -27,6 +27,17 @@ export function changePart(design: FishDesign, key: PartKey, id: string): FishDe
   return key === 'bodyId' ? { ...design, bodyId: id } : { ...design, parts: { ...design.parts, [key]: id } };
 }
 export function changeTail(design: FishDesign, tailId: string): FishDesign { return changePart(design, 'tailId', tailId); }
+export function changeArms(design: FishDesign, patch: Partial<NonNullable<FishDesign['arms']>>): FishDesign {
+  if (patch.count === 0) { const { arms, ...rest } = design; return rest; }
+  const arms = { count: 4, length: armLimits.length.default, curl: armLimits.curl.default, color: design.colors.fin, ...design.arms, ...patch };
+  if (!validArms(arms)) throw new RangeError('Invalid arms');
+  return { ...design, arms };
+}
+function validArms(value: Record<string, unknown>) {
+  return Number.isInteger(value.count) && Number(value.count) >= armLimits.count.min && Number(value.count) <= armLimits.count.max
+    && ['length', 'curl'].every(key => typeof value[key] === 'number' && Number.isFinite(value[key]) && Number(value[key]) >= armLimits[key as 'length' | 'curl'].min && Number(value[key]) <= armLimits[key as 'length' | 'curl'].max)
+    && isPaletteColor(value.color);
+}
 export function resetShape(design: FishDesign): FishDesign {
   return { ...design, shape: { length: 1, height: 1, headRatio: 0.3 } };
 }
@@ -106,6 +117,8 @@ export function validateFishDesign(input: unknown): { ok: true; value: FishDesig
   if (!bodies.some((body) => body.id === item.bodyId)) errors.push('bodyId');
   if (item.mirroredSide !== true) errors.push('mirroredSide');
   const sculpt = record(item.sculpt);
+  const arms = record(item.arms);
+  if (item.arms !== undefined && (!arms || !validArms(arms))) errors.push('arms');
   if (item.sculpt !== undefined && (!sculpt || !['top', 'bottom'].every(edge => Array.isArray(sculpt[edge]) && (sculpt[edge] as unknown[]).length === 3 && (sculpt[edge] as unknown[]).every(v => typeof v === 'number' && Number.isFinite(v) && Math.abs(v) <= 0.14)))) errors.push('sculpt');
   for (const key of ['length', 'height', 'headRatio'] as const) {
     const value = shape?.[key], limits = shapeLimits[key];
@@ -138,6 +151,7 @@ export function validateFishDesign(input: unknown): { ok: true; value: FishDesig
       ...(pattern.size === undefined ? {} : { size: pattern.size as number }), ...(pattern.density === undefined ? {} : { density: pattern.density as number }) },
     paint: { resolution: 512, colorAssetId: paint.colorAssetId as string | null, glowAssetId: paint.glowAssetId as string | null },
     stamps: stamps as Stamp[], mirroredSide: true,
+    ...(arms ? { arms: { count: arms.count as number, length: arms.length as number, curl: arms.curl as number, color: arms.color as string } } : {}),
     ...(sculpt ? { sculpt: { top: [...sculpt.top as number[]] as [number, number, number], bottom: [...sculpt.bottom as number[]] as [number, number, number] } } : {}),
   } };
 }

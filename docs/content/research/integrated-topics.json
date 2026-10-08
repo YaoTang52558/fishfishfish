@@ -1006,7 +1006,19 @@
     "mirroredSide": true,
     "finStructure": "flat-paired-pectoral-and-dorsal-ventral",
     "swimming": "game-animation-not-species-science",
-    "independentArms": false,
+    "fantasyArms": {
+      "count": [
+        1,
+        8
+      ],
+      "adjustable": [
+        "length",
+        "curl",
+        "color"
+      ],
+      "individuallyPlaced": false,
+      "suckers": false
+    },
     "shellStructure": false
   }
 }

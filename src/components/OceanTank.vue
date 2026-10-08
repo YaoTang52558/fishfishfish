@@ -158,7 +158,7 @@ function tick(now: number) {
     renderFish(ctx, fish.design, placement, {
       paint: textures?.color, glow: textures?.glow ? { source: textures.glow, version: fish.revision } : null,
       tailAngle: tailAngle(sim.swim, sim.profile), finAngle: finAngle(sim.swim), wave: time * 5,
-      effect: props.reducedMotion ? null : fish.activeEffect, time,
+      effect: props.reducedMotion ? null : fish.activeEffect, time: props.reducedMotion ? 0 : time,
       cache: bodyCache, cacheKey: `${fish.id}|${fish.revision}|${textures ? 'tex' : 'none'}`,
     });
   }

@@ -3,6 +3,7 @@ import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { getFishGeometry } from '../domain/geometry.ts';
 import type { FishDesign, Point } from '../domain/types.ts';
 import { renderFish } from './FishRenderer.ts';
+import { createCreativeArms3d } from './creativeArms3d.ts';
 
 /** A generated volume from the saved outline; shared side paint, no design mutation. */
 export function createCreativeFish3d(design: FishDesign, paint: CanvasImageSource | null, glow: CanvasImageSource | null) {
@@ -59,7 +60,10 @@ export function createCreativeFish3d(design: FishDesign, paint: CanvasImageSourc
     fin.add(mesh); fin.rotation.y = side * 0.3; fin.updateMatrixWorld(true); mesh.geometry.applyMatrix4(mesh.matrixWorld); finGeometries.push(mesh.geometry);
   }
   const merged = mergeGeometries(finGeometries); if (merged) { geometries.push(merged); fish.add(new THREE.Mesh(merged, finMaterial)); }
+  const arms = design.arms ? createCreativeArms3d(g.arms, design.arms.color) : null;
+  if (arms) fish.add(arms.mesh);
   const size = Math.max(g.bounds.maxX - g.bounds.minX, g.bounds.maxY - g.bounds.minY);
   fish.position.x = -(g.bounds.minX + g.bounds.maxX) / 2;
-  return { fish, size, width: g.bounds.maxX - g.bounds.minX, height: g.bounds.maxY - g.bounds.minY, animate(time: number) { tail.rotation.y = Math.sin(time * 3.5) * 0.2; }, dispose() { geometries.forEach(g => g.dispose()); materials.forEach(m => m.dispose()); textures.forEach(t => t.dispose()); } };
+  if (design.arms) fish.position.y = (g.bounds.minY + g.bounds.maxY) / 2;
+  return { fish, size, width: g.bounds.maxX - g.bounds.minX, height: g.bounds.maxY - g.bounds.minY, animate(time: number) { tail.rotation.y = Math.sin(time * 3.5) * 0.2; arms?.update(time); }, dispose() { arms?.dispose(); geometries.forEach(g => g.dispose()); materials.forEach(m => m.dispose()); textures.forEach(t => t.dispose()); } };
 }

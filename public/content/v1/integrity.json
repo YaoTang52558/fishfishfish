@@ -103,8 +103,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-create-arms.wav",
-      "bytes": 598212,
-      "sha256": "d508b4eeaca5aa091829fb77a66c22fadb7c14580b8f89a48940873952940118"
+      "bytes": 674206,
+      "sha256": "c6976ae1eb7b79d69dc274defa64bbf0ce2e267be33216d95577ce6b72d5e56a"
     },
     {
       "path": "public/content/v1/audio/vo-create-fin.wav",
@@ -2458,8 +2458,8 @@
     },
     {
       "path": "public/content/v1/data.json",
-      "bytes": 807140,
-      "sha256": "d33ef3058442a7aa7d5f9dd96308bc17dee4a17d835283b568b8a12692acaddd"
+      "bytes": 807257,
+      "sha256": "8c6b3790c37c55ba0a3dd2f3360c3d97d16ac5602f48cd230ed1f86ed78a24e6"
     },
     {
       "path": "public/content/v1/environments/ocean-arrival.webp",

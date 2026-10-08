@@ -1,7 +1,9 @@
 {
-  "date": "2026-10-07",
-  "scope": "Additional workshop help; independent of the 128 observation clips",
+  "date": "2026-10-08",
+  "scope": "Additional workshop help; independent of the 491 content-pack clips",
+  "production": { "voice": "Microsoft Huihui Desktop (zh-CN)", "format": "PCM WAV, 24000 Hz, mono, 16-bit", "usage": "local-review-only; system voice distribution terms not verified", "generator": "scripts/generate-content-audio.ps1", "outputDirectory": "public/audio" },
   "records": [
-    { "id": "VO-HELP-SCULPT", "text": "上下拖动鱼背和肚子上的圆点。捏错了，点弯箭头就能回去。" }
+    { "id": "VO-HELP-SCULPT", "text": "上下拖动鱼背和肚子上的圆点。捏错了，点弯箭头就能回去。" },
+    { "id": "VO-HELP-ARMS", "text": "先选几条腕足，再拖一拖长短和卷曲。点颜色，就能给腕足换色。想看它摆动，点试游。点弯箭头，可以撤销。" }
   ]
 }

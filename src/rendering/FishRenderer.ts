@@ -4,6 +4,7 @@ import type { EffectId, FishDesign, Point } from '../domain/types.ts';
 import { shade } from './color.ts';
 import { drawPattern } from './patterns.ts';
 import { drawStampShape } from './stamps.ts';
+import { armPolygon, armSections } from '../domain/arms.ts';
 
 export interface RenderOptions {
   /** 512×512 自由颜色层，坐标对应身体规范框；按当前轮廓裁剪后绘制。 */
@@ -245,6 +246,15 @@ export function renderFish(ctx: CanvasRenderingContext2D, design: FishDesign, pl
   // 暗背景预览：每个部件画完立即压暗自身，后画的部件会盖住前面的，重叠处不会被压暗两次。
   const dimColor = options.dim ? `rgba(6,14,32,${Math.min(0.85, options.dim)})` : null;
   const dimPolygon = (points: readonly Point[]) => { if (dimColor) { trace(ctx, points); ctx.fillStyle = dimColor; ctx.fill(); } };
+  for (const root of geometry.arms) {
+    const animated = options.time !== undefined;
+    const polygon = armPolygon(root, options.time ?? 0, animated);
+    trace(ctx, polygon); ctx.fillStyle = design.arms!.color; ctx.fill();
+    ctx.strokeStyle = shade(design.arms!.color, -.4); ctx.lineWidth = .004; ctx.stroke();
+    const sections = armSections(root, options.time ?? 0, animated);
+    ctx.beginPath(); sections.forEach((p, i) => i ? ctx.lineTo(p.x + p.nx * p.radius * .35, p.y + p.ny * p.radius * .35) : ctx.moveTo(p.x + p.nx * p.radius * .35, p.y + p.ny * p.radius * .35));
+    ctx.strokeStyle = shade(design.arms!.color, .32); ctx.lineWidth = .007; ctx.stroke(); dimPolygon(polygon);
+  }
   for (const fin of geometry.fins) { drawFinShape(ctx, fin.polygon, fin.rays, design.colors.fin); dimPolygon(fin.polygon); }
   drawTail(ctx, design, geometry, options);
   if (dimColor) { ctx.save(); ctx.translate(geometry.tail.pivot.x, geometry.tail.pivot.y); ctx.rotate(options.tailAngle ?? 0); dimPolygon(geometry.tail.polygon); ctx.restore(); }

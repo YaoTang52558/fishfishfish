@@ -19,7 +19,7 @@ const supported = ref(true);
 const name = (items: readonly { id: string; name: string }[], id: string) => items.find((item) => item.id === id)?.name ?? '';
 const description = computed(() => {
   const d = props.design;
-  return `${name(bodies, d.bodyId)}、${name(heads, d.parts.headId)}、${name(tails, d.parts.tailId)}、${name(finSets, d.parts.finId)}、${name(eyes, d.parts.eyeId)}、${name(mouths, d.parts.mouthId)}；长度 ${d.shape.length.toFixed(2)} 倍，高度 ${d.shape.height.toFixed(2)} 倍，头部占比 ${Math.round(d.shape.headRatio * 100)}%；${d.stamps.length} 枚印章。`;
+  return `${name(bodies, d.bodyId)}、${name(heads, d.parts.headId)}、${name(tails, d.parts.tailId)}、${name(finSets, d.parts.finId)}、${name(eyes, d.parts.eyeId)}、${name(mouths, d.parts.mouthId)}；长度 ${d.shape.length.toFixed(2)} 倍，高度 ${d.shape.height.toFixed(2)} 倍，头部占比 ${Math.round(d.shape.headRatio * 100)}%；${d.stamps.length} 枚印章${d.arms ? '、' + d.arms.count + ' 条幻想腕足' : ''}。`;
 });
 let observer: ResizeObserver | undefined;
 let frame = 0;

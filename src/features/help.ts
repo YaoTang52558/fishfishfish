@@ -1,4 +1,5 @@
 export const helpTopics = {
+  arms: { icon: '🦑', title: '加腕足', text: '先选几条腕足，再拖一拖长短和卷曲。点颜色，就能给腕足换色。想看它摆动，点试游。点弯箭头，可以撤销。' },
   sculpt: { icon: '🤏', title: '捏一捏', text: '上下拖动鱼背和肚子上的圆点。捏错了，点弯箭头就能回去。' },
   shape: { icon: '🧩', title: '换部件', text: '点鱼旁边的部件，再挑一个。你的笔迹还会留着。' },
   colors: { icon: '🎨', title: '涂颜色', text: '先选身体、尾巴或鳍，再点一种颜色。也可以试试不同花纹。' },

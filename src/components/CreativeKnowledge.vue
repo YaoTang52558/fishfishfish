@@ -11,7 +11,7 @@ import ObservationDetail from './ObservationDetail.vue';
 import { stopNarration, useVoice } from '../features/voice.ts';
 import PartThumb from './PartThumb.vue';
 const props = defineProps<{ design: FishDesign; initialTopic?: CreativeTopicId; color?: PaintLayer | null; glow?: PaintLayer | null; paintTick?: number; disabled?: boolean; active?: boolean }>();
-const emit = defineEmits<{ opened: []; closed: []; applied: [FishDesign, string]; draw: [] }>();
+const emit = defineEmits<{ opened: []; closed: []; applied: [FishDesign, string]; draw: []; arms: [] }>();
 const dialog = ref<HTMLDialogElement>(), button = ref<HTMLButtonElement>(), content = shallowRef<ObservationContent | null>(null), openState = ref(false), error = ref(false);
 const mouthName = computed(() => mouths.find(m => m.id === props.design.parts.mouthId)?.name ?? '想象的嘴巴');
 const topic = ref<CreativeTopicId>('mouth'), voice = useVoice();
@@ -32,6 +32,7 @@ function hearBorrow() { if (!borrowing.value) return; voice.playing.value ? voic
 function remember(fish: ObservationFish) { reference.value = { fish, topic: topic.value }; stopNarration(); dialog.value?.close(); emit('draw'); }
 function apply(next: FishDesign, kind: BorrowKind) { if (!borrowing.value) return; const fish = borrowing.value.fish; emit('applied', next, `借${fish.name}的${kind === 'colors' ? '颜色' : '花纹'}`); remember(fish); }
 function backToDraw() { stopNarration(); dialog.value?.close(); emit('draw'); }
+function tryArms() { stopNarration(); dialog.value?.close(); emit('arms'); }
 async function closed() { stopNarration(); if (!openState.value) return; borrowing.value = null; openState.value = false; document.body.style.overflow = previousOverflow; emit('closed'); await nextTick(); if (alive) button.value?.focus({ preventScroll: true }); }
 onBeforeUnmount(() => { alive = false; stopNarration(); if (openState.value) { document.body.style.overflow = previousOverflow; emit('closed'); } });
 watch(() => props.active, active => { if (active === false) { voice.stop(); dialog.value?.close(); } });
@@ -47,7 +48,7 @@ watch(() => props.active, active => { if (active === false) { voice.stop(); dial
       <p v-if="error" role="alert">参考图暂时没读到。<button @click="load">重试</button></p><p v-else-if="!content" role="status">正在打开鱼朋友的图画…</p>
       <div v-if="content" class="mouth-examples"><section v-for="fish in examples" :key="fish.id" :data-creative-fish="fish.id"><ObservationDetail :fish="fish" :content="content" compact /><div class="example-actions"><button @click="remember(fish)">🖌️ 看着它画</button><button v-if="fishRecipe(fish.id)" @click="borrow(fish, 'colors')">🎨 试试颜色</button><button v-if="fishRecipe(fish.id)?.pattern" @click="borrow(fish, 'pattern')">▧ 试试花纹</button></div></section></div>
       <p v-if="voice.error.value" role="status">声音没播出来，可以再点一下。</p>
-      <footer><details><summary>👨‍👦 和家长一起想</summary><p>{{ topics[topic].note }}</p></details><button @click="backToDraw">🖌️ 我有新的想法了</button></footer>
+      <footer><details><summary>👨‍👦 和家长一起想</summary><p>{{ topics[topic].note }}</p></details><button v-if="topic === 'arms'" @click="tryArms">🦑 试试腕足</button><button @click="backToDraw">🖌️ 我有新的想法了</button></footer>
       </template>
     </template></dialog></Teleport>
     <Teleport to="#creative-reference-slot" v-if="reference"><aside class="creative-reference" aria-label="我记住的灵感"><img :src="contentAsset(reference.fish.image)" :alt="reference.fish.name + '的观察参考'"><div><strong>{{ reference.fish.name }}</strong><p>{{ topics[reference.topic].examples.find(e => e.id === reference?.fish.id)?.keys.map(key => reference?.fish.points.find(p => p.key === key)?.label).filter(Boolean).join(' · ') }}</p></div><button :disabled="disabled" aria-label="听听我的灵感" @click="hearReference">{{ voice.playing.value ? '■' : '🔊' }}</button><button :disabled="disabled" @click="openReference">🔎 再看看</button><button aria-label="收起灵感参考" @click="reference = null; voice.stop()">✕</button></aside></Teleport>

@@ -29,7 +29,7 @@ for (const [id, topic] of Object.entries(creativeTopics)) {
     subjectId: `creation-${id}`, kind: 'creative-prompt', file: topicAudio(id),
     voice: 'Microsoft Huihui Desktop / zh-CN', rate: -1, format: 'PCM 24000 Hz, mono, 16 bit',
     usage: '本地合成试听；公开分发前核对系统语音授权',
-    pronunciation: '短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件' };
+    pronunciation: '短句操作点子；引用事实与幻想创作分开，参数结构不代表真实物种三维模型' };
   const previous = audio.records.find(c => c.id === clip.id);
   if (previous?.text !== clip.text || !fs.existsSync(`public/content/v1/${clip.file}`)) changed.push(clip);
   upsert(audio.records, clip);

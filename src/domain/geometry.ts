@@ -1,5 +1,6 @@
-import { bodies, bodyAspect, eyes, finSets, heads, mouths, shapeLimits, tails } from '../catalog/fish.ts';
+import { armLimits, bodies, bodyAspect, eyes, finSets, heads, mouths, shapeLimits, tails } from '../catalog/fish.ts';
 import type { BodyDefinition, Bounds, FinSpec, FishDesign, HeadDefinition, Point } from './types.ts';
+import { buildArmRoots, includeArmBounds, type ArmRoot } from './arms.ts';
 
 /*
  * 拼接几何（技术设计 4.1）。规范坐标：身体框 [-0.5,0.5]²，朝右，上为负；
@@ -8,6 +9,7 @@ import type { BodyDefinition, Bounds, FinSpec, FishDesign, HeadDefinition, Point
 export interface Axes { x: number; y: number }
 export interface FinGeometry { kind: 'dorsal' | 'ventral' | 'pectoral'; polygon: Point[]; rays: Array<[Point, Point]>; pivot: Point }
 export interface FishGeometry {
+  arms: ArmRoot[];
   axes: Axes;
   /** 闭合轮廓（实际坐标）：上缘从尾柄到吻端，再沿下缘返回。 */
   contour: Point[];
@@ -281,9 +283,11 @@ function computeGeometry(design: FishDesign): FishGeometry {
   for (const fin of fins) polygonBounds(fin.polygon, bounds);
   polygonBounds(pectoral.polygon, bounds);
   polygonBounds([{ x: anchor.x + reach, y: anchor.y }, { x: anchor.x, y: anchor.y + mouthSize * 2.4 }], bounds);
+  const arms = buildArmRoots(design, outline, axes);
+  includeArmBounds(bounds, arms);
 
   return {
-    axes, contour, canonicalContour, head: headRegion, trunk, gill,
+    arms, axes, contour, canonicalContour, head: headRegion, trunk, gill,
     neck: { x: neckTop.x, top: neckTop.y, bottom: neckBottom.y, slopeTop: outline.slopeTop * axes.y / axes.x, slopeBottom: outline.slopeBottom * axes.y / axes.x },
     peduncle, tail: { pivot: { x: peduncle.x, y: peduncle.center }, size: tailSize, ...tailShape },
     fins, pectoral, eye: { center: { x: eyeX, y: eyeY }, radius }, mouth: { anchor, angle: mouthAngle, size: mouthSize, reach },
@@ -295,7 +299,7 @@ function computeGeometry(design: FishDesign): FishGeometry {
 const cache = new Map<string, FishGeometry>();
 /** 按造型与部件缓存；绘画、颜色和印章变化不重建几何。 */
 export function getFishGeometry(design: FishDesign): FishGeometry {
-  const key = `${design.bodyId}|${design.parts.headId}|${design.parts.tailId}|${design.parts.finId}|${design.parts.eyeId}|${design.parts.mouthId}|${design.shape.length}|${design.shape.height}|${design.shape.headRatio}|${JSON.stringify(design.sculpt)}`;
+  const key = `${design.bodyId}|${design.parts.headId}|${design.parts.tailId}|${design.parts.finId}|${design.parts.eyeId}|${design.parts.mouthId}|${design.shape.length}|${design.shape.height}|${design.shape.headRatio}|${JSON.stringify(design.sculpt)}|${design.arms ? [design.arms.count, design.arms.length, design.arms.curl].join(',') : ''}`;
   let geometry = cache.get(key);
   if (!geometry) {
     geometry = computeGeometry(design);
@@ -316,7 +320,14 @@ export function fitFish(bounds: Bounds, width: number, height: number) {
 export function getEditorBounds(design: FishDesign): Bounds {
   const result: Bounds = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity };
   for (const headRatio of [shapeLimits.headRatio.min, shapeLimits.headRatio.max]) {
-    const b = getFishGeometry({ ...design, shape: { length: shapeLimits.length.max, height: shapeLimits.height.max, headRatio } }).bounds;
+    const virtual = { ...design, shape: { length: shapeLimits.length.max, height: shapeLimits.height.max, headRatio },
+      ...(design.arms ? { arms: { ...design.arms, length: armLimits.length.max, curl: 0 } } : {}) };
+    const geometry = getFishGeometry(virtual);
+    const b = { ...getFishGeometry({ ...virtual, arms: undefined }).bounds };
+    // Reserve every arm length/curl upfront so dragging a slider never moves the camera.
+    // Static editing needs no animation padding. Between 0.1 curl samples,
+    // integrating the t² turn gives at most 0.068 * length displacement.
+    if (design.arms) includeArmBounds(b, geometry.arms.flatMap(root => Array.from({ length: 11 }, (_, i) => ({ ...root, curl: i / 10 }))), .07, false);
     result.minX = Math.min(result.minX, b.minX); result.minY = Math.min(result.minY, b.minY);
     result.maxX = Math.max(result.maxX, b.maxX); result.maxY = Math.max(result.maxY, b.maxY);
   }
