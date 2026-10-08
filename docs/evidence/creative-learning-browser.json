@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-08",
+  "scope": "Desktop Edge, tablet/phone viewports; not real iPad or child acceptance",
+  "checks": [
+    "seven source-backed creative topics at three viewports",
+    "tap narration and stop on switching or trial",
+    "observe and cancel leave real stroke and undo history unchanged",
+    "colour and pattern borrowing each use one undo step",
+    "keep, hear, revisit and dismiss a drawing reference",
+    "current tail tool selects tail topic",
+    "Escape focus and body scroll restore",
+    "painted draft reload and formal/common alias search"
+  ],
+  "views": [
+    {
+      "width": 1024,
+      "height": 768,
+      "screenshot": ".verification/creative-learning/topics-1024x768.png",
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "screenshot": ".verification/creative-learning/topics-768x1024.png",
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "screenshot": ".verification/creative-learning/topics-390x844.png",
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "screenshot": ".verification/creative-learning/preview-1024x768.png",
+      "preview": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "screenshot": ".verification/creative-learning/preview-768x1024.png",
+      "preview": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "screenshot": ".verification/creative-learning/preview-390x844.png",
+      "preview": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "screenshot": ".verification/creative-learning/reference-1024x768.png",
+      "reference": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "screenshot": ".verification/creative-learning/reference-768x1024.png",
+      "reference": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "screenshot": ".verification/creative-learning/reference-390x844.png",
+      "reference": true
+    }
+  ],
+  "errors": [],
+  "responses": []
+}

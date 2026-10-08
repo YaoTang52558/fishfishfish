@@ -1,13 +1,15 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "status": "integrated-playable-sample",
-  "producedSpecies": 30,
+  "producedSpecies": 119,
   "fishingSpecies": 12,
-  "remainingCandidatesProduced": false,
+  "remainingCandidatesProduced": true,
+  "creationTopics": 7,
+  "sceneTopics": 2,
   "topics": [
     {
       "id": "mouth",
-      "title": "嘴与找食物",
+      "title": "嘴巴有什么不同？",
       "specimens": [
         {
           "id": "forcipiger-flavissimus",
@@ -48,17 +50,6 @@
           "introAudio": "audio/vo-sg-intro.wav",
           "points": [
             {
-              "key": "MOUTH",
-              "label": "像喙的嘴",
-              "text": "它的嘴，像小鸟的喙。",
-              "factIds": [
-                "SG-01"
-              ],
-              "x": 0.19,
-              "y": 0.5,
-              "audio": "audio/vo-sg-mouth.wav"
-            },
-            {
               "key": "FOOD",
               "label": "刮食藻类",
               "text": "它会刮着吃藻类。",
@@ -71,15 +62,6 @@
             }
           ],
           "facts": [
-            {
-              "id": "SG-01",
-              "text": "鹦嘴鱼的齿形成齿板，唇多覆盖齿板。",
-              "conditions": "鹦哥鱼是类群俗名。本卡限定 Scarus ghobban，插画选初始阶段黄橙褐色、蓝色嘴眼带与鳍缘，避免把终末雄鱼色型混到一条鱼。",
-              "checkedAt": "2026-10-06",
-              "sourceIds": [
-                "S-V2-SG"
-              ]
-            },
             {
               "id": "SG-03",
               "text": "刮食底栖藻类及死珊瑚表面碎屑。",
@@ -95,7 +77,7 @@
     },
     {
       "id": "fin",
-      "title": "鳍的结构",
+      "title": "鳍长在哪里？",
       "specimens": [
         {
           "id": "zanclus-cornutus",
@@ -163,7 +145,7 @@
     },
     {
       "id": "tail",
-      "title": "不同的尾部",
+      "title": "尾巴都一样吗？",
       "specimens": [
         {
           "id": "hippocampus-kuda",
@@ -231,7 +213,7 @@
     },
     {
       "id": "shape",
-      "title": "盒子和大翅膀",
+      "title": "身体可以像什么？",
       "specimens": [
         {
           "id": "ostracion-cubicus",
@@ -291,6 +273,290 @@
               "checkedAt": "2026-10-06",
               "sourceIds": [
                 "S-V2-MB"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pattern",
+      "title": "给它一件花衣服",
+      "specimens": [
+        {
+          "id": "penaeus-monodon",
+          "name": "虎虾",
+          "scientificName": "Penaeus monodon",
+          "image": "illustrations/penaeus-monodon.webp",
+          "introAudio": "audio/vo-vth-by-intro.wav",
+          "points": [
+            {
+              "key": "BODY",
+              "label": "深浅条带",
+              "text": "腹部一节一节的，上面有深浅相间的条带。",
+              "factIds": [
+                "VTH-BY-01"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-vth-by-body.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "VTH-BY-01",
+              "text": "腹部一节一节的，上面有深浅相间的条带。",
+              "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+              "checkedAt": "2026-10-07",
+              "sourceIds": [
+                "S-VTH-BY-63CD80AA"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "babylonia-areolata",
+          "name": "花螺",
+          "scientificName": "Babylonia areolata",
+          "image": "illustrations/babylonia-areolata.webp",
+          "introAudio": "audio/vo-vth-cw-intro.wav",
+          "points": [
+            {
+              "key": "BODY",
+              "label": "方方的斑点",
+              "text": "浅色的螺壳上，排着褐色方斑。",
+              "factIds": [
+                "VTH-CW-01"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-vth-cw-body.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "VTH-CW-01",
+              "text": "浅色的螺壳上，排着褐色方斑。",
+              "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+              "checkedAt": "2026-10-07",
+              "sourceIds": [
+                "S-VTH-CH-BC6275DF"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arms",
+      "title": "长长的腕，怎么画？",
+      "specimens": [
+        {
+          "id": "octopus-vulgaris",
+          "name": "普通章鱼",
+          "scientificName": "Octopus vulgaris",
+          "image": "illustrations/octopus-vulgaris.webp",
+          "introAudio": "audio/vo-vth-cs-intro.wav",
+          "points": [
+            {
+              "key": "BODY",
+              "label": "八条腕",
+              "text": "章鱼有八条腕，没有鱿鱼那两条长触腕。",
+              "factIds": [
+                "VTH-CS-01"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-vth-cs-body.wav"
+            },
+            {
+              "key": "DETAIL",
+              "label": "两排吸盘",
+              "text": "每条腕上，能看到两排吸盘。",
+              "factIds": [
+                "VTH-CS-02"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-vth-cs-detail.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "VTH-CS-01",
+              "text": "章鱼有八条腕，没有鱿鱼那两条长触腕。",
+              "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 普通章鱼存在物种复合群；不把旧资料的广域分布全部作为本种已证实分布。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+              "checkedAt": "2026-10-07",
+              "sourceIds": [
+                "S-VTH-CN-A28DA354"
+              ]
+            },
+            {
+              "id": "VTH-CS-02",
+              "text": "每条腕上，能看到两排吸盘。",
+              "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 普通章鱼存在物种复合群；不把旧资料的广域分布全部作为本种已证实分布。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+              "checkedAt": "2026-10-07",
+              "sourceIds": [
+                "S-VTH-CS-DB95CD0F"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "loligo-vulgaris",
+          "name": "欧洲鱿鱼",
+          "scientificName": "Loligo vulgaris",
+          "image": "illustrations/loligo-vulgaris.webp",
+          "introAudio": "audio/vo-vth-co-intro.wav",
+          "points": [
+            {
+              "key": "BODY",
+              "label": "细长身体",
+              "text": "身体细长，像一个长筒。",
+              "factIds": [
+                "VTH-CO-01"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-vth-co-body.wav"
+            },
+            {
+              "key": "DETAILTWO",
+              "label": "八加二",
+              "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+              "factIds": [
+                "VTH-CO-03"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-vth-co-detailtwo.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "VTH-CO-01",
+              "text": "身体细长，像一个长筒。",
+              "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+              "checkedAt": "2026-10-07",
+              "sourceIds": [
+                "S-VTH-CO-6D0E8642"
+              ]
+            },
+            {
+              "id": "VTH-CO-03",
+              "text": "鱿鱼和乌贼有八条腕，还有两条较长的触腕。",
+              "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+              "checkedAt": "2026-10-07",
+              "sourceIds": [
+                "S-VTH-CN-A28DA354"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shell",
+      "title": "把壳变成新点子",
+      "specimens": [
+        {
+          "id": "haliotis-discus",
+          "name": "盘鲍",
+          "scientificName": "Haliotis discus",
+          "image": "illustrations/haliotis-discus.webp",
+          "introAudio": "audio/vo-vth-cu-intro.wav",
+          "points": [
+            {
+              "key": "BODY",
+              "label": "耳朵形的壳",
+              "text": "一片扁扁的壳，轮廓像耳朵。",
+              "factIds": [
+                "VTH-CU-01"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-vth-cu-body.wav"
+            },
+            {
+              "key": "DETAIL",
+              "label": "一排小孔",
+              "text": "壳边有一排小孔。",
+              "factIds": [
+                "VTH-CU-02"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-vth-cu-detail.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "VTH-CU-01",
+              "text": "一片扁扁的壳，轮廓像耳朵。",
+              "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+              "checkedAt": "2026-10-07",
+              "sourceIds": [
+                "S-VTH-CU-6F38BF51"
+              ]
+            },
+            {
+              "id": "VTH-CU-02",
+              "text": "壳边有一排小孔。",
+              "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+              "checkedAt": "2026-10-07",
+              "sourceIds": [
+                "S-VTH-CU-6F38BF51"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pecten-maximus",
+          "name": "大扇贝",
+          "scientificName": "Pecten maximus",
+          "image": "illustrations/pecten-maximus.webp",
+          "introAudio": "audio/vo-vth-de-intro.wav",
+          "points": [
+            {
+              "key": "BODY",
+              "label": "扇形的壳",
+              "text": "两片壳像扇子一样展开。",
+              "factIds": [
+                "VTH-DE-01"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-vth-de-body.wav"
+            },
+            {
+              "key": "DETAIL",
+              "label": "凸壳和平壳",
+              "text": "一片壳比较鼓，另一片比较平。",
+              "factIds": [
+                "VTH-DE-02"
+              ],
+              "x": null,
+              "y": null,
+              "audio": "audio/vo-vth-de-detail.wav"
+            }
+          ],
+          "facts": [
+            {
+              "id": "VTH-DE-01",
+              "text": "两片壳像扇子一样展开。",
+              "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+              "checkedAt": "2026-10-07",
+              "sourceIds": [
+                "S-VTH-DE-0BFFE8ED"
+              ]
+            },
+            {
+              "id": "VTH-DE-02",
+              "text": "一片壳比较鼓，另一片比较平。",
+              "conditions": "限本卡明确物种／所选阶段与色型；中文食材俗名仅作生活联系；本卡以明确学名表示活体，不作为野外采集、鉴定或可食判断。 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。",
+              "checkedAt": "2026-10-07",
+              "sourceIds": [
+                "S-VTH-DE-0BFFE8ED"
               ]
             }
           ]
@@ -359,17 +625,6 @@
           "introAudio": "audio/vo-ho-intro.wav",
           "points": [
             {
-              "key": "HOME",
-              "label": "岩石海岸",
-              "text": "它会住在岩石海岸。",
-              "factIds": [
-                "HO-02"
-              ],
-              "x": 0.28,
-              "y": 0.54,
-              "audio": "audio/vo-ho-home.wav"
-            },
-            {
               "key": "EGGS",
               "label": "守护鱼卵",
               "text": "鱼爸爸，会守护附在小石头上的卵。",
@@ -382,15 +637,6 @@
             }
           ],
           "facts": [
-            {
-              "id": "HO-02",
-              "text": "栖息于岩石海岸及人工礁等环境。",
-              "conditions": "西北太平洋温带物种，不宣称是新加坡当地鱼",
-              "checkedAt": "2026-10-06",
-              "sourceIds": [
-                "S-FB-GREENLING"
-              ]
-            },
             {
               "id": "HO-03",
               "text": "卵块可附着小石，雄鱼守护卵块。",
@@ -690,12 +936,77 @@
       "checkedAt": "2026-10-06",
       "access": "direct-page",
       "notes": "Identification / Summary / Features / Appearance / Ecology；内容适用范围另见逐条事实"
+    },
+    {
+      "id": "S-VTH-BY-63CD80AA",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Penaeus monodon",
+      "url": "https://www.fao.org/4/ac765t/AC765T05.htm",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Penaeus monodon / morphology"
+    },
+    {
+      "id": "S-VTH-CH-BC6275DF",
+      "institution": "FAO 联合国粮农组织",
+      "title": "Scylla serrata",
+      "url": "https://openknowledge.fao.org/server/api/core/bitstreams/f32d004b-6358-44f3-8242-b9d23e5346d0/content",
+      "checkedAt": "2026-10-07",
+      "access": "indexed-account",
+      "notes": "Scylla serrata species account"
+    },
+    {
+      "id": "S-VTH-CN-A28DA354",
+      "institution": "Monterey Bay Aquarium",
+      "title": "Sepioteuthis lessoniana",
+      "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/cephalopods",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Eight arms / ten appendages: class-level anatomy"
+    },
+    {
+      "id": "S-VTH-CO-6D0E8642",
+      "institution": "Marine Biological Association / MarLIN",
+      "title": "Loligo vulgaris",
+      "url": "https://www.marlin.ac.uk/species/detail/1111/1000",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Description / identifying features"
+    },
+    {
+      "id": "S-VTH-CS-DB95CD0F",
+      "institution": "Marine Biological Association / MarLIN",
+      "title": "Octopus vulgaris",
+      "url": "https://www.marlin.ac.uk/species/detail/1117",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Description / identifying features"
+    },
+    {
+      "id": "S-VTH-CU-6F38BF51",
+      "institution": "台湾政府机构／海洋与渔业资料",
+      "title": "Haliotis discus",
+      "url": "https://www.agriculture.ntpc.gov.tw/en/gongliao_abalone.html",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Abalone species / shell / feeding"
+    },
+    {
+      "id": "S-VTH-DE-0BFFE8ED",
+      "institution": "Marine Biological Association / MarLIN",
+      "title": "Pecten maximus",
+      "url": "https://www.marlin.ac.uk/species/detail/1398",
+      "checkedAt": "2026-10-07",
+      "access": "direct-page",
+      "notes": "Description / identifying features / habitat"
     }
   ],
   "model": {
     "type": "procedural-original-design",
     "mirroredSide": true,
     "finStructure": "flat-paired-pectoral-and-dorsal-ventral",
-    "swimming": "game-animation-not-species-science"
+    "swimming": "game-animation-not-species-science",
+    "independentArms": false,
+    "shellStructure": false
   }
 }
