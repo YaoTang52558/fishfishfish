@@ -65,7 +65,7 @@ defineExpose({ rebuild: () => start(), loseContext: () => runtime?.simulateConte
         <strong>画面需要重新准备</strong><p>{{ failure }}</p>
         <button class="primary-button" @click="start">重新加载场景</button>
         <button v-if="round" class="primary-button" @click="emit('fallback')">继续使用简化画面</button>
-        <RouterLink to="/fishing/reef-edge">去原版钓场</RouterLink>
+        <RouterLink v-if="!round" to="/fishing/reef-edge">返回海面钓鱼</RouterLink>
       </template>
       <template v-else><span class="loading-mark" aria-hidden="true">◌</span><strong>正在准备钓场…</strong><p>海岸、浮漂和这片水域的鱼很快就到。</p></template>
     </div>

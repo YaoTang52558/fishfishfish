@@ -7,8 +7,7 @@ import { initPreferences } from './features/preferences.ts';
 void initPreferences();
 
 const route = useRoute();
-const scenePage = computed(() => route.name === 'dev-fishing-3d' || route.name === 'preview-fishing-3d'
-  || (import.meta.env.MODE === 'fishing-preview' && route.name === 'fishing'));
+const scenePage = computed(() => ['fishing', 'dev-fishing-3d', 'preview-fishing-3d'].includes(String(route.name)));
 const creativePage = computed(() => ['/create', '/ocean', '/journal'].includes(route.path));
 const main = ref<HTMLElement>();
 const links = [

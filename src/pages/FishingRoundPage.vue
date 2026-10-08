@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch } from 'vue';
-import { onBeforeRouteLeave, onBeforeRouteUpdate, useRouter } from 'vue-router';
+import { onBeforeRouteLeave, onBeforeRouteUpdate, useRoute, useRouter } from 'vue-router';
 import { habitats } from '../catalog/habitats';
 import { fishingContent } from '../domain/fishing3d/content';
 import type { HabitatId } from '../domain/types';
@@ -34,7 +34,7 @@ import { playCue, suspendAudio } from '../features/sound';
 import { openDatabase } from '../storage/db';
 import { loadAssets, loadProfile, recordCapture } from '../storage/repository';
 
-const prefs = usePreferences(), router = useRouter();
+const prefs = usePreferences(), router = useRouter(), route = useRoute();
 const props = withDefaults(defineProps<{ habitatId?: HabitatId }>(), { habitatId: 'reef-edge' });
 const habitat = habitats.find(item => item.id === props.habitatId)!;
 const session = createRoundSession(fishingContent(props.habitatId), Math.floor(Math.random() * 2 ** 31), prefs.assistMode.value, prefs.challenge.value);
@@ -92,11 +92,18 @@ const spotName = (id: CastSpot) => spots.find(item => item.id === id)!.name;
 const spotIdentity = (id: CastSpot) => props.habitatId === 'coastal-rock' ? ({ near: '岩缝边', middle: '浪花外', far: '外海' })[id] : ({ near: '浅沙湾', middle: '珊瑚旁', far: '深蓝处' })[id];
 const deviceLabel = ref(''), measurementStarted = ref('');
 const previewBuild = import.meta.env.MODE === 'fishing-preview';
+const developmentTools = computed(() => import.meta.env.DEV && route.path.startsWith('/dev/'));
+function changeHabitat(id: HabitatId) {
+  if (route.name === 'fishing') {
+    const query = { ...route.query }; delete query.habitat;
+    void router.push({ name: 'fishing', params: { habitatId: id }, query });
+  } else void router.push({ query: { ...route.query, habitat: id } });
+}
 function startMeasurement() { measurementStarted.value = new Date().toISOString(); scene.value?.startMeasurement(); }
 function exportMeasurement() {
   if (!diagnostics.value?.measurement) return;
   const data = { schema: 'fishing-3d-performance-v1', startedAt: measurementStarted.value, exportedAt: new Date().toISOString(),
-    deviceLabel: deviceLabel.value.trim(), environment: previewBuild ? 'preview-build' : 'development', userAgent: navigator.userAgent,
+    deviceLabel: deviceLabel.value.trim(), environment: previewBuild ? 'preview-build' : import.meta.env.DEV ? 'development' : 'production-build', userAgent: navigator.userAgent,
     viewport: { width: innerWidth, height: innerHeight, devicePixelRatio }, habitat: props.habitatId,
     assist: state.value.assist, reducedMotion: prefs.reducedMotion.value, sound: prefs.soundEnabled.value,
     challenge: state.value.challenge, knowledgeDepth: prefs.knowledgeDepth.value, gameRules: 'g3-growth-v1',
@@ -191,7 +198,7 @@ onBeforeUnmount(() => { document.removeEventListener('fullscreenchange', onFulls
       <FishingScene3D v-else ref="scene" :round="session" :view="view" :paused="gamePaused" :reduced-motion="prefs.reducedMotion.value" :quality="quality" @status="onStatus" @diagnostics="diagnostics = $event" @clear-input="controls?.clear()" @fallback="useFallback()" @spot="cast" />
       <div class="scene-top">
         <details class="habitat-menu"><summary :aria-label="'选择钓场，当前' + habitat.name">◈ <span class="habitat-label">{{ habitat.name }}</span><span aria-hidden="true">⌄</span></summary>
-          <nav class="choices" aria-label="选择钓场"><button v-for="item in habitats" :key="item.id" :aria-pressed="item.id === habitatId" :disabled="roundActive(state) || unresolved.length > 0 || capture?.status === 'failed' || capture?.status === 'saving'" @click="router.push({ query: { habitat: item.id } })">{{ item.name }}</button></nav>
+          <nav class="choices" aria-label="选择钓场"><button v-for="item in habitats" :key="item.id" :aria-pressed="item.id === habitatId" :disabled="roundActive(state) || unresolved.length > 0 || capture?.status === 'failed' || capture?.status === 'saving'" @click="changeHabitat(item.id)">{{ item.name }}</button></nav>
         </details>
         <div class="scene-tools">
           <MarineExplore compact :habitat="habitatId" @change="exploring = $event" />
@@ -246,8 +253,8 @@ onBeforeUnmount(() => { document.removeEventListener('fullscreenchange', onFulls
     <p v-if="fallbackReason || fullscreenError || greeting" role="status" class="prototype-note">{{ fallbackReason || fullscreenError || greeting }}</p>
     <p v-if="prefs.error.value" role="alert">设置保存失败：{{ prefs.error.value }}</p>
     <div v-for="record in unresolved" :key="record.attemptId" class="pending-save" role="status"><p>{{ record.status === 'saving' ? '放生的鱼还在记录中…' : '放生的鱼尚未保存：' + record.error }}</p><button v-if="record.status === 'failed'" @click="captureService.retry(record.attemptId)">重试记录</button></div>
-    <details class="diagnostics"><summary>{{ previewBuild ? '试玩验收记录' : '开发检查与试玩记录' }}</summary>
-      <div class="choices"><label>画面质量 <select v-model="quality"><option value="auto">自动</option><option value="standard">标准</option><option value="low">轻量</option></select></label><button v-if="!fallback" @click="scene?.rebuild()">重建场景</button><button v-if="!fallback && !previewBuild" @click="scene?.loseContext()">模拟显卡中断</button><button v-if="!fallback && !previewBuild" @click="scene?.restoreContext()">恢复显卡连接</button><button v-if="!fallback" @click="useFallback()">切换简化画面</button><RouterLink v-if="!previewBuild" to="/dev/fishing-3d/practice">三动作练习</RouterLink></div>
+    <details class="diagnostics"><summary>{{ developmentTools ? '开发检查与试玩记录' : previewBuild ? '试玩验收记录' : '家长与试玩记录' }}</summary>
+      <div class="choices"><label>画面质量 <select v-model="quality"><option value="auto">自动</option><option value="standard">标准</option><option value="low">轻量</option></select></label><button v-if="!fallback" @click="scene?.rebuild()">重建场景</button><button v-if="!fallback && developmentTools" @click="scene?.loseContext()">模拟显卡中断</button><button v-if="!fallback && developmentTools" @click="scene?.restoreContext()">恢复显卡连接</button><button v-if="!fallback" @click="useFallback()">切换简化画面</button><RouterLink v-if="developmentTools" to="/dev/fishing-3d/practice">三动作练习</RouterLink></div>
       <p v-if="diagnostics?.quality === 'low' && quality === 'auto'" role="status">帧率持续偏低，画面已自动调为轻量；收放线规则和奖励相同。</p>
       <pre>阶段 {{ state.phase }} · 当前阶段 {{ state.ticks }} 步 · 凭证 {{ state.attemptId ?? '无' }}
 {{ diagnostics ? `${diagnostics.fps.toFixed(1)} fps · P95 ${diagnostics.p95.toFixed(1)} ms · ${diagnostics.calls} 次绘制 · ${diagnostics.triangles} 三角形\n${diagnostics.quality === 'low' ? '轻量' : '标准'} · DPR ${diagnostics.dpr} · 活动场景 ${diagnostics.scenes} · 循环 ${diagnostics.loops}\n几何 ${diagnostics.geometries} · 纹理 ${diagnostics.textures} · 资源 ${diagnostics.resources} · 创建 ${diagnostics.created} / 释放 ${diagnostics.disposed}` : '' }}</pre>

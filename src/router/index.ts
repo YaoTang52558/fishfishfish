@@ -9,8 +9,7 @@ export const router = createRouter({
     { path: '/ocean', name: 'ocean', component: () => import('../pages/OceanPage.vue'), meta: { title: '我的海洋' } },
     { path: '/fishing', redirect: '/fishing/reef-edge' },
     {
-      path: '/fishing/:habitatId', name: 'fishing', component: import.meta.env.MODE === 'fishing-preview'
-        ? () => import('../pages/DevFishing3DContentPage.vue') : () => import('../pages/FishingPage.vue'),
+      path: '/fishing/:habitatId', name: 'fishing', component: () => import('../pages/FishingPage.vue'),
       meta: { title: '去钓鱼' },
     },
     { path: '/journal', name: 'journal', component: () => import('../pages/JournalPage.vue'), meta: { title: '图鉴' } },
@@ -23,7 +22,7 @@ export const router = createRouter({
       { path: '/dev/fishing-3d/practice', name: 'dev-fishing-3d-practice', component: () => import('../pages/DevFishing3DPage.vue'), meta: { title: '3D 搏鱼练习' } },
       { path: '/dev/fishing-3d/models', name: 'dev-fish-models', component: () => import('../pages/DevFishModelsPage.vue'), meta: { title: '12 种鱼的三维模型' } },
     ] : []),
-    // Candidate build for real-device acceptance; the normal release keeps its existing fishing route.
+    // Retain the candidate-build URL for existing real-device playtest instructions.
     ...(import.meta.env.MODE === 'fishing-preview' ? [
       { path: '/preview/fishing-3d', name: 'preview-fishing-3d', component: () => import('../pages/DevFishing3DContentPage.vue'), meta: { title: '3D 钓鱼试玩' } },
     ] : []),
