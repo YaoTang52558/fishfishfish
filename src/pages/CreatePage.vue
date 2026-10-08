@@ -288,7 +288,7 @@ onBeforeUnmount(() => { session?.dispose(); window.removeEventListener('keydown'
     <section class="workshop-stage studio-stage" :class="{ 'has-preview': !!editor.preview.value }" aria-label="鱼造型预览">
       <div class="stage-toolbar" role="toolbar" aria-label="编辑操作">
         <ContextHelp :topic="helpTopic" :disabled="!!session?.committing.value || loading" @change="helpOpen = $event; finishGesture()" />
-        <CreativeKnowledge v-show="mode === 'edit'" :initial-topic="knowledgeTopic" :design="design" :paint="color?.canvas" :glow="glow?.canvas" :disabled="!!editor.preview.value || loading" @opened="finishGesture(); knowledgeOpen = true" @closed="knowledgeOpen = false" />
+        <CreativeKnowledge v-show="mode === 'edit'" :active="mode === 'edit'" :initial-topic="knowledgeTopic" :design="design" :color="color" :glow="glow" :paint-tick="editor.paintTick.value" :disabled="!!editor.preview.value || loading" @opened="finishGesture(); knowledgeOpen = true" @closed="knowledgeOpen = false" @applied="borrowFeature" @draw="quickTool('pen')" />
         <button class="chip-button" aria-label="撤销" :disabled="!editor.canUndo.value || trial || !!editor.preview.value" @click="editor.undo()"><span aria-hidden="true">↶</span> 撤销</button>
         <button class="chip-button" aria-label="重做" :disabled="!editor.canRedo.value || trial || !!editor.preview.value" @click="editor.redo()"><span aria-hidden="true">↷</span> 重做</button>
         <details class="studio-more"><summary>⋯ 更多</summary><div class="studio-more-panel">
@@ -326,6 +326,7 @@ onBeforeUnmount(() => { session?.dispose(); window.removeEventListener('keydown'
       <div v-if="!trial" class="studio-dock studio-dock--left" role="group" aria-label="尾巴、身体和鱼鳍工具" :inert="!!editor.preview.value">
         <button v-for="group in leftDock" :key="group.key" :data-part-tool="group.key" :aria-label="`换${group.title}`" :aria-pressed="selected === group.tab && activePart === group.key" @click="selectGroup(group.key)"><PartThumb :design="design" :focus="group.focus" /><span>{{ group.title }}</span></button>
       </div>
+      <div id="creative-reference-slot" v-show="mode === 'edit'"></div>
       <FishCanvas v-if="!trial" :design="editor.preview.value ?? design" :color="color" :glow="glow" :paint-tick="editor.paintTick.value"
         :interactive="!editor.preview.value && selected === '画笔' && !!layers" :sculpting="sculpting && !editor.preview.value" :dark="dark" :selected-stamp-id="editor.tool.value === 'stamp' ? editor.selectedStampId.value : null"
         :label="stageLabel"
@@ -529,4 +530,7 @@ onBeforeUnmount(() => { session?.dispose(); window.removeEventListener('keydown'
 }
 </style>
 
-<style scoped>@media(max-width:480px){.studio-stage>.studio-quicktools{grid-row:calc(var(--studio-tool-row,3) + 1)}.studio-stage>.studio-quickpalette{grid-row:calc(var(--studio-tool-row,3) + 2)}.studio-stage>.stage-bottom{grid-row:calc(var(--studio-tool-row,3) + 3)}}.is-observing .studio-stage>.stage-bottom{grid-row:auto}</style>
+<style scoped>
+#creative-reference-slot{grid-column:1/-1;grid-row:calc(var(--studio-row,2) + 4);padding:0 12px}#creative-reference-slot:empty{display:none}
+@media(max-width:480px){.studio-stage>.studio-quicktools{grid-row:calc(var(--studio-tool-row,3) + 1)}.studio-stage>.studio-quickpalette{grid-row:calc(var(--studio-tool-row,3) + 2)}.studio-stage>.stage-bottom{grid-row:calc(var(--studio-tool-row,3) + 3)}#creative-reference-slot{grid-row:calc(var(--studio-tool-row,3) + 4);padding:0 8px}}.is-observing .studio-stage>.stage-bottom{grid-row:auto}
+</style>

@@ -1986,7 +1986,9 @@
       "scientificName": "Gnathanodon speciosus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "金鲹"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/gnathanodon-speciosus.webp",
@@ -2051,7 +2053,9 @@
       "scientificName": "Rachycentron canadum",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "军曹鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/rachycentron-canadum.webp",
@@ -2116,7 +2120,9 @@
       "scientificName": "Lutjanus argentimaculatus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "红树林红笛鲷"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/lutjanus-argentimaculatus.webp",
@@ -2181,7 +2187,9 @@
       "scientificName": "Lutjanus johnii",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "金目笛鲷"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/lutjanus-johnii.webp",
@@ -2246,7 +2254,9 @@
       "scientificName": "Lutjanus sebae",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "红皇帝笛鲷"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/lutjanus-sebae.webp",
@@ -2311,7 +2321,9 @@
       "scientificName": "Lethrinus nebulosus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "星斑裸颊鲷"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/lethrinus-nebulosus.webp",
@@ -2376,7 +2388,9 @@
       "scientificName": "Cheilinus undulatus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "苏眉鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/cheilinus-undulatus.webp",
@@ -2441,7 +2455,9 @@
       "scientificName": "Thalassoma lunare",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "月尾隆头鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/thalassoma-lunare.webp",
@@ -2506,7 +2522,9 @@
       "scientificName": "Chromis viridis",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "蓝绿雀鲷"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/chromis-viridis.webp",
@@ -2571,7 +2589,9 @@
       "scientificName": "Balistoides conspicillum",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "花纹鳞鲀"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/balistoides-conspicillum.webp",
@@ -2636,7 +2656,9 @@
       "scientificName": "Gymnothorax javanicus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "巨型裸胸鳝"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/gymnothorax-javanicus.webp",
@@ -2701,7 +2723,9 @@
       "scientificName": "Platax teira",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "长鳍燕鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/platax-teira.webp",
@@ -2766,7 +2790,9 @@
       "scientificName": "Aulostomus chinensis",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "中国管口鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/aulostomus-chinensis.webp",
@@ -2826,7 +2852,7 @@
     {
       "id": "salmo-salar",
       "prefix": "VTH-AN",
-      "name": "大西洋鲑（三文鱼）",
+      "name": "大西洋三文鱼",
       "formalName": "大西洋鲑",
       "scientificName": "Salmo salar",
       "category": "fish",
@@ -2834,13 +2860,14 @@
       "aliases": [
         "三文鱼",
         "大西洋鲑",
-        "鲑鱼"
+        "鲑鱼",
+        "大西洋鲑（三文鱼）"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/salmo-salar.webp",
       "intro": [
-        "这是大西洋鲑。大西洋鲑在海里时，身体两侧是银色的。",
+        "这是大西洋三文鱼。大西洋鲑在海里时，身体两侧是银色的。",
         [
           "VTH-AN-01"
         ]
@@ -2900,7 +2927,9 @@
       "scientificName": "Scomber scombrus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "大西洋鲭"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/scomber-scombrus.webp",
@@ -2965,7 +2994,9 @@
       "scientificName": "Clupea harengus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "大西洋鲱"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/clupea-harengus.webp",
@@ -3025,12 +3056,15 @@
     {
       "id": "paralichthys-dentatus",
       "prefix": "VTH-AQ",
-      "name": "夏鲆（比目鱼）",
+      "name": "夏鲆",
       "formalName": "夏鲆",
       "scientificName": "Paralichthys dentatus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "夏鲆（比目鱼）",
+        "夏鲆"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/paralichthys-dentatus.webp",
@@ -3095,7 +3129,9 @@
       "scientificName": "Carcharhinus melanopterus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "黑鳍礁鲨"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/carcharhinus-melanopterus.webp",
@@ -3160,7 +3196,9 @@
       "scientificName": "Rhincodon typus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "鲸鲨"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/rhincodon-typus.webp",
@@ -3225,7 +3263,9 @@
       "scientificName": "Taeniura lymma",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "蓝点扇尾魟"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/taeniura-lymma.webp",
@@ -3290,7 +3330,9 @@
       "scientificName": "Periophthalmodon schlosseri",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "大弹涂鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/periophthalmodon-schlosseri.webp",
@@ -3355,7 +3397,9 @@
       "scientificName": "Melanocetus johnsonii",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "黑角鮟鱇"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/melanocetus-johnsonii.webp",
@@ -3420,7 +3464,9 @@
       "scientificName": "Pagrus major",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "真鲷"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/pagrus-major.webp",
@@ -3485,7 +3531,9 @@
       "scientificName": "Acanthopagrus latus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "黄鳍鲷"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/acanthopagrus-latus.webp",
@@ -3550,7 +3598,9 @@
       "scientificName": "Mugil cephalus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "鲻鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/mugil-cephalus.webp",
@@ -3615,7 +3665,9 @@
       "scientificName": "Pampus argenteus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "银鲳"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/pampus-argenteus.webp",
@@ -3675,12 +3727,15 @@
     {
       "id": "trachinotus-blochii",
       "prefix": "VTH-BA",
-      "name": "金鲳（卵形鲳鲹）",
+      "name": "金鲳",
       "formalName": "金鲳",
       "scientificName": "Trachinotus blochii",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "金鲳（卵形鲳鲹）",
+        "金鲳"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/trachinotus-blochii.webp",
@@ -3740,12 +3795,15 @@
     {
       "id": "eleutheronema-tetradactylum",
       "prefix": "VTH-BB",
-      "name": "马友（四指马鲅）",
+      "name": "马友",
       "formalName": "马友",
       "scientificName": "Eleutheronema tetradactylum",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "马友（四指马鲅）",
+        "马友"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/eleutheronema-tetradactylum.webp",
@@ -3810,7 +3868,9 @@
       "scientificName": "Siganus javus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "条纹篮子鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/siganus-javus.webp",
@@ -3875,7 +3935,9 @@
       "scientificName": "Caranx melampygus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "蓝鳍鲹"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/caranx-melampygus.webp",
@@ -3942,7 +4004,8 @@
       "group": "expanded",
       "aliases": [
         "蓝鳍金枪鱼",
-        "吞拿鱼"
+        "吞拿鱼",
+        "大西洋蓝鳍金枪鱼"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -4076,7 +4139,9 @@
       "scientificName": "Xiphias gladius",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "剑鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/xiphias-gladius.webp",
@@ -4141,7 +4206,9 @@
       "scientificName": "Istiophorus platypterus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "旗鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/istiophorus-platypterus.webp",
@@ -4206,7 +4273,9 @@
       "scientificName": "Coryphaena hippurus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "鲯鳅"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/coryphaena-hippurus.webp",
@@ -4271,7 +4340,9 @@
       "scientificName": "Sardina pilchardus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "欧洲沙丁鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/sardina-pilchardus.webp",
@@ -4336,7 +4407,9 @@
       "scientificName": "Engraulis encrasicolus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "欧洲鳀鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/engraulis-encrasicolus.webp",
@@ -4401,7 +4474,9 @@
       "scientificName": "Trachurus japonicus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "日本竹荚鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/trachurus-japonicus.webp",
@@ -4468,7 +4543,8 @@
       "group": "expanded",
       "aliases": [
         "鳕鱼",
-        "太平洋鳕鱼"
+        "太平洋鳕鱼",
+        "太平洋鳕"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -4603,7 +4679,9 @@
       "scientificName": "Melanogrammus aeglefinus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "黑线鳕"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/melanogrammus-aeglefinus.webp",
@@ -4668,7 +4746,9 @@
       "scientificName": "Hippoglossus hippoglossus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "大西洋大比目鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/hippoglossus-hippoglossus.webp",
@@ -4733,7 +4813,9 @@
       "scientificName": "Phycodurus eques",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "叶海龙"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/phycodurus-eques.webp",
@@ -4798,7 +4880,9 @@
       "scientificName": "Diodon hystrix",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "密斑刺鲀"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/diodon-hystrix.webp",
@@ -4858,12 +4942,15 @@
     {
       "id": "pterois-volitans",
       "prefix": "VTH-BS",
-      "name": "蓑鲉（狮子鱼）",
+      "name": "蓑鲉",
       "formalName": "蓑鲉",
       "scientificName": "Pterois volitans",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "蓑鲉（狮子鱼）",
+        "蓑鲉"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/pterois-volitans.webp",
@@ -4928,7 +5015,9 @@
       "scientificName": "Cheilopogon pinnatibarbatus",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "高鳍飞鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/cheilopogon-pinnatibarbatus.webp",
@@ -4993,7 +5082,9 @@
       "scientificName": "Mola mola",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "翻车鱼"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/mola-mola.webp",
@@ -5058,7 +5149,9 @@
       "scientificName": "Chiloscyllium plagiosum",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "白斑竹鲨"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/chiloscyllium-plagiosum.webp",
@@ -5125,7 +5218,8 @@
       "group": "expanded",
       "aliases": [
         "斑马鲨",
-        "Stegostoma fasciatum"
+        "Stegostoma fasciatum",
+        "豹纹鲨"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -5187,12 +5281,15 @@
     {
       "id": "sphyrna-lewini",
       "prefix": "VTH-BX",
-      "name": "路氏双髻鲨（锤头鲨）",
+      "name": "路氏双髻鲨",
       "formalName": "路氏双髻鲨",
       "scientificName": "Sphyrna lewini",
       "category": "fish",
       "group": "expanded",
-      "aliases": [],
+      "aliases": [
+        "路氏双髻鲨（锤头鲨）",
+        "路氏双髻鲨"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/sphyrna-lewini.webp",
@@ -5252,7 +5349,7 @@
     {
       "id": "penaeus-monodon",
       "prefix": "VTH-BY",
-      "name": "斑节对虾（虎虾）",
+      "name": "虎虾",
       "formalName": "斑节对虾",
       "scientificName": "Penaeus monodon",
       "category": "shrimp",
@@ -5260,13 +5357,15 @@
       "aliases": [
         "虎虾",
         "草虾",
-        "黑虎虾"
+        "黑虎虾",
+        "斑节对虾（虎虾）",
+        "斑节对虾"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/penaeus-monodon.webp",
       "intro": [
-        "这是斑节对虾。腹部一节一节的，上面有深浅相间的条带。",
+        "这是虎虾。腹部一节一节的，上面有深浅相间的条带。",
         [
           "VTH-BY-01"
         ]
@@ -5329,7 +5428,8 @@
       "aliases": [
         "白虾",
         "白对虾",
-        "Litopenaeus vannamei"
+        "Litopenaeus vannamei",
+        "南美白对虾"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -5390,7 +5490,7 @@
     {
       "id": "penaeus-japonicus",
       "prefix": "VTH-CA",
-      "name": "日本对虾（车虾）",
+      "name": "车虾",
       "formalName": "日本对虾",
       "scientificName": "Penaeus japonicus",
       "category": "shrimp",
@@ -5398,13 +5498,15 @@
       "aliases": [
         "车虾",
         "竹节虾",
-        "Marsupenaeus japonicus"
+        "Marsupenaeus japonicus",
+        "日本对虾（车虾）",
+        "日本对虾"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/penaeus-japonicus.webp",
       "intro": [
-        "这是日本对虾。身体上有一条条深色横带。",
+        "这是车虾。身体上有一条条深色横带。",
         [
           "VTH-CA-01"
         ]
@@ -5459,20 +5561,22 @@
     {
       "id": "penaeus-merguiensis",
       "prefix": "VTH-CB",
-      "name": "墨吉对虾（香蕉虾）",
+      "name": "香蕉虾",
       "formalName": "墨吉对虾",
       "scientificName": "Penaeus merguiensis",
       "category": "shrimp",
       "group": "marine",
       "aliases": [
         "香蕉虾",
-        "白虾"
+        "白虾",
+        "墨吉对虾（香蕉虾）",
+        "墨吉对虾"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/penaeus-merguiensis.webp",
       "intro": [
-        "这是墨吉对虾。身体可以是浅黄色、粉色或灰绿色。",
+        "这是香蕉虾。身体可以是浅黄色、粉色或灰绿色。",
         [
           "VTH-CB-01"
         ]
@@ -5527,20 +5631,22 @@
     {
       "id": "pandalus-borealis",
       "prefix": "VTH-CC",
-      "name": "北方长额虾（北极甜虾）",
+      "name": "北极甜虾",
       "formalName": "北方长额虾",
       "scientificName": "Pandalus borealis",
       "category": "shrimp",
       "group": "marine",
       "aliases": [
         "甜虾",
-        "北极虾"
+        "北极虾",
+        "北方长额虾（北极甜虾）",
+        "北方长额虾"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/pandalus-borealis.webp",
       "intro": [
-        "这是北方长额虾。它活着的时候就可以带红色，身体有些透明。",
+        "这是北极甜虾。它活着的时候就可以带红色，身体有些透明。",
         [
           "VTH-CC-01"
         ]
@@ -5595,7 +5701,7 @@
     {
       "id": "oratosquilla-oratoria",
       "prefix": "VTH-CD",
-      "name": "口虾蛄（皮皮虾）",
+      "name": "皮皮虾",
       "formalName": "口虾蛄",
       "scientificName": "Oratosquilla oratoria",
       "category": "shrimp",
@@ -5603,13 +5709,15 @@
       "aliases": [
         "皮皮虾",
         "虾蛄",
-        "濑尿虾"
+        "濑尿虾",
+        "口虾蛄（皮皮虾）",
+        "口虾蛄"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/oratosquilla-oratoria.webp",
       "intro": [
-        "这是口虾蛄。身体一节一节的，尾端有宽宽的尾扇。",
+        "这是皮皮虾。身体一节一节的，尾端有宽宽的尾扇。",
         [
           "VTH-CD-01"
         ]
@@ -5671,7 +5779,8 @@
       "group": "marine",
       "aliases": [
         "花龙虾",
-        "龙虾"
+        "龙虾",
+        "锦绣龙虾"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -5739,7 +5848,8 @@
       "group": "marine",
       "aliases": [
         "青龙虾",
-        "龙虾"
+        "龙虾",
+        "波纹龙虾"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -5807,7 +5917,8 @@
       "group": "marine",
       "aliases": [
         "波士顿龙虾",
-        "螯龙虾"
+        "螯龙虾",
+        "美洲螯龙虾"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -5868,20 +5979,21 @@
     {
       "id": "scylla-serrata",
       "prefix": "VTH-CH",
-      "name": "锯缘青蟹",
+      "name": "青蟹",
       "formalName": "锯缘青蟹",
       "scientificName": "Scylla serrata",
       "category": "crab",
       "group": "marine",
       "aliases": [
         "青蟹",
-        "泥蟹"
+        "泥蟹",
+        "锯缘青蟹"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/scylla-serrata.webp",
       "intro": [
-        "这是锯缘青蟹。壳可以是绿色到近黑色。",
+        "这是青蟹。壳可以是绿色到近黑色。",
         [
           "VTH-CH-01"
         ]
@@ -5936,7 +6048,7 @@
     {
       "id": "portunus-pelagicus",
       "prefix": "VTH-CI",
-      "name": "远海梭子蟹（花蟹）",
+      "name": "花蟹",
       "formalName": "远海梭子蟹",
       "scientificName": "Portunus pelagicus",
       "category": "crab",
@@ -5944,13 +6056,15 @@
       "aliases": [
         "花蟹",
         "蓝泳蟹",
-        "梭子蟹"
+        "梭子蟹",
+        "远海梭子蟹（花蟹）",
+        "远海梭子蟹"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/portunus-pelagicus.webp",
       "intro": [
-        "这是远海梭子蟹。身体的壳像一把扇子，两侧有尖齿。",
+        "这是花蟹。身体的壳像一把扇子，两侧有尖齿。",
         [
           "VTH-CI-01"
         ]
@@ -6005,7 +6119,7 @@
     {
       "id": "charybdis-feriata",
       "prefix": "VTH-CJ",
-      "name": "锈斑蟳（红花蟹）",
+      "name": "红花蟹",
       "formalName": "锈斑蟳",
       "scientificName": "Charybdis feriata",
       "category": "crab",
@@ -6013,13 +6127,15 @@
       "aliases": [
         "红花蟹",
         "十字蟹",
-        "Charybdis feriatus"
+        "Charybdis feriatus",
+        "锈斑蟳（红花蟹）",
+        "锈斑蟳"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/charybdis-feriata.webp",
       "intro": [
-        "这是锈斑蟳。背壳中间，可以有浅色的十字图案。",
+        "这是红花蟹。背壳中间，可以有浅色的十字图案。",
         [
           "VTH-CJ-01"
         ]
@@ -6075,19 +6191,21 @@
     {
       "id": "cancer-pagurus",
       "prefix": "VTH-CK",
-      "name": "黄道蟹（面包蟹）",
+      "name": "面包蟹",
       "formalName": "黄道蟹",
       "scientificName": "Cancer pagurus",
       "category": "crab",
       "group": "marine",
       "aliases": [
-        "面包蟹"
+        "面包蟹",
+        "黄道蟹（面包蟹）",
+        "黄道蟹"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/cancer-pagurus.webp",
       "intro": [
-        "这是黄道蟹。椭圆的厚壳，边缘像一圈小波浪。",
+        "这是面包蟹。椭圆的厚壳，边缘像一圈小波浪。",
         [
           "VTH-CK-01"
         ]
@@ -6209,20 +6327,22 @@
     {
       "id": "paralithodes-camtschaticus",
       "prefix": "VTH-CM",
-      "name": "堪察加拟石蟹（帝王蟹）",
+      "name": "红帝王蟹",
       "formalName": "堪察加拟石蟹",
       "scientificName": "Paralithodes camtschaticus",
       "category": "crab",
       "group": "marine",
       "aliases": [
         "帝王蟹",
-        "红帝王蟹"
+        "红帝王蟹",
+        "堪察加拟石蟹（帝王蟹）",
+        "堪察加拟石蟹"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/paralithodes-camtschaticus.webp",
       "intro": [
-        "这是堪察加拟石蟹。背壳和脚上有尖尖的小刺。",
+        "这是红帝王蟹。背壳和脚上有尖尖的小刺。",
         [
           "VTH-CM-01"
         ]
@@ -6277,7 +6397,7 @@
     {
       "id": "sepioteuthis-lessoniana",
       "prefix": "VTH-CN",
-      "name": "莱氏拟乌贼（大鳍鱿鱼）",
+      "name": "大鳍鱿鱼",
       "formalName": "莱氏拟乌贼",
       "scientificName": "Sepioteuthis lessoniana",
       "category": "cephalopod",
@@ -6285,13 +6405,15 @@
       "aliases": [
         "软丝",
         "大鳍鱿鱼",
-        "鱿鱼"
+        "鱿鱼",
+        "莱氏拟乌贼（大鳍鱿鱼）",
+        "莱氏拟乌贼"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/sepioteuthis-lessoniana.webp",
       "intro": [
-        "这是莱氏拟乌贼。身体两侧的鳍很宽，看起来有些像乌贼。",
+        "这是大鳍鱿鱼。身体两侧的鳍很宽，看起来有些像乌贼。",
         [
           "VTH-CN-01"
         ]
@@ -6347,20 +6469,22 @@
     {
       "id": "loligo-vulgaris",
       "prefix": "VTH-CO",
-      "name": "欧洲枪乌贼（鱿鱼）",
+      "name": "欧洲鱿鱼",
       "formalName": "欧洲枪乌贼",
       "scientificName": "Loligo vulgaris",
       "category": "cephalopod",
       "group": "marine",
       "aliases": [
         "鱿鱼",
-        "枪乌贼"
+        "枪乌贼",
+        "欧洲枪乌贼（鱿鱼）",
+        "欧洲枪乌贼"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/loligo-vulgaris.webp",
       "intro": [
-        "这是欧洲枪乌贼。身体细长，像一个长筒。",
+        "这是欧洲鱿鱼。身体细长，像一个长筒。",
         [
           "VTH-CO-01"
         ]
@@ -6416,20 +6540,22 @@
     {
       "id": "dosidicus-gigas",
       "prefix": "VTH-CP",
-      "name": "茎柔鱼（洪堡鱿鱼）",
+      "name": "洪堡鱿鱼",
       "formalName": "茎柔鱼",
       "scientificName": "Dosidicus gigas",
       "category": "cephalopod",
       "group": "marine",
       "aliases": [
         "鱿鱼",
-        "洪堡鱿鱼"
+        "洪堡鱿鱼",
+        "茎柔鱼（洪堡鱿鱼）",
+        "茎柔鱼"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/dosidicus-gigas.webp",
       "intro": [
-        "这是茎柔鱼。皮肤上的深浅图案会发生变化。",
+        "这是洪堡鱿鱼。皮肤上的深浅图案会发生变化。",
         [
           "VTH-CP-01"
         ]
@@ -6494,7 +6620,8 @@
         "墨鱼",
         "乌贼",
         "花枝",
-        "Sepia pharaonis"
+        "Sepia pharaonis",
+        "虎斑乌贼"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -6557,20 +6684,22 @@
     {
       "id": "sepia-officinalis",
       "prefix": "VTH-CR",
-      "name": "普通乌贼（墨鱼）",
+      "name": "普通墨鱼",
       "formalName": "普通乌贼",
       "scientificName": "Sepia officinalis",
       "category": "cephalopod",
       "group": "marine",
       "aliases": [
         "墨鱼",
-        "乌贼"
+        "乌贼",
+        "普通乌贼（墨鱼）",
+        "普通乌贼"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/sepia-officinalis.webp",
       "intro": [
-        "这是普通乌贼。它会改变身体的颜色、图案和表面样子。",
+        "这是普通墨鱼。它会改变身体的颜色、图案和表面样子。",
         [
           "VTH-CR-01"
         ]
@@ -6633,7 +6762,8 @@
       "group": "marine",
       "aliases": [
         "章鱼",
-        "八爪鱼"
+        "八爪鱼",
+        "普通章鱼"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -6695,20 +6825,21 @@
     {
       "id": "enteroctopus-dofleini",
       "prefix": "VTH-CT",
-      "name": "北太平洋巨型章鱼",
+      "name": "北太平洋大章鱼",
       "formalName": "北太平洋巨型章鱼",
       "scientificName": "Enteroctopus dofleini",
       "category": "cephalopod",
       "group": "marine",
       "aliases": [
         "章鱼",
-        "大章鱼"
+        "大章鱼",
+        "北太平洋巨型章鱼"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/enteroctopus-dofleini.webp",
       "intro": [
-        "这是北太平洋巨型章鱼。它有八条带着吸盘的腕。",
+        "这是北太平洋大章鱼。它有八条带着吸盘的腕。",
         [
           "VTH-CT-01"
         ]
@@ -6763,13 +6894,15 @@
     {
       "id": "haliotis-discus",
       "prefix": "VTH-CU",
-      "name": "盘鲍（鲍鱼）",
+      "name": "盘鲍",
       "formalName": "盘鲍",
       "scientificName": "Haliotis discus",
       "category": "gastropod",
       "group": "marine",
       "aliases": [
-        "鲍鱼"
+        "鲍鱼",
+        "盘鲍（鲍鱼）",
+        "盘鲍"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -6837,7 +6970,8 @@
       "group": "marine",
       "aliases": [
         "鲍鱼",
-        "九孔"
+        "九孔",
+        "杂色鲍"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -6898,20 +7032,22 @@
     {
       "id": "babylonia-areolata",
       "prefix": "VTH-CW",
-      "name": "方斑东风螺（花螺）",
+      "name": "花螺",
       "formalName": "方斑东风螺",
       "scientificName": "Babylonia areolata",
       "category": "gastropod",
       "group": "marine",
       "aliases": [
         "花螺",
-        "东风螺"
+        "东风螺",
+        "方斑东风螺（花螺）",
+        "方斑东风螺"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/babylonia-areolata.webp",
       "intro": [
-        "这是方斑东风螺。浅色的螺壳上，排着褐色方斑。",
+        "这是花螺。浅色的螺壳上，排着褐色方斑。",
         [
           "VTH-CW-01"
         ]
@@ -6966,14 +7102,16 @@
     {
       "id": "rapana-venosa",
       "prefix": "VTH-CX",
-      "name": "脉红螺（海螺）",
+      "name": "脉红螺",
       "formalName": "脉红螺",
       "scientificName": "Rapana venosa",
       "category": "gastropod",
       "group": "marine",
       "aliases": [
         "海螺",
-        "红螺"
+        "红螺",
+        "脉红螺（海螺）",
+        "脉红螺"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -7039,7 +7177,9 @@
       "scientificName": "Aliger gigas",
       "category": "gastropod",
       "group": "marine",
-      "aliases": [],
+      "aliases": [
+        "女王凤凰螺"
+      ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/aliger-gigas.webp",
@@ -7099,7 +7239,7 @@
     {
       "id": "ruditapes-philippinarum",
       "prefix": "VTH-CZ",
-      "name": "菲律宾蛤仔（花蛤）",
+      "name": "花蛤",
       "formalName": "菲律宾蛤仔",
       "scientificName": "Ruditapes philippinarum",
       "category": "bivalve",
@@ -7107,13 +7247,15 @@
       "aliases": [
         "花蛤",
         "蛤蜊",
-        "蛤仔"
+        "蛤仔",
+        "菲律宾蛤仔（花蛤）",
+        "菲律宾蛤仔"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/ruditapes-philippinarum.webp",
       "intro": [
-        "这是菲律宾蛤仔。身体外面，有两片椭圆的壳。",
+        "这是花蛤。身体外面，有两片椭圆的壳。",
         [
           "VTH-CZ-01"
         ]
@@ -7236,7 +7378,7 @@
     {
       "id": "perna-viridis",
       "prefix": "VTH-DB",
-      "name": "翡翠贻贝（青口）",
+      "name": "青口贝",
       "formalName": "翡翠贻贝",
       "scientificName": "Perna viridis",
       "category": "bivalve",
@@ -7244,13 +7386,15 @@
       "aliases": [
         "青口",
         "淡菜",
-        "贻贝"
+        "贻贝",
+        "翡翠贻贝（青口）",
+        "翡翠贻贝"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/perna-viridis.webp",
       "intro": [
-        "这是翡翠贻贝。幼小的时候，壳常常是鲜绿色。",
+        "这是青口贝。幼小的时候，壳常常是鲜绿色。",
         [
           "VTH-DB-01"
         ]
@@ -7305,7 +7449,7 @@
     {
       "id": "mytilus-edulis",
       "prefix": "VTH-DC",
-      "name": "紫贻贝（蓝贻贝）",
+      "name": "蓝贻贝",
       "formalName": "紫贻贝",
       "scientificName": "Mytilus edulis",
       "category": "bivalve",
@@ -7313,13 +7457,15 @@
       "aliases": [
         "青口",
         "淡菜",
-        "贻贝"
+        "贻贝",
+        "紫贻贝（蓝贻贝）",
+        "紫贻贝"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/mytilus-edulis.webp",
       "intro": [
-        "这是紫贻贝。两片壳的轮廓，有些像长长的水滴。",
+        "这是蓝贻贝。两片壳的轮廓，有些像长长的水滴。",
         [
           "VTH-DC-01"
         ]
@@ -7374,7 +7520,7 @@
     {
       "id": "magallana-gigas",
       "prefix": "VTH-DD",
-      "name": "太平洋牡蛎（生蚝）",
+      "name": "太平洋生蚝",
       "formalName": "太平洋牡蛎",
       "scientificName": "Magallana gigas",
       "category": "bivalve",
@@ -7382,13 +7528,15 @@
       "aliases": [
         "生蚝",
         "牡蛎",
-        "Crassostrea gigas"
+        "Crassostrea gigas",
+        "太平洋牡蛎（生蚝）",
+        "太平洋牡蛎"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/magallana-gigas.webp",
       "intro": [
-        "这是太平洋牡蛎。两片壳的外面凹凸不平。",
+        "这是太平洋生蚝。两片壳的外面凹凸不平。",
         [
           "VTH-DD-01"
         ]
@@ -7449,7 +7597,8 @@
       "category": "bivalve",
       "group": "marine",
       "aliases": [
-        "扇贝"
+        "扇贝",
+        "大扇贝"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
@@ -7510,7 +7659,7 @@
     {
       "id": "tegillarca-granosa",
       "prefix": "VTH-DF",
-      "name": "泥蚶（血蚶）",
+      "name": "血蚶",
       "formalName": "泥蚶",
       "scientificName": "Tegillarca granosa",
       "category": "bivalve",
@@ -7518,13 +7667,15 @@
       "aliases": [
         "血蚶",
         "蚶子",
-        "Anadara granosa"
+        "Anadara granosa",
+        "泥蚶（血蚶）",
+        "泥蚶"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/tegillarca-granosa.webp",
       "intro": [
-        "这是泥蚶。两片壳厚厚的，向外鼓起。",
+        "这是血蚶。两片壳厚厚的，向外鼓起。",
         [
           "VTH-DF-01"
         ]
@@ -7579,7 +7730,7 @@
     {
       "id": "sinonovacula-constricta",
       "prefix": "VTH-DG",
-      "name": "缢蛏（蛏子）",
+      "name": "蛏子",
       "formalName": "缢蛏",
       "scientificName": "Sinonovacula constricta",
       "category": "bivalve",
@@ -7587,13 +7738,15 @@
       "aliases": [
         "蛏子",
         "毛蛏",
-        "泥蛏"
+        "泥蛏",
+        "缢蛏（蛏子）",
+        "缢蛏"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/sinonovacula-constricta.webp",
       "intro": [
-        "这是缢蛏。这种双壳贝，叫作缢蛏，也叫毛蛏。",
+        "这是蛏子。这种双壳贝，叫作缢蛏，也叫毛蛏。",
         [
           "VTH-DG-01"
         ]
@@ -7715,20 +7868,22 @@
     {
       "id": "apostichopus-japonicus",
       "prefix": "VTH-DI",
-      "name": "仿刺参（海参）",
+      "name": "仿刺海参",
       "formalName": "仿刺参",
       "scientificName": "Apostichopus japonicus",
       "category": "other",
       "group": "marine",
       "aliases": [
         "海参",
-        "刺参"
+        "刺参",
+        "仿刺参（海参）",
+        "仿刺参"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/apostichopus-japonicus.webp",
       "intro": [
-        "这是仿刺参。身体长长的，背上有锥形小突起。",
+        "这是仿刺海参。身体长长的，背上有锥形小突起。",
         [
           "VTH-DI-01"
         ]
@@ -7783,7 +7938,7 @@
     {
       "id": "mesocentrotus-nudus",
       "prefix": "VTH-DJ",
-      "name": "光棘球海胆",
+      "name": "北紫海胆",
       "formalName": "光棘球海胆",
       "scientificName": "Mesocentrotus nudus",
       "category": "other",
@@ -7791,13 +7946,14 @@
       "aliases": [
         "海胆",
         "北紫海胆",
-        "Strongylocentrotus nudus"
+        "Strongylocentrotus nudus",
+        "光棘球海胆"
       ],
       "habitat": "world",
       "aspectRatio": "3 / 2",
       "image": "illustrations/mesocentrotus-nudus.webp",
       "intro": [
-        "这是光棘球海胆。这是一种海胆，日本叫它北紫海胆。",
+        "这是北紫海胆。这是一种海胆，日本叫它北紫海胆。",
         [
           "VTH-DJ-01"
         ]
@@ -17358,7 +17514,7 @@
     },
     {
       "id": "VO-VTH-AN-INTRO",
-      "text": "这是大西洋鲑。大西洋鲑在海里时，身体两侧是银色的。",
+      "text": "这是大西洋三文鱼。大西洋鲑在海里时，身体两侧是银色的。",
       "factIds": [
         "VTH-AN-01"
       ],
@@ -19578,7 +19734,7 @@
     },
     {
       "id": "VO-VTH-BY-INTRO",
-      "text": "这是斑节对虾。腹部一节一节的，上面有深浅相间的条带。",
+      "text": "这是虎虾。腹部一节一节的，上面有深浅相间的条带。",
       "factIds": [
         "VTH-BY-01"
       ],
@@ -19698,7 +19854,7 @@
     },
     {
       "id": "VO-VTH-CA-INTRO",
-      "text": "这是日本对虾。身体上有一条条深色横带。",
+      "text": "这是车虾。身体上有一条条深色横带。",
       "factIds": [
         "VTH-CA-01"
       ],
@@ -19758,7 +19914,7 @@
     },
     {
       "id": "VO-VTH-CB-INTRO",
-      "text": "这是墨吉对虾。身体可以是浅黄色、粉色或灰绿色。",
+      "text": "这是香蕉虾。身体可以是浅黄色、粉色或灰绿色。",
       "factIds": [
         "VTH-CB-01"
       ],
@@ -19818,7 +19974,7 @@
     },
     {
       "id": "VO-VTH-CC-INTRO",
-      "text": "这是北方长额虾。它活着的时候就可以带红色，身体有些透明。",
+      "text": "这是北极甜虾。它活着的时候就可以带红色，身体有些透明。",
       "factIds": [
         "VTH-CC-01"
       ],
@@ -19878,7 +20034,7 @@
     },
     {
       "id": "VO-VTH-CD-INTRO",
-      "text": "这是口虾蛄。身体一节一节的，尾端有宽宽的尾扇。",
+      "text": "这是皮皮虾。身体一节一节的，尾端有宽宽的尾扇。",
       "factIds": [
         "VTH-CD-01"
       ],
@@ -20118,7 +20274,7 @@
     },
     {
       "id": "VO-VTH-CH-INTRO",
-      "text": "这是锯缘青蟹。壳可以是绿色到近黑色。",
+      "text": "这是青蟹。壳可以是绿色到近黑色。",
       "factIds": [
         "VTH-CH-01"
       ],
@@ -20178,7 +20334,7 @@
     },
     {
       "id": "VO-VTH-CI-INTRO",
-      "text": "这是远海梭子蟹。身体的壳像一把扇子，两侧有尖齿。",
+      "text": "这是花蟹。身体的壳像一把扇子，两侧有尖齿。",
       "factIds": [
         "VTH-CI-01"
       ],
@@ -20238,7 +20394,7 @@
     },
     {
       "id": "VO-VTH-CJ-INTRO",
-      "text": "这是锈斑蟳。背壳中间，可以有浅色的十字图案。",
+      "text": "这是红花蟹。背壳中间，可以有浅色的十字图案。",
       "factIds": [
         "VTH-CJ-01"
       ],
@@ -20298,7 +20454,7 @@
     },
     {
       "id": "VO-VTH-CK-INTRO",
-      "text": "这是黄道蟹。椭圆的厚壳，边缘像一圈小波浪。",
+      "text": "这是面包蟹。椭圆的厚壳，边缘像一圈小波浪。",
       "factIds": [
         "VTH-CK-01"
       ],
@@ -20418,7 +20574,7 @@
     },
     {
       "id": "VO-VTH-CM-INTRO",
-      "text": "这是堪察加拟石蟹。背壳和脚上有尖尖的小刺。",
+      "text": "这是红帝王蟹。背壳和脚上有尖尖的小刺。",
       "factIds": [
         "VTH-CM-01"
       ],
@@ -20478,7 +20634,7 @@
     },
     {
       "id": "VO-VTH-CN-INTRO",
-      "text": "这是莱氏拟乌贼。身体两侧的鳍很宽，看起来有些像乌贼。",
+      "text": "这是大鳍鱿鱼。身体两侧的鳍很宽，看起来有些像乌贼。",
       "factIds": [
         "VTH-CN-01"
       ],
@@ -20538,7 +20694,7 @@
     },
     {
       "id": "VO-VTH-CO-INTRO",
-      "text": "这是欧洲枪乌贼。身体细长，像一个长筒。",
+      "text": "这是欧洲鱿鱼。身体细长，像一个长筒。",
       "factIds": [
         "VTH-CO-01"
       ],
@@ -20598,7 +20754,7 @@
     },
     {
       "id": "VO-VTH-CP-INTRO",
-      "text": "这是茎柔鱼。皮肤上的深浅图案会发生变化。",
+      "text": "这是洪堡鱿鱼。皮肤上的深浅图案会发生变化。",
       "factIds": [
         "VTH-CP-01"
       ],
@@ -20718,7 +20874,7 @@
     },
     {
       "id": "VO-VTH-CR-INTRO",
-      "text": "这是普通乌贼。它会改变身体的颜色、图案和表面样子。",
+      "text": "这是普通墨鱼。它会改变身体的颜色、图案和表面样子。",
       "factIds": [
         "VTH-CR-01"
       ],
@@ -20838,7 +20994,7 @@
     },
     {
       "id": "VO-VTH-CT-INTRO",
-      "text": "这是北太平洋巨型章鱼。它有八条带着吸盘的腕。",
+      "text": "这是北太平洋大章鱼。它有八条带着吸盘的腕。",
       "factIds": [
         "VTH-CT-01"
       ],
@@ -21018,7 +21174,7 @@
     },
     {
       "id": "VO-VTH-CW-INTRO",
-      "text": "这是方斑东风螺。浅色的螺壳上，排着褐色方斑。",
+      "text": "这是花螺。浅色的螺壳上，排着褐色方斑。",
       "factIds": [
         "VTH-CW-01"
       ],
@@ -21198,7 +21354,7 @@
     },
     {
       "id": "VO-VTH-CZ-INTRO",
-      "text": "这是菲律宾蛤仔。身体外面，有两片椭圆的壳。",
+      "text": "这是花蛤。身体外面，有两片椭圆的壳。",
       "factIds": [
         "VTH-CZ-01"
       ],
@@ -21318,7 +21474,7 @@
     },
     {
       "id": "VO-VTH-DB-INTRO",
-      "text": "这是翡翠贻贝。幼小的时候，壳常常是鲜绿色。",
+      "text": "这是青口贝。幼小的时候，壳常常是鲜绿色。",
       "factIds": [
         "VTH-DB-01"
       ],
@@ -21378,7 +21534,7 @@
     },
     {
       "id": "VO-VTH-DC-INTRO",
-      "text": "这是紫贻贝。两片壳的轮廓，有些像长长的水滴。",
+      "text": "这是蓝贻贝。两片壳的轮廓，有些像长长的水滴。",
       "factIds": [
         "VTH-DC-01"
       ],
@@ -21438,7 +21594,7 @@
     },
     {
       "id": "VO-VTH-DD-INTRO",
-      "text": "这是太平洋牡蛎。两片壳的外面凹凸不平。",
+      "text": "这是太平洋生蚝。两片壳的外面凹凸不平。",
       "factIds": [
         "VTH-DD-01"
       ],
@@ -21558,7 +21714,7 @@
     },
     {
       "id": "VO-VTH-DF-INTRO",
-      "text": "这是泥蚶。两片壳厚厚的，向外鼓起。",
+      "text": "这是血蚶。两片壳厚厚的，向外鼓起。",
       "factIds": [
         "VTH-DF-01"
       ],
@@ -21618,7 +21774,7 @@
     },
     {
       "id": "VO-VTH-DG-INTRO",
-      "text": "这是缢蛏。这种双壳贝，叫作缢蛏，也叫毛蛏。",
+      "text": "这是蛏子。这种双壳贝，叫作缢蛏，也叫毛蛏。",
       "factIds": [
         "VTH-DG-01"
       ],
@@ -21738,7 +21894,7 @@
     },
     {
       "id": "VO-VTH-DI-INTRO",
-      "text": "这是仿刺参。身体长长的，背上有锥形小突起。",
+      "text": "这是仿刺海参。身体长长的，背上有锥形小突起。",
       "factIds": [
         "VTH-DI-01"
       ],
@@ -21798,7 +21954,7 @@
     },
     {
       "id": "VO-VTH-DJ-INTRO",
-      "text": "这是光棘球海胆。这是一种海胆，日本叫它北紫海胆。",
+      "text": "这是北紫海胆。这是一种海胆，日本叫它北紫海胆。",
       "factIds": [
         "VTH-DJ-01"
       ],
@@ -21870,6 +22026,122 @@
       "format": "PCM 24000 Hz, mono, 16 bit",
       "usage": "本地合成试听；公开分发前核对系统语音授权",
       "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-CREATE-MOUTH",
+      "text": "看看这两张图。长嘴巴，还是小鹦嘴？你也可以画一种新的嘴巴。",
+      "factIds": [
+        "FF-03",
+        "SG-03"
+      ],
+      "subjectId": "creation-mouth",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-FIN",
+      "text": "看看鱼背上的鳍。一条长长的鳍，还是两片小鳍？你的鱼想要什么样的？",
+      "factIds": [
+        "ZC-01",
+        "SB-02"
+      ],
+      "subjectId": "creation-fin",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-fin.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-TAIL",
+      "text": "卷卷的尾巴，还是细细的尾巴？看看这两位朋友，再给自己的鱼想一条尾巴。",
+      "factIds": [
+        "HK-01",
+        "TL-02"
+      ],
+      "subjectId": "creation-tail",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-SHAPE",
+      "text": "小盒子，大翅膀。看看它们的身体。你的鱼想像什么？回去捏一捏，也可以用画笔画出想法。",
+      "factIds": [
+        "OC-01",
+        "MB-01"
+      ],
+      "subjectId": "creation-shape",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-shape.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-PATTERN",
+      "text": "看看虎虾的一条条，和花螺的一点点。你想给鱼画哪件花衣服？也可以把两种花纹混在一起。",
+      "factIds": [
+        "VTH-BY-01",
+        "VTH-CW-01"
+      ],
+      "subjectId": "creation-pattern",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-pattern.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-ARMS",
+      "text": "看看章鱼和鱿鱼的腕。回去用画笔画弯弯的线，加上小圆点。你的幻想鱼也可以有新点子。",
+      "factIds": [
+        "VTH-CS-01",
+        "VTH-CS-02",
+        "VTH-CO-01",
+        "VTH-CO-03"
+      ],
+      "subjectId": "creation-arms",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-arms.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-SHELL",
+      "text": "像耳朵，像扇子。看看鲍鱼和扇贝的壳。回去画一片想象的壳，也可以试试贝壳印章。",
+      "factIds": [
+        "VTH-CU-01",
+        "VTH-CU-02",
+        "VTH-DE-01",
+        "VTH-DE-02"
+      ],
+      "subjectId": "creation-shell",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-shell.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
     }
   ],
   "host": {
@@ -22049,5 +22321,6 @@
       "label": "其他伙伴",
       "count": 3
     }
-  ]
+  ],
+  "contentUpdatedAt": "2026-10-08"
 }

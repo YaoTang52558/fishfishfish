@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "files": [
     {
       "path": "public/content/v1/audio/vo-ah-intro.wav",
@@ -100,6 +100,41 @@
       "path": "public/content/v1/audio/vo-ci-scales.wav",
       "bytes": 259292,
       "sha256": "fe276e656b572f79d9e295b168c6c2f764dac444507869756a7b8264f87a04b7"
+    },
+    {
+      "path": "public/content/v1/audio/vo-create-arms.wav",
+      "bytes": 598212,
+      "sha256": "d508b4eeaca5aa091829fb77a66c22fadb7c14580b8f89a48940873952940118"
+    },
+    {
+      "path": "public/content/v1/audio/vo-create-fin.wav",
+      "bytes": 497390,
+      "sha256": "a386bee4235a988e2d68b36a62307728aec06f87badd3ab717df5891e609eaaa"
+    },
+    {
+      "path": "public/content/v1/audio/vo-create-mouth.wav",
+      "bytes": 461162,
+      "sha256": "2e17ed3d0cff1b5cdecafa78cbca051bb0f876610a65bcb749c58bea3b2d98a2"
+    },
+    {
+      "path": "public/content/v1/audio/vo-create-pattern.wav",
+      "bytes": 602808,
+      "sha256": "29c15867263550bc92464c015b1b8c374d63bddde49c1ac107e68de86e358535"
+    },
+    {
+      "path": "public/content/v1/audio/vo-create-shape.wav",
+      "bytes": 648116,
+      "sha256": "5754c552af359804b0b0aadda28a7f96dfcb529d48b744a056034a1f07271bec"
+    },
+    {
+      "path": "public/content/v1/audio/vo-create-shell.wav",
+      "bytes": 595594,
+      "sha256": "5edc3090faaa1dff5b63eb306fd4e56a22d7ce8403af649c94ab0eeccbd13a68"
+    },
+    {
+      "path": "public/content/v1/audio/vo-create-tail.wav",
+      "bytes": 465056,
+      "sha256": "61fd8ca5fb3fb571f69dd665991cbb7736c0343ad700b3bd3ee19367cb574b39"
     },
     {
       "path": "public/content/v1/audio/vo-ec-bands.wav",
@@ -873,8 +908,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-an-intro.wav",
-      "bytes": 377022,
-      "sha256": "c7aa94282ba78bfcfda89d57f90a3c8b8b526d6bdb5874a7bb7ac8cb84b7ab44"
+      "bytes": 406558,
+      "sha256": "b9b0ea260a4a266f93a7b0ac5446a29541930d2bc757106cad19921778ad6433"
     },
     {
       "path": "public/content/v1/audio/vo-vth-an-young.wav",
@@ -1618,8 +1653,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-by-intro.wav",
-      "bytes": 386206,
-      "sha256": "0dcb854a9d039b19837c8bbd94edf0019d5b0b14f8099c9b8de4ccc6912a9be2"
+      "bytes": 358828,
+      "sha256": "380125b09906401c2b60ecd91d5709bac2c2c99c1bc62de0812461c4bb0d792d"
     },
     {
       "path": "public/content/v1/audio/vo-vth-bz-body.wav",
@@ -1658,8 +1693,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-ca-intro.wav",
-      "bytes": 303258,
-      "sha256": "05533f8774cda8e4c010fa58db2b4cec65f69999ffafe5fcb1bcb8958f7df26f"
+      "bytes": 279688,
+      "sha256": "850ef786173b6feb9179a4be83be717a622742ef2873e76670a347f3f4cc4f79"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cb-body.wav",
@@ -1678,8 +1713,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-cb-intro.wav",
-      "bytes": 370448,
-      "sha256": "96059636848f8a8deb864485e267082b875632f805651fa0f4f5fcd770046550"
+      "bytes": 364134,
+      "sha256": "6d0bfeacca7cc015d68d69b5124ce3a64585a7d656fed52c11ff88bd3ef6eb01"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cc-body.wav",
@@ -1698,8 +1733,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-cc-intro.wav",
-      "bytes": 416278,
-      "sha256": "7d319e1e0640e0d8210865a55b2796c0baf9b7ee6c39367b7d0e82c9824d34cd"
+      "bytes": 407424,
+      "sha256": "fefd56f034942156e303a4e31a2b372e044e41fb7cada17ae70bb2b909875d47"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cd-body.wav",
@@ -1718,8 +1753,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-cd-intro.wav",
-      "bytes": 351804,
-      "sha256": "2122b9eb72ce904fba3785a9b06dfb76aadf5e49ab3265646bf6fe306f96464b"
+      "bytes": 350888,
+      "sha256": "f9cec6df3efc3426ebc6d3c244de916837cb2c9964a20cf5f6de4d722a360975"
     },
     {
       "path": "public/content/v1/audio/vo-vth-ce-body.wav",
@@ -1798,8 +1833,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-ch-intro.wav",
-      "bytes": 288930,
-      "sha256": "91b09edabf2f394ed40656e789ef272457e78762d021599ddcdc6f83b3f90176"
+      "bytes": 262436,
+      "sha256": "8a461d5854d269a7c21af5db53c06cce64fce37f3ba1d1055efce1931160ea39"
     },
     {
       "path": "public/content/v1/audio/vo-vth-ci-body.wav",
@@ -1818,8 +1853,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-ci-intro.wav",
-      "bytes": 369444,
-      "sha256": "87d1e77d17d3b6de61c8bc9d7d20cd194046b8a9f64fa20dd7abafc93e5d198e"
+      "bytes": 332270,
+      "sha256": "d7dceb8bd7e7d62941a336b2b51b7e906f433e3d70a04f5e1776bc6440dd7688"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cj-body.wav",
@@ -1838,8 +1873,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-cj-intro.wav",
-      "bytes": 349884,
-      "sha256": "3fce8e82bec7d254a07d7e4ff80e9294c53526e3190e65f8f4c0d70f6932a980"
+      "bytes": 346638,
+      "sha256": "98a04f2a1f19e8c647b696ebf9da0c6d766b6ba0a5bd2b7112967b1fa86720cb"
     },
     {
       "path": "public/content/v1/audio/vo-vth-ck-body.wav",
@@ -1858,8 +1893,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-ck-intro.wav",
-      "bytes": 334750,
-      "sha256": "f60d9e4387f855ec9ac11b7e1cf99c6caf07d771f8ca67a8fd80bfc0d09e36e8"
+      "bytes": 334026,
+      "sha256": "a5728ff5324a82d5ab27cb0d643aa595a5554b44ea727496e901a05bce533c53"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cl-body.wav",
@@ -1898,8 +1933,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-cm-intro.wav",
-      "bytes": 326944,
-      "sha256": "9473eb8b19e5c4e8ea6aba7f9502fc0469e44367252ef21bcca5b38b32622f73"
+      "bytes": 298464,
+      "sha256": "987b7c52169f632ae1167e02506c47207e31bd849a284be239a1c696ed9b36f8"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cn-body.wav",
@@ -1918,8 +1953,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-cn-intro.wav",
-      "bytes": 400010,
-      "sha256": "cf4f99b44c7e1d43d7e7b51054a3fca501db2dd7b3ef793687ab3af73b5a23ba"
+      "bytes": 382746,
+      "sha256": "847efd01afef562235cd41486ee4f1665270849c063e8a83a377b1930b2d25d5"
     },
     {
       "path": "public/content/v1/audio/vo-vth-co-body.wav",
@@ -1938,8 +1973,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-co-intro.wav",
-      "bytes": 322500,
-      "sha256": "111d8e2487bf199d2cf9a9c1377429023616d6284f91858f91fb9fec756c5148"
+      "bytes": 309338,
+      "sha256": "ee53ec89cb874a791249df46f892dda8b19db2ed2798a10829761eda1120b1db"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cp-body.wav",
@@ -1958,8 +1993,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-cp-intro.wav",
-      "bytes": 311312,
-      "sha256": "893ea9a9d3ffc4c8bf00f154695007bc521d35588b3a28388d3df5a3e04a3b9f"
+      "bytes": 326296,
+      "sha256": "e99af8a17013311524d9515c7fb8655481f06ce39aede759f98e0953db495ab2"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cq-body.wav",
@@ -1998,8 +2033,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-cr-intro.wav",
-      "bytes": 377822,
-      "sha256": "4631488dfa1e2ce4fd753d0cf99a3df8596d5d90e1093c3b1205158cd7130115"
+      "bytes": 380422,
+      "sha256": "701689b55900514fc64aa759cd6082e3fbdaaee9607ef4d6c16754d2f535fef6"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cs-body.wav",
@@ -2038,8 +2073,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-ct-intro.wav",
-      "bytes": 334402,
-      "sha256": "49a8beca4d5401091cdcfa2493039631850b9170b461227934c63c1ef78b16a1"
+      "bytes": 323342,
+      "sha256": "c00db9126b117922c159020f2e6da88d1d86510a5cee40cba68facc621b8f005"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cu-body.wav",
@@ -2098,8 +2133,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-cw-intro.wav",
-      "bytes": 349296,
-      "sha256": "431be2ae0758cfd10c9dab5c315a3ab4c22a2729935213fbd2d8dc92f8695fcf"
+      "bytes": 306434,
+      "sha256": "46c3e0f802b2b48cebca61c27129bf58ccfe914a84f095c7f253be79e15116ec"
     },
     {
       "path": "public/content/v1/audio/vo-vth-cx-body.wav",
@@ -2158,8 +2193,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-cz-intro.wav",
-      "bytes": 338142,
-      "sha256": "96d44af2d6743f3bd041c08cb25218b55ca9691f857f062061b23cfc0014fa88"
+      "bytes": 300396,
+      "sha256": "40ada5ac2d55c171ba399c688581cc3fc0b24988b2509945d71efeb3e87510f2"
     },
     {
       "path": "public/content/v1/audio/vo-vth-da-body.wav",
@@ -2193,8 +2228,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-db-intro.wav",
-      "bytes": 332814,
-      "sha256": "ba2757ea3f6ad410e3c92506a9b079b984b839a8b24b60af6e794882b4c85256"
+      "bytes": 324448,
+      "sha256": "6614dbe6bb112ec7d8456e4a7ba11b4f4ae89db0b01ae9f1babd679872db64af"
     },
     {
       "path": "public/content/v1/audio/vo-vth-db-young.wav",
@@ -2218,8 +2253,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-dc-intro.wav",
-      "bytes": 337664,
-      "sha256": "31d3e4dfb25af95699721ba0c41a81536d5836260f0cfe31901aa66432f0418f"
+      "bytes": 339148,
+      "sha256": "934b495e2f0101b635be7f63a0a0eb51285167c804e26d25eddaecaa394a3318"
     },
     {
       "path": "public/content/v1/audio/vo-vth-dd-body.wav",
@@ -2238,8 +2273,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-dd-intro.wav",
-      "bytes": 292432,
-      "sha256": "248a20245ba59ac5c35f3527eee8f6b91b1f4b38e2d5722d6408423ba4f6dc8a"
+      "bytes": 306774,
+      "sha256": "8cb92fd5498ef3c570cf58997b3050dd08646181cb90847b75d97b93a27783e8"
     },
     {
       "path": "public/content/v1/audio/vo-vth-de-body.wav",
@@ -2278,8 +2313,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-df-intro.wav",
-      "bytes": 285970,
-      "sha256": "1c9f8e3acfde446d3ee59c00ae0a17b0af303108dd6efd9860429874dad2e47f"
+      "bytes": 289066,
+      "sha256": "62fdb9df34f29c550958e105cd260220c3f0ccd5dd2f0977dae0b352ebae785c"
     },
     {
       "path": "public/content/v1/audio/vo-vth-dg-body.wav",
@@ -2298,8 +2333,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-dg-intro.wav",
-      "bytes": 345566,
-      "sha256": "a8c8e66c58ceec6330af4cb2f0ec3c717e87917998434ae41f41fa79fdb9cd1a"
+      "bytes": 346282,
+      "sha256": "f8037bad5a21396cfa6bd7965fa5d0b3fcaa922312faa0d258e1c96764d1517d"
     },
     {
       "path": "public/content/v1/audio/vo-vth-dh-body.wav",
@@ -2338,8 +2373,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-di-intro.wav",
-      "bytes": 346722,
-      "sha256": "bd0212badf10ed2203f5a2383768bec8d668a6d5ba192b64cc609646e3cd2d34"
+      "bytes": 359678,
+      "sha256": "7335a18b01251f21272d7d703d0e0d273edbeb1eb1dc66c3cb2eedc382266cf0"
     },
     {
       "path": "public/content/v1/audio/vo-vth-dj-body.wav",
@@ -2358,8 +2393,8 @@
     },
     {
       "path": "public/content/v1/audio/vo-vth-dj-intro.wav",
-      "bytes": 367010,
-      "sha256": "adeddc017762d819454e66e733e9acdc115a4ce9e78a85de029cd6ccc005e75e"
+      "bytes": 352904,
+      "sha256": "56bb474076a8ee871df0155aa9e3287cef2bce3814167e387484fa4a6a36b25a"
     },
     {
       "path": "public/content/v1/audio/vo-vth-dk-body.wav",
@@ -2423,8 +2458,8 @@
     },
     {
       "path": "public/content/v1/data.json",
-      "bytes": 799748,
-      "sha256": "cc5e28646754799570c6c791c4f7f1844a8354f970d0f49a0b6ddcc05fbabb4e"
+      "bytes": 807140,
+      "sha256": "d33ef3058442a7aa7d5f9dd96308bc17dee4a17d835283b568b8a12692acaddd"
     },
     {
       "path": "public/content/v1/environments/ocean-arrival.webp",

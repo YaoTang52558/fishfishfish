@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
+import { childName } from './lib/observation-names.mjs';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const write=(p,d)=>{fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,typeof d==='string'?d:JSON.stringify(d,null,2)+'\n');};
 const upsert=(rows,item)=>{const i=rows.findIndex(r=>r.id===item.id);if(i<0)rows.push(item);else rows[i]=item;};
@@ -45,12 +46,12 @@ for(const r of batch.records){
   const factIds=[],sourceIds=[];
   const points=r.points.map((p,i)=>{const id=`${r.prefix}-0${i+1}`,sourceId=source(p.sourceUrl??r.sourceUrl,r,p.sourceLocation??r.sourceLocation);factIds.push(id);sourceIds.push(sourceId);upsert(claims.records,{id,subjectId:r.id,text:p.text,sourceIds:[sourceId],location:p.sourceLocation??r.sourceLocation,conditions:`限本卡明确物种／所选阶段与色型；${r.notes} 图片为艺术示意，不用于逐鳍条、逐肢或壳纹鉴定。`,checkedAt:date,reviewer:'primary-agent',status:'checked',publicationStatus:'preview-ready',issue:null});return {...p,sourceUrl:undefined,sourceLocation:undefined,factIds:[id],x:null,y:null,audio:clip(`VO-${r.prefix}-${p.key}`,p.text,[id],r.id)};});
   if(taxonomySources[r.id])sourceIds.push(source(taxonomySources[r.id],r,'Accepted-name mapping; indexed WoRMS entry'));
-  const shortName=r.name.replace(/（.*?）/g,''),intro=`这是${shortName}。${points[0].text}`;
-  upsert(data.fish,{id:r.id,prefix:r.prefix,name:r.name,formalName:shortName,scientificName:r.scientificName,category:r.category,group:r.category==='fish'?'expanded':'marine',aliases:[...(extraAliases[r.id]??[]),...(r.legacyNames??[])],habitat:'world',aspectRatio:'3 / 2',image:`illustrations/${r.id}.webp`,intro:[intro,[factIds[0]]],introAudio:clip(`VO-${r.prefix}-INTRO`,intro,[factIds[0]],r.id),invite:r.category==='fish'?'试着把喜欢的颜色、花纹或身体，画到自己的鱼上。':'可以把喜欢的颜色、壳纹或腕足，变成自己的幻想鱼。',parent:`${r.notes} 类别按钮用于儿童浏览，科学分类以资料来源为准；观察内容不等于游戏鱼饵、捕获规则或野外可食鉴定。`,points,factIds,sourceIds:[...new Set(sourceIds)]});
+  const shortName=childName(r),intro=`这是${shortName}。${points[0].text}`;
+  upsert(data.fish,{id:r.id,prefix:r.prefix,name:shortName,formalName:r.name.replace(/（.*?）/g,''),scientificName:r.scientificName,category:r.category,group:r.category==='fish'?'expanded':'marine',aliases:[r.name,r.name.replace(/（.*?）/g,''),...(extraAliases[r.id]??[]),...(r.legacyNames??[])],habitat:'world',aspectRatio:'3 / 2',image:`illustrations/${r.id}.webp`,intro:[intro,[factIds[0]]],introAudio:clip(`VO-${r.prefix}-INTRO`,intro,[factIds[0]],r.id),invite:r.category==='fish'?'试着把喜欢的颜色、花纹或身体，画到自己的鱼上。':'可以把喜欢的颜色、壳纹或腕足，变成自己的幻想鱼。',parent:`${r.notes} 类别按钮用于儿童浏览，科学分类以资料来源为准；观察内容不等于游戏鱼饵、捕获规则或野外可食鉴定。`,points,factIds,sourceIds:[...new Set(sourceIds)]});
   write(`docs/content/species/${r.id}.md`,`# ${r.name}\n\n${r.scientificName} · ${labels[r.category]} · ${date}\n\n![原创活体观察示意](../../../public/content/v1/illustrations/${r.id}.webp)\n\n${r.notes}\n\n${points.map((p,i)=>`- **${p.label}**：${p.text}（${factIds[i]}）`).join('\n')}\n\n资料：${[...new Set([r.sourceUrl,...r.points.map(p=>p.sourceUrl).filter(Boolean),taxonomySources[r.id]].filter(Boolean))].map(url=>`[${institution(url)}](${url})`).join('、')}。位置：${r.sourceLocation}。\n\n[事实表](../claims.json) · [配音脚本](../scripts/audio-v1.json) · [生成提示与原图索引](../../../design/content/v1/generation.json)\n\n每卡一段介绍、三个点听。新卡没有设置未经标定的局部放大坐标。图为 AI 原创艺术示意，非鉴定照片；交付为 2D 插画及图鉴内容，不代表新增三维捕获物种。\n`);
 }
 for(const card of data.fish){card.category??='fish';card.aliases=[...new Set([...(card.aliases??[]),...(extraAliases[card.id]??[]),...(card.group==='grouper'?['石斑','石斑鱼']:[])])];}
-assert.equal(data.fish.length,119);assert.equal(audio.records.length,484);
+assert.equal(data.fish.length,119);assert.equal(audio.records.filter(c=>c.kind!=='creative-prompt').length,484);
 Object.assign(data,{date,contentVersion:3,categories:Object.entries(labels).map(([id,label])=>({id,label,count:data.fish.filter(c=>c.category===id).length}))});
 data.claims=claims.records.filter(c=>c.status==='checked'&&c.publicationStatus!=='excluded');data.sources=sources.records;data.clips=audio.records;
 sources.checkedAt=claims.checkedAt=assets.checkedAt=audio.date=date;

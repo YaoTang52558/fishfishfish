@@ -37,7 +37,7 @@ try {
     await page.getByRole('button',{name:'听听这一步怎么玩',exact:true}).click();await page.getByRole('button',{name:'停止讲解',exact:true}).waitFor();
     await page.waitForFunction(()=>window.__reviewVoices.some(a=>!a.paused&&a.currentTime>0));await shot('help');await page.getByRole('button',{name:'收起帮助',exact:true}).click();
     assert(await page.evaluate(()=>window.__reviewVoices.every(a=>a.paused)));
-    await page.getByRole('button',{name:'换尾巴',exact:true}).click();await page.getByRole('button',{name:'看看真实鱼的秘密',exact:true}).click();await page.getByRole('heading',{name:'尾巴都一样吗？'}).waitFor();await page.getByRole('button',{name:'回去继续创作',exact:true}).click();
+    await page.getByRole('button',{name:'换尾巴',exact:true}).click();await page.getByRole('button',{name:'看看海洋朋友的秘密',exact:true}).click();await page.getByRole('heading',{name:'尾巴都一样吗？'}).waitFor();await page.getByRole('button',{name:'回去继续创作',exact:true}).click();
     await page.getByRole('button',{name:'第一步：创作',exact:true}).click();await page.getByRole('button',{name:'画一画',exact:true}).click();await shot('workshop');
     await page.locator('.stage-toolbar details>summary').click();await page.getByRole('button',{name:'随机造型',exact:true}).click();
     assert.equal(await page.locator('.studio-quicktools').evaluate(el=>el.inert),true);assert.equal(await page.locator('.studio-quickpalette').evaluate(el=>el.inert),true);

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "autoPlay": false,
   "overlap": false,
   "rightsStatus": "local-review-only",
@@ -2745,7 +2745,7 @@
     },
     {
       "id": "VO-VTH-AN-INTRO",
-      "text": "这是大西洋鲑。大西洋鲑在海里时，身体两侧是银色的。",
+      "text": "这是大西洋三文鱼。大西洋鲑在海里时，身体两侧是银色的。",
       "factIds": [
         "VTH-AN-01"
       ],
@@ -4965,7 +4965,7 @@
     },
     {
       "id": "VO-VTH-BY-INTRO",
-      "text": "这是斑节对虾。腹部一节一节的，上面有深浅相间的条带。",
+      "text": "这是虎虾。腹部一节一节的，上面有深浅相间的条带。",
       "factIds": [
         "VTH-BY-01"
       ],
@@ -5085,7 +5085,7 @@
     },
     {
       "id": "VO-VTH-CA-INTRO",
-      "text": "这是日本对虾。身体上有一条条深色横带。",
+      "text": "这是车虾。身体上有一条条深色横带。",
       "factIds": [
         "VTH-CA-01"
       ],
@@ -5145,7 +5145,7 @@
     },
     {
       "id": "VO-VTH-CB-INTRO",
-      "text": "这是墨吉对虾。身体可以是浅黄色、粉色或灰绿色。",
+      "text": "这是香蕉虾。身体可以是浅黄色、粉色或灰绿色。",
       "factIds": [
         "VTH-CB-01"
       ],
@@ -5205,7 +5205,7 @@
     },
     {
       "id": "VO-VTH-CC-INTRO",
-      "text": "这是北方长额虾。它活着的时候就可以带红色，身体有些透明。",
+      "text": "这是北极甜虾。它活着的时候就可以带红色，身体有些透明。",
       "factIds": [
         "VTH-CC-01"
       ],
@@ -5265,7 +5265,7 @@
     },
     {
       "id": "VO-VTH-CD-INTRO",
-      "text": "这是口虾蛄。身体一节一节的，尾端有宽宽的尾扇。",
+      "text": "这是皮皮虾。身体一节一节的，尾端有宽宽的尾扇。",
       "factIds": [
         "VTH-CD-01"
       ],
@@ -5505,7 +5505,7 @@
     },
     {
       "id": "VO-VTH-CH-INTRO",
-      "text": "这是锯缘青蟹。壳可以是绿色到近黑色。",
+      "text": "这是青蟹。壳可以是绿色到近黑色。",
       "factIds": [
         "VTH-CH-01"
       ],
@@ -5565,7 +5565,7 @@
     },
     {
       "id": "VO-VTH-CI-INTRO",
-      "text": "这是远海梭子蟹。身体的壳像一把扇子，两侧有尖齿。",
+      "text": "这是花蟹。身体的壳像一把扇子，两侧有尖齿。",
       "factIds": [
         "VTH-CI-01"
       ],
@@ -5625,7 +5625,7 @@
     },
     {
       "id": "VO-VTH-CJ-INTRO",
-      "text": "这是锈斑蟳。背壳中间，可以有浅色的十字图案。",
+      "text": "这是红花蟹。背壳中间，可以有浅色的十字图案。",
       "factIds": [
         "VTH-CJ-01"
       ],
@@ -5685,7 +5685,7 @@
     },
     {
       "id": "VO-VTH-CK-INTRO",
-      "text": "这是黄道蟹。椭圆的厚壳，边缘像一圈小波浪。",
+      "text": "这是面包蟹。椭圆的厚壳，边缘像一圈小波浪。",
       "factIds": [
         "VTH-CK-01"
       ],
@@ -5805,7 +5805,7 @@
     },
     {
       "id": "VO-VTH-CM-INTRO",
-      "text": "这是堪察加拟石蟹。背壳和脚上有尖尖的小刺。",
+      "text": "这是红帝王蟹。背壳和脚上有尖尖的小刺。",
       "factIds": [
         "VTH-CM-01"
       ],
@@ -5865,7 +5865,7 @@
     },
     {
       "id": "VO-VTH-CN-INTRO",
-      "text": "这是莱氏拟乌贼。身体两侧的鳍很宽，看起来有些像乌贼。",
+      "text": "这是大鳍鱿鱼。身体两侧的鳍很宽，看起来有些像乌贼。",
       "factIds": [
         "VTH-CN-01"
       ],
@@ -5925,7 +5925,7 @@
     },
     {
       "id": "VO-VTH-CO-INTRO",
-      "text": "这是欧洲枪乌贼。身体细长，像一个长筒。",
+      "text": "这是欧洲鱿鱼。身体细长，像一个长筒。",
       "factIds": [
         "VTH-CO-01"
       ],
@@ -5985,7 +5985,7 @@
     },
     {
       "id": "VO-VTH-CP-INTRO",
-      "text": "这是茎柔鱼。皮肤上的深浅图案会发生变化。",
+      "text": "这是洪堡鱿鱼。皮肤上的深浅图案会发生变化。",
       "factIds": [
         "VTH-CP-01"
       ],
@@ -6105,7 +6105,7 @@
     },
     {
       "id": "VO-VTH-CR-INTRO",
-      "text": "这是普通乌贼。它会改变身体的颜色、图案和表面样子。",
+      "text": "这是普通墨鱼。它会改变身体的颜色、图案和表面样子。",
       "factIds": [
         "VTH-CR-01"
       ],
@@ -6225,7 +6225,7 @@
     },
     {
       "id": "VO-VTH-CT-INTRO",
-      "text": "这是北太平洋巨型章鱼。它有八条带着吸盘的腕。",
+      "text": "这是北太平洋大章鱼。它有八条带着吸盘的腕。",
       "factIds": [
         "VTH-CT-01"
       ],
@@ -6405,7 +6405,7 @@
     },
     {
       "id": "VO-VTH-CW-INTRO",
-      "text": "这是方斑东风螺。浅色的螺壳上，排着褐色方斑。",
+      "text": "这是花螺。浅色的螺壳上，排着褐色方斑。",
       "factIds": [
         "VTH-CW-01"
       ],
@@ -6585,7 +6585,7 @@
     },
     {
       "id": "VO-VTH-CZ-INTRO",
-      "text": "这是菲律宾蛤仔。身体外面，有两片椭圆的壳。",
+      "text": "这是花蛤。身体外面，有两片椭圆的壳。",
       "factIds": [
         "VTH-CZ-01"
       ],
@@ -6705,7 +6705,7 @@
     },
     {
       "id": "VO-VTH-DB-INTRO",
-      "text": "这是翡翠贻贝。幼小的时候，壳常常是鲜绿色。",
+      "text": "这是青口贝。幼小的时候，壳常常是鲜绿色。",
       "factIds": [
         "VTH-DB-01"
       ],
@@ -6765,7 +6765,7 @@
     },
     {
       "id": "VO-VTH-DC-INTRO",
-      "text": "这是紫贻贝。两片壳的轮廓，有些像长长的水滴。",
+      "text": "这是蓝贻贝。两片壳的轮廓，有些像长长的水滴。",
       "factIds": [
         "VTH-DC-01"
       ],
@@ -6825,7 +6825,7 @@
     },
     {
       "id": "VO-VTH-DD-INTRO",
-      "text": "这是太平洋牡蛎。两片壳的外面凹凸不平。",
+      "text": "这是太平洋生蚝。两片壳的外面凹凸不平。",
       "factIds": [
         "VTH-DD-01"
       ],
@@ -6945,7 +6945,7 @@
     },
     {
       "id": "VO-VTH-DF-INTRO",
-      "text": "这是泥蚶。两片壳厚厚的，向外鼓起。",
+      "text": "这是血蚶。两片壳厚厚的，向外鼓起。",
       "factIds": [
         "VTH-DF-01"
       ],
@@ -7005,7 +7005,7 @@
     },
     {
       "id": "VO-VTH-DG-INTRO",
-      "text": "这是缢蛏。这种双壳贝，叫作缢蛏，也叫毛蛏。",
+      "text": "这是蛏子。这种双壳贝，叫作缢蛏，也叫毛蛏。",
       "factIds": [
         "VTH-DG-01"
       ],
@@ -7125,7 +7125,7 @@
     },
     {
       "id": "VO-VTH-DI-INTRO",
-      "text": "这是仿刺参。身体长长的，背上有锥形小突起。",
+      "text": "这是仿刺海参。身体长长的，背上有锥形小突起。",
       "factIds": [
         "VTH-DI-01"
       ],
@@ -7185,7 +7185,7 @@
     },
     {
       "id": "VO-VTH-DJ-INTRO",
-      "text": "这是光棘球海胆。这是一种海胆，日本叫它北紫海胆。",
+      "text": "这是北紫海胆。这是一种海胆，日本叫它北紫海胆。",
       "factIds": [
         "VTH-DJ-01"
       ],
@@ -7257,6 +7257,122 @@
       "format": "PCM 24000 Hz, mono, 16 bit",
       "usage": "本地合成试听；公开分发前核对系统语音授权",
       "pronunciation": "口播使用中文短名与短句；腕、触腕、管足等术语结合插画"
+    },
+    {
+      "id": "VO-CREATE-MOUTH",
+      "text": "看看这两张图。长嘴巴，还是小鹦嘴？你也可以画一种新的嘴巴。",
+      "factIds": [
+        "FF-03",
+        "SG-03"
+      ],
+      "subjectId": "creation-mouth",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-mouth.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-FIN",
+      "text": "看看鱼背上的鳍。一条长长的鳍，还是两片小鳍？你的鱼想要什么样的？",
+      "factIds": [
+        "ZC-01",
+        "SB-02"
+      ],
+      "subjectId": "creation-fin",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-fin.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-TAIL",
+      "text": "卷卷的尾巴，还是细细的尾巴？看看这两位朋友，再给自己的鱼想一条尾巴。",
+      "factIds": [
+        "HK-01",
+        "TL-02"
+      ],
+      "subjectId": "creation-tail",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-tail.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-SHAPE",
+      "text": "小盒子，大翅膀。看看它们的身体。你的鱼想像什么？回去捏一捏，也可以用画笔画出想法。",
+      "factIds": [
+        "OC-01",
+        "MB-01"
+      ],
+      "subjectId": "creation-shape",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-shape.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-PATTERN",
+      "text": "看看虎虾的一条条，和花螺的一点点。你想给鱼画哪件花衣服？也可以把两种花纹混在一起。",
+      "factIds": [
+        "VTH-BY-01",
+        "VTH-CW-01"
+      ],
+      "subjectId": "creation-pattern",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-pattern.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-ARMS",
+      "text": "看看章鱼和鱿鱼的腕。回去用画笔画弯弯的线，加上小圆点。你的幻想鱼也可以有新点子。",
+      "factIds": [
+        "VTH-CS-01",
+        "VTH-CS-02",
+        "VTH-CO-01",
+        "VTH-CO-03"
+      ],
+      "subjectId": "creation-arms",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-arms.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
+    },
+    {
+      "id": "VO-CREATE-SHELL",
+      "text": "像耳朵，像扇子。看看鲍鱼和扇贝的壳。回去画一片想象的壳，也可以试试贝壳印章。",
+      "factIds": [
+        "VTH-CU-01",
+        "VTH-CU-02",
+        "VTH-DE-01",
+        "VTH-DE-02"
+      ],
+      "subjectId": "creation-shell",
+      "kind": "creative-prompt",
+      "file": "audio/vo-create-shell.wav",
+      "voice": "Microsoft Huihui Desktop / zh-CN",
+      "rate": -1,
+      "format": "PCM 24000 Hz, mono, 16 bit",
+      "usage": "本地合成试听；公开分发前核对系统语音授权",
+      "pronunciation": "短句操作点子；引用事实与幻想画法分开，腕足不代表新三维部件"
     }
   ]
 }

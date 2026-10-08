@@ -39,6 +39,8 @@ const schemes: Record<string, [string, string, string, string]> = {
   'mobula-birostris': [blue, blue, blue, blue],
 };
 const motifs: Record<string, FishDesign['pattern']> = {
+  'penaeus-monodon': { id: 'bands', primary: blue, secondary: cream },
+  'babylonia-areolata': { id: 'spots', primary: olive, secondary: cream },
   'amphiprion-ocellaris': { id: 'clown-bands', primary: cream, secondary: blue },
   'epinephelus-coioides': { id: 'grouper-spots', primary: orange, secondary: grey },
   'plectropomus-leopardus': { id: 'grouper-spots', primary: aqua, secondary: blue },

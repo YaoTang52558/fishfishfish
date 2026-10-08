@@ -1,15 +1,15 @@
 {
   "summary": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "fish": 119,
     "images": 125,
     "transparentImages": 121,
     "guides": 10,
-    "audioClips": 484,
+    "audioClips": 491,
     "voice": "Microsoft Huihui Desktop / zh-CN",
-    "audioSeconds": 2556.876,
+    "audioSeconds": 2632.709,
     "shortestClipSeconds": 1.676,
-    "longestClipSeconds": 9.993,
+    "longestClipSeconds": 13.501,
     "sources": 128,
     "claims": 370,
     "checkedClaims": 369,
@@ -17,13 +17,13 @@
       "AH-06"
     ],
     "webImageBytes": 25283128,
-    "audioBytes": 122752472,
+    "audioBytes": 126392808,
     "checks": [
       "unique IDs",
       "fact/source/audio references",
       "source and WebP dimensions",
       "121 near-transparent corners (alpha <= 3 / 255)",
-      "484 non-silent PCM clips",
+      "491 non-silent PCM clips",
       "10 self-contained editable SVGs",
       "excluded unverified mechanism"
     ],
@@ -1497,10 +1497,10 @@
     {
       "id": "VO-VTH-AN-INTRO",
       "file": "public/content/v1/audio/vo-vth-an-intro.wav",
-      "seconds": 7.854,
-      "rms": 1551,
+      "seconds": 8.469,
+      "rms": 1643,
       "peak": 21679,
-      "bytes": 377022
+      "bytes": 406558
     },
     {
       "id": "VO-VTH-AO-BODY",
@@ -2681,10 +2681,10 @@
     {
       "id": "VO-VTH-BY-INTRO",
       "file": "public/content/v1/audio/vo-vth-by-intro.wav",
-      "seconds": 8.045,
-      "rms": 1551,
+      "seconds": 7.475,
+      "rms": 1402,
       "peak": 17707,
-      "bytes": 386206
+      "bytes": 358828
     },
     {
       "id": "VO-VTH-BZ-BODY",
@@ -2745,10 +2745,10 @@
     {
       "id": "VO-VTH-CA-INTRO",
       "file": "public/content/v1/audio/vo-vth-ca-intro.wav",
-      "seconds": 6.317,
-      "rms": 1536,
+      "seconds": 5.826,
+      "rms": 1537,
       "peak": 19802,
-      "bytes": 303258
+      "bytes": 279688
     },
     {
       "id": "VO-VTH-CB-BODY",
@@ -2777,10 +2777,10 @@
     {
       "id": "VO-VTH-CB-INTRO",
       "file": "public/content/v1/audio/vo-vth-cb-intro.wav",
-      "seconds": 7.717,
-      "rms": 1240,
-      "peak": 15694,
-      "bytes": 370448
+      "seconds": 7.585,
+      "rms": 1354,
+      "peak": 17590,
+      "bytes": 364134
     },
     {
       "id": "VO-VTH-CC-BODY",
@@ -2809,10 +2809,10 @@
     {
       "id": "VO-VTH-CC-INTRO",
       "file": "public/content/v1/audio/vo-vth-cc-intro.wav",
-      "seconds": 8.671,
-      "rms": 1516,
+      "seconds": 8.487,
+      "rms": 1363,
       "peak": 23273,
-      "bytes": 416278
+      "bytes": 407424
     },
     {
       "id": "VO-VTH-CD-BODY",
@@ -2841,10 +2841,10 @@
     {
       "id": "VO-VTH-CD-INTRO",
       "file": "public/content/v1/audio/vo-vth-cd-intro.wav",
-      "seconds": 7.328,
-      "rms": 1407,
+      "seconds": 7.309,
+      "rms": 1395,
       "peak": 18425,
-      "bytes": 351804
+      "bytes": 350888
     },
     {
       "id": "VO-VTH-CE-BODY",
@@ -2969,10 +2969,10 @@
     {
       "id": "VO-VTH-CH-INTRO",
       "file": "public/content/v1/audio/vo-vth-ch-intro.wav",
-      "seconds": 6.018,
-      "rms": 1111,
+      "seconds": 5.466,
+      "rms": 1106,
       "peak": 16732,
-      "bytes": 288930
+      "bytes": 262436
     },
     {
       "id": "VO-VTH-CI-BODY",
@@ -3001,10 +3001,10 @@
     {
       "id": "VO-VTH-CI-INTRO",
       "file": "public/content/v1/audio/vo-vth-ci-intro.wav",
-      "seconds": 7.696,
-      "rms": 1274,
-      "peak": 15000,
-      "bytes": 369444
+      "seconds": 6.921,
+      "rms": 1430,
+      "peak": 20506,
+      "bytes": 332270
     },
     {
       "id": "VO-VTH-CJ-BODY",
@@ -3033,10 +3033,10 @@
     {
       "id": "VO-VTH-CJ-INTRO",
       "file": "public/content/v1/audio/vo-vth-cj-intro.wav",
-      "seconds": 7.288,
-      "rms": 1199,
-      "peak": 17456,
-      "bytes": 349884
+      "seconds": 7.221,
+      "rms": 1314,
+      "peak": 21456,
+      "bytes": 346638
     },
     {
       "id": "VO-VTH-CK-BODY",
@@ -3065,10 +3065,10 @@
     {
       "id": "VO-VTH-CK-INTRO",
       "file": "public/content/v1/audio/vo-vth-ck-intro.wav",
-      "seconds": 6.973,
-      "rms": 1498,
-      "peak": 15507,
-      "bytes": 334750
+      "seconds": 6.958,
+      "rms": 1553,
+      "peak": 17812,
+      "bytes": 334026
     },
     {
       "id": "VO-VTH-CL-BODY",
@@ -3129,10 +3129,10 @@
     {
       "id": "VO-VTH-CM-INTRO",
       "file": "public/content/v1/audio/vo-vth-cm-intro.wav",
-      "seconds": 6.81,
-      "rms": 1443,
+      "seconds": 6.217,
+      "rms": 1194,
       "peak": 16715,
-      "bytes": 326944
+      "bytes": 298464
     },
     {
       "id": "VO-VTH-CN-BODY",
@@ -3161,10 +3161,10 @@
     {
       "id": "VO-VTH-CN-INTRO",
       "file": "public/content/v1/audio/vo-vth-cn-intro.wav",
-      "seconds": 8.333,
-      "rms": 1245,
-      "peak": 14642,
-      "bytes": 400010
+      "seconds": 7.973,
+      "rms": 1327,
+      "peak": 14704,
+      "bytes": 382746
     },
     {
       "id": "VO-VTH-CO-BODY",
@@ -3193,10 +3193,10 @@
     {
       "id": "VO-VTH-CO-INTRO",
       "file": "public/content/v1/audio/vo-vth-co-intro.wav",
-      "seconds": 6.718,
-      "rms": 1379,
+      "seconds": 6.444,
+      "rms": 1345,
       "peak": 16911,
-      "bytes": 322500
+      "bytes": 309338
     },
     {
       "id": "VO-VTH-CP-BODY",
@@ -3225,10 +3225,10 @@
     {
       "id": "VO-VTH-CP-INTRO",
       "file": "public/content/v1/audio/vo-vth-cp-intro.wav",
-      "seconds": 6.485,
-      "rms": 1535,
+      "seconds": 6.797,
+      "rms": 1593,
       "peak": 19566,
-      "bytes": 311312
+      "bytes": 326296
     },
     {
       "id": "VO-VTH-CQ-BODY",
@@ -3289,10 +3289,10 @@
     {
       "id": "VO-VTH-CR-INTRO",
       "file": "public/content/v1/audio/vo-vth-cr-intro.wav",
-      "seconds": 7.87,
-      "rms": 1380,
+      "seconds": 7.925,
+      "rms": 1415,
       "peak": 23428,
-      "bytes": 377822
+      "bytes": 380422
     },
     {
       "id": "VO-VTH-CS-BODY",
@@ -3353,10 +3353,10 @@
     {
       "id": "VO-VTH-CT-INTRO",
       "file": "public/content/v1/audio/vo-vth-ct-intro.wav",
-      "seconds": 6.966,
-      "rms": 1878,
+      "seconds": 6.735,
+      "rms": 2028,
       "peak": 23294,
-      "bytes": 334402
+      "bytes": 323342
     },
     {
       "id": "VO-VTH-CU-BODY",
@@ -3449,10 +3449,10 @@
     {
       "id": "VO-VTH-CW-INTRO",
       "file": "public/content/v1/audio/vo-vth-cw-intro.wav",
-      "seconds": 7.276,
-      "rms": 1624,
-      "peak": 19369,
-      "bytes": 349296
+      "seconds": 6.383,
+      "rms": 1588,
+      "peak": 19955,
+      "bytes": 306434
     },
     {
       "id": "VO-VTH-CX-BODY",
@@ -3545,10 +3545,10 @@
     {
       "id": "VO-VTH-CZ-INTRO",
       "file": "public/content/v1/audio/vo-vth-cz-intro.wav",
-      "seconds": 7.044,
-      "rms": 1196,
-      "peak": 14016,
-      "bytes": 338142
+      "seconds": 6.257,
+      "rms": 1458,
+      "peak": 23489,
+      "bytes": 300396
     },
     {
       "id": "VO-VTH-DA-BODY",
@@ -3609,10 +3609,10 @@
     {
       "id": "VO-VTH-DB-INTRO",
       "file": "public/content/v1/audio/vo-vth-db-intro.wav",
-      "seconds": 6.933,
-      "rms": 1100,
+      "seconds": 6.758,
+      "rms": 1110,
       "peak": 15695,
-      "bytes": 332814
+      "bytes": 324448
     },
     {
       "id": "VO-VTH-DC-BODY",
@@ -3641,10 +3641,10 @@
     {
       "id": "VO-VTH-DC-INTRO",
       "file": "public/content/v1/audio/vo-vth-dc-intro.wav",
-      "seconds": 7.034,
-      "rms": 1231,
+      "seconds": 7.065,
+      "rms": 1270,
       "peak": 17123,
-      "bytes": 337664
+      "bytes": 339148
     },
     {
       "id": "VO-VTH-DD-BODY",
@@ -3673,10 +3673,10 @@
     {
       "id": "VO-VTH-DD-INTRO",
       "file": "public/content/v1/audio/vo-vth-dd-intro.wav",
-      "seconds": 6.091,
-      "rms": 1613,
+      "seconds": 6.39,
+      "rms": 1705,
       "peak": 16942,
-      "bytes": 292432
+      "bytes": 306774
     },
     {
       "id": "VO-VTH-DE-BODY",
@@ -3737,10 +3737,10 @@
     {
       "id": "VO-VTH-DF-INTRO",
       "file": "public/content/v1/audio/vo-vth-df-intro.wav",
-      "seconds": 5.957,
-      "rms": 1638,
+      "seconds": 6.021,
+      "rms": 1624,
       "peak": 17985,
-      "bytes": 285970
+      "bytes": 289066
     },
     {
       "id": "VO-VTH-DG-BODY",
@@ -3769,10 +3769,10 @@
     {
       "id": "VO-VTH-DG-INTRO",
       "file": "public/content/v1/audio/vo-vth-dg-intro.wav",
-      "seconds": 7.198,
-      "rms": 1506,
+      "seconds": 7.213,
+      "rms": 1494,
       "peak": 22474,
-      "bytes": 345566
+      "bytes": 346282
     },
     {
       "id": "VO-VTH-DH-BODY",
@@ -3833,10 +3833,10 @@
     {
       "id": "VO-VTH-DI-INTRO",
       "file": "public/content/v1/audio/vo-vth-di-intro.wav",
-      "seconds": 7.222,
-      "rms": 1243,
+      "seconds": 7.492,
+      "rms": 1255,
       "peak": 18750,
-      "bytes": 346722
+      "bytes": 359678
     },
     {
       "id": "VO-VTH-DJ-BODY",
@@ -3865,10 +3865,10 @@
     {
       "id": "VO-VTH-DJ-INTRO",
       "file": "public/content/v1/audio/vo-vth-dj-intro.wav",
-      "seconds": 7.645,
-      "rms": 1490,
-      "peak": 19346,
-      "bytes": 367010
+      "seconds": 7.351,
+      "rms": 1383,
+      "peak": 17264,
+      "bytes": 352904
     },
     {
       "id": "VO-VTH-DK-BODY",
@@ -3901,6 +3901,62 @@
       "rms": 1355,
       "peak": 16295,
       "bytes": 279540
+    },
+    {
+      "id": "VO-CREATE-MOUTH",
+      "file": "public/content/v1/audio/vo-create-mouth.wav",
+      "seconds": 9.607,
+      "rms": 1285,
+      "peak": 19779,
+      "bytes": 461162
+    },
+    {
+      "id": "VO-CREATE-FIN",
+      "file": "public/content/v1/audio/vo-create-fin.wav",
+      "seconds": 10.361,
+      "rms": 1356,
+      "peak": 17367,
+      "bytes": 497390
+    },
+    {
+      "id": "VO-CREATE-TAIL",
+      "file": "public/content/v1/audio/vo-create-tail.wav",
+      "seconds": 9.688,
+      "rms": 1445,
+      "peak": 19871,
+      "bytes": 465056
+    },
+    {
+      "id": "VO-CREATE-SHAPE",
+      "file": "public/content/v1/audio/vo-create-shape.wav",
+      "seconds": 13.501,
+      "rms": 1476,
+      "peak": 23294,
+      "bytes": 648116
+    },
+    {
+      "id": "VO-CREATE-PATTERN",
+      "file": "public/content/v1/audio/vo-create-pattern.wav",
+      "seconds": 12.558,
+      "rms": 1753,
+      "peak": 22120,
+      "bytes": 602808
+    },
+    {
+      "id": "VO-CREATE-ARMS",
+      "file": "public/content/v1/audio/vo-create-arms.wav",
+      "seconds": 12.462,
+      "rms": 1670,
+      "peak": 21606,
+      "bytes": 598212
+    },
+    {
+      "id": "VO-CREATE-SHELL",
+      "file": "public/content/v1/audio/vo-create-shell.wav",
+      "seconds": 12.407,
+      "rms": 1473,
+      "peak": 19337,
+      "bytes": 595594
     }
   ]
 }

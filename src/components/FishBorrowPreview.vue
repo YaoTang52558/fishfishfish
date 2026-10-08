@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, shallowRef } from 'vue';
-import { palette, patternLimits } from '../catalog/fish.ts';
+import { palette, patternLimits, adjustablePatterns } from '../catalog/fish.ts';
 import { changeColor, changePatternDetail } from '../domain/fish.ts';
 import type { ColorSlot, FishDesign } from '../domain/types.ts';
 import type { PaintLayer } from '../features/editor/paintLayer.ts';
@@ -50,7 +50,7 @@ function detail(key: 'size' | 'density', event: Event) {
         <div class="borrow-kinds" role="group" aria-label="选择借什么"><button :aria-pressed="kind === 'colors'" @click="switchKind('colors')">🎨 借颜色</button><button v-if="recipe.pattern" :aria-pressed="kind === 'pattern'" @click="switchKind('pattern')">▧ 借花纹</button></div>
         <fieldset class="borrow-targets"><legend>想改哪里？</legend><button v-for="item in targets" :key="item.key" :aria-pressed="target === item.key" @click="target = item.key">{{ item.name }}</button></fieldset>
         <fieldset class="borrow-swatches"><legend>点一个颜色</legend><div><button v-for="item in palette" :key="item.value" :aria-label="item.name" :title="item.name" :aria-pressed="targetColor === item.value" :style="{ background: item.value }" @click="pickColor(item.value)"><span v-if="targetColor === item.value" aria-hidden="true">✓</span></button></div></fieldset>
-        <div v-if="kind === 'pattern'" class="borrow-details">
+        <div v-if="kind === 'pattern' && adjustablePatterns.has(candidate.pattern.id)" class="borrow-details">
           <label>● 大小 <span>小 → 大</span><input aria-label="花纹大小" type="range" :min="patternLimits.size.min" :max="patternLimits.size.max" step="0.05" :value="candidate.pattern.size ?? 1" @input="detail('size', $event)"></label>
           <label>▧ {{ candidate.pattern.id === 'clown-bands' ? '间距' : '疏密' }} <span>{{ candidate.pattern.id === 'clown-bands' ? '远 → 近' : '疏 → 密' }}</span><input aria-label="花纹疏密" type="range" :min="patternLimits.density.min" :max="patternLimits.density.max" step="0.05" :value="candidate.pattern.density ?? 1" @input="detail('density', $event)"></label>
         </div>

@@ -1,8 +1,8 @@
 # 海洋伙伴点听脚本
 
-2026-10-07 · 119 种观察伙伴 · 484 段本地合成试听。
+2026-10-08 · 119 种伙伴，484 段观察与提示声音＋7 段创作点子，共 491 段本地合成试听。
 
-[机器可读主记录](audio-v1.json) · [语音生成工具](../../../scripts/generate-content-audio.ps1)
+[机器可读主记录](audio-v1.json) · [生成工具](../../../scripts/generate-content-audio.ps1)
 
 | ID | 文本 | 依据 | 文件 |
 | --- | --- | --- | --- |
@@ -189,7 +189,7 @@
 | VO-VTH-AN-BODY | 大西洋鲑在海里时，身体两侧是银色的。 | VTH-AN-01 | [WAV](../../../public/content/v1/audio/vo-vth-an-body.wav) |
 | VO-VTH-AN-YOUNG | 幼鱼颜色偏褐，身上有深色竖条和小点。 | VTH-AN-02 | [WAV](../../../public/content/v1/audio/vo-vth-an-young.wav) |
 | VO-VTH-AN-HOME | 它在河里出生，到海里长大，再回河里繁殖。 | VTH-AN-03 | [WAV](../../../public/content/v1/audio/vo-vth-an-home.wav) |
-| VO-VTH-AN-INTRO | 这是大西洋鲑。大西洋鲑在海里时，身体两侧是银色的。 | VTH-AN-01 | [WAV](../../../public/content/v1/audio/vo-vth-an-intro.wav) |
+| VO-VTH-AN-INTRO | 这是大西洋三文鱼。大西洋鲑在海里时，身体两侧是银色的。 | VTH-AN-01 | [WAV](../../../public/content/v1/audio/vo-vth-an-intro.wav) |
 | VO-VTH-AO-BODY | 它的蓝绿色背部有深色波浪线，肚子较白。 | VTH-AO-01 | [WAV](../../../public/content/v1/audio/vo-vth-ao-body.wav) |
 | VO-VTH-AO-DETAIL | 它身体两头较细，像一枚小梭子。 | VTH-AO-02 | [WAV](../../../public/content/v1/audio/vo-vth-ao-detail.wav) |
 | VO-VTH-AO-FOOD | 它会吃小虾、小鱼和其他海里小动物。 | VTH-AO-03 | [WAV](../../../public/content/v1/audio/vo-vth-ao-food.wav) |
@@ -337,7 +337,7 @@
 | VO-VTH-BY-BODY | 腹部一节一节的，上面有深浅相间的条带。 | VTH-BY-01 | [WAV](../../../public/content/v1/audio/vo-vth-by-body.wav) |
 | VO-VTH-BY-DETAIL | 头前的尖尖额角，上面和下面都有小齿。 | VTH-BY-02 | [WAV](../../../public/content/v1/audio/vo-vth-by-detail.wav) |
 | VO-VTH-BY-DETAILTWO | 活着的虎虾颜色会变化，并不总是橙红色。 | VTH-BY-03 | [WAV](../../../public/content/v1/audio/vo-vth-by-detailtwo.wav) |
-| VO-VTH-BY-INTRO | 这是斑节对虾。腹部一节一节的，上面有深浅相间的条带。 | VTH-BY-01 | [WAV](../../../public/content/v1/audio/vo-vth-by-intro.wav) |
+| VO-VTH-BY-INTRO | 这是虎虾。腹部一节一节的，上面有深浅相间的条带。 | VTH-BY-01 | [WAV](../../../public/content/v1/audio/vo-vth-by-intro.wav) |
 | VO-VTH-BZ-BODY | 活着的时候，身体常常白白的、半透明。 | VTH-BZ-01 | [WAV](../../../public/content/v1/audio/vo-vth-bz-body.wav) |
 | VO-VTH-BZ-DETAIL | 头前有一段带着小齿的额角。 | VTH-BZ-02 | [WAV](../../../public/content/v1/audio/vo-vth-bz-detail.wav) |
 | VO-VTH-BZ-HOME | 幼虾可以在河口长大，成虾生活在海里。 | VTH-BZ-03 | [WAV](../../../public/content/v1/audio/vo-vth-bz-home.wav) |
@@ -345,19 +345,19 @@
 | VO-VTH-CA-BODY | 身体上有一条条深色横带。 | VTH-CA-01 | [WAV](../../../public/content/v1/audio/vo-vth-ca-body.wav) |
 | VO-VTH-CA-DETAIL | 小脚和触角上可以看到黄色。 | VTH-CA-02 | [WAV](../../../public/content/v1/audio/vo-vth-ca-detail.wav) |
 | VO-VTH-CA-DETAILTWO | 尾巴的扇形部分，可以带着蓝色和黄色。 | VTH-CA-03 | [WAV](../../../public/content/v1/audio/vo-vth-ca-detailtwo.wav) |
-| VO-VTH-CA-INTRO | 这是日本对虾。身体上有一条条深色横带。 | VTH-CA-01 | [WAV](../../../public/content/v1/audio/vo-vth-ca-intro.wav) |
+| VO-VTH-CA-INTRO | 这是车虾。身体上有一条条深色横带。 | VTH-CA-01 | [WAV](../../../public/content/v1/audio/vo-vth-ca-intro.wav) |
 | VO-VTH-CB-BODY | 身体可以是浅黄色、粉色或灰绿色。 | VTH-CB-01 | [WAV](../../../public/content/v1/audio/vo-vth-cb-body.wav) |
 | VO-VTH-CB-DETAIL | 头前的额角比较高，像一个小三角。 | VTH-CB-02 | [WAV](../../../public/content/v1/audio/vo-vth-cb-detail.wav) |
 | VO-VTH-CB-DETAILTWO | 浅色身体上，可以看到细小的色点。 | VTH-CB-03 | [WAV](../../../public/content/v1/audio/vo-vth-cb-detailtwo.wav) |
-| VO-VTH-CB-INTRO | 这是墨吉对虾。身体可以是浅黄色、粉色或灰绿色。 | VTH-CB-01 | [WAV](../../../public/content/v1/audio/vo-vth-cb-intro.wav) |
+| VO-VTH-CB-INTRO | 这是香蕉虾。身体可以是浅黄色、粉色或灰绿色。 | VTH-CB-01 | [WAV](../../../public/content/v1/audio/vo-vth-cb-intro.wav) |
 | VO-VTH-CC-BODY | 它活着的时候就可以带红色，身体有些透明。 | VTH-CC-01 | [WAV](../../../public/content/v1/audio/vo-vth-cc-body.wav) |
 | VO-VTH-CC-DETAIL | 腹部下面有小小的游泳脚，像一排小桨。 | VTH-CC-02 | [WAV](../../../public/content/v1/audio/vo-vth-cc-detail.wav) |
 | VO-VTH-CC-EGGS | 虾妈妈会把卵带在腹部下面。 | VTH-CC-03 | [WAV](../../../public/content/v1/audio/vo-vth-cc-eggs.wav) |
-| VO-VTH-CC-INTRO | 这是北方长额虾。它活着的时候就可以带红色，身体有些透明。 | VTH-CC-01 | [WAV](../../../public/content/v1/audio/vo-vth-cc-intro.wav) |
+| VO-VTH-CC-INTRO | 这是北极甜虾。它活着的时候就可以带红色，身体有些透明。 | VTH-CC-01 | [WAV](../../../public/content/v1/audio/vo-vth-cc-intro.wav) |
 | VO-VTH-CD-BODY | 身体一节一节的，尾端有宽宽的尾扇。 | VTH-CD-01 | [WAV](../../../public/content/v1/audio/vo-vth-cd-body.wav) |
 | VO-VTH-CD-DETAIL | 前面的捕食脚可以折起来，上面有尖齿。 | VTH-CD-02 | [WAV](../../../public/content/v1/audio/vo-vth-cd-detail.wav) |
 | VO-VTH-CD-DETAILTWO | 虽然名字里有虾，它属于虾蛄这一类。 | VTH-CD-03 | [WAV](../../../public/content/v1/audio/vo-vth-cd-detailtwo.wav) |
-| VO-VTH-CD-INTRO | 这是口虾蛄。身体一节一节的，尾端有宽宽的尾扇。 | VTH-CD-01 | [WAV](../../../public/content/v1/audio/vo-vth-cd-intro.wav) |
+| VO-VTH-CD-INTRO | 这是皮皮虾。身体一节一节的，尾端有宽宽的尾扇。 | VTH-CD-01 | [WAV](../../../public/content/v1/audio/vo-vth-cd-intro.wav) |
 | VO-VTH-CE-BODY | 头前有一对长长的触角。 | VTH-CE-01 | [WAV](../../../public/content/v1/audio/vo-vth-ce-body.wav) |
 | VO-VTH-CE-DETAIL | 它不像螯龙虾那样，长着一对大钳子。 | VTH-CE-02 | [WAV](../../../public/content/v1/audio/vo-vth-ce-detail.wav) |
 | VO-VTH-CE-HOME | 可以生活在浅海的岩石和珊瑚附近。 | VTH-CE-03 | [WAV](../../../public/content/v1/audio/vo-vth-ce-home.wav) |
@@ -373,19 +373,19 @@
 | VO-VTH-CH-BODY | 壳可以是绿色到近黑色。 | VTH-CH-01 | [WAV](../../../public/content/v1/audio/vo-vth-ch-body.wav) |
 | VO-VTH-CH-DETAIL | 前面有一对粗壮的大螯。 | VTH-CH-02 | [WAV](../../../public/content/v1/audio/vo-vth-ch-detail.wav) |
 | VO-VTH-CH-HOME | 可以生活在近岸泥底和红树林附近。 | VTH-CH-03 | [WAV](../../../public/content/v1/audio/vo-vth-ch-home.wav) |
-| VO-VTH-CH-INTRO | 这是锯缘青蟹。壳可以是绿色到近黑色。 | VTH-CH-01 | [WAV](../../../public/content/v1/audio/vo-vth-ch-intro.wav) |
+| VO-VTH-CH-INTRO | 这是青蟹。壳可以是绿色到近黑色。 | VTH-CH-01 | [WAV](../../../public/content/v1/audio/vo-vth-ch-intro.wav) |
 | VO-VTH-CI-BODY | 身体的壳像一把扇子，两侧有尖齿。 | VTH-CI-01 | [WAV](../../../public/content/v1/audio/vo-vth-ci-body.wav) |
 | VO-VTH-CI-DETAIL | 最后一对脚扁扁的，可以帮助游泳。 | VTH-CI-02 | [WAV](../../../public/content/v1/audio/vo-vth-ci-detail.wav) |
 | VO-VTH-CI-HOME | 它会藏进沙泥里，也会在海草附近活动。 | VTH-CI-03 | [WAV](../../../public/content/v1/audio/vo-vth-ci-home.wav) |
-| VO-VTH-CI-INTRO | 这是远海梭子蟹。身体的壳像一把扇子，两侧有尖齿。 | VTH-CI-01 | [WAV](../../../public/content/v1/audio/vo-vth-ci-intro.wav) |
+| VO-VTH-CI-INTRO | 这是花蟹。身体的壳像一把扇子，两侧有尖齿。 | VTH-CI-01 | [WAV](../../../public/content/v1/audio/vo-vth-ci-intro.wav) |
 | VO-VTH-CJ-BODY | 背壳中间，可以有浅色的十字图案。 | VTH-CJ-01 | [WAV](../../../public/content/v1/audio/vo-vth-cj-body.wav) |
 | VO-VTH-CJ-DETAIL | 腿和螯上可以看到深浅条带。 | VTH-CJ-02 | [WAV](../../../public/content/v1/audio/vo-vth-cj-detail.wav) |
 | VO-VTH-CJ-DETAILTWO | 最后一对脚的末端是扁平的。 | VTH-CJ-03 | [WAV](../../../public/content/v1/audio/vo-vth-cj-detailtwo.wav) |
-| VO-VTH-CJ-INTRO | 这是锈斑蟳。背壳中间，可以有浅色的十字图案。 | VTH-CJ-01 | [WAV](../../../public/content/v1/audio/vo-vth-cj-intro.wav) |
+| VO-VTH-CJ-INTRO | 这是红花蟹。背壳中间，可以有浅色的十字图案。 | VTH-CJ-01 | [WAV](../../../public/content/v1/audio/vo-vth-cj-intro.wav) |
 | VO-VTH-CK-BODY | 椭圆的厚壳，边缘像一圈小波浪。 | VTH-CK-01 | [WAV](../../../public/content/v1/audio/vo-vth-ck-body.wav) |
 | VO-VTH-CK-DETAIL | 大螯的尖端是深色的。 | VTH-CK-02 | [WAV](../../../public/content/v1/audio/vo-vth-ck-detail.wav) |
 | VO-VTH-CK-HOME | 可以生活在岩石附近，也能在泥沙底活动。 | VTH-CK-03 | [WAV](../../../public/content/v1/audio/vo-vth-ck-home.wav) |
-| VO-VTH-CK-INTRO | 这是黄道蟹。椭圆的厚壳，边缘像一圈小波浪。 | VTH-CK-01 | [WAV](../../../public/content/v1/audio/vo-vth-ck-intro.wav) |
+| VO-VTH-CK-INTRO | 这是面包蟹。椭圆的厚壳，边缘像一圈小波浪。 | VTH-CK-01 | [WAV](../../../public/content/v1/audio/vo-vth-ck-intro.wav) |
 | VO-VTH-CL-BODY | 硬硬的背壳比较圆。 | VTH-CL-01 | [WAV](../../../public/content/v1/audio/vo-vth-cl-body.wav) |
 | VO-VTH-CL-DETAIL | 除了一对螯，还能看到四对步行脚。 | VTH-CL-02 | [WAV](../../../public/content/v1/audio/vo-vth-cl-detail.wav) |
 | VO-VTH-CL-DETAILTWO | 背面常是褐色，下面颜色较浅。 | VTH-CL-03 | [WAV](../../../public/content/v1/audio/vo-vth-cl-detailtwo.wav) |
@@ -393,19 +393,19 @@
 | VO-VTH-CM-BODY | 背壳和脚上有尖尖的小刺。 | VTH-CM-01 | [WAV](../../../public/content/v1/audio/vo-vth-cm-body.wav) |
 | VO-VTH-CM-DETAIL | 能看到三对长长的步行脚，还有一对螯。 | VTH-CM-02 | [WAV](../../../public/content/v1/audio/vo-vth-cm-detail.wav) |
 | VO-VTH-CM-DETAILTWO | 两个螯形状不同，一个较大，一个较小。 | VTH-CM-03 | [WAV](../../../public/content/v1/audio/vo-vth-cm-detailtwo.wav) |
-| VO-VTH-CM-INTRO | 这是堪察加拟石蟹。背壳和脚上有尖尖的小刺。 | VTH-CM-01 | [WAV](../../../public/content/v1/audio/vo-vth-cm-intro.wav) |
+| VO-VTH-CM-INTRO | 这是红帝王蟹。背壳和脚上有尖尖的小刺。 | VTH-CM-01 | [WAV](../../../public/content/v1/audio/vo-vth-cm-intro.wav) |
 | VO-VTH-CN-BODY | 身体两侧的鳍很宽，看起来有些像乌贼。 | VTH-CN-01 | [WAV](../../../public/content/v1/audio/vo-vth-cn-body.wav) |
 | VO-VTH-CN-DETAIL | 鱿鱼和乌贼有八条腕，还有两条较长的触腕。 | VTH-CN-02 | [WAV](../../../public/content/v1/audio/vo-vth-cn-detail.wav) |
 | VO-VTH-CN-DETAILTWO | 皮肤里的色素细胞，可以帮助改变颜色和图案。 | VTH-CN-03 | [WAV](../../../public/content/v1/audio/vo-vth-cn-detailtwo.wav) |
-| VO-VTH-CN-INTRO | 这是莱氏拟乌贼。身体两侧的鳍很宽，看起来有些像乌贼。 | VTH-CN-01 | [WAV](../../../public/content/v1/audio/vo-vth-cn-intro.wav) |
+| VO-VTH-CN-INTRO | 这是大鳍鱿鱼。身体两侧的鳍很宽，看起来有些像乌贼。 | VTH-CN-01 | [WAV](../../../public/content/v1/audio/vo-vth-cn-intro.wav) |
 | VO-VTH-CO-BODY | 身体细长，像一个长筒。 | VTH-CO-01 | [WAV](../../../public/content/v1/audio/vo-vth-co-body.wav) |
 | VO-VTH-CO-DETAIL | 后面的一对鳍，连起来像菱形。 | VTH-CO-02 | [WAV](../../../public/content/v1/audio/vo-vth-co-detail.wav) |
 | VO-VTH-CO-DETAILTWO | 鱿鱼和乌贼有八条腕，还有两条较长的触腕。 | VTH-CO-03 | [WAV](../../../public/content/v1/audio/vo-vth-co-detailtwo.wav) |
-| VO-VTH-CO-INTRO | 这是欧洲枪乌贼。身体细长，像一个长筒。 | VTH-CO-01 | [WAV](../../../public/content/v1/audio/vo-vth-co-intro.wav) |
+| VO-VTH-CO-INTRO | 这是欧洲鱿鱼。身体细长，像一个长筒。 | VTH-CO-01 | [WAV](../../../public/content/v1/audio/vo-vth-co-intro.wav) |
 | VO-VTH-CP-BODY | 皮肤上的深浅图案会发生变化。 | VTH-CP-01 | [WAV](../../../public/content/v1/audio/vo-vth-cp-body.wav) |
 | VO-VTH-CP-DETAIL | 鱿鱼和乌贼有八条腕，还有两条较长的触腕。 | VTH-CP-02 | [WAV](../../../public/content/v1/audio/vo-vth-cp-detail.wav) |
 | VO-VTH-CP-FOOD | 它会捕食磷虾和多种鱼。 | VTH-CP-03 | [WAV](../../../public/content/v1/audio/vo-vth-cp-food.wav) |
-| VO-VTH-CP-INTRO | 这是茎柔鱼。皮肤上的深浅图案会发生变化。 | VTH-CP-01 | [WAV](../../../public/content/v1/audio/vo-vth-cp-intro.wav) |
+| VO-VTH-CP-INTRO | 这是洪堡鱿鱼。皮肤上的深浅图案会发生变化。 | VTH-CP-01 | [WAV](../../../public/content/v1/audio/vo-vth-cp-intro.wav) |
 | VO-VTH-CQ-BODY | 头和腕上，可以出现深浅相间的虎斑纹。 | VTH-CQ-01 | [WAV](../../../public/content/v1/audio/vo-vth-cq-body.wav) |
 | VO-VTH-CQ-DETAIL | 鱿鱼和乌贼有八条腕，还有两条较长的触腕。 | VTH-CQ-02 | [WAV](../../../public/content/v1/audio/vo-vth-cq-detail.wav) |
 | VO-VTH-CQ-EGGS | 卵会成簇地附着在植物、贝壳等物体上。 | VTH-CQ-03 | [WAV](../../../public/content/v1/audio/vo-vth-cq-eggs.wav) |
@@ -413,7 +413,7 @@
 | VO-VTH-CR-BODY | 它会改变身体的颜色、图案和表面样子。 | VTH-CR-01 | [WAV](../../../public/content/v1/audio/vo-vth-cr-body.wav) |
 | VO-VTH-CR-DETAIL | 鱿鱼和乌贼有八条腕，还有两条较长的触腕。 | VTH-CR-02 | [WAV](../../../public/content/v1/audio/vo-vth-cr-detail.wav) |
 | VO-VTH-CR-FOOD | 它会吃虾、蟹、小鱼和一些贝类。 | VTH-CR-03 | [WAV](../../../public/content/v1/audio/vo-vth-cr-food.wav) |
-| VO-VTH-CR-INTRO | 这是普通乌贼。它会改变身体的颜色、图案和表面样子。 | VTH-CR-01 | [WAV](../../../public/content/v1/audio/vo-vth-cr-intro.wav) |
+| VO-VTH-CR-INTRO | 这是普通墨鱼。它会改变身体的颜色、图案和表面样子。 | VTH-CR-01 | [WAV](../../../public/content/v1/audio/vo-vth-cr-intro.wav) |
 | VO-VTH-CS-BODY | 章鱼有八条腕，没有鱿鱼那两条长触腕。 | VTH-CS-01 | [WAV](../../../public/content/v1/audio/vo-vth-cs-body.wav) |
 | VO-VTH-CS-DETAIL | 每条腕上，能看到两排吸盘。 | VTH-CS-02 | [WAV](../../../public/content/v1/audio/vo-vth-cs-detail.wav) |
 | VO-VTH-CS-DETAILTWO | 身体颜色可以变化，不是一直保持一种颜色。 | VTH-CS-03 | [WAV](../../../public/content/v1/audio/vo-vth-cs-detailtwo.wav) |
@@ -421,7 +421,7 @@
 | VO-VTH-CT-BODY | 它有八条带着吸盘的腕。 | VTH-CT-01 | [WAV](../../../public/content/v1/audio/vo-vth-ct-body.wav) |
 | VO-VTH-CT-HOME | 常在海底岩石的洞隙里找住处。 | VTH-CT-02 | [WAV](../../../public/content/v1/audio/vo-vth-ct-home.wav) |
 | VO-VTH-CT-FOOD | 它会捕食蟹、贝类和鱼等小动物。 | VTH-CT-03 | [WAV](../../../public/content/v1/audio/vo-vth-ct-food.wav) |
-| VO-VTH-CT-INTRO | 这是北太平洋巨型章鱼。它有八条带着吸盘的腕。 | VTH-CT-01 | [WAV](../../../public/content/v1/audio/vo-vth-ct-intro.wav) |
+| VO-VTH-CT-INTRO | 这是北太平洋大章鱼。它有八条带着吸盘的腕。 | VTH-CT-01 | [WAV](../../../public/content/v1/audio/vo-vth-ct-intro.wav) |
 | VO-VTH-CU-BODY | 一片扁扁的壳，轮廓像耳朵。 | VTH-CU-01 | [WAV](../../../public/content/v1/audio/vo-vth-cu-body.wav) |
 | VO-VTH-CU-DETAIL | 壳边有一排小孔。 | VTH-CU-02 | [WAV](../../../public/content/v1/audio/vo-vth-cu-detail.wav) |
 | VO-VTH-CU-FOOD | 鲍鱼可以吃海藻。 | VTH-CU-03 | [WAV](../../../public/content/v1/audio/vo-vth-cu-food.wav) |
@@ -433,7 +433,7 @@
 | VO-VTH-CW-BODY | 浅色的螺壳上，排着褐色方斑。 | VTH-CW-01 | [WAV](../../../public/content/v1/audio/vo-vth-cw-body.wav) |
 | VO-VTH-CW-DETAIL | 壳上部一圈圈变小，形成尖尖的螺塔。 | VTH-CW-02 | [WAV](../../../public/content/v1/audio/vo-vth-cw-detail.wav) |
 | VO-VTH-CW-HOME | 生活在海底的沙泥中。 | VTH-CW-03 | [WAV](../../../public/content/v1/audio/vo-vth-cw-home.wav) |
-| VO-VTH-CW-INTRO | 这是方斑东风螺。浅色的螺壳上，排着褐色方斑。 | VTH-CW-01 | [WAV](../../../public/content/v1/audio/vo-vth-cw-intro.wav) |
+| VO-VTH-CW-INTRO | 这是花螺。浅色的螺壳上，排着褐色方斑。 | VTH-CW-01 | [WAV](../../../public/content/v1/audio/vo-vth-cw-intro.wav) |
 | VO-VTH-CX-BODY | 壳的最后一圈大大鼓起，顶端较短。 | VTH-CX-01 | [WAV](../../../public/content/v1/audio/vo-vth-cx-body.wav) |
 | VO-VTH-CX-DETAIL | 壳口里面可以是橙色的。 | VTH-CX-02 | [WAV](../../../public/content/v1/audio/vo-vth-cx-detail.wav) |
 | VO-VTH-CX-DETAILTWO | 螺壳上可以有深色的脉状花纹。 | VTH-CX-03 | [WAV](../../../public/content/v1/audio/vo-vth-cx-detailtwo.wav) |
@@ -445,7 +445,7 @@
 | VO-VTH-CZ-BODY | 身体外面，有两片椭圆的壳。 | VTH-CZ-01 | [WAV](../../../public/content/v1/audio/vo-vth-cz-body.wav) |
 | VO-VTH-CZ-DETAIL | 壳上的横纹和放射纹，交织成小格子。 | VTH-CZ-02 | [WAV](../../../public/content/v1/audio/vo-vth-cz-detail.wav) |
 | VO-VTH-CZ-HOME | 可以生活在浅海沙泥或沙砾底。 | VTH-CZ-03 | [WAV](../../../public/content/v1/audio/vo-vth-cz-home.wav) |
-| VO-VTH-CZ-INTRO | 这是菲律宾蛤仔。身体外面，有两片椭圆的壳。 | VTH-CZ-01 | [WAV](../../../public/content/v1/audio/vo-vth-cz-intro.wav) |
+| VO-VTH-CZ-INTRO | 这是花蛤。身体外面，有两片椭圆的壳。 | VTH-CZ-01 | [WAV](../../../public/content/v1/audio/vo-vth-cz-intro.wav) |
 | VO-VTH-DA-BODY | 两片厚壳，轮廓像圆圆的三角形。 | VTH-DA-01 | [WAV](../../../public/content/v1/audio/vo-vth-da-body.wav) |
 | VO-VTH-DA-DETAIL | 壳面比较光滑，颜色和图案会变化。 | VTH-DA-02 | [WAV](../../../public/content/v1/audio/vo-vth-da-detail.wav) |
 | VO-VTH-DA-HOME | 生活在近岸浅海的沙泥底。 | VTH-DA-03 | [WAV](../../../public/content/v1/audio/vo-vth-da-home.wav) |
@@ -453,15 +453,15 @@
 | VO-VTH-DB-BODY | 幼小的时候，壳常常是鲜绿色。 | VTH-DB-01 | [WAV](../../../public/content/v1/audio/vo-vth-db-body.wav) |
 | VO-VTH-DB-YOUNG | 长大以后，壳会变成较深的绿褐色。 | VTH-DB-02 | [WAV](../../../public/content/v1/audio/vo-vth-db-young.wav) |
 | VO-VTH-DB-DETAIL | 它用一束细丝，把自己固定在硬物上。 | VTH-DB-03 | [WAV](../../../public/content/v1/audio/vo-vth-db-detail.wav) |
-| VO-VTH-DB-INTRO | 这是翡翠贻贝。幼小的时候，壳常常是鲜绿色。 | VTH-DB-01 | [WAV](../../../public/content/v1/audio/vo-vth-db-intro.wav) |
+| VO-VTH-DB-INTRO | 这是青口贝。幼小的时候，壳常常是鲜绿色。 | VTH-DB-01 | [WAV](../../../public/content/v1/audio/vo-vth-db-intro.wav) |
 | VO-VTH-DC-BODY | 两片壳的轮廓，有些像长长的水滴。 | VTH-DC-01 | [WAV](../../../public/content/v1/audio/vo-vth-dc-body.wav) |
 | VO-VTH-DC-DETAIL | 壳可以是蓝黑色、黑色或褐色。 | VTH-DC-02 | [WAV](../../../public/content/v1/audio/vo-vth-dc-detail.wav) |
 | VO-VTH-DC-DETAILTWO | 它用一束细丝，把自己固定在物体上。 | VTH-DC-03 | [WAV](../../../public/content/v1/audio/vo-vth-dc-detailtwo.wav) |
-| VO-VTH-DC-INTRO | 这是紫贻贝。两片壳的轮廓，有些像长长的水滴。 | VTH-DC-01 | [WAV](../../../public/content/v1/audio/vo-vth-dc-intro.wav) |
+| VO-VTH-DC-INTRO | 这是蓝贻贝。两片壳的轮廓，有些像长长的水滴。 | VTH-DC-01 | [WAV](../../../public/content/v1/audio/vo-vth-dc-intro.wav) |
 | VO-VTH-DD-BODY | 两片壳的外面凹凸不平。 | VTH-DD-01 | [WAV](../../../public/content/v1/audio/vo-vth-dd-body.wav) |
 | VO-VTH-DD-DETAIL | 一片壳较平，另一片像深一点的小碗。 | VTH-DD-02 | [WAV](../../../public/content/v1/audio/vo-vth-dd-detail.wav) |
 | VO-VTH-DD-FOOD | 它过滤海水，吃水里的浮游小生物。 | VTH-DD-03 | [WAV](../../../public/content/v1/audio/vo-vth-dd-food.wav) |
-| VO-VTH-DD-INTRO | 这是太平洋牡蛎。两片壳的外面凹凸不平。 | VTH-DD-01 | [WAV](../../../public/content/v1/audio/vo-vth-dd-intro.wav) |
+| VO-VTH-DD-INTRO | 这是太平洋生蚝。两片壳的外面凹凸不平。 | VTH-DD-01 | [WAV](../../../public/content/v1/audio/vo-vth-dd-intro.wav) |
 | VO-VTH-DE-BODY | 两片壳像扇子一样展开。 | VTH-DE-01 | [WAV](../../../public/content/v1/audio/vo-vth-de-body.wav) |
 | VO-VTH-DE-DETAIL | 一片壳比较鼓，另一片比较平。 | VTH-DE-02 | [WAV](../../../public/content/v1/audio/vo-vth-de-detail.wav) |
 | VO-VTH-DE-HOME | 它能在海底沙砾中，找一个浅浅的凹窝。 | VTH-DE-03 | [WAV](../../../public/content/v1/audio/vo-vth-de-home.wav) |
@@ -469,11 +469,11 @@
 | VO-VTH-DF-BODY | 两片壳厚厚的，向外鼓起。 | VTH-DF-01 | [WAV](../../../public/content/v1/audio/vo-vth-df-body.wav) |
 | VO-VTH-DF-DETAIL | 壳上有一条条向外放射的凸肋。 | VTH-DF-02 | [WAV](../../../public/content/v1/audio/vo-vth-df-detail.wav) |
 | VO-VTH-DF-DETAILTWO | 凸肋上，还有小小的结节。 | VTH-DF-03 | [WAV](../../../public/content/v1/audio/vo-vth-df-detailtwo.wav) |
-| VO-VTH-DF-INTRO | 这是泥蚶。两片壳厚厚的，向外鼓起。 | VTH-DF-01 | [WAV](../../../public/content/v1/audio/vo-vth-df-intro.wav) |
+| VO-VTH-DF-INTRO | 这是血蚶。两片壳厚厚的，向外鼓起。 | VTH-DF-01 | [WAV](../../../public/content/v1/audio/vo-vth-df-intro.wav) |
 | VO-VTH-DG-BODY | 这种双壳贝，叫作缢蛏，也叫毛蛏。 | VTH-DG-01 | [WAV](../../../public/content/v1/audio/vo-vth-dg-body.wav) |
 | VO-VTH-DG-HOME | 它住在浅海的泥底。 | VTH-DG-02 | [WAV](../../../public/content/v1/audio/vo-vth-dg-home.wav) |
 | VO-VTH-DG-DETAILTWO | 在中国沿海、日本和韩国等地可以见到。 | VTH-DG-03 | [WAV](../../../public/content/v1/audio/vo-vth-dg-detailtwo.wav) |
-| VO-VTH-DG-INTRO | 这是缢蛏。这种双壳贝，叫作缢蛏，也叫毛蛏。 | VTH-DG-01 | [WAV](../../../public/content/v1/audio/vo-vth-dg-intro.wav) |
+| VO-VTH-DG-INTRO | 这是蛏子。这种双壳贝，叫作缢蛏，也叫毛蛏。 | VTH-DG-01 | [WAV](../../../public/content/v1/audio/vo-vth-dg-intro.wav) |
 | VO-VTH-DH-BODY | 两片壳外面，伸着长长的水管。 | VTH-DH-01 | [WAV](../../../public/content/v1/audio/vo-vth-dh-body.wav) |
 | VO-VTH-DH-DETAIL | 水管有进水和出水的两个开口。 | VTH-DH-02 | [WAV](../../../public/content/v1/audio/vo-vth-dh-detail.wav) |
 | VO-VTH-DH-HOME | 身体可以埋在海底泥沙里。 | VTH-DH-03 | [WAV](../../../public/content/v1/audio/vo-vth-dh-home.wav) |
@@ -481,14 +481,21 @@
 | VO-VTH-DI-BODY | 身体长长的，背上有锥形小突起。 | VTH-DI-01 | [WAV](../../../public/content/v1/audio/vo-vth-di-body.wav) |
 | VO-VTH-DI-DETAIL | 身体下面有一排排小管足。 | VTH-DI-02 | [WAV](../../../public/content/v1/audio/vo-vth-di-detail.wav) |
 | VO-VTH-DI-DETAILTWO | 不同个体可以是绿色、褐色或灰色。 | VTH-DI-03 | [WAV](../../../public/content/v1/audio/vo-vth-di-detailtwo.wav) |
-| VO-VTH-DI-INTRO | 这是仿刺参。身体长长的，背上有锥形小突起。 | VTH-DI-01 | [WAV](../../../public/content/v1/audio/vo-vth-di-intro.wav) |
+| VO-VTH-DI-INTRO | 这是仿刺海参。身体长长的，背上有锥形小突起。 | VTH-DI-01 | [WAV](../../../public/content/v1/audio/vo-vth-di-intro.wav) |
 | VO-VTH-DJ-BODY | 这是一种海胆，日本叫它北紫海胆。 | VTH-DJ-01 | [WAV](../../../public/content/v1/audio/vo-vth-dj-body.wav) |
 | VO-VTH-DJ-HOME | 在北海道附近的沿海可以见到。 | VTH-DJ-02 | [WAV](../../../public/content/v1/audio/vo-vth-dj-home.wav) |
 | VO-VTH-DJ-FOOD | 它会吃海藻，也会吃海藻的幼芽。 | VTH-DJ-03 | [WAV](../../../public/content/v1/audio/vo-vth-dj-food.wav) |
-| VO-VTH-DJ-INTRO | 这是光棘球海胆。这是一种海胆，日本叫它北紫海胆。 | VTH-DJ-01 | [WAV](../../../public/content/v1/audio/vo-vth-dj-intro.wav) |
+| VO-VTH-DJ-INTRO | 这是北紫海胆。这是一种海胆，日本叫它北紫海胆。 | VTH-DJ-01 | [WAV](../../../public/content/v1/audio/vo-vth-dj-intro.wav) |
 | VO-VTH-DK-BODY | 身体上面像一把圆圆的伞。 | VTH-DK-01 | [WAV](../../../public/content/v1/audio/vo-vth-dk-body.wav) |
 | VO-VTH-DK-DETAIL | 伞的下面，有一簇口腕。 | VTH-DK-02 | [WAV](../../../public/content/v1/audio/vo-vth-dk-detail.wav) |
 | VO-VTH-DK-DETAILTWO | 海蜇属于水母，和鱼不属于同一类。 | VTH-DK-03 | [WAV](../../../public/content/v1/audio/vo-vth-dk-detailtwo.wav) |
 | VO-VTH-DK-INTRO | 这是海蜇。身体上面像一把圆圆的伞。 | VTH-DK-01 | [WAV](../../../public/content/v1/audio/vo-vth-dk-intro.wav) |
+| VO-CREATE-MOUTH | 看看这两张图。长嘴巴，还是小鹦嘴？你也可以画一种新的嘴巴。 | FF-03、SG-03 | [WAV](../../../public/content/v1/audio/vo-create-mouth.wav) |
+| VO-CREATE-FIN | 看看鱼背上的鳍。一条长长的鳍，还是两片小鳍？你的鱼想要什么样的？ | ZC-01、SB-02 | [WAV](../../../public/content/v1/audio/vo-create-fin.wav) |
+| VO-CREATE-TAIL | 卷卷的尾巴，还是细细的尾巴？看看这两位朋友，再给自己的鱼想一条尾巴。 | HK-01、TL-02 | [WAV](../../../public/content/v1/audio/vo-create-tail.wav) |
+| VO-CREATE-SHAPE | 小盒子，大翅膀。看看它们的身体。你的鱼想像什么？回去捏一捏，也可以用画笔画出想法。 | OC-01、MB-01 | [WAV](../../../public/content/v1/audio/vo-create-shape.wav) |
+| VO-CREATE-PATTERN | 看看虎虾的一条条，和花螺的一点点。你想给鱼画哪件花衣服？也可以把两种花纹混在一起。 | VTH-BY-01、VTH-CW-01 | [WAV](../../../public/content/v1/audio/vo-create-pattern.wav) |
+| VO-CREATE-ARMS | 看看章鱼和鱿鱼的腕。回去用画笔画弯弯的线，加上小圆点。你的幻想鱼也可以有新点子。 | VTH-CS-01、VTH-CS-02、VTH-CO-01、VTH-CO-03 | [WAV](../../../public/content/v1/audio/vo-create-arms.wav) |
+| VO-CREATE-SHELL | 像耳朵，像扇子。看看鲍鱼和扇贝的壳。回去画一片想象的壳，也可以试试贝壳印章。 | VTH-CU-01、VTH-CU-02、VTH-DE-01、VTH-DE-02 | [WAV](../../../public/content/v1/audio/vo-create-shell.wav) |
 
-声音：Microsoft Huihui Desktop / zh-CN，Rate -1，24kHz 单声道 16bit PCM，仅本地试听授权记录。主动点听，切换对象与离页停止，不重叠播放。
+Microsoft Huihui Desktop / zh-CN，Rate -1，24kHz 单声道 16bit PCM；授权记录仍为本地试听。主动点听、切换和离页停止。创作点子不是生物规律或任务要求。
