@@ -1016,7 +1016,14 @@
         "curl",
         "color"
       ],
-      "individuallyPlaced": false,
+      "individuallyPlaced": true,
+      "placement": "along-trunk-bottom",
+      "individualControls": [
+        "position",
+        "angle",
+        "length",
+        "curl"
+      ],
       "suckers": false
     },
     "shellStructure": false

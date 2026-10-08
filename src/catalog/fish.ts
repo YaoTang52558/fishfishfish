@@ -3,8 +3,9 @@ import type {
   StampDefinition, TailDefinition,
 } from '../domain/types.ts';
 
-export const catalogVersion = 3;
+export const catalogVersion = 4;
 export const armLimits = { count: { min: 1, max: 8 }, length: { min: 0.15, max: 0.55, default: 0.32 }, curl: { min: 0, max: 1, default: 0.55 } } as const;
+export const armPoseLimits = { position: { min: .18, max: .9 }, angle: { min: -1.35, max: 1.35 }, length: armLimits.length, curl: armLimits.curl } as const;
 export const shapeLimits = {
   length: { min: 0.75, max: 1.4, step: 0.01, default: 1 },
   height: { min: 0.7, max: 1.3, step: 0.01, default: 1 },

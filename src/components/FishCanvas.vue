@@ -2,7 +2,8 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import { bodies, eyes, finSets, heads, mouths, tails } from '../catalog/fish.ts';
 import { bodyOutline, canonicalToScreen, fitFish, getEditorBounds, getFishGeometry, screenToCanonical, screenToLocal } from '../domain/geometry.ts';
-import { changeSculpt } from '../domain/fish.ts';
+import { changeArmPose, changeSculpt } from '../domain/fish.ts';
+import { armSections, poseForArmTip, type ArmRoot } from '../domain/arms.ts';
 import type { FishDesign } from '../domain/types.ts';
 import type { PointerSample } from '../features/editor/editor.ts';
 import type { PaintLayer } from '../features/editor/paintLayer.ts';
@@ -11,9 +12,9 @@ import { drawStudioWater } from '../rendering/studioWater.ts';
 
 const props = defineProps<{
   design: FishDesign; color?: PaintLayer | null; glow?: PaintLayer | null; paintTick?: number;
-  interactive?: boolean; sculpting?: boolean; dark?: boolean; selectedStampId?: string | null; label?: string;
+  interactive?: boolean; sculpting?: boolean; dark?: boolean; selectedStampId?: string | null; label?: string; selectedArm?: number;
 }>();
-const emit = defineEmits<{ press: [PointerSample]; drag: [PointerSample]; release: []; sculptLive: [FishDesign]; sculptEnd: [] }>();
+const emit = defineEmits<{ press: [PointerSample]; drag: [PointerSample]; release: []; sculptLive: [FishDesign]; sculptEnd: []; armLive: [FishDesign]; armEnd: [] }>();
 const canvas = ref<HTMLCanvasElement>();
 const supported = ref(true);
 const name = (items: readonly { id: string; name: string }[], id: string) => items.find((item) => item.id === id)?.name ?? '';
@@ -25,6 +26,34 @@ let observer: ResizeObserver | undefined;
 let frame = 0;
 let activePointer: number | null = null;
 const handles = ref<{ edge: 'top' | 'bottom'; index: number; x: number; y: number; base: number }[]>([]);
+const armHandle = ref<{ x: number; y: number } | null>(null);
+let armDrag: { pointer: number; target: HTMLElement; index: number; root: ArmRoot; placement: ReturnType<typeof fitFish>; bodyLength: number } | null = null;
+function armDown(e: PointerEvent) {
+  if (armDrag || !e.isPrimary || e.button !== 0 || !canvas.value || props.selectedArm === undefined) return;
+  const root = getFishGeometry(props.design).arms[props.selectedArm]; if (!root) return;
+  const target = e.currentTarget as HTMLElement; target.setPointerCapture(e.pointerId);
+  armDrag = { pointer: e.pointerId, target, index: props.selectedArm, root, placement: placementFor(canvas.value).placement, bodyLength: getFishGeometry(props.design).axes.x };
+}
+function armMove(e: PointerEvent) {
+  if (!armDrag || e.pointerId !== armDrag.pointer || !canvas.value) return;
+  if (!props.design.arms || armDrag.index >= props.design.arms.count) { armEnd(); return; }
+  const r = canvas.value.getBoundingClientRect();
+  const point = screenToLocal({ x: e.clientX - r.left, y: e.clientY - r.top }, armDrag.placement);
+  emit('armLive', changeArmPose(props.design, armDrag.index, poseForArmTip(armDrag.root, point, armDrag.bodyLength)));
+}
+function armEnd(e?: PointerEvent) {
+  if (!armDrag || e && e.pointerId !== armDrag.pointer) return;
+  const drag = armDrag; armDrag = null;
+  if (drag.target.hasPointerCapture(drag.pointer)) drag.target.releasePointerCapture(drag.pointer);
+  emit('armEnd'); scheduleDraw();
+}
+function armKey(e: KeyboardEvent) {
+  if (!['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.key) || props.selectedArm === undefined || props.selectedArm < 0) return;
+  e.preventDefault(); const root = getFishGeometry(props.design).arms[props.selectedArm]!;
+  const tip = armSections(root).at(-1)!;
+  const point = { x: tip.x + (e.key === 'ArrowLeft' ? -.015 : e.key === 'ArrowRight' ? .015 : 0), y: tip.y + (e.key === 'ArrowUp' ? -.015 : e.key === 'ArrowDown' ? .015 : 0) };
+  emit('armLive', changeArmPose(props.design, props.selectedArm, poseForArmTip(root, point, getFishGeometry(props.design).axes.x))); emit('armEnd');
+}
 let sculptDrag: { pointer: number; target: HTMLElement; edge: 'top' | 'bottom'; index: number; base: number; placement: ReturnType<typeof fitFish>; axes: ReturnType<typeof getFishGeometry>['axes'] } | null = null;
 const sculptValue = (value: number) => Math.max(-.14, Math.min(.14, Math.round(value * 1000) / 1000));
 function sculptDown(e: PointerEvent, handle: typeof handles.value[number]) {
@@ -55,7 +84,7 @@ function sculptKey(e: KeyboardEvent, handle: typeof handles.value[number]) {
 
 function placementFor(element: HTMLCanvasElement) {
   const { width, height } = element.getBoundingClientRect();
-  return { width, height, placement: sculptDrag?.placement ?? fitFish(getEditorBounds(props.design), width, height) };
+  return { width, height, placement: armDrag?.placement ?? sculptDrag?.placement ?? fitFish(getEditorBounds(props.design, (props.selectedArm ?? -1) >= 0), width, height) };
 }
 function draw() {
   frame = 0;
@@ -72,7 +101,11 @@ function draw() {
   renderFish(ctx, props.design, placement, {
     paint: props.color?.canvas, glow: props.glow ? { source: props.glow.canvas, version: props.glow.version } : null,
     dim: props.dark ? 0.55 : 0, selectedStampId: props.interactive ? props.selectedStampId : null,
+    selectedArm: props.selectedArm,
   });
+  const root = getFishGeometry(props.design).arms[props.selectedArm ?? -1];
+  if (root) { const tip = armSections(root).at(-1)!; armHandle.value = { x: placement.x + tip.x * placement.scale, y: placement.y + tip.y * placement.scale }; }
+  else armHandle.value = null;
   const base = bodyOutline(bodies.find(b => b.id === props.design.bodyId)!, heads.find(h => h.id === props.design.parts.headId)!, props.design.shape.headRatio);
   const outline = bodyOutline(bodies.find(b => b.id === props.design.bodyId)!, heads.find(h => h.id === props.design.parts.headId)!, props.design.shape.headRatio, props.design.sculpt);
   handles.value = (['top', 'bottom'] as const).flatMap(edge => [0, 1, 2].map(index => {
@@ -113,7 +146,8 @@ function finish(event: PointerEvent) {
   emit('release');
 }
 
-watch(() => [props.design, props.color, props.glow, props.paintTick, props.dark, props.selectedStampId, props.interactive, props.sculpting] as const, scheduleDraw);
+watch(() => [props.design, props.color, props.glow, props.paintTick, props.dark, props.selectedStampId, props.interactive, props.sculpting, props.selectedArm] as const, scheduleDraw);
+watch(() => props.selectedArm, () => armEnd());
 watch(() => props.sculpting, value => { if (!value) sculptEnd(); });
 watch(() => props.interactive, (interactive) => { if (!interactive && activePointer !== null) { activePointer = null; emit('release'); } });
 defineExpose({ redraw: scheduleDraw });
@@ -124,6 +158,7 @@ onMounted(() => {
   scheduleDraw();
 });
 onBeforeUnmount(() => {
+  armEnd();
   sculptEnd();
   observer?.disconnect(); window.removeEventListener('resize', scheduleDraw);
   if (frame) cancelAnimationFrame(frame);
@@ -137,8 +172,10 @@ onBeforeUnmount(() => {
       @pointercancel="finish" @lostpointercapture="finish">{{ description }}</canvas>
     <p v-else class="canvas-fallback">此浏览器暂不支持鱼画布，请换一个支持 Canvas 的浏览器。{{ description }}</p>
     <span class="scene-label">{{ label ?? '你的造型' }}</span>
+    <div v-if="armHandle && supported" class="sculpt-handles arm-handle"><button :aria-label="`第 ${(selectedArm ?? 0) + 1} 条腕足末端，拖动或按方向键`" :style="{ left: armHandle.x + 'px', top: armHandle.y + 'px' }" @pointerdown.prevent="armDown" @pointermove="armMove" @pointerup="armEnd" @pointercancel="armEnd" @lostpointercapture="armEnd" @blur="armEnd()" @keydown="armKey"><span>↔</span></button></div>
     <div v-if="sculpting && supported" class="sculpt-handles" aria-label="直接捏鱼的轮廓"><button v-for="handle in handles" :key="handle.edge + handle.index" :aria-label="`${handle.edge === 'top' ? '鱼背' : '肚子'}塑形点 ${handle.index + 1}，上下拖动或按方向键`" :style="{ left: handle.x + 'px', top: handle.y + 'px' }" @pointerdown.prevent="sculptDown($event, handle)" @pointermove="sculptMove" @pointerup="sculptEnd" @pointercancel="sculptEnd" @lostpointercapture="sculptEnd" @blur="sculptEnd()" @keydown="sculptKey($event, handle)"><span :class="handle.edge">↕</span></button></div>
   </div>
 </template>
+<style scoped>.sculpt-handles.arm-handle span{background:#d7a92f}</style>
 <style scoped>@media(max-width:480px){.sculpt-handles button{width:44px!important;height:44px!important}.sculpt-handles span{width:27px!important;height:27px!important;font-size:17px!important}}</style>
 <style scoped>.sculpt-handles{position:absolute;inset:0;pointer-events:none}.sculpt-handles button{position:absolute;transform:translate(-50%,-50%);width:56px;height:56px;border:0;background:transparent;display:grid;place-items:center;pointer-events:auto;touch-action:none;padding:0}.sculpt-handles span{display:grid;place-items:center;width:30px;height:30px;border:3px solid #fffdf2;border-radius:50%;background:#d98632;color:#fff;font-size:19px;box-shadow:0 2px 8px #244b57aa}.sculpt-handles .bottom{background:#286f95}.scene-label{pointer-events:none}</style>

@@ -30,6 +30,7 @@ export interface RenderOptions {
   /** 彩蛋特效（游戏设定）与动画时间（秒）；减少动态时调用方不传。 */
   effect?: EffectId | null;
   time?: number;
+  selectedArm?: number;
 }
 
 export interface BodySprite { key: string; canvas: HTMLCanvasElement; box: { minX: number; minY: number; maxX: number; maxY: number } }
@@ -249,6 +250,7 @@ export function renderFish(ctx: CanvasRenderingContext2D, design: FishDesign, pl
   for (const root of geometry.arms) {
     const animated = options.time !== undefined;
     const polygon = armPolygon(root, options.time ?? 0, animated);
+    if (root.index === options.selectedArm) { trace(ctx, polygon); ctx.strokeStyle = '#FFF3B4'; ctx.lineWidth = .035; ctx.stroke(); }
     trace(ctx, polygon); ctx.fillStyle = design.arms!.color; ctx.fill();
     ctx.strokeStyle = shade(design.arms!.color, -.4); ctx.lineWidth = .004; ctx.stroke();
     const sections = armSections(root, options.time ?? 0, animated);

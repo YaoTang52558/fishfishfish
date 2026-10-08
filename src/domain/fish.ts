@@ -1,5 +1,6 @@
-import { armLimits, bodies, eyes, finSets, heads, mouths, palette, patterns, patternLimits, shapeLimits, stampKinds, stampLimits, tails } from '../catalog/fish.ts';
-import type { ColorSlot, FishDesign, ShapeKey, Stamp } from './types.ts';
+import { armLimits, armPoseLimits, bodies, eyes, finSets, heads, mouths, palette, patterns, patternLimits, shapeLimits, stampKinds, stampLimits, tails } from '../catalog/fish.ts';
+import type { ArmPose, ColorSlot, FishDesign, ShapeKey, Stamp } from './types.ts';
+import { defaultArmPose, getArmPoses } from './arms.ts';
 
 export type PartKey = 'bodyId' | keyof FishDesign['parts'];
 const partCatalog: Record<PartKey, readonly { id: string }[]> = {
@@ -29,14 +30,33 @@ export function changePart(design: FishDesign, key: PartKey, id: string): FishDe
 export function changeTail(design: FishDesign, tailId: string): FishDesign { return changePart(design, 'tailId', tailId); }
 export function changeArms(design: FishDesign, patch: Partial<NonNullable<FishDesign['arms']>>): FishDesign {
   if (patch.count === 0) { const { arms, ...rest } = design; return rest; }
-  const arms = { count: 4, length: armLimits.length.default, curl: armLimits.curl.default, color: design.colors.fin, ...design.arms, ...patch };
+  const arms: NonNullable<FishDesign['arms']> = { count: 4, length: armLimits.length.default, curl: armLimits.curl.default, color: design.colors.fin, ...design.arms, ...patch };
+  if (!Number.isInteger(arms.count) || arms.count < 1 || arms.count > 8) throw new RangeError('Invalid arms');
+  if (design.arms?.poses && !('poses' in patch)) {
+    arms.poses = Array.from({ length: arms.count }, (_, index) => {
+      const pose = { ...(design.arms!.poses![index] ?? defaultArmPose(arms, index)) };
+      if (patch.length !== undefined) pose.length = patch.length;
+      if (patch.curl !== undefined) pose.curl = patch.curl;
+      return pose;
+    });
+  }
+  if (arms.poses === undefined) delete arms.poses;
   if (!validArms(arms)) throw new RangeError('Invalid arms');
   return { ...design, arms };
+}
+export function changeArmPose(design: FishDesign, index: number, patch: Partial<ArmPose>): FishDesign {
+  if (!design.arms || !Number.isInteger(index) || index < 0 || index >= design.arms.count) throw new RangeError('Invalid arm index');
+  const poses = getArmPoses(design); poses[index] = { ...poses[index]!, ...patch };
+  return changeArms(design, { poses });
 }
 function validArms(value: Record<string, unknown>) {
   return Number.isInteger(value.count) && Number(value.count) >= armLimits.count.min && Number(value.count) <= armLimits.count.max
     && ['length', 'curl'].every(key => typeof value[key] === 'number' && Number.isFinite(value[key]) && Number(value[key]) >= armLimits[key as 'length' | 'curl'].min && Number(value[key]) <= armLimits[key as 'length' | 'curl'].max)
-    && isPaletteColor(value.color);
+    && isPaletteColor(value.color)
+    && (value.poses === undefined || (Array.isArray(value.poses) && value.poses.length === value.count && Array.from(value.poses).every(input => {
+      const p = record(input);
+      return p && (Object.keys(armPoseLimits) as Array<keyof ArmPose>).every(key => typeof p[key] === 'number' && Number.isFinite(p[key]) && Number(p[key]) >= armPoseLimits[key].min && Number(p[key]) <= armPoseLimits[key].max);
+    })));
 }
 export function resetShape(design: FishDesign): FishDesign {
   return { ...design, shape: { length: 1, height: 1, headRatio: 0.3 } };
@@ -151,7 +171,8 @@ export function validateFishDesign(input: unknown): { ok: true; value: FishDesig
       ...(pattern.size === undefined ? {} : { size: pattern.size as number }), ...(pattern.density === undefined ? {} : { density: pattern.density as number }) },
     paint: { resolution: 512, colorAssetId: paint.colorAssetId as string | null, glowAssetId: paint.glowAssetId as string | null },
     stamps: stamps as Stamp[], mirroredSide: true,
-    ...(arms ? { arms: { count: arms.count as number, length: arms.length as number, curl: arms.curl as number, color: arms.color as string } } : {}),
+    ...(arms ? { arms: { count: arms.count as number, length: arms.length as number, curl: arms.curl as number, color: arms.color as string,
+      ...(arms.poses === undefined ? {} : { poses: (arms.poses as ArmPose[]).map(p => ({ position: p.position, angle: p.angle, length: p.length, curl: p.curl })) }) } } : {}),
     ...(sculpt ? { sculpt: { top: [...sculpt.top as number[]] as [number, number, number], bottom: [...sculpt.bottom as number[]] as [number, number, number] } } : {}),
   } };
 }

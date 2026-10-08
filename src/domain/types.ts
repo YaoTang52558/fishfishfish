@@ -21,8 +21,9 @@ export interface FishDesign {
   /** Optional trunk control offsets in canonical coordinates; old designs omit them. */
   sculpt?: { top: [number, number, number]; bottom: [number, number, number] };
   /** Optional fantasy arms; count is a creative choice, not a species classification. */
-  arms?: { count: number; length: number; curl: number; color: string };
+  arms?: { count: number; length: number; curl: number; color: string; poses?: ArmPose[] };
 }
+export interface ArmPose { position: number; angle: number; length: number; curl: number }
 export interface AnimationProfile { thrust: number; agility: number; amplitude: number }
 export interface BodyDefinition {
   id: string; name: string; alias: string; description: string;

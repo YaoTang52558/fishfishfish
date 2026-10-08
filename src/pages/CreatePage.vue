@@ -42,6 +42,7 @@ const tabs = ['造型', '部件', '颜色', '画笔'] as const;
 const selected = ref<(typeof tabs)[number]>('画笔');
 const sculpting = ref(false);
 const armEditing = ref(false);
+const selectedArm = ref(-1);
 const knowledgeTopic = computed(() => armEditing.value ? 'arms' : activePart.value === 'tailId' ? 'tail' : activePart.value === 'finId' ? 'fin' : activePart.value === 'mouthId' ? 'mouth' : 'shape');
 const activePart = ref<PartKey>('bodyId');
 const tabIcons = { 造型: '🐟', 部件: '🧩', 颜色: '🎨', 画笔: '🖌️' };
@@ -62,7 +63,7 @@ const observationOpen = ref(false);
 const showcaseOpen = ref(false);
 const knowledgeOpen = ref(false);
 const helpOpen = ref(false);
-const helpTopic = computed<HelpTopic>(() => mode.value === 'finish' ? 'save' : mode.value === 'trial' ? 'trial' : armEditing.value ? 'arms' : sculpting.value ? 'sculpt' : selected.value === '画笔' ? 'brush' : selected.value === '颜色' ? 'colors' : 'shape');
+const helpTopic = computed<HelpTopic>(() => mode.value === 'finish' ? 'save' : mode.value === 'trial' ? 'trial' : armEditing.value ? selectedArm.value >= 0 ? 'arm-pose' : 'arms' : sculpting.value ? 'sculpt' : selected.value === '画笔' ? 'brush' : selected.value === '颜色' ? 'colors' : 'shape');
 function borrowFeature(next: FishDesign, label: string) {
   editor.commit(label, { ...design.value, colors: { ...next.colors }, pattern: { ...next.pattern } });
   editor.message.value = '用上啦！可以继续画，也可以撤销。';
@@ -124,7 +125,7 @@ const statusText = computed(() => session?.statusText.value ?? '此浏览器无�
 const stamp = editor.selectedStamp;
 const stageLabel = computed(() => {
   if (editor.preview.value) return '随机预览';
-  if (armEditing.value) return '🦑 调数量、长短和颜色，试游看看';
+  if (armEditing.value) return selectedArm.value >= 0 ? `👆 拖黄色圆点，摆第 ${selectedArm.value + 1} 条腕足` : '🦑 调数量、长短和颜色，试游看看';
   if (sculpting.value) return '🤏 拖动鱼背和肚子上的圆点';
   if (selected.value === '颜色') return `🎨 给${colorTargets.find(t => t.key === colorTarget.value)?.name ?? '身体'}换颜色，点下面的色块`;
   if (selected.value !== '画笔') return '点旁边换部件，点画笔就能画';
@@ -139,7 +140,7 @@ function nudgeStamp(du: number, dv: number) { editor.adjustStamp('移动印章',
 function finishGesture() { editor.release(); editor.endLive('调整造型或花纹'); }
 function selectTab(tab: (typeof tabs)[number]) {
   if (session?.committing.value) return;
-  finishGesture(); selected.value = tab; mode.value = 'edit'; confirmClear.value = false; sculpting.value = false; armEditing.value = false;
+  finishGesture(); selected.value = tab; mode.value = 'edit'; confirmClear.value = false; sculpting.value = false; armEditing.value = false; selectedArm.value = -1;
   if (tab === '造型' || tab === '部件') {
     if (selectedGroup.value.tab !== tab) activePart.value = tab === '造型' ? 'bodyId' : 'tailId';
   }
@@ -332,6 +333,7 @@ onBeforeUnmount(() => { session?.dispose(); window.removeEventListener('keydown'
       </div>
       <div id="creative-reference-slot" v-show="mode === 'edit'"></div>
       <FishCanvas v-if="!trial" :design="editor.preview.value ?? design" :color="color" :glow="glow" :paint-tick="editor.paintTick.value"
+        :selected-arm="armEditing && !editor.preview.value ? selectedArm : -1" @arm-live="editor.live($event)" @arm-end="editor.endLive('摆一条腕足')"
         :interactive="!editor.preview.value && selected === '画笔' && !!layers" :sculpting="sculpting && !editor.preview.value" :dark="dark" :selected-stamp-id="editor.tool.value === 'stamp' ? editor.selectedStampId.value : null"
         :label="stageLabel"
         @press="editor.press" @drag="editor.move" @release="editor.release" @sculpt-live="editor.live($event)" @sculpt-end="editor.endLive('捏轮廓')" />
@@ -345,7 +347,7 @@ onBeforeUnmount(() => { session?.dispose(); window.removeEventListener('keydown'
         <button aria-label="捏一捏" :aria-pressed="sculpting" @click="quickTool('sculpt')"><span aria-hidden="true">🤏</span>捏一捏</button>
         <button aria-label="加腕足" :aria-pressed="armEditing" @click="quickTool('arms')"><span aria-hidden="true">🦑</span>加腕足</button>
       </div>
-      <ArmEditor v-if="!trial && armEditing && !editor.preview.value" :design="design" @change="(next, label) => editor.commit(label, next)" @live="editor.live($event)" @end="editor.endLive('调整腕足')" />
+      <ArmEditor v-if="!trial && armEditing && !editor.preview.value" :design="design" :selected-arm="selectedArm" @select="selectedArm = $event" @change="(next, label) => editor.commit(label, next)" @live="editor.live($event)" @end="editor.endLive('调整腕足')" />
       <div v-if="!trial && (selected === '画笔' || selected === '颜色')" class="studio-quickpalette" role="group" :aria-label="selected === '画笔' ? '画笔颜色' : '选中部位的底色'" :inert="!!editor.preview.value">
         <button v-for="item in palette" :key="item.value" :aria-label="`快捷颜色：${item.name}`" :aria-pressed="(selected === '画笔' ? editor.brushColor.value : targetColor) === item.value" :style="{ '--quick-color': item.value }" @click="selected === '画笔' ? editor.brushColor.value = item.value : editor.commit('换颜色', changeColor(design, colorTarget, item.value))"><span /></button>
       </div>

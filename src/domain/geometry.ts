@@ -1,6 +1,6 @@
-import { armLimits, bodies, bodyAspect, eyes, finSets, heads, mouths, shapeLimits, tails } from '../catalog/fish.ts';
+import { armLimits, armPoseLimits, bodies, bodyAspect, eyes, finSets, heads, mouths, shapeLimits, tails } from '../catalog/fish.ts';
 import type { BodyDefinition, Bounds, FinSpec, FishDesign, HeadDefinition, Point } from './types.ts';
-import { buildArmRoots, includeArmBounds, type ArmRoot } from './arms.ts';
+import { getArmPoseEnvelope, buildArmRoots, includeArmBounds, type ArmRoot } from './arms.ts';
 
 /*
  * 拼接几何（技术设计 4.1）。规范坐标：身体框 [-0.5,0.5]²，朝右，上为负；
@@ -299,7 +299,7 @@ function computeGeometry(design: FishDesign): FishGeometry {
 const cache = new Map<string, FishGeometry>();
 /** 按造型与部件缓存；绘画、颜色和印章变化不重建几何。 */
 export function getFishGeometry(design: FishDesign): FishGeometry {
-  const key = `${design.bodyId}|${design.parts.headId}|${design.parts.tailId}|${design.parts.finId}|${design.parts.eyeId}|${design.parts.mouthId}|${design.shape.length}|${design.shape.height}|${design.shape.headRatio}|${JSON.stringify(design.sculpt)}|${design.arms ? [design.arms.count, design.arms.length, design.arms.curl].join(',') : ''}`;
+  const key = `${design.bodyId}|${design.parts.headId}|${design.parts.tailId}|${design.parts.finId}|${design.parts.eyeId}|${design.parts.mouthId}|${design.shape.length}|${design.shape.height}|${design.shape.headRatio}|${JSON.stringify(design.sculpt)}|${design.arms ? [design.arms.count, design.arms.length, design.arms.curl, JSON.stringify(design.arms.poses)].join(',') : ''}`;
   let geometry = cache.get(key);
   if (!geometry) {
     geometry = computeGeometry(design);
@@ -317,7 +317,7 @@ export function fitFish(bounds: Bounds, width: number, height: number) {
 }
 
 /** 工坊相机：当前部件在最大长高下的范围。调比例不改变相机，换部件才重新取景。 */
-export function getEditorBounds(design: FishDesign): Bounds {
+export function getEditorBounds(design: FishDesign, editingArmPose = false): Bounds {
   const result: Bounds = { minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity };
   for (const headRatio of [shapeLimits.headRatio.min, shapeLimits.headRatio.max]) {
     const virtual = { ...design, shape: { length: shapeLimits.length.max, height: shapeLimits.height.max, headRatio },
@@ -327,7 +327,17 @@ export function getEditorBounds(design: FishDesign): Bounds {
     // Reserve every arm length/curl upfront so dragging a slider never moves the camera.
     // Static editing needs no animation padding. Between 0.1 curl samples,
     // integrating the t² turn gives at most 0.068 * length displacement.
-    if (design.arms) includeArmBounds(b, geometry.arms.flatMap(root => Array.from({ length: 11 }, (_, i) => ({ ...root, curl: i / 10 }))), .07, false);
+    if (design.arms?.poses || editingArmPose && design.arms) {
+      const envelope = getArmPoseEnvelope();
+      // Whole reachable area, independent of every saved pose. Body coordinates
+      // stay fixed throughout endpoint dragging and slider gestures.
+      const length = armLimits.length.max * shapeLimits.length.max, radius = .027 * shapeLimits.length.max, pad = radius + .01;
+      const trunkLength = geometry.neck.x + .5 * shapeLimits.length.max;
+      b.minX = Math.min(b.minX, -.5 * shapeLimits.length.max + armPoseLimits.position.min * trunkLength + envelope.minX * length - pad);
+      b.maxX = Math.max(b.maxX, -.5 * shapeLimits.length.max + armPoseLimits.position.max * trunkLength + envelope.maxX * length + pad);
+      b.minY = Math.min(b.minY, -radius * .65 + envelope.minY * length - pad);
+      b.maxY = Math.max(b.maxY, .5 * bodyAspect * shapeLimits.height.max + envelope.maxY * length + pad);
+    } else if (design.arms) includeArmBounds(b, geometry.arms.flatMap(root => Array.from({ length: 11 }, (_, i) => ({ ...root, curl: i / 10 }))), .07, false);
     result.minX = Math.min(result.minX, b.minX); result.minY = Math.min(result.minY, b.minY);
     result.maxX = Math.max(result.maxX, b.maxX); result.maxY = Math.max(result.maxY, b.maxY);
   }

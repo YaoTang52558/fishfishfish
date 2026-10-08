@@ -5,9 +5,11 @@ import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 const { chromium } = require(path.join(process.env.USERPROFILE, '.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'));
 const base = process.env.FISH_PREVIEW_ORIGIN ?? 'http://127.0.0.1:5175';
+const poseMode = process.env.FISH_VERIFY_ARM_POSES === '1';
+const folder = `.verification/${poseMode ? 'arm-poses' : 'creative-arms'}`;
 const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', args: ['--autoplay-policy=no-user-gesture-required'] });
 const errors = [], responses = [], views = [];
-mkdirSync('.verification/creative-arms', { recursive: true });
+mkdirSync(folder, { recursive: true });
 try {
   const context = await browser.newContext({ viewport: { width: 1024, height: 768 }, hasTouch: true });
   await context.addInitScript(() => {
@@ -42,16 +44,62 @@ try {
   await page.getByRole('button', { name: '重做', exact: true }).click();
   await page.getByRole('slider', { name: '腕足卷曲', exact: true }).fill('0.9');
   await page.getByRole('button', { name: '腕足颜色：桃粉', exact: true }).click();
+  if (poseMode) {
+    const together = await snapshot();
+    assert.equal(await page.locator('.arm-separate').getAttribute('open'), null, 'separate tools start folded');
+    await page.locator('.arm-separate summary').click();
+    await page.getByRole('button', { name: '单独调整第 2 条腕足', exact: true }).click();
+    const handle = page.locator('.arm-handle button'); await handle.waitFor(); await handle.scrollIntoViewIfNeeded();
+    const h = await handle.boundingBox(), dragBefore = await snapshot();
+    await page.mouse.move(h.x+h.width/2,h.y+h.height/2); await page.mouse.down();
+    await page.mouse.move(h.x+h.width/2+45,h.y+h.height/2+35,{steps:12}); await page.mouse.up();
+    const dragged = await snapshot(); assert.equal(dragged.undo,dragBefore.undo+1);
+    const defaultPoses = await page.evaluate(async () => (await import('/src/domain/arms.ts')).getArmPoses({...window.__fishEditor.design.value,arms:{...window.__fishEditor.design.value.arms,poses:undefined}}));
+    assert.notDeepEqual(dragged.design.arms.poses[1],defaultPoses[1]);
+    assert.deepEqual(dragged.design.arms.poses.filter((_,i)=>i!==1),defaultPoses.filter((_,i)=>i!==1));
+    await page.getByRole('button',{name:'撤销',exact:true}).click(); assert.deepEqual((await snapshot()).design,together.design);
+    await page.getByRole('button',{name:'重做',exact:true}).click(); assert.deepEqual((await snapshot()).design,dragged.design);
+    await handle.focus(); await page.keyboard.press('ArrowLeft'); assert.equal((await snapshot()).undo,dragged.undo+1);
+    await page.getByRole('button',{name:'撤销',exact:true}).click(); assert.deepEqual((await snapshot()).design,dragged.design);
+    await page.getByRole('slider',{name:'腕足连接位置',exact:true}).fill('0.83');
+    await page.getByRole('slider',{name:'腕足卷曲',exact:true}).fill('0.2');
+    await page.setViewportSize({width:390,height:844}); await handle.scrollIntoViewIfNeeded();
+    const beforeTouch = await snapshot(), b = await handle.boundingBox(), session = await context.newCDPSession(page);
+    const x = b.x+b.width/2, y = b.y+b.height/2;
+    await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});
+    await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x+35,y:y+45}]});
+    await session.send('Input.dispatchTouchEvent',{type:'touchCancel',touchPoints:[]}); await session.detach();
+    const afterTouch = await snapshot(); assert.equal(afterTouch.undo,beforeTouch.undo+1,'cancelled touch commits visible pose once');
+    assert.deepEqual(afterTouch.design.arms.poses.filter((_,i)=>i!==1),beforeTouch.design.arms.poses.filter((_,i)=>i!==1));
+    await page.setViewportSize({width:1024,height:768});
+    await page.getByRole('button',{name:'听听这一步怎么玩',exact:true}).click();
+    await page.waitForFunction(()=>window.__armsAudio.some(a=>a.src.endsWith('/vo-help-arm-pose.wav')&&!a.paused&&a.currentTime>0));
+    await page.getByRole('button',{name:'收起帮助',exact:true}).click();
+    await page.getByRole('button',{name:'👐 全部',exact:true}).click();
+    await page.getByRole('slider',{name:'腕足长短',exact:true}).fill('0.4');
+    const all = await snapshot(); assert.ok(all.design.arms.poses.every(p=>p.length===.4));
+    assert.deepEqual(all.design.arms.poses.map(p=>[p.position,p.angle]),afterTouch.design.arms.poses.map(p=>[p.position,p.angle]));
+    await page.getByRole('button',{name:'撤销',exact:true}).click(); assert.deepEqual((await snapshot()).design,afterTouch.design);
+    await page.getByRole('button',{name:'↻ 一起摆',exact:true}).click(); assert.equal((await snapshot()).design.arms.poses,undefined);
+    await page.getByRole('button',{name:'撤销',exact:true}).click(); assert.deepEqual((await snapshot()).design,afterTouch.design);
+    await page.getByRole('button',{name:'单独调整第 8 条腕足',exact:true}).click();
+    await page.getByRole('button',{name:'减少一条腕足',exact:true}).click();
+    assert.equal((await snapshot()).design.arms.poses.length,7);
+    assert.equal(await page.getByRole('button',{name:'单独调整第 7 条腕足',exact:true}).getAttribute('aria-pressed'),'true');
+    await page.getByRole('button',{name:'撤销',exact:true}).click(); assert.deepEqual((await snapshot()).design,afterTouch.design);
+    await page.locator('.arm-separate summary').click(); await page.waitForFunction(()=>!document.querySelector('.arm-handle'));
+  }
   const armed = await snapshot();
   assert.deepEqual(armed.design.paint, painted.design.paint); assert.equal(armed.paintTick, painted.paintTick);
   await page.getByRole('button', { name: '移除腕足', exact: true }).click(); assert.equal((await snapshot()).design.arms, undefined);
   await page.getByRole('button', { name: '撤销', exact: true }).click(); assert.deepEqual((await snapshot()).design, armed.design);
+  if (poseMode) { await page.locator('.arm-separate summary').click(); await page.getByRole('button',{name:'单独调整第 2 条腕足',exact:true}).click(); }
   for (const [width, height] of [[1024,768], [768,1024], [390,844]]) {
     await page.setViewportSize({ width, height });
     await page.locator('.arm-editor').scrollIntoViewIfNeeded();
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1));
     assert.ok(await page.locator('.arm-editor').evaluate(el => el.scrollWidth <= el.clientWidth + 1));
-    const screenshot = `.verification/creative-arms/editor-${width}.png`;
+    const screenshot = `${folder}/editor-${width}.png`;
     await page.locator('.studio-stage').screenshot({ path: screenshot }); views.push({ width, height, screenshot });
   }
   // Actual touch gesture in a phone viewport, with a single undo and unchanged body paint.
@@ -64,6 +112,7 @@ try {
   assert.equal((await snapshot()).undo, touchBefore.undo + 1);
   await page.getByRole('button', { name: '撤销', exact: true }).click(); assert.deepEqual((await snapshot()).design, touchBefore.design);
   await page.setViewportSize({ width: 1024, height: 768 });
+  if (poseMode) await page.locator('.arm-separate summary').click();
   await page.getByRole('button', { name: '听听这一步怎么玩', exact: true }).click();
   await page.waitForFunction(() => window.__armsAudio.some(a => a.src.endsWith('/vo-help-arms.wav') && !a.paused && a.currentTime > 0));
   await page.getByRole('button', { name: '收起帮助', exact: true }).click();
@@ -84,7 +133,7 @@ try {
   await volume.getByRole('button', { name: '⏸ 停一停', exact: true }).click(); await page.waitForTimeout(100);
   const still = await vcanvas.screenshot(); await page.waitForTimeout(150); assert.ok((await vcanvas.screenshot()).equals(still), '3D pause freezes frame');
   await volume.getByRole('button', { name: '↷ 右转', exact: true }).click(); assert.ok(!(await vcanvas.screenshot()).equals(still), 'rotation redraws paused 3D frame');
-  await volume.screenshot({ path: '.verification/creative-arms/volume.png' });
+  await volume.screenshot({ path: `${folder}/volume.png` });
   await volume.getByRole('button', { name: '✕ 返回', exact: true }).click();
   await page.getByRole('button', { name: '第二步：试游', exact: true }).click();
   const t1 = await canvas.evaluate(c => c.toDataURL()); await page.waitForTimeout(250); assert.ok(await canvas.evaluate(c => c.toDataURL()) !== t1, 'trial animates');
@@ -102,12 +151,12 @@ try {
   await page.getByRole('button', { name: '再次编辑', exact: true }).waitFor();
   const saved = await page.evaluate(async () => {
     const { openDatabase } = await import('/src/storage/db.ts'); const { exportProfile } = await import('/src/storage/backup.ts');
-    const { validateBackup } = await import('/src/domain/backup.ts'); const db = await openDatabase();
+    const { validateBackup } = await import('/src/domain/backup.ts'); const { catalogVersion } = await import('/src/catalog/fish.ts'); const db = await openDatabase();
     try { const backup = await exportProfile(db); const serialized = JSON.stringify(backup); const parsed = validateBackup(JSON.parse(serialized), new TextEncoder().encode(serialized).length);
-      return { catalog: backup.catalogVersion, arms: backup.fish[0].design.arms, paint: backup.fish[0].design.paint, assets: Object.keys(backup.assets), valid: parsed.ok };
+      return { catalog: backup.catalogVersion, expectedCatalog: catalogVersion, arms: backup.fish[0].design.arms, paint: backup.fish[0].design.paint, assets: Object.keys(backup.assets), valid: parsed.ok };
     } finally { db.close(); }
   });
-  assert.equal(saved.catalog, 3); assert.ok(saved.valid); assert.deepEqual(saved.arms, armed.design.arms);
+  assert.equal(saved.catalog, saved.expectedCatalog); assert.ok(saved.valid); assert.deepEqual(saved.arms, armed.design.arms);
   assert.deepEqual(saved.paint, painted.design.paint); assert.ok(saved.assets.includes(painted.design.paint.colorAssetId));
   await page.getByRole('button', { name: '🌀 立体海洋', exact: true }).click();
   await page.locator('.creative-ocean-3d canvas').waitFor();
@@ -116,6 +165,7 @@ try {
   assert.deepEqual((await snapshot()).design, armed.design, 'saved work reopens with the same arms and stroke');
   assert.deepEqual(errors, []); assert.deepEqual(responses, []);
   const checks = ['real body stroke survives optional arm edits/removal/undo', '1–8 count including odd counts', 'mouse and CDP touch slider gestures each commit once', 'three viewport layouts', 'arm help and revised topic narration start/stop', 'knowledge returns to arm tool without changing design', 'animated 3D preview, pause and rotation', 'trial animation, dialog pause and reduced motion', 'draft reload, ocean save, full backup with paint asset and re-edit', '3D ocean opens without application errors'];
-  writeFileSync('docs/evidence/creative-arms-browser.json', JSON.stringify({ date: '2026-10-08', scope: 'Isolated desktop Edge with tablet/phone viewports; not physical iPad, Safari, child or GPU performance acceptance', checks, views, errors, responses }, null, 2) + '\n');
+  if (poseMode) checks.push('single-arm mouse and cancelled touch endpoint gestures, keyboard nudge and undo/redo preserve other arms', 'folded independent tools, shared edits, reset/undo and count-selection clamp', 'individually posed work reloads, saves and exports without losing body paint');
+  writeFileSync(`docs/evidence/${poseMode ? 'arm-poses' : 'creative-arms'}-browser.json`, JSON.stringify({ date: '2026-10-08', scope: 'Isolated desktop Edge with tablet/phone viewports; not physical iPad, Safari, child or GPU performance acceptance', checks, views, errors, responses }, null, 2) + '\n');
   console.log(JSON.stringify({ checks, views: views.length, errors, responses }));
 } finally { await browser.close(); }

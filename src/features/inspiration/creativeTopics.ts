@@ -34,7 +34,7 @@ export const creativeTopics: Record<CreativeTopicId, CreativeTopic> = {
   arms: { title: '长长的腕，怎么画？', icon: '🦑', label: '腕足', focus: 'whole',
     examples: [{ id: 'octopus-vulgaris', keys: ['BODY', 'DETAIL'] }, { id: 'loligo-vulgaris', keys: ['BODY', 'DETAILTWO'] }],
     question: '弯弯的线，加上小圆点，会变成什么？',
-    note: '章鱼有八条腕；鱿鱼有八条腕和两条较长的触腕。工坊能给幻想鱼加一至八条可调、可换色的腕足，并在试游中摆动；画笔仍只画在鱼身上。吸盘结构和每条腕的独立摆放仍待制作。幻想鱼可以自由想象。',
+    note: '章鱼有八条腕；鱿鱼有八条腕和两条较长的触腕。工坊能给幻想鱼加一至八条腕足，既能一起改，也能单独调位置、长短、卷曲和朝向，试游时会摆动。颜色仍一起换，画笔只画鱼身；吸盘结构还待制作。幻想鱼可以自由想象。',
     narration: '看看章鱼和鱿鱼的腕。回去点加腕足，选几条，再卷一卷。也可以用画笔画弯弯的线，试试新点子。' },
   shell: { title: '把壳变成新点子', icon: '🐚', label: '贝壳', focus: 'body',
     examples: [{ id: 'haliotis-discus', keys: ['BODY', 'DETAIL'] }, { id: 'pecten-maximus', keys: ['BODY', 'DETAIL'] }],

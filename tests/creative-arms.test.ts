@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { IDBFactory } from 'fake-indexeddb';
-import { armLimits, bodies, shapeLimits } from '../src/catalog/fish.ts';
+import { armLimits, bodies, catalogVersion, shapeLimits } from '../src/catalog/fish.ts';
 import { changeArms, createFishDesign, randomizeDesign, validateFishDesign } from '../src/domain/fish.ts';
 import { getEditorBounds, getFishGeometry } from '../src/domain/geometry.ts';
 import { armPolygon, armSections } from '../src/domain/arms.ts';
@@ -50,7 +50,7 @@ test('arms survive draft storage and catalog-versioned backup; old backups still
     const saved = await saveDraft(db, createDraft(design, 0), { color: { kind: 'keep' }, glow: { kind: 'keep' } });
     const loaded = await loadDraft(db); assert.equal(loaded.status, 'ok'); if (loaded.status === 'ok') assert.deepEqual(loaded.draft.design, design);
     const backup = buildBackup({ fish: [], draft: saved, settings: createSettings(), effects: [], discoveries: [], captures: [], assets: new Map() });
-    assert.equal(backup.catalogVersion, 3); const read = validateBackup(JSON.parse(JSON.stringify(backup)), 1000); assert.ok(read.ok);
+    assert.equal(backup.catalogVersion, catalogVersion); const read = validateBackup(JSON.parse(JSON.stringify(backup)), 1000); assert.ok(read.ok);
     if (read.ok) assert.deepEqual(read.value.draft?.design, design);
     const old = { ...backup, catalogVersion: 2, draft: { ...saved, design: createFishDesign() } }; assert.ok(validateBackup(old, 1000).ok);
   } finally { db.close(); }
