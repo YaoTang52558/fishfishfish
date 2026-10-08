@@ -8,7 +8,7 @@
 | 全部计划和下一步 | [完整计划](MASTER_PLAN.md) | 保留已确认的 20 项工作，区分功能、样板与待验收 |
 | 小学一二年级体验 | [儿童体验与整改](CHILD_EXPERIENCE.md) | 这轮调整、交互规则、未解决问题与短试玩 |
 | 产品目标和规则 | [PRD](PRD.md) | 自由造鱼核心、数据和玩法契约 |
-| 技术与渲染实现 | [技术设计](TECHNICAL_DESIGN.md)、[3D 钓鱼设计](FISHING_3D_DESIGN.md) | 存档、输入、渲染、候选版和降级边界 |
+| 技术与渲染实现 | [技术设计](TECHNICAL_DESIGN.md)、[3D 钓鱼设计](FISHING_3D_DESIGN.md) | 存档、输入、渲染、默认 3D 钓鱼和降级边界 |
 | 真机和家庭验收 | [G5](G5_PLAYTEST.md) | 原验收要求与空表，不将桌面结果当作通过 |
 | 资料与素材下一批 | [素材准备计划](CONTENT_ASSET_PLAN.md) | 当前数量、扩展依据和制作条件 |
 | 物种、事实、语音和来源 | [内容资料索引](content/README.md) | `species/`、事实与来源 JSON 保留原路径，不归档机器数据 |

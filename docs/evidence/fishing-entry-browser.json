@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-08",
+  "result": "passed",
+  "physicalDeviceVerified": false,
+  "scope": "Isolated desktop Edge: normal development and normal production build. Only development wait/fight clock accelerated; production WebGL, links, layouts and WebGL-unavailable fallback use actual UI.",
+  "checks": [
+    "home and primary navigation use canonical 3D fishing",
+    "path habitat wins over stale query; menu updates canonical path",
+    "active round locks habitat switching",
+    "cast/pull/land/knowledge/release retain attempt and species",
+    "existing capture and first discovery survive route replacement and reload",
+    "legacy development link and /fishing redirect work",
+    "normal production build loads WebGL scene without development controls or state hook",
+    "production direct link/reload and invalid habitat recovery",
+    "1024/768/390 viewport layouts",
+    "WebGL unavailable automatically switches to same-rule Canvas and can cast"
+  ],
+  "errors": [],
+  "badResponses": [],
+  "views": [
+    ".verification/fishing-entry/development-reef-1024.png",
+    ".verification/fishing-entry/development-catch-1024.png",
+    ".verification/fishing-entry/release-rock-1024.png",
+    ".verification/fishing-entry/release-rock-768.png",
+    ".verification/fishing-entry/release-rock-390.png",
+    ".verification/fishing-entry/release-fallback-768.png"
+  ]
+}
